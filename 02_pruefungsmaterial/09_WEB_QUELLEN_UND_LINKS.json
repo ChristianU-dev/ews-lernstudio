@@ -1,0 +1,61 @@
+{
+  "exam_archives_and_official_sources": [
+    {
+      "title": "Uni Würzburg – Informationen & Beispielaufgaben zum Staatsexamen EWS Psychologie (inkl. Grundschule & Testformat)",
+      "url": "https://www.psychologie.uni-wuerzburg.de/paepsy/lehre/psychologie-ews-im-lehramtsstudium/informationen-zum-staatsexamen/",
+      "purpose": "Offizielle Informationen zum Wahlformat sowie verlinkte Altklausuren für Grund-/Mittelschule und Testformat-Hinweise."
+    },
+    {
+      "title": "Uni Würzburg – Beispielaufgaben Gesamt Diagnostik Testformat (PDF)",
+      "url": "https://www.psychologie.uni-wuerzburg.de/fileadmin/06020400/user_upload/Marx/Beispielaufgaben_gesamt_Dia_Testformat.pdf",
+      "purpose": "Offizielle Übungsaufgaben mit Testformat-Fragen zur Diagnostik (im FAU StudOn-Leitfaden S. 9 verlinkt)."
+    },
+    {
+      "title": "Uni Regensburg – Offizielles bayerisches Prüfungsaufgaben-Archiv EWS (inkl. Lehramt Grundschule)",
+      "url": "https://www.uni-regensburg.de/humanwissenschaften/erziehungswissenschaft-medien/info-ews/pruefungsaufgaben/index.html",
+      "purpose": "Alte bayerische Staatsexamensaufgaben für Lehramt Grundschule (bis einschl. F25 veröffentlicht) zum präzisen Abgleich typischer Grundschul-Fragestellungen."
+    },
+    {
+      "title": "Staatliche Schulberatung Bayern – LRS & Rechenschwierigkeiten",
+      "url": "https://www.schulberatung.bayern.de",
+      "purpose": "Bayerische Regelungen zu Nachteilsausgleich und Notenschutz (im Diagnostik-Skript Kap. 8 genannt: Notenschutz bei LRS möglich, bei Dyskalkulie kein Notenschutz)."
+    }
+  ],
+  "recommended_open_source_libraries": [
+    {
+      "name": "google-genai",
+      "url": "https://googleapis.github.io/python-genai/",
+      "role": "Offizielles leichtgewichtiges Python-SDK für Gemini Multimodal/Vision PDF-Extraktion mit Structured Outputs."
+    },
+    {
+      "name": "PyMuPDF (fitz)",
+      "url": "https://pymupdf.readthedocs.io/",
+      "role": "Schnelle deterministische Extraktion von Seitentext, Schriftattributen (fett/kursiv) und eingebetteten Originalgrafiken."
+    },
+    {
+      "name": "python-docx",
+      "url": "https://python-docx.readthedocs.io/",
+      "role": "Programmatische Erstellung der drei farbcodierten, bebilderten Word-Lernskripte (.docx) und des Benutzerhandbuchs."
+    },
+    {
+      "name": "genanki",
+      "url": "https://github.com/kerrickstaley/genanki",
+      "role": "Generierung direkt in Anki importierbarer .apkg-Decks mit Unterstapeln."
+    },
+    {
+      "name": "ts-fsrs",
+      "url": "https://github.com/open-spaced-repetition/ts-fsrs",
+      "role": "Originaler Open-Source Anki-FSRS-Algorithmus direkt in der Web-App."
+    },
+    {
+      "name": "@xyflow/react + @dagrejs/dagre",
+      "url": "https://reactflow.dev/",
+      "role": "Interaktiver Karten-Wissensgraph zur Vernetzung der drei Themenbereiche."
+    },
+    {
+      "name": "dexie + @supabase/supabase-js",
+      "url": "https://dexie.org/",
+      "role": "100% Offline-Speicherung im Zug (IndexedDB) + kostenloser Echtzeit-Sync zwischen PC und iPhone."
+    }
+  ]
+}

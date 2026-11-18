@@ -1,0 +1,422 @@
+[
+  {
+    "id": "conf-01",
+    "domain": "A",
+    "term_a": "Negative Verstärkung",
+    "term_b": "Bestrafung Typ I (positiv) & Typ II (negativ)",
+    "core_difference": "Negative Verstärkung STEIGERT erwünschtes Verhalten durch Wegfall eines unangenehmen Reizes; Bestrafung SENKT unerwünschtes Verhalten (Typ I: Unangenehmes hinzu; Typ II: Angenehmes weg).",
+    "def_a": "Operanter Lernprozess (Skinner), bei dem die Auftretenswahrscheinlichkeit eines Verhaltens STEIGT, weil infolge des Verhaltens ein aversiver (unangenehmer) Zustand beendet oder vermieden wird.",
+    "def_b": "Operanter Prozess, bei dem die Auftretenswahrscheinlichkeit eines Verhaltens SINKT – entweder durch Darbietung eines aversiven Reizes (positive Bestrafung / Typ I, z. B. Tadel) oder durch Entzug eines angenehmen Reizes (negative Bestrafung / Typ II, z. B. Spielzeitentzug).",
+    "memory_bridge": "Merke mathematisch: ‚Positiv‘ = Reiz kommt DAZU (+), ‚Negativ‘ = Reiz fällt WEG (–); ‚Verstärkung‘ = Verhalten wird MEHR (↑), ‚Bestrafung‘ = Verhalten wird WENIGER (↓)!",
+    "kunst_sport_example": "Kunst Klasse 2: Räumen alle Kinder ihre Wasserfarbkästen zügig aus, entfällt das unbeliebte Zusatz-Tischeputzen am Stundenende -> die Klasse räumt künftig schneller auf (= negative Verstärkung: Unangenehmes fällt weg, Verhalten steigt). Im Sportunterricht muss ein Kind nach absichtlichem Foul 2 Minuten von seinem geliebten Brennballspiel auf die Bank (= negative Bestrafung / Typ II: Angenehmes fällt weg, Foulverhalten sinkt).",
+    "quiz_question": "Ein Schüler meldet sich vor dem Gerätturnen krank, woraufhin seine Bauchschmerzen und Angst sofort nachlassen; in den Folgewochen fehlt er immer häufiger im Sportunterricht. Welcher Mechanismus hält sein Vermeidungsverhalten aufrecht?",
+    "quiz_options": [
+      "Negative Verstärkung (Wegfall der aversiven Angst steigert das Vermeidungsverhalten).",
+      "Negative Bestrafung / Typ II (Entzug des Sportunterrichts senkt das Verhalten).",
+      "Positive Bestrafung / Typ I (Hinzufügen von Angst senkt das Schwänzen).",
+      "Löschung durch Ausbleiben des unkonditionierten Reizes."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Nach Mowrers Zwei-Faktoren-Theorie wird Vermeidungsverhalten durch negative Verstärkung aufrechterhalten: Die unangenehme Angst fällt weg (–), dadurch tritt das Vermeiden künftig häufiger auf (↑).",
+    "page_label": "Original-Skript A S. 12–16"
+  },
+  {
+    "id": "conf-02",
+    "domain": "A",
+    "term_a": "Kontiguität",
+    "term_b": "Kontingenz",
+    "core_difference": "Kontiguität bezeichnet das bloße zeitlich-räumliche Zusammentreffen zweier Reize; Kontingenz bezeichnet den verlässlichen Vorhersage- bzw. Wenn-Dann-Zusammenhang.",
+    "def_a": "Zeitliche und räumliche Nähe zwischen neutralem Stimulus (NS) und unkonditioniertem Stimulus (UCS) bzw. zwischen Verhalten und Konsequenz (beim klassischen Konditionieren oft ca. 0,5 Sekunden optimal).",
+    "def_b": "Regelhaftigkeit bzw. Vorhersagewert (Informationsgehalt nach Rescorla): Der UCS tritt mit deutlich höherer Wahrscheinlichkeit AUF, wenn zuvor der NS präsentiert wurde, als ohne NS.",
+    "memory_bridge": "Kontiguität = KONTakt in der Zeit (Uhr-Nähe); Kontingenz = Konsequente Vorhersagekraft (Wenn A, dann verlässlich B)!",
+    "kunst_sport_example": "Sport Klasse 1: Ertönt die Trillerpfeife (NS) immer genau 1 Sekunde vor dem Spielstopp (= hohe Kontiguität) UND bedeutet JEDES Pfeifen zuverlässig ‚Einfrieren!‘ statt manchmal Musikstart und manchmal gar nichts (= hohe Kontingenz), lernen die Erstklässler das Stopp-Signal blitzschnell.",
+    "quiz_question": "Eine Lehrkraft schlägt sporadisch eine Klangschale an, manchmal folgt Ruhe, oft redet sie aber selbst einfach weiter. Obwohl die Klangschale zeitnah vor einzelnen Ruhephasen ertönt, reagiert die Klasse kaum noch darauf. Was fehlt hier primär?",
+    "quiz_options": [
+      "Hohe Kontingenz (verlässlicher Signal- und Vorhersagewert des Reizes).",
+      "Jegliche sensorische Wahrnehmung im Ultrakurzzeitgedächtnis.",
+      "Reizgeneralisierung auf andere Musikinstrumente.",
+      "Primäre biologische Verstärkung."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Zeitliche Nähe (Kontiguität) allein genügt nicht, wenn der Signalreiz keinen verlässlichen Informationswert (Kontingenz) besitzt.",
+    "page_label": "Original-Skript A S. 7–8, 11, 16"
+  },
+  {
+    "id": "conf-03",
+    "domain": "A",
+    "term_a": "Split-Attention-Effekt (Geteilte Aufmerksamkeit)",
+    "term_b": "Redundanz-Effekt & Modalitätseffekt",
+    "core_difference": "Beim Split-Attention-Effekt müssen räumlich getrennte, einander ergänzende Quellen mühsam verknüpft werden; beim Redundanz-Effekt wird identische Information doppelt präsentiert und belastet unnötig.",
+    "def_a": "Erhöhter Extraneous Cognitive Load (Sweller / Mayer), wenn Lernende zum Verständnis zwei räumlich oder zeitlich getrennte Informationsquellen (z. B. Bild oben, Legende mit Ziffern unten) selbstständig mental integrieren müssen.",
+    "def_b": "Redundanz-Effekt: Lernbehinderung, wenn exakt dieselbe Information unnötig mehrfach dargeboten wird (z. B. Lehrkraft liest wortwörtlich einen abgedruckten Folientext vor). Modalitätseffekt hingegen: Bild (visuell) + ergänzender gesprochener Text (auditiv) nutzt beide Arbeitsgedächtniskanäle optimal.",
+    "memory_bridge": "Split-Attention = Augen müssen hin-und-her-SPRINGEN (Lösung: Beschriftung direkt INS Bild!); Redundanz = Doppelt gemoppelt überstopft den Kanal!",
+    "kunst_sport_example": "Kunst Klasse 3 (Farbkreis nach Itten): Stehen die Farbnamen direkt in den Farbsegmenten des Arbeitsblatts, vermeidet dies den Split-Attention-Effekt (im Gegensatz zu Ziffern 1–12 mit separater Legende am Seitenende). Beim Vorführen einer Drucktechnik erklärt die Lehrerin mündlich zum Zeigen (Modalitätseffekt), statt zusätzlich denselben Text an die Wand zu projizieren (vermeidet Redundanz).",
+    "quiz_question": "Auf einem Arbeitsblatt im Sachunterricht sehen Kinder oben das Bild eines Fahrrads mit den Nummern 1 bis 8 und müssen die Bauteilnamen unten in einem Kasten nachschlagen. Welches Gestaltungsprinzip nach Mayer/Sweller wird hier verletzt?",
+    "quiz_options": [
+      "Prinzip der räumlichen Kontiguität (es entsteht der Split-Attention-Effekt).",
+      "Expertise-Reversal-Effekt für weit fortgeschrittene Lernende.",
+      "Generierungseffekt des Langzeitgedächtnisses.",
+      "Serieller Positionseffekt (Primacy-Recency)."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Durch die räumliche Trennung von Abbildungs-Elementen und zugehörigen Begriffen entsteht unnötiger Extraneous Load (Split-Attention-Effekt).",
+    "page_label": "Original-Skript A S. 36–37, 95–96"
+  },
+  {
+    "id": "conf-04",
+    "domain": "A",
+    "term_a": "Free-Rider-Effekt („Trittbrettfahrer“)",
+    "term_b": "Sucker-Effekt („Ja-bin-ich-denn-der-Depp?“)",
+    "core_difference": "Der Free-Rider (leistungsschwächer/unmotiviert) lehnt sich auf Kosten der Gruppe zurück; beim Sucker-Effekt fährt das leistungsstarke Kind seine Anstrengung herunter, weil es sich ausgenutzt fühlt.",
+    "def_a": "Motivationsverlust beim kooperativen Lernen (Salomon & Globerson, 1989 / Renkl): Einzelne Gruppenmitglieder überlassen anderen die Arbeit (‚Der-Hans-der-macht’s-dann-eh-Phänomen‘), wenn individuelle Verantwortlichkeit fehlt.",
+    "def_b": "Motivationsverlust gerade bei engagierten, leistungsstarken Gruppenmitgliedern, die bemerken, dass andere sich drücken, und nicht ‚der Dumme‘ sein wollen, der allein für alle schuftet (‚Ja-bin-ich-denn-der-Depp-Phänomen‘).",
+    "memory_bridge": "Free-Rider = fährt gratis im Windschatten mit; Sucker-Effekt = das Zugpferd streikt, weil es sich ausgenutzt fühlt! Gegenmittel für beide: Individuelle Verantwortlichkeit + positive Interdependenz (Johnson & Johnson, 1994).",
+    "kunst_sport_example": "Kunst Klasse 4 (Gemeinschafts-Collage): Bekommt der gesamte Gruppentisch pauschal eine Note ohne klare Rollenverteilung, schneidet Ben kaum etwas aus (Free-Rider), woraufhin die eifrige Maja genervt ebenfalls aufhört, sorgfältig zu kleben (Sucker-Effekt). Lösung: Jedes Kind gestaltet ein klar zuordenbares Teilquadrat (individuelle Verantwortlichkeit), die zusammen ein Gesamtbild ergeben (positive Zielinterdependenz).",
+    "quiz_question": "Die leistungsstarke Viertklässlerin Carla arbeitet in Gruppenarbeiten plötzlich nur noch minimal mit und sagt: ‚Warum soll ich mir Mühe geben, wenn Tim und Lukas eh nur quatschen und dieselben Punkte kriegen?‘ Welcher Effekt liegt bei Carla vor?",
+    "quiz_options": [
+      "Sucker-Effekt (‚Ja-bin-ich-denn-der-Depp-Phänomen‘).",
+      "Klassischer Free-Rider-Effekt aus Überforderung.",
+      "Schereneffekt (Matthäus-Effekt).",
+      "Pygmalion-Effekt der Lehrkraft."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Carla reduziert ihre Anstrengung nicht aus Bequemlichkeit, sondern um nicht von Trittbrettfahrern ausgenutzt zu werden (= Sucker-Effekt).",
+    "page_label": "Original-Skript A S. 90–93"
+  },
+  {
+    "id": "conf-05",
+    "domain": "B",
+    "term_a": "Assimilation (Piaget)",
+    "term_b": "Akkommodation (Piaget)",
+    "core_difference": "Bei der Assimilation wird eine neue Erfahrung in ein BESTEHENDES Schema eingeordnet; bei der Akkommodation muss das kognitive Schema selbst VERÄNDERT oder neu gebildet werden.",
+    "def_a": "Altersinvarianter Adaptionsprozess nach Piaget, bei dem neue Umweltinformationen so interpretiert und eingefügt werden, dass sie in bereits vorhandene kognitive Schemata passen.",
+    "def_b": "Altersinvarianter Adaptionsprozess nach Piaget, bei dem ein bestehendes Schema aufgrund eines kognitiven Konflikts (Disäquilibrium) modifiziert und an neue Umweltgegebenheiten angepasst wird.",
+    "memory_bridge": "AssiMilation = Schema bleibt wie iMMer (Umwelt wird passend gemacht); AkkoMModation = Schema baut sich uM (Korrektur im Kopf)!",
+    "kunst_sport_example": "Sport Klasse 1: Ein Kind kennt das Werfen eines Tennisballs (Wurfschema) und wirft einen kleinen Schlagball sofort genauso (= Assimilation). Beim ersten Versuch mit einem großen, schweren Medizinball klappt der einhändige Wurf nicht (Disäquilibrium) – das Kind passt sein Bewegungsschema auf beidhändiges Stoßen aus den Knien an (= Akkommodation).",
+    "quiz_question": "Ein Vorschulkind nennt beim Zoobesuch ein Zebra zunächst ‚Pferd mit Schlafanzug‘. Nach dem Hinweis des Vaters bildet es eine neue eigene Tierkategorie ‚Zebra‘. Welche Reihenfolge der Prozesse nach Piaget zeigt sich hier?",
+    "quiz_options": [
+      "Zuerst Assimilation (Einordnung in das Schema ‚Pferd‘), danach Akkommodation (Differenzierung/Umbau des Schemas).",
+      "Zuerst Akkommodation, danach Assimilation.",
+      "Ausschließlich Reifung ohne Umweltinteraktion.",
+      "Übergang von der konkret-operationalen zur formal-operationalen Stufe."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Das Einfügen in das bekannte Pferde-Schema ist Assimilation; das Anpassen/Neubilden der Kategorie nach Korrektur ist Akkommodation.",
+    "page_label": "Original-Skript B S. 9 (vgl. Skript A S. 49)"
+  },
+  {
+    "id": "conf-06",
+    "domain": "B",
+    "term_a": "Mediationsdefizit & Produktionsdefizit",
+    "term_b": "Nutzungsdefizit (Utilization Deficiency)",
+    "core_difference": "Mediationsdefizit = selbst MIT Hilfe unmöglich; Produktionsdefizit = nicht spontan, aber MIT Anleitung erfolgreich; Nutzungsdefizit = Strategie wird SPONTAN gezeigt, bringt aber wegen hoher AG-Belastung noch keinen Leistungsgewinn!",
+    "def_a": "Mediationsdefizit (Vorschulalter, Flavell, 1971): Kind kann Strategie auch nach Anleitung nicht nutzen. Produktionsdefizit (frühes Grundschulalter): Kind setzt Strategie nicht von allein ein, profitiert aber deutlich, sobald es dazu angeleitet wird.",
+    "def_b": "Nutzungsdefizit (Miller, 1990; spätes Grundschulalter und darüber hinaus): Kind wendet die Lernstrategie bereits spontan an, erzielt dadurch aber noch keine bessere Behaltensleistung, weil die noch nicht automatisierte Strategie zu viel Kapazität im Arbeitsgedächtnis frisst.",
+    "memory_bridge": "3-Stufen-Treppe: 1. Mediation = ‚Kann’s noch gar nicht‘ -> 2. Produktion = ‚Kann’s mit Stups‘ -> 3. Nutzung = ‚Mach’s schon selbst, kostet aber noch zu viel Kopf-Akku‘!",
+    "kunst_sport_example": "Kunst/Sachunterricht Klasse 3/4: Ein Kind erstellt beim Lernen der Epochen/Farblehre erstmals von sich aus eine Mindmap, schneidet im Kurztest aber noch genauso ab wie vorher, weil das Zeichnen und Strukturieren der Äste seine gesamte Arbeitsgedächtniskapazität gebunden hat (= Nutzungsdefizit). Erst durch Übung automatisiert sich die Strategie!",
+    "quiz_question": "Zweitklässler Leo lernt Wörter zunächst ohne Strategie. Als seine Lehrerin ihm zeigt, wie er die Wörter nach Oberbegriffen sortiert, merkt er sich sofort doppelt so viele Wörter. Welches Defizit lag vor der Anleitung vor?",
+    "quiz_options": [
+      "Produktionsdefizit (keine spontane Strategieproduktion, aber sofortiger Lerngewinn bei Anleitung).",
+      "Mediationsdefizit (keine kognitive Voraussetzung trotz Hilfe).",
+      "Nutzungsdefizit (spontaner Einsatz ohne Leistungsverbesserung).",
+      "Sensorisches Speicherdefizit."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Da Leo die Strategie nicht spontan einsetzt, durch den Hinweis der Lehrkraft aber sofort bessere Gedächtnisleistungen erzielt, liegt ein klassisches Produktionsdefizit vor.",
+    "page_label": "Original-Skript B S. 19–20 (vgl. Skript A S. 60, 64)"
+  },
+  {
+    "id": "conf-07",
+    "domain": "B",
+    "term_a": "Fluide Intelligenz (gf)",
+    "term_b": "Kristalline Intelligenz (gc)",
+    "core_difference": "Fluide Intelligenz ist die biologisch fundierte, kulturarme Informationsverarbeitungs- und Schlussfolgerungsfähigkeit; kristalline Intelligenz ist das erfahrungs-, sprach- und kulturabhängige Fakten- und Problemlösewissen.",
+    "def_a": "Nach Cattell (1963): Angeborene/biologisch verankerte Fähigkeit zum logischen Schlussfolgern, Erkennen von Mustern und Lösen neuartiger Probleme unabhängig vom Vorwissen (gemessen z. B. mit sprachfreien Matrizentests wie CFT 1-R / Raven); steigt bis ins junge Erwachsenenalter und sinkt danach langsam.",
+    "def_b": "Nach Cattell (1963): Durch Sozialisation, Beschulung und kulturelle Erfahrung erworbene Wissensbestände, Wortschatz und Routinen (gemessen z. B. über Sprachverständnis-Untertests der WISC-V); bleibt bis ins hohe Alter stabil oder wächst weiter.",
+    "memory_bridge": "Fluid = FLÜSSIGES Denken, flexibel für völlig neue Rätsel (Matrizen); Kristallin = über Jahre aus Erfahrung KRISTALLISIERTES Kultur- und Sprachwissen!",
+    "kunst_sport_example": "Kunst Klasse 2: Ein Kind mit noch geringen Deutschkenntnissen erkennt in einem sprachfreien geometrischen Muster-Rätsel sofort die fehlende Symmetrieform (= hohe fluide Intelligenz), kennt aber die deutschen Fachbegriffe ‚Waagerechte‘ oder ‚Komplementärfarbe‘ noch nicht (= kristalline Komponente im Aufbau).",
+    "quiz_question": "In Fallvignette ‚Sven‘ (F25 C1) testet eine Schulpsychologin einen leistungsschwachen Schüler ausschließlich mit einem sprachfreien Matrizentest (IQ = 105). Welche Kritik aus dem FAU-Diagnostik-Skript ist hier zentral?",
+    "quiz_options": [
+      "Der Matrizentest erfasst nur die fluide Intelligenz; für schulische Probleme wäre ein mehrdimensionaler Test wie die WISC-V (inkl. Sprachverständnis, Arbeitsgedächtnis) deutlich aussagekräftiger.",
+      "Matrizentests messen ausschließlich kristallines Schulwissen und benachteiligen sprachschwache Kinder.",
+      "Ein IQ von 105 beweist bereits eine weit überdurchschnittliche Hochbegabung.",
+      "Fluide Intelligenz entwickelt sich erst ab dem 16. Lebensjahr."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Matrizentests prüfen nur die nonverbale fluide Intelligenz; schulische Minderleistungen hängen oft mit sprachlichen Fähigkeiten oder dem Arbeitsgedächtnis zusammen (vgl. WISC-V, Skript C S. 66–67).",
+    "page_label": "Original-Skript B S. 28–29 (vgl. Skript C S. 66–67)"
+  },
+  {
+    "id": "conf-08",
+    "domain": "B",
+    "term_a": "Akzeleration (Beschleunigung)",
+    "term_b": "Enrichment (Anreicherung)",
+    "core_difference": "Akzeleration verkürzt die Durchlaufzeit durch das Curriculum (schneller voranschreiten); Enrichment vertieft und verbreitert den Lernstoff auf derselben Klassenstufe.",
+    "def_a": "Förderprinzip bei Hochbegabung, bei dem Kinder das reguläre Curriculum schneller durchlaufen – z. B. vorzeitige Einschulung, Überspringen einer Jahrgangsstufe oder Teilnahme am Fachunterricht einer höheren Klasse (Drehtürmodell).",
+    "def_b": "Förderprinzip bei Hochbegabung, bei dem das Lernangebot innerhalb des Klassenverbands oder in Arbeitsgemeinschaften durch komplexere, vertiefende oder über den Lehrplan hinausgehende Themen angereichert wird.",
+    "memory_bridge": "Akzeleration = Gaspedal (schneller durch die Klassen); Enrichment = Schatzkiste (reichhaltigere, tiefere Aufgaben in derselben Klasse)!",
+    "kunst_sport_example": "Kunst & Mathe Grundschule: Darf eine hochbegabte Zweitklässlerin im Kunstunterricht bereits komplexe Fluchtpunkt-Architekturmodelle entwerfen oder Knobel-Forscherkarten bearbeiten, ist das Enrichment. Wechselt sie für den Mathematikunterricht jeden Dienstag in die 3. Klasse oder überspringt Klasse 2 ganz, ist das Akzeleration.",
+    "quiz_question": "Cem erreicht in einem Mathematiktest Prozentrang 99 (F24 C1). Die Lehrkraft stellt ihm im regulären Unterricht offene Knobel- und Modellierungsprojekte über den Grundschullehrplan hinaus bereit, ohne dass er die Klasse wechselt. Wie heißt diese Förderform?",
+    "quiz_options": [
+      "Enrichment (vertiefende Anreicherung des Lernangebots).",
+      "Akzeleration (Schullaufbahnbeschleunigung).",
+      "Nachteilsausgleich bei Teilleistungsstörung.",
+      "Kompensatorisches Basistraining."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Vertiefende und weiterführende Lernangebote ohne Verkürzung der Schulzeit werden als Enrichment bezeichnet.",
+    "page_label": "Original-Skript B S. 36–37"
+  },
+  {
+    "id": "conf-09",
+    "domain": "B",
+    "term_a": "Worry (Besorgtheitskomponente)",
+    "term_b": "Emotionality (Aufgeregtheitskomponente)",
+    "core_difference": "Worry umfasst leistungsschädliche kognitive Sorgengedanken (blockiert das Arbeitsgedächtnis!); Emotionality umfasst das körperlich-physiologische Erregungserleben (Herzklopfen, Schwitzen).",
+    "def_a": "Kognitive Komponente der Prüfungsangst nach Liebert & Morris (1967): Aufgabenirrelevante Selbstzweifel und Versagensgedanken (‚Ich schaffe das nicht‘), die nach Wines (1971) Aufmerksamkeitshypothese Ressourcen des Arbeitsgedächtnisses binden und die Leistung stark mindern.",
+    "def_b": "Affektiv-physiologische Komponente nach Liebert & Morris (1967): Subjektiv wahrgenommene körperliche Aktivierung wie Herzrasen, Zittern oder flaues Magengefühl; steht in deutlich geringerem direktem Zusammenhang mit Leistungseinbußen als Worry.",
+    "memory_bridge": "Worry = Grübel-WOLKE im Arbeitsgedächtnis (der wahre Leistungskiller!); Emotionality = Körper-ECHO (Herzklopfen, schwitzige Hände)!",
+    "kunst_sport_example": "Sport Klasse 4 (Schwimmabzeichen / Vorturnen am Reck): Spürt ein Kind vor dem Sprung ins Wasser Kribbeln im Bauch und schnellen Puls (= Emotionality), kann diese Aktivierung sogar Energie bereitstellen (Yerkes-Dodson). Denkt es aber unentwegt ‚Alle lachen mich gleich aus, ich gehe bestimmt unter‘ (= Worry), blockieren diese Gedanken die Bewegungssteuerung.",
+    "quiz_question": "Warum führt Prüfungsangst nach Liebert & Morris (1967) sowie Wine (1971) vor allem bei komplexen Denkaufgaben zu schlechteren Leistungen?",
+    "quiz_options": [
+      "Weil die kognitiven Sorgengedanken (Worry) Aufmerksamkeit und knappe Kapazität des Arbeitsgedächtnisses von der Aufgabenbearbeitung abziehen.",
+      "Weil schwitzige Hände (Emotionality) das Langzeitgedächtnis dauerhaft löschen.",
+      "Weil nach Yerkes & Dodson (1908) nur völlige Entspannung (Aktivierung = 0) zu Höchstleistungen führt.",
+      "Weil Angst ausschließlich eine positiv-deaktivierende Leistungsemotion nach Pekrun ist."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Nicht die körperliche Aufgeregtheit (Emotionality), sondern die kognitiven Sorgengedanken (Worry) absorbieren Arbeitsgedächtnisressourcen (Aufmerksamkeitshypothese nach Wine, 1971).",
+    "page_label": "Original-Skript B S. 81–82"
+  },
+  {
+    "id": "conf-10",
+    "domain": "B",
+    "term_a": "Lernzielorientierung (Aufgabenorientierung)",
+    "term_b": "Annäherungs- vs. Vermeidungs-Leistungszielorientierung",
+    "core_difference": "Lernziele zielen auf eigenen Kompetenzzuwachs und Verstehen ab; Leistungsziele (Performanzziele) zielen auf das Demonstrieren von Überlegenheit (Annäherung) oder das Verbergen von Schwäche (Vermeidung) vor anderen ab.",
+    "def_a": "Motivationale Zielorientierung (Elliot, 1999; Spinath et al., 2012 im SELLMO): Fokus liegt darauf, Inhalte tiefgründig zu verstehen und eigene Fähigkeiten zu erweitern – geht stabil mit tiefen Lernstrategien und hohem Lernerfolg einher.",
+    "def_b": "Performanzorientierung mit zwei Richtungen: Annäherungs-Leistungsziele (‚zeigen, dass ich besser bin / gute Note holen‘ -> oft relativ gute Leistungen) vs. Vermeidungs-Leistungsziele (‚bloß nicht blamieren / keine schlechte Note‘ -> Angst, oberflächliches Lernen, ungünstige Leistungen).",
+    "memory_bridge": "Lernziel = ‚Ich will WACHSEN‘; Annäherungs-Leistungsziel = ‚Ich will GLÄNZEN‘; Vermeidungs-Leistungsziel = ‚Ich will mich VERSTECKEN‘!",
+    "kunst_sport_example": "Kunst Klasse 3: ‚Ich probiere heute aus, wie man mit Wasserfarben echte Nebelverläufe mischt‘ (= Lernziel). ‚Mein Bild soll an die Klassengalerie als bestes Bild gehängt werden‘ (= Annäherungs-Leistungsziel). ‚Ich male lieber nur ganz klein, damit niemand sieht, dass ich keine Menschen zeichnen kann‘ (= Vermeidungs-Leistungsziel).",
+    "quiz_question": "Welche Zielorientierung geht laut empirischen Befunden (Skript B S. 73 & SELLMO Skript C S. 68) am deutlichsten mit Prüfungsangst, Hilflosigkeit und schwächeren Lernergebnissen einher?",
+    "quiz_options": [
+      "Vermeidungs-Leistungszielorientierung (‚Ich lerne, um mich nicht zu blamieren bzw. keine schlechte Note zu bekommen‘).",
+      "Aufsuchende Lernzielorientierung (‚Ich lerne, um Neues zu verstehen‘).",
+      "Epistemische Interessensorientierung nach Krapp.",
+      "Autonomieunterstützte intrinsische Motivation."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Meidende Leistungsziele (Performanz-Vermeidungsziele) sind misserfolgsängstlich geprägt und korrelieren negativ mit tiefem Wissenserwerb und Leistung.",
+    "page_label": "Original-Skript B S. 73 (vgl. Skript C S. 67–68)"
+  },
+  {
+    "id": "conf-11",
+    "domain": "B",
+    "term_a": "Intrinsische Motivation",
+    "term_b": "Identifizierte / Integrierte extrinsische Regulation",
+    "core_difference": "Bei intrinsischer Motivation macht die Tätigkeit SELBST Freude; bei identifizierter/integrierter Regulation bleibt das Ziel außerhalb der Handlung, wird aber als persönlich sinnvoll und selbstbestimmt bejaht!",
+    "def_a": "Nach Deci & Ryan (1985, 2000): Wunsch, eine Handlung um ihrer selbst willen auszuführen, weil der Vollzug selbst als spannend, freudvoll oder herausfordernd erlebt wird (Ziel liegt IN der Handlung).",
+    "def_b": "Selbstbestimmte Formen extrinsischer Motivation auf dem Kontinuum der Selbstbestimmungstheorie (Deci & Ryan, 2000): Man lernt wegen eines Folgeziels (außerhalb der Tätigkeit), hat den Wert der Aufgabe aber persönlich als wichtig anerkannt (identifiziert) bzw. voll in das eigene Selbstbild aufgenommen (integriert).",
+    "memory_bridge": "Intrinsisch = ‚Weil das Tun selbst SPASS macht!‘; Identifiziert/Integriert = ‚Kein reiner Selbstzweck, aber ICH sehe den Sinn voll ein!‘ (beide sind selbstbestimmt – im Gegensatz zu externaler Belohnung/Strafe oder introjiziertem schlechtem Gewissen!).",
+    "kunst_sport_example": "Sport & Grundschule: Ein Kind klettert an der Sprossenwand, einfach weil sich das Klettern toll anfühlt (= intrinsisch). Ein anderes Kind übt konzentriert das sichere Bremsen mit dem Roller für die Verkehrserziehung, nicht weil Bremsübungen spannend sind, sondern weil ihm selbst wichtig ist, sicher allein zur Schule fahren zu dürfen (= identifizierte extrinsische Motivation).",
+    "quiz_question": "Eine Schülerin bereitet nach einer Note 5 hochkonzentriert einen Vortrag vor, ausschließlich weil sie unbedingt ihre Zeugnisnote verbessern möchte und sich sonst vor dem Sitzenbleiben fürchtet (vgl. H25 A1 Vignette 2). Wie ist ihre Motivation nach Deci & Ryan einzuordnen?",
+    "quiz_options": [
+      "Extrinsische Motivation (Ziel liegt außerhalb der Tätigkeit in der Notenverbesserung / Vermeidung negativer Folgen), nicht intrinsisch.",
+      "Reine intrinsische Flow-Motivation ohne jeden Außenanreiz.",
+      "Amotivation ohne jede Handlungsabsicht.",
+      "Angeborenes universelles Interesse nach Renninger."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Hohe Anstrengung ist nicht gleichbedeutend mit intrinsischer Motivation: Da der Zweck außerhalb der Tätigkeit (gute Note erzielen) liegt, handelt es sich um extrinsische Motivation.",
+    "page_label": "Original-Skript B S. 69–70"
+  },
+  {
+    "id": "conf-12",
+    "domain": "C",
+    "term_a": "Statusdiagnostik",
+    "term_b": "Prozessdiagnostik (Verlaufsdiagnostik)",
+    "core_difference": "Statusdiagnostik erhebt eine punktuelle Momentaufnahme zu EINEM Zeitpunkt; Prozessdiagnostik erfasst Veränderungen und Lernverläufe über MEHRERE Messzeitpunkte hinweg.",
+    "def_a": "Einmalige Erfassung des aktuellen Merkmalsstands (Ist-Zustand, z. B. Intelligenz oder Leistungsstand am Schuljahresende) zur Klassifikation, Platzierung oder Schullaufbahnprognose.",
+    "def_b": "Wiederholte, lernbegleitende Messung über die Zeit hinweg, um individuelle Lernfortschritte sichtbar zu machen und Fördermaßnahmen flexibel nachzusteuern.",
+    "memory_bridge": "Status = FOTO (ein Schnappschuss); Prozess = FILM (Entwicklung über die Zeit)!",
+    "kunst_sport_example": "Sport & Kunst Klasse 2: Ein einmaliger Standweitsprung-Test am Sportfest ist Statusdiagnostik. Ein Arbeitsportfolio im Kunstunterricht (erste Skizze im Oktober -> Farbmischübung im November -> Endbild im Dezember) oder wöchentliche 1-Minuten-Leseflüssigkeitschecks sind Prozessdiagnostik.",
+    "quiz_question": "Im Rahmen eines Schulversuchs werden Grundschulkinder über das gesamte 3. Schuljahr hinweg viermal mit parallelen Kurztests untersucht, um ihre individuellen Lernzuwächse abzubilden (vgl. F25 C1 Aufg. 10). Welche Strategie liegt vor?",
+    "quiz_options": [
+      "Prozess- bzw. Verlaufsdiagnostik.",
+      "Reine Statusdiagnostik zu einem Einzelzeitpunkt.",
+      "Selektionsdiagnostik zur Schulartauslese.",
+      "Unwissenschaftliche Alltagsdiagnostik."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Die mehrmalige Erhebung im Zeitverlauf zur Abbildung von Lernzuwächsen kennzeichnet die Prozess- bzw. Verlaufsdiagnostik.",
+    "page_label": "Original-Skript C S. 25"
+  },
+  {
+    "id": "conf-13",
+    "domain": "C",
+    "term_a": "Selektionsdiagnostik",
+    "term_b": "Modifikationsdiagnostik",
+    "core_difference": "Selektionsdiagnostik wählt geeignete Personen für feste Bedingungen AUS; Modifikationsdiagnostik passt die Lernbedingungen/Förderung an die Person AN.",
+    "def_a": "Nach Pawlik (1982): Diagnostik mit dem Ziel der Auslese oder Zuweisung von Personen zu unterschiedlichen Institutionen/Anforderungsniveaus bei unveränderten Umweltbedingungen (z. B. Übertrittsentscheidung nach Klasse 4).",
+    "def_b": "Nach Pawlik (1982): Förderorientierte Diagnostik mit dem Ziel, Verhalten oder Lernumwelten durch gezielte pädagogische Interventionen zu verändern (z. B. Fehleranalyse bei Rechenproblemen zur Planung eines Förderplans).",
+    "memory_bridge": "Selektion = SORTIEREN (Wer passt zur Schule?); Modifikation = MASSANFERTIGEN (Welche Förderung passt zum Kind?)!",
+    "kunst_sport_example": "Sport Grundschule: Werden die schnellsten vier Kinder der 4. Klasse beim 50-m-Lauf für die Schulstaffel ausgewählt, ist das Selektionsdiagnostik. Beobachtet die Lehrkraft hingegen den Armzug beim Brustschwimmen, um gezielte Wasserlage-Übungen mit Schwimmbrett auszuwählen, betreibt sie Modifikationsdiagnostik.",
+    "quiz_question": "Herr Schneider analysiert nach einer Deutschprobe genau die Leseverständnisfehler seiner Klasse, um differenzierte Lesetandems und Förderblätter zusammenzustellen (vgl. H25 C1 Vignette 1). Welche diagnostische Strategie nutzt er?",
+    "quiz_options": [
+      "Modifikationsdiagnostik (Veränderung von Lernbedingungen und gezielte Kompetenzförderung).",
+      "Selektionsdiagnostik (Auslese der schwächsten Kinder an eine andere Schulart).",
+      "Globales Bildungsmonitoring auf Bundesländerebene.",
+      "Normierung einer Eichstichprobe."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Da nicht Personen ausgelesen, sondern Unterricht und Förderung an das Stärken-Schwächen-Profil angepasst werden, liegt Modifikationsdiagnostik vor.",
+    "page_label": "Original-Skript C S. 25"
+  },
+  {
+    "id": "conf-14",
+    "domain": "C",
+    "term_a": "Soziale Bezugsnorm",
+    "term_b": "Kriteriale (sachliche) vs. Individuelle Bezugsnorm",
+    "core_difference": "Sozial = Vergleich mit der Gruppe/Klasse; Kriterial = Vergleich mit einem sachlichen Lernzielstandard (Grundlage für Schulnoten!); Individuell = Vergleich mit der eigenen früheren Leistung (optimal für Motivation!).",
+    "def_a": "Interindividueller Vergleich: Eine Leistung wird danach bewertet, wo sie im Verhältnis zum Durchschnitt einer Bezugsgruppe (Schulklasse oder Eichstichprobe, z. B. Prozentrang/T-Wert) liegt.",
+    "def_b": "Kriteriale Bezugsnorm: Vergleich mit vorab sachlich definierten Lehrzielen/Kompetenzstufen (in Bayern schulrechtlich vorgesehene Basis der Notengebung!). Individuelle (temporale) Bezugsnorm: Intraindividueller Vergleich mit dem eigenen früheren Leistungsstand -> fördert nach Rheinberg (1978) Erfolgszuversicht und günstige Anstrengungsattribution.",
+    "memory_bridge": "Sozial = ‚Besser als die Klasse‘; Kriterial = ‚Lernziel geknackt (Noten-Maßstab!)‘; Individuell = ‚Über mich selbst hinausgewachsen (Motivations-Booster!)‘!",
+    "kunst_sport_example": "Sport Klasse 3 (Seilspringen): ‚Du hast die drittmeisten Sprünge der Klasse geschafft‘ (= sozial). ‚Für das Bronze-Abzeichen hast du das Ziel von 15 Durchschlägen ohne Hängenbleiben erreicht‘ (= kriterial). ‚Letzte Woche hast du 4 Sprünge geschafft, heute schon 11 – dein Rhythmus-Üben zahlt sich richtig aus!‘ (= individuell).",
+    "quiz_question": "Frau Schneider vergibt in ihrer Probearbeit grundsätzlich für die drei besten Arbeiten die Note 1 und für die drei schwächsten die Note 5 (StudOn-Mustervignette). Warum ist dies problematisch?",
+    "quiz_options": [
+      "Sie nutzt eine klasseninterne soziale Bezugsnorm statt der für Schulnoten vorgesehenen kriterialen Bezugsnorm – dies beeinträchtigt die Interpretationsobjektivität und entmutigt schwächere Kinder.",
+      "Sie verletzt damit die Durchführungsobjektivität während des Schreibens.",
+      "Für Schulnoten ist in Bayern ausschließlich die rein individuelle Bezugsnorm gesetzlich vorgeschrieben.",
+      "Dadurch wird die Retest-Reliabilität automatisch gleich 1.0."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Schulnoten sollen kriterial am Erreichen der Lehrplanziele ausgerichtet sein; eine starre soziale Rangplatzvergabe verletzt die Interpretationsobjektivität und schadet der Motivation.",
+    "page_label": "Original-Skript C S. 25, 46–47 (vgl. Skript B S. 49, 75)"
+  },
+  {
+    "id": "conf-15",
+    "domain": "C",
+    "term_a": "Objektivität (Durchführung, Auswertung, Interpretation)",
+    "term_b": "Reliabilität vs. Validität",
+    "core_difference": "Objektivität = Unabhängigkeit von der Testperson/Lehrkraft; Reliabilität = Messgenauigkeit/Zuverlässigkeit frei von Zufallsfehlern; Validität = inhaltliche Gültigkeit (misst der Test wirklich das gemeinte Merkmal?).",
+    "def_a": "Grad, in dem ein Messergebnis unabhängig von Einflüssen der untersuchenden, auswertenden und interpretierenden Person ist (Durchführungsobjektivität = Bedingungskonstanz; Auswertungsobjektivität = Kriterienkatalog/Schablone; Interpretationsobjektivität = eindeutige Normen/Maßstäbe).",
+    "def_b": "Reliabilität: Grad der Messgenauigkeit unabhängig davon, WAS gemessen wird (Retest, Paralleltest, Split-Half, Cronbachs Alpha). Validität (wichtigstes Hauptgütekriterium!): Grad, in dem ein Test genau das Konstrukt misst, das er zu messen vorgibt (Inhalts-/curriculare Validität, Konstruktvalidität, Kriteriumsvalidität). Objektivität und Reliabilität sind notwendige, aber NICHT hinreichende Bedingungen für Validität!",
+    "memory_bridge": "Waagen-Bild: 3 Prüfer lesen exakt dieselbe Zahl ab (= Objektivität); die Waage zeigt bei 5-mal Draufstellen immer exakt 42,0 kg (= Reliabilität); aber wenn ich damit die Mathebegabung messen will, ist die Validität trotzdem 0!",
+    "kunst_sport_example": "Kunst/Mathe Grundschule: Zählt eine Lehrerin mit einer Strichliste auf die Sekunde genau jede einzelne Wortmeldung aus, ist das relativ auswertungsobjektiv und über 4 Wochen auch recht reliabel – als Maß für tiefes Kunst- oder Mathematikverständnis hat bloßes Meldenzählen aber eine mangelhafte Inhaltsvalidität (vgl. F25 C1 Vignette 1)!",
+    "quiz_question": "In H24 C1 Aufgabe 7d heißt es: ‚Durchführungsobjektivität bedeutet, dass bei vorliegendem Testprotokoll das numerische Testergebnis nicht von testauswertenden Personen abhängt.‘ Stimmt diese Aussage?",
+    "quiz_options": [
+      "Nein – das beschreibt die Auswertungsobjektivität! Durchführungsobjektivität betrifft die standardisierte Vorgabe und Bedingungskonstanz während der Erhebung.",
+      "Ja – Durchführungsobjektivität und Auswertungsobjektivität sind identische Begriffe.",
+      "Nein – das beschreibt die prädiktive Kriteriumsvalidität.",
+      "Nein – das beschreibt das Nebengütekriterium der Ökonomie."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Beliebte MC-Falle (H24 C1 Aufg. 7d): Standardisierung bei der Testabnahme = Durchführungsobjektivität; Unabhängigkeit bei der Bepunktung des fertigen Protokolls = Auswertungsobjektivität; eindeutige Einordnung des Kennwerts = Interpretationsobjektivität.",
+    "page_label": "Original-Skript C S. 13–19"
+  },
+  {
+    "id": "conf-16",
+    "domain": "C",
+    "term_a": "Formelle (standardisierte) Schulleistungstests",
+    "term_b": "Informelle Schulleistungstests & Probearbeiten",
+    "core_difference": "Formelle Tests sind von Experten konstruiert und normiert (maximale Objektivität/Reliabilität, überregionaler Vergleich); informelle Tests/Proben sind von der Lehrkraft erstellt (keine Eichung, aber höhere curriculare/Inhaltsvalidität für die konkrete Klasse!).",
+    "def_a": "Von Testfachleuten nach Klassischer oder Probabilistischer Testtheorie entwickelte, empirisch erprobte und an einer repräsentativen Eichstichprobe normierte Verfahren (z. B. DEMAT, ELFE 2, HSP).",
+    "def_b": "Informelle Schulleistungstests (Ingenkamp & Lissmann, 2008): Von Lehrkräften nach Prinzipien der Testkonstruktion für die eigene Klasse entwickelt; nicht geeicht, berücksichtigen aber exakt die tatsächliche Lerngelegenheit der Klasse.",
+    "memory_bridge": "Formell = bundesweiter geeichter Maßstab (stark in Objektivität, Reliabilität & Vergleichbarkeit); Informell/Probe = maßgeschneidert auf unseren Unterricht (stark in individueller Lerngelegenheit / Inhaltsvalidität)!",
+    "kunst_sport_example": "Grundschule Klasse 3: Mit ELFE 2 prüft die Lehrerin objektiv, wo ihre Klasse im Leseverständnis bundesweit steht (formeller Test). Will sie dagegen prüfen, ob die Kinder genau die drei im eigenen Unterricht erarbeiteten Drucktechniken (Kartoffel-, Material-, Schablonendruck) verstanden haben, hat ein selbst konstruierter informeller Test eine höhere Inhaltsvalidität.",
+    "quiz_question": "Warum kann ein standardisierter Mathematik-Schulleistungstest in einer 3. Klasse eine GERINGERE Inhaltsvalidität aufweisen als eine gut erstellte Probearbeit der Lehrkraft (vgl. F25 C1 Aufg. 7)?",
+    "quiz_options": [
+      "Weil der formelle Test allgemeine Lehrplaninhalte abprüft und die konkreten Lerngelegenheiten der Klasse (z. B. ein noch nicht behandeltes Teilthema) nicht individuell berücksichtigt.",
+      "Weil formelle Schulleistungstests grundsätzlich keinen Lehrplanbezug besitzen.",
+      "Weil formelle Schulleistungstests eine schlechtere Auswertungsobjektivität haben als freie Aufsätze.",
+      "Weil formelle Tests niemals auf Reliabilität geprüft werden."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Standardisierte Tests können nicht wissen, welche Schwerpunkte oder Stoffteile in einer spezifischen Klasse bis zum Testtag tatsächlich bereits unterrichtet wurden (fehlende Berücksichtigung der individuellen Lerngelegenheit).",
+    "page_label": "Original-Skript C S. 53–58"
+  },
+  {
+    "id": "conf-17",
+    "domain": "C",
+    "term_a": "LRS (Lese-Rechtschreibstörung) in Bayern",
+    "term_b": "Dyskalkulie (Rechenstörung) in Bayern",
+    "core_difference": "LRS beruht primär auf einer phonologischen Informationsverarbeitungsstörung und ermöglicht in Bayern Nachteilsausgleich UND Notenschutz; Dyskalkulie betrifft das Mengen-/Zahlenverständnis und erhält in Bayern KEINEN Notenschutz!",
+    "def_a": "Umschriebene Entwicklungsstörung (ICD-10 F81.0; ca. 4–5 %): Deutliche Lese-/Rechtschreibbeeinträchtigung bei IQ >= 70; Kernursache: Defizit der phonologischen Bewusstheit (Früherkennung z. B. BISC; Prävention ‚Hören, lauschen, lernen‘). In Bayern sind Nachteilsausgleich (z. B. Zeitzuschlag) UND Notenschutz (Verzicht auf Bewertung der Rechtschreibleistung) möglich.",
+    "def_b": "Umschriebene Beeinträchtigung grundlegender Rechenfertigkeiten (ICD-10 F81.2; ca. 3–6 %, Diskrepanz >= 1,5 SD, IQ >= 70); Kernursache: fehlendes Mengen- und Zahlenverständnis nach Butterworth (Tests: ZAREKI, HRT, DEMAT; Prävention ‚Mengen, zählen, Zahlen‘ nach Krajewski). WICHTIG FÜR BAYERN: Individuelle Förderung und Nachteilsausgleich möglich, aber KEIN Notenschutz!",
+    "memory_bridge": "LRS = LAUT-Verarbeitung (phonologisch) -> Notenschutz JA; Dyskalkulie = ZAHLEN-/Mengensinn -> in Bayern KEIN Notenschutz!",
+    "kunst_sport_example": "Grundschule Bayern: Hat ein Kind eine schulpsychologisch bescheinigte LRS, darf es bei schriftlichen Sachunterrichts- oder Kunstbetrachtungs-Proben Zeitzuschlag bzw. Vorlesehilfe als Nachteilsausgleich erhalten und Rechtschreibfehler werden bei aktivem Notenschutz nicht gewertet. Bei Dyskalkulie werden im Matheunterricht Anschauungsmaterialien und Förderung gewährt, die Mathematiknote selbst wird aber regulär erteilt.",
+    "quiz_question": "Welche Aussage zum Vergleich von LRS und Rechenstörung (Dyskalkulie) an bayerischen Grundschulen ist laut FAU-Skript Diagnostik (S. 60–62) korrekt?",
+    "quiz_options": [
+      "Bei attestierter LRS ist in Bayern neben Nachteilsausgleich auch Notenschutz möglich, während es bei Dyskalkulie in Bayern keinen Notenschutz gibt.",
+      "Lehrkräfte stellen die klinische ICD-10-Diagnose LRS und Dyskalkulie eigenständig ohne Schulpsychologie fest.",
+      "Eine LRS wächst sich bis Ende der 4. Klasse fast immer ohne Förderung von allein aus.",
+      "Dyskalkulie setzt zwingend eine allgemeine Intelligenzminderung (IQ < 70) voraus."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Exakter Prüfungsfakt aus Skript C S. 60–62: Lehrkräfte begründen den Verdacht und fördern (Diagnose durch Schulpsychologie/Fachärzte); LRS erlaubt in Bayern Notenschutz, Dyskalkulie nicht.",
+    "page_label": "Original-Skript C S. 60–62"
+  },
+  {
+    "id": "conf-18",
+    "domain": "C",
+    "term_a": "Angstbedingte Schulverweigerung",
+    "term_b": "Dissoziales Schulschwänzen",
+    "core_difference": "Bei angstbedingter Schulverweigerung bleibt das Kind wegen Trennungs-/Leistungs-/sozialer Angst MEIST MIT WISSEN der Eltern zu Hause; beim Schulschwänzen fehlt es aus Unlust/Regelverstoß HEIMLICH außer Haus.",
+    "def_a": "Internalisierende Form des Schulabsentismus: Längeres Fernbleiben aufgrund massiver Trennungsangst (‚Schulphobie‘), sozialer Angst (z. B. Mobbing) oder Leistungsangst (‚Schulangst‘), oft begleitet von Bauch-/Kopfschmerzen; Kind hält sich meist mit Wissen der Eltern zu Hause auf.",
+    "def_b": "Externalisierende, dissoziale Form des Schulabsentismus: Absichtliches Fernbleiben nach dem Prinzip ‚Lust statt Pflicht‘ (Aufenthalt mit Cliquen, im Einkaufszentrum etc.), häufig im Rahmen einer Störung des Sozialverhaltens und ohne Wissen der Eltern.",
+    "memory_bridge": "Schulverweigerung = ANGST + Bauchweh ZU HAUSE (Eltern wissen Bescheid); Schulschwänzen = LUST statt Pflicht DRAUSSEN (Eltern ahnen nichts)!",
+    "kunst_sport_example": "Grundschule Klasse 3: Weint ein Kind jeden Dienstagmorgen vor dem Schwimmunterricht über Übelkeit und bleibt bei der besorgten Mutter auf dem Sofa, deutet dies auf angstbedingte Schulverweigerung hin (Intervention: Angstabbau, Stufenplan). Trödelt ein Viertklässler dagegen heimlich auf dem Spielplatz herum, statt zum Nachmittagsunterricht zu kommen, liegt Schulschwänzen vor.",
+    "quiz_question": "Die neunjährige Mia klagt an Prüfungstagen und nach Ausgrenzung in der Pause morgens über starke Bauchschmerzen und bleibt mit Erlaubnis ihrer besorgten Eltern im Kinderzimmer. Wie wird dieses Phänomen diagnostisch eingeordnet?",
+    "quiz_options": [
+      "Angstbedingte Schulverweigerung (internalisierend, Verbleib meist mit Wissen der Eltern zu Hause).",
+      "Dissoziales Schulschwänzen im Rahmen einer Störung des Sozialverhaltens.",
+      "Oppositionelles Trotzverhalten nach ICD-10 F91.3.",
+      "Proaktive instrumentelle Aggression."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Angstsymptomatik (somatische Beschwerden, soziale/Leistungsangst) und der Verbleib zu Hause mit Wissen der Eltern kennzeichnen die angstbedingte Schulverweigerung.",
+    "page_label": "Original-Skript C S. 65"
+  },
+  {
+    "id": "conf-19",
+    "domain": "C",
+    "term_a": "Alpha-Fehler (Fehler 1. Art)",
+    "term_b": "Beta-Fehler (Fehler 2. Art)",
+    "core_difference": "Alpha-Fehler = ‚Fehlalarm‘ (man nimmt einen Effekt/eine Störung/Eignung an, obwohl in Wahrheit KEINE vorliegt); Beta-Fehler = ‚Übersehen‘ (man übersieht einen tatsächlich vorhandenen Effekt/Förderbedarf).",
+    "def_a": "Irrtümliche Verwerfung einer zutreffenden Nullhypothese H0 zugunsten der Alternativhypothese H1 (falsch-positiver Befund, z. B. Diagnose einer Störung bei einem unauffälligen Kind).",
+    "def_b": "Irrtümliche Beibehaltung einer falschen Nullhypothese H0, obwohl in Wirklichkeit H1 gilt (falsch-negativer Befund, z. B. Nicht-Erkennen einer tatsächlich vorliegenden Hochbegabung oder LRS).",
+    "memory_bridge": "Alpha = ALARM ohne Feuer (falsch-positiv); Beta = BLIND für echtes Feuer / übersehen (falsch-negativ)!",
+    "kunst_sport_example": "Grundschule Klasse 1/4: Wird ein lebhaftes, bewegungsfreudiges Kind im Sport- und Klassenunterricht vorschnell als ‚ADHS-Fall‘ eingestuft (H1), obwohl es völlig altersgemäß gesund ist (H0), ist das ein Alpha-Fehler. Wird hingegen bei einer stillen, angepassten Viertklässlerin (Underachieverin) ihre tatsächliche Hochbegabung übersehen, begeht man einen Beta-Fehler.",
+    "quiz_question": "Beim Bielefelder Screening (BISC) im Kindergarten wird ein Kind als ‚unauffällig‘ eingestuft (H0: kein LRS-Risiko beibehalten), entwickelt in der 1. und 2. Klasse jedoch eine ausgeprägte Lese-Rechtschreibstörung (in Wahrheit galt H1). Welcher Entscheidungsfehler trat im Screening auf?",
+    "quiz_options": [
+      "Beta-Fehler (Fehler 2. Art: tatsächliches Risiko wurde übersehen / falsch-negativ).",
+      "Alpha-Fehler (Fehler 1. Art: blinder Fehlalarm / falsch-positiv).",
+      "Halo-Effekt der Lehrkraft.",
+      "Deckeneffekt des Tests."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Wird H0 beibehalten, obwohl in Wirklichkeit H1 zutrifft (ein tatsächlich gefährdetes Kind bleibt unentdeckt), handelt es sich um einen Beta-Fehler.",
+    "page_label": "Original-Skript C S. 9–10"
+  },
+  {
+    "id": "conf-20",
+    "domain": "C",
+    "term_a": "Formative Evaluation",
+    "term_b": "Summative Evaluation",
+    "core_difference": "Formative Evaluation begleitet eine laufende Maßnahme zur direkten Optimierung; summative Evaluation bilanziert am ENDE einer Maßnahme deren Gesamtwirksamkeit.",
+    "def_a": "Prozessbegleitende Bewertung während der Entwicklung oder Durchführung eines Programms/Unterrichtskonzepts (z. B. Zwischenbefragung zum Halbjahr, H24 C1 Vignette 2), um Schwachstellen frühzeitig zu erkennen und laufend nachzusteuern.",
+    "def_b": "Abschließende, bilanzierende Bewertung nach Beendigung einer Maßnahme oder Unterrichtseinheit, um den Gesamterfolg bzw. Zielerreichungsgrad festzustellen (Erfolgskontrolle/Rechenschaftslegung).",
+    "memory_bridge": "Formativ = noch FORM-bar (wie feuchter Ton im Kunstunterricht: währenddessen anpassen!); Summativ = am Schluss den SUMMEN-Strich drunterziehen!",
+    "kunst_sport_example": "Kunst & Sport Grundschule: Holt die Lehrerin nach den ersten drei Stunden ihres neuen Kunst-Werkstattunterrichts per Zielscheiben-Feedback Rückmeldungen der Drittklässler ein, um die Materialstationen übersichtlicher zu gestalten, ist das formative Evaluation. Prüft eine Schule am Jahresende mit einem Ausdauer- und Motoriktest, ob das neue Projekt ‚Bewegte Pause‘ die Fitness insgesamt gesteigert hat, ist das summative Evaluation.",
+    "quiz_question": "Eine Klassenlehrkraft teilt zum Halbjahr einen anonymen Fragebogen aus, um zu erfahren, wie zufrieden die Kinder mit ihrem Unterricht sind und was sie im zweiten Halbjahr verbessern kann (vgl. H24 C1 Aufg. 2.1). Welche Evaluationsform liegt vor?",
+    "quiz_options": [
+      "Formative Evaluation (begleitende Rückmeldung zur laufenden Unterrichtsoptimierung).",
+      "Summative Abschlussevaluation ohne Änderungsmöglichkeit.",
+      "Internationales Bildungsmonitoring im Multi-Matrix-Design.",
+      "Selektionsdiagnostische Schullaufbahnempfehlung."
+    ],
+    "quiz_correct_index": 0,
+    "quiz_explanation": "Da die Erhebung begleitend stattfindet und der gezielten Weiterentwicklung des laufenden Unterrichts dient, handelt es sich um eine formative Evaluation.",
+    "page_label": "Original-Skript C S. 25–26, 41–42"
+  }
+]

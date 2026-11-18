@@ -1,0 +1,18 @@
+# Geheimnisse & lokale Schlüssel NIEMALS committen!
+.env
+.env.*
+!.env.example
+
+# Abhängigkeiten & Builds
+node_modules/
+dist/
+.tools/
+extracted_raw/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+playwright-report/
+test-results/
+.DS_Store

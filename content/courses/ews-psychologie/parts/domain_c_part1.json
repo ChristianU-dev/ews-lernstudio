@@ -1,0 +1,2275 @@
+{
+  "domain": "C",
+  "part": 1,
+  "domain_title": "Pädagogisch-psychologische Diagnostik und Evaluation",
+  "source_pdf": "C_Diagnostik_Skript.pdf",
+  "units": [
+    {
+      "id": "C-01-01",
+      "domain": "C",
+      "chapter_group_num": "1",
+      "chapter_group_title": "1. Methodische Grundlagen der Diagnostik",
+      "section_num": "1.1",
+      "title": "Diagnose, Prognose, Entscheidungsgüte & Fehlerrisiken",
+      "subtitle": "Vierfeldertafel, Sensitivität/Spezifität, Taylor-Russell-Modell sowie Alpha- und Beta-Fehler",
+      "page_start": 8,
+      "page_end": 10,
+      "page_label": "Original-Skript S. 8–10",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Zwei Vierfeldertafeln entscheiden fair: Übertrittsempfehlung (Wahr/Falsch Positiv) & Hypothesentest (Alpha vs. Beta)",
+      "definitions": [
+        {
+          "term": "Prognose (vs. Diagnose)",
+          "definition": "Vorhersage über zu erwartende Folgen von Handlungsalternativen. Sie besitzt dieselbe logische Struktur wie eine Diagnose, trifft aber keine Aussage über das, was aktuell ist (Ist-Zustand), sondern über das, was zukünftig sein wird; beide dienen begründeten Entscheidungen.",
+          "author_year": "Lochner & Denzler, 2026",
+          "page_ref": "S. 8"
+        },
+        {
+          "term": "Entscheidungsgüte (Selektionsentscheidung)",
+          "definition": "Ausmaß, in dem durch den Einsatz eines diagnostischen Verfahrens die Leitfrage beantwortet wird: Inwieweit kann mit dem Einsatz eines Tests der Anteil korrekter Entscheidungen erhöht werden, also die Entscheidungsgüte verbessert werden? Bemessen am tatsächlichen Eintreten des vorhergesagten Kriteriums.",
+          "author_year": "Taylor & Russell, 1939",
+          "page_ref": "S. 8–9"
+        },
+        {
+          "term": "Basisquote (Grundrate) & Selektionsquote (Selektionsrate)",
+          "definition": "Basisquote ist der Anteil der Personen in einer Population, die ein Merkmal faktisch aufweisen ('tatsächlich geeignet'). Selektionsquote ist der Anteil der Personen, bei denen das Merkmal im Verfahren positiv diagnostiziert bzw. ausgewählt wird.",
+          "author_year": "Taylor & Russell, 1939",
+          "page_ref": "S. 9"
+        },
+        {
+          "term": "Alpha-Fehler (Fehler 1. Art) & Beta-Fehler (Fehler 2. Art)",
+          "definition": "Beim statistischen Hypothesentest bezeichnet der Alpha-Fehler das fälschliche Verwerfen einer wahren Nullhypothese H0 (Scheineffekt angenommen; vorab meist auf 5 % begrenzt), der Beta-Fehler das fälschliche Beibehalten einer falschen H0 (tatsächlicher Effekt übersehen).",
+          "author_year": "Klassische Inferenzstatistik; Lochner & Denzler, 2026",
+          "page_ref": "S. 9–10"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Diagnose, Prognose & Vierfeldertafel der Auswahlentscheidung",
+          "page_ref": "S. 8–9",
+          "bullets": [
+            "**Leitgedanke (inkl. Vorwort S. 2)**: Diagnostik verknüpft Methodenwissen zwingend mit Theorien aus *Lernen & Lehren* (z. B. Motivation) und *Entwicklungspsychologie* (z. B. Intelligenz), um **begründete pädagogische Entscheidungen** zu treffen.",
+            "**Schullaufbahnempfehlung als Prognose**: Eignungsurteile am Ende der Grundschule sagen den Schulerfolg in der Sekundarstufe nur moderat vorher (**r = .30 bis max. r = .50**).",
+            "**Vierfeldertafel der Auswahlentscheidung** (z. B. Gymnasialempfehlung für ein 'auf der Kippe stehendes' Kind): Kreuzung aus **diagnostischer Entscheidung** ('geeignet' vs. 'nicht geeignet') und **tatsächlichem Merkmalszustand**:",
+            "1. **Wahr positiv (Treffer)**: Empfohlen & tatsächlich geeignet -> richtige Entscheidung.",
+            "2. **Wahr negativ (Korrekte Ablehnung)**: Nicht empfohlen & tatsächlich nicht geeignet -> richtige Entscheidung.",
+            "3. **Falsch positiv (Überempfehlung / Irrtum)**: Empfohlen, aber tatsächlich nicht geeignet -> Fehlentscheidung (Überforderungsrisiko).",
+            "4. **Falsch negativ (Unterempfehlung / Übersehen)**: Nicht empfohlen, obwohl tatsächlich geeignet -> Fehlentscheidung (verwehrte Bildungschance).",
+            "**Kennwerte der Klassifikationsgüte**: **Sensitivität** = Trefferquote unter allen tatsächlich Geeigneten (`Wahr positiv / [Wahr positiv + Falsch negativ]`); **Spezifität** = korrekte Ausschlussquote unter allen tatsächlich Nicht-Geeigneten (`Wahr negativ / [Wahr negativ + Falsch positiv]`)."
+          ]
+        },
+        {
+          "heading": "Entscheidungsgüte nach Taylor und Russell (1939)",
+          "page_ref": "S. 9",
+          "bullets": [
+            "Der praktische Nutzen eines Tests für Selektionsverfahren hängt von **drei Faktoren gemeinsam** ab: **Testvalidität**, **Basisquote (Grundrate)** und **Selektionsquote (Selektionsrate)**.",
+            "Bei **mittlerer Basisquote** (ca. 50 % tatsächlich geeignet) und **mittlerer Selektionsquote** leistet ein **valider Test** den größten Zusatzbeitrag zur Erhöhung korrekter Entscheidungen (schmale Streuungsellipse entlang der Hauptdiagonale Wahr Negativ -> Wahr Positiv).",
+            "Ist die Basisquote extrem hoch (fast alle geeignet) oder extrem niedrig, bringt selbst ein valider Test kaum zusätzlichen Entscheidungsgewinn."
+          ]
+        },
+        {
+          "heading": "Fehlerrisiken beim Hypothesentest: α-Fehler vs. β-Fehler",
+          "page_ref": "S. 9–10",
+          "bullets": [
+            "**Anschauungsbeispiel Lesetraining** (angelehnt an **PISA 2009**: OECD-Mittelwert `M = 500`, `SD = 100`): Gruppe ohne Training erreicht `445 Punkte (N = 75)`, Trainingsgruppe erreicht `550 Punkte (N = 68)` -> Ist der Unterschied statistisch **signifikant**?",
+            "**Nullhypothese (H₀)**: Kein Unterschied – die Lesekompetenz beider Gruppen ist in Wahrheit gleich.",
+            "**Alternativhypothese (H₁)**: Es besteht ein Effekt – die Gruppe mit Lesetraining liest besser als die Gruppe ohne Training.",
+            "**α-Fehler (Fehler 1. Art)**: `H₀` wird verworfen (`H₁` angenommen), obwohl in Wirklichkeit `H₀` gilt -> man nimmt **fälschlich einen Trainingseffekt** an. Das **Signifikanzniveau α** wird vorab festgelegt (üblicherweise **α = 5 %** bzw. `.05`).",
+            "**β-Fehler (Fehler 2. Art)**: `H₀` wird beibehalten, obwohl in Wirklichkeit `H₁` gilt -> ein **tatsächlich vorhandener Trainingseffekt wird übersehen** (abhängig von Stichprobengröße `N`, Effektstärke und α-Niveau)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Entscheidungsgüte-Modell für Selektionsverfahren",
+          "authors_year": "Taylor & Russell, 1939",
+          "page_ref": "S. 9",
+          "setup": "Mathematisch-statistische Modellierung des Anteils richtiger Auswahlentscheidungen (Trefferquote) in Abhängigkeit von Kriteriumsvalidität, Basisquote (Grundrate) und Selektionsquote.",
+          "finding": "Die Validität eines Verfahrens verbessert die Entscheidungsgüte besonders stark bei mittlerer Basis- und mittlerer Selektionsquote; beide Raten müssen neben der Testgüte zwingend berücksichtigt werden.",
+          "implication": "Bei Schullaufbahn- und Förderentscheidungen darf ein Testwert niemals isoliert ohne Kenntnis der Grundrate (z. B. LRS-Prävalenz ca. 4–6 %) interpretiert werden."
+        }
+      ],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S008_Schaubild.png",
+          "caption": "Vierfeldertafel der diagnostischen Auswahlentscheidung: Wahr/Falsch Positiv und Wahr/Falsch Negativ (Original-Skript S. 8)",
+          "page_ref": "S. 8"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S009_Abb1.png",
+          "caption": "Grafische Darstellung der Auswahlentscheidung mit Korrelationsellipse: Schmalere Ellipse (höhere Validität) erhöht Wahr-Positiv- und Wahr-Negativ-Treffer (Original-Skript S. 9)",
+          "page_ref": "S. 9"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S010_Schaubild.png",
+          "caption": "Entscheidungsmatrix beim statistischen Hypothesentest: Alpha-Fehler (Fehler 1. Art) vs. Beta-Fehler (Fehler 2. Art) am Beispiel Lesetraining (Original-Skript S. 10)",
+          "page_ref": "S. 10"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Von der Diagnose zur statistisch abgesicherten Entscheidung",
+        "steps_or_rows": [
+          { "label": "1. Diagnose (Ist-Zustand)", "detail": "Aktuelle Merkmalsausprägung erfassen (z. B. Leseleistung Ende Klasse 4)" },
+          { "label": "2. Prognose (Zukunft)", "detail": "Vorhersage künftiger Entwicklung unter Handlungsalternativen (z. B. Erfolg Sek. I: r = .30–.50)" },
+          { "label": "3. Auswahl-Vierfeldertafel", "detail": "Wahr positiv (Sensitivität) & Wahr negativ (Spezifität) maximieren; Basis- & Selektionsquote beachten" },
+          { "label": "4. Hypothesenprüfung (H0/H1)", "detail": "Alpha-Fehler (fälschlicher Effekt, <= 5 %) gegen Beta-Fehler (übersehener Fördereffekt) abwägen" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Gegenüberstellung der Fehlerrisiken in Auswahl- und Forschungssituationen",
+        "headers": ["Fehlertyp", "Statistische / Diagnostische Bedeutung", "Konkretes Grundschul-Beispiel"],
+        "rows": [
+          ["Falsch positiv / α-Fehler (1. Art)", "Merkmal bzw. Effekt wird angenommen, obwohl es in Wahrheit NICHT vorliegt (H0 fälschlich verworfen)", "Ein wirkungsloses Rechtschreib-App-Training wird als 'erfolgreich' eingekauft; oder Kind erhält Gymnasialempfehlung trotz Überforderung"],
+          ["Falsch negativ / β-Fehler (2. Art)", "Merkmal bzw. Effekt wird abgelehnt/übersehen, obwohl es in Wahrheit VORLIEGT (H0 fälschlich beibehalten)", "Ein wirksames Leseförderprogramm wird eingestellt; oder ein stilles, begabtes Kind (Underachiever) erhält keine Empfehlung"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 4 (Lesestrategien / Reziprokes Lehren nach Palincsar & Brown, 1984)",
+          "bridge_explanation": "Ob ein Lesestrategietraining der Kontrollgruppe wirklich überlegen ist (wie im PISA-Beispiel S. 9), wird über H0/H1 unter Kontrolle des Alpha- und Beta-Fehlers geprüft."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 4 (Intelligenzentwicklung & Hochbegabung / Underachievement)",
+          "bridge_explanation": "Falsch-negative Entscheidungen beim Übertritt treffen besonders häufig begabte Kinder aus bildungsfernen Familien oder Underachiever."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 4 (Aufnahme in eine Begabten-Kunstwerkstatt): Statt nur nach 'sauberem Ausmalen' auszuwählen (Gefahr falsch-negativer Urteile bei unkonventionell-kreativen Kindern), nutzt die Lehrkraft eine mehrteilige Gestaltungsprobe, um die Sensitivität für echte gestalterische Originalität zu erhöhen.",
+        "sport": "Sport Klasse 2 (Motorik-Screening für Förderturnen): Beim koordinativen Eingangstest setzt die Lehrkraft den Schwellenwert bewusst so, dass möglichst kein förderbedürftiges Kind übersehen wird (hohe Sensitivität, geringes Falsch-Negativ-Risiko), da eine zusätzliche Bewegungsförderung niemandem schadet.",
+        "allgemein": "Übertrittsberatung Klasse 4: Transparente Kommunikation gegenüber Eltern, dass Schullaufbahnprognosen fehlerbehaftet sind (r = .30–.50) und sowohl Unter- als auch Überforderung (Falsch-Negativ vs. Falsch-Positiv) abgewogen werden müssen."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Diagnose vs. Prognose", "hint": "Gleiche Struktur, aber Ist-Zustand ('was ist') vs. Vorhersage von Handlungsfolgen ('was sein wird')." },
+        { "term": "Vierfeldertafel der Auswahlentscheidung", "hint": "Wahr positiv, Falsch positiv, Falsch negativ, Wahr negativ + Sensitivität & Spezifität erklären." },
+        { "term": "Taylor & Russell (1939)", "hint": "Entscheidungsgüte hängt von Validität, Basisquote (Grundrate) und Selektionsquote ab." },
+        { "term": "Nullhypothese (H0) vs. Alternativhypothese (H1)", "hint": "Am Lesetraining-Beispiel (445 vs. 550 Punkte) formulieren." },
+        { "term": "Alpha-Fehler (1. Art) vs. Beta-Fehler (2. Art)", "hint": "Scheineffekt annehmen (Signifikanzniveau 5 %) vs. wahren Effekt übersehen." }
+      ],
+      "essay_recipe": {
+        "intro": "Lern- und Leistungsdiagnostik in der Grundschule mündet stets in pädagogischen Entscheidungen (Noten, Förderung, Übertritt), deren Qualität sich an der Entscheidungsgüte bemisst.",
+        "core_model": "Darstellung der Vierfeldertafel (Wahr/Falsch Positiv & Negativ, Sensitivität/Spezifität) sowie des Modells von Taylor & Russell (1939) mit Zusammenspiel aus Validität, Basisquote und Selektionsquote; Ergänzung durch α- und β-Fehler bei Hypothesentests.",
+        "empirics": "Empirische Vorhersagekraft von Grundschul-Schullaufbahnempfehlungen für den Sekundarstufenerfolg liegt lediglich bei r = .30 bis max. r = .50.",
+        "critique_bridge": "Reine Punkt- oder Lehrerurteile bergen hohe Fehlentscheidungsrisiken -> zwingender Bedarf an psychometrisch geprüften Verfahren mit hoher Objektivität, Reliabilität und Validität (Kap. 1.3).",
+        "school_transfer": "Abwägung der Fehlerkosten in der Grundschule: Bei Förderzuweisungen Falsch-Negativ-Fehler minimieren (kein Förderkind übersehen), bei Selektionsentscheidungen multimodale Datenquellen kombinieren."
+      },
+      "all_bold_terms_covered": [
+        "Diagnose",
+        "Prognose",
+        "begründete Entscheidungen",
+        "Entscheidungsgüte",
+        "Empfehlungen für die Schullaufbahn",
+        "Auswahlentscheidung",
+        "Vierfeldertafel",
+        "Wahr positiv",
+        "Falsch positiv",
+        "Falsch negativ",
+        "Wahr negativ",
+        "Sensitivität",
+        "Spezifität",
+        "Taylor und Russell (1939)",
+        "Basisquote",
+        "Grundrate",
+        "Selektionsquote",
+        "Selektionsrate",
+        "Nullhypothese (H₀)",
+        "Alternativhypothese (H₁)",
+        "α-Fehler",
+        "Fehler 1. Art",
+        "Signifikanzniveau",
+        "β-Fehler",
+        "Fehler 2. Art"
+      ]
+    },
+    {
+      "id": "C-01-02",
+      "domain": "C",
+      "chapter_group_num": "1",
+      "chapter_group_title": "1. Methodische Grundlagen der Diagnostik",
+      "section_num": "1.2",
+      "title": "Messmethodik, Messen, Skalenniveaus & Testtheorien",
+      "subtitle": "Strukturtreue Abbildung, 4 Skalenniveaus sowie Klassische (KTT) vs. Probabilistische Testtheorie (PTT/IRT)",
+      "page_start": 10,
+      "page_end": 12,
+      "page_label": "Original-Skript S. 10–12",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Empirisches -> Numerisches Relativ | Nominal -> Ordinal -> Intervall -> Verhältnis | KTT (X = T + E) vs. Rasch (p = 0,5)",
+      "definitions": [
+        {
+          "term": "Methodisch & Methodologie",
+          "definition": "Methodisch bezeichnet das planmäßige und systematische Vorgehen zur Zielerreichung (griech. methodos = einer Sache nachgehen) anhand kommunizierbarer, präskriptiver Regelsysteme mit klarem Beginn und Ende. Methodologie ist die Lehre von den Methoden.",
+          "author_year": "Lochner & Denzler, 2026",
+          "page_ref": "S. 10"
+        },
+        {
+          "term": "Messen & Skala",
+          "definition": "Zuordnung von Zahlen zu Objekten gemäß festgelegter Regeln, sodass die Relationen der Messwerte (numerisches Relativ) den Relationen der gemessenen Objekte (empirisches Relativ) strukturtreu entsprechen. Diese strukturtreue Abbildung heißt Skala.",
+          "author_year": "Bühner, 2006",
+          "page_ref": "S. 10–11"
+        },
+        {
+          "term": "Klassische Testtheorie (KTT)",
+          "definition": "Testtheoretisches Modell, nach dem sich jeder beobachtete Testwert X additiv aus dem zeitlich konstanten wahren Wert T einer Person und einem unsystematischen Zufalls-Messfehler E (Mittelwert 0, unkorreliert mit T) zusammensetzt: X = T + E.",
+          "author_year": "Bühner, 2006; Gulliksen / Lord & Novick",
+          "page_ref": "S. 11–12"
+        },
+        {
+          "term": "Probabilistische Testtheorie (PTT / Item-Response-Theorie, IRT)",
+          "definition": "Modellfamilie (z. B. Rasch-Modell), in der die Wahrscheinlichkeit einer richtigen Aufgabenlösung als mathematische Funktion zweier Parameter modelliert wird: der Personenfähigkeit und der Aufgabenschwierigkeit (bei Gleichheit gilt p = 0,5).",
+          "author_year": "Rasch, 1960; Bühner, 2006",
+          "page_ref": "S. 12"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Messmethodik & Prinzip der strukturtreuen Abbildung",
+          "page_ref": "S. 10–11",
+          "bullets": [
+            "Wissenschaftliches Handeln hebt sich durch das **„Wie“ (planmäßig-methodisches Regelsystem)** vom Alltagshandeln ab: Methoden sind **kommunizierbar**, haben **präskriptiven (vorschreibenden) Charakter** sowie feststellbaren Beginn und Ende.",
+            "**Messen als Homomorphismus**: Strukturtreue Abbildung eines **empirischen Relativs** (z. B. Englisch-Kompetenz von Kindern) in ein **numerisches Relativ** (erreichte Punktzahlen) -> ergibt die **Skala** (**Bühner, 2006**)."
+          ]
+        },
+        {
+          "heading": "Die vier Skalenniveaus (Informationsgehalt aufsteigend)",
+          "page_ref": "S. 11",
+          "bullets": [
+            "1. **Nominalskala**: Reine Klassifikation in **eindeutige, gleichberechtigte Kategorien** (`=` / `≠`). *Bsp.:* Geschlecht, Muttersprache, Hausaufgabe gemacht vs. nicht gemacht.",
+            "2. **Ordinal- oder Rangskala**: Elemente bilden eine **geordnete Rangreihe** (Transitivität: wenn `A < B` und `B < C`, dann `A < C`), aber Abstände sind **nicht gleich groß**. *Bsp.:* **Schulnoten**, Fragebogen-Einschätzskalen ('stimmt nicht' bis 'stimmt genau'). **Achtung Prüfungsfalle**: Arithmetischer Mittelwert streng genommen **nicht zulässig** (bei großem `N` wird für Fragebogendaten pragmatisch oft Intervallskalenniveau angenommen).",
+            "3. **Intervallskala**: Geordnete Rangreihe **plus gleiche Skalenabstände (äquidistant)**, jedoch **kein absoluter Nullpunkt**. *Bsp.:* Temperatur in °C/°F, standardisierte Normskalen (IQ, T-Wert). Berechnung von **Mittelwerten und Standardabweichungen zulässig**.",
+            "4. **Verhältnis- oder Proportionsskala**: Äquidistante Abstände **plus natürlicher, absoluter Nullpunkt** (Verhältnisaussagen wie 'doppelt so lang' sinnvoll). *Bsp.:* Körpergröße/Längenmessung, Bearbeitungszeit in Sekunden."
+          ]
+        },
+        {
+          "heading": "Klassische Testtheorie (KTT) vs. Probabilistische Testtheorie (PTT / IRT)",
+          "page_ref": "S. 11–12",
+          "bullets": [
+            "**Drei Axiome der Klassischen Testtheorie (KTT)**:",
+            "a) **Existenzaxiom**: Zu jedem Messwert existiert ein **wahrer Wert (T)** mit zeitlich konstanter Merkmalsausprägung.",
+            "b) **Fehleraxiom**: Der **Messfehler (E)** ist eine Zufallsvariable mit Erwartungswert/Mittelwert `0`; Messfehler korrelieren nicht mit `T`.",
+            "c) **Verknüpfungsaxiom**: Beobachteter Wert addiert sich aus wahrem Wert und Fehler: **`X = T + E`** (Schwäche: Modellannahmen selbst sind empirisch nicht direkt falsifizierbar!).",
+            "**Probabilistische Testtheorie (Item-Response-Theorie / Rasch-Skalierung)**:",
+            "Lösungswahrscheinlichkeit `p` hängt von **Fähigkeit der Person** (`θ`) und **Schwierigkeit der Aufgabe** (`σ`) ab: Ist Fähigkeit = Schwierigkeit, gilt **`p = 0,5`** (höhere Fähigkeit -> `p → 1`; niedrigere -> `p → 0`).",
+            "**Zentraler Vorteil der PTT**: Die **Modellgeltung ist empirisch überprüfbar** und ermöglicht die Verortung von Personenkompetenz und Aufgabenschwierigkeit auf **derselben Kompetenzstufenskala** (Einsatz bei **PISA**, **VERA** und kriteriumsorientierten Schulleistungstests)."
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S011_Abb1.png",
+          "caption": "Messen als strukturtreue Abbildung eines empirischen Relativs in ein numerisches Relativ (aus Bühner, 2006; Original-Skript S. 11)",
+          "page_ref": "S. 11"
+        }
+      ],
+      "custom_visual": {
+        "type": "hierarchy",
+        "title": "Stufenleiter der 4 Skalenniveaus (inkl. Schulnoten-Falle)",
+        "steps_or_rows": [
+          { "label": "1. Nominalskala (= / ≠)", "detail": "Reine Kategorien ohne Rangfolge | Bsp.: AG-Wahl, Geschlecht | Maß: Modus/Häufigkeit" },
+          { "label": "2. Ordinalskala (< / >)", "detail": "Rangreihe ohne gleiche Abstände | Bsp.: SCHULNOTEN, Platzierung | Maß: Median (kein echter Mittelwert!)" },
+          { "label": "3. Intervallskala (+ / −)", "detail": "Gleiche Abstände (äquidistant), willkürlicher Nullpunkt | Bsp.: °C, IQ-Skala | Maß: Mittelwert M, SD" },
+          { "label": "4. Verhältnisskala (× / ÷)", "detail": "Äquidistant + absoluter Nullpunkt | Bsp.: Laufzeit in Sek., Sprungweite in cm | Verhältnisse erlaubt" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Klassische Testtheorie (KTT) vs. Probabilistische Testtheorie (PTT / IRT)",
+        "headers": ["Vergleichsdimension", "Klassische Testtheorie (KTT)", "Probabilistische Testtheorie (PTT / Rasch-Modell)"],
+        "rows": [
+          ["Grundgleichung / Kernprinzip", "Deterministisch-additiv: X = T + E (Beobachtungswert = Wahrer Wert + Zufallsfehler)", "Stochastisch: Lösungswahrscheinlichkeit p als Funktion aus Personenfähigkeit & Itemschwierigkeit (p = 0,5 bei Gleichheit)"],
+          ["Empirische Prüfbarkeit", "Axiome sind Annahmen und empirisch NICHT direkt falsifizierbar", "Modellgeltung ist empirisch streng überprüfbar (Stichprobenunabhängigkeit)"],
+          ["Typische Anwendung", "Klassische Fragebögen, traditionelle Intelligenz- und Schulleistungstests", "Large-Scale-Assessments (PISA, VERA), Kompetenzstufenmodelle, adaptives Testen"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 4 & 5 (Lernstrategien-Fragebögen wie LIST / WLST)",
+          "bridge_explanation": "Lernstrategie-Fragebögen arbeiten mit mehrstufigen Likert-Einschätzskalen (streng ordinal, bei großem N als intervallskaliert ausgewertet) auf Basis der KTT."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 4 (Intelligenzdiagnostik)",
+          "bridge_explanation": "Moderne Intelligenz- und Leistungstests kombinieren KTT-Reliabilitätskennwerte zunehmend mit Rasch-skalierten Untertests zur präzisen Fähigkeitsbestimmung."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Bewertung von Tongefäßen): Eine Sortierung nach 'Daumentechnik vs. Wulsttechnik' ist nominalskaliert; ein Ranking '1. bis 3. Platz beim Schulfest' ordinalskaliert – erst klare Kriterienpunkte mit gleichen Abständen nähern sich einer fairen Punkteskala an.",
+        "sport": "Sport Klasse 4 (Leichtathletik-Dreikampf): Die gestoppte 50-Meter-Sprintzeit in Sekunden und die Weitsprungdistanz in Zentimetern sind echte Verhältnisskalen mit absolutem Nullpunkt – die daraus vergebene Sportnote (1–6) reduziert diese Information jedoch auf Ordinalskalenniveau!",
+        "allgemein": "Zeugnis-Durchschnittsnote: Lehrkräfte müssen wissen, dass der Notendurchschnitt (z. B. 2,33 im Übertrittszeugnis) messtheoretisch problematisch ist, weil Notenabstände (1 zu 2 vs. 4 zu 5) nicht äquidistant sind."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Messen & Skala (Bühner, 2006)", "hint": "Strukturtreue Abbildung vom empirischen Relativ ins numerische Relativ." },
+        { "term": "4 Skalenniveaus + Schulnoten", "hint": "Nominal, Ordinal (Schulnoten -> kein Mittelwert!), Intervall (äquidistant), Verhältnis (absoluter Nullpunkt)." },
+        { "term": "3 Axiome der KTT", "hint": "Existenzaxiom (T), Fehleraxiom (E mit Mittelwert 0), Verknüpfungsaxiom (X = T + E)." },
+        { "term": "Probabilistische Testtheorie (PTT / IRT)", "hint": "Personenfähigkeit & Aufgabenschwierigkeit -> bei Gleichheit Lösungswahrscheinlichkeit p = 0,5." },
+        { "term": "Vorteil & Einsatz der PTT", "hint": "Empirisch überprüfbares Modell (Rasch-Skalierung), genutzt bei PISA und Kompetenzstufentests." }
+      ],
+      "essay_recipe": {
+        "intro": "Professionelle psychologische Diagnostik unterscheidet sich vom Alltagsdenken durch streng regelgeleitetes Messen als strukturtreue Abbildung empirischer Merkmale in Zahlen (Bühner, 2006).",
+        "core_model": "Systematische Darstellung der vier Skalenniveaus (Nominal-, Ordinal-, Intervall-, Verhältnisskala) sowie Gegenüberstellung der Klassischen Testtheorie (Existenz-, Fehler-, Verknüpfungsaxiom X = T + E) und der Probabilistischen Testtheorie (IRT / Rasch-Modell).",
+        "empirics": "Anwendung der IRT/Rasch-Skalierung in internationalen Vergleichsstudien wie PISA zur gemeinsamen Skalierung von Schülerkompetenz und Aufgabenschwierigkeit.",
+        "critique_bridge": "KTT-Axiome sind empirisch nicht prüfbar und Schulnoten erreichen nur Ordinalskalenniveau -> Notwendigkeit strenger Prüfung der Hauptgütekriterien (Kap. 1.3).",
+        "school_transfer": "Kritische Reflexion von Notendurchschnitten im Grundschulzeugnis (Ordinalskalen-Problem) und bewusster Einsatz kompetenzstufenbasierter Vergleichsarbeiten (VERA-3)."
+      },
+      "all_bold_terms_covered": [
+        "Messmethodik",
+        "Methodisch",
+        "Methodologie",
+        "Systeme von Regeln",
+        "präskriptiv",
+        "Messen",
+        "strukturtreue Abbildung",
+        "empirisches Relativ",
+        "numerisches Relativ",
+        "Skala",
+        "Bühner (2006)",
+        "Skalenniveaus",
+        "Nominalskala",
+        "Ordinal- oder Rangskala",
+        "Intervallskala",
+        "äquidistant",
+        "Verhältnis- oder Proportionsskala",
+        "absoluter Nullpunkt",
+        "Klassische Testtheorie (KTT)",
+        "Existenzaxiom",
+        "wahrer Wert (T)",
+        "Fehleraxiom",
+        "Messfehler (E)",
+        "Verknüpfungsaxiom",
+        "X = T + E",
+        "Probabilistische Testtheorie",
+        "Item-Response-Theorie",
+        "Rasch-Skalierung",
+        "Fähigkeit der Person",
+        "Schwierigkeit der Aufgabe"
+      ]
+    },
+    {
+      "id": "C-01-03",
+      "domain": "C",
+      "chapter_group_num": "1",
+      "chapter_group_title": "1. Methodische Grundlagen der Diagnostik",
+      "section_num": "1.3.1–1.3.2",
+      "title": "Hauptgütekriterien I: Objektivität & Reliabilität",
+      "subtitle": "3 Objektivitätsphasen, 4 Reliabilitätsarten, Standardmessfehler & Konfidenzintervall",
+      "page_start": 12,
+      "page_end": 16,
+      "page_label": "Original-Skript S. 12–16",
+      "estimated_minutes": 20,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Unabhängig vom Prüfer (Objektivität) + frei von Zufallsfehlern messen (Reliabilität: Retest, Parallel, Split-Half, Alpha)",
+      "definitions": [
+        {
+          "term": "Objektivität",
+          "definition": "Der Grad, in dem die Ergebnisse eines Tests in Durchführung, Auswertung und Interpretation unabhängig vom Untersucher (Testleiter bzw. Lehrkraft) sind.",
+          "author_year": "Lienert, 1967",
+          "page_ref": "S. 13"
+        },
+        {
+          "term": "Reliabilität (Zuverlässigkeit)",
+          "definition": "Der Grad der Genauigkeit, mit dem ein Test ein bestimmtes Persönlichkeits- oder Verhaltensmerkmal misst – zunächst völlig unabhängig davon, ob er auch dasjenige Merkmal misst, das er zu messen vorgibt.",
+          "author_year": "Lienert, 1967",
+          "page_ref": "S. 14–15"
+        },
+        {
+          "term": "Reliabilitätskoeffizient",
+          "definition": "Ein Korrelationskoeffizient, der angibt, in welchem Maße unter gleichen Bedingungen gewonnene Messwerte über ein und denselben Probanden übereinstimmen, in welchem Maße das Testergebnis also reproduzierbar ist.",
+          "author_year": "Lienert & Raatz, 1998",
+          "page_ref": "S. 15"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Objektivität: Drei Phasen & Steigerungsmaßnahmen",
+          "page_ref": "S. 13–14",
+          "bullets": [
+            "**Grundcharakter**: Formales Kriterium; **notwendige Voraussetzung** für Reliabilität und Validität; geprüft über die Übereinstimmung (Korrelation) zweier unabhängiger Untersucher bei derselben Person.",
+            "1. **Durchführungsobjektivität**: Unabhängigkeit von Verhaltensvariationen des Untersuchers während der Erhebung -> gleiche Bedingungen/Anforderungen für alle (Instruktion, Sprechtempo beim Diktat, Bearbeitungszeit, zulässige Hilfsmittel, Lärmfreiheit, Minimum sozialer Interaktion). *Problem:* Schwer direkt messbar wegen Lerneffekten bei Zweittestung; nie zu 100 % erreichbar (besonders kritisch bei mündlichen Prüfungen).",
+            "2. **Auswertungsobjektivität**: Gleiche Leistung führt zur exakt **gleichen Punktzahl**; quantifiziert über **Inter-Rater-Korrelation** zweier Korrektoren. *Hoch* bei Multiple-Choice/Schablonen; *niedrig* bei Aufsätzen/offenen Fragen -> Erhöhung durch **Lösungsschlüssel, Kriterienkataloge, Kompetenzstufen (PISA) und Beurteilerschulung**.",
+            "3. **Interpretationsobjektivität**: Verschiedene Urteiler ziehen aus demselben numerischen Testergebnis **dieselben diagnostischen Schlüsse/Entscheidungen** (z. B. Note, Einschulung). Basis ist die Auswertungsobjektivität; Sicherung durch **feste Entscheidungsregeln, Normtabellen und lückenlose Dokumentation** (gefährdet durch Intuition und affektive Beziehungen)."
+          ]
+        },
+        {
+          "heading": "Reliabilität: Vier Bestimmungsmethoden im Vergleich",
+          "page_ref": "S. 14–16",
+          "bullets": [
+            "**Grundcharakter**: Formales Kriterium der Messgenauigkeit (Anteil wahrer Varianz an Gesamtvarianz); kann nie höher sein als die zeitliche Stabilität des Merkmals selbst.",
+            "1. **Wiederholungs- / Retestreliabilität**: Zweimalige Vorgabe desselben Tests an dieselben Personen (Zielwert **r = .80–.90**). **Dilemma des Zeitintervalls**: Zu kurz -> Erinnerungs-/Übungseffekte; zu lang -> echte Merkmalsveränderung durch Lernen/Entwicklung! Nur bei stabilen Merkmalen sinnvoll.",
+            "2. **Paralleltestreliabilität („Königsweg“)**: Vorgabe zweier homogener Parallelformen (**gleicher Mittelwert M und gleiche Standardabweichung SD**, ähnliche statt identische Items) an **dieselbe Probandengruppe**. *Vorteil:* Kein Zeitdilemma. *Achtung Prüfungsfalle:* Schulaufgabe mit Gruppe A und Gruppe B ist **KEIN** Paralleltestbeleg, da kein Kind beide Formen bearbeitet! Bei engem Merkmalsspektrum oft nur *Pseudo-Parallelformen* möglich.",
+            "3. **Split-Half- / Testhalbierungsreliabilität**: Einmalige Testung, nachträgliche Aufteilung in zwei gleichwertige Hälften (z. B. **Odd-Even**: gerade vs. ungerade Aufgaben) und Korrelation beider Hälften (mit Aufwertung auf Gesamttestlänge nach Spearman-Brown). *Problem:* Vergleichbarkeit der Hälften & Ermüdungs-/Aufmerksamkeitsschwankungen bei Erst-/Zweithälfte.",
+            "4. **Konsistenzanalyse (Interne Konsistenz, Cronbachs α)**: Interkorrelation **aller Einzelitems** untereinander (Verallgemeinerung von Split-Half auf *N* Teile). Wichtigstes Maß bei **Fragebögen**; Werte **oberhalb .70** gelten als zufriedenstellend. *Vorteil:* Nur eine Testung nötig; *Problem:* Setzt homogene (eindimensionale) Items voraus."
+          ]
+        },
+        {
+          "heading": "Standardmessfehler, Konfidenzintervall & Verbesserung der Reliabilität",
+          "page_ref": "S. 15–16",
+          "bullets": [
+            "**Standardmessfehler (`s_e`) & Konfidenzintervall**: Da kein Test perfekt reliabel ist (`Rel < 1`), streuen Messwerte mit `s_e = s_x · √(1 − Rel)` um den wahren Wert `T`. In der Einzelfalldiagnostik wird daher ein **Konfidenzintervall** angegeben (z. B. 95 %-Vertrauensbereich `X ± 1,96 · s_e`), in dem der wahre Wert mit bestimmter Sicherheit liegt.",
+            "**6 Maßnahmen zur Erhöhung der Reliabilität**: (1) Objektivität in allen Phasen steigern, (2) klar operationalisierte Erstellungs-/Auswertungskriterien, (3) **Aufgabenanalyse & Streichung wenig trennscharfer Items**, (4) **Testverlängerung** (mehr Items -> reliabler), (5) Einsatz von **Zweitbeobachtern / Zweitprüfern**, (6) Ausschalten negativer Umgebungs-/Störfaktoren."
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S013_Abb1.png",
+          "caption": "Systematischer Überblick der Hauptgütekriterien (Objektivität, Reliabilität, Validität) und Nebengütekriterien (Original-Skript S. 13)",
+          "page_ref": "S. 13"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Kausalkette der 3 Objektivitätsphasen zur Messgenauigkeit",
+        "steps_or_rows": [
+          { "label": "1. Durchführungsobjektivität", "detail": "Standardisierte Instruktion, Zeit & Bedingungen -> verhindert Testleiter-Verzerrung bei Erhebung" },
+          { "label": "2. Auswertungsobjektivität", "detail": "Lösungsschlüssel / Rubrics (Inter-Rater-Korrelation) -> gleiche Antwort = exakt gleiche Punktzahl" },
+          { "label": "3. Interpretationsobjektivität", "detail": "Normtabellen & feste Grenzwerte -> gleiche Punktzahl = gleicher diagnostischer Schluss" },
+          { "label": "=> Hohe Reliabilität", "detail": "Reproduzierbare Messung mit kleinem Standardmessfehler und engem Konfidenzintervall" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Die 4 Methoden der Reliabilitätsbestimmung auf einen Blick",
+        "headers": ["Methode", "Vorgehen (Messzeitpunkte)", "Stärke (+)", "Zentrales Problem (–)"],
+        "rows": [
+          ["Retest-Reliabilität", "1 Test zweimal an derselben Gruppe (.80–.90)", "Prüft zeitliche Stabilität direkt", "Dilemma des Zeitintervalls (Erinnerung vs. Lernen)"],
+          ["Paralleltest-Reliabilität", "2 äquivalente Formen (gleiche M & SD) an derselben Gruppe", "„Königsweg“ ohne Erinnerungs-/Zeitdilemma", "Echte Parallelformen extrem aufwändig zu konstruieren"],
+          ["Split-Half (Testhalbierung)", "1 Testung -> Aufteilung z. B. gerade/ungerade Items", "Nur 1 Erhebung nötig, ökonomisch", "Hälften-Äquivalenz & Ermüdungseffekte"],
+          ["Interne Konsistenz (Cronbachs α)", "1 Testung -> Interkorrelation aller Einzelitems (> .70)", "Standard bei Fragebögen, nutzt alle Items", "Setzt strenge Homogenität des Konstrukts voraus"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 2 (Gedächtnis & Übungseffekte)",
+          "bridge_explanation": "Episodische Gedächtnisspuren erklären, warum ein zu kurzes Retest-Intervall bei Leistungstests zu künstlich überhöhter Übereinstimmung führt."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 4 (Stabilität von Intelligenz vs. Vorwissen)",
+          "bridge_explanation": "Retestreliabilität funktioniert bei altersstabiler fluider Intelligenz im Schulalter gut, scheitert aber bei rasch wachsenden Lernständen im Erstleseunterricht."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 4 (Bewertung einer Druckgrafik-Werkarbeit): Da freie Bildwerke oft unter geringer Auswertungsobjektivität leiden, erstellt die Lehrkraft vorab einen transparenten Kriterienbogen mit 4 beobachtbaren Teilpunkten (Farbauftrag, Konturschnitt, Blattaufteilung, Sauberkeit des Drucks) – das hebt Auswertungs- und Interpretationsobjektivität massiv an.",
+        "sport": "Sport Klasse 3 (Seilspringen-Test): Durchführungsobjektivität heißt: Jedes Kind bekommt dieselbe Seillänge, denselben rutschfesten Hallenboden und exakt 30 Sekunden per Stoppuhr. Zählen zwei Lehrkräfte parallel mit (Zweitprüfer), steigt die Auswertungsobjektivität und Reliabilität.",
+        "allgemein": "Diktat Klasse 2: Gleichmäßiges Vorlesetempo, identische Pausenzeiten und ruhiger Klassenraum sichern Durchführungsobjektivität; ein vorab festgelegter Fehlerkatalog sichert Auswertungsobjektivität."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Objektivität nach Lienert (1967) + 3 Unterarten", "hint": "Unabhängigkeit vom Untersucher bei Durchführung, Auswertung (Inter-Rater) und Interpretation (Normtabellen)." },
+        { "term": "Reliabilität (Lienert, 1967; Lienert & Raatz, 1998)", "hint": "Messgenauigkeit & Reproduzierbarkeit – unabhängig von der inhaltlichen Messintention!" },
+        { "term": "Retest & Dilemma des Zeitintervalls", "hint": "Zu kurz = Erinnerung/Übung; zu lang = echte Veränderung durch Lernen." },
+        { "term": "Paralleltest ('Königsweg') vs. Gruppen-A/B-Falle", "hint": "Gleicher M & SD an derselben Stichprobe – A/B-Schulaufgabe testet NICHT dieselben Kinder mit beiden Formen!" },
+        { "term": "Split-Half, Cronbachs α (> .70) & Standardmessfehler", "hint": "Einmaltestung über Testhälften bzw. Item-Interkorrelation; Konfidenzintervall schützt vor Überinterpretation von Punktzahlen." }
+      ],
+      "essay_recipe": {
+        "intro": "Damit schulische Prüfungen und psychologische Tests faire Entscheidungen erlauben, müssen sie formalen Qualitätsmaßstäben genügen: Objektivität und Reliabilität sichern die präzise, untersucherunabhängige Messung.",
+        "core_model": "Definition und Differenzierung von Durchführungs-, Auswertungs- und Interpretationsobjektivität (Lienert, 1967) sowie der vier Reliabilitätszugänge (Retest, Paralleltest, Split-Half, Cronbachs α; Lienert & Raatz, 1998) inkl. Standardmessfehler.",
+        "empirics": "Methodischer Befund aus der Leistungsbeurteilungsforschung: Offene Aufsatzformate zeigen ohne Kriterienraster niedrige Inter-Rater-Korrelationen, während gebundene Aufgaben und Rubrics hohe Auswertungsobjektivität erreichen.",
+        "critique_bridge": "Hohe Objektivität und Reliabilität sind zwar notwendig, aber nicht hinreichend: Ein Maßband misst die Unterarmlänge objektiv und reliabel, ist als Intelligenztest jedoch völlig unbrauchbar -> Übergang zur Validität.",
+        "school_transfer": "Konkrete Maßnahmen für Grundschulproben: Standardisierte Arbeitsanweisungen, Musterlösung mit Teilpunkten, mehr kleinere Aufgaben statt einer Großaufgabe (Testlänge) und Beachtung von Konfidenzintervallen bei IQ-Werten."
+      },
+      "all_bold_terms_covered": [
+        "Gütekriterien",
+        "Hauptgütekriterien",
+        "Objektivität",
+        "Lienert (1967)",
+        "Durchführungsobjektivität",
+        "Standardisierung",
+        "Auswertungsobjektivität",
+        "Inter-Rater-Korrelation",
+        "Kompetenzstufen",
+        "Interpretationsobjektivität",
+        "Normtabellen",
+        "Reliabilität",
+        "unabhängig von der Messintention",
+        "Reliabilitätskoeffizient",
+        "Lienert & Raatz (1998)",
+        "Wiederholungs- oder Retestreliabilität",
+        "Dilemma des Zeitintervalls",
+        "Split-Half- oder Testhalbierungsreliabilität",
+        "Paralleltestreliabilität",
+        "Königsweg",
+        "Pseudo-Parallelformen",
+        "Konsistenzanalyse",
+        "interne Konsistenz",
+        "Cronbachs α",
+        "Trennschärfe",
+        "Standardmessfehler",
+        "Konfidenzintervall"
+      ]
+    },
+    {
+      "id": "C-01-04",
+      "domain": "C",
+      "chapter_group_num": "1",
+      "chapter_group_title": "1. Methodische Grundlagen der Diagnostik",
+      "section_num": "1.3.3–1.3.5",
+      "title": "Hauptgütekriterien II: Validität, Wechselbeziehungen & Nebengütekriterien",
+      "subtitle": "Inhalts-, Kriteriums- und Konstruktvalidität, Zielkonflikte der Gütekriterien & Fairness/Ökonomie",
+      "page_start": 16,
+      "page_end": 20,
+      "page_label": "Original-Skript S. 16–20",
+      "estimated_minutes": 20,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Misst der Test wirklich, was er messen soll? Objektivität -> Reliabilität -> Validität (Königskriterium!)",
+      "definitions": [
+        {
+          "term": "Validität (Gültigkeit)",
+          "definition": "Der Grad der Genauigkeit, mit dem ein Test dasjenige Persönlichkeitsmerkmal oder diejenige Verhaltensweise, das oder die er messen soll oder zu messen vorgibt, auch tatsächlich misst.",
+          "author_year": "Lienert, 1967",
+          "page_ref": "S. 16"
+        },
+        {
+          "term": "Inhaltsvalidität & Curriculare Validität",
+          "definition": "Inhaltsvalidität liegt vor, wenn die Testitems das Zielmerkmal inhaltlich-logisch repräsentativ abbilden (Expertenurteil). Curriculare Validität prüft speziell die Übereinstimmung von Testaufgaben mit den Lernzielen und Gewichtungen des Lehrplans.",
+          "author_year": "Lochner & Denzler, 2026",
+          "page_ref": "S. 17"
+        },
+        {
+          "term": "Kriteriumsvalidität (kriteriumsbezogene Validität)",
+          "definition": "Grad der korrelativen Übereinstimmung eines Testergebnisses mit einem relevanten Außenkriterium – erhoben zeitgleich (konkurrent), zukünftig im Längsschnitt (prädiktiv/Vorhersagevalidität), rückblickend (retrospektiv) bzw. als zusätzlicher Vorhersagegewinn über bestehende Verfahren hinaus (inkrementell).",
+          "author_year": "Lochner & Denzler, 2026",
+          "page_ref": "S. 17–18"
+        },
+        {
+          "term": "Konstruktvalidität (Konvergent, Diskriminant, Faktoriell)",
+          "definition": "Ausmaß, in dem ein Verfahren ein theoretisch definiertes latentes Konstrukt (z. B. Prüfungsangst, Intelligenz) tatsächlich erfasst – belegt durch hohe Korrelation mit konstruktgleichen Tests (konvergent), nahe Null liegende Korrelation mit konstruktfremden Merkmalen (diskriminant) und erwartungskonforme Faktorenstruktur (faktoriell).",
+          "author_year": "Cronbach & Meehl, 1955; Lochner & Denzler, 2026",
+          "page_ref": "S. 18–19"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Validität als wichtigstes inhaltliches Kriterium & ihre drei Hauptarten",
+          "page_ref": "S. 16–19",
+          "bullets": [
+            "**Kernaussage**: **Reliabilität ist eine notwendige, aber nicht hinreichende Bedingung für Validität** (*Klassiker-Beispiel:* Messung der Unterarmlänge zur Intelligenzbestimmung ist objektiv & reliabel, aber null valide!). Schulische Alltagsgefahr: Misst eine Matheprobe wirklich Mathekompetenz oder Lesetempo und Prüfungsangst?",
+            "1. **Inhaltsvalidität & Curriculare Validität**: Logisch-fachdidaktische Prüfung durch Experten. **Lehrplan-Dreiklang (Prüfungshit!)**: Diskrepanz zwischen **intendiertem Lehrplan** (offizielle Vorgabe), **implementiertem Lehrplan** (Materialauswahl/Unterricht der Lehrkraft) und **realisiertem Lehrplan** (was die Kinder tatsächlich gelernt haben).",
+            "2. **Kriteriumsvalidität**: Korrelation mit einem **Außenkriterium** (z. B. Rechentest ↔ Mathenote; Schuleignungstest ↔ Lehrerurteil). Zeitlich: **konkurrent** (zeitgleich), **prädiktiv / Vorhersagevalidität** (zukünftig, nur im **Längsschnitt** prüfbar, z. B. Empfehlung Kl. 4 -> Note Kl. 6 / Abitur), **retrospektiv** (Kriterium lag vor dem Test, z. B. IQ Kl. 8 ↔ Grundschulzeugnis). Ergänzend: **Inkrementelle Validität** (eigenständiger Zusatzbeitrag über andere Tests hinaus).",
+            "3. **Konstruktvalidität**: Theoretisch-empirische Einbettung eines latenten Konstrukts über **konvergente Validität** (neuer IQ-Test korreliert hoch mit etabliertem IQ-Test), **diskriminante/divergente Validität** (IQ-Test korreliert *nicht* mit Zahnarztbesuchen; niedrige Korrelation erwünscht!), **Extremgruppenvergleich** (Ängstliche erzielen höhere Werte im Prüfungsangstfragebogen) sowie **faktorielle Validität** (Items laden in Faktorenanalyse auf erwarteten Dimensionen, z. B. 5 Faktoren im **NEO-FFI / Big Five**).",
+            "**Verbesserung der Validität**: Objektivität/Reliabilität sichern, enge Passung von Unterrichts- und Testeinheiten, präzise **Operationalisierung der Lernziele**, inhaltliche Testanalyse und saubere Definition des Außenkriteriums."
+          ]
+        },
+        {
+          "heading": "Wechselbeziehungen zwischen Testgütekriterien, Zielkonflikte & Nebengütekriterien",
+          "page_ref": "S. 19–20",
+          "bullets": [
+            "**Hierarchie der Hauptgütekriterien (Urhahne, 2019)**: Durchführungs- und Auswertungsobjektivität ermöglichen Reliabilität (interne Konsistenz, Paralleltest-/Retestreliabilität); Reliabilität und Interpretationsobjektivität bilden gemeinsam die Voraussetzung für **Validität**.",
+            "**Unvereinbare Gütekriterien (Dilemmata)**: (a) **Änderungssensitivität vs. Retestreliabilität** (ein Fördertest soll Lernzuwächse sensibel abbilden, darf dann aber keine starre Retest-Stabilität zeigen!); (b) **Transparenz vs. Unverfälschbarkeit** (durchschaubare Persönlichkeits-/Motivationsfragen laden zu sozial erwünschten Antworten ein).",
+            "**Nebengütekriterien im Überblick**:",
+            "• **Normierung**: Aktuelle, repräsentative Vergleichswerte (siehe Kap. 1.4).",
+            "• **Ökonomie**: Kurze Durchführungszeit, Gruppentestbarkeit, wenig Material, schnelle/einfache Auswertung – **darf niemals über Hauptgütekriterien dominieren!**",
+            "• **Nützlichkeit & Zumutbarkeit**: Praktisches Bedürfnis ohne gleichwertige Alternative (*Nützlichkeit*) vs. geringe zeitliche, psychische und körperliche Belastung des Kindes (*Zumutbarkeit*, z. B. zentral bei Längsschnittstudien mit Grundschulkindern).",
+            "• **Vergleichbarkeit**: Existenz von Parallelformen und validitätsähnlichen Verfahren.",
+            "• **Testfairness**: Keine systematische Benachteiligung bestimmter Gruppen (z. B. **Nicht-Muttersprachler bei sprachlastigen Intelligenz- oder Sachaufgaben**; Herausforderung kulturfairer Testung)."
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S019_Abb1.png",
+          "caption": "Abb. 24.1: Hierarchische Zusammenhänge zwischen Objektivität, Reliabilität und Validität (aus Urhahne, 2019, S. 480; Original-Skript S. 19)",
+          "page_ref": "S. 19"
+        }
+      ],
+      "custom_visual": {
+        "type": "hierarchy",
+        "title": "Drei-Stufen-Pyramide der Hauptgütekriterien & typische Störfallen",
+        "steps_or_rows": [
+          { "label": "Basis: Objektivität", "detail": "Prüferunabhängigkeit (Durchführung, Auswertung, Interpretation) -> fehlt sie, streuen Punkte willkürlich" },
+          { "label": "Stufe 2: Reliabilität", "detail": "Messgenauigkeit ohne Zufallsrauschen -> notwendig, aber noch kein Beweis für inhaltliche Gültigkeit" },
+          { "label": "Spitze: Validität", "detail": "Inhaltlich gültige Messung (Inhalts-, Kriteriums-, Konstruktvalidität) -> Königskriterium jeder Diagnose" },
+          { "label": "Flankierend: Nebengütekriterien", "detail": "Fairness (Sprachhürden!), Zumutbarkeit, Nützlichkeit, Vergleichbarkeit, Normierung & Ökonomie" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Abgrenzung der Validitätsformen für Fallvignetten im Staatsexamen",
+        "headers": ["Validitätsart", "Leitfrage", "Schulisches Erkennungsbeispiel"],
+        "rows": [
+          ["Inhalts- / Curriculare Validität", "Bilden die Aufgaben den behandelten Lehrplanstoff repräsentativ ab?", "Heimat-und-Sachunterrichts-Probe prüft exakt die im LehrplanPLUS gewichteten Kompetenzen"],
+          ["Konkurrente Kriteriumsvalidität", "Stimmt der Test mit einem zeitgleich erhobenen Außenkriterium überein?", "Neuer Lesetest korreliert hoch mit der aktuellen Deutschnote der 3. Klasse"],
+          ["Prädiktive Kriteriumsvalidität", "Sagt der Test ein zukünftiges Kriterium im Längsschnitt vorher?", "Phonologisches Screening im Vorschulalter sagt Leseleistung Ende Klasse 2 vorher"],
+          ["Konvergente vs. Diskriminante Konstruktvalidität", "Korreliert er hoch mit Konstruktgleichem und niedrig mit Konstruktfremdem?", "Mathe-Test korreliert hoch mit Rechentest (konvergent), aber kaum mit Lesegeschwindigkeit (diskriminant)"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 3.3 (Cognitive Load Theory – Extraneous Load)",
+          "bridge_explanation": "Unnötig verschachtelte Textaufgaben erzeugen hohe sprachliche Extraneous Load und verletzen damit sowohl die Konstruktvalidität als auch die Testfairness in Mathematik."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 8.4 (Prüfungsangst nach Liebert & Morris, 1967)",
+          "bridge_explanation": "Blockiert hohe Worry-Belastung das Arbeitsgedächtnis in einer Zeitdruck-Prüfung, misst die Probe ungewollt Prüfungsangst statt Fachkompetenz (eingeschränkte Konstruktvalidität)."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 2 (Testfairness & Konstruktvalidität): Soll das 'Farbmisch-Verständnis' (Grund- und Mischfarben) geprüft werden, lässt die Lehrkraft die Kinder Farbkreise praktisch mischen statt komplizierte Fachtexte auszufüllen – so scheitern Kinder mit Deutsch als Zweitsprache nicht an der Sprachhürde.",
+        "sport": "Sport Klasse 1 (Zumutbarkeit & Inhaltsvalidität): Ein 20-minütiger Ausdauertest in praller Hallenhitze verletzt die Zumutbarkeit für Erstklässler; ein kindgerechter 6-Minuten-Lauf mit Musik ist zumutbar, ökonomisch als Gruppentest durchführbar und inhaltsvalide für aerobe Ausdauer.",
+        "allgemein": "Mathe-Textaufgaben Klasse 3: Sprachlich vereinfachte Aufgabenstämme sichern Konstruktvalidität und Testfairness, damit Rechenkompetenz und nicht Leseverständnis gemessen wird."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Validität (Lienert, 1967) & Unterarmlängen-Beispiel", "hint": "Misst der Test tatsächlich, was er messen soll? Reliabilität ist notwendig, aber nicht hinreichend!" },
+        { "term": "Curriculare Validität & 3 Lehrplan-Ebenen", "hint": "Intendierter (offiziell), implementierter (Unterricht/Material) und realisierter Lehrplan (Gelerntes)." },
+        { "term": "Kriteriumsvalidität (konkurrent, prädiktiv, retrospektiv, inkrementell)", "hint": "Außenkriterium zeitgleich, zukünftig im Längsschnitt, rückblickend + eigenständiger Zusatzbeitrag." },
+        { "term": "Konstruktvalidität (konvergent, diskriminant, faktoriell)", "hint": "Ähnliches hoch korreliert, Fremdes niedrig korreliert (Zahnarztbesuche!), Faktorenstruktur (NEO-FFI)." },
+        { "term": "Zielkonflikte & Nebengütekriterien", "hint": "Änderungssensitivität vs. Retest, Transparenz vs. Unverfälschbarkeit + Fairness, Zumutbarkeit, Ökonomie." }
+      ],
+      "essay_recipe": {
+        "intro": "Validität gilt als das oberste inhaltliche Qualitätskriterium diagnostischer Verfahren (Lienert, 1967), da selbst perfekt objektive und reliable Messungen wertlos bleiben, wenn sie am Zielkonstrukt vorbeigehen.",
+        "core_model": "Differenzierte Entfaltung von Inhaltsvalidität (inkl. curricularer Validität), Kriteriumsvalidität (konkurrent, prädiktiv, retrospektiv, inkrementell) und Konstruktvalidität (konvergent, diskriminant, faktoriell) sowie ihrer hierarchischen Abhängigkeit von Objektivität und Reliabilität (Urhahne, 2019).",
+        "empirics": "Veranschaulichung über faktorenanalytische Konstruktprüfung (z. B. Big Five im NEO-FFI) und Längsschnittbefunde zur prognostischen Validität von Schuleignungsdiagnosen.",
+        "critique_bridge": "Spannungsverhältnisse zwischen Gütekriterien (z. B. Retestreliabilität vs. Änderungssensitivität bei Förderdiagnostik; Ökonomie vs. Gründlichkeit) erfordern situationsangemessene Abwägungen unter Wahrung der Testfairness.",
+        "school_transfer": "Sicherung curricularer Validität und sprachsensibler Testfairness bei Grundschulproben (z. B. Entkopplung von Lesekompetenz und Rechenfähigkeit, nonverbale Verfahren wie Matrizentests bei DaZ-Kindern)."
+      },
+      "all_bold_terms_covered": [
+        "Validität",
+        "Inhaltsvalidität",
+        "Curriculare Validität",
+        "intendierter Lehrplan",
+        "implementierter Lehrplan",
+        "realisierter Lehrplan",
+        "Kriteriumsvalidität",
+        "Außenkriterium",
+        "Konvergente Validität",
+        "Diskriminante (divergente) Validität",
+        "Konkurrente (Übereinstimmungs-)Validität",
+        "Prädiktive (Vorhersage-)Validität",
+        "Vorhersagevalidität",
+        "prognostische Validität",
+        "Retrospektive Validität",
+        "Inkrementelle Validität",
+        "Konstruktvalidität",
+        "Faktorielle Validität",
+        "NEO-FFI",
+        "Urhahne (2019)",
+        "Änderungssensitivität",
+        "Unverfälschbarkeit",
+        "Nebengütekriterien",
+        "Normierung",
+        "Ökonomie",
+        "Nützlichkeit",
+        "Zumutbarkeit",
+        "Vergleichbarkeit",
+        "Testfairness"
+      ]
+    },
+    {
+      "id": "C-01-05",
+      "domain": "C",
+      "chapter_group_num": "1",
+      "chapter_group_title": "1. Methodische Grundlagen der Diagnostik",
+      "section_num": "1.4",
+      "title": "Normierung, Normwertskalen & Umrechnungsformeln",
+      "subtitle": "Äquivalenz-, Variabilitäts- (z, IQ, T, SW/Z, Stanine) und Prozentrangnormen + Examensfall „Sven“",
+      "page_start": 20,
+      "page_end": 22,
+      "page_label": "Original-Skript S. 20–22",
+      "estimated_minutes": 20,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "z = 0 -> IQ 100 | T 50 | SW/Z 100 | Stanine 5 | PR 50: Eine Glockenkurve übersetzt jeden Testwert sofort!",
+      "definitions": [
+        {
+          "term": "Normierung & Normwerte",
+          "definition": "Transformation individueller Test-Rohwerte in standardisierte Vergleichswerte anhand einer großen, repräsentativen Normstichprobe (Eichstichprobe), um Ergebnisse im Sinne der sozialen Bezugsnorm einordnen zu können.",
+          "author_year": "Lochner & Denzler, 2026; Urhahne, 2019",
+          "page_ref": "S. 20"
+        },
+        {
+          "term": "Äquivalenznormen (inkl. Klassischer IQ nach Stern)",
+          "definition": "Normen, die den Rohwert einer Person derjenigen Alters- oder Klassenstufe zuordnen, die diese Leistung im Durchschnitt erbringt (z. B. Intelligenzalter IA nach Binet; klassischer Quotient nach Stern: IQ = [IA / LA] × 100).",
+          "author_year": "Binet; Stern, 1912",
+          "page_ref": "S. 21"
+        },
+        {
+          "term": "Variabilitätsnormen (Abweichungsnormen)",
+          "definition": "Intervallskalierte Normskalen unter Normalverteilungsannahme, die angeben, um wie viele Standardabweichungen s der Rohwert xi einer Person vom Mittelwert M der Normstichprobe abweicht (Basis: z = [xi − M] / s).",
+          "author_year": "Urhahne, 2019; Lochner & Denzler, 2026",
+          "page_ref": "S. 21–22"
+        },
+        {
+          "term": "Prozentrangnormen (PR)",
+          "definition": "Verteilungsfreie Normwerte, die angeben, wie viel Prozent der Personen in der repräsentativen Normstichprobe genau denselben oder einen niedrigeren Rohwert erreicht haben.",
+          "author_year": "Lochner & Denzler, 2026",
+          "page_ref": "S. 21"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Warum Normierung? & Äquivalenznormen (Stern / Binet)",
+          "page_ref": "S. 20–21",
+          "bullets": [
+            "**Grundprinzip**: Ein nackter **Rohwert** (z. B. '32 gelöste Aufgaben') ist ohne Vergleichsmaßstab bedeutungslos -> erst die **repräsentative Normstichprobe** liefert ein Bezugssystem (**soziale Bezugsnorm**).",
+            "**Äquivalenznormen**: Vergleichen Leistung mit typischen Altersgruppen (**Intelligenzalter IA nach Binet**). **William Stern** bildete daraus den klassischen Quotienten: **`IQ = (IA / LA) × 100`**.",
+            "**Kritik an Äquivalenznormen**: Setzt eine **lineare Entwicklung** voraus (im Erwachsenenalter wächst LA weiter, IA nicht -> IQ würde künstlich sinken!) und versagt bei altersunabhängigen Persönlichkeitsmerkmalen -> heute vollständig durch **Abweichungs-IQ (Variabilitätsnorm)** ersetzt."
+          ]
+        },
+        {
+          "heading": "Variabilitätsnormen (Abweichungsnormen) & ALLE Umrechnungsformeln",
+          "page_ref": "S. 21–22",
+          "bullets": [
+            "**Basisformel `z-Wert`**: **`z = (xᵢ − M) / s`** mit Mittelwert **`M = 0`** und Standardabweichung **`SD = 1`**.",
+            "**Lineare Transformation in alle gängigen Normskalen** (Durchschnittsbereich jeweils **`M ± 1 SD`** = mittlere **68,2 %** der Normalverteilung, d. h. je **34,1 %** links und rechts vom Mittelwert):",
+            "• **Abweichungs-IQ**: **`IQ = 100 + 15 · z`** (`M = 100, SD = 15`, Durchschnitt: **`85–115`**, unterdurchschnittlich `< 85`, überdurchschnittlich `> 115`, Hochbegabung ab `130` = `+2s`).",
+            "• **T-Wert**: **`T = 50 + 10 · z`** (`M = 50, SD = 10`, Durchschnitt: **`40–60`**; sehr häufig in Schulleistungs- und Fragebogentests!).",
+            "• **Standardwert (SW) / Z-Wert (großes Z!)**: **`SW = 100 + 10 · z`** bzw. **`Z = 100 + 10 · z`** (`M = 100, SD = 10`, Durchschnitt: **`90–110`**; *Vorsicht:* kleines `z` hat `M=0, SD=1`, großes `Z` hat `M=100, SD=10`!).",
+            "• **Stanine-Werte** (*Standard Nine*, ganzzahlig von 1 bis 9): **`Stanine = 5 + 2 · z`** (`M = 5, SD ≈ 2`, Durchschnitt: **`4–6`**).",
+            "**Vor- & Nachteile**: **+** Intervallskaliert, über verschiedene Tests hinweg direkt vergleichbar; **–** setzt **Normalverteilung** voraus; Subgruppennormen (z. B. nach Klassenstufe/Geschlecht) verkleinern die jeweilige Teilstichprobe."
+          ]
+        },
+        {
+          "heading": "Prozentrangnormen (PR) & Staatsexamensfall „Sven“ (IQ 105)",
+          "page_ref": "S. 21–22",
+          "bullets": [
+            "**Prozentrang (PR)**: *Bsp.:* `PR = 98` heißt: **98 %** der Normgruppe erzielen diesen oder einen niedrigeren Wert, nur **2 %** sind besser (`PR = 50` entspricht bei Normalverteilung exakt `z = 0`, `PR ≈ 15,9` bei `z = −1`, `PR ≈ 84,1` bei `z = +1`, `PR ≈ 2,3` bei `z = −2`, `PR ≈ 97,7` bei `z = +2`).",
+            "**Vor- & Nachteile PR**: **+** **Voraussetzungsfrei** (auch bei schiefen Verteilungen gültig!) und für Eltern sofort verständlich; **–** **nur ordinalskaliert** (in der Glockenkurven-Mitte führen kleinste Rohwertunterschiede zu großen PR-Sprüngen, an den Rändern kaum -> Differenzen dürfen nicht addiert/gemittelt werden!).",
+            "**Musterlösung Staatsexamensaufgabe „Sven“ (S. 22)**: Förderschüler Sven erzielt im nonverbalen Matrizentest **IQ = 105**:",
+            "• *2.1 Einordnung*: **Durchschnittliche Intelligenz** (innerhalb `85–115`, `z = +0,33`, leicht über Mittelwert `100`, `PR ≈ 63`) in Bezug auf seine Altersnormstichprobe.",
+            "• *2.2 Schlussfolgerungen*: Keine allgemeine Intelligenzminderung/Lernbehinderung! Schwache Schulleistungen müssen andere Ursachen haben (z. B. **Sprachbarriere/DaZ** – da Matrizentest sprachfrei ist! –, isolierte **LRS/Dyskalkulie**, **Motivations-/Aufmerksamkeitsprobleme** oder Unterforderung).",
+            "• *2.3 Kritik & Verbesserung*: Lehrer Seidner beauftragte vorschnell einen Test ohne systematische **Anamnese, Verhaltensbeobachtung, Lernstandsdiagnose und präzise Hypothesenbildung**; nötig ist nun eine multimodale Abklärung (Sprachstand, standardisierter Lese-/Rechentest, Elterngespräch) und ggf. Rückschulungsperspektive."
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S022_Abb1.png",
+          "caption": "Abb. 24.2: Normalverteilungskurve mit Flächenanteilen und Umrechnungstabelle für z-Werte, T-Werte, IQ-Werte und Prozentränge (aus Urhahne, 2019, S. 481; Original-Skript S. 22)",
+          "page_ref": "S. 22"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S022_Schaubild.png",
+          "caption": "Original-Staatsexamensaufgabe „Sven“ zur Interpretation eines nonverbalen Matrizentest-Ergebnisses (IQ = 105) in der Förderschule (Original-Skript S. 22)",
+          "page_ref": "S. 22"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Anker-Umrechnungsleiter entlang der Gauß-Glockenkurve",
+        "steps_or_rows": [
+          { "label": "-2 SD (Stark unterdurchschnittlich)", "detail": "z = -2 | IQ = 70 | T = 30 | SW/Z = 80 | Stanine = 1 | PR = 2,3" },
+          { "label": "-1 SD (Untere Durchschnittsgrenze)", "detail": "z = -1 | IQ = 85 | T = 40 | SW/Z = 90 | Stanine = 3 | PR = 15,9" },
+          { "label": "Mittelwert M (Exakter Durchschnitt)", "detail": "z = 0 | IQ = 100 | T = 50 | SW/Z = 100 | Stanine = 5 | PR = 50,0" },
+          { "label": "+1 SD (Obere Durchschnittsgrenze)", "detail": "z = +1 | IQ = 115 | T = 60 | SW/Z = 110 | Stanine = 7 | PR = 84,1" },
+          { "label": "+2 SD (Weit überdurchschnittlich)", "detail": "z = +2 | IQ = 130 | T = 70 | SW/Z = 120 | Stanine = 9 | PR = 97,7" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Die drei Normarten im direkten Prüfungsvergleich",
+        "headers": ["Normart", "Bezugsgröße & Formel", "Vorteil (+)", "Nachteil (–)"],
+        "rows": [
+          ["Äquivalenznorm", "Typisches Leistungsalter (Stern: IQ = IA/LA × 100)", "Unmittelbar anschaulich im Kindesalter", "Falsche Linearitätsannahme; versagt bei Erwachsenen & Persönlichkeit"],
+          ["Variabilitätsnorm", "M und SD der Eichstichprobe (z, IQ, T, SW/Z, Stanine)", "Intervallskaliert, präzise über Tests vergleichbar", "Setzt zwingend Normalverteilung des Merkmals voraus"],
+          ["Prozentrangnorm (PR)", "% der Eichstichprobe mit gleichem oder niedrigerem Wert", "Verteilungsfrei (keine Normalverteilung nötig), leicht erklärbar", "Nur ordinalskaliert; Stauchung in der Mitte verzerrt Differenzen"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 4 (Intelligenzmodelle & Hochbegabung ab IQ 130)",
+          "bridge_explanation": "Die Hochbegabungsgrenze IQ >= 130 entspricht exakt z >= +2 (PR >= 97,7), die Grenze zur Intelligenzminderung IQ < 70 exakt z < -2 (PR < 2,3)."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 8.2 & 8.3 (LRS- und Dyskalkulie-Diagnosekriterien)",
+          "bridge_explanation": "Umschriebene Entwicklungsstörungen nutzen das Diskrepanzkriterium über T-Werte/Prozentränge (z. B. Lese-/Rechtschreibtest PR <= 10 bzw. T <= 37 bei durchschnittlichem IQ >= 85)."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 1 (Schuleingangsdiagnostik Feinmotorik / Abzeichnen): Schneidet ein Erstklässler beim visuomotorischen Abzeichentest mit T = 35 (z = -1,5, unterdurchschnittlich) ab, erklärt die Lehrkraft den Eltern behutsam den Förderbedarf für Stifthaltung und Scherenführung (Kneten, Fingerfarben, Reißen), ohne das Kind als 'unkreativ' abzustempeln.",
+        "sport": "Sport Klasse 3 (Deutscher Motorik-Test DMT 6–18): Die Testergebnisse beim Balancieren und Standweitsprung werden alters- und geschlechtsnormiert in Z-Werte (M = 100, SD = 10) und Prozentränge umgerechnet – so wird ein im Dezember geborenes Kind fair mit Gleichaltrigen statt mit fast ein Jahr älteren Klassenkameraden verglichen.",
+        "allgemein": "Elterngespräch nach standardisiertem Lesetest (ELFE II): Übersetzung von T = 42 und PR = 21 in verständliche Alltagssprache ('Im unteren Durchschnittsbereich; 21 % der Drittklässler lesen genauso schnell oder langsamer')."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Äquivalenznorm & Stern-Formel + Kritik", "hint": "IQ = (IA / LA) × 100; scheitert an nicht-linearer Entwicklung und im Erwachsenenalter." },
+        { "term": "z-Wert & alle 5 Variabilitäts-Umrechnungsformeln", "hint": "z = (x-M)/s | IQ = 100+15z | T = 50+10z | SW/Z = 100+10z | Stanine = 5+2z." },
+        { "term": "Normalverteilungs-Eckwerte (-2s, -1s, M, +1s, +2s)", "hint": "68,2 % im Durchschnittsbereich (-1s bis +1s: IQ 85–115, T 40–60, PR 15,9–84,1)." },
+        { "term": "Prozentrangnorm (Definition, + und –)", "hint": "Anteil <= eigenem Wert; verteilungsfrei & anschaulich, aber nur ordinalskaliert!" },
+        { "term": "Fallvignette „Sven“ (Matrizentest IQ 105)", "hint": "Durchschnittsbegabung sprachfrei belegt -> Ausschluss geistiger Behinderung -> Suche nach DaZ/LRS-Ursachen." }
+      ],
+      "essay_recipe": {
+        "intro": "Rohwerte aus psychologischen Tests gewinnen erst durch Normierung an einer repräsentativen Eichstichprobe diagnostische Aussagekraft im Sinne der sozialen Bezugsnorm.",
+        "core_model": "Systematischer Vergleich von Äquivalenznormen (Binet; Stern), intervallskalierten Variabilitätsnormen (z-, IQ-, T-, SW/Z- und Stanine-Skala inkl. Umrechnungsformeln entlang der Normalverteilung; Urhahne, 2019) und verteilungsfreien Prozentrangnormen.",
+        "empirics": "Fallanalytische Anwendung auf die nonverbale Intelligenzdiagnostik (z. B. Matrizentests): Ein Abweichungs-IQ von 105 (z = +0,33) widerlegt eine vermutete Minderbegabung und lenkt den Fokus auf sprachliche oder spezifische Teilleistungsfaktoren.",
+        "critique_bridge": "Soziale Normwerte zeigen zwar den relativen Rangplatz in der Altersgruppe, sagen aber nichts über konkret beherrschte Kompetenzstufen oder individuellen Lernzuwachs -> Ergänzung durch kriteriale und individuelle Bezugsnormen (Kap. 2.3).",
+        "school_transfer": "Kompetente Interpretation von T-Werten und Prozenträngen in schulischen Schulleistungs- und Motoriktests sowie elterngerechte, entstigmatisierende Rückmeldung."
+      },
+      "all_bold_terms_covered": [
+        "Normen",
+        "soziale Bezugsnorm",
+        "repräsentative Normstichprobe",
+        "Äquivalenznormen",
+        "Intelligenzalter",
+        "Binet",
+        "Stern",
+        "Variabilitätsnormen",
+        "Abweichungsnormen",
+        "z-Wert",
+        "z = (xᵢ – M) / s",
+        "IQ-Wert",
+        "IQ = 100 + 15 · z",
+        "T-Wert",
+        "T = 50 + 10 · z",
+        "Standardwert (SW)",
+        "Z-Wert",
+        "Stanine",
+        "Prozentrangnormen",
+        "Prozentrang (PR)",
+        "Matrizentest"
+      ]
+    },
+    {
+      "id": "C-01-06",
+      "domain": "C",
+      "chapter_group_num": "2",
+      "chapter_group_title": "2. Allgemeines und Begriffsklärung Pädagogischer Diagnostik",
+      "section_num": "2.1–2.3",
+      "title": "Pädagogische Diagnostik: Begriff, Strategien & Bezugsnormen",
+      "subtitle": "Lern- vs. Leistungsdiagnose, Ingenkamp & Lissmann (2008), Pawlik (1982) & die 3 Bezugsnormen",
+      "page_start": 23,
+      "page_end": 25,
+      "page_label": "Original-Skript S. 23–25",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Lernprozess verstehen + Lernergebnis prüfen: Status vs. Prozess | Selektion vs. Modifikation | Sozial – Kriterial – Individuell",
+      "definitions": [
+        {
+          "term": "Psychologische Diagnostik",
+          "definition": "Wissenschaftliches Teilgebiet zur Beantwortung von Fragestellungen, die sich auf die Beschreibung, Klassifikation, Erklärung oder Vorhersage menschlichen Verhaltens und Erlebens beziehen (historisch begründet durch James McKeen Cattell, 1860–1944).",
+          "author_year": "Schmidt-Atzert & Amelang, 2012; Cattell",
+          "page_ref": "S. 23"
+        },
+        {
+          "term": "Pädagogische Diagnostik",
+          "definition": "Umfasst alle diagnostischen Tätigkeiten, durch die bei einzelnen und in Gruppen Lernenden Voraussetzungen und Bedingungen planmäßiger Lehr- und Lernprozesse ermittelt, Lernprozesse analysiert ('Lerndiagnose') und Lernergebnisse festgestellt ('Leistungsdiagnose') werden, um individuelles Lernen zu optimieren – ergänzt um Zuweisungs-, Förder-, Steuerungs- und Qualifikationsaufgaben.",
+          "author_year": "Ingenkamp & Lissmann, 2008",
+          "page_ref": "S. 23–24"
+        },
+        {
+          "term": "Selektionsdiagnostik vs. Modifikationsdiagnostik",
+          "definition": "Selektionsdiagnostik zielt auf die Auswahl von Personen bzw. deren Zuweisung zu bestehenden Gruppen/Schulformen (Personenauslese), während Modifikationsdiagnostik Veränderungsbedarfe bei Lernbedingungen, Lehrmethoden oder Personen ermittelt (Förder-/Bedingungsanpassung).",
+          "author_year": "Pawlik, 1982",
+          "page_ref": "S. 25"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Warum Diagnostik in der Schule? Begriffswurzeln & Lern- vs. Leistungsdiagnose",
+          "page_ref": "S. 23–24",
+          "bullets": [
+            "**Alltäglicher Sprachgebrauch und Medizin vs. Psychologie**: Im Alltag/in der Medizin Feststellen von Krankheiten anhand von Symptomen; in der Psychologie (geprägt von **James McKeen Cattell, 1860–1944**) Bestimmung individueller psychischer Eigenart durch Messung interindividueller Unterschiede zur Beschreibung, Klassifikation, Erklärung und Vorhersage (**Schmidt-Atzert & Amelang, 2012**).",
+            "**Zwei schulische Grundformen**: **Leistungsdiagnose** (Feststellung von Lernergebnissen, z. B. Zensurengebung durch Proben, Tests, Referate) vs. **Lerndiagnose** (Analyse des Lernprozesses: Tiefen- vs. Oberflächenlernen, Elaborations-/Metakognitionsstrategien, individuelle Fehlvorstellungen).",
+            "**Weitere Diagnosefelder**: **Unterrichtsevaluation** (Lernwirksamkeit des eigenen Unterrichts), **Bildungsmonitoring** (Systemwirksamkeit via PISA, VERA) und **(Schul-)psychologische Diagnostik / Diagnostik der Beratungslehrkraft** (LRS, Dyskalkulie, Verhaltensauffälligkeiten, Prüfungsangst, Fähigkeitsselbstkonzept mit **SESSKO**, Lern- und Leistungsmotivation mit **SELLMO**).",
+            "**Ergänzende Fachperspektiven**: Pädagogische Diagnostik dient stets pädagogischen Entscheidungen (**Klauer**), der prozessorientierten Förder- und Entwicklungsdiagnostik (**Jäger; Petermann**) und umfasst nach **Schrader (2008)** vier Kernaufgaben: (1) Lernvoraussetzungen feststellen, (2) Ursachen abklären, (3) Lehr-Lern-Prozess überwachen, (4) Lernergebnisse bewerten (**Hesse & Latzko, 2017**: von Unterrichtsplanung über Förderausgangsniveau bis Übertritt)."
+          ]
+        },
+        {
+          "heading": "Diagnostische Strategien: Handlungsablauf, Status/Prozess & Selektion/Modifikation",
+          "page_ref": "S. 24–25",
+          "bullets": [
+            "**Nach Stellung im Handlungsablauf**:",
+            "1. **Treatmentvorbereitende Diagnose (Eingangsdiagnose)**: Vorab-Entscheidung über Ziele und Mittel (z. B. Förderkurs oder Förderschule – ja/nein?).",
+            "2. **Treatmentbegleitende Diagnose**: Laufende Prozesssteuerung, Anpassung der Förderung und Nebenwirkungskontrolle beim Kind (Parallelbegriff für Maßnahmen: **formative Evaluation**).",
+            "3. **Treatmentabschließende Diagnose**: Erfolgsbestimmung nach einer Intervention mit **Fokus auf dem einzelnen Kind** (Parallelbegriff für Methoden/Programme: **summative Evaluation**).",
+            "**Statusdiagnostik vs. Prozessdiagnostik**: Einmalige Messung relativ stabiler Merkmale bzw. eines aktuellen Ist-Zustands (z. B. IQ) vs. wiederholte Verlaufs- und Veränderungsmessung dynamischer Kompetenzen (z. B. Lesefortschritt eines Förderkindes).",
+            "**Selektions- vs. Modifikationsdiagnostik (Pawlik, 1982)**: Auslese/Zuweisung zu Schulformen vs. gezielte Anpassung von Unterrichtsmethoden oder Fördermaßnahmen."
+          ]
+        },
+        {
+          "heading": "Drei Vergleichsperspektiven: Bezugsnormen in der Diagnostik",
+          "page_ref": "S. 25",
+          "bullets": [
+            "1. **Normorientierte Diagnostik (soziale Bezugsnorm)**: Messung der Einzelleistung am Durchschnitt einer Vergleichsgruppe (*Bsp.:* altersnormierter IQ-Test, normorientierte Schulleistungstests, Ländervergleich bei PISA).",
+            "2. **Kriteriumsorientierte Diagnostik (kriteriale / sachliche Bezugsnorm)**: Abgleich mit einem **vorab inhaltlich definierten Leistungskriterium** aus Lehrplan oder Bildungsstandards – unabhängig vom Abschneiden anderer (*Bsp.:* VERA-Kompetenzstufen, lehrplanorientierte Tests, Führerscheinprüfung). **Wichtig**: Schulische Notengebung soll laut **ministerieller Vorgabe auf der kriterialen Bezugsnorm** basieren!",
+            "3. **Intraindividuelle Diagnostik (individuelle Bezugsnorm)**: Längsschnittlicher Vergleich mit dem **früheren Leistungsstand derselben Person** (*Bsp.:* individueller Lernzuwachs in der Förderung).",
+            "**Kombination & Abgrenzung**: Bezugsnormen schließen sich nicht aus (z. B. kriteriale Bewertung + individuelle Fortschrittsrückmeldung). *Hinweis:* **VERA und PISA** sind Instrumente der **Evaluation bzw. des Bildungsmonitorings**, nicht der Individualdiagnostik!"
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Strategie-Kompass entlang eines Förderzyklus in der Grundschule",
+        "steps_or_rows": [
+          { "label": "1. Vor Förderung (Treatmentvorbereitend)", "detail": "Ausgangsniveau & Lernvoraussetzungen klären (Statusdiagnose -> Modifikationsziel nach Pawlik)" },
+          { "label": "2. Während Förderung (Treatmentbegleitend)", "detail": "Lernprozess & Fehlkonzepte laufend prüfen (Lerndiagnose / Prozessdiagnostik / individuell)" },
+          { "label": "3. Nach Förderung (Treatmentabschließend)", "detail": "Erfolg beim einzelnen Kind bilanzieren (Leistungsdiagnose: kriterial + individuell kombiniert)" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Die drei Bezugsnormen im Grundschulalltag",
+        "headers": ["Bezugsnorm", "Vergleichsmaßstab", "Typisches Einsatzfeld", "Motivationale Wirkung"],
+        "rows": [
+          ["Sozial (normorientiert)", "Durchschnitt der Klasse / Altersgruppe", "Normierte Schulleistungstests, IQ-Tests", "Fördert Wettbewerb; demotiviert Leistungsschwache bei Dauervergleich"],
+          ["Sachlich-kriterial", "Vorab definiertes Lernziel aus dem Lehrplan", "Schulische Notengebung (ministerielle Vorgabe!), VERA", "Transparente Sachrückmeldung über erreichte Kompetenzstufen"],
+          ["Individuell (intraindividuell)", "Eigener früherer Leistungsstand (Längsschnitt)", "Lernentwicklungsgespräche, Förderunterricht", "Stärkt Anstrengungsattribution, Selbstkonzept & Lernfreude (Rheinberg)"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 5.4 (Bezugsnormorientierung nach Rheinberg & Attribution nach Weiner)",
+          "bridge_explanation": "Individuelle Bezugsnorm in der Lerndiagnose fördert internale, variable Anstrengungsattributionen und schützt vor erlernter Hilflosigkeit."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 6 (Entwicklung des Fähigkeitsselbstkonzepts im Grundschulalter)",
+          "bridge_explanation": "Der Wechsel von individueller zu sozialer Bezugsnorm ab Klasse 2/3 lässt das anfangs sehr hohe Fähigkeitsselbstkonzept vieler Grundschulkinder absinken."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 2 (Skizzenbuch / Kunstmappe): Statt Kinder sozial miteinander zu vergleichen ('Wer malt das schönste Pferd?'), verbindet die Lehrkraft kriteriale Diagnostik (Wurden Vorder- und Hintergrund gestaltet?) mit individueller Prozessdiagnostik ('Schau mal, wie viel differenzierter deine Pinselstriche seit September geworden sind!').",
+        "sport": "Sport Klasse 3 (Schwimmunterricht): Zu Beginn erfolgt eine treatmentvorbereitende Diagnose (Wassergewöhnung vs. Brustbeinschlag). Während der Einheit beobachtet die Lehrkraft treatmentbegleitend die Atemtechnik (Modifikationsdiagnostik), am Ende steht das sachlich-kriteriale Seepferdchen-/Freischwimmer-Abzeichen.",
+        "allgemein": "Lernentwicklungsgespräch (LEG) Klasse 1–3 in Bayern: Gezielte Kombination aus sachlich-kriterialen Kompetenzrastern und individueller Lernfortschrittswürdigung."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Psychologische Diagnostik (Cattell; Schmidt-Atzert & Amelang, 2012)", "hint": "Beschreibung, Klassifikation, Erklärung und Vorhersage menschlichen Verhaltens und Erlebens." },
+        { "term": "Pädagogische Diagnostik (Ingenkamp & Lissmann, 2008)", "hint": "Lernvoraussetzungen, Lerndiagnose (Prozess) & Leistungsdiagnose (Ergebnis) zur Lernoptimierung + Zuweisung/Qualifikation." },
+        { "term": "3 Zeitpunkte im Handlungsablauf", "hint": "Treatmentvorbereitend, treatmentbegleitend (vgl. formativ) und treatmentabschließend (Fokus beim Kind!)." },
+        { "term": "Status- vs. Prozess- & Selektions- vs. Modifikationsdiagnostik (Pawlik, 1982)", "hint": "Ist-Zustand vs. Verlauf | Personenauslese vs. Anpassung von Förderung/Lehrmethoden." },
+        { "term": "3 Bezugsnormen + ministerielle Vorgabe", "hint": "Sozial, kriterial (Vorgabe für Schulnoten!) und individuell + VERA/PISA als Monitoring abgrenzen." }
+      ],
+      "essay_recipe": {
+        "intro": "Pädagogische Diagnostik im Schulalltag geht weit über bloße Notengebung hinaus: Nach Ingenkamp & Lissmann (2008) verknüpft sie Leistungs- und Lerndiagnose, um individuelles Lernen systematisch zu optimieren.",
+        "core_model": "Systematisierung diagnostischer Strategien nach Handlungszeitpunkt (vorbereitend, begleitend, abschließend), Veränderungsfokus (Status vs. Prozess), Zielsetzung nach Pawlik (1982: Selektion vs. Modifikation) und Bezugsnorm (sozial, kriterial, individuell).",
+        "empirics": "Befunde der Motivationsforschung (vgl. Rheinberg) zeigen, dass eine Kombination aus kriterialer und individueller Bezugsnorm Lernfreude und realistische Zielsetzung deutlich günstiger beeinflusst als rein soziale Vergleiche.",
+        "critique_bridge": "Im Schulalltag steht die Lehrkraft im Rollenkonflikt zwischen pädagogischer Modifikations-/Förderfunktion und gesellschaftlicher Selektions-/Qualifikationsfunktion.",
+        "school_transfer": "Praxisnahe Umsetzung in der Grundschule durch diagnostische Eingangsstandserhebungen vor neuen Einheiten, fehleranalytische Lerndiagnosen im Unterrichtsverlauf und förderorientierte Rückmeldungen."
+      },
+      "all_bold_terms_covered": [
+        "Diagnostik",
+        "James McKeen Cattell (1860–1944)",
+        "Schmidt-Atzert & Amelang (2012)",
+        "Leistungsdiagnose",
+        "Lerndiagnose",
+        "Leistungsdiagnostik",
+        "Lerndiagnostik",
+        "Unterrichtsevaluation",
+        "Bildungsmonitoring",
+        "SESSKO",
+        "SELLMO",
+        "Pädagogische Diagnostik",
+        "Ingenkamp & Lissmann (2008)",
+        "Klauer",
+        "Jäger",
+        "Petermann",
+        "Schrader (2008)",
+        "Hesse & Latzko (2017)",
+        "Treatmentvorbereitende Diagnose",
+        "Treatmentbegleitende Diagnose",
+        "Treatmentabschließende Diagnose",
+        "Statusdiagnostik",
+        "Prozessdiagnostik",
+        "Selektionsdiagnostik",
+        "Modifikationsdiagnostik",
+        "Pawlik (1982)",
+        "Normorientierte Diagnostik",
+        "Kriteriumsorientierte Diagnostik",
+        "kriteriale Bezugsnorm",
+        "Intraindividuelle Diagnostik",
+        "individuelle Bezugsnorm"
+      ]
+    },
+    {
+      "id": "C-01-07",
+      "domain": "C",
+      "chapter_group_num": "2",
+      "chapter_group_title": "2. Allgemeines und Begriffsklärung Pädagogischer Diagnostik",
+      "section_num": "2.4–2.6",
+      "title": "Diagnostik vs. Evaluation, Alltags- vs. Profidiagnostik & Prozessphasen",
+      "subtitle": "Abgrenzung, 8 Kriterien professioneller Diagnostik & das 6-Schritte-Ablaufmodell (Hesse & Latzko / Lukesch)",
+      "page_start": 25,
+      "page_end": 28,
+      "page_label": "Original-Skript S. 25–28",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Erst sauber diagnostizieren, DANN fördern! Problem -> Frage -> Hypothesen -> Methode -> Prüfung -> Urteil & Förderung",
+      "definitions": [
+        {
+          "term": "Evaluation (vs. Diagnostik)",
+          "definition": "Alle Formen der zielgerichteten und zweckorientierten Festsetzung des Wertes bzw. der Wirksamkeit einer Sache (Objekte, Einrichtungen, Initiativen, Maßnahmen) – in Abgrenzung zur Diagnostik, die Merkmale einzelner Personen beurteilt.",
+          "author_year": "Köller & Möller, 2007",
+          "page_ref": "S. 25–26"
+        },
+        {
+          "term": "Alltagsdiagnostik vs. Professionelle Diagnostik",
+          "definition": "Alltagsdiagnostik erfolgt spontan, unbewusst und subjektiv-theoriegeleitet zur schnellen Alltagsbewältigung. Professionelle Diagnostik arbeitet explizit theoriegeleitet, operationalisiert, standardisiert, gütekriteriengeprüft und norm-/vergleichsbasiert unter Einbezug der Randbedingungen.",
+          "author_year": "Hesse & Latzko, 2017",
+          "page_ref": "S. 26–27"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Scharfe Abgrenzung: Diagnostik vs. Evaluation",
+          "page_ref": "S. 25–26",
+          "bullets": [
+            "**Kernunterschied am Beurteilungsobjekt**: **Diagnostik** trifft datengestützte Aussagen zur Beurteilung von **Personenmerkmalen**; **Evaluation** bewertet die Wirksamkeit von **Methoden, Maßnahmen, Interventionen, Einrichtungen und Bildungssystemen** (**Köller & Möller, 2007**).",
+            "**Formative vs. summative Evaluation**: **Formativ** = prozessbegleitende Bewertung zur laufenden Optimierung (*Bsp. SC-Staatsexamensaufgabe S. 26:* Halbjahres-Fragebogen der Lehrkraft zur Unterrichtszufriedenheit -> richtige Antwort **b) formative Evaluation**!); **summativ** = abschließende Bilanzierung einer Methode."
+          ]
+        },
+        {
+          "heading": "Alltagsdiagnostik vs. Professionelle Diagnostik (Hesse & Latzko, 2017)",
+          "page_ref": "S. 26–27",
+          "bullets": [
+            "**Alltagsdiagnostik**: Spontan, unbewusst, auf **subjektiven Theorien** beruhend, wird selten hinterfragt -> im Privatleben ökonomisch, für **pädagogische Entscheidungen jedoch fehleranfällig und unzureichend**.",
+            "**8 Qualitätsmerkmale professioneller Diagnostik**: (1) **Theoretische Präzisierung** des Merkmals, (2) **Operationalisierung** der Konstrukte (Überführung in messbare Indikatoren), (3) Klärung **messtheoretischer Annahmen**, (4) Präzisierung der **Messmethoden**, (5) **Einhaltung der Gütekriterien**, (6) **Standardisierung** des Vorgehens, (7) Bereitstellung von **Vergleichsmaßstäben** (Normen/Kriterien), (8) **Analyse der Randbedingungen** sowie abschließende **Verifizierung** auf Plausibilität, Vollständigkeit und Verwertbarkeit."
+          ]
+        },
+        {
+          "heading": "Phasenmodelle des diagnostischen Prozesses",
+          "page_ref": "S. 27–28",
+          "bullets": [
+            "**3-Phasen-Modell (Ziegler & Bühner, 2012, in Urhahne, 2019)**:",
+            "1. **Planungsphase**: Fragestellung festlegen, Hypothesen bilden, geeignete Verfahren (Tests, Beobachtung, Interview) auswählen.",
+            "2. **Durchführungsphase**: Geplante Verfahrensanwendung, Rohdatenauswertung, Umrechnung in Normwerte.",
+            "3. **Integrationsphase**: Hypothesenprüfung anhand der Daten, abschließendes Urteil (ggf. Rückschleife mit neuen Hypothesen).",
+            "**6-Schritte-Modell im Schulalltag (Hesse & Latzko, 2017, nach Lukesch, 1998)** am Beispiel *viele Fehler im ungeübten Diktat*:",
+            "1. **Problem** wahrnehmen (extrem viele Rechtschreibfehler).",
+            "2. **Fragestellung** präzisieren (Liegt eine LRS vor?).",
+            "3. **Hypothesenbildung**: Differenzierung in **Feststellungshypothesen** (*Liegt das Problem überdauernd vor?*) und **Erklärungshypothesen** (*Wie kam es zustande – z. B. phonologisches Defizit, Seh-/Hörproblem, mangelnde Übung?*).",
+            "4. **Methodenauswahl** (Gespräch, Beobachtung, standardisierter Rechtschreib- & Intelligenztest).",
+            "5. **Hypothesenüberprüfung** (Testdurchführung z. B. durch Beratungslehrkraft / Schulpsychologie).",
+            "6. **Diagnostisches Urteil**: (a) **Gutachten** + (b) **pädagogische Schlussfolgerungen** (gezielte Förderung, Beratung, Intervention).",
+            "**Zentrales Fazit**: Das diagnostische Urteil ist **kein Endpunkt**, sondern die fundierte Basis zur Behebung von Ist-Soll-Diskrepanzen durch **passgenaue Förderung**!"
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Evaluationsstudien zum Aufbau diagnostischer Kompetenzen im Lehramt",
+          "authors_year": "Gottlebe, Hesse & Latzko, 2015 (zit. nach Hesse & Latzko, 2017)",
+          "page_ref": "S. 28",
+          "setup": "Untersuchung des diagnostischen Vorgehens von Lehramtsstudierenden und aktiven Lehrkräften in Diagnostikseminaren anhand schulischer Problemfälle.",
+          "finding": "Viele Studierende und Lehrkräfte nehmen das schulische Problem zwar zutreffend wahr, springen danach aber unprofessionell sofort in Interventionsmaßnahmen, ohne das Problem zuvor hypothesengeleitet diagnostisch abzuklären.",
+          "implication": "Zwingende Einhaltung des mehrschrittigen diagnostischen Prozesses ('Erst verstehen und Hypothesen prüfen, dann fördern!'), um wirkungslose Fehlförderung zu vermeiden."
+        }
+      ],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S026_Schaubild.png",
+          "caption": "Staatsexamens-Single-Choice-Aufgabe zur formativen Unterrichtsevaluation & Gegenüberstellung Alltagsdiagnostik vs. Professionelle Diagnostik nach Hesse & Latzko (2017) (Original-Skript S. 26)",
+          "page_ref": "S. 26"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "6-Schritte-Regelkreis des diagnostischen Urteilens (Hesse & Latzko, 2017 / Lukesch, 1998)",
+        "steps_or_rows": [
+          { "label": "1. Problem & 2. Fragestellung", "detail": "Auffälligkeit konkretisieren und in eine präzise diagnostische Frage übersetzen" },
+          { "label": "3. Hypothesenbildung", "detail": "Feststellungshypothesen (Was liegt vor?) + Erklärungshypothesen (Warum liegt es vor?)" },
+          { "label": "4. Methodenauswahl & 5. Prüfung", "detail": "Multimodal: Gespräch, systematische Beobachtung & normierte Tests gezielt durchführen" },
+          { "label": "6. Urteil -> Förderung", "detail": "Befunde integrieren (Gutachten) und passgenaue pädagogische Intervention ableiten" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Alltagsdiagnostik vs. Professionelle Diagnostik (nach Hesse & Latzko, 2017)",
+        "headers": ["Dimension", "Alltagsdiagnostik", "Professionelle Diagnostik"],
+        "rows": [
+          ["Steuerung & Bewusstheit", "Spontan, beiläufig, unbewusst", "Geplant, reflektiert, standardisiert"],
+          ["Wissensbasis", "Subjektive Alltagstheorien & Bauchgefühl", "Wissenschaftliche Theorien & operationalisierte Konstrukte"],
+          ["Qualitätssicherung", "Wird kaum hinterfragt; hohe Fehlergefahr", "Gütekriterien, Vergleichsmaßstäbe, Randbedingungsanalyse & Verifizierung"],
+          ["Pädagogische Eignung", "Unzureichend für begründete Schulentscheidungen", "Verbindliche Grundlage für Noten, Förderung & Laufbahnberatung"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 5 (Evaluation) & Kap. 8 (Lernstörungen LRS/Dyskalkulie)",
+          "bridge_explanation": "Kap. 5 vertieft die Systematik der Evaluation; das 6-Schritte-Modell bildet zugleich den exakten Bauplan jeder Fallvignetten-Lösung zu LRS, Dyskalkulie oder ADHS im Staatsexamen!"
+        },
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 4.3 (Selbstreguliertes Lernen nach Zimmerman)",
+          "bridge_explanation": "Wie Lernende im SRL-Zyklus (Planung -> Ausführung -> Reflexion) vorgehen, folgt auch die professionell diagnostizierende Lehrkraft dem Zyklus aus Planung, Durchführung und Integration."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 1 (Kind verweigert hartnäckig das Ausschneiden): Statt vorschnell 'Mehr Bastelblätter als Hausaufgabe!' anzuordnen (Fehler nach Gottlebe et al., 2015), bildet die Lehrkraft erst Erklärungshypothesen (Linkshändigkeit mit Rechtshänder-Schere? Feinmotorische Schwäche? Sehproblem?) und prüft diese gezielt.",
+        "sport": "Sport Klasse 2 (Halbjahres-Evaluation der Bewegungslandschaft): Fragt die Lehrkraft ihre Klasse nach 4 Wochen per Daumen-Abfrage, ob die Aufbauten im Gerätturnen angstfrei und spannend waren, um die nächsten Stunden anzupassen, betreibt sie klassische formative Unterrichtsevaluation.",
+        "allgemein": "Auffällige Rechtschreibfehler Ende Klasse 2: Konsequentes Durchlaufen aller 6 Prozessschritte unter Einbezug von Hör-/Sehscreening und Beratungslehrkraft vor Start eines spezifischen Trainings."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Diagnostik vs. Evaluation (Köller & Möller, 2007)", "hint": "Personenmerkmale beurteilen vs. Wert/Wirksamkeit von Maßnahmen, Schulen oder Systemen bewerten." },
+        { "term": "Alltags- vs. professionelle Diagnostik (Hesse & Latzko, 2017)", "hint": "Spontan/subjektive Theorien vs. Operationalisierung, Standardisierung, Gütekriterien, Randbedingungen, Verifizierung." },
+        { "term": "3 Phasen nach Ziegler & Bühner (2012)", "hint": "Planungsphase -> Durchführungsphase -> Integrationsphase." },
+        { "term": "6 Schritte nach Hesse & Latzko (2017) / Lukesch (1998)", "hint": "Problem, Fragestellung, Feststellungs- & Erklärungshypothesen, Methodenauswahl, Prüfung, Urteil + Förderung." },
+        { "term": "Befund Gottlebe, Hesse & Latzko (2015)", "hint": "Lehrkräfte/Studierende erkennen Probleme, springen aber vorschnell ohne exakte Diagnose direkt in die Intervention." }
+      ],
+      "essay_recipe": {
+        "intro": "Professionelles Lehrerhandeln verlangt die strikte Trennung von spontaner Alltagsdiagnostik und wissenschaftlich fundierter pädagogischer Diagnostik sowie deren Abgrenzung von der Evaluation (Köller & Möller, 2007).",
+        "core_model": "Kontrastierung von Alltags- und professioneller Diagnostik (Hesse & Latzko, 2017) sowie Entfaltung des diagnostischen Prozesses nach Ziegler & Bühner (2012) und dem 6-stufigen Ablaufmodell nach Lukesch (1998) / Hesse & Latzko (2017).",
+        "empirics": "Gottlebe, Hesse & Latzko (2015) belegen empirisch die Gefahr eines vorschnellen Interventionsaktionismus ohne vorangehende hypothesengeleitete Ursachenabklärung.",
+        "critique_bridge": "Im zeitknappen Unterrichtsalltag lassen sich nicht alle Entscheidungen formell testen -> umso wichtiger ist eine geschulte diagnostische Kompetenz der Lehrkraft (Kap. 3).",
+        "school_transfer": "Anwendung des 6-Schritte-Modells bei Lernschwierigkeiten in der Grundschule (Trennung von Feststellungs- und alternativen Erklärungshypothesen, Kooperation mit Schulpsychologie) zur Ableitung passgenauer Förderung."
+      },
+      "all_bold_terms_covered": [
+        "Evaluation",
+        "Köller & Möller (2007)",
+        "Summative Evaluation",
+        "Formative Evaluation",
+        "Alltagsdiagnostik",
+        "Professionelle Diagnostik",
+        "Operationalisierung",
+        "Verifizierung",
+        "Ziegler & Bühner (2012)",
+        "Planungsphase",
+        "Durchführungsphase",
+        "Integrationsphase",
+        "Lukesch (1998)",
+        "Feststellungshypothesen",
+        "Erklärungshypothesen",
+        "Diagnostisches Urteil",
+        "Gottlebe, Hesse & Latzko (2015)"
+      ]
+    },
+    {
+      "id": "C-01-08",
+      "domain": "C",
+      "chapter_group_num": "3",
+      "chapter_group_title": "3. Diagnostische Kompetenz bei Lehrkräften",
+      "section_num": "3.1–3.2",
+      "title": "Diagnostische Kompetenz, Komponenten & Brunswiks Linsenmodell",
+      "subtitle": "Weinert (2001), Schrader & Helmke (Rang, Niveau, Streuung) sowie Klebers Merkmalslinsen (1992)",
+      "page_start": 28,
+      "page_end": 30,
+      "page_label": "Original-Skript S. 28–30",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Distales Merkmal -> Proximale Hinweise -> Lehrerurteil: Durch welche Linse blickt die Lehrkraft auf das Kind?",
+      "definitions": [
+        {
+          "term": "Kompetenz (allgemeiner Kompetenzbegriff)",
+          "definition": "Die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können.",
+          "author_year": "Weinert, 2001",
+          "page_ref": "S. 28"
+        },
+        {
+          "term": "Diagnostische Kompetenz",
+          "definition": "Die Fähigkeit eines Urteilers (z. B. einer Lehrkraft), Personen sowie Aufgabenmerkmale zutreffend zu beurteilen; sie bildet die Grundlage für die Genauigkeit diagnostischer Urteile – messbar über Rangordnungs-, Niveau- und Streuungskomponente.",
+          "author_year": "Schrader, 2010; Schrader & Helmke, 1987",
+          "page_ref": "S. 28–31"
+        },
+        {
+          "term": "Linsenmodell der sozialen Urteilsbildung",
+          "definition": "Wahrnehmungs- und Urteilsmodell, nach dem Urteiler ein nicht direkt beobachtbares Konstrukt (distales Merkmal, z. B. Intelligenz) nur indirekt über beobachtbare Verhaltensindikatoren (proximale Merkmale) erschließen können.",
+          "author_year": "Brunswik, 1956; Kleber, 1992",
+          "page_ref": "S. 29–30"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Begriff, Ebenen, Dimensionen & 3 Komponenten diagnostischer Kompetenz",
+          "page_ref": "S. 28–29",
+          "bullets": [
+            "**Grundlage**: Kompetenz nach **Weinert (2001)** vereint Wissen/Können mit motivational-volitionaler Bereitschaft; **diagnostische Kompetenz (Schrader, 2010)** trennt reflektierte, explizite Urteile professioneller Diagnostik von beiläufigen, impliziten Alltagsurteilen (**Hesse & Latzko, 2011**).",
+            "**Drei Komponenten der Urteilsgenauigkeit (Schrader & Helmke)**:",
+            "1. **Rangordnungskomponente**: Wie genau erkennt die Lehrkraft die relative Leistungsreihenfolge innerhalb der Klasse (Korrelation Lehrerurteil ↔ Testwert)?",
+            "2. **Niveaukomponente**: Wie realistisch schätzt sie das durchschnittliche Leistungsniveau bzw. die Aufgabenschwierigkeit ein (Über- vs. Unterschätzung)?",
+            "3. **Streuungskomponente**: Wie zutreffend erfasst sie die Leistungsheterogenität (Spannweite/Varianz zwischen starken und schwachen Kindern)?",
+            "**Drei Anforderungsebenen (Hesse & Latzko, 2017)**: (1) **Individuelle Ebene** (Lernvoraussetzungen erkennen -> fördern/fordern), (2) **Klassenebene** (interindividuelle Unterschiede erfassen), (3) **Institutionelle Ebene** (faire Zeugnisse, Berichte, Übergangsempfehlungen).",
+            "**Fünf Dimensionen diagnostischer Urteile (Helmke, 2007)**:",
+            "• **Personenmerkmale** (Intelligenz, Vorwissen, Selbstkonzept, Motivation, Prüfungsangst) vs. **Aufgabenmerkmale** (Schwierigkeitsgrad, typische Fehlermuster).",
+            "• **Fachlicher Bezug** (Lesen, Rechnen) vs. **überfachlicher Bezug** (Lernstrategien, Problemlösen, Sozialkompetenz).",
+            "• **Status** (Ist-Zustand als Basis für **Wygotskis Zone der nächsten Entwicklung**) vs. **Potential** (Entwicklungsmöglichkeiten unter günstigen Bedingungen).",
+            "• **Individuum vs. Klasse** (ständiger Perspektivenwechsel für Unterrichtstempo & Differenzierung) sowie **Bezugsnorm** (sozial, individuell, kriterial)."
+          ]
+        },
+        {
+          "heading": "Das Linsenmodell nach Brunswik (1956) & Ausarbeitung nach Kleber (1992)",
+          "page_ref": "S. 29–30",
+          "bullets": [
+            "**Grundmechanismus**: Da **distale Merkmale** (latente Konstrukte wie Intelligenz, Motivation, Angst) unsichtbar sind, bündelt die Lehrkraft wie durch eine Sammellinse beobachtbare **proximale Merkmale** (Hinweisreize) zu einem **Lehrer-Urteil**.",
+            "**Psychologisch fundierte Merkmalslinse für Intelligenz (Kleber, 1992, S. 131)**: Nutzt theorierelevante, valide Indikatoren -> *sprachliche Gewandtheit, rechnerische Leistungen, Fähigkeit zum abstrakten Denken, gute Erinnerungsleistung, originelle produktive Einfälle, Planung und kurze Dauer bei der Problemlösung* -> **hohe Urteilsgenauigkeit**.",
+            "**Psychologisch NICHT fundierte Merkmalslinse (Kleber, 1992, S. 132)**: Nutzt implizite Alltagsklischees -> *wacher Gesichtsausdruck, Durchsetzungsvermögen, ordentliche/saubere Arbeitsweise, 'hohe Stirn', verständige ordentliche Eltern, geordnetes Elternhaus, brave Hausaufgabenerledigung* -> **massive Fehlurteile**!"
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S030_Abb1.png",
+          "caption": "Abb. 1.4: Theorierelevante, psychologisch fundierte Merkmals-Linse zur Beurteilung von Intelligenz (nach Kleber, 1992, S. 131; Original-Skript S. 30)",
+          "page_ref": "S. 30"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S030_Abb2.png",
+          "caption": "Abb. 1.5: Psychologisch nicht fundierte, implizite Merkmals-Linse zur Beurteilung von Intelligenz (nach Kleber, 1992, S. 132; Original-Skript S. 30)",
+          "page_ref": "S. 30"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Brunswiks Linsenmodell (1956) in 3 Stationen",
+        "steps_or_rows": [
+          { "label": "Links: Distales Merkmal", "detail": "Unsichtbares Schülerkonstrukt (z. B. fluide Intelligenz, Prüfungsangst, Fachinteresse)" },
+          { "label": "Mitte: Linse proximaler Hinweise", "detail": "Sichtbares Schülerverhalten -> Fundiert (abstraktes Problemlösen) vs. Nicht fundiert (Ordentlichkeit, Elternhaus)" },
+          { "label": "Rechts: Beurteiler-Instanz", "detail": "Theoriewissen der Lehrkraft entscheidet über Auswahl/Gewichtung der Hinweise -> Genauigkeit des Lehrerurteils" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Psychologisch fundierte vs. nicht fundierte Merkmalslinse bei Intelligenz (Kleber, 1992)",
+        "headers": ["Merkmalstyp", "Psychologisch fundierte Linse (valide)", "Psychologisch NICHT fundierte Linse (implizit-verzerrt)"],
+        "rows": [
+          ["Kognitive Prozesse", "Abstraktes, schlussfolgerndes Denken; Erinnerungsleistung", "Wacher Gesichtsausdruck; 'hohe Stirn'"],
+          ["Problemlöseverhalten", "Originelle produktive Einfälle; strategische Planung & Tempo", "Ordentliche, saubere Heftführung; brave Hausaufgabenerledigung"],
+          ["Sozialer Hintergrund", "Irrelevant für das Konstrukt Intelligenz", "Geordnetes Elternhaus; verständige Eltern; Durchsetzungsvermögen"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 2.2 (Wygotski: Zone der nächsten Entwicklung & Scaffolding)",
+          "bridge_explanation": "Helmkes Unterscheidung von Status- und Potenzialdiagnose liefert genau die Basis, um Kinder in ihrer Zone der nächsten Entwicklung passgenau zu unterstützen."
+        },
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 6 (Unterrichtsqualität & Adaptivität nach Helmke)",
+          "bridge_explanation": "Nur wer Personen- UND Aufgabenmerkmale (Aufgabenschwierigkeit!) zutreffend einschätzt, kann im Unterricht adaptive Lernangebote gestalten."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Kreativitäts- und Begabungseinschätzung): Mit einer nicht fundierten Linse hält die Lehrkraft nur das ordentlich ausmalende Kind für begabt; mit einer psychologisch fundierten Linse achtet sie auf originelle Bildideen, ungewöhnliche Perspektiven und experimentelle Problemlösungen beim Bauen.",
+        "sport": "Sport Klasse 2 (Spielintelligenz im Ballspiel): Distales Merkmal 'taktisches Spielverständnis' wird über fundierte proximale Indikatoren erfasst (Freilaufen in freie Räume, vorausschauendes Abspielen) statt über bloße Lautstärke beim Rufen oder sportliche Markenkleidung.",
+        "allgemein": "Elternsprechtag & Übertritt: Bewusste Selbstprüfung der eigenen Linse – bewerte ich gerade die tatsächliche Denkfähigkeit des Kindes oder die elterliche Unterstützung bei den Hausaufgaben?"
+      },
+      "laut_erzaehl_check": [
+        { "term": "Kompetenz (Weinert, 2001) & Diagnostische Kompetenz (Schrader, 2010)", "hint": "Kognitive Fähigkeiten + motivational/volitionale Bereitschaften; Fähigkeit zur zutreffenden Personen-/Aufgabenbeurteilung." },
+        { "term": "3 Komponenten (Rangordnung, Niveau, Streuung)", "hint": "Reihenfolge in der Klasse, mittleres Leistungsniveau und Leistungsbreite zutreffend einschätzen." },
+        { "term": "3 Ebenen (Hesse & Latzko, 2017) & 5 Dimensionen (Helmke, 2007)", "hint": "Individuell/Klasse/Institution | Person vs. Aufgabe, fachlich vs. überfachlich, Status vs. Potential, Individuum vs. Klasse, Bezugsnorm." },
+        { "term": "Brunswiks Linsenmodell (1956): Distal vs. Proximal", "hint": "Verborgenes Konstrukt wird indirekt über beobachtbare Hinweisreize erschlossen." },
+        { "term": "Fundierte vs. nicht fundierte Linse nach Kleber (1992)", "hint": "Je mind. 3 konkrete Beispiele für valide Intelligenzindikatoren vs. Scheinindikatoren nennen." }
+      ],
+      "essay_recipe": {
+        "intro": "Ausgehend von Weinerts (2001) Kompetenzbegriff bezeichnet diagnostische Kompetenz die professionelle Fähigkeit von Lehrkräften, Lernende und Aufgaben zutreffend einzuschätzen (Schrader, 2010).",
+        "core_model": "Systematisierung über die drei Anforderungsebenen (Hesse & Latzko, 2017), fünf Urteilsdimensionen (Helmke, 2007), drei Genauigkeitskomponenten (Rang, Niveau, Streuung) sowie Erklärung des Urteilsprozesses durch Brunswiks Linsenmodell (1956) in der Ausarbeitung von Kleber (1992).",
+        "empirics": "Empirische Urteilsforschung zeigt, dass unreflektierte Urteile stark durch irrelevante proximale Oberflächenmerkmale (Ordentlichkeit, soziale Herkunft) verzerrt werden.",
+        "critique_bridge": "Das Linsenmodell verdeutlicht theoretisch, warum subjektive Alltagstheorien in die Irre führen -> wie gut Lehrkräfte empirisch tatsächlich urteilen, klären Metaanalysen und Schulstudien (Kap. 3.3).",
+        "school_transfer": "Gezielte Schulung einer theorierelevanten Merkmalslinse für Grundschullehrkräfte (klare Beobachtungskriterien für kognitive und motivationale Merkmale statt Bewertung von Heftsauberkeit oder Elternhaus)."
+      },
+      "all_bold_terms_covered": [
+        "Weinert (2001)",
+        "Diagnostische Kompetenz",
+        "Schrader (2010)",
+        "Rangordnungskomponente",
+        "Niveaukomponente",
+        "Streuungskomponente",
+        "explizite Aussagen",
+        "Implizite subjektive Urteile",
+        "Hesse & Latzko (2011)",
+        "Individuelle Ebene",
+        "Klassenebene",
+        "Institutionelle Ebene",
+        "Helmke (2007)",
+        "Personenmerkmale vs. Aufgabenmerkmale",
+        "Fachlicher vs. überfachlicher Bezug",
+        "Status vs. Potential",
+        "Zone der nächsten Entwicklung",
+        "Wygotski",
+        "Linsenmodell von Brunswik (1956)",
+        "proximale Merkmale",
+        "distales Merkmal",
+        "Kleber (1992)",
+        "Psychologisch fundierte Merkmalslinse",
+        "Psychologisch nicht fundierte Merkmalslinse"
+      ]
+    },
+    {
+      "id": "C-01-09",
+      "domain": "C",
+      "chapter_group_num": "3",
+      "chapter_group_title": "3. Diagnostische Kompetenz bei Lehrkräften",
+      "section_num": "3.3",
+      "title": "Qualität von Lehrkräfteurteilen & Diagnostischer Optimismus",
+      "subtitle": "Hoge & Coladarci (1989), Karing (2009), Marburger Studie, SALVE & Weinert/Schrader (1986)",
+      "page_start": 30,
+      "page_end": 32,
+      "page_label": "Original-Skript S. 30–32",
+      "estimated_minutes": 20,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Fachleistung gut erkannt (r = .69), Angst (.15) & Motivation (.02) fast blind – Underachiever übersehen!",
+      "definitions": [
+        {
+          "term": "Ergebnis-, verhaltens- und eigenschaftsorientierte Beurteilung",
+          "definition": "Drei Beurteilungszugänge: Ergebnisorientiert bewertet Menge und Qualität erzielter Arbeitsprodukte; verhaltensorientiert beurteilt das Arbeits- und Sozialverhalten (z. B. Konzentration, Kooperation); eigenschaftsorientiert schließt auf überdauernde Persönlichkeitsmerkmale (z. B. Auffassungsgabe).",
+          "author_year": "Lochner & Denzler, 2026",
+          "page_ref": "S. 32"
+        },
+        {
+          "term": "Diagnostischer Optimismus",
+          "definition": "Pädagogisch förderliche Grundhaltung diagnostischen Urteilens: Bewusstheit der Vorläufigkeit und Revisionsbedürftigkeit eigener Urteile, permanente Überprüfung, Nutzung vorrangig individueller Maßstäbe sowie leichte Überschätzung des Schülerpotenzials samt günstiger Ursachenzuschreibung.",
+          "author_year": "Weinert & Schrader, 1986",
+          "page_ref": "S. 32"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Mängelquellen & Diagnoseleistungen bei verschiedenen Beurteilungsmerkmalen",
+          "page_ref": "S. 30–31",
+          "bullets": [
+            "**Typische Fehlerquellen bei Lehrerurteilen (Schrader, 2008)**: Beobachtungsmängel, Erinnerungsfehler, Urteilstendenzen (Milde/Strenge), Attributionsfehler, Erwartungseffekte, Sympathie/Antipathie sowie das Fehlen **klassenübergreifender Maßstäbe** (Referenzgruppenproblem).",
+            "**Kernergebnis über alle Studien hinweg**: Lehrkräfte sind im Mittel **recht gute Diagnostiker fachlicher Schülerleistungen** (Rangfolge innerhalb der Klasse **`r = .69`**, **Hoge & Coladarci, 1989**), überschätzen jedoch oft das absolute **Leistungsniveau** und zeigen eine **enorme Streuung** zwischen einzelnen Lehrkräften.",
+            "**Starker Abfall bei kognitiven Potenzialen & nicht-kognitiven Merkmalen**:",
+            "• Intelligenz, Begabung und Metakognition werden deutlich ungenauer erkannt; **Underachiever** (hohe Intelligenz bei schwacher Schulleistung) bleiben meist unentdeckt (**Marburger Hochbegabtenstudie** -> **Schrader, 2001**: *Lehrkräfte sind Leistungsdiagnostiker, kaum Potenzialdiagnostiker*).",
+            "• Affektive und motivationale Merkmale werden kaum zutreffend eingeschätzt: **Ängstlichkeit `r = .15`**, **Lernmotivation `r = .02`** (**Karing, 2009**; **SALVE-Studie**)."
+          ]
+        },
+        {
+          "heading": "Gütekriterien von Noten, Beurteilungsformen & Verbesserungsmaßnahmen",
+          "page_ref": "S. 31–32",
+          "bullets": [
+            "**Reliabilität & Validität von Lehrerurteilen**: Zufriedenstellend bis hoch, **sobald klare Beurteilungskriterien und verhaltensbezogene Checklisten** eingesetzt werden (**Harlen, 2005**).",
+            "**Prognostische Qualität (Vorhersagevalidität) von Noten**:",
+            "• **Gesamt-/Abschlussnoten** sind passable Prädiktoren: **Abiturnote -> Studienerfolg `r ≈ .40`**; Abschlussnote -> Ausbildungserfolg gut (da Anforderungen ähnlich sind).",
+            "• **Einzelnoten** sagen spätere Leistungen deutlich schwächer vorher (z. B. **Mathematiknote -> Studium/Beruf `r ≈ .30`**; Grundschul-Übergangsempfehlung -> Sek. I `r = .30–.50`).",
+            "**Exkurs: Formen der Beurteilung**: Ergebnisorientiert (Produkt) vs. verhaltensorientiert (Arbeitsprozess) vs. eigenschaftsorientiert (Charakterzuschreibung -> besonders fehleranfällig!).",
+            "**Maßnahmen zur Kompetenzsteigerung**: Gütekriterien anwenden, Urteilsfehler bewusst machen, Checklisten/Beobachtungsbögen nutzen, **fundiertes psychologisches Theoriewissen** (Lernen, Gedächtnis, Motivation, Angst) und **fachdidaktisches Wissen zu Bildungsstandards** aufbauen, Fortbildungen besuchen sowie **Diagnostischen Optimismus (Weinert & Schrader, 1986)** praktizieren."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Metaanalyse zur Genauigkeit lehrerseitiger Leistungsurteile",
+          "authors_year": "Hoge & Coladarci, 1989",
+          "page_ref": "S. 30–31",
+          "setup": "Metaanalyse zahlreicher Studien zum korrelativen Zusammenhang zwischen Lehrereinschätzungen von Schülerleistungen und objektiven standardisierten Schulleistungstests.",
+          "finding": "Im Mittel recht hohe klassenspezifische Korrelation von r = .69 für Fachleistungen (Rangordnung gut erkannt), jedoch systematische Überschätzung des Leistungsniveaus, große Unterschiede zwischen Lehrkräften und drastisch niedrigere Werte für Ängstlichkeit (r = .15) und Lernmotivation (r = .02).",
+          "implication": "Für emotionale und motivationale Schülermerkmale dürfen sich Lehrkräfte niemals auf ihren bloßen Augenschein verlassen, sondern brauchen Schülerselbstauskünfte oder Fragebögen."
+        },
+        {
+          "title": "Urteilsgüte bei nicht-kognitiven Schülermerkmalen",
+          "authors_year": "Karing, 2009",
+          "page_ref": "S. 31",
+          "setup": "142 Grundschul- und 111 Gymnasiallehrkräfte schätzten Fachinteresse und Leistungsangst ihrer Lernenden ein; Abgleich mit den gleichzeitigen Selbstauskünften der Schülerinnen und Schüler.",
+          "finding": "Nur schwacher Zusammenhang zwischen Lehrerurteil und Schülerselbsteinschätzung; Urteilsgüte bei nicht-kognitiven Merkmalen signifikant geringer als im Leistungsbereich.",
+          "implication": "Auch in der Grundschule mit engem Klassenlehrerprinzip bleiben stille Prüfungsangst oder sinkendes Interesse ohne gezieltes Erfragen leicht unbemerkt."
+        },
+        {
+          "title": "Marburger Hochbegabtenstudie (Erkennen kognitiver Potenziale & Underachiever)",
+          "authors_year": "Wild & Rost, 1995; Rost & Hanses, 1997",
+          "page_ref": "S. 31",
+          "setup": "Vergleich von Lehrernominationen/Begabungseinschätzungen mit standardisierten Intelligenztestergebnissen im Grundschulalter.",
+          "finding": "Kognitive Lernvoraussetzungen werden nur dann gut erkannt, wenn sie mit guten Schulleistungen einhergehen (Wild & Rost, 1995); hochbegabte Underachiever mit schwachen Noten werden von Lehrkräften systematisch übersehen (Rost & Hanses, 1997).",
+          "implication": "Bei Verdacht auf Unterforderung oder Diskrepanz zwischen mündlichen Geistesblitzen und Heftleistungen sind objektive Intelligenztests unverzichtbar."
+        },
+        {
+          "title": "Zusammenspiel von diagnostischer Kompetenz und Unterrichtshandeln",
+          "authors_year": "Schrader & Helmke, 1987",
+          "page_ref": "S. 31",
+          "setup": "Untersuchung des Effekts diagnostischer Lehrerkompetenz und unterrichtlicher Strukturierungshilfen auf den Lernzuwachs von Schulklassen.",
+          "finding": "Hohe diagnostische Kompetenz allein bewirkt noch keinen höheren Leistungszuwachs; erst in Kombination mit adaptiven Strukturierungshilfen im Unterricht profitieren die Lernenden signifikant.",
+          "implication": "Diagnose ohne didaktische Konsequenz bleibt wirkungslos ('Diagnose-Förder-Kopplung')."
+        },
+        {
+          "title": "Schulstudie SALVE (Aufgabenlösung vs. Aufmerksamkeit & Interesse)",
+          "authors_year": "SALVE-Studie (30 fünfte Klassen, schulartübergreifend)",
+          "page_ref": "S. 31",
+          "setup": "Abgleich von Lehrereinschätzungen zu Vorwissen, Freude an Mathematik, Verständnis, Aufmerksamkeit sowie Unter-/Überforderung mit Schülerangaben und Testleistungen in 30 fünften Klassen.",
+          "finding": "Durchschnittliche Überschätzung der Aufgabenlösungskompetenz bei gleichzeitiger Unterschätzung von Aufmerksamkeit, Interessiertheit und Verständnis; hohe Unterschiede zwischen Lehrkräften.",
+          "implication": "Lehrkräfte halten Aufgaben oft für leichter als sie sind (Experten-Blinder-Fleck) und unterschätzen gleichzeitig die innere Lernbereitschaft der Kinder."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "comparison_bars",
+        "title": "Empirische Treffsicherheit von Lehrerurteilen nach Merkmalsbereich",
+        "steps_or_rows": [
+          { "label": "Fachliche Leistung / Rangfolge (r = .69)", "detail": "Hoge & Coladarci (1989): Recht gut erkannt (aber Leistungsniveau oft überschätzt)" },
+          { "label": "Abiturnote -> Studienerfolg (r ≈ .40)", "detail": "Solide Vorhersagekraft über aggregierte Fächer hinweg (Einzelnote Mathe nur r ≈ .30)" },
+          { "label": "Ängstlichkeit / Prüfungsangst (r = .15)", "detail": "Karing (2009) / Hoge & Coladarci: Nach innen gerichtete Sorgen bleiben fast unsichtbar" },
+          { "label": "Lernmotivation (r = .02)", "detail": "Nullkorrelation! Stilles Mitmachen wird oft mit echter intrinsischer Motivation verwechselt" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Drei Formen der Schülerbeurteilung im Zeugnis- und Schulalltag",
+        "headers": ["Beurteilungsform", "Leitfrage", "Grundschul-Beispiel", "Bewertung"],
+        "rows": [
+          ["Ergebnisorientiert", "Was kam am Ende heraus (Menge/Qualität)?", "18 von 20 Rechenaufgaben korrekt gelöst", "Gut objektivierbar, blendet aber den Lernweg aus"],
+          ["Verhaltensorientiert", "Wie arbeitet und kooperiert das Kind?", "Hält Gesprächsregeln ein, hilft Tischpartnern", "Pädagogisch wertvoll bei klaren Beobachtungskriterien (Checklisten)"],
+          ["Eigenschaftsorientiert", "Was für ein Mensch ist das Kind?", "'Ist unbegabt / unselbstständig / faul'", "Gefährlich! Führt zu stabiler Etikettierung statt Förderung"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 5.3 (Attributionstheorie nach Weiner) & Kap. 6 (Strukturierung)",
+          "bridge_explanation": "Weinert & Schraders 'Diagnostischer Optimismus' nutzt gezielt günstige (variable, beeinflussbare) Attributionen; Schrader & Helmke (1987) belegen die Brücke zur Unterrichtsstrukturierung."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 4 (Hochbegabung / Marburger Hochbegabtenprojekt von Rost)",
+          "bridge_explanation": "Die Marburger Hochbegabtenstudie verbindet Entwicklungspsychologie der Begabung direkt mit der diagnostischen Blindstelle von Lehrkräften gegenüber Underachievern."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 4 (SALVE-Erkenntnis nutzen): Weil Lehrkräfte oft überschätzen, wie leicht Kindern eine neue Technik (z. B. Perspektivisches Zeichnen) fällt, baut die Lehrkraft vorab eine kurze Zwischen-Selbsteinschätzung per Daumenprobe ein und bietet gestufte Strukturierungshilfen (Hilfslinien-Schablone; Schrader & Helmke, 1987).",
+        "sport": "Sport Klasse 2 (Diagnostischer Optimismus nach Weinert & Schrader, 1986): Ein ängstliches Kind traut sich noch nicht ans Reck. Statt es eigenschaftsorientiert als 'unsportlich' abzustempeln, zeigt die Lehrkraft leichten Vertrauensvorschuss ('Du hast letzte Woche schon den Stütz gehalten – heute schaffen wir gemeinsam das Aufschwingen!') und beurteilt verhaltens- sowie individuell-fortschrittsorientiert.",
+        "allgemein": "Zeugnisbemerkungen Klasse 1/2: Konsequent verhaltens- und entwicklungsorientiert formulieren statt starrer Eigenschaftszuschreibungen."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Hoge & Coladarci (1989): Zahlenwerte", "hint": "Leistungs-Rangfolge r = .69 (gut, aber Niveau überschätzt) vs. Ängstlichkeit r = .15 und Motivation r = .02." },
+        { "term": "Karing (2009) & Schulstudie SALVE", "hint": "Schwache Urteilsgüte bei nicht-kognitiven Merkmalen; Aufgabenlösung überschätzt, Interesse/Aufmerksamkeit unterschätzt." },
+        { "term": "Marburger Hochbegabtenstudie (Wild & Rost, 1995; Rost & Hanses, 1997)", "hint": "Begabung nur bei guten Noten erkannt – Underachiever werden übersehen!" },
+        { "term": "Schrader & Helmke (1987) & Prognosegüte von Noten", "hint": "Diagnosekompetenz + Strukturierungshilfen nötig! Abitur r ≈ .40, Einzelnote r ≈ .30." },
+        { "term": "Diagnostischer Optimismus (Weinert & Schrader, 1986)", "hint": "Urteile als vorläufig sehen, laufend prüfen, individueller Maßstab, leichte Potenzial-Überschätzung & günstige Attribution." }
+      ],
+      "essay_recipe": {
+        "intro": "Obwohl Lehrkräfte täglich hunderte diagnostische Einschätzungen treffen, zeigt die empirische Forschung ein stark differenziertes Bild ihrer tatsächlichen Urteilsgüte.",
+        "core_model": "Systematische Analyse nach Merkmalsbereichen (Fachleistung vs. kognitives Potenzial vs. Motivation/Emotion), Gütekriterien (Harlen, 2005) und Beurteilungsformen (ergebnis-, verhaltens-, eigenschaftsorientiert).",
+        "empirics": "Dichte Befundkette: Hoge & Coladarci (1989: r = .69 vs. .15/.02), Karing (2009), Marburger Hochbegabtenstudie zu Underachievern (Wild & Rost, 1995; Rost & Hanses, 1997), SALVE-Studie sowie Interaktionsbefund von Schrader & Helmke (1987).",
+        "critique_bridge": "Mängel entstehen insbesondere dort, wo unbewusste Heuristiken und systematische Urteilsfehler greifen (Kap. 3.4).",
+        "school_transfer": "Steigerung der Urteilsqualität in der Grundschule durch verhaltensbezogene Checklisten, kurze Schülerfeedback-Instrumente zu Angst/Interesse und gelebten Diagnostischen Optimismus (Weinert & Schrader, 1986)."
+      },
+      "all_bold_terms_covered": [
+        "Schrader (2008)",
+        "klassenübergreifende Leistungseinschätzung",
+        "Hoge & Coladarci (1989)",
+        "Karing (2009)",
+        "Marburger Hochbegabtenstudie",
+        "Wild & Rost (1995)",
+        "Rost & Hanses (1997)",
+        "Underachiever",
+        "Schrader (2001)",
+        "Schrader & Helmke (1987)",
+        "SALVE",
+        "Harlen (2005)",
+        "Prognostische Qualität",
+        "Ergebnisorientierte Beurteilung",
+        "Verhaltensorientierte Beurteilung",
+        "Eigenschaftsorientierte Beurteilung",
+        "Weinert & Schrader (1986)",
+        "Diagnostischer Optimismus"
+      ]
+    },
+    {
+      "id": "C-01-10",
+      "domain": "C",
+      "chapter_group_num": "3",
+      "chapter_group_title": "3. Diagnostische Kompetenz bei Lehrkräften",
+      "section_num": "3.4",
+      "title": "Urteilstendenzen, Heuristiken, Pygmalion, BFLPE & Beurteilungsfehler",
+      "subtitle": "3 Heuristiken, Implizite Persönlichkeitstheorien (Höhn), Rosenthal & Jacobson (1968), Marsh & alle Urteilsfehler",
+      "page_start": 32,
+      "page_end": 34,
+      "page_label": "Original-Skript S. 32–34",
+      "estimated_minutes": 22,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Vorsicht Urteilsfallen! Halo überstrahlt, Logischer Fehler verknüpft falsch, Pygmalion erfüllt sich selbst, BFLPE drückt im starken Teich!",
+      "definitions": [
+        {
+          "term": "Heuristiken (Repräsentativität, Verfügbarkeit, Anker)",
+          "definition": "Kognitive Faustregeln und mentale Vereinfachungen unter begrenzter Verarbeitungskapazität, die schnelle Urteile erlauben, aber zu systematischen Verzerrungen führen (Prototypen-Denken, Abrufleichtigkeit, Startwert-Verankerung).",
+          "author_year": "Tversky & Kahneman; Werth, Denzler & Mayer, 2020",
+          "page_ref": "S. 33"
+        },
+        {
+          "term": "Pygmalion-Effekt (Self-fulfilling Prophecy)",
+          "definition": "Selbsterfüllende Prophezeiung im Klassenzimmer, bei der anfängliche (auch zufällig induzierte) Leistungserwartungen der Lehrkraft über verändertes Lehrverhalten tatsächlich zu entsprechenden Leistungs- (objektiver Effekt) bzw. Wahrnehmungsveränderungen (subjektiver Effekt) führen.",
+          "author_year": "Rosenthal & Jacobson, 1968",
+          "page_ref": "S. 33"
+        },
+        {
+          "term": "Big-Fish-Little-Pond-Effekt (BFLPE / Referenzgruppeneffekt)",
+          "definition": "Bezugsgruppeneffekt, nach dem zwei objektiv gleich leistungsstarke Kinder in unterschiedlich starken Schulklassen verschiedene Noten erhalten und ein unterschiedliches Fähigkeitsselbstkonzept ausbilden (höher in leistungsschwächerer Klasse, niedriger in leistungsstärkerer Klasse).",
+          "author_year": "Marsh, 1987; Köller, 2007; Wild & Möller, 2020",
+          "page_ref": "S. 33–34"
+        },
+        {
+          "term": "Halo- oder Hofeffekt vs. Logischer Fehler",
+          "definition": "Beim Halo-Effekt (Thorndike, 1920) überstrahlt ein einzelnes hervorstechendes Merkmal (z. B. sprachliche Gewandtheit, Aussehen) den gesamten Eindruck einer Person. Beim logischen Fehler schließt der Beurteiler aufgrund impliziter Persönlichkeitstheorien fälschlich von einem Merkmal auf ein sachfremdes zweites (z. B. Rechtschreibfehler -> geringe Intelligenz).",
+          "author_year": "Thorndike, 1920; Hesse & Latzko, 2017",
+          "page_ref": "S. 34"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Kognitive Heuristiken & Implizite Persönlichkeitstheorien",
+          "page_ref": "S. 33",
+          "bullets": [
+            "**Drei zentrale Urteilsheuristiken (Werth, Denzler & Mayer, 2020)**:",
+            "1. **Repräsentativitätsheuristik**: Zuordnung nach Ähnlichkeit mit einem **Stereotyp/Prototyp** unter Vernachlässigung der **Basisrate** (*Bsp.:* Introvertierter Videospiel-/Star-Trek-Fan wird als Informatiker geschätzt, obwohl es weit mehr BWL-Studierende gibt).",
+            "2. **Verfügbarkeitsheuristik**: Was im Gedächtnis **leicht abrufbar** ist (lebhaft, kürzlich erlebt), wird für **besonders häufig** gehalten.",
+            "3. **Ankerheuristik**: Ein vorgegebener oder selbst gesetzter **Ausgangswert (Anker)** zieht nachfolgende Schätzungen unter Unsicherheit systematisch in seine Richtung (z. B. Vorjahresnote!).",
+            "**Implizite Persönlichkeitstheorien**: Unreflektierte Wahrnehmungsraster über vermeintliche Eigenschaftsbündel. Nach **Hofer (1986)** ordnen Lehrkräfte Lernende auf **vier Grunddimensionen** ein: *intellektuelle Ausstattung, soziales Verhalten, emotionale Stabilität und Motivation*."
+          ]
+        },
+        {
+          "heading": "Pygmalion-Effekt & Big-Fish-Little-Pond-Effekt (BFLPE)",
+          "page_ref": "S. 33–34",
+          "bullets": [
+            "**Pygmalion-Effekt (Rosenthal & Jacobson, 1968)**: Vier Vermittlungskanäle im Unterricht -> Erwartungshohe Kinder erhalten (1) wärmeres sozio-emotionales **Klima**, (2) differenzierteres **Feedback**, (3) mehr und anspruchsvolleren **Input** sowie (4) häufigere Aufrufe/Wartezeit (**Output**) + günstigere Attributionen. Unterscheidung: **Objektiver Pygmalion-Effekt** (echter Leistungsanstieg) vs. **subjektiver Pygmalion-Effekt** (nur verzerrte Lehrerwahrnehmung).",
+            "**Big-Fish-Little-Pond-Effekt (Marsh; Köller, 2007; Wild & Möller, 2020)**: Belegt die Macht der **sozialen Bezugsnorm** im Klassenzimmer – derselbe Schüler ist im 'kleinen Teich' (schwächere Klasse) ein 'großer Fisch' mit besserer Note und höherem Fähigkeitsselbstkonzept als im 'großen Teich' (Hochleistungsklasse)."
+          ]
+        },
+        {
+          "heading": "Kompletter Katalog der Beurteilungsfehler (Hesse & Latzko, 2017; Lukesch, 1998)",
+          "page_ref": "S. 34",
+          "bullets": [
+            "• **Güte- / Mildeeffekt**: Positive Voreingenommenheit gegenüber einzelnen sympathischen oder gut bekannten Kindern.",
+            "• **Großzügigkeitsfehler**: *Alle* Lernenden werden zu mild bewertet (fehlende kriteriale Norm, Konfliktvermeidung). Gegenpol: **Strenge-Effekt** (generell zu harte Benotung).",
+            "• **Halo- oder Hofeffekt (Thorndike, 1920)**: Ein dominantes Einzelmerkmal (Aussehen, Dialekt, Eloquenz) überstrahlt alle anderen Leistungsbereiche.",
+            "• **Logischer Fehler**: Theoretisch falsche Verknüpfung zweier Merkmale (*Bsp.:* viele Rechtschreibfehler -> dumm; stilles Kind meldet sich nicht -> uninteressiert/leistungsschwach).",
+            "• **Tendenz zur Mitte (zentrale Tendenz)**: Ausweichen auf Mittelnoten (v. a. bei wenig bekannten Kindern) vs. **Tendenz zu extremen Urteilen** (nur Note 1 oder 5).",
+            "• **Kontrastfehler I (Sequenzeffekt)**: Vorleistung des unmittelbar vorangehenden Prüflings verzerrt das Folgeurteil (mittelmäßiges Heft wirkt nach Spitzenheft schlechter).",
+            "• **Kontrastfehler II (Beurteiler-Selbstbezug)**: Entweder Kontrastierung entgegen eigenen Eigenschaften oder **Ähnlichkeitsfehler / Projektion** (Zuschreibung eigener Merkmale).",
+            "• **Reihungsfehler (inkl. Primacy-/Recency-Effekt)**: Erste Arbeiten im Stapel eher mittig, spätere extremer bewertet (bzw. Übergewicht des ersten/letzten Eindrucks).",
+            "• **Referenzfehler (Bezugsgruppenfehler)**: Benotung rein nach klasseninternem Maßstab (Auslöser des BFLPE!)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Implizite Schülerbilder von Grundschullehrerinnen",
+          "authors_year": "Höhn, 1967",
+          "page_ref": "S. 33",
+          "setup": "35 Grundschullehrerinnen sollten leistungsschwächere und leistungsstärkere Schülerinnen und Schüler frei charakterisieren.",
+          "finding": "Schwache Lernende wurden pauschal auch moralisch-charakterlich abgewertet ('faul, dumm, frech, unaufmerksam, moralisch fehlerhaft'), starke dagegen als 'fleißig, ehrlich, ordentlich, sozial angepasst' beschrieben.",
+          "implication": "Gefahr der Verschmelzung von Fachleistung und Sozial-/Charakterurteil in der Grundschule (Halo- und logischer Fehler)."
+        },
+        {
+          "title": "Pygmalion im Klassenzimmer („Oak-School-Experiment“)",
+          "authors_year": "Rosenthal & Jacobson, 1968",
+          "page_ref": "S. 33",
+          "setup": "Grundschullehrkräften wurden zu Schuljahresbeginn per Zufall ausgewählte Kinder als 'Bloomer' (Aufblüher) benannt, die laut einem angeblichen Test bald einen enormen Leistungssprung zeigen würden.",
+          "finding": "Nach acht Monaten wiesen diese zufällig benannten Kinder – besonders in den unteren Grundschulklassen – tatsächlich signifikant höhere Intelligenzzuwächse auf.",
+          "implication": "Positive, entwicklungsoffene Lehrererwartungen fördern besonders Schulanfänger; negative Vorurteile (Golem-Effekt) müssen strikt reflektiert werden."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "matrix_summary",
+        "title": "4-Gruppen-Merkhilfe für alle Beurteilungsfehler im Staatsexamen",
+        "steps_or_rows": [
+          { "label": "1. Maßstabs-Verschiebungen", "detail": "Mildeeffekt (Einzelperson), Großzügigkeitsfehler (alle zu gut), Strenge-Effekt, Mitte- vs. Extremtendenz" },
+          { "label": "2. Überstrahlungs- & Denkfehler", "detail": "Halo-Effekt (1 Merkmal überstrahlt alles, Thorndike 1920) vs. Logischer Fehler (falsche Wenn-Dann-Kette)" },
+          { "label": "3. Reihenfolge- & Kontextfehler", "detail": "Kontrastfehler I (Vorprüfling), Reihungsfehler (Stapelverlauf), Ankerheuristik (Vorjahresnote)" },
+          { "label": "4. Soziale & Erwartungs-Effekte", "detail": "Pygmalion (Rosenthal & Jacobson, 1968), Referenzfehler / BFLPE (Marsh), Kontrastfehler II / Ähnlichkeit" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Beliebteste Verwechslungsfallen im Staatsexamen (Messerscharf getrennt!)",
+        "headers": ["Begriffspaar", "Begriff A", "Begriff B"],
+        "rows": [
+          ["Halo-Effekt vs. Logischer Fehler", "EIN dominantes Merkmal (z. B. höfliches Auftreten) überstrahlt das Gesamturteil über die Person", "Theoretisch FALSCHE Verknüpfung zweier konkreter Merkmale ('viele Rechtschreibfehler = unintelligent')"],
+          ["Mildeeffekt vs. Großzügigkeitsfehler", "Zu milde Bewertung EINZELNER sympathischer/bekannter Kinder", "Generell zu milde Bewertung ALLER Kinder einer Klasse ohne Kriteriumsbezug"],
+          ["Kontrastfehler I vs. Referenzfehler", "Verzerrung durch das UNMITTELBAR ZUVOR korrigierte Heft/Prüfungsgespräch", "Verzerrung durch das durchschnittliche LEISTUNGSNIVEAU DER GESAMTEN KLASSE (erzeugt BFLPE)"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 6 (Fähigkeitsselbstkonzept & Fischteicheffekt nach Marsh)",
+          "bridge_explanation": "Der BFLPE erklärt entwicklungspsychologisch, warum Kinder nach dem Übertritt aufs Gymnasium oft einen deutlichen Einbruch ihres akademischen Selbstkonzepts erleben."
+        },
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 5.3 (Attribution & Lehrerfeedback)",
+          "bridge_explanation": "Die 4 Wirkkanäle des Pygmalion-Effekts (Klima, Feedback, Input, Output) zeigen konkret, wie Lehrkräfte Motivation und Selbstwirksamkeit im Unterricht formen."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Gegenmittel gegen Stapel-, Halo- und Kontrastfehler): Beim Bewerten von 25 Wasserfarben-Collagen klebt die Lehrkraft die Namen auf der Rückseite ab (gegen Milde-/Halo-Effekt), bewertet aufgabenweise anhand einer Kriterienliste und mischt den Stapel beim Zweitdurchgang neu durch (gegen Reihungs- und Kontrastfehler I).",
+        "sport": "Sport Klasse 4 (Vermeidung des Logischen Fehlers & Pygmalion-Chancen): Ein kräftig gebautes Kind wird nicht vorschnell als 'unbeweglich' abgeschrieben (Repräsentativitätsheuristik / logischer Fehler), sondern erhält beim Bodenturnen genauso anspruchsvolle Aufgaben, Hilfestellung und ermutigendes Feedback (positiver Pygmalion-Impuls).",
+        "allgemein": "Aufsatzkorrektur Deutsch Klasse 4: Aufgabenweise Querkorrektur mit anonymisierten Heften und explizitem Erwartungshorizont statt Bauchgefühl."
+      },
+      "laut_erzaehl_check": [
+        { "term": "3 Heuristiken (Werth, Denzler & Mayer, 2020)", "hint": "Repräsentativität (Prototyp statt Basisrate), Verfügbarkeit (Abrufleichtigkeit), Anker (Startwert zieht Urteil an)." },
+        { "term": "Implizite Persönlichkeitstheorien (Höhn, 1967; Hofer, 1986)", "hint": "35 Grundschullehrerinnen verknüpften Schwäche mit Charakterfehlern; Hofer: 4 Schülerbild-Dimensionen." },
+        { "term": "Pygmalion-Effekt (Rosenthal & Jacobson, 1968)", "hint": "'Bloomer'-Studie + 4 Kanäle (Klima, Feedback, Input, Output) + objektiv vs. subjektiv." },
+        { "term": "Big-Fish-Little-Pond-Effekt (Marsh)", "hint": "Gleiche Leistung -> in schwacher Klasse bessere Note & höheres Selbstkonzept als in starker Klasse." },
+        { "term": "Halo (Thorndike, 1920) vs. Logischer vs. Kontrast- vs. Referenzfehler", "hint": "Überstrahlung vs. falsche Merkmalskopplung vs. Vorprüfling vs. Klassenmaßstab klar abgrenzen." }
+      ],
+      "essay_recipe": {
+        "intro": "Menschliche Informationsverarbeitung unterliegt im komplexen Unterrichtsgeschehen Kapazitätsgrenzen, wodurch Urteile von Lehrkräften systematischen Verzerrungen und Urteilstendenzen ausgesetzt sind (Hesse & Latzko, 2017).",
+        "core_model": "Theoretische Einordnung über kognitive Heuristiken (Repräsentativität, Verfügbarkeit, Anker), implizite Persönlichkeitstheorien (Hofer, 1986), Erwartungseffekte sowie Systematisierung der klassischen Beurteilungsfehler (Halo-, Logischer, Milde-/Strenge-, Kontrast-, Reihungs- und Referenzfehler).",
+        "empirics": "Klassische Befunde von Höhn (1967) zu moralisierenden Schülerbildern, Rosenthal & Jacobson (1968) zum Pygmalion-Effekt im Grundschulalter sowie Marsh (Köller, 2007) zum Big-Fish-Little-Pond-Effekt.",
+        "critique_bridge": "Vollständige Fehlerfreiheit ist illusorisch, doch unkontrollierte Verzerrungen verletzen Auswertungs- und Interpretationsobjektivität massiv -> Bedarf an systematischen Beobachtungs- und Prüfmethoden (Kap. 4 & 7).",
+        "school_transfer": "Praktische Schutzstrategien für Grundschullehrkräfte: Anonymisierte Querkorrektur, kriteriengeleitete Bewertungsraster, Kombination kriterialer und individueller Bezugsnorm gegen den BFLPE sowie bewusste Reflexion eigener Erwartungen."
+      },
+      "all_bold_terms_covered": [
+        "Heuristiken",
+        "Werth, Denzler & Mayer (2020)",
+        "Repräsentativitätsheuristik",
+        "Verfügbarkeitsheuristik",
+        "Ankerheuristik",
+        "Implizite Persönlichkeitstheorien",
+        "Höhn (1967)",
+        "Hofer (1986)",
+        "Pygmalion-Effekt",
+        "Self-fulfilling Prophecy",
+        "Rosenthal & Jacobson (1968)",
+        "Objektiver Pygmalion-Effekt",
+        "Subjektiver Pygmalion-Effekt",
+        "Big-Fish-Little-Pond-Effekt",
+        "Marsh",
+        "Güte- oder Mildeeffekt",
+        "Großzügigkeitsfehler",
+        "Strenge-Effekt",
+        "Halo- oder Hofeffekt (Thorndike, 1920)",
+        "Logischer Fehler",
+        "Tendenz zur Mitte",
+        "Fehler der zentralen Tendenz",
+        "Tendenz zu extremen Urteilen",
+        "Kontrastfehler I",
+        "Kontrastfehler II",
+        "Ähnlichkeitsfehler",
+        "Reihungsfehler",
+        "Referenzfehler"
+      ]
+    },
+    {
+      "id": "C-01-11",
+      "domain": "C",
+      "chapter_group_num": "4",
+      "chapter_group_title": "4. Methoden der psychologischen Diagnostik und Beobachtung",
+      "section_num": "4.1–4.2.2",
+      "title": "Erhebungsmethoden, Beobachtungsarten (Lukesch) & Beobachtungsfehler",
+      "subtitle": "Anamnese/Exploration/Interview, niedrig vs. hoch inferent & die 7 Beobachtungsdimensionen nach Lukesch (1998)",
+      "page_start": 35,
+      "page_end": 37,
+      "page_label": "Original-Skript S. 35–37",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Beobachten ≠ Bewerten! Niedrig inferent ('meldet sich 3×') statt hoch inferent ('ist interessiert')!",
+      "definitions": [
+        {
+          "term": "Psychologischer (diagnostischer) Test",
+          "definition": "Ein wissenschaftliches Routineverfahren zur Untersuchung eines oder mehrerer empirisch abgrenzbarer Persönlichkeitsmerkmale mit dem Ziel einer möglichst quantitativen Aussage über den relativen Grad der individuellen Merkmalsausprägung (Reaktion auf standardisierte Bedingungsvorgaben).",
+          "author_year": "Lienert, 1967",
+          "page_ref": "S. 35"
+        },
+        {
+          "term": "Beobachtung",
+          "definition": "Die absichtliche, aufmerksame Art des Wahrnehmens, die ganz bestimmte Aspekte auf Kosten der Bestimmtheit von anderen betrachtet.",
+          "author_year": "Graumann, 1978",
+          "page_ref": "S. 35"
+        },
+        {
+          "term": "Niedrig inferente vs. hoch inferente Aussagen",
+          "definition": "Niedrig inferente Aussagen beschreiben direkt beobachtbares, konkretes Verhalten ohne Interpretationsspielraum (z. B. 'meldet sich dreimal'). Hoch inferente Aussagen beinhalten weitreichende Schlussfolgerungen auf latente Eigenschaften (z. B. 'ist hoch interessiert').",
+          "author_year": "Hesse & Latzko, 2017; Lochner & Denzler, 2026",
+          "page_ref": "S. 35"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Überblick diagnostischer Datenquellen (Gespräch, Beobachtung, Test)",
+          "page_ref": "S. 35",
+          "bullets": [
+            "**1. Diagnostisches Gespräch / Interview (Hesse & Latzko, 2017)** – drei Formen:",
+            "• **Anamnese**: Systematische Datensammlung zur **Vorgeschichte** eines Problems (z. B. frühkindliche Sprachentwicklung, Schulwechsel).",
+            "• **Exploration**: Offeneres Erkundungsgespräch zu **aktuellen Kontextbedingungen** und subjektivem Erleben.",
+            "• **Interview**: **Strukturierte und planvolle Hypothesenüberprüfung** anhand vorab festgelegter Fragen.",
+            "**2. Beobachtung**: Wichtigste Alltagsmethode für Lehrkräfte -> oberstes Gebot ist die **strikte Trennung von Beobachtung und Bewertung** (Einsatz **niedrig inferenter** statt vorschnell **hoch inferenter** Aussagen!).",
+            "**3. Psychologische Tests (Lienert)**: Standardisierte Vorgaben zur quantitativen Differenzierung (z. B. IQ-Test, LRS-Test, Angstfragebogen); ergänzt durch pädagogische Prüfverfahren (mündliche/schriftliche Prüfungen, Portfolio, norm- und kriteriumsorientierte Schulleistungstests; Kap. 7)."
+          ]
+        },
+        {
+          "heading": "7 Dimensionen / 14 Arten der Beobachtung nach Lukesch (1998)",
+          "page_ref": "S. 36",
+          "bullets": [
+            "1. **Naiv (unsystematisch)** (+ umfassend; – subjektive Verzerrung) vs. **Systematisch** (Ziel, Zeitpunkt, Instrument vorab geklärt: + gute Vergleichbarkeit; – nur ausschnitthaft).",
+            "2. **Teilnehmend** (Beobachter interagiert mit: + Nähe/Steuerung; – fehlende Distanz, subjektiv) vs. **Nicht-teilnehmend** (außenstehend: + systematischer; – Reaktivität: Beobachtete verhalten sich anders).",
+            "3. **Offen** (Ziel bekannt: + ethisch unbedenklich; – Verhaltensbeeinflussung) vs. **Verdeckt** (Ziel unbekannt: + unverfälschtes Verhalten; – **ethisch fragwürdig**).",
+            "4. **Technisch vermittelt** (Kamera/Audio: + wiederholtes Abspielen; – enger Kamerafokus, **Datenschutz**) vs. **Technisch unvermittelt** (+ unmittelbar; – kognitive Überforderung).",
+            "5. **Kontinuierlich** (Dauerbeobachtung: + umfangreich; – Überforderung) vs. **Diskontinuierlich / Time-Sampling** (feste Zeitintervalle: + Zeitersparnis; – **seltenes Verhalten wird verpasst**).",
+            "6. **Feld** (natürlicher Alltag, z. B. Klassenzimmer: + ökologisch valide; – Störbedingungen) vs. **Labor** (künstliches Setting: + kontrolliert; – mangelnde Übertragbarkeit).",
+            "7. **Fremdbeobachtung** (+ objektiver; – kein Zugang zum Innenleben) vs. **Selbstbeobachtung** (+ Zugang zu Gedanken/Gefühlen; – subjektive Verzerrung).",
+            "**Methodisches Ideal vs. Schulrealität**: Methodisch optimal ist die **systematische, nicht-teilnehmende** Beobachtung; im realen Unterricht dominiert jedoch meist die **naive, teilnehmende, diskontinuierliche** Beobachtung!"
+          ]
+        },
+        {
+          "heading": "Zehn typische Beobachtungsfehler (Lukesch, 1998)",
+          "page_ref": "S. 37",
+          "bullets": [
+            "**Ursachen**: Begrenzte Aufmerksamkeit, Ermüdung, Langeweile, selektives Vorwissen oder mangelnde Schulung:",
+            "(1) Aufmerksamkeits-/Ermüdungsprobleme, (2) **selektive Wahrnehmung** (Erwartungsfilter), (3) **zu frühe Wertung/Kategorisierung** (fehlende Trennung Beobachtung ↔ Interpretation), (4) **Identifizierung** mit Akteuren (v. a. teilnehmend), (5) gedächtnismäßige Verfälschung/Abstraktion, (6) fehlerhafte Protokollierung, (7) **Reaktivität** (Verfälschung der sozialen Situation durch Beobachtung), (8) **nicht-repräsentative Beobachtungszeiträume**, (9) **„Rollenwechsel“** (Beobachtete weisen dem Beobachter eine Rolle zu, die sein Verhalten steuert), (10) **schlechte Operationalisierung** des Zielverhaltens -> Gütekriterien schwerer zu sichern als bei Tests!"
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S036_Schaubild.png",
+          "caption": "Vollständige Übersichtstabelle der 14 Arten der Beobachtung mit Vor- und Nachteilen nach Lukesch (1998) (Original-Skript S. 36)",
+          "page_ref": "S. 36"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Vom Unterrichtsgeschehen zum sauberen Beobachtungsprotokoll",
+        "steps_or_rows": [
+          { "label": "1. Operationalisieren", "detail": "Zielmerkmal vorab in konkret sichtbare, niedrig inferente Verhaltensindikatoren übersetzen" },
+          { "label": "2. Setting wählen (Lukesch)", "detail": "Ideal: systematisch, nicht-teilnehmend (z. B. Kollegin hospitiert mit Bogen im Feld 'Klassenzimmer')" },
+          { "label": "3. Beschreiben (OHNE Wertung!)", "detail": "Nur protokollieren, was sichtbar passiert ('steht in 10 Min. 4× vom Platz auf')" },
+          { "label": "4. Getrennt interpretieren", "detail": "Erst im Nachgang gemeinsam mit Gesprächs- und Testdaten vorsichtig deuten" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Gesprächsformen & Inferenzniveaus sicher unterscheiden",
+        "headers": ["Konzept", "Unterform A", "Unterform B / C"],
+        "rows": [
+          ["Diagnostisches Gespräch (Hesse & Latzko, 2017)", "Anamnese: Fokus auf Entwicklungs- und Problem-VORGESCHICHTE", "Exploration: Aktuelle Kontextbedingungen erkunden | Interview: Planvolle, strukturierte Hypothesenprüfung"],
+          ["Inferenzniveau bei Beobachtung", "Niedrig inferent: Direkt zähl-/sichtbar ('schaut 5× aus dem Fenster', 'unterbricht Mitschüler 3×')", "Hoch inferent: Schlussfolgernd-wertend ('ist verträumt', 'ist aggressiv / unmotiviert')"],
+          ["Unterrichtsrealität vs. Ideal", "Alltag: Naiv, teilnehmend, diskontinuierlich, unvermittelt im Feld", "Ideal: Systematisch, nicht-teilnehmend, mit Beobachtungsbogen (ggf. Video bei Einwilligung)"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 8.4 (ADHS-Diagnostik) & Kap. 9 (Verhaltensstörungen)",
+          "bridge_explanation": "ADHS- und Verhaltensdiagnostik stützt sich zwingend auf die Kombination aus Entwicklungsanamnese mit Eltern und niedrig inferenter, situationsübergreifender Verhaltensbeobachtung."
+        },
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 3.2 (Selektive Aufmerksamkeit & Schemata)",
+          "bridge_explanation": "Top-down-Verarbeitung durch bestehende Wissensschemata erklärt kognitionspsychologisch, warum ungeschulte Beobachter nur erwartungskonformes Verhalten wahrnehmen."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 2 (Teamarbeit beim Kulissenbau fürs Schulfest): Statt ins Notizbuch zu schreiben 'Leo ist unkooperativ' (hoch inferent, zu frühe Wertung), notiert die Lehrkraft in zwei 5-Minuten-Zeitfenstern (Time-Sampling) niedrig inferent: 'Nimmt zweimal Pinsel des Nachbarn ohne Fragen; teilt auf Bitte hin Farbtopf.'",
+        "sport": "Sport Klasse 1 (Beobachtung von Regelverständnis beim Fangspiel): Da die Sportlehrkraft beim Schiedsrichten selbst teilnehmend involviert ist, bittet sie eine Förderlehrkraft um eine 10-minütige systematische, nicht-teilnehmende Fremdbeobachtung am Hallenrand anhand dreier klarer Verhaltenskriterien.",
+        "allgemein": "Elterngespräch bei Konzentrationsproblemen: Erst Anamnese (Seit wann? Auch zu Hause beim Spielen?) + Exploration (Schlaf, Hausaufgabensituation), untermauert durch wertfreie, niedrig inferente Beobachtungsnotizen."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Anamnese vs. Exploration vs. Interview (Hesse & Latzko, 2017)", "hint": "Vorgeschichte erheben vs. aktuellen Kontext erkunden vs. strukturiert Hypothesen prüfen." },
+        { "term": "Beobachtung (Graumann, 1978) & Psychologischer Test (Lienert)", "hint": "Absichtliches Wahrnehmen bestimmter Aspekte auf Kosten anderer; wissenschaftliches Routineverfahren." },
+        { "term": "Niedrig inferent vs. hoch inferent + Trennungsgebot", "hint": "Direkt beobachtbares Verhalten vs. interpretierende Eigenschaftszuschreibung; Beobachtung strikt von Bewertung trennen!" },
+        { "term": "7 Beobachtungspaare nach Lukesch (1998)", "hint": "Naiv/systematisch, teilnehmend/nicht-teilnehmend, offen/verdeckt, technisch vermittelt/unvermittelt, kontinuierlich/diskontinuierlich, Feld/Labor, Fremd/Selbst." },
+        { "term": "Mindestens 5 Beobachtungsfehler (Lukesch, 1998)", "hint": "Selektive Wahrnehmung, zu frühe Wertung, Reaktivität, Rollenwechsel, schlechte Operationalisierung, nicht-repräsentative Zeitfenster." }
+      ],
+      "essay_recipe": {
+        "intro": "Neben Gespräch und psychologischem Test bildet die Verhaltensbeobachtung (Graumann, 1978) das zentrale diagnostische Alltagswerkzeug von Lehrkräften, unterliegt ohne Systematik jedoch gravierenden Fehlerquellen.",
+        "core_model": "Klassifikation der Beobachtungsformen entlang der sieben Dimensionen nach Lukesch (1998), Abgrenzung niedrig vs. hoch inferenter Aussagen sowie Analyse typischer Beobachtungsfehler (selektive Wahrnehmung, Reaktivität, Rollenwechsel, verfrühte Bewertung).",
+        "empirics": "Methodenvergleiche belegen, dass unsystematisch-teilnehmende Unterrichtsbeobachtungen geringe Objektivität und Reliabilität aufweisen, während kriteriengeleitete Fremdbeobachtung die Übereinstimmung deutlich erhöht.",
+        "critique_bridge": "Da Lehrkräfte während des Unterrichtens kaum gleichzeitig systematisch-distanziert protokollieren können, braucht es strukturierte Zeichen-, Kategorien- und Ratingsysteme sowie kollegiale Hospitation (Kap. 4.2.3–4.2.4).",
+        "school_transfer": "Konsequente Trennung von Beobachtung und Bewertung in bayerischen Lernentwicklungsgesprächen, Nutzung kurzer Time-Sampling-Bögen und Einbezug von Anamnese/Exploration im Elterngespräch."
+      },
+      "all_bold_terms_covered": [
+        "Das diagnostische Interview",
+        "Anamnese",
+        "Exploration",
+        "Interview",
+        "Beobachtung",
+        "Trennung von Beobachtung und Bewertung",
+        "niedrig inferente Aussagen",
+        "hoch inferente Aussagen",
+        "Psychologischer Test",
+        "Graumann (1978)",
+        "Lukesch (1998)",
+        "Naive Beobachtung",
+        "Systematische Beobachtung",
+        "Teilnehmende Beobachtung",
+        "Nicht-teilnehmende Beobachtung",
+        "Offene Beobachtung",
+        "Verdeckte Beobachtung",
+        "Technisch vermittelt",
+        "Technisch unvermittelt",
+        "Kontinuierlich",
+        "Diskontinuierlich",
+        "Time-Sampling",
+        "Feldbeobachtung",
+        "Laborbeobachtung",
+        "Fremdbeobachtung",
+        "Selbstbeobachtung",
+        "Beobachtungsfehler",
+        "Rollenwechsel"
+      ]
+    },
+    {
+      "id": "C-01-12",
+      "domain": "C",
+      "chapter_group_num": "4",
+      "chapter_group_title": "4. Methoden der psychologischen Diagnostik und Beobachtung",
+      "section_num": "4.2.3–4.2.5",
+      "title": "Systematische Beobachtung, Bales-IPA & Soziometrie (Moreno)",
+      "subtitle": "Zeichen-, Kategorien- und Schätzsysteme, BASYS, Interaktionsanalyse (1950) & Soziogramm (1934)",
+      "page_start": 37,
+      "page_end": 39,
+      "page_label": "Original-Skript S. 37–39",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Strichliste (Zeichen) | Schublade (Kategorie: Bales/Baumann) | Skala (Rating) | Beziehungsnetz (Morenos Soziogramm)",
+      "definitions": [
+        {
+          "term": "Zeichensysteme, Kategoriensysteme & Schätzskalen (Ratingsysteme)",
+          "definition": "Drei Verfahren systematischer Verhaltensregistrierung: Zeichensysteme zählen die Auftretenshäufigkeit ausgewählter Einzelereignisse; Kategoriensysteme ordnen jedes auftretende Verhalten einer erschöpfenden Menge vorab definierter Kategorien zu; Schätzskalen stufen den Ausprägungsgrad eines Merkmals ein.",
+          "author_year": "Lukesch, 1998; Lochner & Denzler, 2026",
+          "page_ref": "S. 37–38"
+        },
+        {
+          "term": "Interaktions-Prozess-Analyse (IPA)",
+          "definition": "Standardisiertes Kategoriensystem zur Beobachtung von Gruppeninteraktionen mit 12 Einzelkategorien in vier Hauptbereichen: (1) sozio-emotional positiv, (2) aufgabenorientiert – Lösungsversuche, (3) aufgabenorientiert – Fragen, (4) sozio-emotional negativ.",
+          "author_year": "Bales, 1950 (in Forgas, 1999)",
+          "page_ref": "S. 38"
+        },
+        {
+          "term": "Soziometrie & Soziogramm",
+          "definition": "Verfahren zur Erfassung und grafischen Darstellung informeller Beziehungsstrukturen in Gruppen anhand positiver (und ggf. negativer) Partnerwahlen, aus denen Wahlmatrix, soziometrische Indizes sowie Positionen (Beliebte/Stars, Isolierte, Abgelehnte, Cliquen) abgeleitet werden.",
+          "author_year": "Moreno, 1934",
+          "page_ref": "S. 38"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Systematische Beobachtungsbögen in der Schulpraxis",
+          "page_ref": "S. 37",
+          "bullets": [
+            "**Kennzeichen**: Beruht auf **theoretisch fundierten, vorher festgelegten Kategorien** und konsequenter **Trennung von Beobachtung und Bewertung**.",
+            "**Etablierte Instrumente**: (1) **Beobachtungsbogen für Lernentwicklungsberichte (Bayern)**, (2) **Lernverlaufs-Monitoring (IPN Kiel)**, (3) **BASYS** (standardisiertes Beobachtungssystem für **aggressives Verhalten** in **Klasse 3 bis 9**).",
+            "**Praxishürde & Nutzen**: Wegen des höheren Zeitaufwands gegenüber reiner Notenvergabe von Lehrkräften oft selten genutzt – dabei jedoch exzellent zur **Schulung der eigenen Lerndiagnosekompetenz**!"
+          ]
+        },
+        {
+          "heading": "Registrierverfahren, Bales-IPA (1950) & Soziogramm nach Moreno (1934)",
+          "page_ref": "S. 37–38",
+          "bullets": [
+            "**Zeichensysteme**: Strichliste für klar definierte Zielereignisse (Event-Sampling).",
+            "**Kategoriensysteme**:",
+            "• **Sprechzeitanalyse nach Baumann**: `Z1` = Ruhe (niemand spricht), `Z2` = Lehrkraft spricht / Kinder schweigen, `Z3` = mindestens ein Kind spricht.",
+            "• **Interaktions-Prozess-Analyse (IPA) nach Bales (1950)**: 12 Kategorien in **4 Grundbereichen** -> *I. Sozio-emotional positiv* (1. Solidarität/Hilfe, 2. Entspannung/Lachen, 3. Zustimmung), *II. Aufgabenorientiert – Antwort-/Lösungsversuche* (4. Vorschläge, 5. Meinung/Bewertung, 6. Orientierung/Information), *III. Aufgabenorientiert – Fragen* (7. Bitte um Orientierung, 8. Bitte um Meinung, 9. Bitte um Vorschläge), *IV. Sozio-emotional negativ* (10. Widerspruch/Hilfeverweigerung, 11. Spannung/Rückzug, 12. Antagonismus/Herabsetzung); paarweise bezogen auf 6 Gruppenprobleme (*Orientierung, Bewertung, Kontrolle, Entscheidung, Spannungsbewältigung, Integration*).",
+            "**Schätzskalen (Ratingsysteme)**: Abstufung der Merkmalsintensität (z. B. 1 = 'nie' bis 5 = 'sehr häufig').",
+            "**Soziometrie / Soziogramm (Moreno, 1934)**: Kinder notieren vertraulich z. B. ihren liebsten Sitznachbarn/Gruppenpartner (ggf. auch Ablehnung -> ethisch sensibel!). Auswertung über **Wahlmatrix** (Kreuztabelle aller abgegebenen und erhaltenen Wahlen), **soziometrische Indizes** (z. B. Wahlstatus, Ablehnungsstatus, Kohäsion) und grafisches **Soziogramm** (Pfeile für einseitige vs. gegenseitige Wahlen) -> macht **Stars/Beliebte, Isolierte, Abgelehnte und Untergruppen/Cliquen** sichtbar (wichtig bei **Mobbing-Verdacht**, Kap. 9.4!)."
+          ]
+        },
+        {
+          "heading": "Einsatzmöglichkeiten (Lukesch, 1998), Anlässe & Ziele",
+          "page_ref": "S. 39",
+          "bullets": [
+            "**Vier Analyseformen nach Lukesch (1998)**:",
+            "1. **Situationserfassung**: Momentaufnahme in einer Klasse zu *einem* Zeitpunkt (z. B. Art des Lehrerfeedbacks).",
+            "2. **Vergleichsuntersuchung**: Quervergleich zwischen verschiedenen Klassen, Lehrkräften oder Zeitpunkten.",
+            "3. **Verlaufsanalyse**: Längsschnittvergleich mehrerer Zeitpunkte *innerhalb derselben* Klasse.",
+            "4. **Sequenzanalyse**: Erfassung konkreter **Reiz-Reaktions-Verhaltensabfolgen** (*Bsp.:* Wie reagiert ein Kind unmittelbar auf Tadel oder Lob der Lehrkraft?).",
+            "**Schulische Anlässe (Hesse & Latzko, 2017) & Ziele**: Körperliche **Aufgeregtheitskomponente bei Prüfungsangst** (Gesichtsfarbe, Atmung, Zittern – stets kombiniert mit Selbstbericht!), **Unterrichtsqualität** (Selbst-/Fremdbeobachtung + Schülerfeedback), **Sozialverhalten (BASYS)** sowie **Selbstkontrolle der Lehrkraft**, Einüben neuer Methoden und Klärung von Lehrer-Schüler-Konflikten."
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S038_Abb1.png",
+          "caption": "Tab. 15.1: Die 12 Kategorien und 6 Problemfelder der Interaktionsprozess-Analyse (IPA) nach Bales (1950) (aus Forgas, 1999; Original-Skript S. 38)",
+          "page_ref": "S. 38"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "In 4 Schritten zum Soziogramm in der Grundschulklasse (Moreno, 1934)",
+        "steps_or_rows": [
+          { "label": "1. Konkrete Wahlfrage", "detail": "Tätigkeitsbezogen & vertraulich fragen ('Mit welchen 2 Kindern möchtest du im Kunstprojekt bauen?')" },
+          { "label": "2. Wahlmatrix erstellen", "detail": "Tabellarische Auszählung aller abgegebenen und erhaltenen Wahlen (plus gegenseitige Paare)" },
+          { "label": "3. Soziogramm zeichnen", "detail": "Positionen visualisieren: Stars (viele Wahlen), Isolierte (0 Wahlen), Cliquen/Inseln, Außenseiter" },
+          { "label": "4. Pädagogisch intervenieren", "detail": "Isolierte Kinder behutsam über kooperative Tandem-Aufgaben integrieren (NIEMALS Ergebnisse öffentlich aushängen!)" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Zeichensystem vs. Kategoriensystem vs. Schätzskala",
+        "headers": ["Verfahren", "Prinzip", "Konkretes Unterrichtsbeispiel", "Besonderheit"],
+        "rows": [
+          ["Zeichensystem", "Häufigkeits-Strichliste ausgewählter Einzelereignisse", "Wie oft meldet sich Mia in 20 Min. Sachunterricht?", "Ökonomisch; blendet nicht gelistetes Verhalten aus"],
+          ["Kategoriensystem", "Jedes Ereignis wird genau einer Kategorie zugeordnet", "Sprechzeitanalyse nach Baumann (Z1 Ruhe, Z2 Lehrer, Z3 Schüler); Bales-IPA", "Kategorien müssen klar abgegrenzt und vollständig sein"],
+          ["Schätzskala (Rating)", "Abgestuftes Urteil über Ausprägungsgrad", "Konzentrationsbogen von 1 ('gar nicht') bis 4 ('durchgängig')", "Schnell, aber anfällig für Mitte-Tendenz und Halo-Effekt"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 9.3–9.4 (Aggression, Bullying & Mobbing)",
+          "bridge_explanation": "BASYS erfasst aggressives Verhalten ab Klasse 3 systematisch; Morenos Soziogramm deckt soziale Isolation und Ausgrenzungsstrukturen bei Mobbing frühzeitig auf."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 7 (Peer-Beziehungen & Soziometrischer Status nach Coie & Dodge) & Kap. 8.4 (Prüfungsangst)",
+          "bridge_explanation": "Soziometrische Statusgruppen (beliebt, abgelehnt, ignoriert/isoliert, kontrovers) stammen direkt aus der Entwicklungspsychologie der Gleichaltrigenbeziehungen; Beobachtung erfasst die Emotionality-Komponente der Prüfungsangst."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Gruppen-Wandbild & Soziometrie): Vor der Einteilung von Vierergruppen für ein großes Jahreszeiten-Wandbild erhebt die Lehrkraft vertraulich zwei positive Partnerwünsche ('Mit wem arbeitest du im Kunstprojekt besonders gern zusammen?'), erstellt eine Wahlmatrix und bindet ein isoliertes Neuzugangs-Kind gezielt mit einem sozial integrativen Wunschpartner zusammen ein.",
+        "sport": "Sport Klasse 4 (Bales-IPA & Teamfairness im Brennball): Bei häufigem Streit im Sportspiel beobachtet die Lehrkraft gezielt das Verhältnis von sozio-emotional positiven Reaktionen (Anfeuern, Abklatschen, Helfen) zu negativen Reaktionen (Auslachen, Schuldzuweisungen) und führt kooperative Sonderpunkte für Teamunterstützung ein.",
+        "allgemein": "Selbstreflexion der eigenen Sprechzeit: Kurze Audioaufnahme mit Baumanns Sprechzeitanalyse (Z1/Z2/Z3), um zu prüfen, ob die Lehrkraft im Sitzkreis zu viel selbst redet."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Zeichensystem vs. Kategoriensystem vs. Schätzskala", "hint": "Häufigkeit zählen vs. lückenlos Kategorien zuordnen (Baumann Z1–Z3) vs. Ausprägungsgrad einstufen." },
+        { "term": "Systematische Praxisverfahren (inkl. BASYS)", "hint": "Bayerischer LEB-Bogen, IPN-Lernverlaufs-Monitoring und BASYS (Aggressionsbeobachtung Kl. 3–9)." },
+        { "term": "Interaktions-Prozess-Analyse nach Bales (1950)", "hint": "12 Kategorien in 4 Bereichen: sozio-emotional positiv, aufgabenorientiert Lösungen, aufgabenorientiert Fragen, sozio-emotional negativ." },
+        { "term": "Soziogramm nach Moreno (1934)", "hint": "Wahlmatrix + grafisches Beziehungsnetz -> Beliebte/Stars, Isolierte, Abgelehnte, Untergruppen erkennen." },
+        { "term": "4 Analyseformen nach Lukesch (1998)", "hint": "Situationserfassung, Vergleichsuntersuchung, Verlaufsanalyse und Sequenzanalyse (Verhaltensabfolgen)." }
+      ],
+      "essay_recipe": {
+        "intro": "Um die Subjektivität naiver Alltagsbeobachtungen zu überwinden, nutzt die professionelle Diagnostik theoriegeleitete Registrierverfahren und soziometrische Methoden.",
+        "core_model": "Systematische Darstellung von Zeichen-, Kategorien- (Sprechzeitanalyse nach Baumann; Interaktions-Prozess-Analyse nach Bales, 1950) und Ratingsystemen sowie des Soziogramms nach Moreno (1934) samt den vier Analyseformen nach Lukesch (1998).",
+        "empirics": "Einsatz standardisierter Instrumente wie BASYS (Kl. 3–9) ermöglicht objektive Verlaufs- und Sequenzanalysen aggressiven Verhaltens im schulischen Feld.",
+        "critique_bridge": "Hoher Erhebungsaufwand hemmt oft die Akzeptanz im Kollegium; zudem erfordern negative soziometrische Ablehnungsfragen höchste ethische Zurückhaltung zum Schutz ausgegrenzter Kinder.",
+        "school_transfer": "Gezielter Einsatz positiver tätigkeitsbezogener Soziogramme zur Klassenbildung und Mobbingprävention sowie kollegiale Kurz-Hospitationen zur Förderung eines wertschätzenden Unterrichtsklimas."
+      },
+      "all_bold_terms_covered": [
+        "Beobachtungsbogen für Lernentwicklungsberichte",
+        "Lernverlaufs-Monitoring",
+        "BASYS",
+        "Zeichensysteme",
+        "Kategoriensysteme",
+        "Sprechzeitanalyse nach Baumann",
+        "Schätzskalen",
+        "Ratingsysteme",
+        "Interaktions-Prozess-Analyse (IPA) nach Bales (1950)",
+        "Sozio-emotional – positiv",
+        "Aufgabenorientiert – bietet Lösungsversuche an",
+        "Aufgabenorientiert – stellt Fragen",
+        "Sozio-emotional – negativ",
+        "Soziometrie",
+        "Soziogramm (Moreno, 1934)",
+        "Wahlmatrix",
+        "Situationserfassung",
+        "Vergleichsuntersuchung",
+        "Verlaufsanalyse",
+        "Sequenzanalyse"
+      ]
+    },
+    {
+      "id": "C-01-13",
+      "domain": "C",
+      "chapter_group_num": "5",
+      "chapter_group_title": "5. Evaluation im Bildungswesen",
+      "section_num": "5.1–5.3",
+      "title": "Evaluation: Begriff, Programmmodell (Chen), Formen & Funktionen",
+      "subtitle": "Wottawa & Thierau (1998/2003), Chen (2005), 6 Facetten nach Jäger (2005) & 4 Funktionen nach Stockmann (2003)",
+      "page_start": 40,
+      "page_end": 43,
+      "page_label": "Original-Skript S. 40–43",
+      "estimated_minutes": 20,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Input -> Transformation -> Output (Chen) | Intern/Extern & Formativ/Summativ | Erkenntnis – Kontrolle – Dialog – Legitimation",
+      "definitions": [
+        {
+          "term": "Wissenschaftliche & Pädagogische Evaluation",
+          "definition": "Ziel- und zweckorientierter Prozess zur Bewertung von pädagogischen Maßnahmen, Prozessen, Einrichtungen oder Bildungssystemen auf Basis wissenschaftlich-empirisch gewonnener Daten (Rost, 2000; Köller & Möller, 2007), um evidenzbasierte Entscheidungen zur Qualitätssicherung und -verbesserung zu treffen (Seidel & Krapp, 2014).",
+          "author_year": "Köller & Möller, 2007; Rost, 2000 (in Schneider & Hasselhorn, 2008); Seidel & Krapp, 2014",
+          "page_ref": "S. 40"
+        },
+        {
+          "term": "Konzept einer Maßnahme und ihrer Evaluation (Programmmodell)",
+          "definition": "Systemmodell pädagogischer Programme mit fünf Komponenten: Input (Ressourcen), Transformation (Durchführung/Unterrichtsprozess), Output (Leistungs-/Motivations-Ergebnisse), Umwelt (Kontextfaktoren) und idealerweise prozessbegleitendes Feedback (Evaluation).",
+          "author_year": "Chen, 2005",
+          "page_ref": "S. 41"
+        },
+        {
+          "term": "Vier Funktionen der Evaluation",
+          "definition": "Evaluation erfüllt für Programme und Institutionen vier Kernfunktionen: Erkenntnisfunktion (Datengewinnung), Kontrollfunktion (Zielerreichungs-/Aufgabenprüfung), Dialog- bzw. Lernfunktion (transparenter Austausch & gemeinsame Weiterentwicklung) und Legitimationsfunktion (Wirksamkeitsnachweis gegenüber Mittelgebern/Öffentlichkeit).",
+          "author_year": "Stockmann, 2003",
+          "page_ref": "S. 43"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Merkmale (Wottawa & Thierau, 2003), Ziele & Chens Maßnahmenmodell (2005)",
+          "page_ref": "S. 40–41",
+          "bullets": [
+            "**Abgrenzung**: Diagnostik beurteilt **einzelne Personen**; Evaluation beurteilt **Maßnahmen, Unterrichtseinheiten, Schulen oder Bildungssysteme** (z. B. PISA).",
+            "**5 Merkmale nach Wottawa & Thierau (2003)**: (1) Bewertung von Handlungsalternativen, (2) Planungs- und Entscheidungshilfe, (3) ziel- und zweckorientiert, (4) Methoden auf aktuellem Forschungsstand, (5) Steuerung von Prozessen/Systemen.",
+            "**4 Ziele einer Evaluation**: **Reflexion** (selbstkritische Analyse), **Erfolgskontrolle** (Abgleich mit Maßstäben), **Planung und Steuerung** (weitere Projektarbeit) sowie **selbstreguliertes Arbeiten und Unterrichten** (analog zu metakognitiven Strategien).",
+            "**Modell nach Chen (2005)**: **Input** (Ausgaben, Klassengröße, Ausstattung) -> **Transformation** (Lehrplanumsetzung, Lehrerkooperation, Klassenführung) -> **Output** (Kompetenzen, Abschlüsse, Motivation/Sozialverhalten), eingebettet in **Umwelt** (soziales Umfeld, Chancengleichheit) und gesteuert durch **Feedback** (Evaluation)."
+          ]
+        },
+        {
+          "heading": "9 Evaluationsformen & 3 Steuerungsmodelle (Wottawa & Thierau, 1998)",
+          "page_ref": "S. 41–42",
+          "bullets": [
+            "**9 Formen der Evaluation im Überblick**:",
+            "• **Global** (Programm/Schule als Ganzes) vs. **Analytisch** (einzelne Teilkomponenten detailliert).",
+            "• **Intern** (Selbstevaluation durch Beteiligte/Lehrkräfte) vs. **Extern** (unabhängige Institutionen/Qualitätsagentur).",
+            "• **Formativ (Prozessevaluation)**: Verlaufsbegleitend zur Programmoptimierung (*Bsp.:* Akzeptanzbefragung während eines Prüfungsangsttrainings) vs. **Summativ (Produktevaluation)**: Abschließende Output-/Wirksamkeitsbilanz (*Bsp.:* Evaluation des Vorschul-Mathetrainings *„Mengen, zählen, Zahlen“*).",
+            "• **Untersuchungsdesigns**: **Isolierte Evaluation** (1 Trainingsgruppe vs. 1 Kontrollgruppe), **Vergleichende Evaluation** (Trainingsgruppe A vs. Trainingsgruppe B *ohne* Kontrollgruppe), **Kombinierte Evaluation** (Trainingsgruppen A & B *mit zusätzlicher* unbehandelter Kontrollgruppe).",
+            "**3 Formen der Systemsteuerung (Wottawa & Thierau, 1998, S. 28)**:",
+            "1. **Inputkontrolle**: Steuerung über Ressourcen-/Personalauswahl vorab.",
+            "2. **Verhaltenskontrolle**: Steuerung über Detailvorschriften und Lehrpläne im Prozess.",
+            "3. **Ergebnis- bzw. Outputkontrolle**: Zielvorgaben + Messung des Outputs -> Evaluation liefert Rückkopplung zur **Optimierung der Verhaltenssteuerung** (Leitidee moderner Bildungsstandards!)."
+          ]
+        },
+        {
+          "heading": "6 Facetten nach M. Jäger (2005) & 4 Funktionen nach Stockmann (2003)",
+          "page_ref": "S. 42–43",
+          "bullets": [
+            "**Sechs Facetten der Evaluation (M. Jäger, 2005)** rund um den zentralen **Nutzen der Evaluationsmaßnahme**: (1) **Zweck** (beschreiben vs. bewerten), (2) **Zeitpunkt** (vor, während, nach der Maßnahme), (3) **Zuständigkeit** (intern vs. extern), (4) **Zielgruppe** (Durchführende, Entscheider, Unterstützer), (5) **Gegenstand / Zielebene** (Ergebnisse, Inhalte, Prozesse & Strukturen) sowie **Zielrichtung** (Akzeptanz vs. Ergebnisse).",
+            "**Vier Funktionen nach Stockmann (2003, S. 220)**: **Erkenntnisfunktion** (Datenbasis für Entscheidungen), **Kontrollfunktion** (Zielerreichung & Pflichterfüllung), **Dialog- bzw. Lernfunktion** (Transparenz, kollegialer Austausch, gemeinsames Lernen) und **Legitimationsfunktion** (Rechenschaft über Aufwand-Wirkungs-Verhältnis)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Trainingsstudie zum Reziproken Lehren und Lernen (Beispiel für kombinierte Evaluation)",
+          "authors_year": "Palincsar & Brown, 1984 (in Lauth, Grünke & Brunstein, 2004)",
+          "page_ref": "S. 42",
+          "setup": "Prä-Post-Lesekompetenzdesign mit drei Gruppen: (1) Trainingsgruppe 'Reziprokes Lehren', (2) aktive Vergleichsgruppe 'SQ3R-Lesemethode', (3) Kontrollgruppe (Textlesen & Inhaltsfragen ohne Strategietraining).",
+          "finding": "Vergleich nur zwischen Gruppe 1 und 2 entspricht einer vergleichenden Evaluation; der Einbezug aller drei Gruppen (inkl. Kontrollgruppe 3) bildet eine kombinierte Evaluation und weist die spezifische Überlegenheit des Reziproken Lehrens nach.",
+          "implication": "Um auszuschließen, dass bloße Zuwendung oder natürlicher Lernzuwachs wirkt, benötigen Evaluationsstudien eine Kontrollgruppe (kombiniertes Design als Goldstandard)."
+        }
+      ],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S041_Schaubild.png",
+          "caption": "Tabellarische Systematik der Evaluationsformen: Global/Analytisch, Intern/Extern, Formativ/Summativ, Isoliert/Vergleichend (Original-Skript S. 41)",
+          "page_ref": "S. 41"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S042_Abb1.png",
+          "caption": "Unterschiedliche Formen der Systemsteuerung: Inputkontrolle, Verhaltenskontrolle und Ergebniskontrolle (nach Wottawa & Thierau, 1998, S. 28; Original-Skript S. 42)",
+          "page_ref": "S. 42"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S043_Abb1.png",
+          "caption": "Wirkgefüge der vier Funktionen der Evaluation: Erkenntnis-, Kontroll-, Dialog- und Legitimitätsfunktion (nach Stockmann, 2003; Original-Skript S. 43)",
+          "page_ref": "S. 43"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S043_Abb2.png",
+          "caption": "Sechs Facetten der Evaluation rund um den Nutzen der Evaluationsmaßnahme (nach M. Jäger, 2005; Original-Skript S. 43)",
+          "page_ref": "S. 43"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Programm- & Evaluationsmodell nach Chen (2005) im Kontext der Schule",
+        "steps_or_rows": [
+          { "label": "1. Input (Ressourcen)", "detail": "Finanzmittel, Klassengröße, Lehrpersonal, Kunst-/Sporthallen-Ausstattung" },
+          { "label": "2. Transformation (Prozess)", "detail": "Unterrichtsdurchführung, Klassenführung, Kollegiumskooperation (Formative Evaluation setzt hier an!)" },
+          { "label": "3. Output (Ergebnisse)", "detail": "Fachkompetenzen, Lernfreude, Sozialklima (Summative Evaluation & Outputkontrolle prüfen hier!)" },
+          { "label": "4. Umwelt & Feedback-Schleife", "detail": "Soziales Einzugsgebiet beachten; Evaluations-Feedback steuert Input & Transformation nach" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Untersuchungsdesigns in der Evaluationsforschung sicher unterscheiden",
+        "headers": ["Evaluationsdesign", "Verglichene Gruppen", "Beantwortete Kernfrage"],
+        "rows": [
+          ["Isolierte Evaluation", "Trainingsgruppe A vs. unbehandelte Kontrollgruppe", "Wirkt Programm A überhaupt besser als gar kein Zusatztraining?"],
+          ["Vergleichende Evaluation", "Trainingsgruppe A vs. Trainingsgruppe B (OHNE Kontrollgruppe)", "Welches der beiden Trainings (z. B. Reziprokes Lehren vs. SQ3R) wirkt stärker?"],
+          ["Kombinierte Evaluation", "Trainingsgruppe A vs. Trainingsgruppe B vs. Kontrollgruppe", "Wirken beide Programme überhaupt UND welches ist dem anderen überlegen?"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 4.2 (Lesestrategien: Reziprokes Lehren nach Palincsar & Brown, 1984; SQ3R)",
+          "bridge_explanation": "Die Schlüsselstudie von Palincsar & Brown (1984) verbindet kognitive/metakognitive Leseförderung in Gebiet A unmittelbar mit dem kombinierten Evaluationsdesign in Gebiet C."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 11 (Bildungsmonitoring, Bildungsstandards & PISA)",
+          "bridge_explanation": "Der Paradigmenwechsel nach dem PISA-Schock entspricht exakt Wottawa & Thieraus Übergang von reiner Input-/Verhaltenskontrolle zur empirischen Ergebnis-/Outputkontrolle."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst-Schulprofil (Evaluation einer offenen 'Atelier-Stunde' in Jahrgang 3/4): Das Kollegium führt eine interne, formative Prozessevaluation durch (Dialog-/Lernfunktion nach Stockmann), um Materialfluss (Input) und Werkstattregeln (Transformation) nach vier Wochen gemeinsam nachzusteuern.",
+        "sport": "Sport Grundschule (Bewegte Pause / Pausenhof-Konzept): Um Fördergelder des Elternbeirats für neue Spielgeräte zu begründen (Legitimationsfunktion nach Stockmann), erhebt die Schule vorher und nachher Pausenkonflikte und Bewegungsaktivität (Output).",
+        "allgemein": "Einführung eines Lesepaten-Projekts in Klasse 2: Unterscheidung von Input (Ehrenamtliche, Lesekisten), Transformation (wöchentliches Tandem-Lesen) und Output (Leseflüssigkeit & Lesefreude)."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Evaluation (Köller & Möller, 2007; Rost, 2000; Seidel & Krapp, 2014)", "hint": "Wissenschaftlich-empirische Bewertung von Maßnahmen/Einrichtungen/Systemen zur evidenzbasierten Qualitätsentwicklung." },
+        { "term": "Maßnahmenmodell nach Chen (2005)", "hint": "5 Bausteine: Input -> Transformation -> Output + Umwelt + prozessbegleitendes Feedback." },
+        { "term": "Isolierte vs. vergleichende vs. kombinierte Evaluation", "hint": "Am Beispiel Palincsar & Brown (1984: Reziprokes Lehren vs. SQ3R vs. Kontrollgruppe) erklären!" },
+        { "term": "Systemsteuerung (Wottawa & Thierau, 1998) & 6 Facetten (Jäger, 2005)", "hint": "Input-, Verhaltens-, Ergebniskontrolle | Zweck, Zeitpunkt, Zuständigkeit, Zielgruppe, Gegenstand/Zielebene, Nutzen." },
+        { "term": "4 Funktionen nach Stockmann (2003)", "hint": "Erkenntnisfunktion, Kontrollfunktion, Dialog-/Lernfunktion und Legitimationsfunktion." }
+      ],
+      "essay_recipe": {
+        "intro": "Während Diagnostik auf Individuen fokussiert, bewertet Evaluation systematisch pädagogische Maßnahmen, Schulen und Bildungssysteme zur evidenzbasierten Qualitätsentwicklung (Seidel & Krapp, 2014; Köller & Möller, 2007).",
+        "core_model": "Darstellung von Chens Programmmodell (2005: Input, Transformation, Output, Umwelt, Feedback), der Systemsteuerungsformen nach Wottawa & Thierau (1998), der sechs Facetten nach Jäger (2005), der Evaluationsformen (intern/extern, formativ/summativ, isoliert/vergleichend/kombiniert) sowie der vier Funktionen nach Stockmann (2003).",
+        "empirics": "Methodische Illustration anhand der kombinierten Evaluationsstudie zum Reziproken Lehren von Palincsar & Brown (1984) mit Vergleichs- und Kontrollgruppe.",
+        "critique_bridge": "Damit Evaluation ihre Dialog- und Erkenntnisfunktion erfüllt statt bloße Kontrollängste auszulösen, bedarf es eines klaren Ablaufs und verbindlicher Qualitätsstandards (Kap. 5.4–5.6).",
+        "school_transfer": "Nutzung interner, formativer Unterrichts- und Schulentwicklungsevaluationen an Grundschulen zum kollegialen Lernen (Dialogfunktion) und zur gezielten Unterrichtsoptimierung."
+      },
+      "all_bold_terms_covered": [
+        "Rost (2000)",
+        "Seidel & Krapp (2014)",
+        "Wottawa & Thierau (2003)",
+        "Reflexion",
+        "Erfolgskontrolle",
+        "Planung und Steuerung",
+        "Selbstreguliertes Arbeiten und Unterrichten",
+        "Chen (2005)",
+        "Input",
+        "Transformation",
+        "Output",
+        "Umwelt",
+        "Feedback",
+        "Globale Evaluation",
+        "Analytische Evaluation",
+        "Interne Evaluation",
+        "Externe Evaluation",
+        "Prozessevaluation",
+        "Produktevaluation",
+        "Isolierte Evaluation",
+        "Vergleichende Evaluation",
+        "Kombinierte Evaluation",
+        "Reziprokes Lehren und Lernen",
+        "Palincsar & Brown (1984)",
+        "Wottawa & Thierau (1998)",
+        "Inputkontrolle",
+        "Verhaltenskontrolle",
+        "Ergebnis- bzw. Outputkontrolle",
+        "Sechs Facetten der Evaluation (Jäger, 2005)",
+        "Stockmann (2003)",
+        "Erkenntnisfunktion",
+        "Kontrollfunktion",
+        "Dialog- bzw. Lernfunktion",
+        "Legitimationsfunktion"
+      ]
+    },
+    {
+      "id": "C-01-14",
+      "domain": "C",
+      "chapter_group_num": "5",
+      "chapter_group_title": "5. Evaluation im Bildungswesen",
+      "section_num": "5.4–5.7",
+      "title": "Evaluationsablauf, Probleme, DeGEval-Standards & Unterrichtsfeedback",
+      "subtitle": "Abs et al. (2006), Jäger-Fahrplan (2005), Störfaktoren (Wottawa & Thierau), 4 DeGEval-Standards & Zielscheibe",
+      "page_start": 44,
+      "page_end": 45,
+      "page_label": "Original-Skript S. 44–45",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Entstehung -> Begründung -> Verwertung (Abs) | DeGEval: Nützlich, Durchführbar, Fair, Genau | Feedback per Zielscheibe!",
+      "definitions": [
+        {
+          "term": "Entstehungs-, Begründungs- und Verwertungszusammenhang",
+          "definition": "Dreiphasige Struktur wissenschaftlicher Evaluation: (1) Entstehungszusammenhang (Auftrags-, Ziel-, Modell- und Gruppenklärung), (2) Begründungszusammenhang (Fragestellungen/Hypothesen, Instrumentenkonstruktion, Erhebung & Auswertung), (3) Verwertungszusammenhang (Ergebniszugang, Interpretation & Ableitung von Konsequenzen).",
+          "author_year": "Abs et al., 2006; Wild & Möller, 2020",
+          "page_ref": "S. 44"
+        },
+        {
+          "term": "Methodische Kernprobleme von Evaluationen (Reifung, Äquivalenz, Mortalität)",
+          "definition": "Drei Bedrohungen der internen Validität im Feld: Reifungseffekte (altersbedingte Entwicklung, Übung, Umwelteinflüsse unabhängig vom Programm), Äquivalenzprobleme (fehlende Randomisierung natürlicher Schulklassen, unnatürliches Kontrollgruppenverhalten) und Stichprobenmortalität (selektiver Drop-out von Teilnehmenden).",
+          "author_year": "Wottawa & Thierau, 2003",
+          "page_ref": "S. 44–45"
+        },
+        {
+          "term": "Standards der Gesellschaft für Evaluation (DeGEval)",
+          "definition": "Vier übergreifende Qualitätskriterien professioneller Evaluationen: Nützlichkeit (Orientierung am Informationsbedarf der Nutzenden), Durchführbarkeit (realistisches, ökonomisches, kontextangepasstes Vorgehen), Fairness (Transparenz, Objektivität, Schutz der Rechte/Unversehrtheit) und Genauigkeit (valide, reliable, fehlergeprüfte Datengrundlage).",
+          "author_year": "DeGEval (Gesellschaft für Evaluation)",
+          "page_ref": "S. 45"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ablaufmodelle einer wissenschaftlichen Evaluation",
+          "page_ref": "S. 44",
+          "bullets": [
+            "**Dreischritt nach Abs et al. (2006) & Konkretisierung nach Wild & Möller (2020)**:",
+            "1. **Entstehungszusammenhang**: Entscheidung über Evaluation & Untersuchungsbereiche; Zieldimensionen, Kontext und Zielgruppe klären; formativ vs. summativ sowie Vergleichs-/Kontrollgruppen festlegen.",
+            "2. **Begründungszusammenhang**: Präzise Fragestellungen, Hypothesen und Indikatoren entwickeln; Wirkzusammenhang Maßnahme ↔ Zielkriterium spezifizieren; Messinstrumente konstruieren (**vorherige Erprobung/Pilotierung zwingend!**); Durchführung, Auswertung & Dokumentation.",
+            "3. **Verwertungszusammenhang**: Regeln, **wer Zugang zu den Ergebnissen erhält**; Ergebnisse interpretieren und konkrete praktische Konsequenzen ziehen.",
+            "**Neun-Schritte-Fahrplan nach Jäger (2005)**: (1) Rahmen klären -> (2) Ziele & Evaluationsfragen bestimmen -> (3) Kriterien & Indikatoren festlegen -> (4) Untersuchungsplanung -> (5) Datenerhebungsmethoden auswählen -> (6) Datensammlung -> (7) Datenauswertung -> (8) Bewertung & Interpretation -> (9) Umsetzung."
+          ]
+        },
+        {
+          "heading": "Probleme & Kosten einer Evaluation (Wottawa & Thierau, 2003)",
+          "page_ref": "S. 44–45",
+          "bullets": [
+            "**Methodische Störfaktoren**:",
+            "• **Reifungseffekte**: Kognitive Reifung findet im Grundschulalter auch ohne Unterricht statt; hinzu kommen Test-Übungseffekte und unkontrollierbare Umwelteinflüsse (Familie, Medien).",
+            "• **Äquivalenzprobleme**: In Schulen lassen sich Kinder meist **nicht randomisiert** (per Zufall) auf Klassen verteilen; zudem verändert das Wissen um den Vergleich das Verhalten der Kontrollgruppe.",
+            "• **Stichprobenmortalität (Drop-out)**: Verweigern einzelne Personen/Eltern die weitere Teilnahme, entstehen fehlende Werte und **Stichprobenverzerrungen**.",
+            "**Praktische & ethische Kosten**: Hoher Zeit-/Entwicklungsaufwand, **Unruhe bei Beteiligten** (Prüfungs-/Kontrollangst im Kollegium), Belastung der Lebenssituation, potenzielle **Schädigung durch unausgereifte Probemaßnahmen** sowie **Interessenkonflikte mit dem Auftraggeber** (z. B. Wunsch nach geschönten Erfolgszahlen)."
+          ]
+        },
+        {
+          "heading": "Vier DeGEval-Standards & Methoden der Unterrichtsevaluation",
+          "page_ref": "S. 45",
+          "bullets": [
+            "**Die 4 DeGEval-Standards (als Prüffragen)**:",
+            "1. **Nützlichkeit**: Welcher Zweck? Welcher Wissensbedarf bei wem? Wer nutzt die Befunde konkret?",
+            "2. **Durchführbarkeit**: Sind Beteiligte kooperationsbereit? Ökonomisch machbar? An den natürlichen Schulalltag angepasst?",
+            "3. **Fairness**: Objektiv und transparent? Faire Berichterstattung? Schutz der Rechte und Unversehrtheit aller Beteiligten?",
+            "4. **Genauigkeit**: Objektive, reliable, valide Schlüsse? Systematische Fehlerprüfung bei Erhebung und Auswertung?",
+            "**Methoden der Unterrichtsevaluation im Schulalltag**:",
+            "• **Klassische Zugänge**: **Videoanalysen**, kollegiale **Hospitationen**, **Schülerfeedback-Fragebögen**.",
+            "• **Kindgerechte Schnellmethoden (ideal für Grundschule!)**:",
+            "  – **Stimmungsbarometer**: Eindimensionale Skala (z. B. *'Wie gut hast du den heutigen Stoff verstanden?'* von *'überhaupt nicht'* bis *'sehr gut'*).",
+            "  – **Spinnennetz**: Mehrere sternförmige Achsen zu Gefühlen und Eindrücken für die kommende/vergangene Stunde.",
+            "  – **Zielscheibe**: Kreissektoren wie *Klima* (*'Ich fühle mich wohl'*), *Zusammenarbeit* (*'Ich traue mich, meine Meinung zu sagen'*) und *Lernen* (*'Ich kann den Inhalt meinem Nachbarn erklären'*) – **je näher an der Mitte der Punkt klebt, desto höher die Zustimmung**!"
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Drei-Phasen-Architektur wissenschaftlicher Evaluation (Abs et al., 2006 / Wild & Möller, 2020)",
+        "steps_or_rows": [
+          { "label": "1. Entstehungszusammenhang", "detail": "Auftrag, Ziele, Zielgruppe, Modell (formativ/summativ) & Kontrollgruppendesign klären" },
+          { "label": "2. Begründungszusammenhang", "detail": "Hypothesen & Indikatoren ableiten, Instrumente pilotieren, Daten sauber erheben & auswerten" },
+          { "label": "3. Verwertungszusammenhang", "detail": "Datenhoheit/Zugang fair regeln, Befunde interpretieren & konkrete Verbesserungen umsetzen" },
+          { "label": "Qualitätsrahmen: 4 DeGEval-Säulen", "detail": "Nützlichkeit + Durchführbarkeit + Fairness + Genauigkeit über alle 3 Phasen wahren!" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Kindgerechte Methoden der Unterrichtsevaluation in der Grundschule",
+        "headers": ["Methode", "Aufbau & Funktionsweise", "Stärke in Klasse 1–4"],
+        "rows": [
+          ["Stimmungsbarometer", "Lineare Skala (z. B. Smiley-/Thermometerleiste zu 1 konkreten Frage)", "In 1 Minute ohne Leseaufwand schon ab Klasse 1 einsetzbar"],
+          ["Spinnennetz", "Mehrere Strahlenachsen für unterschiedliche Eindrücke/Emotionen, die verbunden werden", "Zeigt auf einen Blick ein mehrdimensionales Stimmungsprofil"],
+          ["Zielscheibe", "Sektoren (z. B. Klima, Zusammenarbeit, Lernen); Klebepunkt nahe Zentrum = hohe Zustimmung", "Haptisch, motivierend und sofort für die ganze Klasse visuell auswertbar"],
+          ["Kollegiale Hospitation / Video", "Strukturierte Fremd- bzw. Selbstbeobachtung anhand vereinbarter Fokuskriterien", "Deckt blinde Flecken des eigenen Lehrerhandelns auf (hohe Genauigkeit)"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 1 (Entwicklungspsychologische Forschungsdesigns: Längsschnitt, Kohorten- & Reifungseffekte)",
+          "bridge_explanation": "Reifungseffekte und selektive Stichprobenmortalität (Drop-out) sind exakt dieselben methodischen Kernprobleme wie bei entwicklungspsychologischen Längsschnittstudien!"
+        },
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 6 (Merkmale guten Unterrichts nach Meyer / Helmke)",
+          "bridge_explanation": "Die Sektoren der Evaluations-Zielscheibe (Klassenklima, Verstehen/Klarheit, aktive Zusammenarbeit) spiegeln direkt die empirischen Basisdimensionen der Unterrichtsqualität wider."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 2 (Zielscheiben-Feedback nach einer Druckwerkstatt): Am Ende der Einheit klebt jedes Kind drei Klebepunkte auf eine große Plakat-Zielscheibe mit Bildsymbolen: Sektor 1 'Werkstatt-Wohlfühlklima', Sektor 2 'Gegenseitiges Helfen am Gruppentisch', Sektor 3 'Ich kann die Walzentechnik allein anwenden' – je näher zur Mitte, desto besser.",
+        "sport": "Sport Klasse 4 (Kollegiale Kurz-Hospitation nach DeGEval-Fairness): Zwei Sportlehrkräfte besuchen sich gegenseitig für 20 Minuten, um die 'echte Bewegungszeit' (Time-on-Task) per Strichliste zu messen. Vorab wird fair vereinbart (Verwertungszusammenhang), dass die Notizen vertraulich unter den beiden Tandems bleiben.",
+        "allgemein": "Evaluation eines neuen Pausenstreitschlichter-Programms: Beachtung von Reifungseffekten (Viertklässler werden ohnehin sozial reifer -> Vergleich mit Paralleljahrgang nötig!) und den 4 DeGEval-Standards."
+      },
+      "laut_erzaehl_check": [
+        { "term": "3 Phasen nach Abs et al. (2006) / Wild & Möller (2020)", "hint": "Entstehungszusammenhang, Begründungszusammenhang (inkl. Pilotierung!) und Verwertungszusammenhang (Datenhoheit & Konsequenzen)." },
+        { "term": "9-Schritte-Fahrplan nach Jäger (2005)", "hint": "Vom Rahmen klären über Ziele, Indikatoren, Planung, Methodenwahl, Sammlung, Auswertung, Bewertung bis zur Umsetzung." },
+        { "term": "3 Methodenprobleme nach Wottawa & Thierau (2003)", "hint": "Reifungseffekte (Reifung/Übung/Umwelt), Äquivalenzprobleme (keine Randomisierung) und Stichprobenmortalität (Drop-out) + Kosten." },
+        { "term": "4 DeGEval-Standards", "hint": "Nützlichkeit, Durchführbarkeit, Fairness und Genauigkeit (jeweils mit Leitfrage!)." },
+        { "term": "Methoden der Unterrichtsevaluation", "hint": "Videoanalyse, Hospitation, Fragebogen + Stimmungsbarometer, Spinnennetz und Zielscheibe (Mitte = volle Zustimmung)." }
+      ],
+      "essay_recipe": {
+        "intro": "Wissenschaftliche und schulische Evaluationen entfalten nur dann qualitätssteigernde Wirkung, wenn sie einem methodisch kontrollierten Ablauf folgen und anerkannte Evaluationsstandards einhalten.",
+        "core_model": "Darstellung des Dreischritts aus Entstehungs-, Begründungs- und Verwertungszusammenhang (Abs et al., 2006; Wild & Möller, 2020), des 9-stufigen Fahrplans nach Jäger (2005) sowie der vier DeGEval-Standards (Nützlichkeit, Durchführbarkeit, Fairness, Genauigkeit).",
+        "empirics": "Methodenkritische Reflexion realer Feldstudien anhand von Wottawa & Thierau (2003): Bedrohung der Aussagekraft durch Reifungseffekte, fehlende Randomisierung (Äquivalenzprobleme) und selektive Stichprobenmortalität.",
+        "critique_bridge": "Aufwendige externe Großstudien erzeugen leicht Unruhe und Reaktanz im Kollegium -> Ergänzung durch niedrigschwellige, durchführbare Instrumente der internen Unterrichtsevaluation.",
+        "school_transfer": "Altersgerechter Einsatz visueller Feedbackmethoden wie Zielscheibe, Spinnennetz und Stimmungsbarometer in der Grundschule, um Lernklima und Verstehensprozesse gemeinsam mit den Kindern weiterzuentwickeln."
+      },
+      "all_bold_terms_covered": [
+        "Abs et al. (2006)",
+        "Entstehungszusammenhang",
+        "Begründungszusammenhang",
+        "Verwertungszusammenhang",
+        "Wild & Möller (2020)",
+        "Fahrplan einer Evaluation (Jäger, 2005)",
+        "Reifungseffekte",
+        "Äquivalenzprobleme",
+        "Randomisierung",
+        "Stichprobenmortalität",
+        "DeGEval",
+        "Nützlichkeit",
+        "Durchführbarkeit",
+        "Fairness",
+        "Genauigkeit",
+        "Videoanalysen",
+        "Hospitationen",
+        "Stimmungsbarometer",
+        "Spinnennetz",
+        "Zielscheibe"
+      ]
+    }
+  ]
+}

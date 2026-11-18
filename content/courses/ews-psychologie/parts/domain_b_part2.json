@@ -1,0 +1,2796 @@
+{
+  "domain": "B",
+  "part": 2,
+  "domain_title": "Entwicklungspsychologie",
+  "source_pdf": "B_Entwicklungspsychologie_Skript.pdf",
+  "units": [
+    {
+      "id": "B-04-05",
+      "domain": "B",
+      "chapter_group_num": "4",
+      "chapter_group_title": "4. Identitäts- und Selbstentwicklung",
+      "section_num": "4.5–4.7",
+      "title": "Selbstkonzept, Strukturmodelle & Entwicklung",
+      "subtitle": "Shavelson et al. (1976), Marsh et al. (1988), Rouge-Test, Harter & Selbstwertverlauf",
+      "page_start": 46,
+      "page_end": 49,
+      "page_label": "Original-Skript S. 46–49",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Vom roten Punkt auf der Stirn (Rouge-Test) zum ausdifferenzierten Baum aus Mathe- & Sprach-Selbstkonzept",
+      "definitions": [
+        {
+          "term": "Selbstkonzept",
+          "definition": "Mentale Repräsentation der eigenen Person; Gesamtheit aller Vorstellungen, Einschätzungen und Bewertungen, die die eigene Person betreffen.",
+          "author_year": "Moschner, 2001",
+          "page_ref": "S. 46"
+        },
+        {
+          "term": "Identität vs. Selbst & Selbstkonzept als Einstellung",
+          "definition": "Identität beantwortet die Frage ‚Wer oder wie bin ich?‘ (v. a. Beschreibung der eigenen Person), das Selbst die Frage ‚Wie stehe ich zu mir?‘ (v. a. Bewertung). Das Selbstkonzept umfasst selbstbezogenes Wissen, Überzeugungen und Bewertungen als Einstellung zu sich selbst mit kognitiver (Selbstbeschreibungen), affektiver (Selbstwert) und handlungssteuernder Komponente.",
+          "author_year": "Rosenberg, 1979",
+          "page_ref": "S. 46"
+        },
+        {
+          "term": "Zwei Komponenten des Selbst (Entwicklungspsychologisch)",
+          "definition": "Unterteilung des ‚Selbst‘ in eine kognitiv-deskriptive Komponente (das Selbstkonzept) und eine affektiv-evaluative Komponente (der Selbstwert).",
+          "author_year": "Lohaus, 2018",
+          "page_ref": "S. 46"
+        },
+        {
+          "term": "Fähigkeitsselbstkonzept",
+          "definition": "Kognitive Repräsentationen eigener Fähigkeiten und Begabungen.",
+          "author_year": "Urhahne, Dresel & Fischer, 2019",
+          "page_ref": "S. 46"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Strukturmodelle: Shavelson, Hubner & Stanton (1976) vs. Marsh et al. (1988)",
+          "page_ref": "S. 46–47",
+          "bullets": [
+            "**Multidimensionales und hierarchisches Selbstkonzept (Shavelson, Hubner & Stanton, 1976)**: Umfasst mehrere bereichsspezifische Facetten (Überzeugungen über hohe/geringe Begabungen), die sich mit dem Alter zunehmend ausdifferenzieren; empirische Prüfung über Korrelationsmuster zwischen Domänen.",
+            "**Hierarchie nach Shavelson et al. (1976)**: An der Spitze steht ein **Allgemeines Selbstkonzept** (analog zum *g-Faktor* der Intelligenz), darunter das **Schulische Selbstkonzept** (*Muttersprache, Geschichte, Mathematik, Naturwissenschaften*) und das **Nicht-schulische Selbstkonzept** (*Soziales*: Peers & Signifikante Andere; *Emotionales*: besondere emotionale Zustände; *Physisches*: körperliche Fähigkeiten & Aussehen/Attraktivität) bis hinab zu **Bewertungen eigenen Verhaltens in spezifischen Situationen**.",
+            "**Empirische Grenze der Hierarchie**: Ein starker globaler Generalfaktor an der Spitze ließ sich empirisch **nicht** bestätigen.",
+            "**Revidierte Struktur des schulischen Selbstkonzepts (Marsh, Byrne & Shavelson, 1988)**: Da mathematisches und verbales Selbstkonzept nahezu unkorreliert sind, wird die globale Spitze aufgegeben und durch zwei getrennte Faktoren ersetzt: **Mathematisches Selbstkonzept der Begabung** und **Verbales Selbstkonzept der Begabung** (darunter Fächerspektrum von *Mathematik, Physik, Biologie, Wirtschaft, Schule, Geographie, Geschichte, Fremdsprachen, Muttersprache*)."
+          ]
+        },
+        {
+          "heading": "Entwicklung des Selbstkonzepts von der frühen Kindheit bis zur Adoleszenz",
+          "page_ref": "S. 48–49",
+          "bullets": [
+            "**Interaktiver Ursprung (Siegler, 2016; Pinquart in Urhahne et al., 2019)**: Das Selbst entsteht in den ersten Lebensjahren in Interaktionen mit wichtigen Bezugspersonen (vgl. *Bindungstheorie*) und wird mit kognitiver/emotionaler Reifung bis ins Erwachsenenalter komplexer.",
+            "**Meilensteine der ersten zwei Lebensjahre**: **Ca. 4 Monate**: Erleben als eigenständige Organisation; **ca. 6–10 Monate**: innere Arbeitsmodelle des Selbst (Bindung), Trennungsreaktionen/Fremdenangst, Verstehen fremder Intentionen; **ca. 10–15 Monate**: **Soziales Referenzieren** (Ableiten der Situationsvalenz vom Gesichtsausdruck der Bezugsperson); **ca. 15–18 Monate (bis 2 J.)**: Anfänge des **Me-Self**, Trotzalter, Selbermachen-Wollen, Bestehen des **Rouge-Tests** (unbemerkter roter Farbtupfer auf der Stirn wird im Spiegelbild im eigenen Gesicht weggewischt), Selbsterkennen auf Fotos und Gebrauch von „ich“.",
+            "**Qualitative Strukturveränderung nach Harter (1999, 2012)**: **Vorschulalter**: konkrete, beobachtbare Einzelmerkmale (Aussehen, Lieblingsaktivitäten) ohne kohärente Verknüpfung; **Grundschulalter**: zunehmend abstraktere Eigenschaftsdimensionen und Kategorien („Ich bin klug/groß“) durch systematische **externale/soziale Vergleiche**; **Jugendalter**: psychologische, abstrakte Merkmale in kohärenter Vernetzung.",
+            "**Jugendlicher Egozentrismus nach Elkind (1967)**: Frühe Adoleszenz geprägt durch die **„persönliche Fabel“** (Überzeugung, die eigene Person und die eigenen Gefühle seien völlig einzigartig und unvergleichlich)."
+          ]
+        },
+        {
+          "heading": "Entwicklung des Selbstwertes (4.7)",
+          "page_ref": "S. 49",
+          "bullets": [
+            "**Vorschulalter (Pinquart in Urhahne et al., 2019)**: Selbstbewertungen sind meist **unrealistisch hoch** (fehlende Trennung von Wunsch und Realität; Wunschdenken/Ambitionen statt Tatsachen).",
+            "**Grundschulalter**: Zunehmender Realismus; ab **ca. 8–9 Jahren** entsteht ein globaler Selbstwert („guter/wertvoller Mensch“) durch systematische soziale Vergleiche (**Harter, 2012**), wodurch der Selbstwert in der mittleren/späten Kindheit häufig **absinkt** (**Hoglund, 1995**).",
+            "**Jugendalter**: Im Mittel keine Veränderung, aber **starke interindividuelle Unterschiede** (50–90 % zeigen stabil hohen oder stabil niedrigen Selbstwert; daneben Gruppen mit steigendem, sinkendem oder nichtlinearem Verlauf)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Trennung von verbalem und mathematischem Selbstkonzept",
+          "authors_year": "Marsh, Byrne & Shavelson, 1988",
+          "page_ref": "S. 47",
+          "setup": "Faktorenanalytische Prüfung der Korrelationen zwischen fachspezifischen schulischen Selbstkonzepten zur Testung der globalen Spitze des Shavelson-Modells.",
+          "finding": "Verbales und mathematisches Selbstkonzept sind empirisch klar unterscheidbar und nahezu unkorreliert (teilweise sogar leicht negativ korreliert) – trotz positiver Korrelation der tatsächlichen Schulleistungen.",
+          "implication": "Revision zum zweigeteilten Modell des schulischen Selbstkonzepts ohne übergeordneten globalen Schulfaktor; Lehrkräfte dürfen aus sprachlicher Unsicherheit niemals auf ein niedriges mathematisches Selbstkonzept schließen (und umgekehrt)."
+        },
+        {
+          "title": "Entwicklung sozialer und schulischer Selbstkonzepte beim Schulübertritt",
+          "authors_year": "Gerlach, 2006",
+          "page_ref": "S. 49",
+          "setup": "Untersuchung der Veränderung des sozialen und schulischen Selbstkonzepts von der Grundschule bis in die weiterführende Schule.",
+          "finding": "Das soziale Selbstkonzept nimmt durch wachsende Integration in die Peergruppe mit dem Alter zu; das schulische Selbstkonzept steigt in der Grundschule an, sinkt beim Übertritt auf das Gymnasium merklich ab und erholt sich danach wieder.",
+          "implication": "Sensible Begleitung am Ende der 4. Klasse nötig, da der Wechsel der Bezugsgruppe (Big-Fish-Little-Pond-Effekt) beim Übertritt einen vorübergehenden Einbruch des Fähigkeitsselbstkonzepts auslöst."
+        }
+      ],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S047_Abb1.png",
+          "caption": "Hierarchisches und multidimensionales Modell des Selbstkonzepts nach Shavelson, Hubner & Stanton (1976) (Original-Skript S. 47)",
+          "page_ref": "S. 47"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S047_Abb2.png",
+          "caption": "Revidierte Struktur des schulischen Selbstkonzepts (Mathematisches vs. Verbales Selbstkonzept der Begabung) nach Marsh, Byrne & Shavelson (1988) (Original-Skript S. 47)",
+          "page_ref": "S. 47"
+        }
+      ],
+      "custom_visual": {
+        "type": "timeline",
+        "title": "Alters-Zeitstrahl: Entwicklung von Selbstkonzept & Selbstwert",
+        "steps_or_rows": [
+          {
+            "label": "4–15 Monate",
+            "detail": "Eigenständigkeit (4 M.) -> Innere Arbeitsmodelle/Bindung (6–10 M.) -> Soziales Referenzieren (10–15 M.)"
+          },
+          {
+            "label": "15–24 Monate",
+            "detail": "Anfänge des Me-Self, Trotzalter, Bestehen des Rouge-Tests (Spiegelerkennen), Fotos & Wort ‚ich‘"
+          },
+          {
+            "label": "Vorschulalter (3–6 J.)",
+            "detail": "Konkrete Einzelmerkmale ohne Kohärenz (Harter); Selbstwert unrealistisch hoch (Wunsch = Realität)"
+          },
+          {
+            "label": "Grundschulalter (6–10 J.)",
+            "detail": "Eigenschaftsdimensionen & soziale Vergleiche; ab 8/9 J. globaler Selbstwert -> Absinken zum Realismus (Hoglund)"
+          },
+          {
+            "label": "Jugendalter (ab 11/12 J.)",
+            "detail": "Abstrakt-psychische, kohärente Merkmale; ‚persönliche Fabel‘ (Elkind); differentielle Selbstwertverläufe"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Begriffsabgrenzung rund um das Selbst",
+        "headers": [
+          "Konstrukt",
+          "Leitfrage / Fokus",
+          "Urheber im Skript"
+        ],
+        "rows": [
+          [
+            "Identität",
+            "‚Wer oder wie bin ich?‘ – Beschreibung der eigenen Person & Kohärenz",
+            "Rosenberg (1979)"
+          ],
+          [
+            "Selbstkonzept",
+            "Kognitiv-deskriptive mentale Repräsentation eigener Merkmale & Fähigkeiten",
+            "Moschner (2001); Lohaus (2018)"
+          ],
+          [
+            "Fähigkeitsselbstkonzept",
+            "Kognitive Repräsentationen eigener Fähigkeiten und Begabungen",
+            "Urhahne, Dresel & Fischer (2019)"
+          ],
+          [
+            "Selbstwert",
+            "Affektiv-evaluative Bewertung (‚Wie stehe ich zu mir?‘ / Selbstachtung)",
+            "Rosenberg (1979); Lohaus (2018)"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.6 & 4 (Attribution & Selbstreguliertes Lernen)",
+          "bridge_explanation": "Das bereichsspezifische Fähigkeitsselbstkonzept steuert maßgeblich die Erfolgszuversicht, Zielwahl und Anstrengungsbereitschaft beim selbstregulierten Lernen."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 4 & 9.2 (Schulleistungs- & Persönlichkeitsdiagnostik, Übertritt)",
+          "bridge_explanation": "Beim Übertritt nach Klasse 4 (Gerlach, 2006) erklärt der Referenzgruppenwechsel das Absinken des schulischen Selbstkonzepts, das diagnostisch über den SESSKO erfasst werden kann."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 1 vs. Klasse 4 (Malentwicklung): Erstklässler zeigen noch ein unrealistisch-positives Gestaltungsselbstkonzept (‚Ich male am allerbesten!‘), während Viertklässler durch soziale Vergleiche plötzlich selbstkritisch werden (‚Mein Pferd sieht nicht echt aus‘). Gegenmaßnahme: Skizzenbuch-Vergleich mit eigenen früheren Bildern statt Tafel-Rangliste.",
+        "sport": "Sport Klasse 3 (Vielseitigkeits-Parcours): Da das physische Selbstkonzept nach Shavelson et al. (1976) *körperliche Fähigkeiten* und *Aussehen* trennt, ermöglichen Stationen für Balance, Ausdauer, Zielwurf und Rhythmus jedem Kind ein echtes Kompetenzerlebnis in einer eigenen Subdomäne.",
+        "allgemein": "Vorbereitung auf den Übertritt in Klasse 4: Thematisieren, dass ein anfänglicher Noten- oder Vergleichsknick an der neuen Schule normal und veränderbar ist (Schutz des Selbstwerts)."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "Selbstkonzept vs. Selbstwert (Moschner, Rosenberg, Lohaus)",
+          "hint": "Kognitiv-deskriptiv (‚Wie bin ich?‘) vs. affektiv-evaluativ (‚Wie bewerte ich mich?‘)."
+        },
+        {
+          "term": "Shavelson et al. (1976) vs. Marsh et al. (1988)",
+          "hint": "Hierarchische Pyramide mit globaler Spitze vs. Trennung in unkorreliertes Mathe- und Verbal-Selbstkonzept."
+        },
+        {
+          "term": "Frühe Meilensteine & Rouge-Test",
+          "hint": "4 Mon. Eigenständigkeit, 6–10 Mon. Bindung, 10–15 Mon. Soziales Referenzieren, 15–18 Mon. Me-Self & Spiegeltest."
+        },
+        {
+          "term": "Harter (1999, 2012) & Elkind (1967)",
+          "hint": "Konkret-unverbunden (Vorschule) -> Eigenschaftsdimensionen/soziale Vergleiche (GS) -> abstrakt-kohärent & ‚persönliche Fabel‘ (Jugend)."
+        },
+        {
+          "term": "Selbstwert-Knick (Hoglund, 1995) & Übertritt (Gerlach, 2006)",
+          "hint": "Ab 8/9 J. realistischer durch soziale Vergleiche; schulisches SK sinkt beim Gymnasialübertritt kurzzeitig."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Abgrenzung von kognitiv-deskriptivem Selbstkonzept (Moschner, 2001) und affektiv-evaluativem Selbstwert (Rosenberg, 1979; Lohaus, 2018) sowie Fokus auf das schulische Fähigkeitsselbstkonzept (Urhahne et al., 2019).",
+        "core_model": "Darstellung des multidimensional-hierarchischen Modells von Shavelson, Hubner & Stanton (1976) und der entwicklungspsychologischen Ausdifferenzierung von früher Kindheit (Rouge-Test) über Vorschul- zum Grundschulalter (Harter, 1999, 2012).",
+        "empirics": "Marsh, Byrne & Shavelson (1988) zur fehlenden Korrelation von mathematischem und verbalem Selbstkonzept sowie Gerlach (2006) und Hoglund (1995) zum Absinken in später Kindheit bzw. beim Gymnasialübertritt.",
+        "critique_bridge": "Aufgabe der globalen Hierarchiespitze zugunsten domänenspezifischer Faktoren -> Überleitung zu sozialen und dimensionalen Vergleichsprozessen (I/E-Modell, BFLPE).",
+        "school_transfer": "Schutz vor dem realistischen Selbstwert-Einbruch ab Klasse 3 durch individuelle Lernfortschrittsrückmeldungen (z. B. Kunst-Portfolio, differenzierte Sport-Stationen)."
+      },
+      "all_bold_terms_covered": [
+        "4.5 Selbst und Selbstkonzept",
+        "Selbstkonzept",
+        "Identität",
+        "Selbst",
+        "Selbstwert",
+        "Fähigkeitsselbstkonzept",
+        "Multidimensionales und hierarchisches Selbstkonzept",
+        "Struktur des schulischen Selbstkonzepts",
+        "4.6 Entwicklung des Selbstkonzepts",
+        "4.7 Entwicklung des Selbstwertes",
+        "Moschner (2001)",
+        "Rosenberg (1979)",
+        "Lohaus (2018)",
+        "Urhahne, Dresel & Fischer (2019)",
+        "Shavelson, Hubner & Stanton (1976)",
+        "Marsh, Byrne & Shavelson (1988)",
+        "Siegler (2016)",
+        "Soziales Referenzieren",
+        "Me-Self",
+        "Rouge-Test",
+        "Harter (1999, 2012)",
+        "Elkind (1967)",
+        "persönliche Fabel",
+        "Gerlach (2006)",
+        "Hoglund (1995)"
+      ]
+    },
+    {
+      "id": "B-04-06",
+      "domain": "B",
+      "chapter_group_num": "4",
+      "chapter_group_title": "4. Identitäts- und Selbstentwicklung",
+      "section_num": "4.8–4.11",
+      "title": "Determinanten, Wirkungen, Geschlechterstereotype & SESSKO",
+      "subtitle": "BFLPE, I/E-Modell (Marsh), Reziprokes Effekte-Modell, Stereotype Threat & Diagnostik",
+      "page_start": 49,
+      "page_end": 53,
+      "page_label": "Original-Skript S. 49–53",
+      "estimated_minutes": 20,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Großer Fisch im kleinen Teich + Mathe-gegen-Deutsch-Abwertung: Wie Vergleiche das Selbstkonzept formen",
+      "definitions": [
+        {
+          "term": "Big-Fish-In-A-Little-Pond-Effekt (BFLPE / Fischteicheffekt)",
+          "definition": "Bezugsgruppeneffekt sozialer Vergleiche: Lernende entwickeln bei gleicher individueller Leistung in einer leistungsschwachen Klasse ein relativ hohes schulisches Selbstkonzept, in einer leistungsstarken Klasse hingegen ein eher niedriges.",
+          "author_year": "Marsh, 1987; Köller, 2004",
+          "page_ref": "S. 50"
+        },
+        {
+          "term": "Basking-in-reflected-glory-Effekt (Assimilations- / Prestigeeffekt)",
+          "definition": "Aufwertung des eigenen Selbstkonzepts durch die Zugehörigkeit zu einer prestigeträchtigen, leistungsstarken Schule (z. B. Gymnasium); empirisch inkonsistent und deutlich schwächer als der negative Kontrasteffekt des BFLPE.",
+          "author_year": "Cialdini & Richardson, 1990; Marsh, Kong & Hau, 2000",
+          "page_ref": "S. 50"
+        },
+        {
+          "term": "Internal/External-Frame-of-Reference-Modell (I/E-Modell)",
+          "definition": "Modell zur Erklärung fachspezifischer Selbstkonzepte durch Überlagerung eines externalen (sozialen) Vergleichs (positiver Effekt guter Fachleistung) und eines internalen (dimensionalen) Kontrastvergleichs zwischen mathematisch-naturwissenschaftlichen und sprachlichen Fächern (Abwertung der jeweils anderen Domäne).",
+          "author_year": "Marsh, 1986",
+          "page_ref": "S. 50–51"
+        },
+        {
+          "term": "Stereotype Threat (Bedrohung durch Stereotype)",
+          "definition": "Situative Aktivierung negativer Leistungsstereotype über eine eigene soziale Subgruppe (z. B. Frauen in Mathematik, Schwarze), die über Angst- und Interferenzprozesse zu tatsächlich schlechteren Testleistungen führt.",
+          "author_year": "Steele & Aronson, 1995",
+          "page_ref": "S. 52"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "4.8 Determinanten: Vier Vergleichsquellen & Lehrer-Schüler-Prozessmodell",
+          "page_ref": "S. 49–51",
+          "bullets": [
+            "**Vier zentrale Vergleichsinformationen**: 1. **Soziale Vergleiche** mit anderen Personen (*external*, bereits ab Vorschulalter); 2. **Dimensionale Vergleiche** zwischen eigenen Fächern/Domänen (*internal*, z. B. Mathe vs. Biologie); 3. **Temporale (individuelle) Vergleiche** über eigene Lernzeitpunkte hinweg; 4. **Kriteriale Vergleiche** mit sachlichen Lernziel-Standards.",
+            "**8-stufiges Prozessmodell der Lehrer-Schüler-Interaktion**: 1. Wahrnehmung der Begabungseinschätzung der Lehrkraft (z. B. subtiles Mitleid bei Fehlern) -> 2. Übernahme ins eigene Begabungsselbstkonzept -> 3. entsprechende Leistungsattribution -> 4. Ausrichtung der Selbstbekräftigung -> 5. entsprechende Leistungserwartungen -> 6. Anstrengungskalkulation -> 7. aktives Lernhandeln -> 8. korrespondierende Schülerleistungen.",
+            "**Spannungsfeld starker Lerngruppen (Becker, Lüdke, Trautwein & Baumert, 2006; Wild & Möller, 2016)**: Leistungsstarke Klassen fördern die objektive **Leistungsentwicklung**, beeinträchtigen aber über den **BFLPE** das **Selbstkonzept** (der **Basking-in-reflected-glory-Effekt** kompensiert dies nur schwach).",
+            "**Kontrasteffekt im I/E-Modell (Marsh, 1986)**: Lernende überschätzen eigene Stärken und werten die jeweils andere Domäne dimensional ab (‚Ich bin ein Sprachmensch, also kein Mathetyp‘)."
+          ]
+        },
+        {
+          "heading": "4.9 Wirkungen (Skill-Development vs. Self-Enhancement) & Erwartungs-Wert-Modell",
+          "page_ref": "S. 51–52",
+          "bullets": [
+            "**Skill-development-Ansatz**: Schulleistungen formen das nachfolgende Selbstkonzept (*Leistung -> Selbstkonzept*).",
+            "**Self-enhancement-Ansatz**: Das Selbstkonzept verbessert über Motivation und Ausdauer nachfolgende Leistungen (*Selbstkonzept -> Leistung*; belegt u. a. durch **Marsh & Craven, 2006**; **Valentine, DuBois & Cooper, 2004**).",
+            "**Reziprokes Verhältnis (Reciprocal Effects Model, REM)**: Beide Wirkrichtungen greifen wechselseitig ineinander.",
+            "**Selbstkonzept als Mediator im Erwartungs-Wert-Modell (Frenzel, Götz & Pekrun, 2009)**: *Soziale Umwelt* (kulturelles Milieu, Eltern-/Lehrerverhalten, Rückmeldungen) -> *Subjektive Verarbeitung* (Wahrnehmung & Attribution) -> **Erwartung** („Kann ich das lernen?“ = **fachbezogene Selbstkonzepte**) -> **Wert** („Will ich das lernen?“ = Interesse, Emotion, Wichtigkeit, Nützlichkeit, Kosten) -> *Lernverhalten* (Ausdauer, Anstrengung, Lernmenge, Strategien) -> *Lernergebnis* (Wissen, Leistung, Affekt) mit Rückkopplungsschleifen."
+          ]
+        },
+        {
+          "heading": "4.10 Geschlechterstereotype, Förderung & 4.11 Diagnostik mit SESSKO",
+          "page_ref": "S. 51–53",
+          "bullets": [
+            "**Geschlechterstereotype**: Jungen berichten im Mittel ein höheres mathematisches, Mädchen ein höheres sprachliches Selbstkonzept (**Marsh & Hattie, 1996**). Eltern und Lehrkräfte schreiben Jungen **bei gleichem Leistungsstand** höhere Mathebegabung zu und erwarten mehr (**Frome & Eccles, 1998**); aktivierte Klischees lösen **Stereotype Threat** (**Steele & Aronson, 1995**) aus.",
+            "**Schulische Förderung**: **Individuelle Bezugsnormorientierung** (eigener Lernzuwachs statt Klassenrang), **günstige Attributionstrainings** (Erfolg internal auf Fähigkeit/Anstrengung; Misserfolg internal-variabel auf Anstrengung), **mittlere Aufgabenschwierigkeit** (realistisches Anspruchsniveau) sowie **Outward-Bound-Programme** (**Marsh & Richards, 1988; O’Mara et al., 2006**).",
+            "**SESSKO (Skalen zur Erfassung des schulischen Selbstkonzepts; Schöne, Dickhäuser, Spinath & Stiensmeier-Pelster)**: Diagnostik bei Leistungsproblemen für **Klassenstufe 3 bis 10**, Einzel- oder Gruppentest, **7–15 Minuten**, **22 Items** (5-stufige Skala), **4 bezugsnormspezifische Skalen**: *kriterial, individuell, sozial* und *absolut* (ohne expliziten Vergleich); hohe Reliabilität und faktorielle/konvergente/diskriminative Validität (**Dickhäuser et al., 2002**)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Self-Enhancement & Reziproke Effekte zwischen Selbstkonzept und Leistung",
+          "authors_year": "Marsh & Craven, 2006; Valentine, DuBois & Cooper, 2004",
+          "page_ref": "S. 51",
+          "setup": "Längsschnittstudien und Metaanalysen zur wechselseitigen Vorhersagekraft von fachspezifischem Selbstkonzept und späterer Schulleistung unter Kontrolle des Vorwissens.",
+          "finding": "Lernende mit identischem Ausgangsleistungsstand, aber höherem fachlichem Selbstkonzept erzielen ein Jahr später signifikant bessere Lernleistungen (Stützung des Reciprocal Effects Model).",
+          "implication": "Lehrkräfte müssen nicht ausschließlich Fertigkeiten trainieren (Skill-Development), sondern zugleich aktiv das Fähigkeitsselbstkonzept stärken."
+        },
+        {
+          "title": "Erlebnispädagogische Outward-Bound-Programme zur Selbstkonzeptförderung",
+          "authors_year": "O’Mara, Marsh, Craven & Debus, 2006 (sowie Marsh & Richards, 1988)",
+          "page_ref": "S. 51–52",
+          "setup": "Metaanalytische und experimentelle Evaluation erlebnispädagogischer Herausforderungen (z. B. Überquerung eines Flusses über eine selbst konstruierte Brücke, Klettern).",
+          "finding": "Die erfolgreiche Bewältigung authentischer, herausfordernder Aufgaben führt zu einer nachweislichen und nachhaltigen Steigerung der gezielt geförderten Selbstkonzeptfacetten.",
+          "implication": "Handlungsorientierte Kooperations- und Bewegungsaufgaben im Schulalltag (z. B. Sport, Schullandheim, Werkprojekte) stärken das Selbstkonzept wirksam."
+        },
+        {
+          "title": "Psychometrische Validierung des SESSKO",
+          "authors_year": "Dickhäuser, Schöne, Spinath & Stiensmeier-Pelster, 2002",
+          "page_ref": "S. 53",
+          "setup": "Faktorenanalytische und kriterienbezogene Überprüfung der vier bezugsnormspezifischen SESSKO-Skalen an Schülerinnen und Schülern der Klassen 3 bis 10.",
+          "finding": "Die vier Skalen (kriterial, individuell, sozial, absolut) lassen sich faktorenanalytisch sauber trennen; das Verfahren ist reliabel sowie faktoriell, konvergent und diskriminativ valide.",
+          "implication": "Ermöglicht ab Klasse 3 eine differenzierte Abklärung, ob ein Kind sein Können nur im sozialen Klassenvergleich unterschätzt, seinen eigenen Lernfortschritt aber erkennt."
+        }
+      ],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S052_Abb1.png",
+          "caption": "Fachbezogenes Selbstkonzept als Mediator im Erwartungs-Wert-Modell (Frenzel, Götz & Pekrun, 2009, in Wild & Möller, 2009; Original-Skript S. 52)",
+          "page_ref": "S. 52"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "8-Stufen-Prozesskette: Vom Lehrerverhalten zur Schülerleistung (S. 50)",
+        "steps_or_rows": [
+          {
+            "label": "1–2. Wahrnehmung & Übernahme",
+            "detail": "Kind registriert Begabungseinschätzung der Lehrkraft -> Übernahme ins eigene Fähigkeitsselbstkonzept"
+          },
+          {
+            "label": "3–4. Attribution & Selbstbekräftigung",
+            "detail": "Ursachenzuschreibung von Erfolg/Misserfolg & Muster von Stolz vs. Scham passen sich daran an"
+          },
+          {
+            "label": "5–6. Erwartung & Anstrengungskalkül",
+            "detail": "Leistungserwartung sinkt/steigt -> geplante Anstrengung wird entsprechend dosiert"
+          },
+          {
+            "label": "7–8. Handeln & Leistungsergebnis",
+            "detail": "Umsetzung im Unterrichtshandeln -> tatsächliche Leistung bestätigt scheinbar die Ausgangserwartung"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Vergleichseffekte & Wirkmodelle des schulischen Selbstkonzepts",
+        "headers": [
+          "Modell / Effekt",
+          "Kernmechanismus",
+          "Pädagogische Konsequenz"
+        ],
+        "rows": [
+          [
+            "Big-Fish-Little-Pond (Marsh, 1987)",
+            "Sozialer Kontrast: Starke Klasse drückt eigenes Fähigkeitsselbstkonzept",
+            "Soziale Rangvergleiche reduzieren, temporale/individuelle Vergleiche stärken"
+          ],
+          [
+            "Basking-in-Reflected-Glory",
+            "Soziale Assimilation: Schulprestige hebt Selbstkonzept leicht (inkonsistent)",
+            "Reicht nicht aus, um den stärkeren negativen BFLPE beim Übertritt aufzufangen"
+          ],
+          [
+            "I/E-Modell (Marsh, 1986)",
+            "Externaler Vergleich (+) plus dimensionaler Kontrast Mathe vs. Sprache (−)",
+            "Kein Schubladendenken (‚Mathe- vs. Sprachkind‘) im Feedback verstärken"
+          ],
+          [
+            "Reciprocal Effects Model (REM)",
+            "Skill-Development (Leistung -> SK) + Self-Enhancement (SK -> Leistung)",
+            "Kompetenztraining UND selbstkonzeptstützendes Feedback kombinieren"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.6 & 5.2 (Kausalattribution nach Weiner & Erwartungseffekte/Pygmalion)",
+          "bridge_explanation": "Das 8-stufige Lehrer-Schüler-Prozessmodell erklärt exakt, wie subtile Lehrererwartungen (z. B. Geschlechterstereotype nach Frome & Eccles, 1998) über Attributionen zur selbsterfüllenden Prophezeiung werden."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 2.2 & 9.2 (Bezugsnormen & Persönlichkeits-/Selbstkonzeptdiagnostik SESSKO)",
+          "bridge_explanation": "Die vier Vergleichsinformationen (sozial, temporal/individuell, kriterial, absolut) bilden das exakte theoretische Fundament der vier SESSKO-Skalen ab Klasse 3."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Technisches Werken / Brückenbau aus Papier & Holzstäben): Entgegen Geschlechterstereotypen (‚Jungen konstruieren besser, Mädchen malen schöner‘) bauen alle Kinder tragfähige Brücken ohne geschlechtsbezogene Kommentare (Schutz vor Stereotype Threat); temporale Rückmeldung anhand von Werkfotos dokumentiert den eigenen Baufortschritt.",
+        "sport": "Sport Klasse 4 (Kooperativer Geräte-Abenteuerparcours im Outward-Bound-Stil): Die Klasse überquert gemeinsam eine ‚reißende Schlucht‘ mit Matten und Rollbrettern (vgl. O’Mara et al., 2006). Mittelschwere Wahlstationen und anstrengungsbezogenes Feedback (‚Durch euer Umplanen hat die Brücke gehalten!‘) stärken das physische und soziale Selbstkonzept.",
+        "allgemein": "Einsatz des SESSKO ab Klasse 3 bei Kindern mit plötzlichem Leistungsabfall, um gezielt soziales Vergleichsleiden aufzudecken."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "4 Vergleichsquellen (sozial, dimensional, temporal, kriterial)",
+          "hint": "Nenne zu jeder der vier Quellen ein konkretes Grundschulbeispiel."
+        },
+        {
+          "term": "BFLPE (Marsh, 1987) vs. Basking-in-Reflected-Glory",
+          "hint": "Negativer sozialer Kontrasteffekt vs. schwacher, inkonsistenter Prestigeeffekt + Spannungsfeld Becker et al. (2006)."
+        },
+        {
+          "term": "I/E-Modell (Marsh, 1986)",
+          "hint": "Warum werten Kinder mit Top-Mathenote ihr Sprach-Selbstkonzept oft ab (dimensionaler Kontrast)?"
+        },
+        {
+          "term": "Skill-Development, Self-Enhancement & REM",
+          "hint": "Welche Wirkrichtung gilt? Beide wechselseitig (Marsh & Craven, 2006) + Mediator im Erwartungs-Wert-Modell."
+        },
+        {
+          "term": "Geschlechterstereotype, Stereotype Threat & SESSKO",
+          "hint": "Frome & Eccles (1998), Steele & Aronson (1995) sowie SESSKO-Steckbrief (Kl. 3–10, 22 Items, 4 Skalen)."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Bedeutung des Fähigkeitsselbstkonzepts für Lernprozesse im Erwartungs-Wert-Modell (Frenzel, Götz & Pekrun, 2009) und Überblick über die vier zentralen Vergleichsinformationen.",
+        "core_model": "Erklärung des Big-Fish-Little-Pond-Effekts (Marsh, 1987; Köller, 2004) im Kontrast zum Basking-in-Reflected-Glory-Effekt sowie des Internal/External-Frame-of-Reference-Modells (Marsh, 1986) und des Reciprocal Effects Model.",
+        "empirics": "Befunde von Marsh & Craven (2006) zu reziproken Leistungseffekten, Frome & Eccles (1998) sowie Steele & Aronson (1995) zu Geschlechterstereotypen und O’Mara et al. (2006) zu Outward-Bound-Programmen.",
+        "critique_bridge": "Spannungsfeld leistungsstarker Lerngruppen (Becker et al., 2006) und diagnostische Differenzierung über den SESSKO (Dickhäuser et al., 2002).",
+        "school_transfer": "Konkrete Förderung in der Grundschule durch individuelle Bezugsnormorientierung, Reattributionstraining auf Anstrengung, Abbau von Geschlechterklischees und kooperative Bewegungsaufgaben."
+      },
+      "all_bold_terms_covered": [
+        "4.8 Determinanten des Selbstkonzepts",
+        "Prozessmodell",
+        "Internal/External-Frame-of-Reference-Modell",
+        "4.9 Wirkungen des Selbstkonzepts",
+        "Skill-development-Ansatz",
+        "Self-enhancement-Ansatz",
+        "reziprokes Verhältnis",
+        "Erwartungs-Wert-Modell",
+        "4.10 Selbstkonzept und Geschlechterstereotype",
+        "4.11 SESSKO: Erfassung des Selbstkonzepts",
+        "S",
+        "E",
+        "s",
+        "ko",
+        "SESSKO",
+        "Big-Fish-In-A-Little-Pond-Effekt",
+        "Marsh (1986, 1987)",
+        "Köller (2004)",
+        "Basking-in-reflected-glory-Effekt",
+        "Cialdini & Richardson (1990)",
+        "Becker, Lüdke, Trautwein & Baumert (2006)",
+        "O'Mara, Marsh, Craven & Debus (2006)",
+        "Outward-Bound-Programme",
+        "Marsh & Craven (2006)",
+        "Valentine, DuBois & Cooper (2004)",
+        "Reciprocal Effects Model",
+        "Marsh & Hattie (1996)",
+        "Frome & Eccles (1998)",
+        "Stereotype Threat",
+        "Steele & Aronson (1995)",
+        "Schöne, Dickhäuser, Spinath & Stiensmeier-Pelster",
+        "Dickhäuser et al. (2002)"
+      ]
+    },
+    {
+      "id": "B-05-01",
+      "domain": "B",
+      "chapter_group_num": "5",
+      "chapter_group_title": "5. Moralentwicklung",
+      "section_num": "5.1–5.2",
+      "title": "Moralentwicklung: Begriff & Moralisches Urteil nach Piaget",
+      "subtitle": "Tassen-Geschichten, Heteronome vs. Autonome Moral, Intentionalität & neuere Empirie",
+      "page_start": 54,
+      "page_end": 55,
+      "page_label": "Original-Skript S. 54–55",
+      "estimated_minutes": 14,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "15 Tassen aus Versehen vs. 1 Tasse beim Naschen: Vom Schadensausmaß zur Absicht (Piaget, 1932)",
+      "definitions": [
+        {
+          "term": "Moralisches Denken oder Urteilen",
+          "definition": "Vorstellungen über Gut und Böse, Gerechtigkeit und Ungerechtigkeit sowie über Gründe, Gutes oder Schlechtes zu tun.",
+          "author_year": "Urhahne, Dresel & Fischer, 2019",
+          "page_ref": "S. 54"
+        },
+        {
+          "term": "Heteronome Moral (Moral des Zwangs)",
+          "definition": "Erstes Stadium nach Piaget (unter 7/8 Jahren): Regeln gelten als durch Autoritäten unveränderbar vorgegeben; unilateraler Respekt und Gehorsam; Handlungen werden primär nach dem objektiven Ausmaß des entstandenen Schadens und drohender Strafe beurteilt.",
+          "author_year": "Piaget, 1932 / 1983",
+          "page_ref": "S. 54–55"
+        },
+        {
+          "term": "Autonome Moral (Moral der Kooperation)",
+          "definition": "Reifes Stadium nach Piaget (ab ca. 11 Jahren): Regeln werden als veränderbares Produkt sozialer Übereinkünfte Gleichberechtigter verstanden; bei der Bewertung steht die subjektive Absicht (Intentionalität) des Handelnden im Zentrum.",
+          "author_year": "Piaget, 1932 / 1983",
+          "page_ref": "S. 55"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "5.2 Methode & Geschichtenpaare nach Piaget (1932 / 1983)",
+          "page_ref": "S. 54–55",
+          "bullets": [
+            "**Forschungsmethode**: Beobachtung von Kindern beim Regelspiel (z. B. Murmelspiel, Umgang mit Regeln und Fairness) kombiniert mit offenen klinischen Interviews zu kurzen Geschichtenpaaren.",
+            "**Klassisches Tassen-Geschichtenpaar**: **Hans** wird zum Essen gerufen, öffnet ahnungslos die Tür und stößt ein dahinterstehendes Tablett mit **15 Tassen** um (*großer Schaden, keine böse Absicht*). **Heinz** klettert in Abwesenheit der Mutter auf einen Stuhl, um heimlich Marmelade zu naschen, und zerbricht dabei **1 Tasse** (*kleiner Schaden, negative Intention*).",
+            "**Altersabhängiges Urteil (Piaget, 1983; Lohaus & Vierhaus, 2015)**: Kinder **unter 6 Jahren** halten **Hans** (15 Tassen) für „böser“ (Fokus auf sichtbaren **Schaden**); ältere Kinder beurteilen **Heinz** als ungezogener (Fokus auf **Intention/Absicht**)."
+          ]
+        },
+        {
+          "heading": "Stufenmodell der moralischen Entwicklung & Kritik an Piaget",
+          "page_ref": "S. 55",
+          "bullets": [
+            "**1. Heteronome Moral (< 7/8 Jahre)**: *Moral des Zwangs*; Regeln durch Autoritäten festgelegt, Bestrafung bei Abweichung, **unilateraler Respekt** gegenüber Erwachsenen, geringe Beachtung moralischer Intention.",
+            "**2. Übergangsphase (7/8 bis 10 Jahre)**: Schrittweises Erlernen von Kooperation (besonders in **Peer-Interaktionen**); Aushandeln und Vereinbaren gemeinsamer Spielregeln anhand von Gerechtigkeitsmaßstäben.",
+            "**3. Autonome Moral (ab 11 Jahren)**: *Moral der Kooperation*; Regeln als veränderbare **soziale Übereinkünfte**; eigenständiges Abwägen von Gut/Böse unter Einbezug von Absicht und situativem Kontext.",
+            "**Kritik an Piaget**: 1. **Unterschätzung jüngerer Kinder** (durch Konfundierung von großem Schaden und fehlender Absicht in den Geschichten); 2. bloße Peer-Interaktion genügt nicht – entscheidend ist die **Qualität der Interaktion**; 3. **Vernachlässigung des Jugendalters**; 4. fälschlich angenommener Abschluss der Moralentwicklung bereits mit ca. 12 Jahren."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Frühes Verständnis von Hilfsabsichten bei Kleinkindern",
+          "authors_year": "Dunfield & Kuhlmeier, 2010",
+          "page_ref": "S. 55",
+          "setup": "21 Monate alte Kleinkinder erlebten einen Erwachsenen, der wohlwollend, aber erfolglos versuchte, ihnen ein Spielzeug zu reichen (unfähig), versus einen Erwachsenen, der die Übergabe absichtlich verweigerte (unwillig).",
+          "finding": "Bereits 21 Monate alte Kinder halfen anschließend dem wohlwollend-bemühten Erwachsenen signifikant bereitwilliger als dem unwilligen Erwachsenen.",
+          "implication": "Widerlegt Piagets Annahme reiner Ergebnisorientierung: Schon unter Zweijährige berücksichtigen Intentionen, wenn keine hohe Gedächtnis-/Sprachbelastung vorliegt."
+        },
+        {
+          "title": "Bewertung schädigender Absichten bei Dreijährigen",
+          "authors_year": "Vaish, Carpenter & Tomasello, 2010",
+          "page_ref": "S. 55",
+          "setup": "Dreijährige beobachteten, wie ein Erwachsener versuchte, einer anderen Person Schaden zuzufügen (selbst wenn der Schaden nicht eintrat), verglichen mit einer neutralen Kontrollperson.",
+          "finding": "Die Dreijährigen waren anschließend deutlich weniger bereit, der Person mit negativer Verletzungsabsicht zu helfen als einer neutralen Person.",
+          "implication": "Vorschulkinder bewerten nicht bloß Handlungsfolgen, sondern beziehen böswillige Absichten bereits früh in ihr sozial-moralisches Handeln ein."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Piagets 3-Phasen-Weg von der Zwangs- zur Kooperationsmoral",
+        "steps_or_rows": [
+          {
+            "label": "Heteronome Moral (< 7/8 J.)",
+            "detail": "Moral des Zwangs | Unilateraler Respekt vor Autorität | Urteil nach Schadenshöhe (15 Tassen schlimmer)"
+          },
+          {
+            "label": "Übergangsphase (7/8–10 J.)",
+            "detail": "Grundschulalter | Peer-Interaktion & Regelspiele | Erste Vereinbarung fairer Regeln auf Augenhöhe"
+          },
+          {
+            "label": "Autonome Moral (ab 11 J.)",
+            "detail": "Moral der Kooperation | Gegenseitiger Respekt | Regeln veränderbar | Urteil nach Absicht (Intentionalität)"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Gegenüberstellung: Heteronome vs. Autonome Moral nach Piaget (1932)",
+        "headers": [
+          "Merkmal",
+          "Heteronome Moral (< 7/8 J.)",
+          "Autonome Moral (ab 11 J.)"
+        ],
+        "rows": [
+          [
+            "Regelverständnis",
+            "Unveränderbare Gesetze von Autoritäten (Moralischer Realismus)",
+            "Veränderbare soziale Übereinkünfte durch Kooperation"
+          ],
+          [
+            "Beziehungsstruktur",
+            "Asymmetrisch: Unilateraler Respekt gegenüber Erwachsenen",
+            "Symmetrisch: Gegenseitiger Respekt unter Gleichberechtigten"
+          ],
+          [
+            "Urteilskriterium",
+            "Objektiver Schaden & physische Konsequenz (Hans = böser)",
+            "Subjektive Absicht / Intentionalität (Heinz = ungezogener)"
+          ],
+          [
+            "Strafvorstellung",
+            "Sühnestrafe (automatische Vergeltung nach Schwere)",
+            "Rekiproke, wiedergutmachende Strafe passend zur Tat"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 2 & 3 (Kognitivismus & Kooperatives Lernen)",
+          "bridge_explanation": "Die Überwindung des kognitiven Egozentrismus (Dezentrierung / Perspektivübernahme) bildet die notwendige Voraussetzung für den Übergang in die kooperative Übergangsphase im Grundschulalter."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 5 & 9 (Verhaltensbeobachtung & Entwicklungsdiagnostik)",
+          "bridge_explanation": "Bei Konflikten in Klasse 1/2 muss diagnostisch berücksichtigt werden, dass jüngere Kinder großes Missgeschick (umgeworfener Farbbecher) oft noch automatisch mit ‚Bösesein‘ gleichsetzen."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 1/2 (Gemeinschaftscollage): Stößt ein Kind im Eifer aus Versehen das Wassergefäß über das Bild des Nachbarkindes (Hans-Situation), verbalisiert die Lehrkraft gezielt den Unterschied zwischen *Missgeschick ohne Absicht* und *absichtlichem Übermalen* und leitet zur gemeinsamen Wiedergutmachung (Trockentupfen, Rettungsidee) statt Beschuldigung an.",
+        "sport": "Sport Klasse 3 (Übergangsphase 7–10 J. – Eigene Brennball-Regelwerkstatt): Statt starrer Schiedsrichter-Vorgaben dürfen Kleingruppen eine unfaire Spielregel selbst identifizieren, fair umbauen und erproben – aktives Erleben von Regeln als kooperativer Übereinkunft.",
+        "allgemein": "Im Klassenrat bei Pausenkonflikten systematisch die Leitfrage einführen: ‚War es Absicht oder ein Versehen – und wie machen wir es wieder gut?‘"
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "Definition Moralisches Urteilen (Urhahne et al., 2019)",
+          "hint": "Vorstellungen über Gut/Böse, Gerechtigkeit/Ungerechtigkeit und Gründe für Handeln."
+        },
+        {
+          "term": "Tassen-Dilemma (Hans vs. Heinz)",
+          "hint": "15 Tassen unabsichtlich vs. 1 Tasse beim heimlichen Naschen -> Alterswandel der Bewertung."
+        },
+        {
+          "term": "Heteronome Moral -> Übergangsphase -> Autonome Moral",
+          "hint": "Altersangaben (<7/8, 7/8–10, ab 11 J.), Zwang/unilateraler Respekt vs. Kooperation/Übereinkunft."
+        },
+        {
+          "term": "Neuere Empirie: Dunfield & Kuhlmeier (2010) + Vaish et al. (2010)",
+          "hint": "Schon 21-Monatige und 3-Jährige erkennen Hilfs- bzw. Schädigungsabsichten!"
+        },
+        {
+          "term": "4 Kritikpunkte an Piaget",
+          "hint": "Unterschätzung Kleinkinder, Qualität der Peer-Interaktion entscheidend, Jugendalter fehlt, kein Ende mit 12 J."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Begriffsklärung moralischen Denkens und Urteilens nach Urhahne, Dresel & Fischer (2019) als zentrale Entwicklungsaufgabe der Kindheit.",
+        "core_model": "Darstellung von Piagets (1932) klinischer Methode (Tassen-Geschichten Hans vs. Heinz) und seines Stufenmodells von der heteronomen Zwangsmoral über die kooperative Übergangsphase zur autonomen Moral.",
+        "empirics": "Kontrastierung von Piagets Befunden (Urteilswandel um 6–8 Jahre) mit neueren Kleinkindstudien von Dunfield & Kuhlmeier (2010) sowie Vaish et al. (2010) zum frühen Intentionsverständnis.",
+        "critique_bridge": "Kritische Würdigung (Methodenartefakt hoher Schadenssalienz, Ausblendung der Adoleszenz) als direkter Anlass für Kohlbergs lebensspannenerweiterndes 6-Stufen-Modell.",
+        "school_transfer": "Nutzung der Grundschul-Übergangsphase (7–10 J.) durch kooperative Regelvereinbarungen im Sportspiel und explizite Intentionsklärung bei Konflikten."
+      },
+      "all_bold_terms_covered": [
+        "5. Moralentwicklung",
+        "5.1 Begriffsklärung",
+        "Moralisches Denken oder Urteilen",
+        "5.2 Das moralische Urteil von Kindern nach Piaget (1932)",
+        "Stufenmodell der moralischen Entwicklung",
+        "Heteronome Moral",
+        "Übergangsphase",
+        "Autonome Moral",
+        "Piaget (1932)",
+        "Piaget (1983)",
+        "Lohaus & Vierhaus (2015)",
+        "Dunfield & Kuhlmeier (2010)",
+        "Vaish et al. (2010)"
+      ]
+    },
+    {
+      "id": "B-05-02",
+      "domain": "B",
+      "chapter_group_num": "5",
+      "chapter_group_title": "5. Moralentwicklung",
+      "section_num": "5.3–5.5",
+      "title": "Kohlbergs Stufenmodell, Vergleich mit Piaget & Förderung",
+      "subtitle": "Heinz-Dilemma (3 Ebenen, 6 Stufen), Kritik (Miller, Gilligan, Turiel) & KMDD (Lind)",
+      "page_start": 56,
+      "page_end": 58,
+      "page_label": "Original-Skript S. 56–58",
+      "estimated_minutes": 20,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Nicht Ja oder Nein zählt, sondern das WARUM: 3 Ebenen & 6 Stufen vom Strafvermeiden zu Menschenrechten",
+      "definitions": [
+        {
+          "term": "Grundprinzip der Stufenzuordnung nach Kohlberg",
+          "definition": "Für die Bestimmung der moralischen Entwicklungsstufe in einem Dilemma (z. B. Heinz-Dilemma) ist niemals die inhaltliche Entscheidung (Ja vs. Nein zum Diebstahl) ausschlaggebend, sondern ausschließlich die formale Struktur der Begründung.",
+          "author_year": "Kohlberg, 1969",
+          "page_ref": "S. 56"
+        },
+        {
+          "term": "Konstanzer Methode der Dilemma-Diskussion (KMDD)",
+          "definition": "Auf der Zwei-Aspekte-Theorie moralischen Verhaltens (kognitiv & affektiv) basierendes ca. 90-minütiges Unterrichtsverfahren zur Förderung der moralischen Urteilskompetenz (nicht der bloßen Gesinnung/Einstellung) durch strukturierte Pro-/Contra-Diskussion realistischer oder fiktiver Dilemmata.",
+          "author_year": "Lind (im Skript Kap. 5.5; Wirksamkeit Schläfli, Rest & Thomas, 1985)",
+          "page_ref": "S. 58"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "5.3 Kohlbergs 3 Ebenen und 6 Stufen am Heinz-Dilemma (1969)",
+          "page_ref": "S. 56–57",
+          "bullets": [
+            "**Heinz-Dilemma**: Apotheker verlangt Wucherpreis für lebensrettendes Krebsmedikament -> Heinz bricht ein. **Wichtig!**: Nicht *ob* Heinz stehlen soll, sondern die **Art der Begründung** bestimmt die Stufe!",
+            "**I. Präkonventionelle Stufe (bis 10/11 Jahre)** – Fokus auf Strafe/Gehorsam & eigenes Kosten-Nutzen-Kalkül: **Stufe 1: Moral des Gehorsams** (physische Konsequenzen, drohende Strafe/Gefängnis, Schadensgröße); **Stufe 2: Moral des instrumentellen Egoismus (Hedonismus)** (eigene Bedürfnisse & pragmatischer Austausch ‚Wie du mir, so ich dir‘ – Heinz braucht seine Frau).",
+            "**II. Konventionelle Stufe (Jugendalter)** – Fokus auf soziale Beziehungen & gesellschaftliche Ordnung: **Stufe 3: Moral der interpersonalen Übereinstimmung** (*Good-boy/Nice-girl*-Orientierung am Willen der Mehrheit/Nahestehender: guter Ehemann handelt aus Liebe); **Stufe 4: Moral von Gesetz und Ordnung** (Pflichterfüllung, Respekt vor Autorität & Gesetzen zum Erhalt sozialer Stabilität).",
+            "**III. Postkonventionelle Stufe (Erwachsenenalter, nur von Minderheit erreicht)** – Fokus auf übergeordnete Rechte & Prinzipien: **Stufe 5: Moral der Sozialen Vereinbarung** (Gesellschaftsvertrag, Relativität von Normen, rationaler Konsens; Gesetzesbruch in Ausnahmesituation gerechtfertigt); **Stufe 6: Moral allgemein gültiger ethischer Prinzipien** (universelle Prinzipien der Menschenwürde, Gerechtigkeit und Achtung des Lebens stehen über positivem Gesetz)."
+          ]
+        },
+        {
+          "heading": "Einflussfaktoren, Kritik & 5.4 Vergleich Piaget vs. Kohlberg",
+          "page_ref": "S. 57–58",
+          "bullets": [
+            "**Einflussfaktoren**: **Kognitive Reife** (Fähigkeit zur sozialen Perspektivübernahme), **Familie** (Diskurskultur über Wertkonflikte, unterstützender Erziehungsstil), **Peers** (Perspektivenwechsel auf Augenhöhe) und **Bildungserfahrung**.",
+            "**Kritik an Kohlberg**: 1. Interindividuelle Verlaufsunterschiede & **parallele Nutzung mehrerer Stufen** je nach Situation; 2. westlich-intellektualisierte Gerechtigkeitsmoral (**Miller et al., 1990**); 3. **rein männliche Originalstichprobe** -> **Carol Gilligan (1982)** kritisierte die Vernachlässigung einer weiblich geprägten *Fürsorge- und Verantwortungsmoral* gegenüber der *Gerechtigkeitsmoral*; 4. *Prüfungs-Ergänzung*: **Elliot Turiel (1983, Domänentheorie)** zeigte, dass schon Kleinkinder *moralische Regeln* (Nicht-Schädigen) von bloßen *sozialen Konventionen* (Tischmanieren) unterscheiden.",
+            "**5.4 Gemeinsamkeiten Piaget & Kohlberg**: Perspektivübernahme als Entwicklungsmotor; universell invariante Stufenfolge; Entwicklungslinie von Fremdbestimmung/Strafe hin zu sozialen Übereinkünften und Prinzipien.",
+            "**5.4 Zentraler Unterschied**: Bei **Piaget** ist Moralentwicklung ein **Prozess der Kindheit**, an dessen Ende **alle** dasselbe autonome Stadium erreichen; bei **Kohlberg** ist sie ein **lebenslanger Prozess**, in dem sich Personen in der **letztlich erreichten Endstufe unterscheiden**."
+          ]
+        },
+        {
+          "heading": "5.5 Förderung der Moralentwicklung in der Schule",
+          "page_ref": "S. 58",
+          "bullets": [
+            "**Konstanzer Methode der Dilemma-Diskussion (KMDD, Georg Lind)**: Ca. **90 Minuten**; Konfrontation mit fiktivem/realistischem Dilemma -> Position beziehen und begründen, Gegenargumenten zuhören (Wertschätzung), mit Mehrheits-/Gruppendruck umgehen und Perspektiven wechseln (knüpft an **Blatt & Kohlbergs Plus-1-Konvention** – Konfrontation mit Argumenten der nächsthöheren Stufe – sowie demokratische **Just-Community-Schulen** an).",
+            "**Schulische Implikationen**: Aktive Beteiligung, produktiver **Meinungsstreit**, gemeinsame Reflexion und echte **Mitbestimmungsrechte** (z. B. Klassenrat, Schulversammlung) statt bloßer Belehrung."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Kulturspezifische Antworten auf moralische Dilemmata",
+          "authors_year": "Miller, Bersoff & Harwood, 1990",
+          "page_ref": "S. 57",
+          "setup": "Kulturvergleichende Befragung von Schulkindern und Erwachsenen in Indien und den USA zu Handlungsentscheidungen und Begründungen in moralischen Dilemmata.",
+          "finding": "Befragte in Indien orientierten sich vorrangig an zwischenmenschlicher Verantwortung und Hilfspflicht, Befragte in den USA hingegen primär an abstrakten Prinzipien individueller Gerechtigkeit.",
+          "implication": "Relativiert Kohlbergs Anspruch auf strikte kulturelle Universalität der höheren, individualrechtlich geprägten Stufen."
+        },
+        {
+          "title": "Wirksamkeit von Dilemma-Diskussionen vs. herkömmlichem Ethikunterricht",
+          "authors_year": "Schläfli, Rest & Thomas, 1985; Schläfli, 1986",
+          "page_ref": "S. 58",
+          "setup": "Metaanalytische Überprüfung gezielter Dilemma-Diskussionsprogramme im Vergleich zu regulärem, stoffvermittelndem Ethik- und Sozialkundeunterricht.",
+          "finding": "Strukturierte Dilemma-Diskussionen bewirken im Mittel einen kleinen bis mittleren Zuwachs im moralischen Urteil (Effektstärke d = .41; Schläfli, Rest & Thomas, 1985), während traditioneller Ethik-/Sozialkundeunterricht ohne Meinungsstreit kaum Einfluss zeigt (Schläfli, 1986).",
+          "implication": "Moralische Urteilskompetenz entsteht nicht durch Frontalbelehrung über Werte, sondern nur durch aktiven kognitiven Konflikt und Perspektivwechsel."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "hierarchy",
+        "title": "Kohlbergs 3 Ebenen & 6 Stufen des moralischen Urteils (1969)",
+        "steps_or_rows": [
+          {
+            "label": "Präkonventionell (bis 10/11 J.)",
+            "detail": "Stufe 1: Gehorsam & Strafe | Stufe 2: Instrumenteller Egoismus / Zweck-Austausch"
+          },
+          {
+            "label": "Konventionell (Jugendalter)",
+            "detail": "Stufe 3: Interpersonale Übereinstimmung (Good boy/girl) | Stufe 4: Gesetz & soziale Ordnung"
+          },
+          {
+            "label": "Postkonventionell (Erwachsene)",
+            "detail": "Stufe 5: Soziale Vereinbarung / Gesellschaftsvertrag | Stufe 6: Universelle ethische Prinzipien"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Direktvergleich: Moralentwicklung nach Piaget (1932) vs. Kohlberg (1969)",
+        "headers": [
+          "Vergleichsdimension",
+          "Jean Piaget (1932)",
+          "Lawrence Kohlberg (1969)"
+        ],
+        "rows": [
+          [
+            "Gemeinsame Basis",
+            "Perspektivübernahme als Motor; invariante Sequenz; Weg von Strafe/Autorität zu Prinzipien",
+            "Perspektivübernahme als Motor; invariante Sequenz; Weg von Strafe/Autorität zu Prinzipien"
+          ],
+          [
+            "Zeitraum",
+            "Prozess der Kindheit (Abschluss ca. 11/12 Jahre)",
+            "Lebenslanger Entwicklungsprozess bis ins Erwachsenenalter"
+          ],
+          [
+            "Erreichtes Endniveau",
+            "Alle Kinder erreichen regulär das autonome Stadium",
+            "Personen unterscheiden sich dauerhaft in der höchsten erreichten Stufe"
+          ],
+          [
+            "Erhebungsmethode",
+            "Alltagsnahe Geschichtenpaare (Schaden vs. Absicht) & Regelspiel",
+            "Komplexe moralische Dilemmata (z. B. Heinz-Dilemma: Pflichtenkollision)"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 3.2 (Sozialer Konstruktivismus & Kognitiver Konflikt)",
+          "bridge_explanation": "Die Konstanzer Methode der Dilemma-Diskussion und die Plus-1-Konvention nutzen gezielt sozio-kognitive Konflikte, um Akkommodationsprozesse auf die nächsthöhere Argumentationsstufe anzuregen."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 1 & 3 (Beobachtungsfehler & Leistungsbeurteilung)",
+          "bridge_explanation": "Bei der Einschätzung moralischer Reife im Unterricht muss streng zwischen beobachtbarem Konformitätsverhalten (Stufe 1/3) und der tatsächlichen Begründungsstruktur getrennt werden."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 4 (Kinder-Dilemma zur Werkausstellung – Mini-KMDD): ‚Soll Leon den versehentlich angerissenen Linolschnitt seines kranken Freundes heimlich nachschneiden, damit dessen Bild doch noch in die Schulausstellung darf, obwohl fremde Hilfe laut Wettbewerbsregel verboten ist?‘ Aufstellen im Raum (Ja/Nein-Seite), Austausch der besten Gründe für und gegen die Regel.",
+        "sport": "Sport Klasse 4 (Fair-Play-Dilemma beim Klassen-Fußballturnier): ‚Der Schiedsrichter gibt deinem Team beim Stand von 1:1 kurz vor Schluss ein Tor, obwohl du weißt, dass der Ball vorher deine Hand berührt hat – meldest du es?‘ Reflexion von Stufe 2 (‚Hauptsache gewinnen‘) hin zu Stufe 3/4 (‚Faire gemeinsame Regeln tragen das Spiel für alle‘).",
+        "allgemein": "Demokratischer Klassenrat (*Just Community* im Kleinen) mit echter Mitbestimmung über Pausenausleihe und Klassendienste."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "Heinz-Dilemma & Begründungsprinzip",
+          "hint": "Warum können sowohl ‚Ja, stehlen‘ als auch ‚Nein‘ auf derselben Stufe liegen?"
+        },
+        {
+          "term": "Alle 6 Stufen auf 3 Ebenen (Kohlberg, 1969)",
+          "hint": "1 Gehorsam, 2 Instrum. Egoismus | 3 Interpers. Übereinstimmung, 4 Gesetz & Ordnung | 5 Soz. Vereinbarung, 6 Universelle Prinzipien."
+        },
+        {
+          "term": "Kritik: Miller et al. (1990), Gilligan & Turiel",
+          "hint": "Kulturbias Indien vs. USA, männliche Stichprobe/Fürsorgemoral (Gilligan), Moral vs. Konvention (Turiel)."
+        },
+        {
+          "term": "Piaget vs. Kohlberg (Gemeinsamkeiten & Unterschiede)",
+          "hint": "Kindheitsprozess mit gleichem Ziel (Piaget) vs. lebenslang mit unterschiedlichen Endstufen (Kohlberg)."
+        },
+        {
+          "term": "KMDD (Lind) & Schläfli et al. (1985, d = .41)",
+          "hint": "90 Min. Meinungsstreit fördert Urteilskompetenz, bloßer Ethikunterricht (Schläfli, 1986) kaum."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Weiterführung von Piagets Ansatz durch Lawrence Kohlberg (1969) zu einer lebensumspannenden kognitiv-entwicklungspsychologischen Stufentheorie des moralischen Urteils.",
+        "core_model": "Vorstellung des Heinz-Dilemmas (Primat der Begründungsstruktur) und präzise Entfaltung der 3 Ebenen (präkonventionell, konventionell, postkonventionell) mit allen 6 Stufen sowie Vergleich mit Piaget.",
+        "empirics": "Kulturvergleichender Befund von Miller et al. (1990, Indien vs. USA) sowie Interventionsmetaanalyse von Schläfli, Rest & Thomas (1985, d = .41) vs. Schläfli (1986).",
+        "critique_bridge": "Diskussion von Stufeninkonsistenz, Gender-Bias (Gilligan: Fürsorgeethik) und Domänentheorie (Turiel) -> Übergang zur konkreten Unterrichtsförderung.",
+        "school_transfer": "Durchführung altersangemessener Dilemma-Diskussionen (KMDD, Plus-1-Anregung) und demokratischer Mitbestimmung (Klassenrat / Just Community) in Klasse 3/4."
+      },
+      "all_bold_terms_covered": [
+        "5.3 Theorie des moralischen Urteils nach Kohlberg (1969)",
+        "Wichtig!",
+        "Stufenmodell",
+        "Präkonventionelle Stufe",
+        "Moral des Gehorsams",
+        "Moral des instrumentellen Egoismus",
+        "Konventionelle Stufe",
+        "Moral der interpersonalen Übereinstimmung",
+        "Moral von Gesetz und Ordnung",
+        "Postkonventionelle Stufe",
+        "Moral der Sozialen Vereinbarung",
+        "Moral allgemein gültiger ethischer Prinzipien",
+        "5.4 Vergleich von Piaget und Kohlberg",
+        "Piaget",
+        "Kohlberg",
+        "5.5 Förderung der Moralentwicklung in der Schule",
+        "Heinz-Dilemma",
+        "Miller et al. (1990)",
+        "Gilligan",
+        "Turiel",
+        "Blatt & Kohlberg (Plus-1-Konvention)",
+        "Konstanzer Methode der Dilemma-Diskussion",
+        "Lind",
+        "Just Community",
+        "Schläfli, Rest & Thomas (1985)",
+        "Schläfli (1986)"
+      ]
+    },
+    {
+      "id": "B-06-01",
+      "domain": "B",
+      "chapter_group_num": "6",
+      "chapter_group_title": "6. Entwicklung des Sozialverhaltens",
+      "section_num": "6.1–6.4",
+      "title": "Prosoziales Verhalten, Empathie (Hoffman) & Ebenen (Eisenberg)",
+      "subtitle": "Empathie vs. Mitleid, 4 Empathiestufen, 6 prosoziale Urteilsebenen & Sozialisation",
+      "page_start": 59,
+      "page_end": 62,
+      "page_label": "Original-Skript S. 59–62",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Vom ansteckenden Mitweinen im 1. Lebensjahr zum selbstreflexiven Helfen (Eric-Dilemma)",
+      "definitions": [
+        {
+          "term": "Soziale Verhaltensweisen",
+          "definition": "Breites Spektrum zwischenmenschlicher Reaktionen, das von prosozialen Verhaltensweisen über schüchtern-defensive Reaktionen bis hin zu verbalen und physischen Aggressionen reicht.",
+          "author_year": "Krapp & Weidemann, 2001",
+          "page_ref": "S. 59"
+        },
+        {
+          "term": "Prosoziales Verhalten",
+          "definition": "Verhalten, welches für Mitmenschen gezeigt wird oder sich an dem Wohlergehen der Mitmenschen orientiert.",
+          "author_year": "Lohaus & Vierhaus, 2015",
+          "page_ref": "S. 59"
+        },
+        {
+          "term": "Empathie",
+          "definition": "Das Mitfühlen mit dem emotionalen Zustand einer anderen Person (in einem ähnlichen Zustand zu sein), wobei man sich klar darüber ist, dass die andere Person der primäre Träger der Emotion ist.",
+          "author_year": "Urhahne, Dresel & Fischer, 2019",
+          "page_ref": "S. 59"
+        },
+        {
+          "term": "Mitleid",
+          "definition": "Emotionale Reaktion, die auf einem Verständnis der emotionalen Situation einer anderen Person beruht und aus einem Gefühl der Anteilnahme am Leid des anderen und Sorgen um den anderen besteht.",
+          "author_year": "Urhahne, Dresel & Fischer, 2019",
+          "page_ref": "S. 59"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "6.2 Entwicklung der Empathie nach Hofmann / Hoffman (2000)",
+          "page_ref": "S. 59–60",
+          "bullets": [
+            "**Grundprinzip (aus Lohaus & Vierhaus, 2015)**: Empathie entwickelt sich durch das Zusammenspiel affektiver empathischer Erregung und wachsender kognitiver Selbst-Andere-Differenzierung (*Hinweis: Im Skript als ‚Hofmann (2000)‘, in der Fachliteratur meist ‚Martin Hoffman (2000)‘ geschrieben*).",
+            "**1. Globale Empathie (1. Lebensjahr)**: Noch keine Unterscheidung zwischen sich und anderen; das Kind reagiert (z. B. durch Mitweinen), als sei das fremde Leid ihm selbst widerfahren.",
+            "**2. Egozentrische Empathie (ab 1. Geburtstag)**: Körperliche Trennung von Selbst und Anderem gelingt, aber das Kind unterstellt dem Leidenden dieselben Gefühle/Tröstbedürfnisse wie sich selbst (holt z. B. die eigene Mutter oder das eigene Kuscheltier).",
+            "**3. Empathie für die Gefühle anderer Menschen (ab 2–3 Jahren)**: Mit einsetzender Perspektivenübernahme erkennt das Kind eigenständige Gefühlswelten anderer Personen – zunehmend auch unabhängig von deren unmittelbarer Anwesenheit.",
+            "**4. Empathie für die Lebensverhältnisse anderer Menschen (ab ca. 10 Jahren)**: Verständnis, dass Leid aus überdauernden Lebensbedingungen (z. B. Armut, chronische Krankheit, Ausgrenzung) unabhängig von der Momentansituation resultieren kann."
+          ]
+        },
+        {
+          "heading": "6.3 Ebenen des prosozialen Verhaltens nach Eisenberg (1986)",
+          "page_ref": "S. 60–61",
+          "bullets": [
+            "**Prosoziales Dilemma (Eric-Geschichtenvignette)**: Anders als bei Kohlberg stehen hier nicht Gesetze, sondern **eigene Wünsche** (*Geburtstagsparty mit Eis, Kuchen & Spielen*) gegen das **Wohl eines Hilfsbedürftigen** (*verletzter Junge am Wegesrand*).",
+            "**Ebene 1 – Hedonistische, selbstbezogene Orientierung** (*Kita & jüngere GS*): Eigener Vorteil, spätere Gegenleistung oder Zuneigung („Eric geht zur Feier, weil er das will“).",
+            "**Ebene 2 – Orientierung an Bedürfnissen** (*Vorschul- & GS-Alter*): Einfache Beachtung körperlicher/psychischer Bedürfnisse anderer ohne selbstreflexive Rollenübernahme oder Stolz/Schuld („Helfen, weil der Junge blutet“).",
+            "**Ebene 3 – Orientierung an Anerkennung und/oder Stereotyp** (*GS & Mittelstufe*): Wunsch nach sozialer Akzeptanz oder stereotypem Bild ‚guter/netter‘ Menschen („Helfen, um gut zu sein“).",
+            "**Ebene 4a – Selbstreflexive empathische Orientierung** (*wenige ältere GS-Kinder & Sekundarstufe*): Explizite Rollenübernahme, Mitgefühl und antizipierte Schuld-/Stolzgefühle („Überlegen, wie es ihm selbst dort ginge“).",
+            "**Ebene 4b – Übergangsniveau** (*Minderheit Jugendlicher > 14 J. & Erwachsene*): Verweis auf internalisierte Werte/Pflichten/Menschenwürde, aber noch vage formuliert.",
+            "**Ebene 5 – Stark internalisiertes Stadium** (*kleine Minderheit ab Mittelstufe/Erwachsene*): Klar verinnerlichte Werte, Gleichheit und Würde aller Menschen; Selbstachtung und Gewissensanspruch („Sonst hätte er ein schlechtes Gewissen“)."
+          ]
+        },
+        {
+          "heading": "6.4 Entwicklungsverlauf, Einflussfaktoren & Schulische Förderung",
+          "page_ref": "S. 61–62",
+          "bullets": [
+            "**Altersverlauf**: Grundfähigkeit bei allen Kindern angelegt; Zunahme bis zur Adoleszenz, dort vorübergehender Rückgang und erneuter Anstieg im frühen Erwachsenenalter.",
+            "**Biologische Faktoren**: Genetik und **Temperament** – insbesondere gute **Emotionsregulation** (Mitfühlen, ohne von eigenem aversivem Stress überwältigt zu werden, fördert Mitleid und Hilfe).",
+            "**Familiäre Sozialisation**: **Modelllernen** an warmherzigen Bezugspersonen; **induktive Erziehung / Appell an Mitgefühl** („Schau, wie traurig sie ist“) ist deutlich wirksamer als bloßes Etikettieren („Helfen ist nett“); Gelegenheiten zur Mithilfe im Alltag; **konstruktiv-unterstützender autoritativer Erziehungsstil** (vgl. Baumrind), sichere Bindung und hohe Responsivität.",
+            "**Schulische Implikationen**: Kooperative Gruppenziele, Rollenspiele zum Perspektivwechsel, Übertragung echter Verantwortung (Patenschaften, Klassendienste), Lehrkraft als prosoziales Modell und Diskussion prosozialer Dilemmata."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Kulturübergreifende Entwicklung prosozial-moralischen Urteilens & Verhaltensbezug",
+          "authors_year": "Eisenberg et al., 1995; Siegler et al., 2016",
+          "page_ref": "S. 61",
+          "setup": "Längsschnittliche und interkulturelle Untersuchungen mit prosozialen Dilemmata (u. a. in Brasilien, Deutschland, Israel und Japan) sowie Verhaltensbeobachtungen.",
+          "finding": "Das altersbezogene Muster hin zu abstrakteren, internen Prinzipien zeigt sich kulturübergreifend; Kinder auf höheren Urteilsebenen handeln im Alltag tatsächlich häufiger mitfühlend und prosozial.",
+          "implication": "Förderung prosozialer Perspektivübernahme im Grundschulalter schlägt sich direkt in hilfsbereiterem Klassenklima nieder."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "timeline",
+        "title": "4 Stufen der Empathieentwicklung nach Hoffman / Hofmann (2000)",
+        "steps_or_rows": [
+          {
+            "label": "1. Globale Empathie (0–1 J.)",
+            "detail": "Keine Selbst-Andere-Grenze -> Gefühlsansteckung (Baby weint mit, als wäre es selbst verletzt)"
+          },
+          {
+            "label": "2. Egozentrische Empathie (ab 1 J.)",
+            "detail": "Selbst ≠ Anderer erkannt, aber eigene Bedürfnisse projiziert (bringt eigenen Schnuller/Teddy)"
+          },
+          {
+            "label": "3. Empathie für Gefühle anderer (ab 2–3 J.)",
+            "detail": "Perspektivübernahme -> erkennt fremde, andersartige Gefühle auch ohne direkte Anwesenheit"
+          },
+          {
+            "label": "4. Empathie für Lebensverhältnisse (ab ~10 J.)",
+            "detail": "Abstraktes Verstehen überdauernder Lebenslagen (Armut, Flucht, Ausgrenzung) ab Ende Grundschule"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Abgrenzung zentraler prosozialer Konstrukte & Dilemmata",
+        "headers": [
+          "Begriff / Modell",
+          "Kernmerkmal",
+          "Abgrenzung / Besonderheit"
+        ],
+        "rows": [
+          [
+            "Empathie vs. Mitleid",
+            "Mitfühlen im ähnlichen Zustand (Empathie) vs. besorgte Anteilnahme (Mitleid)",
+            "Unregulierte Empathie kann auch eigenen Stress/Rückzug auslösen; Mitleid motiviert Hilfe"
+          ],
+          [
+            "Eisenberg (1986) vs. Kohlberg (1969)",
+            "Prosoziales Dilemma: Eigene Wünsche vs. Bedürfnis anderer (ohne Gesetzeszwang)",
+            "Bei Eisenberg steht Helfen gegen persönliche Kosten (Party verpassen), nicht gegen Strafgesetze"
+          ],
+          [
+            "Induktiver Mitgefühls-Appell",
+            "Auf Folgen für das Opfer hinweisen (‚Schau, es tut ihm weh‘)",
+            "Fördert interne Empathie nachhaltiger als bloße Lob-Etiketten oder Strafen"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.5 & 3.3 (Sozial-kognitive Lerntheorie nach Bandura & Kooperatives Lernen)",
+          "bridge_explanation": "Prosoziales Schülerverhalten entsteht maßgeblich durch Beobachtungslernen an einer warmherzigen, respektvollen Lehrkraft und positive Interdependenz in kooperativen Lernformen."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 5 & 9 (Soziometrie & Verhaltensdiagnostik SDQ)",
+          "bridge_explanation": "Prosoziales Verhalten bildet im Stärken-und-Schwächen-Fragebogen (SDQ) eine eigene Ressourcenskala neben internalisierenden und externalisierenden Problemen."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 4 (Empathie für Lebensverhältnisse ab 10 J. – Projekt ‚Wunsch-Räume‘): Kinder gestalten Schuhkarton-Zimmer für Gleichaltrige in unterschiedlichen Lebenslagen (z. B. Kind im Krankenhaus, neu zugewandertes Kind) und versetzen sich aktiv in deren Bedürfnisse hinein; Partnerhilfe beim Umgang mit Heißkleber und Werkstoffen.",
+        "sport": "Sport Klasse 2/3 (Kooperatives Spiel ‚Blinden-Parcours‘ & ‚Matten-Rettungsinsel‘): Ein sehendes Kind führt ein Partnerkind mit Augenbinde sicher über kleine Hindernisse (Perspektivübernahme & Fürsorge erleben); die Gruppe gewinnt nur, wenn wirklich *alle* Kinder gemeinsam die Zielmatte erreichen.",
+        "allgemein": "Pausenengel- und Erstklässler-Patenschaften durch Dritt- und Viertklässler (echte Verantwortungsübernahme im Schulalltag)."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "Prosoziales Verhalten, Empathie & Mitleid",
+          "hint": "Exakte Trennung nach Lohaus & Vierhaus (2015) sowie Urhahne et al. (2019)."
+        },
+        {
+          "term": "4 Empathiestufen nach Hoffman / Hofmann (2000)",
+          "hint": "Global (1. Lj.) -> Egozentrisch (ab 1 J.) -> Gefühle anderer (ab 2–3 J.) -> Lebensverhältnisse (ab 10 J.)."
+        },
+        {
+          "term": "Eric-Dilemma & 6 Ebenen nach Eisenberg (1986)",
+          "hint": "1 Hedonistisch -> 2 Bedürfnisorientiert -> 3 Anerkennung/Stereotyp -> 4a Selbstreflexiv-empathisch -> 4b Übergang -> 5 Stark internalisiert."
+        },
+        {
+          "term": "Einflussfaktoren (Emotionsregulation, Induktion, Autoritativer Stil)",
+          "hint": "Warum hilft ein Appell an Mitgefühl mehr als ‚Sei brav‘? Rolle der Emotionsregulation!"
+        },
+        {
+          "term": "Kulturübergreifender Befund (Eisenberg et al., 1995)",
+          "hint": "Bestätigung in Brasilien, Deutschland, Israel, Japan + positiver Zusammenhang mit realem Hilfeverhalten."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Einordnung prosozialen Verhaltens innerhalb des Spektrums sozialer Verhaltensweisen (Krapp & Weidemann, 2001) sowie präzise Abgrenzung von Prosozialität, Empathie und Mitleid.",
+        "core_model": "Entfaltung der vierstufigen Empathieentwicklung nach Hoffman/Hofmann (2000) und der sechs Ebenen prosozial-moralischen Urteilens nach Eisenberg (1986) am Eric-Dilemma.",
+        "empirics": "Interkulturelle Befunde (Brasilien, Deutschland, Israel, Japan; Siegler et al., 2016; Eisenberg et al., 1995) zum Altersfortschritt und zur Korrelation zwischen Urteilsebene und tatsächlichem Hilfeverhalten.",
+        "critique_bridge": "Wechselwirkung biologischer Voraussetzungen (Temperament, Emotionsregulation) und familiärer Sozialisation (autoritativer Stil, Modelllernen, Mitgefühlsappelle).",
+        "school_transfer": "Konkrete Grundschulmaßnahmen: Lehrkraft als wertschätzendes Modell, kooperative Sportspiele, Perspektivwechsel im Rollenspiel und Patenschaftsprojekte."
+      },
+      "all_bold_terms_covered": [
+        "6. Entwicklung des Sozialverhaltens",
+        "Soziale Verhaltensweisen",
+        "6.1 Begriffsklärung: Prosoziales Verhalten",
+        "Prosoziales Verhalten",
+        "Empathie",
+        "Mitleid",
+        "6.2 Entwicklung der Empathie nach Hofmann (2000)",
+        "Globale Empathie",
+        "Egozentrische Empathie",
+        "Empathie für die Gefühle anderer Menschen",
+        "Empathie für die Lebensverhältnisse anderer Menschen",
+        "6.3 Ebenen des prosozialen Verhaltens nach Eisenberg (1986)",
+        "Ebenen des prosozialen Verhaltens",
+        "Hedonistische, selbstbezogene Orientierung",
+        "Orientierung an Bedürfnissen",
+        "Orientierung an Anerkennung und/oder Stereotyp",
+        "Selbstreflexive empathische Orientierung",
+        "Übergangsniveau",
+        "Stark internalisiertes Stadium",
+        "6.4 Einflussfaktoren auf Entwicklung von prosozialem Verhalten",
+        "Krapp & Weidemann (2001)",
+        "Hoffman (2000)",
+        "Eisenberg et al. (1995)",
+        "Baumrind (autoritativer Erziehungsstil)"
+      ]
+    },
+    {
+      "id": "B-06-02",
+      "domain": "B",
+      "chapter_group_num": "6",
+      "chapter_group_title": "6. Entwicklung des Sozialverhaltens",
+      "section_num": "6.5–6.7",
+      "title": "Antisoziales Verhalten, Aggression & Entwicklungsverläufe",
+      "subtitle": "Aggressionsformen, Moffitts Typologie (1993), Gewissen & Risikofaktoren",
+      "page_start": 62,
+      "page_end": 64,
+      "page_label": "Original-Skript S. 62–64",
+      "estimated_minutes": 16,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "90 % jugendbegrenzte Reifungslücke vs. 10 % lebenslang persistente Auffälligkeit (Moffitt, 1993)",
+      "definitions": [
+        {
+          "term": "Antisoziales Verhalten",
+          "definition": "Ein eine andere Person schädigendes oder vernachlässigendes Verhalten; umfasst Aggression, Rücksichtslosigkeit, Ärgern und Schädigung.",
+          "author_year": "Schneider & Lindenberger, 2018",
+          "page_ref": "S. 62"
+        },
+        {
+          "term": "Aggression vs. Aggressivität",
+          "definition": "Aggression ist das konkrete Verhalten, das darauf abzielt, andere zu schädigen oder zu verletzen (Siegler et al., 2016). Aggressivität bezeichnet die überdauernde Disposition zu aggressivem Verhalten gegen Menschen oder Sachen (Schneider & Lindenberger, 2018).",
+          "author_year": "Siegler et al., 2016; Schneider & Lindenberger, 2018",
+          "page_ref": "S. 63"
+        },
+        {
+          "term": "Soziale Kompetenz",
+          "definition": "Sozial kompetent verhält sich eine Person, wenn sie eigene Wünsche und Ziele in der Interaktion aufzeigt und vertritt, gleichzeitig aber auch die Bedürfnisse der Sozialpartner bzw. gesellschaftlichen Normen respektiert und berücksichtigt.",
+          "author_year": "Hingst & Pfingsten, 2002",
+          "page_ref": "S. 63"
+        },
+        {
+          "term": "Soziale Kognition",
+          "definition": "Informationsaufnahme- und -verarbeitungsprozesse, welche sich auf die soziale Welt des Individuums beziehen.",
+          "author_year": "Urhahne, Dresel & Fischer, 2019",
+          "page_ref": "S. 63"
+        },
+        {
+          "term": "Gewissen",
+          "definition": "Innerer Regulationsmechanismus, der die Fähigkeit eines Individuums erhöht, Verhaltensstandards zu entsprechen, die in seiner Kultur als verbindlich gelten.",
+          "author_year": "Siegler et al., 2016",
+          "page_ref": "S. 64"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "6.5 Verhaltensformen & 6.6 Altersverlauf von Aggression (Siegler et al., 2016)",
+          "page_ref": "S. 62–63",
+          "bullets": [
+            "**Internalisierendes vs. Externalisierendes auffälliges Verhalten**: **Internalisierend** = nach innen gerichtet (*ängstlich, traurig, interessenlos, zurückgezogen, kränkelnd*); **Externalisierend** = nach außen gerichtet (*aggressiv, hyperaktiv, impulsiv, unaufmerksam, streitsüchtig*).",
+            "**Erscheinungsformen von Aggression**: Unterscheidung nach **Form** in *offene* (körperlich/verbal) vs. *relationale/indirekte Beziehungsaggression* (Ausgrenzen, Gerüchte) sowie nach **Funktion** in *instrumentelle/proaktive* (zielgerichtet um Ressourcen/Dominanz) vs. *feindselige/reaktive* Aggression (impulsive Abwehr/Wut).",
+            "**Typischer Altersverlauf**: **Kleinkindalter**: meist **instrumentelle Aggression** um Spielzeug/Besitz -> **Vorschulalter**: Zunahme von **Beziehungs-/relationaler Aggression** (z. B. „Du darfst nicht mitspielen!“) -> **Grundschule**: im Regelfall Rückgang offener Aggression, Auftreten **verdeckter Formen** (*Lügen, Stehlen, Betrügen*) -> **Adoleszenz**: Statusverstöße und teils gravierende Gewaltanwendungen."
+          ]
+        },
+        {
+          "heading": "Entwicklungstypologie nach Moffitt (1993)",
+          "page_ref": "S. 63–64",
+          "bullets": [
+            "**1. Auf das Jugendalter begrenzte Delinquenz (*Adolescence-Limited*, ca. 90 %)**: Verursacht durch die **Reifungslücke** (*maturity gap*) zwischen früher körperlicher Geschlechtsreife und später sozialer/ökonomischer Unabhängigkeit; Jugendliche zeigen „pseudoerwachsene“ Regelverstöße für Peer-Prestige, die mit Übernahme echter Erwachsenenrollen wieder abklingen.",
+            "**2. Langfristige Auffälligkeit (*Life-Course-Persistent*, ca. 10 %)**: Wurzelt bereits in der **frühen Kindheit** durch Kumulation kindlicher Risiken (*Impulsivität, Anpassungsprobleme*) und belasteter Umwelt (*ungünstiges Familienklima, Ablehnung durch Gleichaltrige*); führt zu kontextübergreifend stabiler Delinquenz weit über das Jugendalter hinaus."
+          ]
+        },
+        {
+          "heading": "6.7 Einflussfaktoren auf Aggression und antisoziales Verhalten",
+          "page_ref": "S. 64",
+          "bullets": [
+            "**Biologie & Gewissen**: Genetische Disposition einerseits; ein gut entwickeltes **Gewissen** (**Siegler et al., 2016**) hemmt andererseits destruktive Impulse.",
+            "**Familiäre Sozialisation**: Geringe Unterstützung/Responsivität, **autoritärer oder vernachlässigender Erziehungsstil**, misshandelnde oder **inkonsequente Disziplinierung** (*Prüfungs-Ergänzung: **Pattersons Zwangsinteraktions-Zirkel / Coercive Family Process** – Nachgeben der Eltern bei kindlichem Toben verstärkt Aggression negativ!*), elterliche Konflikte als Modell sowie niedriger sozioökonomischer Status (Armut, chronischer Stress).",
+            "**Kultur, Peers & Medien**: Kulturelle Billigung von Gewalt zur Interessendurchsetzung; deviante **Peers** (Gruppenzwang, Banden, Drogenmissbrauch); intensiver **Mediengewaltkonsum** speziell bei gleichzeitig bestehender psychosozialer Vulnerabilität."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Dunedin-Längsschnittstudie zur Zwei-Gruppen-Taxonomie dissozialen Verhaltens",
+          "authors_year": "Moffitt, 1993",
+          "page_ref": "S. 63–64",
+          "setup": "Prospektive Längsschnittanalyse von Entwicklungsverläufen antisozialen Verhaltens von der frühen Kindheit bis ins Erwachsenenalter.",
+          "finding": "Rund 90 % jugendlicher Delinquenz sind temporär auf die Pubertäts-Reifungslücke begrenzt (Adolescence-Limited), während rund 10 % einen früh beginnenden, über die Lebensspanne stabilen Verlauf (Life-Course-Persistent) aufweisen.",
+          "implication": "Frühzeitig und kontextübergreifend auftretende Aggression im Vor- und Grundschulalter darf niemals als ‚bloße Phase‘ verharmlost werden, sondern erfordert frühe präventive Förderung."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Alterswandel aggressiver Verhaltensformen & Moffitts Weichenstellung",
+        "steps_or_rows": [
+          {
+            "label": "Kleinkind (1–3 J.)",
+            "detail": "Instrumentelle Aggression: Streit um Besitz und Spielzeug"
+          },
+          {
+            "label": "Vorschule (3–6 J.)",
+            "detail": "Zunahme relationaler Beziehungsaggression (Ausgrenzen) bei wachsender Sprache"
+          },
+          {
+            "label": "Grundschule (6–10 J.)",
+            "detail": "Rückgang offener körperlicher Aggression; teils verdeckte Formen (Lügen, Schummeln, Stehlen)"
+          },
+          {
+            "label": "Jugendalter (ab 11/12 J.)",
+            "detail": "90 % Adolescence-Limited (Reifungslücke, klingt ab) vs. 10 % Life-Course-Persistent (seit Kindheit chronisch)"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Moffitts (1993) Entwicklungstypologie im Prüfungsvergleich",
+        "headers": [
+          "Kriterium",
+          "Auf Jugendalter begrenzt (Adolescence-Limited)",
+          "Langfristig auffällig (Life-Course-Persistent)"
+        ],
+        "rows": [
+          [
+            "Anteil unter Auffälligen",
+            "Etwa 90 %",
+            "Etwa 10 %"
+          ],
+          [
+            "Beginn",
+            "Erst in der Pubertät / Adoleszenz",
+            "Bereits in früher Kindheit (Vor-/Grundschulalter)"
+          ],
+          [
+            "Hauptursache",
+            "Reifungslücke (körperlich reif, sozial noch abhängig) & Peer-Prestige",
+            "Wechselwirkung aus Impulsivität/Temperament + belasteter Familie & Peer-Ablehnung"
+          ],
+          [
+            "Prognose",
+            "Klingt mit Übernahme echter Erwachsenenrollen wieder ab",
+            "Chronische Gefährdung über das Jugendalter hinaus in vielen Lebenskontexten"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.3 & 1.5 (Operantes Konditionieren & Modelllernen nach Bandura)",
+          "bridge_explanation": "Inkonsequentes Nachgeben bei Wutausbrüchen (Pattersons Zwangsinteraktion) wirkt als negative Verstärkung für die Eltern und positive Verstärkung für die kindliche Aggression; elterliche/mediale Gewalt wirkt über Modelllernen (Bobo-Doll)."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 9.4 & 9.5 (ADHS, Störung des Sozialverhaltens vs. Angst/Depression)",
+          "bridge_explanation": "Die Grundunterscheidung in externalisierendes (Aggression, Hyperaktivität/Impulsivität) und internalisierendes Verhalten (Angst, Rückzug) strukturiert die gesamte klinisch-pädagogische Diagnostik."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 2 (Knappe Spezialmaterialien wie Glitzerstifte/Tonwerkzeuge): Instrumentellen Streit um Material durch klare Ausleih-Klammern und Tandems vorbeugen; sozial kompetentes Fragen und Aushandeln (Hingst & Pfingsten, 2002: eigenes Ziel vertreten + Partnerbedürfnis achten) mit Satzstartern einüben.",
+        "sport": "Sport Klasse 3 (Mannschaftswahl ohne relationale Ausgrenzung): Niemals zwei Kinder öffentlich Mannschaften wählen lassen (verhindert relationale Beschämung der ‚Übriggebliebenen‘!), sondern Zufalls-Farbbänder oder ausgewogene Lehrer-Teams nutzen sowie klare Auszeit-Regel bei körperlichem Foulspiel konsequent durchsetzen.",
+        "allgemein": "Frühe Aufmerksamkeit sowohl für laut-externalisierende als auch für still-internalisierende Kinder in der Klassengemeinschaft."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "Aggression vs. Aggressivität vs. Antisoziales Verhalten",
+          "hint": "Konkretes Schädigungsverhalten (Siegler) vs. überdauernde Disposition (Schneider & Lindenberger)."
+        },
+        {
+          "term": "Soziale Kompetenz (Hingst & Pfingsten, 2002)",
+          "hint": "Doppelbalance: Eigene Ziele vertreten UND Bedürfnisse anderer/Normen respektieren."
+        },
+        {
+          "term": "Internalisierend vs. Externalisierend + Altersverlauf",
+          "hint": "Rückzug/Angst vs. Impulsivität/Streit; instrumentell -> relational -> verdeckt."
+        },
+        {
+          "term": "Moffitt (1993): 90 % vs. 10 %",
+          "hint": "Adolescence-Limited (Reifungslücke, pseudoerwachsen) vs. Life-Course-Persistent (frühe Kindheit + Umwelt)."
+        },
+        {
+          "term": "Risikofaktoren & Gewissen (Siegler et al., 2016)",
+          "hint": "Inkonsequente Erziehung (Patterson), autoritär/vernachlässigend, deviante Peers, Mediengewalt + Vulnerabilität."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Definition von antisozialem Verhalten, Aggression und Aggressivität (Schneider & Lindenberger, 2018; Siegler et al., 2016) im Kontrast zu sozialer Kompetenz (Hingst & Pfingsten, 2002) sowie Trennung externalisierender und internalisierender Auffälligkeiten.",
+        "core_model": "Darstellung des normativen Alterswandels (instrumentell -> relational -> verdeckt) und der Entwicklungstypologie nach Moffitt (1993: 90 % jugendbegrenzt vs. 10 % lebenslang persistent).",
+        "empirics": "Längsschnittbefunde Moffitts zur Reifungslücke vs. frühkindlicher Risikokumulation sowie Befunde zu inkonsequenter Disziplinierung und Mediengewalt bei Vulnerabilität.",
+        "critique_bridge": "Multifaktorielle Bedingtheit (Biologie, Gewissen, Familie, Peers, Kultur) -> Überleitung zur Frage, welche kognitiven Echtzeitprozesse aggressives Handeln in Konfliktsituationen auslösen (Crick & Dodge, 1994).",
+        "school_transfer": "Frühprävention in der Grundschule gegen Chronifizierung: klare, verlässliche Regeln ohne Verstärkung von Aggression, ausgrenzungsfreie Teamformen im Sport und Elternkooperation."
+      },
+      "all_bold_terms_covered": [
+        "6.5 Begriffsklärung: Antisoziales Verhalten",
+        "Antisoziales Verhalten",
+        "Aggression",
+        "Aggressivität",
+        "Sozial kompetent",
+        "Soziale Kognition",
+        "Internalisierendes auffälliges Verhalten",
+        "Externalisierendes auffälliges Verhalten",
+        "6.6 Entwicklung von Aggression und antisozialem Verhalten",
+        "Entwicklungstypologie für jugendliches Problemverhalten",
+        "6.7 Einflüsse auf die Entwicklung von Aggression und antisozialem",
+        "Verhalten",
+        "Gewissen",
+        "Schneider & Lindenberger (2018)",
+        "Siegler et al. (2016)",
+        "Hingst & Pfingsten (2002)",
+        "Moffitt (1993)",
+        "Patterson (Zwangsinteraktion)"
+      ]
+    },
+    {
+      "id": "B-06-03",
+      "domain": "B",
+      "chapter_group_num": "6",
+      "chapter_group_title": "6. Entwicklung des Sozialverhaltens",
+      "section_num": "6.8",
+      "title": "Soziale Informationsverarbeitung nach Crick & Dodge (1994)",
+      "subtitle": "6-Schritte-SIP-Prozessmodell, Feindseliger Attributionsfehler & Schulische Prävention",
+      "page_start": 65,
+      "page_end": 66,
+      "page_label": "Original-Skript S. 65–66",
+      "estimated_minutes": 16,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Die ‚aggressive Brille‘: Wie 6 Denkschritte in Sekundenbruchteilen über Schubsen oder Nachfragen entscheiden",
+      "definitions": [
+        {
+          "term": "Prozessmodell der sozialen Informationsverarbeitung (SIP)",
+          "definition": "Ursprünglich engl. ‚Social Information Processing Model‘ (auch Prozessmodell des sozialen Problemlösens): Zyklisches 6-Schritte-Modell, das erklärt, wie Kinder soziale Hinweisreize auf Basis ihrer Gedächtnis-Datenbank wahrnehmen, interpretieren und in sozial kompetentes oder aggressives Handeln umsetzen.",
+          "author_year": "Crick & Dodge, 1994 (zit. nach Paulus in Urhahne et al., 2019)",
+          "page_ref": "S. 65"
+        },
+        {
+          "term": "Feindseliger Attributionsfehler (Hostile Attribution Bias)",
+          "definition": "Kognitive Verzerrung aggressiver Kinder auf Schritt 2 des SIP-Modells: Mehrdeutige oder versehentliche soziale Handlungen anderer (z. B. Anrempeln im Pausengang) werden vorschnell als feindselige, schädigende Absicht interpretiert.",
+          "author_year": "Dodge, 1993; Dodge et al., 2006",
+          "page_ref": "S. 65–66"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Datenbasis & Die 6 Schritte des SIP-Modells (Crick & Dodge, 1994)",
+          "page_ref": "S. 65",
+          "bullets": [
+            "**Zentrale (Daten-)Basis im Modellkern**: **Gedächtnis**, **erworbene Regeln**, **soziale Schemata** und **soziales Wissen** stehen mit allen sechs Verarbeitungsschritten in ständiger Wechselwirkung.",
+            "**Schritt 1 – Wahrnehmung von Reizen**: Enkodierung sozialer Signale der Situation und des Gegenübers (Körperhaltung, Mimik, Tonfall, sprachliche Aussagen).",
+            "**Schritt 2 – Interpretation der Reize**: Deutung der wahrgenommenen Signale und Ursachen-/Absichtszuschreibung (z. B. Blick/Kommentar als freundlich-einladend vs. feindselig-abweisend).",
+            "**Schritt 3 – Zielklärung**: Mehr oder weniger bewusste Auswahl des eigenen Situationsziels auf Basis der Interpretation (z. B. friedlich mitspielen wollen vs. Rache/Gesichtswahrung).",
+            "**Schritt 4 – Entwurf von Handlungsalternativen**: Abruf oder Neugenerierung möglicher Handlungspläne aus dem Gedächtnis (z. B. höflich fragen vs. kommentarlos dazwischendrängen vs. schubsen).",
+            "**Schritt 5 – Entscheidung für eine Handlungsalternative**: Bewertung der Optionen nach erwarteten Folgen, eigener Selbstwirksamkeit und moralischer Angemessenheit.",
+            "**Schritt 6 – Ausführung der Handlung**: Umsetzung in beobachtbares Verhalten (löst wiederum Reaktionen der Sozialpartner aus)."
+          ]
+        },
+        {
+          "heading": "Verzerrungen aggressiver Kinder & Schulische Gewaltprävention",
+          "page_ref": "S. 65–66",
+          "bullets": [
+            "**Die ‚aggressive Brille‘ auf allen 6 Stufen (Dodge, 1993; Dodge et al., 2006)**: Aggressive Kinder 1. beachten selektiv **negative Hinweisreize**, 2. unterstellen bei mehrdeutigen Signalen böse Absicht (**feindseliger Attributionsfehler**), 3. verfolgen eher Vergeltungs-/Dominanzziele, 4. entwerfen **weniger Handlungspläne**, 5. bewerten **aggressives Verhalten positiver** (erwarten Peer-Bestätigung) und 6. reagieren **schnell körperlich aggressiv**.",
+            "**Schulische Präventions- und Interventionsmaßnahmen**: Gemeinsame **Klassen-/Schulregeln & Schulvertrag**, feste **Gesprächskultur**, **Streitschlichter-Programme**, strukturierte **Anti-Mobbing-Programme** (z. B. Faustlos / No Blame Approach), **Elterntrainings**, konsequentes **Vermeiden jeder Belohnung aggressiven Verhaltens** sowie direkte Vermittlung von **Kooperation, Toleranz und prosozialen Handlungsalternativen**."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Sozial-kognitive Verzerrungen und feindseliger Attributionsfehler bei aggressiven Kindern",
+          "authors_year": "Dodge, 1993; Dodge et al., 2006",
+          "page_ref": "S. 65–66",
+          "setup": "Konfrontation aggressiver und nicht-aggressiver Kinder mit mehrdeutigen sozialen Konfliktvignetten (z. B. verschüttete Milch, Balltreffer am Rücken) und Erfassung ihrer Reizwahrnehmung, Absichtsdeutung und Reaktionswahl.",
+          "finding": "Aggressive Kinder zeigen signifikant häufiger einen feindseligen Attributionsfehler bei mehrdeutigen Reizen, generieren weniger prosoziale Alternativen und erwarten positivere Ergebnisse von Aggression.",
+          "implication": "Wirksame Gewaltprävention in der Grundschule muss gezielt alle 6 kognitiven Schritte trainieren (Mimik genau lesen, harmlose Erklärungen prüfen, Handlungsrepertoire erweitern)."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "cycle",
+        "title": "6-Schritte-Kreislauf nach Crick & Dodge (1994) rund um die Gedächtnis-Datenbasis",
+        "steps_or_rows": [
+          {
+            "label": "1. Wahrnehmung von Reizen",
+            "detail": "Soziale Signale aufnehmen (Mimik, Tonfall) | Risiko: Fokus nur auf negative Reize"
+          },
+          {
+            "label": "2. Interpretation der Reize",
+            "detail": "Absicht deuten | Risiko: Feindseliger Attributionsfehler (Dodge, 1993)"
+          },
+          {
+            "label": "3. Zielklärung",
+            "detail": "Eigenes Ziel wählen (Mitspielen vs. Vergeltung)"
+          },
+          {
+            "label": "4. Entwurf von Alternativen",
+            "detail": "Handlungspläne abrufen | Risiko: Zu kleines, aggressionslastiges Repertoire"
+          },
+          {
+            "label": "5. Entscheidung",
+            "detail": "Folgen & Selbstwirksamkeit abwägen | Risiko: Aggression positiv bewertet"
+          },
+          {
+            "label": "6. Ausführung der Handlung",
+            "detail": "Verhalten zeigen -> verändert soziale Situation & speist Gedächtnis-Datenbasis"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Verarbeitungsunterschiede im Pausenkonflikt (Kind wird im Gang angerempelt)",
+        "headers": [
+          "SIP-Schritt",
+          "Sozial kompetentes Kind",
+          "Reaktiv-aggressives Kind"
+        ],
+        "rows": [
+          [
+            "1–2. Wahrnehmung & Deutung",
+            "Sieht vollen Gang & erschrockenen Blick -> ‚War bestimmt aus Versehen‘",
+            "Sieht nur den Stoß -> ‚Der wollte mich absichtlich provozieren!‘ (Hostile Attribution Bias)"
+          ],
+          [
+            "3–4. Ziel & Alternativen",
+            "Ziel: Ruhe bewahren -> Ideen: Weitergehen, kurz nachfragen, Witz machen",
+            "Ziel: Zurückzahlen -> fällt sofort nur Zurückschubsen oder Beschimpfen ein"
+          ],
+          [
+            "5–6. Bewertung & Handlung",
+            "Wählt freundliches Nachfragen -> Konflikt löst sich entspannt",
+            "Erwartet Respekt durch Härte -> schubst sofort zurück -> Eskalation"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 2.2 & 2.4 (Informationsverarbeitung, Schemata & Arbeitsgedächtnis)",
+          "bridge_explanation": "Das SIP-Modell überträgt die allgemeinpsychologische Informationsverarbeitung (Enkodierung, Schema-Abruf aus dem Langzeitgedächtnis, Handlungsplanung) direkt auf soziale Konfliktsituationen."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 5 & 9.4 (Verhaltensbeobachtung & Intervention bei Störungen des Sozialverhaltens)",
+          "bridge_explanation": "Fallvignetten zu aggressiven Grundschulkindern im Staatsexamen lassen sich Schritt für Schritt entlang der 6 SIP-Stufen diagnostizieren und mit maßgeschneiderten Interventionen verknüpfen."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 2 (Mimik-Detektive & Comic-Sprechblasen zu Schritt 1–4): Kinder betrachten Fotos/Zeichnungen mehrdeutiger Pausenszenen (z. B. ein Farbspritzer landet auf fremdem Blatt), sammeln mindestens *drei harmlose Erklärungen* (gegen den feindseligen Attributionsfehler) und zeichnen zwei friedliche Lösungs-Sprechblasen (Erweiterung von Schritt 4).",
+        "sport": "Sport Klasse 3 (Abwurf-/Völkerballspiel & Stopp-Ampel): Trifft ein Ball versehentlich hart, gilt das 3-Sekunden-Ampelritual: *Rot = Stopp/Durchatmen*, *Gelb = Blickkontakt & Entschuldigungshand prüfen (Schritt 1/2)*, *Grün = Fair abklatschen und weiterspielen (Schritt 5/6)*.",
+        "allgemein": "Ausbildung von Viertklässlern zu Pausen-Streitschlichtern sowie verbindlicher Klassenvertrag."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "6 Schritte nach Crick & Dodge (1994) in exakter Reihenfolge",
+          "hint": "1 Wahrnehmung -> 2 Interpretation -> 3 Zielklärung -> 4 Handlungsalternativen -> 5 Entscheidung -> 6 Ausführung."
+        },
+        {
+          "term": "4 Elemente der zentralen Datenbasis",
+          "hint": "Gedächtnis, erworbene Regeln, soziale Schemata, soziales Wissen."
+        },
+        {
+          "term": "Feindseliger Attributionsfehler (Dodge, 1993)",
+          "hint": "Auf welchem Schritt sitzt er und was bedeutet er bei mehrdeutigen Reizen?"
+        },
+        {
+          "term": "Alle Verzerrungen aggressiver Kinder („aggressive Brille“)",
+          "hint": "Selektive Wahrnehmung, Hostile Attribution Bias, weniger Pläne, positive Bewertung von Aggression, Peer-Bestätigungserwartung."
+        },
+        {
+          "term": "Schulische Präventionsbausteine",
+          "hint": "Klassenregeln/Schulvertrag, Streitschlichtung, Anti-Mobbing, Elterntraining, keine Verstärkung von Aggression."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Bedeutung sozialer Kognitionen für die Erklärung aggressiven Schülerverhaltens (Dodge et al., 2006: ‚aggressive Brille‘).",
+        "core_model": "Detaillierte Darstellung des Prozessmodells der sozialen Informationsverarbeitung (SIP) nach Crick & Dodge (1994) mit der zentralen Wissensdatenbasis und allen sechs aufeinander aufbauenden Schritten.",
+        "empirics": "Befunde von Dodge (1993) und Dodge et al. (2006) zum feindseligen Attributionsfehler (Hostile Attribution Bias), verengten Handlungsrepertoire und positiver Aggressionsbewertung.",
+        "critique_bridge": "Stärke des Modells: Erlaubt passgenaue prozessbezogene Förderung statt bloßer Bestrafung; Wechselwirkung mit emotionaler Erregung und Impulskontrolle.",
+        "school_transfer": "Ableitung konkreter Grundschulprävention auf Klassen- und Schulebene (Mimik-/Perspektivtraining zu Schritt 1–2, Rollenspiele für Handlungsalternativen zu Schritt 4, Streitschlichtung und Schulvertrag)."
+      },
+      "all_bold_terms_covered": [
+        "6.8 Prozessmodell der sozialen Informationsverarbeitung nach",
+        "Crick & Dodge (1994)",
+        "Das",
+        "Prozessmodell des sozialen Problemlösens",
+        "Wahrnehmung von Reizen",
+        "Interpretation der Reize",
+        "Zielklärung",
+        "Entwurf von Handlungsalternativen",
+        "Entscheidung für eine Handlungsalternative",
+        "Ausführung der Handlung",
+        "Prozessmodell",
+        "der",
+        "sozialen",
+        "Informationsverarbeitung",
+        "Social Information Processing Model (SIP)",
+        "Dodge (1993)",
+        "Dodge et al. (2006)",
+        "feindseliger Attributionsfehler",
+        "Hostile Attribution Bias"
+      ]
+    },
+    {
+      "id": "B-07-01",
+      "domain": "B",
+      "chapter_group_num": "7",
+      "chapter_group_title": "7. Motivations- und Interessensentwicklung",
+      "section_num": "7.1–7.3",
+      "title": "Motivation: Grundbegriffe, Problembereiche & Zutrauen",
+      "subtitle": "Rheinberg, Erwartungs-Mal-Wert (Atkinson, 1957), Attribution (Weiner) & Selbstbewertungsmodell (Heckhausen, 1972)",
+      "page_start": 67,
+      "page_end": 69,
+      "page_label": "Original-Skript S. 67–69",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Zutrauen × Wert × Wille: Warum Erfolgszuversichtliche mittelschwere Aufgaben lieben (Heckhausen, 1972)",
+      "definitions": [
+        {
+          "term": "Motivation",
+          "definition": "Aktivierende Ausrichtung des momentanen Lebensvollzugs auf einen positiv bewerteten Zielzustand.",
+          "author_year": "Rheinberg, 2000",
+          "page_ref": "S. 67"
+        },
+        {
+          "term": "Lernmotivation",
+          "definition": "Der Wunsch (Selektion) oder die Absicht (Realisation), bestimmte Inhalte oder Fertigkeiten zu lernen bzw. bestimmte Aufgaben auszuführen; ist der Leistungsmotivation als übergeordnetes Konstrukt vorangestellt (Krapp, 2014).",
+          "author_year": "Schiefele & Köller, 2001; Krapp, 2014",
+          "page_ref": "S. 67"
+        },
+        {
+          "term": "Leistungsmotivation",
+          "definition": "Der Wunsch oder die Absicht, etwas zu leisten, d. h. Erfolge zu erzielen und Misserfolge zu vermeiden, wobei zur Bewertung des Ergebnisses ein individuell als gültig erachteter Gütemaßstab herangezogen wird; zielt auf die Selbstbewertung der eigenen Tüchtigkeit ab.",
+          "author_year": "Wild et al., 2001",
+          "page_ref": "S. 67"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "7.2 Drei diagnostische Problembereiche der Motivation",
+          "page_ref": "S. 67–68",
+          "bullets": [
+            "**Mehrdimensionalität**: Motivation ist kein eindimensionales „motiviert vs. unmotiviert“, sondern umfasst mindestens **drei unterschiedliche Problembereiche** mit je eigenen Theorien und Förderwegen:",
+            "**1. Zutrauen („Traue ich mir zu, diese Aufgabe zu erledigen?“)**: Erfolgs-/Misserfolgserwartung, Attribution, Selbstwirksamkeitserwartung, Fähigkeitsselbstkonzept -> *Theorien*: Leistungsmotivation / Erwartungs-Mal-Wert (**Heckhausen, 1977**), Kausalattribution (**Weiner, 1971**: Dimensionen *Lokation* internal/external, *Stabilität* stabil/variabel, *Kontrollierbarkeit*), Selbstwirksamkeitserwartung (**Bandura, 1986, 1994**), Selbstwerttheorie (**Covington, 1992**).",
+            "**2. Valenzen („Möchte ich diese Aufgabe erledigen und warum?“)**: Subjektive Bedeutung, Werte, Ziele, Freude, Wissenwollen -> *Theorien*: Selbstbestimmungstheorie & Basic Needs (**Deci & Ryan, 2000**), Interessenstheorie (**Krapp & Prenzel, 1992**), Motivationale Zielorientierungen (**Elliot, 1999**).",
+            "**3. Strategie und Wille („Was tue ich, um dranzubleiben und Erfolg zu haben?“)**: Selbstregulation, kognitive/metakognitive Lernstrategien, Emotions-/Motivationsregulation -> *Theorien*: Selbstreguliertes Lernen (**Boekaerts, 1999**: 3 Schichten *Informationsverarbeitungsmodus, Steuerung des Lernprozesses, Regulation des Selbst*; **Zimmerman, 1989, 2000**) sowie Volitionstheorien (**Kuhl, 1987; Corno, 1993**: volitionale Kontrollstrategien, zielbildend vs. zielbindend)."
+          ]
+        },
+        {
+          "heading": "7.3 Zutrauen: Atkinson (1957) & Heckhausens Selbstbewertungsmodell (1972)",
+          "page_ref": "S. 68–69",
+          "bullets": [
+            "**Erwartungs-Mal-Wert-Theorie (Atkinson, 1957; Risikowahlmodell)**: Die **Stärke** der Leistungsmotivation ergibt sich multiplikativ aus **Erwartungskomponente** (erwartbarer Handlungserfolg) und **Wertkomponente** (Anreiz des Ergebnisses). Die **Richtung** bestimmt sich durch das **Erfolgsmotiv** (*Streben nach hoher Leistung/guten Noten*) vs. **Misserfolgsmotiv** (*Bemühung, Misserfolge/schlechte Noten zu vermeiden*).",
+            "**Selbstbewertungsmodell der Leistungsmotivation (Heckhausen, 1972 – Abb. S. 69)**: Selbstverstärkender Kreislauf aus drei Teilprozessen: 1. *Anspruchsniveau/Zielsetzung*, 2. *Kausalattribution nach Erfolg/Misserfolg*, 3. *affektive Selbstbewertungsbilanz*.",
+            "**Erfolgszuversichtliche**: Wählen **realistische, mittelschwere Aufgaben** -> führen **Erfolg** auf *Anstrengung und eigene Tüchtigkeit*, **Misserfolg** auf *mangelnde Anstrengung oder Pech* zurück -> **positive Erfolgs-Misserfolgsbilanz** (mehr Stolz als Scham).",
+            "**Misserfolgsmeidende**: Wählen **unrealistische, extrem leichte oder extrem schwere Aufgaben** (Schutz vor diagnostischem Misserfolg) -> führen **Erfolg** auf *Glück oder leichte Aufgaben*, **Misserfolg** auf *mangelnde eigene Fähigkeit/Begabung* zurück -> **negative Erfolgs-Misserfolgsbilanz**."
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S069_Abb1.png",
+          "caption": "Selbstbewertungsmodell der Leistungsmotivation nach Heckhausen (1972): Vergleich Erfolgszuversichtliche vs. Misserfolgsmeidende (Original-Skript S. 69)",
+          "page_ref": "S. 69"
+        }
+      ],
+      "custom_visual": {
+        "type": "pillars",
+        "title": "Drei diagnostische Leitfragen bei Motivationsproblemen (Kap. 7.2)",
+        "steps_or_rows": [
+          {
+            "label": "1. Zutrauen (‚Kann ich das?‘)",
+            "detail": "Atkinson (1957), Heckhausen (1972/1977), Weiner (1971), Bandura (1986/1994), Covington (1992)"
+          },
+          {
+            "label": "2. Valenzen (‚Will ich das & wozu?‘)",
+            "detail": "Deci & Ryan (2000), Krapp & Prenzel (1992), Elliot (1999)"
+          },
+          {
+            "label": "3. Strategie & Wille (‚Wie bleibe ich dran?‘)",
+            "detail": "Boekaerts (1999), Zimmerman (1989/2000), Kuhl (1987), Corno (1993)"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Heckhausens Selbstbewertungsmodell (1972): Erfolgszuversicht vs. Misserfolgsmeidung",
+        "headers": [
+          "Teilprozess",
+          "Erfolgszuversichtlich",
+          "Misserfolgsmeidend"
+        ],
+        "rows": [
+          [
+            "Anspruchsniveau / Zielsetzung",
+            "Realistisch: mittelschwere Aufgaben (maximaler Informationsgewinn)",
+            "Unrealistisch: extrem leichte oder extrem schwere Aufgaben"
+          ],
+          [
+            "Ursachenzuschreibung bei Erfolg",
+            "Internal: eigene Tüchtigkeit und Anstrengung",
+            "External: bloßes Glück oder zu leichte Aufgabe"
+          ],
+          [
+            "Ursachenzuschreibung bei Misserfolg",
+            "Variabel: mangelnde Anstrengung oder Pech",
+            "Internal-stabil: mangelnde eigene Fähigkeit / Begabung"
+          ],
+          [
+            "Selbstbewertungsbilanz",
+            "Positive Erfolgs-Misserfolgsbilanz -> Aufsuchen neuer Aufgaben",
+            "Negative Erfolgs-Misserfolgsbilanz -> Vermeidung & Rückzug"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.5, 1.6 & 4 (Selbstwirksamkeit nach Bandura, Attribution nach Weiner & SRL nach Boekaerts/Zimmerman)",
+          "bridge_explanation": "Kapitel 7.2 verknüpft die Lerntheorien aus Gebiet A direkt zu einem dreiteiligen Diagnosekompass (Zutrauen – Valenzen – Volition/SRL)."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 9.2 (Motivationsdiagnostik & Ursachenabklärung bei Minderleistung)",
+          "bridge_explanation": "Zeigt ein Kind Arbeitsvermeidung, muss diagnostisch geklärt werden, ob es am Zutrauen (Misserfolgsfurcht), am Wert (fehlende Valenz) oder an volitionalen Strategien mangelt."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Druckwerkstatt mit 3 Schwierigkeitsstufen): Misserfolgsmeidende Kinder greifen oft zur allerleichtesten Schablone oder zu einem unmöglich detailreichen Motiv. Durch individuelle Beratung auf eine *mittelschwere, gut machbare* Vorlage und anstrengungsbezogenes Reattribuieren (‚Hier hast du die Farbe gleichmäßiger gewalzt!‘) entsteht eine positive Selbstbewertungsbilanz.",
+        "sport": "Sport Klasse 2 (Zielwerfen mit wählbarem Abstand): Drei Abwurflinien vor dem Korb – Kinder erproben bewusst ihre persönliche ‚mittelschwere Herausforderungszone‘ (ca. 50–70 % Trefferquote nach Atkinson/Heckhausen) und führen Treffer auf gezielte Wurftechnik statt ‚Zufall‘ zurück.",
+        "allgemein": "Bei Misserfolg im Unterricht nie mit mitleidigem Schon-Lob reagieren, sondern konkrete Strategie- und Anstrengungshinweise geben (Reattributionstraining nach Weiner)."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "Motivation (Rheinberg, 2000) vs. Lern- vs. Leistungsmotivation",
+          "hint": "Aktivierende Ausrichtung auf Zielzustand; Lernmotivation übergeordnet (Krapp, 2014); Leistungsmotivation = Gütemaßstab & Tüchtigkeit (Wild et al., 2001)."
+        },
+        {
+          "term": "3 Problembereiche der Motivation",
+          "hint": "Zutrauen (Kann ich?), Valenzen (Will ich?), Strategie & Wille (Wie bleibe ich dran?) + zugehörige Autoren."
+        },
+        {
+          "term": "Atkinson (1957): Erwartungs-Mal-Wert",
+          "hint": "Stärke = Erwartung × Wert; Richtung = Erfolgsmotiv vs. Misserfolgsmotiv."
+        },
+        {
+          "term": "Heckhausen (1972): Selbstbewertungsmodell",
+          "hint": "Erfolgszuversichtliche vs. Misserfolgsmeidende über alle 3 Teilprozesse kontrastieren."
+        },
+        {
+          "term": "Weiner (1971) & Reattribution",
+          "hint": "Lokation, Stabilität, Kontrollierbarkeit -> Misserfolg variabel auf Anstrengung/Strategie lenken."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Präzise Definition von Motivation (Rheinberg, 2000), Lernmotivation (Schiefele & Köller, 2001; Krapp, 2014) und Leistungsmotivation (Wild et al., 2001).",
+        "core_model": "Systematisierung in die drei Problembereiche Zutrauen, Valenzen sowie Strategie/Wille und Vertiefung von Atkinsons (1957) Erwartungs-Mal-Wert-Theorie sowie Heckhausens (1972) Selbstbewertungsmodell.",
+        "empirics": "Befundmuster zur Aufgabenwahl (mittelschwer vs. extrem leicht/schwer) und asymmetrischen Ursachenzuschreibung nach Weiner (1971) bei Erfolgszuversichtlichen vs. Misserfolgsängstlichen.",
+        "critique_bridge": "Hohes Zutrauen allein genügt nicht ohne subjektiven Aufgabenwert -> Übergang zu den Valenztheorien (Deci & Ryan, Krapp).",
+        "school_transfer": "Förderung einer positiven Selbstbewertungsbilanz in der Grundschule durch gestufte Wahlaufgaben (mittleres Anspruchsniveau) und konsequentes Reattributionstraining."
+      },
+      "all_bold_terms_covered": [
+        "7. Motivations- und Interessensentwicklung",
+        "7.1 Begriffsklärung: Motivation",
+        "Motivation",
+        "Lernmotivation",
+        "Leistungsmotivation",
+        "7.2 Problembereiche der Motivation",
+        "Zutrauen",
+        "Valenzen",
+        "Strategie und Wille",
+        "7.3 Zutrauen",
+        "Erwartungs-Mal-Wert-Theorie",
+        "Selbstbewertungsmodell der Leistungsmotivation",
+        "Rheinberg (2000)",
+        "Schiefele & Köller (2001)",
+        "Wild et al. (2001)",
+        "Krapp (2014)",
+        "Heckhausen (1972, 1977)",
+        "Weiner (1971)",
+        "Bandura (1986, 1994)",
+        "Covington (1992)",
+        "Boekaerts (1999)",
+        "Zimmerman (1989, 2000)",
+        "Kuhl (1987)",
+        "Corno (1993)",
+        "Atkinson (1957)"
+      ]
+    },
+    {
+      "id": "B-07-02",
+      "domain": "B",
+      "chapter_group_num": "7",
+      "chapter_group_title": "7. Motivations- und Interessensentwicklung",
+      "section_num": "7.4–7.4.1",
+      "title": "Valenzen & Selbstbestimmungstheorie (Deci & Ryan)",
+      "subtitle": "Intrinsisch vs. Extrinsisch, 4 Stufen der Internalisierung, Basic Needs & Korrumpierungseffekt",
+      "page_start": 69,
+      "page_end": 70,
+      "page_label": "Original-Skript S. 69–70",
+      "estimated_minutes": 16,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Von äußerem Druck zur inneren Überzeugung: Wie Kompetenz, Autonomie & Einbindung Motivation tragen",
+      "definitions": [
+        {
+          "term": "Intrinsische Motivation",
+          "definition": "Wunsch oder Absicht, eine bestimmte Handlung durchzuführen, weil die Handlung selbst als interessant, spannend oder herausfordernd erscheint; die angestrebten Zielzustände liegen innerhalb der Handlung.",
+          "author_year": "Deci & Ryan, 1985 (zit. nach Schiefele & Köller, 2001)",
+          "page_ref": "S. 69"
+        },
+        {
+          "term": "Extrinsische Motivation",
+          "definition": "Wunsch oder Absicht, eine bestimmte Handlung durchzuführen, um damit positive Folgen herbeizuführen oder negative Folgen zu vermeiden; die angestrebten Zielzustände liegen außerhalb der eigentlichen Handlung.",
+          "author_year": "Schiefele & Köller, 2001",
+          "page_ref": "S. 69"
+        },
+        {
+          "term": "Korrumpierungseffekt der Belohnung (Overjustification Effect)",
+          "definition": "Untergrabung ursprünglich vorhandener intrinsischer Motivation durch erwartete, aufgaben- und leistungsabhängige materielle Belohnungen (besonders ausgeprägt bei Kindern im Grundschul- und Sek-I-Alter).",
+          "author_year": "Deci, Koestner & Ryan, 2001",
+          "page_ref": "S. 70"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "7.4.1 Kontinuum der Selbstbestimmung (Deci & Ryan, 1993, 2000, 2002)",
+          "page_ref": "S. 69–70",
+          "bullets": [
+            "**Überwindung der starren Dichotomie**: Extrinsische und intrinsische Motivation stehen sich nicht unvereinbar gegenüber, sondern bilden ein Kontinuum von **fremdbestimmt** bis **selbstbestimmt** (Abb. S. 69):",
+            "**1. Externale Regulation** (*extrinsisch, stark fremdbestimmt*): Handeln ausschließlich aufgrund äußeren Drucks – erwartete Belohnung oder drohende Bestrafung.",
+            "**2. Introjizierte Regulation** (*extrinsisch, eher fremdbestimmt*): Erste Internalisierung eines Handlungsziels **ohne persönliche Identifizierung** (innerer Druck: Vermeidung von Schuld/Scham, Streben nach Stolz/Anerkennung).",
+            "**3. Identifizierte Regulation** (*extrinsisch, eher selbstbestimmt*): Persönliche **Identifizierung** mit einem Handlungsziel als subjektiv wichtig/sinnvoll, wobei noch **Konflikte mit anderen eigenen Zielen** auftreten können.",
+            "**4. Integrierte Regulation** (*extrinsisch, voll selbstbestimmt*): Vollständige **Identifizierung mit dem Handlungsziel ohne Konflikte** mit anderen Zielen und Werten des eigenen Selbst.",
+            "**5. Intrinsische Regulation** (*intrinsische Motivation*): Handeln rein aufgrund **handlungsbegleitender Anreize** (Freude, Neugier, Flow im Tun selbst)."
+          ]
+        },
+        {
+          "heading": "Psychologische Grundbedürfnisse (Basic Needs) & Umgang mit Belohnungen",
+          "page_ref": "S. 70",
+          "bullets": [
+            "**Drei angeborene Basic Needs (Deci & Ryan, 1993)**: Selbstbestimmte und intrinsische Motivation entstehen und bleiben erhalten, wenn die Lernumgebung drei Grundbedürfnisse erfüllt: 1. **Kompetenz** (Erleben eigener Wirksamkeit), 2. **Autonomie** (Erleben von Wahlfreiheit und eigener Verursachung) und 3. **Soziale Einbindung** (Wertschätzung und Zugehörigkeit).",
+            "**Differenzierte Wirkung von Rückmeldung & Belohnung (Deci et al., 2001)**: Informierendes, autonomieunterstützendes verbales Lob stärkt intrinsische Motivation; als kontrollierend erlebtes Lob oder erwartete materielle Prämien verschieben die wahrgenommene Verursachung nach außen (Korrumpierungseffekt)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Metaanalyse zum Korrumpierungseffekt extrinsischer Belohnungen",
+          "authors_year": "Deci, Koestner & Ryan, 2001",
+          "page_ref": "S. 70",
+          "setup": "Umfassende Metaanalyse experimenteller Studien zur Wirkung verbaler Rückmeldungen sowie erwarteter vs. unerwarteter materieller Belohnungen auf die spätere freiwillige intrinsische Beschäftigung.",
+          "finding": "1. Erwartete materielle Belohnungen (aufgaben- und leistungsbezogen) untergraben die intrinsische Motivation signifikant – besonders stark bei Grundschul- und Sek-I-Kindern. 2. Unerwartete und aufgabenunabhängige Belohnungen schaden nicht. 3. Positives verbales Feedback stärkt intrinsische Motivation, sofern es informierend und nicht kontrollierend erlebt wird.",
+          "implication": "In der Grundschule keine angekündigten Sticker-/Süßigkeiten-Deals für Tätigkeiten einsetzen, die Kindern ohnehin Freude bereiten (z. B. Malen, Lesen, Bewegen); stattdessen informatives Kompetenzfeedback geben."
+        }
+      ],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S069_Abb2.png",
+          "caption": "Differenzierung extrinsischer und intrinsischer Motivation auf dem Kontinuum von fremdbestimmt zu selbstbestimmt nach Deci & Ryan (2002) (Original-Skript S. 69)",
+          "page_ref": "S. 69"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "5-Stufen-Kontinuum der Handlungsregulation (Deci & Ryan, 2002)",
+        "steps_or_rows": [
+          {
+            "label": "1. Externale Regulation",
+            "detail": "Fremdbestimmt | Äußerer Druck: Belohnung erhalten oder Strafe vermeiden"
+          },
+          {
+            "label": "2. Introjizierte Regulation",
+            "detail": "Innerer Druck ohne Identifikation: Schlechtes Gewissen vermeiden / Stolz suchen"
+          },
+          {
+            "label": "3. Identifizierte Regulation",
+            "detail": "Ziel als persönlich sinnvoll akzeptiert, aber noch Zielkonflikte möglich (z. B. mit Freizeit)"
+          },
+          {
+            "label": "4. Integrierte Regulation",
+            "detail": "Selbstbestimmt extrinsisch | Widerspruchsfrei ins eigene Wertesystem integriert"
+          },
+          {
+            "label": "5. Intrinsische Regulation",
+            "detail": "Voll selbstbestimmt | Handeln aus Freude an handlungsbegleitenden Anreizen"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Wirkung von Belohnungen auf die intrinsische Motivation (Deci et al., 2001)",
+        "headers": [
+          "Art der Rückmeldung / Belohnung",
+          "Wirkung auf intrinsische Motivation",
+          "Psychologischer Grund"
+        ],
+        "rows": [
+          [
+            "Informierendes, autonomieachtendes Lob",
+            "Steigerung (+)",
+            "Befriedigt das Grundbedürfnis nach Kompetenz ohne Kontrollverlust"
+          ],
+          [
+            "Unerwartete / aufgabenunabhängige Gabe",
+            "Neutral (0)",
+            "Handlung wurde nicht um der Belohnung willen begonnen"
+          ],
+          [
+            "Erwartete materielle Prämie (leistungs-/aufgabenbezogen)",
+            "Starke Senkung / Korrumpierung (−)",
+            "Verlust erlebter Autonomie (Kontrollwahrnehmung von innen nach außen)"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.3 & 3.1 (Operantes Verstärken / Token-Systeme vs. Offener/Entdeckender Unterricht)",
+          "bridge_explanation": "Erklärt die zentrale Grenze behavioristischer Token-Systeme: Bei bereits vorhandener Lernfreude zerstören angekündigte materielle Verstärker durch den Korrumpierungseffekt die intrinsische Motivation."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 2 & 6 (Pädagogisch-psychologische Rückmeldekultur & Lernentwicklungsgespräche)",
+          "bridge_explanation": "Rückmeldungen in Lernentwicklungsgesprächen wirken motivationsförderlich, wenn sie informierend (Kompetenz) statt kontrollierend formuliert sind."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 1/2 (Freies Farbmischen ohne Sticker-Belohnung): Da Kinder von Natur aus intrinsische Freude am Gestalten mitbringen, verzichtet die Lehrkraft strikt auf versprochene Belohnungssticker für ‚besonders fleißige Maler‘ (verhindert den Korrumpierungseffekt nach Deci et al., 2001) und bietet stattdessen echte Autonomie bei Motiv- und Werkzeugwahl.",
+        "sport": "Sport Klasse 4 (Aufwärmen & Dehnen – Förderung identifizierter Regulation): Nicht jede Übung macht rein intrinsisch Spaß. Indem die Lehrkraft anschaulich erklärt, *warum* Aufwärmen die eigenen Gelenke beim anschließenden Turnen schützt, akzeptieren die Kinder das Ziel als persönlich sinnvoll (identifizierte statt external erzwungene Regulation).",
+        "allgemein": "Erfüllung aller drei Basic Needs im Klassenzimmer: Wahlaufgaben (Autonomie), gestufte Hilfekarten (Kompetenz) und kooperative Tischgruppen (Soziale Einbindung)."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "Intrinsische vs. Extrinsische Motivation",
+          "hint": "Zielzustand innerhalb vs. außerhalb der Handlung (Deci & Ryan, 1985; Schiefele & Köller, 2001)."
+        },
+        {
+          "term": "4 extrinsische Regulationsstufen + intrinsische Regulation",
+          "hint": "External -> Introjiziert -> Identifiziert -> Integriert -> Intrinsisch (mit je 1 Schülerbeispiel!)."
+        },
+        {
+          "term": "Identifizierte vs. Integrierte Regulation",
+          "hint": "Beide bejaht, aber bei identifizierter Regulation bestehen noch Zielkonflikte, bei integrierter nicht mehr."
+        },
+        {
+          "term": "3 Basic Needs nach Deci & Ryan (1993)",
+          "hint": "Kompetenz, Autonomie, Soziale Einbindung."
+        },
+        {
+          "term": "Korrumpierungseffekt (Deci et al., 2001)",
+          "hint": "Welche Belohnung schadet Grundschulkindern massiv, welche schadet nicht und welches Lob nützt?"
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Abgrenzung intrinsischer und extrinsischer Motivation nach Lage des angestrebten Zielzustands (Deci & Ryan, 1985; Schiefele & Köller, 2001).",
+        "core_model": "Darstellung der Selbstbestimmungstheorie von Deci & Ryan (1993, 2000, 2002): Das fünfstufige Regulationskontinuum (external, introjiziert, identifiziert, integriert, intrinsisch) sowie die drei psychologischen Grundbedürfnisse (Kompetenz, Autonomie, soziale Einbindung).",
+        "empirics": "Metaanalytische Befunde von Deci, Koestner & Ryan (2001) zum Korrumpierungseffekt erwarteter materieller Belohnungen bei Grundschulkindern im Gegensatz zu informierendem Feedback.",
+        "critique_bridge": "Schulisches Lernen kann nicht immer rein intrinsisch sein; pädagogisches Kernziel ist daher die Internalisierung zu identifizierter/integrierter Regulation und die Entwicklung überdauernder Interessen (Krapp).",
+        "school_transfer": "Gestaltung eines Basic-Needs-sensiblen Grundschulunterrichts mit Wahlspielräumen, sachlich-informierendem Feedback, Begründung sinnhafter Regeln und Verzicht auf materielle Belohnungsdeals."
+      },
+      "all_bold_terms_covered": [
+        "7.4 Valenzen",
+        "Intrinsische Motivation",
+        "Extrinsische Motivation",
+        "7.4.1 Selbstbestimmungstheorie nach Deci & Ryan (1993, 2000)",
+        "Selbstbestimmungstheorie",
+        "Deci & Ryan (1985, 1993, 2000, 2002)",
+        "Externale Regulation",
+        "Introjizierte Regulation",
+        "Identifizierte Regulation",
+        "Integrierte Regulation",
+        "Intrinsische Regulation",
+        "Basic Needs",
+        "Kompetenz",
+        "Autonomie",
+        "Soziale Einbindung",
+        "Deci et al. (2001)",
+        "Korrumpierungseffekt der Belohnung"
+      ]
+    },
+    {
+      "id": "B-07-03",
+      "domain": "B",
+      "chapter_group_num": "7",
+      "chapter_group_title": "7. Motivations- und Interessensentwicklung",
+      "section_num": "7.4.2–7.4.3",
+      "title": "Person-Gegenstands-Theorie des Interesses (Krapp & Prenzel)",
+      "subtitle": "Situationales vs. Individuelles Interesse, 6 Merkmale, Interessensgenese & 6 Unterrichtsbedingungen",
+      "page_start": 70,
+      "page_end": 72,
+      "page_label": "Original-Skript S. 70–72",
+      "estimated_minutes": 17,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Wenn der Funke überspringt: Vom spannenden Moment (situational) zur festen Identitätsbeziehung (individuell)",
+      "definitions": [
+        {
+          "term": "Interesse (Person-Gegenstands-Theorie)",
+          "definition": "Eine mehr oder weniger überdauernde spezifische Beziehung zwischen einer Person und einem Gegenstand aus ihrem Lebensraum.",
+          "author_year": "Krapp, 2003",
+          "page_ref": "S. 70"
+        },
+        {
+          "term": "Situationales vs. Individuelles vs. Aktualisiertes Interesse",
+          "definition": "Situationales Interesse ist ein konkreter, situationsspezifischer motivationaler Zustand infolge besonderer Anreizbedingungen der Lernsituation (Interessantheit). Individuelles Interesse ist eine überdauernde, dispositionale Person-Objekt-Beziehung (auch in der Freizeit). Aktualisiertes Interesse entsteht, wenn ein bestehendes individuelles Interesse durch Merkmale der Lernumgebung aktiviert wird.",
+          "author_year": "Krapp, 1998 / 2003",
+          "page_ref": "S. 70"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "7.4.2 Sechs Merkmale individueller Interessen & Modell der Interessensgenese",
+          "page_ref": "S. 71",
+          "bullets": [
+            "**Die 6 Kennzeichen individuellen Interesses**: 1. **Wertbezogene Valenz** (hohe subjektive Bedeutung, Einklang mit eigenen Zielen), 2. **Emotionale Valenz** (positive Erlebensqualitäten wie Freude/Flow), 3. **Inhalts- bzw. Gegenstandsspezifität** (wachsende Komplexität der bereichsspezifischen Wissensstruktur), 4. **Epistemische Orientierung** (Wunsch, immer mehr zu erfahren und Kompetenzen zu vertiefen), 5. **Selbstintentionalität** (eigenständiges Setzen selbstkompatibler Lernziele), 6. **Selbst-Nähe** (Gegenstandsbezug wird Teil der eigenen Identität).",
+            "**Abgrenzung zur Leistungsmotivation**: **Interesse** zielt auf eine überdauernde inhaltliche *Person-Objekt-Beziehung* ab; **Leistungsmotivation** zielt inhaltsübergreifend auf das *Handeln nach selbst gesetzten Gütestandards*.",
+            "**Modell der Interessensgenese (Krapp, 1998 – Abb. S. 71)**: Aus *Person × Lernsituation* entsteht zunächst **situationales Interesse**; der Übergang (*Internalisierung & Identifikation*) zu dauerhaftem **individuellem Interesse** gelingt nur bei doppelter Bedingung: **1. persönliche, inhaltliche Relevanz** (kognitiv-wertbezogen) + **2. positive emotionale Bilanz** durch Befriedigung der **Basic Needs** (*Kompetenz, Autonomie, soziale Einbindung*; Deci & Ryan, 1985)."
+          ]
+        },
+        {
+          "heading": "7.4.3 Sechs pädagogisch gestaltbare Bedingungen (Prenzel, 1996; Krapp & Prenzel, 1992)",
+          "page_ref": "S. 72",
+          "bullets": [
+            "**1. Inhaltliche Relevanz des Lernstoffes**: Eigene lebensweltliche Anwendungsbeispiele, fächerübergreifende Verknüpfungen, problemorientierte Lerngelegenheiten.",
+            "**2. Instruktionsqualität**: Hohe Klarheit und Strukturiertheit der Erklärung statt Überforderung durch unstrukturierte Komplexität.",
+            "**3. Inhaltliches Interesse beim Lehrenden**: Spürbare emotionale Beteiligung und Begeisterung der Lehrkraft – *„der Funke springt über“*.",
+            "**4. Soziale Einbindung**: Wertschätzung, partnerschaftlich-warmherziger und respektvoller Umgang zwischen Lehrkraft und Klasse sowie unter den Kindern.",
+            "**5. Kompetenzunterstützung**: Angemessener Schwierigkeitsgrad, Zutrauen herausfordernder Aufgaben, sachbezogene Rückmeldungen (**sachliche oder individuelle Bezugsnorm**).",
+            "**6. Autonomieunterstützung**: Echte Wahlmöglichkeiten und Spielräume für selbstgesteuertes Planen und Lernen."
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S070_Abb1.png",
+          "caption": "Zusammenspiel von individuellem Interesse, Interessantheit des Lerngegenstandes, aktualisiertem Interesse und situationalem Interesse (Original-Skript S. 70)",
+          "page_ref": "S. 70"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S071_Abb1.png",
+          "caption": "Modell der Interessensgenese nach Krapp (1998): Vom situationalen zum individuellen Interesse über Basic Needs, Internalisierung und Identifikation (Original-Skript S. 71)",
+          "page_ref": "S. 71"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S072_Abb1.png",
+          "caption": "Sechs Bedingungen für motiviertes Lernen nach Krapp & Prenzel (1992) und Deci & Ryan (1993) (Original-Skript S. 72)",
+          "page_ref": "S. 72"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S072_Schaubild.png",
+          "caption": "Tabellarische Konkretisierung der sechs pädagogisch gestaltbaren motivationsunterstützenden Bedingungen nach Prenzel (1996) (Original-Skript S. 72)",
+          "page_ref": "S. 72"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Krapps (1998) Zweistufen-Brücke vom Aha-Moment zum Hobby",
+        "steps_or_rows": [
+          {
+            "label": "1. Catch (Auslösung)",
+            "detail": "Ansprechende Lernsituation (Interessantheit) weckt aktuelles situationales Interesse"
+          },
+          {
+            "label": "2. Hold (Doppel-Filter)",
+            "detail": "Kognitiv: Persönliche inhaltliche Relevanz + Emotional: Befriedigung von Kompetenz, Autonomie, Einbindung"
+          },
+          {
+            "label": "3. Stabilisierung",
+            "detail": "Internalisierung & Identifikation -> überdauerndes individuelles Interesse (Teil des Selbst)"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Drei Erscheinungsformen von Interesse in der Unterrichtspraxis",
+        "headers": [
+          "Form",
+          "Auslöser / Quelle",
+          "Grundschul-Beispiel"
+        ],
+        "rows": [
+          [
+            "Situationales Interesse",
+            "Äußere Interessantheit der Lernumgebung",
+            "Verblüffendes Farb-Experiment mit Rotkohlsaft weckt spontane Neugier"
+          ],
+          [
+            "Individuelles Interesse",
+            "Überdauernde Disposition der Person",
+            "Kind liest zu Hause freiwillig Sachbücher über Dinosaurier und zeichnet sie"
+          ],
+          [
+            "Aktualisiertes Interesse",
+            "Passung von Schüler-Interesse & Unterrichtsangebot",
+            "Das Dinosaurier-begeisterte Kind darf im Kunstunterricht ein Urzeit-Relief formen"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 2.5 & 5.1 (Vorwissen/Wissensstrukturen & Unterrichtsqualität / Klarheit-Strukturiertheit)",
+          "bridge_explanation": "Prenzels Bedingung ‚Instruktionsqualität‘ deckt sich direkt mit dem Basismerkmal Klassenführung/Strukturiertheit der Unterrichtsqualitätsforschung; epistemische Orientierung baut vernetzte Wissensschemata auf."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 2.2 (Sachliche und individuelle Bezugsnorm)",
+          "bridge_explanation": "Kompetenzunterstützung im Sinne Prenzels (1996) verlangt zwingend Rückmeldungen aus der Sache (kriterial/sachlich) oder am individuellen Lernzuwachs statt sozialer Beschämung."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Architektur-Projekt ‚Unser Traum-Baumhaus‘ nach Prenzel, 1996): 1. *Relevanz*: Eigener Lebensraum; 2. *Instruktionsqualität*: Klare Demonstration stabiler Klebeverbindungen; 3. *Lehrerinteresse*: Lehrkraft bringt eigenes Architektur-Skizzenbuch begeistert mit; 4.–6. *Basic Needs*: Partnerbau (Einbindung), gestufte Bautipps mit sachlichem Feedback (Kompetenz) und freie Raumgestaltung (Autonomie).",
+        "sport": "Sport Klasse 4 (Trendsport/Seilspring-Choreografie): Ein kurzer begeisternder Rope-Skipping-Auftritt der Lehrkraft weckt *situationales Interesse* (Funke springt über); eigene Musik- und Trickauswahl in Kleingruppen (Autonomie + Einbindung + Kompetenzerleben) lässt daraus nachhaltiges Bewegungsinteresse wachsen.",
+        "allgemein": "Regelmäßige ‚Experten-Zeit‘, in der Kinder eigene Freizeitinteressen (aktualisiertes Interesse) mit dem Sach- oder Deutschunterricht verbinden dürfen."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "Definition Interesse (Krapp, 2003) & Abgrenzung zu Leistungsmotivation",
+          "hint": "Überdauernde Person-Gegenstands-Beziehung vs. Handeln nach Gütestandards."
+        },
+        {
+          "term": "Situationales vs. Individuelles vs. Aktualisiertes Interesse",
+          "hint": "Interessantheit der Situation vs. überdauernde Disposition vs. Aktivierung im Unterricht."
+        },
+        {
+          "term": "6 Merkmale individueller Interessen",
+          "hint": "Wertbezogene Valenz, emotionale Valenz, Gegenstandsspezifität, epistemische Orientierung, Selbstintentionalität, Selbst-Nähe."
+        },
+        {
+          "term": "Modell der Interessensgenese (Krapp, 1998)",
+          "hint": "Zwei Bedingungen für Internalisierung/Identifikation: persönliche Relevanz + positive emotionale Bilanz (Basic Needs)."
+        },
+        {
+          "term": "6 Bedingungen nach Prenzel (1996) / Krapp & Prenzel (1992)",
+          "hint": "Relevanz, Instruktionsqualität, Lehrerinteresse (‚Funke‘), Soziale Einbindung, Kompetenz-, Autonomieunterstützung."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Einführung in die Münchner Person-Gegenstands-Theorie des Interesses (Krapp, 2003) und scharfe Abgrenzung zum inhaltsunspezifischen Konstrukt der Leistungsmotivation.",
+        "core_model": "Unterscheidung von situationalem, individuellem und aktualisiertem Interesse, Erläuterung der sechs Merkmale individuellen Interesses (inkl. epistemischer Orientierung & Selbst-Nähe) sowie Krapps (1998) Modell der Interessensgenese.",
+        "empirics": "Verknüpfung mit der Selbstbestimmungstheorie (Deci & Ryan, 1985/1993): Übergang zum dauerhaften Interesse nur bei kognitiver Relevanz und positiver Basic-Needs-Bilanz.",
+        "critique_bridge": "Situationale Show-Effekte (‚Catch‘) verpuffen schnell, wenn die sechs haltgebenden Unterrichtsbedingungen (‚Hold‘) nach Prenzel (1996) fehlen.",
+        "school_transfer": "Systematische Planung einer Grundschulstunde (z. B. Kunst oder Sport) entlang aller sechs pädagogisch gestaltbaren Bedingungen nach Krapp & Prenzel."
+      },
+      "all_bold_terms_covered": [
+        "7.4.2 Interessenstheorie",
+        "Interesse",
+        "Situationales",
+        "Individuelles",
+        "Aktualisiertes Interesse",
+        "Wertbezogene Valenz",
+        "Emotionale Valenz",
+        "Inhalts- bzw. Gegenstandsspezifität",
+        "Epistemische Orientierung",
+        "Leistungsmotivation",
+        "7.4.3 Förderung selbstbestimmt motivierten Lernens im Rahmen",
+        "der Interessensforschung (Krapp und Prenzel)",
+        "Pädagogisch",
+        "gestaltbare",
+        "motivationsunterstützende",
+        "Bedingungen",
+        "Inhaltliche",
+        "Relevanz",
+        "des Lernstoffes",
+        "Instruktionsqualität",
+        "Inhaltliches Interesse",
+        "beim Lehrenden",
+        "Soziale Einbindung",
+        "Kompetenz-",
+        "unterstützung",
+        "Autonomie-",
+        "Selbstintentionalität",
+        "Selbst-Nähe",
+        "Krapp (1998, 2003)",
+        "Prenzel (1996)",
+        "Krapp & Prenzel (1992)"
+      ]
+    },
+    {
+      "id": "B-07-04",
+      "domain": "B",
+      "chapter_group_num": "7",
+      "chapter_group_title": "7. Motivations- und Interessensentwicklung",
+      "section_num": "7.4.4–7.6",
+      "title": "Zielorientierungen, Entwicklung & Förderung der Leistungsmotivation",
+      "subtitle": "2×2-Zielmatrix (Elliot), Entwicklung nach Heckhausen (2006) & Nicholls (1978), Bezugsnormen (Rheinberg)",
+      "page_start": 73,
+      "page_end": 75,
+      "page_label": "Original-Skript S. 73–75",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Lernziel statt Blamage-Angst + der 8-Jahres-Umschwung zum Klassenvergleich (Heckhausen & Nicholls)",
+      "definitions": [
+        {
+          "term": "Lernziel-/Aufgabenorientierung vs. Leistungsziel-/Performanzzielorientierung",
+          "definition": "Lernzielorientierung richtet sich auf eigenen Kompetenzzuwachs und Verstehen der Sache; Leistungszielorientierung richtet sich auf das Demonstrieren hoher Kompetenz (Annäherung) bzw. Verbergen mangelnder Kompetenz (Vermeidung) vor anderen.",
+          "author_year": "Elliot, 1999; Dweck; Nicholls (Skript Kap. 7.2 & 7.4.4)",
+          "page_ref": "S. 68, 73"
+        },
+        {
+          "term": "Bezugsnormorientierung der Lehrkraft (BNO)",
+          "definition": "Bevorzugter Vergleichsmaßstab einer Lehrkraft bei Leistungsbeurteilung und Rückmeldung: individuell (eigener Lernverlauf), sozial (Klassenvergleich) oder sachlich/kriterial (Lernzielstandard) – mit direkter Auswirkung auf die Schüler-Leistungsmotivation.",
+          "author_year": "Rheinberg, 1978",
+          "page_ref": "S. 75"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "7.4.4 Die 2×2-Matrix motivationaler Zielorientierungen & SELLMO",
+          "page_ref": "S. 73",
+          "bullets": [
+            "**Kreuzung zweier Dimensionen (Abb. S. 73)**: *Art der Zielorientierung* (**Lernziel-** vs. **Leistungszielorientierung**) × *Valenzrichtung* (**Annäherungsziel** = positiv-aufsuchend, „erfolgszuversichtlich“ vs. **Vermeidungsziel** = negativ-vermeidend, „misserfolgsängstlich“).",
+            "**1. Aufsuchende Lernzielorientierung (Annäherungslernziele)**: „Ich lerne, um etwas zu wissen/können/verstehen“ -> *Empirie*: **gute Lernergebnisse**, tiefe Verarbeitung.",
+            "**2. Meidende Lernzielorientierung (Vermeidungslernziele)**: „Ich lerne, um nicht nichts zu wissen/können/verstehen“ (Vermeiden eigenen Kompetenzverlusts/Nichtverstehens).",
+            "**3. Aufsuchende Leistungszielorientierung (Annäherungsleistungsziele)**: „Ich lerne, um eine gute Note zu erreichen / besser als andere zu sein“ -> *Empirie*: **relativ gute Lernergebnisse**.",
+            "**4. Meidende Leistungszielorientierung (Vermeidungsleistungsziele)**: „Ich lerne, um eine schlechte Note / Blamage zu vermeiden“ -> *Empirie*: **weniger gute Lernergebnisse**, Prüfungsangst und Oberflächenstrategien.",
+            "**Diagnostisches Verfahren**: **SELLMO** (*Skalen zur Erfassung der Lern- und Leistungsmotivation*, vgl. Gebiet C, Kap. 9.2)."
+          ]
+        },
+        {
+          "heading": "7.5 Entwicklung der Leistungsmotivation: Heckhausen (2006) & Nichols/Nicholls (1978)",
+          "page_ref": "S. 73–74",
+          "bullets": [
+            "**6 Entwicklungsetappen nach Heckhausen (2006)**: **< 1 Jahr**: *Freude am Effekt* (sekundäre Kreisreaktion, *effectance motivation*); **ca. 1,5–2 J.**: erste Stolz- und Verlegenheitsreaktionen; **ca. 3,5 J.**: Verknüpfung des Ergebnisses mit eigener Tüchtigkeit (echter Stolz & Scham); **ca. 4,5 J.**: erste Anspruchsniveau-Setzung, **vorwiegend individuelle Bezugsnorm & Aufgabenorientierung**; **ca. 5 J.**: Trennung von Tüchtigkeit und Aufgabenschwierigkeit; **ca. 8 Jahre (2./3. Klasse!)**: Übergang zu **Performanz-/Leistungszielorientierung und sozialer Bezugsnormorientierung**.",
+            "**4 Stufen kompetenzbezogener Überzeugungen nach Nichols / Nicholls (1978)**: **5–6 J.**: Trennung Tüchtigkeit (intern) vs. Schwierigkeit (extern), aber Anstrengung = Fähigkeit; **6–9 J.**: *Anstrengung* gilt als Hauptursache für Leistung; **9–12 J.**: beginnende, noch unbeständige Trennung von Fähigkeit und Anstrengung; **ab 12 J.**: reifes Konzept von **Fähigkeit als kapazitätslimitierender Disposition** (und Abgrenzung von Zufall/Glück) -> *motivationales Risiko*: Wer sich für gleichen Erfolg viel stärker anstrengen muss als andere, schließt auf **mangelnde eigene Begabung**!"
+          ]
+        },
+        {
+          "heading": "7.6 Förderung der Leistungsmotivation in Familie und Schule",
+          "page_ref": "S. 74–75",
+          "bullets": [
+            "**Elterliche Förderung**: Erziehung zur **Selbstständigkeit**, **autoritativer Erziehungsstil** und **Entwicklungsangemessenheit** der Anforderungen (nicht verfrühter Leistungsdruck!).",
+            "**Schulische Förderung**: **Individuelle Bezugsnormorientierung** der Lehrkraft (**Rheinberg, 1978**), **Reattribuierungstraining**, Setzen **motivational günstiger Ziele (SMART)**, interessenentwickelnder Unterricht und Aufbau einer positiven Selbstbewertungsbilanz."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Elterliches Anspruchsniveau, Selbstständigkeitserziehung und Leistungsmotivation Fünfjähriger",
+          "authors_year": "Heckhausen & Oswald, 1966",
+          "page_ref": "S. 75",
+          "setup": "Beobachtungsstudie an Fünfjährigen und ihren Eltern hinsichtlich elterlichem Anspruchsniveau, Verstärkungsverhalten und Eingriffshäufigkeit bei Aufgabenlösungen.",
+          "finding": "Eltern mit entwicklungsangemessen hohem Anspruchsniveau, positiver Verstärkung und Gewährung von Selbstständigkeit hatten höher leistungsmotivierte Kinder; Eltern mit niedrigem Anspruchsniveau, Tadel/Strafe und einengend-steuernden Eingriffen hatten niedriger leistungsmotivierte Kinder.",
+          "implication": "Autonomiegewährung („Selber-ausprobieren-Lassen“) und Ermutigung sind schon vor Schuleintritt der Schlüssel zu Erfolgszuversicht."
+        },
+        {
+          "title": "Bezugsnormorientierung der Lehrkraft und Schüler-Leistungsmotivation",
+          "authors_year": "Rheinberg, 1978",
+          "page_ref": "S. 75",
+          "setup": "Feldstudien zum Zusammenhang zwischen der habituellen Bezugsnormorientierung von Lehrkräften (sozial vs. individuell) und der Motivausprägung ihrer Schulklassen.",
+          "finding": "Bei Lehrkräften mit vorwiegend sozialer Bezugsnormorientierung sind Lernende eher misserfolgsorientiert; bei Lehrkräften mit individueller Bezugsnormorientierung sind sie signifikant häufiger erfolgsorientiert.",
+          "implication": "Gerade ab dem kritischen 8. Lebensjahr (Klasse 2/3) fängt eine individuelle Bezugsnormorientierung das Abrutschen leistungsschwächerer Kinder in Vermeidungsleistungsziele auf."
+        }
+      ],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S073_Schaubild.png",
+          "caption": "2×2-Matrix der motivationalen Zielorientierungen (Lernziel- vs. Leistungszielorientierung × Annäherungs- vs. Vermeidungsziel) inkl. empirischer Leistungsbefunde (Original-Skript S. 73)",
+          "page_ref": "S. 73"
+        }
+      ],
+      "custom_visual": {
+        "type": "timeline",
+        "title": "Entwicklung von Leistungsmotivation (Heckhausen, 2006) & Fähigkeitskonzept (Nicholls, 1978)",
+        "steps_or_rows": [
+          {
+            "label": "< 1 J. bis 3,5 J.",
+            "detail": "Freude am Effekt (<1 J.) -> erste Stolz-/Verlegenheitsreaktionen (1,5–2 J.) -> Tüchtigkeitsbezug mit Stolz/Scham (3,5 J.)"
+          },
+          {
+            "label": "4,5 bis 5 Jahre",
+            "detail": "Erstes Anspruchsniveau, individuelle Bezugsnorm & Aufgabenorientierung (4,5 J.); Trennung Tüchtigkeit vs. Schwierigkeit (5 J.)"
+          },
+          {
+            "label": "6 bis 9 Jahre",
+            "detail": "Anstrengung gilt als Hauptursache (Nicholls); ab ~8 J. Wechsel zu sozialer Bezugsnorm & Leistungszielen (Heckhausen)"
+          },
+          {
+            "label": "9 bis 12+ Jahre",
+            "detail": "Beginnende (9–12 J.) -> reife Trennung (ab 12 J.) von Fähigkeit (Kapazitätsgrenze) und Anstrengung"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Übersicht der vier Zielorientierungen und ihrer Lernergebnisse (S. 73)",
+        "headers": [
+          "Zieltyp",
+          "Leitgedanke des Kindes",
+          "Empirischer Leistungsbefund"
+        ],
+        "rows": [
+          [
+            "Annäherungs-Lernziel",
+            "‚Ich lerne, um die Sache wirklich zu verstehen/können‘",
+            "Gute Lernergebnisse & hohe Ausdauer"
+          ],
+          [
+            "Vermeidungs-Lernziel",
+            "‚Ich lerne, um nichts zu verlernen / nicht unwissend zu bleiben‘",
+            "Ambivalent (Sorge vor Kompetenzverlust)"
+          ],
+          [
+            "Annäherungs-Leistungsziel",
+            "‚Ich lerne, um eine gute Note / ein Top-Ergebnis zu erzielen‘",
+            "Relativ gute Lernergebnisse"
+          ],
+          [
+            "Vermeidungs-Leistungsziel",
+            "‚Ich lerne nur, um keine Fünf zu kassieren / mich nicht zu blamieren‘",
+            "Weniger gute Lernergebnisse & hohe Angst"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 4 (Lernstrategien & Selbstreguliertes Lernen)",
+          "bridge_explanation": "Annäherungslernziele fördern tiefenorientierte Elaborations- und Organisationsstrategien, während Vermeidungsleistungsziele zu starrem Auswendiglernen führen."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 2.2 & 9.2 (Bezugsnormen nach Rheinberg & Motivationsdiagnostik SELLMO)",
+          "bridge_explanation": "Der SELLMO operationalisiert exakt die Zielorientierungen aus Kap. 7.4.4 (Lernziele, Annäherungs-Leistungsziele, Vermeidungs-Leistungsziele sowie Arbeitsvermeidung)."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Lernziel-Kultur beim Aquarellieren): Statt am Stundenende die ‚drei schönsten Bilder‘ an die Tafel zu hängen (erzeugt Performanz- und Blamageziele), führt jedes Kind einen *Technik-Pass* mit SMART-Teilzielen (‚Heute erprobe ich den Nass-in-Nass-Verlauf‘ -> individuelle Bezugsnorm & Annäherungslernziel).",
+        "sport": "Sport Klasse 3/4 (Ausdauerlauf ‚Mein persönlicher Minuten-Schatz‘ nach Rheinberg, 1978): Ab ca. 8 Jahren vergleichen sich Kinder stark sozial. Deshalb zählt beim Ausdauerlauf nicht, wer als Erster ankommt, sondern ob jedes Kind seine eigene Vorwochen-Zeit ohne Gehpause um 1 Minute steigert (individuelle Bezugsnorm -> Erfolgszuversicht).",
+        "allgemein": "SMART-Wochenplanziele in Klasse 4 (Spezifisch, Messbar, Attraktiv, Realistisch, Terminiert) gemeinsam mit dem Kind formulieren."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "2×2-Matrix der Zielorientierungen (Elliot, 1999)",
+          "hint": "Lernziel vs. Leistungsziel × Annäherung vs. Vermeidung + empirische Befunde zu den Lernergebnissen!"
+        },
+        {
+          "term": "6 Entwicklungsetappen nach Heckhausen (2006)",
+          "hint": "<1 J. Effektfreude, 1,5–2 J., 3,5 J. Stolz/Scham, 4,5 J. indiv. BNO, 5 J., 8 J. soziale BNO & Performanzziele."
+        },
+        {
+          "term": "4 Stufen nach Nichols / Nicholls (1978)",
+          "hint": "Wann wird Fähigkeit als feste Kapazitätsgrenze von Anstrengung getrennt (ab 12 J.) und warum ist das heikel?"
+        },
+        {
+          "term": "Heckhausen & Oswald (1966) zur Elternförderung",
+          "hint": "5-Jährige: Hohes angemessenes Anspruchsniveau + Lob + Autonomie vs. Tadel + einengende Eingriffe."
+        },
+        {
+          "term": "Rheinberg (1978) + Schulische Förderbausteine",
+          "hint": "Individuelle BNO -> erfolgsorientiert, soziale BNO -> misserfolgsorientiert; SMART-Ziele, Reattribution, SELLMO."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Bedeutung qualitativer Zielorientierungen und altersbezogener Kompetenzkonzepte für die Entwicklung schulischer Leistungsmotivation.",
+        "core_model": "Darstellung der 2×2-Zielorientierungsmatrix (Lern- vs. Leistungsziel × Annäherung vs. Vermeidung; Elliot, 1999) sowie der Entwicklungsmodelle von Heckhausen (2006: 6 Etappen) und Nicholls (1978: Trennung von Anstrengung und Fähigkeit).",
+        "empirics": "Leistungsvorteile von Annäherungslernzielen vs. Einbußen bei Vermeidungsleistungszielen, Elternstudie von Heckhausen & Oswald (1966) an Fünfjährigen sowie Rheinbergs (1978) Befund zur Bezugsnormorientierung.",
+        "critique_bridge": "Kritischer Wendepunkt um das 8. bis 12. Lebensjahr: Einsetzende soziale Vergleiche und ein fixes Begabungskonzept gefährden die Lernfreude ohne pädagogisches Gegensteuern.",
+        "school_transfer": "Konsequente Nutzung individueller Bezugsnormen (Sport-Ausdauerpass, Kunst-Portfolio), SMART-Lernziele, Reattribuierungstraining und diagnostische Abklärung per SELLMO."
+      },
+      "all_bold_terms_covered": [
+        "7.4.4 Motivationale Zielorientierungen",
+        "Lernzielorientierung",
+        "Leistungszielorientierung",
+        "Annäherungsziel",
+        "Vermeidungsziel",
+        "Lernziel-/Aufgabenorientierung",
+        "Leistungsziel-/Performanzzielorientierung",
+        "7.5 Entwicklung der Leistungsmotivation",
+        "7.6 Förderung der Leistungsmotivation",
+        "Elliot (1999)",
+        "SELLMO",
+        "Heckhausen (2006)",
+        "effectance motivation",
+        "Nichols (1978)",
+        "Nicholls (1978)",
+        "Heckhausen & Oswald (1966)",
+        "Rheinberg (1978)",
+        "Bezugsnormorientierung",
+        "Reattribuierungstraining",
+        "SMART"
+      ]
+    },
+    {
+      "id": "B-07-05",
+      "domain": "B",
+      "chapter_group_num": "7",
+      "chapter_group_title": "7. Motivations- und Interessensentwicklung",
+      "section_num": "7.7–7.8",
+      "title": "Interessensentwicklung & Entwicklungspsychologische Theorien",
+      "subtitle": "Renninger (1990/2000), 4 Altersphasen, Grundschul-Interessensknick & Circumscription/Compromise",
+      "page_start": 75,
+      "page_end": 76,
+      "page_label": "Original-Skript S. 75–76",
+      "estimated_minutes": 12,
+      "exam_weight": "medium",
+      "visual_anchor_tagline": "Von Gesichtern & Tieren/Fahrzeugen zum großen Interessensknick am Ende der Grundschulzeit",
+      "definitions": [
+        {
+          "term": "Individuelle Präferenzstruktur als Vorläufer von Interesse",
+          "definition": "Frühe individuelle Sensibilitäten gegenüber bestimmten Umweltreizen, die der eigentlichen Interessenentwicklung vorgeschaltet sind und bereits im Kindergartenalter zu relativ stabilen Person-Gegenstands-Bezügen führen.",
+          "author_year": "Renninger, 1990, 2000 (Skript Kap. 7.7)",
+          "page_ref": "S. 75"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "7.7 Dynamik der Interessensentwicklung vom Kontext zu den Basic Needs",
+          "page_ref": "S. 75",
+          "bullets": [
+            "**Frühe Wurzeln**: Angeborene/frühe Sensibilitäten formen eine individuelle Präferenzstruktur; bereits im **Kindergartenalter** lassen sich relativ stabile Person-Gegenstands-Bezüge nachweisen (**Renninger, 1990, 2000**).",
+            "**Verlauf**: Entwicklung führt vom **situationalen Interesse** hin zum längerfristigen **individuellen Interesse**.",
+            "**Gewichtungswandel der Förderfaktoren**: Zu Beginn sind **äußerer Lernkontext und Instruktionsqualität** besonders ausschlaggebend; im weiteren Verlauf sinkt deren relatives Gewicht, während die Erfüllung der **Basic Needs** (*Kompetenz, Autonomie, soziale Einbindung*) für die **Identifikation** mit dem Gegenstand und die **Internalisierung** der Ziele immer entscheidender wird."
+          ]
+        },
+        {
+          "heading": "7.8 Vier Stufen entwicklungspsychologischer Interessenstheorien (vgl. Todt & Gottfredson)",
+          "page_ref": "S. 76",
+          "bullets": [
+            "**1. Universelle Interessen (0 bis 2 Jahre)**: Angeborene Wahrnehmungs- und Explorationstendenzen aller Säuglinge – Präferenz für *menschliche Gesichter, klare Kanten und Linien, deutliche Schwarz-Weiß-Muster* sowie Unterscheidung *belebter vs. unbelebter Objekte*.",
+            "**2. Geschlechtsspezifische Interessen (ab ca. 1,5 Jahren)**: Frühe geschlechtstypische Kanalisierung (klassisch z. B. *Tiere vs. Fahrzeuge*).",
+            "**3. Allgemeine Interessen (Grundschule bis Pubertät)**: Orientierung an eigenen Kompetenzen, Peer-Interessen und gesellschaftlichen Angeboten. **Anfang der Grundschulzeit**: breite Begeisterung (*Tiere, Fahrzeuge, Lesen, Rechnen, Schreiben*); **Ende der Grundschulzeit**: **deutlich sinkendes Interesse an Schulfächern**!",
+            "**4. Individuelle Interessen (ab Pubertät)**: Vermehrte **Ausgrenzung** nicht zum Selbstkonzept passender Interessensgebiete und Spezialisierung (*Prüfungs-Ergänzung nach **Todt** sowie **Gottfredson, 1981: Circumscription & Compromise*** – schrittweise Eingrenzung nach Geschlechtsrolle, sozialem Prestige und Begabungsselbstkonzept sowie Kompromissbildung bei der Berufswahl)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Stabilität früher Person-Gegenstands-Bezüge im Vorschulalter",
+          "authors_year": "Renninger, 1990, 2000",
+          "page_ref": "S. 75",
+          "setup": "Beobachtungsstudien zum freien Spielverhalten, zur Ausdauer und zur Aufmerksamkeit von Kindergartenkindern gegenüber individuell bevorzugten Spielgegenständen.",
+          "finding": "Bereits im Kindergartenalter existieren relativ stabile, individuell unterschiedliche Person-Gegenstands-Bezüge, die Aufmerksamkeit und Explorationstiefe steuern.",
+          "implication": "Lehrkräfte im Anfangsunterricht der 1. Klasse knüpfen nicht bei null an, sondern können bereits mitgebrachte individuelle Themeninteressen gezielt aktualisieren."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "timeline",
+        "title": "4 Phasen der Interessensentwicklung über Kindheit und Jugend (S. 76)",
+        "steps_or_rows": [
+          {
+            "label": "0–2 Jahre: Universell",
+            "detail": "Angeborene Reizpräferenzen: Gesichter, Kanten/Linien, Schwarz-Weiß-Kontraste, belebt vs. unbelebt"
+          },
+          {
+            "label": "Ab ~1,5 J.: Geschlechtsspezifisch",
+            "detail": "Erste geschlechtsrollenbezogene Differenzierung (z. B. Tiere vs. Fahrzeuge)"
+          },
+          {
+            "label": "Grundschule: Allgemein -> Knick",
+            "detail": "Kl. 1 breit (Lesen, Rechnen, Schreiben, Natur) -> Ende Kl. 4 deutlicher Abfall des Fachinteresses"
+          },
+          {
+            "label": "Ab Pubertät: Individuell",
+            "detail": "Aktive Ausgrenzung (Circumscription) & identitätsnahe Spezialisierung / Kompromiss (Gottfredson/Todt)"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Bedingungsfaktoren im Verlauf der Interessensentwicklung",
+        "headers": [
+          "Entwicklungsphase",
+          "Dominante Steuergröße",
+          "Gefahr & Pädagogische Antwort"
+        ],
+        "rows": [
+          [
+            "Erstkontakt / Schulanfang",
+            "Äußerer Lernkontext, Anschaulichkeit & Instruktionsqualität",
+            "Strohfefeuer-Gefahr -> Schrittweise Mitbestimmung einbauen"
+          ],
+          [
+            "Ende Grundschule (Kl. 3/4)",
+            "Wachsende Kompetenzvergleiche, Peers & Geschlechterrollen",
+            "Interessensknick & vorschnelle Ausgrenzung -> Basic Needs & klischeefreie Vorbilder"
+          ],
+          [
+            "Jugendalter / Pubertät",
+            "Selbstkonzept-Passung, Identifikation & Basic Needs",
+            "Verengung durch Stereotype -> vielfältige Erprobungsräume offenhalten"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 2.1 & 3.1 (Aufmerksamkeit/Wahrnehmung & Entdeckendes/Problemorientiertes Lernen)",
+          "bridge_explanation": "Problemorientierte, lebensweltnahe Lernumgebungen wirken dem typischen Interessensabfall am Ende der 4. Klasse entgegen."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 4 (Schullaufbahnberatung & Übergangsdiagnostik Klasse 4)",
+          "bridge_explanation": "Beim Übertritt am Ende der Grundschule muss beachtet werden, dass das Absinken des Fachinteresses ein normativer Entwicklungstrend ist und nicht vorschnell als Begabungsmangel gedeutet werden darf."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 1 vs. Klasse 4: In Klasse 1 fasziniert starker Hell-Dunkel-Kontrast (Drucken mit Schwarz auf Weiß); in Klasse 4 droht geschlechtstypische Ausgrenzung (z. B. Jungen lehnen Textilgestaltung ab, Mädchen Holzsägen). Durch offene Design-Themen (‚Sneaker-Design‘ beim Nähen, ‚Fantasie-Figuren‘ beim Sägen) bleibt das Fachinteresse für alle offen.",
+        "sport": "Sport Klasse 4 (Gegen den Interessensknick & Geschlechter-Circumscription): Tanz wird als ‚Parkour- & Breakdance-Beats‘, Fußball als kooperatives Kleinfeld-Turnier inszeniert, damit weder Jungen rhythmische Bewegung noch Mädchen Ballspiele vorzeitig aus ihrem Selbstkonzept ausgrenzen.",
+        "allgemein": "Wahl-Projektmappen in Klasse 4 stärken Autonomie und Kompetenz genau dort, wo das allgemeine Schulinteresse sonst einbricht."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "Renninger (1990, 2000) & Präferenzstruktur",
+          "hint": "Schon im Kindergartenalter relativ stabile Person-Gegenstands-Bezüge auf Basis früher Sensibilitäten."
+        },
+        {
+          "term": "Gewichtungswandel Kontext -> Basic Needs",
+          "hint": "Anfangs Instruktionsqualität/Kontext zentral, später Basic Needs für Identifikation & Internalisierung."
+        },
+        {
+          "term": "4 Phasen der Interessensentwicklung (S. 76)",
+          "hint": "Universell (0–2 J.) -> Geschlechtsspezifisch (ab 1,5 J.) -> Allgemein (GS) -> Individuell/Ausgrenzung (ab Pubertät)."
+        },
+        {
+          "term": "Der Grundschul-Interessensknick",
+          "hint": "Anfang GS hohes Interesse an Lesen/Rechnen/Schreiben -> Ende GS deutlicher Rückgang des Schulfachinteresses."
+        },
+        {
+          "term": "Todt & Gottfredson (Circumscription & Compromise)",
+          "hint": "Schrittweise Eingrenzung von Interessen nach Geschlechtsrolle, Prestige und Begabungsselbstkonzept."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Entwicklungspsychologische Einbettung des Interessenkonstrukts von frühen Reizsensibilitäten bis zur jugendlichen Profilbildung.",
+        "core_model": "Darstellung der Verschiebung von Kontextmerkmalen hin zu Basic Needs (Kap. 7.7) sowie der vier Altersphasen (universelle, geschlechtsspezifische, allgemeine und individuelle Interessen inkl. Ausgrenzungsprozessen nach Todt/Gottfredson).",
+        "empirics": "Befund von Renninger (1990, 2000) zu stabilen Person-Gegenstands-Bezügen im Kindergartenalter sowie empirischer Befund zum deutlichen Interessensabfall am Ende der Grundschulzeit.",
+        "critique_bridge": "Vorschnelle geschlechtstypische Ausgrenzung (ab 1,5 J. und verstärkt Richtung Pubertät) verengt Bildungs- und Berufschancen unnötig.",
+        "school_transfer": "Auffangen des Interessensknicks in Klasse 3/4 durch klischeefreie Aufgabenformate in Kunst und Sport sowie gezielte Basic-Needs-Unterstützung."
+      },
+      "all_bold_terms_covered": [
+        "7.7 Interessensentwicklung",
+        "7.8 Entwicklungspsychologische Interessenstheorien",
+        "Renninger (1990, 2000)",
+        "Universelle Interessen",
+        "Geschlechtsspezifische Interessen",
+        "Allgemeine Interessen",
+        "Individuelle Interessen",
+        "Todt",
+        "Gottfredson (Circumscription & Compromise)"
+      ]
+    },
+    {
+      "id": "B-08-01",
+      "domain": "B",
+      "chapter_group_num": "8",
+      "chapter_group_title": "8. Emotionale Entwicklung und Prüfungsangst",
+      "section_num": "8.1–8.3",
+      "title": "Emotionen, Appraisal-/Kontroll-Wert-Theorie & Entwicklung",
+      "subtitle": "5 Komponenten (Götz), Lazarus (1991), Leistungsemotionen (Pekrun, 2006) & Emotionsregulation",
+      "page_start": 77,
+      "page_end": 80,
+      "page_label": "Original-Skript S. 77–80",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "5 Komponenten + Wert × Kontrolle: Wie aus Fremdtrösten beim Baby aktive Selbstregulation wird",
+      "definitions": [
+        {
+          "term": "Emotionen (Mehrdimensionales Konstrukt)",
+          "definition": "Mehrdimensionale Konstrukte, die aus fünf Komponenten bestehen: affektiv, kognitiv, physiologisch, expressiv und motivational.",
+          "author_year": "Götz, 2017",
+          "page_ref": "S. 77"
+        },
+        {
+          "term": "Leistungsemotionen",
+          "definition": "Emotionen von Schülerinnen und Schülern, die sie in Bezug auf leistungsbezogene Aktivitäten (z. B. Lernfreude, Langeweile) und die Leistungsergebnisse dieser Aktivitäten (z. B. Stolz, Angst, Scham) erleben.",
+          "author_year": "Pekrun, 2006",
+          "page_ref": "S. 77"
+        },
+        {
+          "term": "Appraisals (Kognitive Bewertungsprozesse)",
+          "definition": "Kognitive Bewertungen von Situationen, Tätigkeiten oder der eigenen Person nach Lazarus (1991): Primäre Appraisals prüfen persönliche Bedeutsamkeit und Valenz (-> Wert), sekundäre Appraisals prüfen Verursachung und eigenes Coping-Potenzial (-> Kontrolle).",
+          "author_year": "Lazarus, 1991 (sowie Kontroll-Wert-Theorie nach Pekrun, 2006)",
+          "page_ref": "S. 78"
+        },
+        {
+          "term": "Emotionsregulation",
+          "definition": "Regulation von Intensität, Dauer, Ausdrucksweise und Qualität einer aktuell erlebten bzw. bevorstehenden Emotion mittels Handlungen oder (Selbst-)Instruktionen.",
+          "author_year": "Salisch & Kunzmann, 2005",
+          "page_ref": "S. 80"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "8.1 Die 5 Emotionskomponenten (Abb. S. 77) & 8.2 Ursachen/Wirkungen (Lazarus, Pekrun)",
+          "page_ref": "S. 77–78",
+          "bullets": [
+            "**5 Komponenten von Emotionen (Götz, 2017 – Abb. S. 77)**: 1. **Affektiv** (angenehmes/lustvolles vs. unangenehmes/unlustvolles Erleben); 2. **Kognitiv** (Gedanken an Erfolg/Annäherung vs. Versagen/Flucht); 3. **Physiologisch** (*zentral*: kortikale Erregung u. a. präfrontaler Kortex, subkortikale u. a. Amygdala; *peripher*: Muskeltonus, Herzrate, Hautleitfähigkeit, Atmung); 4. **Expressiv** (verbaler & nonverbaler Ausdruck: Mimik, Gestik); 5. **Motivational** (Initiierung von Annäherungs-/Explorations- vs. Vermeidungs-/Angriffs-/Fluchtverhalten).",
+            "**Entstehung über Appraisals (Lazarus, 1991; Pekrun, 2006 Kontroll-Wert-Theorie)**: Unterschiedliche Konstellationen aus **Wert** (*Primäres Appraisal*: wichtig/unwichtig, bedürfniskonsistent?) und **Kontrolle** (*Sekundäres Appraisal*: selbst-/fremdverursacht, Bewältigungs-/Coping-Potenzial) erzeugen spezifische Emotionen.",
+            "**Drei Wirkmechanismen auf Lernen & Leistung (Pekrun, 2006)**: 1. **Kognitive Ressourcen** (negative Emotionen ziehen Aufmerksamkeit/Arbeitsgedächtnis ab; Freude fördert Konzentration -> **Götz, 2004**); 2. **Lernstrategien** (positive Emotionen -> selbstreguliertes, flexibles, transferorientiertes Denken; negative -> starres Befolgen externer Regeln); 3. **Motivation** nach Valenz × Aktivierung: **positiv-aktivierend** (*Freude*) steigert Leistung; **negativ-deaktivierend** (*Langeweile*) senkt Leistung; **positiv-deaktivierend** (*Erleichterung*) und **negativ-aktivierend** (*Angst*) wirken komplex/ambivalent (Angst senkt intrinsische, steigert aber evtl. extrinsische Misserfolgsvermeidung)."
+          ]
+        },
+        {
+          "heading": "Unterrichtliche Appraisal-Förderung & 8.3 Emotionale Entwicklung",
+          "page_ref": "S. 79–80",
+          "bullets": [
+            "**Förderung günstiger Kontroll- und Wertkognitionen (S. 79)**: Klare Unterrichtsstruktur (Inhalts-/Zeitpläne), offene/selbstbestimmte Lerngelegenheiten (Projektarbeit), transparente Lernziele und Beurteilungskriterien, **konsequente Trennung von Lern- und Prüfungszeiten** (Fehler in Lernzeiten als „Lernchance“!), Aufbau von Emotionsregulationswissen (*emotions- und problemorientiertes Coping*) sowie Vorleben positiver Lernemotionen durch die Lehrkraft.",
+            "**Entwicklung von Emotionen & Regulation (Abb. S. 79)**: **Neugeborenes**: *Vorläuferemotionen* -> **Säugling/Kleinkind**: *voll funktionsfähige Basisemotionen* -> **Vorschüler**: *neue selbstbezogene Emotionsqualitäten (z. B. Stolz und Scham)* -> weitere Differenzierung im Kindes-/Jugendalter. Parallel verschiebt sich die **Regulation** von rein **interpersonaler Regulation durch die Bezugsperson** (Säugling/Kleinkind) über einen **Übergang im Vorschulalter** hin zu eigenständiger **intrapersonaler Regulation** (Kind/Jugendlicher/Erwachsener)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Häufigkeit positiver und negativer Emotionen im Lern- und Leistungskontext",
+          "authors_year": "Pekrun, 1998",
+          "page_ref": "S. 77",
+          "setup": "Empirische Erhebungen zum emotionalen Alltagserleben von Lernenden in Unterrichts-, Hausaufgaben- und Prüfungssituationen.",
+          "finding": "Positive und negative Emotionen treten in schulischen Lern- und Leistungssituationen insgesamt etwa gleich häufig auf.",
+          "implication": "Schulische Emotionsforschung darf sich nicht auf Prüfungsangst verengen, sondern muss positiv-aktivierende Emotionen wie Lernfreude aktiv aufbauen."
+        },
+        {
+          "title": "Zusammenhang von Lernfreude, Konzentration und Schulleistung",
+          "authors_year": "Götz, 2004",
+          "page_ref": "S. 78",
+          "setup": "Untersuchung des Zusammenhangs zwischen selbst berichteter Lernfreude, aufgabenbezogener Konzentration und objektiven Schulleistungen.",
+          "finding": "Selbst berichtete Freude korreliert positiv mit der Konzentrationsfähigkeit und steht in signifikant positivem Zusammenhang mit der Schulleistung.",
+          "implication": "Freude im Unterricht ist kein ‚netter Luxus‘, sondern bündelt kognitive Ressourcen direkt auf den Lerngegenstand."
+        }
+      ],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S077_Abb1.png",
+          "caption": "Mehrdimensionales 5-Komponenten-Modell der Emotionen (affektiv, kognitiv, physiologisch, expressiv, motivational) (Original-Skript S. 77)",
+          "page_ref": "S. 77"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S079_Abb1.png",
+          "caption": "Entwicklung von Emotionen (Vorläufer -> Basisemotionen -> Stolz/Scham) und Entwicklung der Emotionsregulation von interpersonal zu intrapersonal (Original-Skript S. 79)",
+          "page_ref": "S. 79"
+        }
+      ],
+      "custom_visual": {
+        "type": "matrix",
+        "title": "Pekruns 2×2-Taxonomie der Leistungsemotionen (Valenz × Aktivierung)",
+        "steps_or_rows": [
+          {
+            "label": "Positiv-aktivierend (z. B. Lernfreude)",
+            "detail": "Fördert Konzentration, flexible Elaboration, intrinsische & extrinsische Motivation -> Leistung (+)"
+          },
+          {
+            "label": "Positiv-deaktivierend (z. B. Erleichterung)",
+            "detail": "Entspannt kurzfristig, senkt aber momentane Anstrengungsbereitschaft -> komplexer Effekt"
+          },
+          {
+            "label": "Negativ-aktivierend (z. B. Angst)",
+            "detail": "Raubt Arbeitsgedächtnis & intrinsische Lust, kann aber extrinsisches Pauken antreiben -> ambivalent"
+          },
+          {
+            "label": "Negativ-deaktivierend (z. B. Langeweile)",
+            "detail": "Senkt Aufmerksamkeit, Strategietiefe sowie intrinsische & extrinsische Motivation -> Leistung (−)"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Primäre vs. Sekundäre Appraisals (Lazarus, 1991) und Unterrichtshebel",
+        "headers": [
+          "Bewertungsschritt",
+          "Leitfrage im Kopf des Kindes",
+          "Konkrete Stärkung im Grundschulunterricht"
+        ],
+        "rows": [
+          [
+            "Primäres Appraisal -> WERT",
+            "‚Ist das Thema für mich wichtig, sinnvoll oder bedrohlich?‘",
+            "Alltagsrelevante Themen, Projektarbeit & spürbare Begeisterung der Lehrkraft"
+          ],
+          [
+            "Sekundäres Appraisal -> KONTROLLE",
+            "‚Habe ich die Mittel/Fähigkeiten, die Anforderung zu meistern?‘",
+            "Klare Zeit-/Inhaltsstruktur, transparente Kriterien & fehlerfreundliche Lernzeiten"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 2.2 & 4 (Arbeitsgedächtnis/Cognitive Load & Lernstrategien)",
+          "bridge_explanation": "Negative Leistungsemotionen wirken als extraneous/aufgabenfremde Belastung des begrenzten Arbeitsgedächtnisses und erzwingen oberflächliche statt elaborierender Strategien."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 2.1 & 9.5 (Formative vs. Summative Diagnostik & Emotionale Störungen)",
+          "bridge_explanation": "Die Trennung von Lernzeiten (formativ, fehlerfreundlich) und Prüfungszeiten (summativ) ist der wichtigste diagnostisch-didaktische Hebel zur Stärkung des Kontroll-Appraisals."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 1/2 (Lernzeit vs. Ausstellungszeit & Selbstinstruktion): Auf dem Werktisch liegt ein grünes ‚Experimentier-Schild‘ (= reine Lernzeit: Kleckse und Fehlversuche ausdrücklich erwünscht -> senkt Bedrohungs-Appraisal). Ärgert sich ein Kind über einen Riss im Ton, übt es intrapersonale Regulation per Selbstinstruktion (Salisch & Kunzmann, 2005): ‚Erst tief ausatmen, mit Schlicker kann ich es reparieren!‘",
+        "sport": "Sport Klasse 2 (Gefühls-Barometer & Emotionsregulation nach knappen Spielen): Bei Frust nach einer Niederlage begleitet die Lehrkraft den Übergang von ko-regulierender Beruhigung hin zu eigenen Coping-Strategien (3 tiefe Atemzüge an der Trinkflasche + fairer Handshake).",
+        "allgemein": "Transparente ‚Das-kann-ich-schon‘-Checklisten vor jeder Probearbeit erhöhen das sekundäre Kontroll-Appraisal sichtbar."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "5 Komponenten von Emotionen (Götz, 2017)",
+          "hint": "Affektiv, kognitiv, physiologisch (zentral: PFC/Amygdala; peripher: Herz/Atmung/Haut), expressiv, motivational."
+        },
+        {
+          "term": "Lazarus (1991) & Pekrun (2006): Wert & Kontrolle",
+          "hint": "Primäres Appraisal (Bedeutsamkeit/Valenz -> Wert) & Sekundäres Appraisal (Coping -> Kontrolle)."
+        },
+        {
+          "term": "3 Wirkwege & 2×2-Taxonomie nach Pekrun (2006)",
+          "hint": "Kognitive Ressourcen (Götz, 2004), Lernstrategien, Motivation; aktivierend vs. deaktivierend (Freude, Angst, Erleichterung, Langeweile)."
+        },
+        {
+          "term": "Entwicklung von Emotionen & Regulation (Abb. S. 79)",
+          "hint": "Vorläufer -> Basisemotionen -> Stolz/Scham (Vorschule); von interpersonaler zu intrapersonaler Regulation."
+        },
+        {
+          "term": "Definition Emotionsregulation (Salisch & Kunzmann, 2005)",
+          "hint": "Intensität, Dauer, Ausdrucksweise & Qualität mittels Handlungen oder (Selbst-)Instruktionen steuern."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Definition von Emotionen als Fünf-Komponenten-Konstrukt (Götz, 2017) und von Leistungsemotionen (Pekrun, 2006) bei paritätischem Auftreten positiver und negativer Emotionen im Schulalltag (Pekrun, 1998).",
+        "core_model": "Erklärung der Entstehung über primäre (Wert) und sekundäre (Kontrolle) Appraisals (Lazarus, 1991; Pekrun, 2006) sowie der Entwicklung hin zu intrapersonaler Emotionsregulation (Salisch & Kunzmann, 2005).",
+        "empirics": "Wirkmechanismen auf Arbeitsgedächtnis, Strategiewahl und Motivation (2×2-Taxonomie aktivierend/deaktivierend) gestützt durch Götz (2004) zum positiven Effekt von Lernfreude.",
+        "critique_bridge": "Ambivalente Rolle negativ-aktivierender Emotionen wie Angst leitet unmittelbar zur vertieften Analyse der Prüfungsangst über.",
+        "school_transfer": "Gezielte Stärkung von Kontroll- und Wertkognitionen in der Grundschule durch transparente Kriterien, strikte Trennung von Lern- und Prüfungsphasen und Training von Coping-Strategien."
+      },
+      "all_bold_terms_covered": [
+        "8. Emotionale Entwicklung und Prüfungsangst",
+        "8.1 Begriffsklärung: Emotion",
+        "Emotionen",
+        "Leistungsemotionen",
+        "8.2 Ursachen und Wirkung von Emotionen",
+        "Modell von Lazarus",
+        "Appraisals",
+        "Primäre Appraisals",
+        "Wert",
+        "Sekundäre Appraisals",
+        "Kontrolle",
+        "Wirkmechanismen im Lern- und Leistungskontext",
+        "8.3 Emotionale Entwicklung",
+        "Emotionsregulation",
+        "Götz (2004, 2017)",
+        "Pekrun (1998, 2006)",
+        "Kontroll-Wert-Theorie",
+        "Lazarus (1991)",
+        "Salisch & Kunzmann (2005)"
+      ]
+    },
+    {
+      "id": "B-08-02",
+      "domain": "B",
+      "chapter_group_num": "8",
+      "chapter_group_title": "8. Emotionale Entwicklung und Prüfungsangst",
+      "section_num": "8.4–8.6",
+      "title": "Prüfungsangst: Zwei-Komponenten-Theorie, Leistung & Abbau",
+      "subtitle": "Liebert & Morris (1967: Worry vs. Emotionality), Yerkes-Dodson, Wine, Zeidner & 4 Interventionssäulen",
+      "page_start": 80,
+      "page_end": 82,
+      "page_label": "Original-Skript S. 80–82",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Worry frisst Arbeitsgedächtnis, Emotionality lässt das Herz rasen: Warum Angstblockierte anders Hilfe brauchen als Lernbeeinträchtigte",
+      "definitions": [
+        {
+          "term": "Prüfungsangst & Leistungsangst",
+          "definition": "Prüfungsangst ist ‚die Beschäftigung mit Schwierigkeiten im Leistungsbereich, bevor man sie hat‘ (Covington & Omelich, 1988); die übergeordnete Leistungsangst bezeichnet das Bedrohungserleben in evaluativen Situationen.",
+          "author_year": "Covington & Omelich, 1988",
+          "page_ref": "S. 80"
+        },
+        {
+          "term": "Worry vs. Emotionality (Zwei-Komponenten-Theorie)",
+          "definition": "Worry (Besorgtheit) umfasst kognitive Sorgengedanken über Versagen und mangelnde eigene Fähigkeiten (absorbiert Arbeitsgedächtnis und mindert Leistung). Emotionality (Aufgeregtheit) bezeichnet subjektiv wahrgenommene physiologische Erregungssymptome wie Herzrasen, Schwitzen, Zittern oder flauen Magen.",
+          "author_year": "Liebert & Morris, 1967",
+          "page_ref": "S. 81"
+        },
+        {
+          "term": "Aufmerksamkeitshypothese der Angst",
+          "definition": "Prüfungsängstliche teilen ihre begrenzte Aufmerksamkeit zwischen aufgabenrelevanten Prozessen und aufgabenirrelevanten Kognitionen (Sorgengedanken, Selbstkritik, Körpersymptome) auf, wodurch die verfügbare Arbeitsgedächtniskapazität und die Leistung sinken.",
+          "author_year": "Wine, 1971",
+          "page_ref": "S. 82"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "8.4 Merkmale hochängstlicher Lernender & Zwei Typen nach Zeidner (1998)",
+          "page_ref": "S. 80",
+          "bullets": [
+            "**8 Merkmale hochängstlicher Schülerinnen und Schüler (Sieland, Eckert & Heyse in Seifried, Drewes & Hasselhorn, 2016)**: 1. Geringere schulbezogene Selbstwirksamkeit; 2. ungünstige Lernstile/-strategien; 3. gesteigerte Hilflosigkeit, Unsicherheit & geringerer Selbstwert; 4. schlechtere Noten und Testergebnisse in mehreren Fächern; 5. häufigere soziale Isolierung bei Peers; 6. **ungünstiges Attributionsmuster** (*Erfolge external, Misserfolge internal* -> starkes Leiden); 7. häufigeres Fehlen und psychosomatische Krankheit; 8. Wahrnehmung als problematisch und **Leistungsunterschätzung** durch Eltern/Lehrkräfte.",
+            "**Zwei Prüfungsangst-Typen (Zeidner, 1998)**: **1. Lernbeeinträchtigte Prüflinge** (defizitäre Lern- und Prüfungsstrategien schon beim Erarbeiten, Organisieren, Wiederholen und Abrufen) vs. **2. Angstblockierte Prüflinge** (gute Lernstrategien und solides Vorwissen, aber akute emotionale Stressblockade und Konzentrationsverlust in der Prüfung)."
+          ]
+        },
+        {
+          "heading": "8.5 Liebert & Morris (1967), Stresstheorie & 8.6 Erklärungsmodelle (Zeidner, 1998)",
+          "page_ref": "S. 81–82",
+          "bullets": [
+            "**Transaktionale Stresstheorie (Lazarus & Folkman, 1984 – Abb. S. 81)**: *Situation/Reiz* -> **Primärbewertung** (*WERT*: Situation ist bedrohlich) -> **Sekundärbewertung** (*KONTROLLE*: „Ich kann die Situation nicht bewältigen“) -> **Angst**.",
+            "**Worry als Haupttreiber des Leistungsabfalls (Liebert & Morris, 1967; Wine, 1971)**: Während moderate physiologische Aktivierung (*Emotionality*) Energie bereitstellt (**Yerkes & Dodson, 1908**), blockiert **Worry** das begrenzte **Arbeitsgedächtnis** und verstärkt das Gefühl von Unkontrollierbarkeit.",
+            "**Zwei Erklärungsmodelle des Leistungszusammenhangs (Zeidner, 1998)**: **1. Interferenzmodell** (Angst zieht in der Prüfungssituation Bearbeitungskapazität ab und blockiert den Wissensabruf – passend zum *angstblockierten* Typ) vs. **2. Defizit-Modell** (schlechtere Leistung beruht auf unzureichenden Lern- und Prüfungsstrategien – passend zum *lernbeeinträchtigten* Typ).",
+            "**Vier Interventionssäulen nach Zeidner (1998)**: 1. **Abbau von Emotionality** (*systematische Desensibilisierung, Entspannungstrainings*); 2. **Abbau von Worry** (*kognitive Umstrukturierung, Aufmerksamkeitstraining, Gedankenkontrolle*); 3. **Verbesserung der Prüfungsstrategien** (*zuerst einfache Aufgaben lösen, Fragestellung im Blick behalten, Antworten auf Plausibilität prüfen*); 4. **Verbesserung der Lernstrategien** (*Tiefenverarbeitung, Organisation, Elaboration, Metakognition*)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Aktivierungsniveau und Leistung (Yerkes-Dodson-Gesetz)",
+          "authors_year": "Yerkes & Dodson, 1908",
+          "page_ref": "S. 82",
+          "setup": "Experimentelle Untersuchung des Zusammenhangs zwischen physiologischer Erregungsstärke (Arousal) und objektiver Aufgabenleistung.",
+          "finding": "Umgekehrt U-förmiger Verlauf: Optimale Leistung erfordert ein mittleres Maß an Aktivierung; zu geringe wie auch übermäßig hohe Erregung (insbesondere gepaart mit Worry-Interferenzen im Arbeitsgedächtnis) mindert die Leistung deutlich.",
+          "implication": "Kurze Beruhigungs- und Atemrituale vor Proben senken Übererregung zurück in den leistungsoptimalen mittleren Bereich."
+        },
+        {
+          "title": "Empirische Befunde zum Interferenz- und Defizit-Modell der Prüfungsangst",
+          "authors_year": "Zeidner, 1998 (Überblick empirischer Befunde S. 82)",
+          "page_ref": "S. 82",
+          "setup": "Vergleich hoch- und niedrigprüfungsängstlicher Lernender in bewerteten Prüfungssituationen vs. spielerischen Situationen sowie Analyse ihrer eingesetzten Lernstrategien.",
+          "finding": "1. Zum Interferenzmodell: In spielerischen, bewertungsfreien Situationen erbringen Hoch- und Niedrigängstliche gleich gute Leistungen (in Leistungssituationen fallen Hochängstliche ab). 2. Zum Defizit-Modell: Prüfungsängstliche nutzen überwiegend oberflächliche Wiederholungsstrategien, während weniger Prüfungsängstliche tiefer verarbeiten, besser organisieren, elaborieren und mehr metakognitive Strategien einsetzen.",
+          "implication": "Diagnostisch muss zwingend geklärt werden, ob ein Kind Entspannungs-/Kognitionstraining (gegen Interferenz) oder Lerntechniktraining (gegen Strategiedefizite) benötigt."
+        }
+      ],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S081_Abb1.png",
+          "caption": "Transaktionale Stresstheorie nach Lazarus & Folkman (1984): Primärbewertung (Wert/Bedrohung) und Sekundärbewertung (Kontrolle/Bewältigung) führen zu Angst (Original-Skript S. 81)",
+          "page_ref": "S. 81"
+        },
+        {
+          "path": "courses/ews-psychologie/figures/original/B_Entwicklungspsychologie_Skript_S082_Abb1.png",
+          "caption": "Umgekehrt U-förmige Beziehung zwischen Erregung und Leistung nach Yerkes & Dodson (1908) (Original-Skript S. 82)",
+          "page_ref": "S. 82"
+        }
+      ],
+      "custom_visual": {
+        "type": "pillars",
+        "title": "4-Säulen-Intervention bei Prüfungsangst nach Zeidner (1998)",
+        "steps_or_rows": [
+          {
+            "label": "1. Emotionality senken",
+            "detail": "Systematische Desensibilisierung, Atemübungen, progressive Muskelentspannung"
+          },
+          {
+            "label": "2. Worry abbauen",
+            "detail": "Kognitive Umstrukturierung, Gedankenstopp, Aufmerksamkeitstraining & Reattribution"
+          },
+          {
+            "label": "3. Prüfungsstrategien stärken",
+            "detail": "Mit leichten Aufgaben starten (Sicherheit!), Fragen genau lesen, Plausibilität prüfen"
+          },
+          {
+            "label": "4. Lernstrategien aufbauen",
+            "detail": "Weg von bloßem Wiederholen hin zu Organisation, Elaboration & Metakognition"
+          }
+        ]
+      },
+      "comparison_table": {
+        "title": "Prüfungsangst-Typen und Erklärungsmodelle nach Zeidner (1998)",
+        "headers": [
+          "Dimension",
+          "Angstblockierte Prüflinge (Interferenzmodell)",
+          "Lernbeeinträchtigte Prüflinge (Defizit-Modell)"
+        ],
+        "rows": [
+          [
+            "Vorwissen & Lernstrategien",
+            "Gut ausgebildet (Elaboration/Organisation vorhanden)",
+            "Defizitär (überwiegend bloße Wiederholungsstrategien)"
+          ],
+          [
+            "Kernproblem",
+            "Akute Worry-Blockade & Stress stören den Abruf in der Prüfung",
+            "Unzureichende Aneignung und Strukturierung schon vor der Prüfung"
+          ],
+          [
+            "Leistung im Spielkontext",
+            "Genauso gut wie Niedrigängstliche!",
+            "Auch ohne Prüfungsdruck durch Wissenslücken eingeschränkt"
+          ],
+          [
+            "Vorrangige Hilfe",
+            "Entspannung, kognitive Umstrukturierung, Prüfungs-Startstrategie",
+            "Systematisches Lernstrategietraining + Abbau von Überforderung"
+          ]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.2, 2.2 & 4.1 (Klassisches Konditionieren/Desensibilisierung, Arbeitsgedächtnis nach Baddeley & Lernstrategien)",
+          "bridge_explanation": "Prüfungsangst verknüpft alle drei Paradigmen aus Gebiet A: Emotionality entsteht/sinkt über Konditionierung/Desensibilisierung, Worry belastet die Zentrale Exekutive des Arbeitsgedächtnisses, das Defizit-Modell betrifft kognitive/metakognitive Lernstrategien."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 9.5 & 9.6 (Angstdiagnostik AFS, Schulabsentismus & pädagogische Intervention)",
+          "bridge_explanation": "Schulbezogene Prüfungsangst wird diagnostisch u. a. mit dem Angstfragebogen für Schüler (AFS) abgeklärt und erklärt somatische Fehlzeiten sowie Underachievement."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3/4 (Abbau von Bewertungsblockaden vor dem ‚weißen Blatt‘): Angstblockierte Kinder trauen sich bei benoteten Gestaltungsaufgaben oft keinen ersten Pinselstrich zu. Abhilfe: Vorab unbenotetes Mini-Skizzenfeld zum Warmmalen (senkt Emotionality), klares 3-Schritte-Kriterienraster an der Tafel (senkt Worry) und Start mit dem einfachsten Hintergrundelement.",
+        "sport": "Sport Klasse 3 (Schwimmabzeichen / Gerätturnen-Vorturnen ohne Blackout): Statt Einzel-Vorturnen vor der stumm zuschauenden gesamten Klasse (maximale soziale Evaluierungsbedrohung!) turnen 4 Kinder gleichzeitig an Stationen vor, nach einer kurzen gemeinsamen ‚Löwen-Atemübung‘ (Emotionality-Abbau) und mit einem sicheren Einstiegselement (Prüfungsstrategie nach Zeidner).",
+        "allgemein": "In Heimat- und Sachunterrichtsproben immer 1–2 leichte Aufwärmaufgaben an den Anfang setzen und Kinder trainieren, schwierige Fragen kurz zu überspringen."
+      },
+      "laut_erzaehl_check": [
+        {
+          "term": "Prüfungsangst (Covington & Omelich, 1988) & 2 Zeidner-Typen",
+          "hint": "Beschäftigung mit Schwierigkeiten, bevor man sie hat; Lernbeeinträchtigte vs. Angstblockierte."
+        },
+        {
+          "term": "Liebert & Morris (1967): Worry vs. Emotionality",
+          "hint": "Sorgengedanken (Arbeitsgedächtnis-Räuber, leistungsmindernd!) vs. physiologische Aufgeregtheit."
+        },
+        {
+          "term": "Lazarus & Folkman (1984) + Yerkes & Dodson (1908)",
+          "hint": "Primär- (Wert/Bedrohung) & Sekundärbewertung (Kontrolle); umgekehrtes U zwischen Erregung und Leistung."
+        },
+        {
+          "term": "Wine (1971) + Interferenzmodell vs. Defizit-Modell (Zeidner, 1998)",
+          "hint": "Aufmerksamkeitsteilung; spielerische Situationen gleich gut (Interferenz) vs. Wiederholungsstrategien (Defizit)."
+        },
+        {
+          "term": "4 Interventionsansätze nach Zeidner (1998)",
+          "hint": "1 Emotionality senken, 2 Worry umstrukturieren, 3 Prüfungsstrategien, 4 Lernstrategien."
+        }
+      ],
+      "essay_recipe": {
+        "intro": "Definition von Prüfungsangst (Covington & Omelich, 1988) als bedrohungsbezogene Leistungsemotion sowie Charakterisierung hochängstlicher Lernender (Sieland et al., 2016).",
+        "core_model": "Entfaltung der Zwei-Komponenten-Theorie nach Liebert & Morris (1967: Worry vs. Emotionality), der transaktionalen Stresstheorie (Lazarus & Folkman, 1984), der Aufmerksamkeitshypothese (Wine, 1971) sowie von Interferenz- und Defizit-Modell inkl. Prüflingstypen (Zeidner, 1998).",
+        "empirics": "Yerkes-Dodson-Kurve (1908), Leistungsangleichung in spielerischen Situationen (Beleg für Interferenz) und übermäßige Nutzung oberflächlicher Wiederholungsstrategien statt Elaboration/Metakognition (Beleg für Defizit).",
+        "critique_bridge": "Pauschale Ratschläge (‚Lern einfach mehr!‘) helfen angstblockierten Kindern nicht und verschärfen Worry – Interventionen müssen typgenau ansetzen.",
+        "school_transfer": "Vier-Säulen-Förderung in der Grundschule: Entspannungsrituale, kognitive Umstrukturierung/Reattribution, kluge Aufgabenreihenfolge (leicht -> schwer) und Aufbau tiefer Lernstrategien."
+      },
+      "all_bold_terms_covered": [
+        "8.4 Begriffsklärung: Prüfungsangst",
+        "Prüfungsangst",
+        "Lernbeeinträchtigte Prüflinge",
+        "Angstblockierte Prüflinge",
+        "8.5 Zwei-Komponenten-Theorie der Prüfungsangst nach Liebert &",
+        "Morris (1967)",
+        "Worry",
+        "Emotionality",
+        "Transaktionale Stresstheorie",
+        "8.6 Prüfungsangst und Leistung",
+        "Aufmerksamkeitshypothese der Angst",
+        "Covington & Omelich (1988)",
+        "Sieland, Eckert & Heyse (2016)",
+        "Zeidner (1998)",
+        "Liebert & Morris (1967)",
+        "Lazarus & Folkman (1984)",
+        "Yerkes & Dodson (1908)",
+        "Wine (1971)",
+        "Interferenzmodell",
+        "Defizit-Modell"
+      ]
+    }
+  ]
+}

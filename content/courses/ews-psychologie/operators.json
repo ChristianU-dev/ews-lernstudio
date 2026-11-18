@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "course_id": "ews-psychologie",
+    "title": "KMK- & FAU-Operatorentrainer EWS Psychologie",
+    "source": "KMK Einheitliche Prüfungsanforderungen Psychologie (i.d.F. vom 16.11.2006) mit FAU-Zusatzhinweisen sowie FAU StudOn-Leitfäden Testformat & Essayformat",
+    "note": "Für die EWS-Psychologie nutzt das Bayerische Kultusministerium die KMK-Operatoren Psychologie mit wichtigen Prüfungskonventionen (insb. ‚Skizzieren‘ und ‚Nachzeichnen‘ sind rein textlich zu bearbeiten, niemals grafisch!)."
+  },
+  "operators": [
+    {
+      "id": "op-nennen",
+      "operator": "Nennen",
+      "ab_level": "AB I",
+      "official_definition": "Elemente, Sachverhalte, Begriffe, Daten ohne Erläuterung aufzählen.",
+      "what_graders_expect": "Reine Fachbegriffe, Namen, Kennwerte oder knappe Stichpunkte im Telegrammstil – exakt in der geforderten Anzahl.",
+      "trap_warning": "ZEITSPAR-GOLDREGEL: Schreibe bei ‚Nennen Sie …‘ KEINE langen Aufsatzsätze und KEINE ungefragten Erklärungen! Laut FAU-Leitfaden genügen stichwortartige Begriffe vollkommen. Wer hier ausschweift, verliert wertvolle Minuten für Fallvignetten.",
+      "good_example": "Aufgabe: ‚Nennen Sie die drei Komponenten der exekutiven Funktionen nach Miyake et al. (2000)! (3 P.)‘ -> Lösung: • Inhibition (Impulshemmung) • Updating (Arbeitsgedächtnis-Aktualisierung) • Shifting (kognitive Flexibilität).",
+      "bad_example": "Aufgabe wie oben -> Fünfzeiliger Fließtext mit Einleitungssatz, Alltagsbeispielen aus der Grundschule und Erklärung jedes einzelnen Begriffs (bringt 0 Zusatzpunkte, kostet aber 5 Minuten Prüfungszeit)."
+    },
+    {
+      "id": "op-skizzieren",
+      "operator": "Skizzieren",
+      "ab_level": "AB I–II",
+      "official_definition": "Sachverhalte, Strukturen oder Ergebnisse auf das Wesentliche reduziert übersichtlich darstellen (im EWS-Examen ausdrücklich NICHT grafisch!).",
+      "what_graders_expect": "Präzise, auf den Kern reduzierte ganze Sätze (meist 1–2 Sätze pro Aspekt bzw. passend zur Punktzahl) mit klarem Fachbegriff und knapper Kernaussage.",
+      "trap_warning": "GRÖSSTE KLAUSURFALLE: ‚Skizzieren‘ heißt in EWS-Psychologie NIEMALS ein Bild oder Schaubild malen (FAU-Warnhinweis: ‚nicht grafisch!‘), geht aber auch über bloße Einzelworte hinaus! Schreibe knappe, vollständige Sätze ohne Füllwörter.",
+      "good_example": "Aufgabe: ‚Skizzieren Sie zwei Maßnahmen zur Förderung des selbstregulierten Lernens in Klasse 4! (4 P.)‘ -> Lösung: 1. Direkte Förderung: Die Lehrkraft trainiert im Kunstprojekt explizit das Setzen von Teilzielen anhand einer Checkliste. 2. Indirekte Förderung: Offene Wochenplan-Aufgaben mit Wahlmöglichkeiten gewähren den Kindern Autonomie bei der Zeiteinteilung.",
+      "bad_example": "Nur zwei Stichworte hinschreiben (‚Checkliste; Wochenplan‘ -> zu wenig für ‚Skizzieren‘, Punktverlust!) ODER ein Kästchen-Diagramm ohne Sätze aufmalen."
+    },
+    {
+      "id": "op-zeichnen",
+      "operator": "Zeichnen",
+      "ab_level": "AB I–II",
+      "official_definition": "Eine möglichst exakte grafische Darstellung beobachtbarer oder gegebener Strukturen anfertigen.",
+      "what_graders_expect": "Ein sauber beschriftetes Schaubild (Achsen, Pfeile, Komponenten exakt benennen) PLUS eine zwingende kurze Erläuterung der Darstellung in ganzen Sätzen.",
+      "trap_warning": "FAU-PFLICHTREGEL: Eine Zeichnung oder Grafik darf im Staatsexamen NIEMALS unkommentiert für sich allein stehen bleiben! Beschrifte alle Achsen/Pfeile mit Kugelschreiber (keine Buntstifte nötig) und erkläre den Zusammenhang immer zusätzlich kurz im Text.",
+      "good_example": "Yerkes-Dodson-Kurve (umgekehrtes U) mit sauber beschrifteter x-Achse (‚Aktivierung/Erregung‘) und y-Achse (‚Leistung‘) zeichnen und darunter in zwei Sätzen erklären, dass mittlere Aktivierung optimal ist, während zu hohe Angst (Worry) die Leistung senkt.",
+      "bad_example": "Eine unbeschriftete Glockenkurve auf das Reinschriftpapier malen und direkt zur nächsten Teilaufgabe springen (führt zu erheblichem Punktabzug!)."
+    },
+    {
+      "id": "op-nachzeichnen",
+      "operator": "Nachzeichnen",
+      "ab_level": "AB I–II",
+      "official_definition": "Einen Entwicklungs-, Prozess- oder Argumentationsverlauf chronologisch bzw. logisch strukturiert in Worten wiedergeben.",
+      "what_graders_expect": "Geordnete textliche Darstellung der aufeinanderfolgenden Etappen, Altersstufen oder Phasen in ganzen Sätzen.",
+      "trap_warning": "OFFIZIELLER FAU-HINWEIS: ‚Sollte hier nachzeichnen stehen, bitte NICHT grafisch!‘ Gemeint ist das sprachliche Nachvollziehen eines Verlaufs (z. B. Entwicklung des Selbstwerts von der Vorschule bis zum Jugendalter), kein Abzeichnen!",
+      "good_example": "Im Vorschulalter ist der Selbstwert durch Wunschdenken noch unrealistisch hoch, sinkt im Grundschulalter ab ca. 8 Jahren durch systematische soziale Vergleiche realistischer ab (Harter, 2012) und zeigt im Jugendalter interindividuell unterschiedliche Verläufe.",
+      "bad_example": "Einen Zeitstrahl ohne Textkommentar zeichnen oder die Altersphasen ungeordnet durcheinanderwürfeln."
+    },
+    {
+      "id": "op-definieren",
+      "operator": "Definieren",
+      "ab_level": "AB I–II",
+      "official_definition": "Die Bedeutung eines Fachbegriffs präzise durch Oberbegriff und unterscheidende Wesensmerkmale fachsprachlich exakt bestimmen.",
+      "what_graders_expect": "Prägnante wissenschaftliche Begriffsbestimmung in 1–2 ganzen Sätzen; im Essayformat zwingend mit Urheber und Jahr (z. B. ‚vgl. Moschner, 2001‘), im Testformat dann mit Urheber, wenn danach gefragt ist.",
+      "trap_warning": "Verwechsle eine Definition niemals mit einem bloßen Beispiel! ‚Selbstkonzept ist z. B., wenn Max denkt, er kann gut rechnen‘ ist KEINE Definition, sondern nur eine Illustration.",
+      "good_example": "Das Selbstkonzept bezeichnet die kognitiv-deskriptive mentale Repräsentation der eigenen Person, also die Gesamtheit aller Vorstellungen und Einschätzungen über eigene Merkmale und Fähigkeiten (vgl. Moschner, 2001).",
+      "bad_example": "Selbstkonzept ist halt, wenn ein Grundschulkind weiß, ob es in Sport schnell rennen kann oder eher unsportlich ist."
+    },
+    {
+      "id": "op-beschreiben",
+      "operator": "Beschreiben",
+      "ab_level": "AB I–II",
+      "official_definition": "Strukturen, Sachverhalte oder Zusammenhänge strukturiert und fachsprachlich richtig mit eigenen Worten wiedergeben.",
+      "what_graders_expect": "Sachliche, geordnete Darstellung aller zentralen Komponenten/Phasen eines Modells oder Versuchsaufbaus einer Studie in vollständigen Sätzen – noch ohne persönliche Wertung.",
+      "trap_warning": "Bei ‚Beschreiben Sie ein Modell / eine Studie‘ müssen alle wesentlichen Bausteine (bei Studien: Autor/Jahr, Stichprobe/Versuchsaufbau und Befund; bei Modellen: alle Ebenen/Phasen und ihr Zusammenspiel) präzise benannt werden.",
+      "good_example": "Im Prozessmodell von Schmitz (2007) verläuft selbstreguliertes Lernen zyklisch in drei Phasen: In der präaktionalen Phase erfolgen Aufgabenanalyse und Zielsetzung, in der aktionalen Phase der Einsatz kognitiver, metakognitiver und volitionaler Strategien und in der postaktionalen Phase der Ist-Soll-Vergleich samt Reflexion für den nächsten Lernzyklus.",
+      "bad_example": "Schmitz hat 2007 ein gutes Modell gemacht, bei dem Kinder erst planen und am Ende schauen, ob alles geklappt hat, was ich für die Grundschule sehr sinnvoll finde."
+    },
+    {
+      "id": "op-zusammenfassen",
+      "operator": "Zusammenfassen",
+      "ab_level": "AB I–II",
+      "official_definition": "Das Wesentliche in konzentrierter Form herausstellen.",
+      "what_graders_expect": "Verdichtung von Befunden, Textaussagen oder bisherigen Teilantworten auf die übergeordneten Kernaussagen in wenigen präzisen Sätzen.",
+      "trap_warning": "Keine neuen Nebendetails einführen und nicht einfach wörtlich Sätze aus der Fallvignette abschreiben, sondern abstrahierend bündeln.",
+      "good_example": "Zusammenfassend belegen die Befunde zum Experten-Novizen-Paradigma (Chi, 1978), dass bereichsspezifisches Vorwissen über effizienteres Chunking altersbedingte Kapazitätsgrenzen des Arbeitsgedächtnisses kompensieren kann.",
+      "bad_example": "Wörtliches Wiederholen der Fallvignette Zeile für Zeile ohne psychologischen Fachbegriff."
+    },
+    {
+      "id": "op-erlaeutern",
+      "operator": "Erläutern",
+      "ab_level": "AB I–II",
+      "official_definition": "Einen Sachverhalt durch zusätzliche Informationen veranschaulichen und verständlich machen.",
+      "what_graders_expect": "Zweigleisig antworten: 1. Fachbegriff/Mechanismus sachlich korrekt erklären UND 2. durch ein konkretes Beispiel, einen Fallbezug oder Zusatzwissen anschaulich machen.",
+      "trap_warning": "Häufigster Punktverlust bei ‚Erläutern‘: Nur die trockene Theorie hinschreiben und die Veranschaulichung/das Beispiel vergessen (oder umgekehrt nur ein Alltagsbeispiel ohne Fachtermini erzählen).",
+      "good_example": "Beim Split-Attention-Effekt (Sweller) entsteht unnötiger Extraneous Load, weil Lernende räumlich getrennte Text- und Bildquellen mental integrieren müssen. Dies ist etwa der Fall, wenn auf einem Sachunterrichts-Arbeitsblatt eine Blüte oben abgebildet ist, die zugehörigen Begriffe aber erst unten über Ziffernlegenden nachgeschlagen werden müssen.",
+      "bad_example": "Der Split-Attention-Effekt bedeutet geteilte Aufmerksamkeit nach der Cognitive Load Theory (fehlt die Veranschaulichung!)."
+    },
+    {
+      "id": "op-ableiten",
+      "operator": "Ableiten",
+      "ab_level": "AB II",
+      "official_definition": "Auf der Grundlage wesentlicher Merkmale sachgerechte Schlüsse ziehen.",
+      "what_graders_expect": "Explizite Wenn-Dann-Brücke von der zuvor dargestellten Theorie/Studie zur konkreten schulischen Maßnahme oder Fallursache (‚Da laut Theorie X gilt, folgt für den Unterricht Y …‘).",
+      "trap_warning": "ALLTAGSPSYCHOLOGIE-FALLE: Zähle niemals generische ‚nette Lehrertipps‘ auf (‚Ich lobe das Kind mehr und rede mal mit den Eltern‘), ohne sie direkt auf die theoretischen Konzepte (z. B. Basic Needs, individuelle Bezugsnorm, Arbeitsgedächtnisentlastung) zurückzuführen!",
+      "good_example": "Da Worry-Kognitionen nach Wine (1971) knappe Ressourcen des Arbeitsgedächtnisses binden, leitet sich für den Sportunterricht ab, Übungsphasen am Sprungbock strikt von Benotungsphasen zu trennen, um bedrohliche Bewertungsgedanken beim Fertigkeitserwerb zu reduzieren.",
+      "bad_example": "Man sollte im Unterricht einfach freundlich sein, Gruppenarbeit machen und den Kindern Mut zusprechen (kein Bezug zum theoretischen Modell erkennbar!)."
+    },
+    {
+      "id": "op-anwenden-uebertragen",
+      "operator": "Anwenden / Übertragen",
+      "ab_level": "AB II",
+      "official_definition": "Einen bekannten Sachverhalt oder eine bekannte Methode auf etwas Neues beziehen.",
+      "what_graders_expect": "Jedes theoretische Modellelement konkret mit den Personen, Handlungen und Details der gegebenen Fallvignette oder Grundschulsituation verknüpfen.",
+      "trap_warning": "Theorie und Fall dürfen NICHT unverbunden nebeneinanderstehen! Ordne jedem Fachbegriff direkt das konkrete Element aus dem Falltext zu (z. B. ‚NS = Anblick des Turnbocks; UCS = schmerzhafter Sturz‘).",
+      "good_example": "Übertragen auf den Fall entspricht die weiße Turnmatte vor dem Sturz dem neutralen Stimulus (NS), der schmerzhafte Aufprall dem unkonditionierten Stimulus (UCS) mit Schreck/Weinen als UCR; nach der Kopplung löst bereits der Anblick des Turngeräts (CS) Herzklopfen und Angst (CR) aus.",
+      "bad_example": "Beim klassischen Konditionieren nach Pawlow wird ein neutraler Reiz mit einem unkonditionierten Reiz gekoppelt, wie beim Hund mit der Glocke. Deshalb hat das Kind in der Vignette jetzt auch Angst."
+    },
+    {
+      "id": "op-darstellen",
+      "operator": "Darstellen",
+      "ab_level": "AB II",
+      "official_definition": "Sachverhalte, Zusammenhänge, Methoden und Bezüge in angemessenen Kommunikationsformen strukturiert wiedergeben.",
+      "what_graders_expect": "Logisch gegliederte, fachsprachlich präzise Ausführung von Zusammenhängen und Wirkmechanismen in ganzen Sätzen (gerne mit klaren Absätzen oder Zwischenüberschriften).",
+      "trap_warning": "Vermeide unverbundene Aufzählungen; mache deutlich, WIE die Teilaspekte (z. B. Phasen des diagnostischen Prozesses oder Stufen eines Modells) ineinandergreifen.",
+      "good_example": "Der diagnostische Prozess gliedert sich in drei aufeinander aufbauende Phasen: In der Planungsphase wird das Problem in eine psychologische Fragestellung und Hypothesen übersetzt, in der Durchführungsphase werden passende Testverfahren angewandt und ausgewertet, und in der Integrationsphase werden die Befunde zu einem Gesamturteil samt Förderentscheidung zusammengeführt.",
+      "bad_example": "Unkommentierte Stichwortsammlung ohne Erklärung der Beziehungen zwischen den Punkten."
+    },
+    {
+      "id": "op-erklaeren-zuordnen",
+      "operator": "Erklären / Zuordnen",
+      "ab_level": "AB II",
+      "official_definition": "Einen Sachverhalt mit Hilfe eigener Kenntnisse in einen Zusammenhang einordnen, sowie ihn nachvollziehbar und verständlich machen.",
+      "what_graders_expect": "Ursache-Wirkungs-Zusammenhang oder begriffliche Über-/Unterordnung präzise aufzeigen (WARUM tritt ein Phänomen auf bzw. WELCHEM Fachbegriff entspricht ein Fallaspekt?).",
+      "trap_warning": "Beschreibe nicht bloß noch einmal DAS Phänomen aus der Aufgabe, sondern nenne den dahinterliegenden psychologischen Wirkmechanismus! Bei ‚Zuordnen‘ auf eindeutige Paarung (z. B. ‚1-b, 2-a‘) achten.",
+      "good_example": "Ein Skript ist eine spezialisierte Unterform eines Schemas für zeitlich geordnete Handlungsabläufe (z. B. Ablauf des Morgenkreises), während ein Schema allgemein die abstrahierte Wissensstruktur zu Objekten oder Konzepten im Langzeitgedächtnis bezeichnet.",
+      "bad_example": "Schemata und Skripte haben beide etwas mit dem Gedächtnis zu tun und helfen Kindern in der Schule."
+    },
+    {
+      "id": "op-vergleichen",
+      "operator": "Vergleichen",
+      "ab_level": "AB II",
+      "official_definition": "Gemeinsamkeiten, Ähnlichkeiten und Unterschiede ermitteln.",
+      "what_graders_expect": "Kriteriengestützte Gegenüberstellung, die SOWOHL zentrale Gemeinsamkeiten ALS AUCH klare Unterschiede zwischen A und B herausarbeitet.",
+      "trap_warning": "KLASSISCHER HALBPUNKT-FEHLER: Nur Unterschiede aufzählen und die Gemeinsamkeiten vergessen – oder erst Konzept A isoliert beschreiben und danach Konzept B isoliert beschreiben, ohne direkte Vergleichskriterien (z. B. ‚Hinsichtlich der Auswertungsobjektivität …‘) zu nutzen!",
+      "good_example": "Gemeinsam ist formellen und informellen Schulleistungstests die regelgeleitete Testkonstruktion (z. B. curriculare Analyse). Sie unterscheiden sich jedoch in Normierung und Validität: Formelle Tests sind an einer Eichstichprobe normiert und hoch objektiv, während von Lehrkräften erstellte informelle Tests ungeeicht sind, dafür aber durch Berücksichtigung der konkreten Lerngelegenheit eine höhere Inhaltsvalidität für die eigene Klasse besitzen.",
+      "bad_example": "Ein formeller Test ist z. B. DEMAT 3+. Ein informeller Test wird von der Lehrerin selbst gemacht. (Keine Gemeinsamkeiten, keine systematischen Vergleichskriterien!)."
+    },
+    {
+      "id": "op-interpretieren",
+      "operator": "Interpretieren",
+      "ab_level": "AB II–III",
+      "official_definition": "Fachspezifische Zusammenhänge im Hinblick auf eine gegebene Fragestellung begründet darstellen.",
+      "what_graders_expect": "Statistische Kennwerte (IQ, T-Wert, Prozentrang, Korrelation r) oder empirische Studienergebnisse fachlich exakt übersetzen und ihre inhaltliche Bedeutung für den Fall einordnen.",
+      "trap_warning": "PROZENTRANG- & KORRELATIONSFALLE: Ein Prozentrang von 75 heißt NICHT ‚75 % der Aufgaben gelöst‘, sondern ‚besser/gleich gut wie 75 % der Eichstichprobe‘! Und ein IQ von 105 liegt mitten im Durchschnittsbereich (85–115), nicht im Hochbegabungsbereich.",
+      "good_example": "Ein IQ-Wert von 105 liegt bei einem Mittelwert von 100 und einer Standardabweichung von 15 im mittleren Durchschnittsbereich (85–115); Svens schwache Schulleistungen lassen sich somit nicht durch eine allgemeine Intelligenzminderung erklären.",
+      "bad_example": "Sven hat einen IQ von 105, ist also überdurchschnittlich hochbegabt und einfach nur faul im Unterricht."
+    },
+    {
+      "id": "op-diskutieren",
+      "operator": "Diskutieren",
+      "ab_level": "AB II–III",
+      "official_definition": "Argumente und Beispiele zu einer Aussage oder These einander gegenüberstellen und abwägen.",
+      "what_graders_expect": "Zweiseitige Argumentation (Chancen/Vorteile/Pro-Befunde UND Grenzen/Nachteile/Kritikpunkte) auf Basis psychologischer Theorien/Empirie mit kurzem abwägendem Fazit (synonym zu ‚Erörtern‘).",
+      "trap_warning": "Einseitigkeit kostet die Hälfte der Punkte! Auch wenn eine Maßnahme (z. B. Nachteilsausgleich, Portfolio oder kooperatives Lernen) pädagogisch sympathisch wirkt, MUSST du bei ‚Diskutieren / Erörtern‘ auch methodische oder motivationale Risiken benennen.",
+      "good_example": "Ein Zeitzuschlag von 50 % bei LRS erhöht einerseits die Validität, da im Aufsatz die Textgestaltung statt der verlangsamten Lesegeschwindigkeit erfasst wird; andererseits weicht er formal von der Bedingungskonstanz (Durchführungsobjektivität) ab, gleicht aber funktional die Startchancen im Sinne der Testfairness an.",
+      "bad_example": "Ein Zeitzuschlag für Luca ist total fair und wichtig, weil Kinder mit LRS sonst benachteiligt werden (einseitig, kein Abwägen zweier Seiten!)."
+    },
+    {
+      "id": "op-entwickeln",
+      "operator": "Entwickeln",
+      "ab_level": "AB III",
+      "official_definition": "Hypothesen als begründete Vermutung auf der Grundlage von Beobachtungen, Untersuchungen, Experimenten oder Aussagen formulieren; fallbezogene Handlungsanweisungen konstruieren.",
+      "what_graders_expect": "Konkrete, sofort im Unterricht umsetzbare Maßnahme, Beobachtungsinstrument oder diagnostische Hypothese passgenau für den geschilderten Fall entwerfen.",
+      "trap_warning": "Bleibe nicht abstrakt (‚Reliabilität erhöhen‘), sondern formuliere die konkrete Handlung aus (z. B. ‚Beide Lehrkräfte protokollieren über vier statt zwei Wochen hinweg mit einem 4-stufigen Kriterienraster pro Stunde je fünf vorab ausgewählte Kinder‘).",
+      "good_example": "Zur Steigerung der Inhaltsvalidität mündlicher Mathematiknoten führen die Lehrkräfte kurze strukturierte Rechenkonferenzen ein, in denen die Kinder ihre Lösungswege begründen, statt lediglich die Häufigkeit bloßer Wortmeldungen auszuzählen.",
+      "bad_example": "Die Lehrerinnen sollten einfach besser aufpassen und gerechtere Noten machen."
+    },
+    {
+      "id": "op-begruenden-zeigen",
+      "operator": "Begründen / Zeigen",
+      "ab_level": "AB III",
+      "official_definition": "Sachverhalte auf Regeln und Gesetzmäßigkeiten bzw. kausale Beziehungen von Ursache und Wirkung zurückführen.",
+      "what_graders_expect": "Kausale Argumentationskette mit psychologischem Gesetz/Modell/Kennwert belegen (‚Aussage X gilt, WEIL nach Modell/Kennwert Y …‘).",
+      "trap_warning": "Eine Behauptung ohne theoretischen oder statistischen Beleg gibt 0 Punkte für die Begründung! Wenn Kennwerte (z. B. M = 7,89 von 14 BE; SD = 3,00) gegeben sind, rechne/argumentiere direkt mit diesen Zahlen.",
+      "good_example": "Der Vorwurf, der Test sei für die gesamte Klasse viel zu schwer gewesen, trifft nicht zu, weil der Mittelwert mit 7,89 von 14 Bewertungseinheiten über der Hälfte der Maximalpunktzahl liegt und kein Bodeneffekt vorliegt.",
+      "bad_example": "Ich stimme den Eltern nicht zu, weil eine Note 5 eben manchmal vorkommt und Mathe anspruchsvoll ist."
+    },
+    {
+      "id": "op-beurteilen-entscheiden",
+      "operator": "Beurteilen / Entscheiden",
+      "ab_level": "AB III",
+      "official_definition": "Zu einem Sachverhalt ein selbstständiges Urteil unter Verwendung von Fachwissen und Fachmethoden formulieren und begründen.",
+      "what_graders_expect": "Klare fachliche Einschätzung (z. B. hoch/gering/eingeschränkt/geeignet) treffen UND diese unmittelbar mit psychologischem Fachwissen untermauern.",
+      "trap_warning": "Kein Bauchgefühl und keine moralische Empörung! Jedes Urteil braucht sofort den fachlichen Maßstab (z. B. Art der Objektivität, Bezugsnorm, Gedächtniskapazität).",
+      "good_example": "Beim Einsatz einer automatisierten KI-Spracherkennung ist die Auswertungsobjektivität als sehr hoch zu beurteilen, da derselbe vorgelesene Audiotext algorithmisch unabhängig von der auswertenden Person stets zu identischen Kennwerten führt.",
+      "bad_example": "Ich finde KI in der Grundschule eher kritisch, weil Computer unpersönlich sind."
+    },
+    {
+      "id": "op-bewerten",
+      "operator": "Bewerten",
+      "ab_level": "AB III",
+      "official_definition": "Einen Gegenstand an erkennbaren Wertkategorien oder an bekannten Beurteilungskriterien messen, Stellung nehmen.",
+      "what_graders_expect": "Explizites Urteil (z. B. ‚gut erfüllt‘, ‚unzureichend‘, ‚problematisch‘) anhand verbindlicher Gütekriterien/Normwerte (z. B. r >= .70/.80, Objektivität, Validität, ministerielle Vorgaben) fällen und kurz begründen.",
+      "trap_warning": "Nenne immer ZUERST den Maßstab/Richtwert und DANN das klare Werturteil! Beispiel Retest-Reliabilität r = .56 -> explizit als ‚niedrig / unzureichend für Individualdiagnostik (Richtwert mind. .70–.80)‘ bewerten.",
+      "good_example": "Die Auswertungsobjektivität von Frau Antar und Frau Gallo ist als gering bzw. mangelhaft zu bewerten, da kein standardisierter Kriterienkatalog vorliegt und Qualität wie Quantität der Beiträge nur unsystematisch nach subjektivem Eindruck notiert wurden.",
+      "bad_example": "Frau Antar und Frau Gallo zählen Meldungen und schreiben manchmal etwas zur Qualität auf (reine Beschreibung aus dem Text ohne Bewertungsmaßstab und ohne Urteil!)."
+    },
+    {
+      "id": "op-stellung-nehmen",
+      "operator": "Stellung nehmen",
+      "ab_level": "AB III",
+      "official_definition": "Zu einem Gegenstand, der an sich nicht eindeutig ist, nach kritischer Prüfung und sorgfältiger Abwägung ein begründetes Urteil abgeben.",
+      "what_graders_expect": "Differenziertes Abwägen von Pro- und Kontra-Befunden zu einer kontroversen Fragestellung mit anschließender klar positionierter, wissenschaftlich begründeter Schlussfolgerung.",
+      "trap_warning": "‚Stellung nehmen‘ ist KEINE Einladung zu privaten Meinungen oder eigenen Schulerinnerungen (‚Ich persönlich fand Noten früher blöd‘ -> strengstens verboten laut FAU-Essay-Leitfaden!), sondern verlangt ein empirisch gestütztes Fachurteil.",
+      "good_example": "Obwohl Ziffernnoten gesellschaftliche Selektions- und Berechtigungsfunktionen erfüllen, ist eine ergänzende kriteriale und individuelle Rückmeldung über Kompetenzraster in der Grundschule fachlich vorzuziehen, da sie nach Rheinberg (1978) Erfolgszuversicht fördert und soziale Vergleichsschäden am Selbstkonzept reduziert.",
+      "bad_example": "Meiner persönlichen Meinung nach sollte man Noten in der Grundschule komplett abschaffen, weil Kinder sonst weinen."
+    }
+  ],
+  "operator_drills": [
+    {
+      "id": "op-drill-01",
+      "operator_id": "op-skizzieren",
+      "operator": "Skizzieren",
+      "exam_task_example": "Skizzieren Sie zwei Maßnahmen, mit denen Sie das selbstregulierte Lernen von Lina unterstützen könnten! (4 Punkte)",
+      "question": "Welches Antwortformat verlangt der Operator ‚Skizzieren‘ im Bayerischen Staatsexamen EWS Psychologie?",
+      "options": [
+        "Knappe, auf das Wesentliche reduzierte ganze Sätze (ausdrücklich KEINE grafische Zeichnung!).",
+        "Ein gezeichnetes Schaubild mit Pfeilen und Kästchen auf dem Reinschriftpapier.",
+        "Lediglich zwei einzelne Stichworte ohne Verben oder Erklärung.",
+        "Einen mehrseitigen Aufsatz mit direkter Zitation aller Primärstudien."
+      ],
+      "correct_index": 0,
+      "explanation": "Offizieller FAU-Prüfungshinweis: ‚Skizzieren‘ heißt im Psychologie-Examen NIEMALS grafisch zeichnen, geht aber über reine Einzel-Stichworte hinaus -> schreibe pro Maßnahme 1–2 präzise ganze Sätze!"
+    },
+    {
+      "id": "op-drill-02",
+      "operator_id": "op-nennen",
+      "operator": "Nennen",
+      "exam_task_example": "Nennen Sie die Determinante der Gedächtnisentwicklung, in der sich Anna und Mara ganz offensichtlich unterscheiden! (1 Punkt)",
+      "question": "Wie beantwortest du eine ‚Nennen Sie …‘-Aufgabe im Testformat am klügsten und zeitsparendsten?",
+      "options": [
+        "Mit dem exakten Fachbegriff bzw. kurzen Stichpunkten ohne Erläuterung (z. B. ‚Bereichsspezifisches inhaltliches Vorwissen‘).",
+        "Mit mindestens vier ausformulierten Sätzen inklusive Definition und Urheber.",
+        "Mit einer Pro-und-Kontra-Erörterung aller vier Determinanten der Gedächtnisentwicklung.",
+        "Direkt auf dem Aufgabenblatt neben der Frage statt auf dem Reinschriftpapier."
+      ],
+      "correct_index": 0,
+      "explanation": "Bei ‚Nennen‘ (AB I) genügen laut FAU-Leitfaden kurze, stichwortartige Fachbegriffe vollkommen (natürlich trotzdem auf dem Reinschriftpapier!). Das spart dir enorm viel Zeit für komplexe Vignetten."
+    },
+    {
+      "id": "op-drill-03",
+      "operator_id": "op-zeichnen",
+      "operator": "Zeichnen",
+      "exam_task_example": "Zeichnen Sie den Zusammenhang zwischen physiologischer Aktivierung und Leistung nach dem Yerkes-Dodson-Gesetz! (3 Punkte)",
+      "question": "Was ist beim Operator ‚Zeichnen‘ im Staatsexamen zwingend zu beachten, um keinen Punktabzug zu riskieren?",
+      "options": [
+        "Eine sauber beschriftete Grafik anfertigen UND sie zwingend zusätzlich in Worten erläutern.",
+        "Nur die Kurve zeichnen – jedes zusätzliche Wort gilt als Verstoß gegen den Operator.",
+        "Unbedingt verschiedenfarbige Buntstifte oder Textmarker für die Kurve verwenden.",
+        "Statt einer Grafik lieber nur einen Fließtext schreiben, weil Grafiken verboten sind."
+      ],
+      "correct_index": 0,
+      "explanation": "Laut FAU-Leitfaden dürfen Abbildungen/Zeichnungen NIEMALS kommentarlos stehen bleiben (und es dürfen keine anderen Stiftefarben genutzt werden): Achsen sauber beschriften + kurze Sacherklärung in Sätzen ergänzen!"
+    },
+    {
+      "id": "op-drill-04",
+      "operator_id": "op-nachzeichnen",
+      "operator": "Nachzeichnen",
+      "exam_task_example": "Zeichnen Sie die Entwicklung des Selbstwertgefühls vom Vorschul- bis zum Jugendalter nach! (4 Punkte)",
+      "question": "Achtung Wortfalle: Was verlangt der Operator ‚Nachzeichnen‘ von dir?",
+      "options": [
+        "Den Entwicklungsverlauf chronologisch und strukturiert IN WORTEN (ganzen Sätzen) darstellen – NICHT grafisch zeichnen!",
+        "Ein Koordinatensystem mit Lebensjahren auf der x-Achse aufmalen.",
+        "Lediglich Jahreszahlen und Autorennamen stichpunktartig auflisten.",
+        "Eine persönliche Erinnerung an die eigene Grundschulzeit schildern."
+      ],
+      "correct_index": 0,
+      "explanation": "Auf dem FAU-Operatorenblatt steht extra markiert: ‚Sollte hier nachzeichnen stehen, bitte nicht grafisch!‘ Du stellst die Entwicklungsetappen rein sprachlich dar."
+    },
+    {
+      "id": "op-drill-05",
+      "operator_id": "op-vergleichen",
+      "operator": "Vergleichen",
+      "exam_task_example": "Vergleichen Sie die Durchführungs- und Auswertungsobjektivität von mündlichen und schriftlichen Prüfungen! (6 Punkte)",
+      "question": "Welcher Aufbau sichert dir beim Operator ‚Vergleichen‘ die volle Punktzahl?",
+      "options": [
+        "Sowohl Gemeinsamkeiten als auch Unterschiede anhand klarer Vergleichskriterien direkt gegenüberstellen.",
+        "Ausschließlich die Unterschiede aufzählen, da Gemeinsamkeiten selbstverständlich sind.",
+        "Erst eine halbe Seite nur über mündliche Prüfungen schreiben und den Leser die Unterschiede selbst suchen lassen.",
+        "Nur ein kurzes Werturteil fällen, welche Prüfungsform besser ist."
+      ],
+      "correct_index": 0,
+      "explanation": "‚Vergleichen‘ (AB II) definiert die KMK explizit als ‚Gemeinsamkeiten, Ähnlichkeiten UND Unterschiede ermitteln‘ – am besten strukturiert entlang der geforderten Kriterien."
+    },
+    {
+      "id": "op-drill-06",
+      "operator_id": "op-ableiten",
+      "operator": "Ableiten",
+      "exam_task_example": "Leiten Sie aus dem Modell zwei plausible Ursachen für Linas Schwierigkeiten beim Plakatgestalten ab! (je 2–3 Sätze, 4 Punkte)",
+      "question": "Worauf achten Korrigierende beim Operator ‚Ableiten‘ ganz besonders?",
+      "options": [
+        "Auf die explizite logische Verknüpfung zwischen den Begriffen des theoretischen Modells und dem konkreten Fall bzw. der Unterrichtsmaßnahme.",
+        "Auf möglichst originelle Alltagstipps ohne Nennung psychologischer Fachbegriffe.",
+        "Auf eine wörtliche Wiederholung der Modellbeschreibung aus Teilaufgabe 1.1.",
+        "Auf reine Ein-Wort-Stichpunkte ohne Satzbau."
+      ],
+      "correct_index": 0,
+      "explanation": "Beim ‚Ableiten‘ ziehst du sachgerechte Schlüsse auf Basis der Theorie: Benenne das Modellelement (z. B. defizitäre Zielsetzung in der präaktionalen Phase) und zeige konkret, wie sich das bei Lina äußert."
+    },
+    {
+      "id": "op-drill-07",
+      "operator_id": "op-erlaeutern",
+      "operator": "Erläutern",
+      "exam_task_example": "Erläutern Sie an diesem Beispiel den Begriff ‚Operationalisierung‘ in ein bis drei Sätzen! (2 Punkte)",
+      "question": "Wodurch unterscheidet sich ‚Erläutern‘ von einem bloßen ‚Nennen‘?",
+      "options": [
+        "Der Sachverhalt wird fachsprachlich erklärt UND durch zusätzliche Informationen bzw. den konkreten Beispielbezug veranschaulicht.",
+        "Man muss zwingend mindestens zwei gegensätzliche Studien gegeneinander abwägen.",
+        "Es genügt, ein Synonym für den Begriff in Klammern dahinterzuschreiben.",
+        "Man muss den Begriff kritisch auf seine ethische Vertretbarkeit bewerten."
+      ],
+      "correct_index": 0,
+      "explanation": "‚Erläutern‘ verlangt die Verbindung aus klarer Begriffserklärung (Übersetzung eines theoretischen Konstrukts in messbare Indikatoren) und konkreter Veranschaulichung am Fall (Gedächtnisleistung -> Anzahl korrekt nachgesprochener Ziffern)."
+    },
+    {
+      "id": "op-drill-08",
+      "operator_id": "op-bewerten",
+      "operator": "Bewerten",
+      "exam_task_example": "Um die Reliabilität eines Konzentrationstests zu erfassen, wird die Retest-Reliabilität nach zwei Monaten bestimmt: r = .56. Bewerten Sie das Ergebnis! (1 Punkt)",
+      "question": "Was gehört zwingend in deine Antwort, wenn der Operator ‚Bewerten‘ lautet?",
+      "options": [
+        "Ein klares Werturteil gemessen an fachlichen Beurteilungskriterien/Richtwerten (z. B. ‚r = .56 ist für Individualdiagnostik zu niedrig, da mind. r >= .70–.80 gefordert wird‘).",
+        "Nur die neutrale Umrechnung von r = .56 in Prozent ohne jedes Urteil.",
+        "Eine subjektive Gefühlsäußerung ohne Fachkriterium (‚Ich finde .56 eigentlich ganz okay‘).",
+        "Eine komplette Beschreibung aller vier Methoden der Reliabilitätsbestimmung."
+      ],
+      "correct_index": 0,
+      "explanation": "‚Bewerten‘ (AB III) verlangt, einen Gegenstand an bekannten fachlichen Beurteilungskriterien (hier: psychometrische Standards für Reliabilitätskoeffizienten) zu messen und ein klares Urteil zu formulieren."
+    },
+    {
+      "id": "op-drill-09",
+      "operator_id": "op-diskutieren",
+      "operator": "Diskutieren",
+      "exam_task_example": "Erörtern bzw. diskutieren Sie den Zeitzuschlag von 50 % bei LRS im Hinblick auf zwei Testgütekriterien! (4 Punkte)",
+      "question": "Welche Struktur verlangt ‚Diskutieren‘ (bzw. ‚Erörtern‘) im Examen?",
+      "options": [
+        "Argumente für unterschiedliche Seiten/Auswirkungen gegenüberstellen und fachlich gegeneinander abwägen.",
+        "Nur Vorteile aufzählen, damit die Argumentation möglichst überzeugend wirkt.",
+        "Einen Dialog zwischen zwei fiktiven Lehrkräften mit wörtlicher Rede schreiben.",
+        "Ausschließlich Rechtsvorschriften ohne psychologische Gütekriterien zitieren."
+      ],
+      "correct_index": 0,
+      "explanation": "‚Diskutieren‘ (AB II–III) erfordert das Gegenüberstellen und Abwägen von Argumenten (z. B. Gewinn an Validität/Testfairness vs. formale Abweichung bei der Durchführungsobjektivität)."
+    },
+    {
+      "id": "op-drill-10",
+      "operator_id": "op-interpretieren",
+      "operator": "Interpretieren",
+      "exam_task_example": "Emma erreicht in einem Mathematik-Schulleistungstest einen Prozentrang (PR) von 75. Interpretieren Sie diesen Kennwert! (2 Punkte)",
+      "question": "Was leistet eine korrekte Antwort beim Operator ‚Interpretieren‘?",
+      "options": [
+        "Sie deutet den Kennwert fachlich präzise im Hinblick auf die Bezugsgruppe (75 % der Eichstichprobe haben gleich gut oder schwächer abgeschnitten).",
+        "Sie rechnet den Prozentrang einfach als 75 % richtig gelöste Aufgaben im Test um.",
+        "Sie zählt lediglich die Schritte der Testkonstruktion nach Lukesch auf.",
+        "Sie gibt ohne Begründung eine Zeugnisnote vor."
+      ],
+      "correct_index": 0,
+      "explanation": "‚Interpretieren‘ bedeutet, Daten oder Einzelergebnisse fachspezifisch und begründet in ihrer Aussagekraft für die Fragestellung einzuordnen."
+    },
+    {
+      "id": "op-drill-11",
+      "operator_id": "op-definieren",
+      "operator": "Definieren",
+      "exam_task_example": "Definieren Sie den Begriff des Selbstkonzepts und grenzen Sie ihn von einem verwandten Begriff ab (maximal fünf Sätze)! (4 Punkte)",
+      "question": "Worauf musst du bei dieser Kombination aus Operator und Satzlimit achten?",
+      "options": [
+        "Exakte wissenschaftliche Begriffsbestimmung + klare Abgrenzung (z. B. kognitiv-deskriptives Selbstkonzept vs. affektiv-evaluativer Selbstwert) in höchstens 5 ganzen Sätzen.",
+        "Mindestens 10 Sätze schreiben, damit die Korrigierenden sehen, dass man alles gelernt hat.",
+        "Nur zwei Unterrichtsbeispiele aus dem Sportunterricht schildern.",
+        "In reinen Stichworten ohne Verben antworten."
+      ],
+      "correct_index": 0,
+      "explanation": "Satzlimits (‚maximal fünf Sätze‘) sind im bayerischen Testformat verbindliche Leitplanken: Präzise Begriffsbestimmung + scharfe Abgrenzung innerhalb des Satzlimits bringt 4 von 4 Punkten!"
+    },
+    {
+      "id": "op-drill-12",
+      "operator_id": "op-begruenden-zeigen",
+      "operator": "Begründen / Zeigen",
+      "exam_task_example": "In einer Probearbeit (max. 14 BE) liegt der Mittelwert bei M = 7,89 BE (SD = 3,00). Stimmen Sie den Eltern zu, die Arbeit sei für die gesamte Klasse viel zu schwer gewesen? Begründen Sie kurz (1–2 Sätze)! (3 Punkte)",
+      "question": "Wie erfüllst du den Operator ‚Begründen‘ hier punktgenau?",
+      "options": [
+        "Klare Entscheidung (‚Nein‘) treffen und kausal auf die gegebenen statistischen Kennwerte zurückführen (M = 7,89 liegt über der Hälfte von 14 BE -> mittlere Schwierigkeit, kein Bodeneffekt).",
+        "Nur ‚Nein, ich stimme nicht zu‘ schreiben (1 Wort genügt).",
+        "Allgemein erklären, wie sich eine Standardabweichung mathematisch mit Wurzelformel berechnet.",
+        "Den Eltern recht geben, weil niemand 14 von 14 Punkten erreicht hat."
+      ],
+      "correct_index": 0,
+      "explanation": "‚Begründen‘ (AB III) führt ein Urteil kausal auf Gesetzmäßigkeiten oder vorliegende Daten/Kennwerte zurück – kompakt in den geforderten 1–2 Sätzen."
+    }
+  ]
+}

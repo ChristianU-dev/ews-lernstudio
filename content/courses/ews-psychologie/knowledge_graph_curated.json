@@ -1,0 +1,1245 @@
+{
+  "meta": {
+    "course_id": "ews-psychologie",
+    "title": "Kuratierter Wissensgraph EWS Psychologie (A · B · C)",
+    "node_count": 45,
+    "edge_count": 68,
+    "cross_domain_edge_count": 36,
+    "within_domain_edge_count": 32
+  },
+  "nodes": [
+    {
+      "id": "kg-A-01",
+      "domain": "A",
+      "chapter_ref": "Kap. 1.1–1.2",
+      "label": "Klassisches Konditionieren",
+      "subtitle": "Signallernen, Kontiguität, Kontingenz & Emotionserwerb",
+      "page_label": "Original-Skript A S. 6–10",
+      "key_authors": [
+        "Pawlow (1905)",
+        "Watson & Rayner (1920)",
+        "Wolpe (1958)"
+      ],
+      "summary": "Neutrale Reize (NS) werden durch wiederholte zeitnahe (Kontiguität) und verlässliche (Kontingenz) Kopplung mit unkonditionierten Reizen (UCS) zu konditionierten Auslösern (CS) emotionaler und physiologischer Reaktionen (CR). Erklärt die Entstehung und den Abbau (Gegenkonditionierung, systematische Desensibilisierung) schulischer Ängste.",
+      "kunst_sport_hook": "Sport Kl. 3: Nach einem Sturz am Sprungbock (UCS) löst schon der Anblick des Geräts Angst aus (CS -> CR) – schrittweise Annäherung über niedrige Matten baut die Furcht wieder ab."
+    },
+    {
+      "id": "kg-A-02",
+      "domain": "A",
+      "chapter_ref": "Kap. 1.3–1.5",
+      "label": "Operantes Konditionieren",
+      "subtitle": "Verstärkung, Bestrafung, Verstärkerpläne & Vermeidung",
+      "page_label": "Original-Skript A S. 11–16",
+      "key_authors": [
+        "Thorndike (1898)",
+        "Skinner (1953)",
+        "Mowrer (1947)",
+        "Premack (1965)"
+      ],
+      "summary": "Instrumentelles Lernen am Erfolg: Positive und negative Verstärkung erhöhen die Auftretenswahrscheinlichkeit erwünschten Verhaltens, Bestrafung Typ I/II senkt unerwünschtes Verhalten. Intermittierende Verstärkerpläne erzeugen besonders hohe Löschungsresistenz; Mowrers Zwei-Phasen-Theorie erklärt stabiles Vermeidungsverhalten.",
+      "kunst_sport_hook": "Kunst Kl. 2: Zügiges Pinsel-Auswaschen erspart den Zusatz-Putzdienst (negative Verstärkung); aufgeräumte Werkplätze dürfen zuerst an die beliebte Druckstation (Premack-Prinzip)."
+    },
+    {
+      "id": "kg-A-03",
+      "domain": "A",
+      "chapter_ref": "Kap. 1.6",
+      "label": "Erlernte Hilflosigkeit & Attribution",
+      "subtitle": "Unkontrollierbarkeit, Defizite & Reattributionstraining",
+      "page_label": "Original-Skript A S. 17–19",
+      "key_authors": [
+        "Seligman (1979)",
+        "Weiner (1986)"
+      ],
+      "summary": "Wiederholte Erfahrung von Unkontrollierbarkeit bei internal-stabil-globaler Misserfolgsattribution (‚Ich bin eben unbegabt‘) führt zu motivationalen (Aufgeben), kognitiven und emotionalen Defiziten. Reattributionstrainings lenken Ursachenerklärungen für Misserfolge auf variable, kontrollierbare Faktoren (Anstrengung, Lernstrategie).",
+      "kunst_sport_hook": "Sport Kl. 4 (Ausdauerlauf): Statt ‚Ich bin einfach unsportlich‘ lernt das Kind durch individuelle Laufkarten, Erfolge auf eigenes Tempo-Einteilen (variabel-kontrollierbar) zurückzuführen."
+    },
+    {
+      "id": "kg-A-04",
+      "domain": "A",
+      "chapter_ref": "Kap. 2.1–2.5",
+      "label": "Sozial-kognitives Modelllernen",
+      "subtitle": "Erwerbs- vs. Ausführungsphase & Lerneffekte",
+      "page_label": "Original-Skript A S. 20–23",
+      "key_authors": [
+        "Bandura (1965, 1986)"
+      ],
+      "summary": "Beobachtungslernen erweitert den Behaviorismus um kognitive Prozesse: In der Erwerbsphase wirken Aufmerksamkeits- und Gedächtnisprozesse, in der Ausführungsphase motorische Reproduktions- und Motivationsprozesse (direkte, stellvertretende und Selbstverstärkung). Bewirkt Modellierungs-, Hemmungs-, Enthemmungs- und Auslöseeffekte.",
+      "kunst_sport_hook": "Kunst & Sport: Beim Aquarellieren (Nass-in-Nass-Technik) und beim Rollen vorwärts demonstriert ein Kind als ‚Bewältigungsmodell‘ laut denkend die Teilschritte."
+    },
+    {
+      "id": "kg-A-05",
+      "domain": "A",
+      "chapter_ref": "Kap. 3.1–3.2",
+      "label": "Mehrspeichermodell & Arbeitsgedächtnis",
+      "subtitle": "Sensorisches Register, Chunking & 4 AG-Komponenten",
+      "page_label": "Original-Skript A S. 24–31",
+      "key_authors": [
+        "Atkinson & Shiffrin (1968)",
+        "Miller (1956)",
+        "Baddeley & Hitch (1974)",
+        "Baddeley (2000)"
+      ],
+      "summary": "Informationen durchlaufen sensorisches Register, kapazitätsbegrenztes Kurzzeit-/Arbeitsgedächtnis (7 ± 2 Chunks; Flaschenhals der Informationsverarbeitung) und Langzeitgedächtnis. Baddeley differenziert zentrale Exekutive (Inhibition, Shifting, Updating), phonologische Schleife, visuell-räumlichen Notizblock und episodischen Puffer.",
+      "kunst_sport_hook": "Kunst Kl. 1: Mehrteilige Bastelanleitungen überlasten die phonologische Schleife – visuelle Schrittkarten am Tafelrand entlasten das Arbeitsgedächtnis sofort."
+    },
+    {
+      "id": "kg-A-06",
+      "domain": "A",
+      "chapter_ref": "Kap. 3.2, 3.4–3.10",
+      "label": "Langzeitgedächtnis, Schemata & Vergessen",
+      "subtitle": "Deklarativ/Prozedural, Netzwerke, Skripte & Interferenz",
+      "page_label": "Original-Skript A S. 31–34, 39–46",
+      "key_authors": [
+        "Tulving (1972)",
+        "Paivio (1986)",
+        "Anderson (1983)",
+        "Ebbinghaus (1885)"
+      ],
+      "summary": "Das Langzeitgedächtnis speichert deklaratives Wissen (semantisch/episodisch in Propositionen, Schemata, zeitlichen Skripten und mentalen Modellen) sowie prozedurales Können (Fertigkeitserwerb bis zur Automatisierung). Vergessen entsteht vor allem durch fehlende Abrufreize sowie proaktive und retroaktive Interferenz.",
+      "kunst_sport_hook": "Sport Kl. 2: Das Aufwärm-Ritual wird als festes Handlungs-Skript gespeichert; Dribbling-Bewegungen wandern nach Anderson von der kognitiven in die autonome Stufe."
+    },
+    {
+      "id": "kg-A-07",
+      "domain": "A",
+      "chapter_ref": "Kap. 3.3 & 9.5",
+      "label": "Cognitive Load & Multimediales Lernen",
+      "subtitle": "Intrinsic/Extraneous/Germane Load, CTML & Design-Effekte",
+      "page_label": "Original-Skript A S. 34–38, 95–96",
+      "key_authors": [
+        "Sweller (1998)",
+        "Mayer (2009)",
+        "Schnotz (2005)"
+      ],
+      "summary": "Lernmaterialien sollen sachfremde Belastung (Extraneous Load) minimieren, damit Arbeitsgedächtniskapazität für verstehende Schemakonstruktion (Germane Load) frei bleibt. Zentrale Design-Prinzipien: Vermeidung von Split-Attention und Redundanz, Nutzung von Modalitäts-, Multimedia- und Worked-Example-Effekt (mit Fading; Vorsicht Expertise-Reversal!).",
+      "kunst_sport_hook": "Kunst Kl. 3: Auf dem Werkblatt zur Druckgrafik stehen kurze Begriffe direkt an den Werkzeugbildern (räumliche Kontiguität statt Zahlenlegende)."
+    },
+    {
+      "id": "kg-A-08",
+      "domain": "A",
+      "chapter_ref": "Kap. 3.8 & 4.1–4.4",
+      "label": "Konstruktivismus & Träges Wissen",
+      "subtitle": "Individuelle Wissenskonstruktion, Situiertheit & Transfer",
+      "page_label": "Original-Skript A S. 43–44, 47–51",
+      "key_authors": [
+        "Piaget",
+        "Wygotski",
+        "Renkl (1996)"
+      ],
+      "summary": "Gemäßigte konstruktivistische Ansätze verstehen Lernen als aktiven, selbstgesteuerten, konstruktiven, situativen und sozialen Prozess. Authentische Anwendungskontexte und multiple Perspektiven verhindern ‚träges Wissen‘, das zwar in Tests reproduzierbar ist, aber im Alltag nicht für den Transfer genutzt werden kann.",
+      "kunst_sport_hook": "Kunst Kl. 4: Statt Farbtheorie nur abstrakt abzufragen, mischen Kinder eigene Plakatfarben für das Schulfest – das Wissen wird situiert und anwendungsbereit."
+    },
+    {
+      "id": "kg-A-09",
+      "domain": "A",
+      "chapter_ref": "Kap. 6.1–6.6",
+      "label": "Selbstreguliertes Lernen (SRL)",
+      "subtitle": "Zyklische Phasenmodelle & Drei-Schichten-Modell",
+      "page_label": "Original-Skript A S. 55–62",
+      "key_authors": [
+        "Zimmerman (2000)",
+        "Schmitz (2007)",
+        "Boekaerts (1999)",
+        "Otto (2007)"
+      ],
+      "summary": "Lernende steuern ihren Lernprozess eigenständig kognitiv, metakognitiv, motivational und volitional. Schmitz (2007) modelliert den Zyklus aus präaktionaler (Planung/SMART-Ziele), aktionaler (Strategieeinsatz/Monitoring) und postaktionaler Phase (Ist-Soll-Vergleich); Boekaerts (1999) verknüpft Informationsverarbeitung, Lernprozesssteuerung und Regulation des Selbst.",
+      "kunst_sport_hook": "Kunst Kl. 4: Mit einem dreiteiligen Werk-Planer (‚Mein Plan – Mein Arbeitscheck – Mein Rückblick‘) steuern die Kinder ihr mehrwöchiges Ton-Projekt selbst."
+    },
+    {
+      "id": "kg-A-10",
+      "domain": "A",
+      "chapter_ref": "Kap. 7.1–7.5",
+      "label": "Lernstrategien-Taxonomie",
+      "subtitle": "Kognitive, metakognitive & ressourcenbezogene Strategien",
+      "page_label": "Original-Skript A S. 63–68",
+      "key_authors": [
+        "Weinstein & Mayer (1986)",
+        "Wild & Schiefele (1994)",
+        "Friedrich & Mandl (2006)"
+      ],
+      "summary": "Systematische Unterscheidung in kognitive Primärstrategien (Wiederholen als Oberflächenstrategie; Organisieren/Reduzieren und Elaborieren als Tiefenstrategien), metakognitive Kontrollstrategien (Planen, Überwachen, Regulieren) sowie interne/externe ressourcenbezogene Sekundärstrategien (Anstrengung, Zeitmanagement, Lernumgebung, Hilfesuchen).",
+      "kunst_sport_hook": "Sach-/Kunstunterricht Kl. 3: Neue Künstlerbiografien mit eigenem Vorwissen verknüpfen (Elaborieren) und Bildmerkmale in einer Tabelle bündeln (Organisieren)."
+    },
+    {
+      "id": "kg-A-11",
+      "domain": "A",
+      "chapter_ref": "Kap. 8.1–8.5",
+      "label": "Problemlösen & Heuristiken",
+      "subtitle": "Problemraum, Mittel-Ziel-Analyse & IDEAL-Strategie",
+      "page_label": "Original-Skript A S. 69–73",
+      "key_authors": [
+        "Dörner (1976)",
+        "Newell & Simon (1972)",
+        "Bransford & Stein (1984)"
+      ],
+      "summary": "Ein Problem liegt vor, wenn zwischen Ausgangs- und Zielzustand eine Barriere besteht, die nicht durch bloßen Routineabruf (Aufgabe) überwindbar ist. Heuristiken (Unterschiedsreduktion, Mittel-Ziel-Analyse, Rückwärtsarbeiten, Analogien) und das IDEAL-Modell strukturieren den Lösungsweg; funktionale Gebundenheit und Einstellungseffekte behindern ihn.",
+      "kunst_sport_hook": "Kunst/Werken Kl. 4: ‚Baue aus nur 10 Blatt Papier eine stabile Brücke für ein Spielzeugauto‘ – echtes Problemlösen gegen funktionale Gebundenheit!"
+    },
+    {
+      "id": "kg-A-12",
+      "domain": "A",
+      "chapter_ref": "Kap. 9.1–9.2",
+      "label": "Kennzeichen von Unterricht & ICAP",
+      "subtitle": "Doyles 6 Merkmale & sichtbare Lernaktivitäten",
+      "page_label": "Original-Skript A S. 74–78",
+      "key_authors": [
+        "Doyle (1986)",
+        "Chi & Wylie (2014)",
+        "Kollar et al."
+      ],
+      "summary": "Unterricht im Klassenzimmer ist nach Doyle durch Multidimensionalität, Simultanität, Unmittelbarkeit, Unvorhersehbarkeit, Öffentlichkeit und Geschichte geprägt. Das ICAP-Modell ordnet sichtbare Schüleraktivitäten aufsteigend nach ihrer kognitiven Lernwirksamkeit: passiv < aktiv < konstruktiv < interaktiv.",
+      "kunst_sport_hook": "Sportunterricht in der Turnhalle zeigt Doyles Simultanität und Unmittelbarkeit in Reinform; Partner-Korrekturgespräche heben das Lernen auf die interaktive ICAP-Stufe."
+    },
+    {
+      "id": "kg-A-13",
+      "domain": "A",
+      "chapter_ref": "Kap. 9.3",
+      "label": "Instruktionsansätze (Direkt bis Situiert)",
+      "subtitle": "Direkte Instruktion, Advance Organizer & Cognitive Apprenticeship",
+      "page_label": "Original-Skript A S. 79–89",
+      "key_authors": [
+        "Ausubel (1968)",
+        "Rosenshine",
+        "Collins, Brown & Newman (1989)",
+        "CTGV (1990)"
+      ],
+      "summary": "Lehrerzentrierte Ansätze (Direkte Instruktion, Mastery Learning, Expository Teaching mit Advance Organizern) sichern strukturierten Grundlagenaufbau besonders bei geringem Vorwissen. Schülerzentrierte Ansätze (Cognitive Apprenticeship mit Modeling/Coaching/Scaffolding/Fading, Problemorientiertes Lernen, Anchored Instruction) fördern Transfer, benötigen aber gezielte Lernunterstützung.",
+      "kunst_sport_hook": "Kunst Kl. 2 (Schnitzen/Tonarbeit): Cognitive Apprenticeship – Lehrkraft modelliert die Grifftechnik, coacht individuell und blendet die Hilfe schrittweise aus (Fading)."
+    },
+    {
+      "id": "kg-A-14",
+      "domain": "A",
+      "chapter_ref": "Kap. 9.4",
+      "label": "Kooperatives Lernen",
+      "subtitle": "5 Basismerkmale, Gruppenpuzzle & Motivationsverluste",
+      "page_label": "Original-Skript A S. 90–94",
+      "key_authors": [
+        "Johnson & Johnson (1994)",
+        "Aronson (1978)",
+        "Palincsar & Brown (1984)",
+        "Salomon & Globerson (1989)"
+      ],
+      "summary": "Kooperatives Lernen wirkt nur dann lern- und motivationsförderlich, wenn positive Interdependenz UND individuelle Verantwortlichkeit gesichert sind (z. B. Gruppenpuzzle/Jigsaw, Reziprokes Lehren). Fehlen klare Strukturen, drohen Prozessverluste wie Free-Rider-Effekt (Trittbrettfahren) und Sucker-Effekt (Rückzug Leistungsstarker).",
+      "kunst_sport_hook": "Sport Kl. 3 (Akrobatik-Pyramide): Jedes Kind hat eine unverzichtbare Stütz- oder Sicherungsrolle – echte positive Ressourcen- und Rolleninterdependenz ohne Trittbrettfahrer!"
+    },
+    {
+      "id": "kg-A-15",
+      "domain": "A",
+      "chapter_ref": "Kap. 9.6 & 10.1–10.7",
+      "label": "Unterrichtsqualität & Angebots-Nutzungs-Modell",
+      "subtitle": "Helmke, COACTIV & 3 Basisdimensionen guten Unterrichts",
+      "page_label": "Original-Skript A S. 97–108",
+      "key_authors": [
+        "Helmke (2012)",
+        "Klieme / COACTIV (2011)",
+        "Kounin (1970)",
+        "Hattie (2009)",
+        "Meyer (2004)"
+      ],
+      "summary": "Nach Helmke ist Unterricht ein Angebot, dessen Ertrag erst über Wahrnehmung und aktive Nutzung der Lernenden (mediierend über Vorwissen, Motivation, Familienkontext) entsteht. Qualitätsvoller Unterricht ruht auf drei empirisch gesicherten Basisdimensionen: 1. Effiziente Klassenführung (Kounin), 2. Kognitive Aktivierung und 3. Konstruktive Unterstützung (inkl. lernwirksamem Feedback, Hattie).",
+      "kunst_sport_hook": "Sport & Kunst: Reibungslose Geräte-/Materialorganisation (Klassenführung) schafft maximale echte Lernzeit für herausfordernde Gestaltungs- und Bewegungsaufgaben (kognitive Aktivierung)."
+    },
+    {
+      "id": "kg-B-01",
+      "domain": "B",
+      "chapter_ref": "Kap. 0 & 2.7",
+      "label": "Anlage-Umwelt-Interaktion",
+      "subtitle": "Transaktionales Modell & Genom-Umwelt-Korrelationen",
+      "page_label": "Original-Skript B S. 7, 32–33",
+      "key_authors": [
+        "Sameroff (2009)",
+        "Scarr & McCartney (1983)"
+      ],
+      "summary": "Moderne Entwicklungspsychologie vertritt ein interaktionistisches bzw. transaktionales Verständnis: Biologische Anlagen, Umweltangebote und Selbststeuerung wirken wechselseitig zusammen. Scarr & McCartney unterscheiden passive (Eltern gestalten Umwelt), evokative/reaktive (Kind entlockt Reaktionen) und aktive Genom-Umwelt-Passung (Nischenwahl, nimmt mit dem Alter zu).",
+      "kunst_sport_hook": "Kunst-Beispiel (vgl. F25 B1 Aufg. 12): Ein Kind malt begeistert von sich aus -> Eltern stellen daraufhin Staffelei und Kreiden ins Zimmer (= evokative Genom-Umwelt-Korrelation)."
+    },
+    {
+      "id": "kg-B-02",
+      "domain": "B",
+      "chapter_ref": "Kap. 1.1",
+      "label": "Kognitive Entwicklung nach Piaget",
+      "subtitle": "Adaption (Assimilation/Akkommodation) & 4 Stufen + Kritik",
+      "page_label": "Original-Skript B S. 8–15",
+      "key_authors": [
+        "Piaget (1970)",
+        "Baillargeon (1987)",
+        "Spelke et al. (1992)",
+        "Siegler (1996)"
+      ],
+      "summary": "Äquilibration treibt über Assimilation und Akkommodation (altersinvariante Prozesse) den Aufbau qualitativ neuer Denkstrukturen voran: sensumotorisch (Objektpermanenz), präoperational (Egozentrismus, Zentrierung), konkret-operational (7–12 J.: Reversibilität, Invarianz, Klasseninklusion) und formal-operational. Kritik: Unterschätzung früher Kompetenzen (Habituationsstudien Baillargeon/Spelke) und Vernachlässigung bereichsspezifischen Wissens sowie überlappender Strategiewellen (Siegler).",
+      "kunst_sport_hook": "Kunst Kl. 2/3: Beim Übergang zum konkret-operationalen Denken überwinden Kinder den räumlichen Egozentrismus (Drei-Berge-Versuch) und können Perspektiven zeichnerisch erfassen."
+    },
+    {
+      "id": "kg-B-03",
+      "domain": "B",
+      "chapter_ref": "Kap. 1.2–1.3",
+      "label": "Soziokulturelle Theorie (Wygotski)",
+      "subtitle": "Zone proximaler Entwicklung, Scaffolding & Inneres Sprechen",
+      "page_label": "Original-Skript B S. 15–17",
+      "key_authors": [
+        "Wygotski (1978)",
+        "Wood, Bruner & Ross (1976)"
+      ],
+      "summary": "Kognitive Entwicklung entsteht kontinuierlich durch soziale Interaktion und kulturelle Werkzeuge (v. a. Sprache: vom sozialen über das egozentrische zum selbststeuernden inneren Sprechen). Unterricht wirkt optimal in der Zone proximaler Entwicklung (ZPE) – dem Bereich zwischen alleinigem Können und dem mit adaptiver Unterstützung (Scaffolding) Erreichbaren.",
+      "kunst_sport_hook": "Sport Kl. 1 (Balancieren auf dem Schwebebalken): Anfängliche leichte Handführung in der ZPE wird bei wachsender Sicherheit schrittweise gelöst (Scaffolding & Fading)."
+    },
+    {
+      "id": "kg-B-04",
+      "domain": "B",
+      "chapter_ref": "Kap. 1.4",
+      "label": "Soziale Kognition & Theory of Mind",
+      "subtitle": "False-Belief-Verständnis & Perspektivenübernahme",
+      "page_label": "Original-Skript B S. 17–18",
+      "key_authors": [
+        "Wimmer & Perner (1983)",
+        "Selman (1980)"
+      ],
+      "summary": "Aus primärer und sekundärer Intersubjektivität (Joint Attention, Social Referencing) entwickelt sich um das 4. Lebensjahr die Theory of Mind – das Verständnis, dass andere Personen falsche Überzeugungen (False Beliefs, ‚Maxi und die Schokolade‘) haben können, die von der Realität abweichen. Im Grundschulalter differenziert sich die reziproke soziale Perspektivenübernahme weiter aus.",
+      "kunst_sport_hook": "Sport Kl. 2 (Taktische Fang- und Ballspiele): Eine Wurffinte gelingt erst durch angewandte Theory of Mind – das Kind plant ein, wohin der Fänger fälschlich glaubt, dass der Ball fliegt."
+    },
+    {
+      "id": "kg-B-05",
+      "domain": "B",
+      "chapter_ref": "Kap. 1.5",
+      "label": "Gedächtnisentwicklung & Exekutive Funktionen",
+      "subtitle": "Strategiedefizite, Experten-Vorwissen (Chi) & Inhibition",
+      "page_label": "Original-Skript B S. 18–25",
+      "key_authors": [
+        "Flavell (1971)",
+        "Miller (1990)",
+        "Chi (1978)",
+        "Miyake et al. (2000)"
+      ],
+      "summary": "Vier Determinanten erklären den Gedächtniszuwachs in der Kindheit: 1. Kapazität/Verarbeitungsgeschwindigkeit & exekutive Funktionen (Inhibition, Updating, Shifting), 2. Gedächtnisstrategien (über Mediations-, Produktions- und Nutzungsdefizit), 3. bereichsspezifisches Vorwissen (Chi, 1978: Schachkinder schlagen Erwachsene; Matthäus-Effekt!) und 4. Metagedächtnis (deklarativ vs. prozedural; Jüngere überschätzen sich bei Judgements of Learning).",
+      "kunst_sport_hook": "Sport Kl. 1/2: Reaktionsspiele wie ‚Feuer, Wasser, Sturm‘ oder ‚Kommando Pimperle‘ trainieren spielerisch Inhibition, Updating und kognitives Shifting!"
+    },
+    {
+      "id": "kg-B-06",
+      "domain": "B",
+      "chapter_ref": "Kap. 2.1–2.6",
+      "label": "Intelligenzmodelle & Schulerfolg",
+      "subtitle": "g-Faktor, Primärfaktoren, Fluid/Kristallin & Drei-Schichten-Modell",
+      "page_label": "Original-Skript B S. 26–31",
+      "key_authors": [
+        "Spearman (1904)",
+        "Thurstone (1938)",
+        "Cattell (1963)",
+        "Carroll (1993)"
+      ],
+      "summary": "Psychometrische Modelle reichen von Spearmans Zwei-Faktoren-Theorie (g + s) und Thurstones 7 Primärfaktoren über Cattells Trennung in fluide und kristalline Intelligenz bis zu Carrolls integrativem Drei-Ebenen-Modell. Intelligenz ist ab dem Grundschulalter relativ rangstabil, unterliegt säkularen Zugewinnen (Flynn-Effekt) und ist der stärkste kognitive Einzelprädiktor für Schulleistungen (r ≈ .50).",
+      "kunst_sport_hook": "Kunst Kl. 3: Visuell-räumliche Vorstellungskraft (Primärfaktor Space / WISC-V Index) unterstützt beim Falten von Körpernetzen und räumlichen Zeichnen."
+    },
+    {
+      "id": "kg-B-07",
+      "domain": "B",
+      "chapter_ref": "Kap. 2.8",
+      "label": "Hochbegabung & Underachievement",
+      "subtitle": "Mehrdimensionale Begabungsmodelle, Akzeleration & Enrichment",
+      "page_label": "Original-Skript B S. 34–37",
+      "key_authors": [
+        "Heller (Münchner Modell)",
+        "Rost (Marburger Studie)",
+        "Renzulli (1978)"
+      ],
+      "summary": "Moderne Begabungsmodelle zeigen, dass hohes intellektuelles Potenzial (konventionell IQ >= 130, oberste 2 %) erst durch nicht-kognitive Moderatoren (Motivation, Lernstrategien, Stressbewältigung) und Umweltmerkmale (Familie, Schulklima) in exzellente Leistung umgesetzt wird. Bei ungünstigen Moderatoren entsteht Underachievement; Förderung erfolgt über Akzeleration und Enrichment.",
+      "kunst_sport_hook": "Kunst & Sport eröffnen im Münchner Hochbegabungsmodell eigenständige kreative und psychomotorische Begabungsdomänen jenseits reiner Schulnoten."
+    },
+    {
+      "id": "kg-B-08",
+      "domain": "B",
+      "chapter_ref": "Kap. 3.1–3.3",
+      "label": "Entwicklungsaufgaben (Havighurst)",
+      "subtitle": "Biologie, Kultur & Eigenaktivität im Kindes- und Jugendalter",
+      "page_label": "Original-Skript B S. 38–41",
+      "key_authors": [
+        "Havighurst (1948)",
+        "Dreher & Dreher (1985)",
+        "Filipp (1995)"
+      ],
+      "summary": "Normative altersbezogene Lernanforderungen aus drei Quellen: biologische Reifung, gesellschaftlich-kulturelle Erwartungen und individuelle Ziele/Werte. In der mittleren Kindheit (Grundschule) stehen Kulturtechniken (Lesen, Schreiben, Rechnen), motorische Spielfertigkeiten, Peer-Integration und Gewissens-/Wertaufbau im Zentrum; abzugrenzen von non-normativen kritischen Lebensereignissen (z. B. Unfall, Trennung).",
+      "kunst_sport_hook": "Sport in der Grundschule adressiert direkt Havighursts zentrale Entwicklungsaufgabe der mittleren Kindheit: körperliche Geschicklichkeit für gemeinsame Bewegungsspiele erwerben."
+    },
+    {
+      "id": "kg-B-09",
+      "domain": "B",
+      "chapter_ref": "Kap. 4.1–4.4",
+      "label": "Identitätsentwicklung (Erikson & Marcia)",
+      "subtitle": "Werksinn vs. Minderwertigkeit & 4 Identitätsstadien",
+      "page_label": "Original-Skript B S. 42–45",
+      "key_authors": [
+        "Erikson (1968)",
+        "Marcia (1980)",
+        "Berzonsky (1990)"
+      ],
+      "summary": "Erikson beschreibt acht psychosoziale Krisen – im Grundschulalter zentral Stufe 4 ‚Werksinn vs. Minderwertigkeitsgefühl‘ (Freude am eigenen Schaffen), im Jugendalter ‚Identität vs. Identitätsdiffusion‘. Marcia kreuzt Exploration (Krise) und Festlegung (Commitment) zu vier Stadien: diffuse, übernommene, kritische (Moratorium) und erarbeitete Identität.",
+      "kunst_sport_hook": "Kunstunterricht in der Grundschule ist der Schlüsselort für Eriksons ‚Werksinn‘: Ein selbst getöpfertes oder gedrucktes Werk sichtbar in den Händen halten stärkt das Kompetenzerleben."
+    },
+    {
+      "id": "kg-B-10",
+      "domain": "B",
+      "chapter_ref": "Kap. 4.5–4.11",
+      "label": "Selbstkonzept, I/E-Modell & BFLPE",
+      "subtitle": "Multidimensionalität, Vergleichsprozesse, REM & SESSKO",
+      "page_label": "Original-Skript B S. 46–53",
+      "key_authors": [
+        "Moschner (2001)",
+        "Shavelson et al. (1976)",
+        "Marsh (1986, 1987)",
+        "Harter (2012)",
+        "Dickhäuser et al. (2002)"
+      ],
+      "summary": "Das kognitiv-deskriptive Selbstkonzept (vs. affektiv-evaluativer Selbstwert) differenziert sich im Grundschulalter vom unrealistisch hohen Vorschul-Optimismus zu realistischen Fachselbstkonzepten. Marshs I/E-Modell erklärt die Trennung von Mathe- und Sprachselbstkonzept durch soziale + dimensionale Vergleiche; der Big-Fish-Little-Pond-Effekt beschreibt niedrigere Selbstkonzepte in leistungsstarken Klassen. Selbstkonzept und Leistung wirken reziprok (REM).",
+      "kunst_sport_hook": "Erlebnispädagogische Bewegungs- und Bauprojekte (Outward-Bound, O’Mara et al., 2006) im Sport- und Werkunterricht steigern nachweislich das Selbstkonzept."
+    },
+    {
+      "id": "kg-B-11",
+      "domain": "B",
+      "chapter_ref": "Kap. 5.1–5.5",
+      "label": "Moralentwicklung (Piaget & Kohlberg)",
+      "subtitle": "Heteronom/Autonom, 6 Kohlberg-Stufen & Dilemma-Diskussion",
+      "page_label": "Original-Skript B S. 54–58",
+      "key_authors": [
+        "Piaget (1932)",
+        "Kohlberg (1969)",
+        "Vaish et al. (2010)",
+        "Schläfli et al. (1985)"
+      ],
+      "summary": "Piaget beschreibt den Wandel von heteronomer Moral (Fokus auf Schadensausmaß) zu autonomer Kooperationsmoral (Fokus auf Handlungsabsicht). Kohlberg differenziert anhand der Begründungsstruktur im Heinz-Dilemma präkonventionelle (Stufe 1 Strafe, Stufe 2 instrumenteller Austausch), konventionelle (Stufe 3 Erwartungen, Stufe 4 Gesetz/Ordnung) und postkonventionelle Moral (Stufe 5 Sozialvertrag, Stufe 6 ethische Prinzipien). Förderung gelingt über die Konstanzer Methode der Dilemma-Diskussion.",
+      "kunst_sport_hook": "Sport Kl. 3/4: Gemeinsames Aushandeln und Anpassen fairer Turnierregeln fördert nach Piaget direkt den Übergang von heteronomer Regelstarre zu autonomer Kooperationsmoral."
+    },
+    {
+      "id": "kg-B-12",
+      "domain": "B",
+      "chapter_ref": "Kap. 6.1–6.4",
+      "label": "Prosoziales Verhalten & Empathie",
+      "subtitle": "Hoffmans 4 Empathiestufen & Eisenbergs prosoziale Ebenen",
+      "page_label": "Original-Skript B S. 59–62",
+      "key_authors": [
+        "Hoffman (2000)",
+        "Eisenberg (1986)"
+      ],
+      "summary": "Empathie entwickelt sich nach Hoffman von globaler und egozentrischer Empathie über Empathie für individuelle Gefühle bis zur Empathie für Lebenslagen anderer (ab ~10 J.). Eisenberg zeigt an prosozialen Dilemmata den Übergang von hedonistischer zu bedürfnisorientierter, anerkennungsorientierter und selbstreflexiv-internalisierter Hilfsbegründung; autoritative Erziehung und Modelle fördern sie.",
+      "kunst_sport_hook": "Kunst & Sport: Partner-Hilfestellung beim Gerätturnen und wertschätzende Museumsrundgänge bei Bildbesprechungen üben Perspektivenübernahme und Mitgefühl aktiv ein."
+    },
+    {
+      "id": "kg-B-13",
+      "domain": "B",
+      "chapter_ref": "Kap. 6.5–6.8",
+      "label": "Aggression & Soziale Informationsverarbeitung",
+      "subtitle": "Crick & Dodge (6 SIP-Schritte) & Feindseliger Attributionsfehler",
+      "page_label": "Original-Skript B S. 62–66",
+      "key_authors": [
+        "Crick & Dodge (1994)",
+        "Dodge (1993)",
+        "Moffitt (1993)"
+      ],
+      "summary": "Das SIP-Modell erklärt reaktive Aggression über sechs Stufen: 1. Reizwahrnehmung, 2. Reizinterpretation (hier oft feindseliger Attributionsfehler bei mehrdeutigen Signalen!), 3. Zielklärung, 4. Suche nach Handlungsalternativen, 5. Reaktionsentscheidung und 6. Ausführung. Moffitt trennt jugendbegrenzte (90 %) von lebenslang-persistenter antisozialer Entwicklung (10 %).",
+      "kunst_sport_hook": "Sport Kl. 3 (Völkerball/Fußball): Rempelt ein Kind beim Laufen unabsichtlich an, verhindert gezieltes Perspektivwechsel-Training den feindseligen Attributionsfehler (‚Der wollte mich foulen!‘)."
+    },
+    {
+      "id": "kg-B-14",
+      "domain": "B",
+      "chapter_ref": "Kap. 7.1–7.8",
+      "label": "Motivation, Basic Needs & Interesse",
+      "subtitle": "Erwartung×Wert, Selbstbestimmungstheorie, Krapp & Zielorientierungen",
+      "page_label": "Original-Skript B S. 67–76",
+      "key_authors": [
+        "Atkinson (1957)",
+        "Heckhausen (1972)",
+        "Deci & Ryan (2000)",
+        "Krapp (1998)",
+        "Elliot (1999)",
+        "Rheinberg (1978)"
+      ],
+      "summary": "Motivation bündelt Zutrauen (Erwartung×Wert, Selbstbewertungsmodell, Nichols’ Trennung von Anstrengung und Fähigkeit im Grundschulalter), Valenzen (Deci & Ryans Kontinuum + Basic Needs Kompetenz, Autonomie, soziale Einbindung; Korrumpierungseffekt erwarteter materieller Belohnung; Krapps Übergang von situationalem zu individuellem Interesse) und Zielorientierungen (Lern- vs. Annäherungs-/Vermeidungs-Leistungsziele).",
+      "kunst_sport_hook": "Kunst Kl. 2/3: Wahlfreiheit beim Motiv/Material (Autonomie), gestufte Technikhilfen (Kompetenz) und gemeinsame Ausstellung (soziale Einbindung) lassen aus situationaler Neugier echtes Kunstinteresse wachsen."
+    },
+    {
+      "id": "kg-B-15",
+      "domain": "B",
+      "chapter_ref": "Kap. 8.1–8.6",
+      "label": "Leistungsemotionen & Prüfungsangst",
+      "subtitle": "Kontroll-Wert-/Appraisal-Theorie, Worry/Emotionality & Yerkes-Dodson",
+      "page_label": "Original-Skript B S. 77–82",
+      "key_authors": [
+        "Pekrun (2006)",
+        "Lazarus (1991)",
+        "Liebert & Morris (1967)",
+        "Wine (1971)",
+        "Yerkes & Dodson (1908)",
+        "Zeidner (1998)"
+      ],
+      "summary": "Nach Lazarus und Pekrun entstehen Leistungsemotionen aus Kontroll- und Wertkognitionen (Appraisals) und steuern Aufmerksamkeit, Strategiewahl und Motivation. Bei Prüfungsangst bindet insbesondere die kognitive Worry-Komponente (stärker als physiologische Emotionality) Arbeitsgedächtnisressourcen (Wine); Zeidner unterscheidet lernbeeinträchtigte (Strategietraining nötig) und angstblockierte Prüflinge (Entspannung/kognitive Umstrukturierung nötig).",
+      "kunst_sport_hook": "Klare Trennung von fehlerfreundlichen Übungszeiten (‚Werkstattzeit‘) und Bewertungsphasen stärkt Kontrollkognitionen und baut Leistungsangst ab."
+    },
+    {
+      "id": "kg-C-01",
+      "domain": "C",
+      "chapter_ref": "Kap. 1.1–1.2",
+      "label": "Entscheidungsgüte, α/β-Fehler & Testtheorien",
+      "subtitle": "Skalenniveaus, Klassische Testtheorie (KTT) & IRT / Rasch",
+      "page_label": "Original-Skript C S. 8–12",
+      "key_authors": [
+        "Taylor & Russell (1939)",
+        "Gulliksen",
+        "Rasch (1960)"
+      ],
+      "summary": "Diagnostische Entscheidungen bergen das Risiko von Alpha-Fehlern (falsch-positiv / Fehlalarm) und Beta-Fehlern (falsch-negativ / Übersehen). Die Klassische Testtheorie zerlegt den beobachteten Messwert in wahren Wert und Zufallsfehler (X = T + E), während die Probabilistische Testtheorie (IRT) Lösungswahrscheinlichkeiten aus Personenfähigkeit und Aufgabenschwierigkeit auf einer gemeinsamen Kompetenzskala modelliert.",
+      "kunst_sport_hook": "Wird ein sehr lebhaftes Kind im Sportunterricht fälschlich als ‚verhaltensgestört‘ etikettiert, liegt ein Alpha-Fehler vor; bleibt eine motorische Entwicklungsverzögerung unentdeckt, ein Beta-Fehler."
+    },
+    {
+      "id": "kg-C-02",
+      "domain": "C",
+      "chapter_ref": "Kap. 1.3",
+      "label": "Haupt- & Nebengütekriterien",
+      "subtitle": "Objektivität (3 Arten), Reliabilität (4 Wege) & Validität",
+      "page_label": "Original-Skript C S. 12–20",
+      "key_authors": [
+        "Lienert & Raatz (1998)"
+      ],
+      "summary": "Hierarchische Kette der Hauptgütekriterien: Durchführungsobjektivität, Auswertungsobjektivität und Interpretationsobjektivität sind Voraussetzung für Reliabilität (Retest, Paralleltest, Split-Half, interne Konsistenz/Cronbachs α), und Reliabilität ist notwendige, aber nicht hinreichende Bedingung für Validität (Inhalts-/curriculare, Konstrukt- [konvergent/diskriminant] und Kriteriumsvalidität [konkurrent/prädiktiv]). Nebengütekriterien: Normierung, Ökonomie, Nützlichkeit, Zumutbarkeit, Testfairness.",
+      "kunst_sport_hook": "Kunstbewertung Kl. 3: Ein transparentes 4-Kriterien-Raster für Wassermalerei (Farbauftrag, Bildraum, Kontrast, Sorgfalt) sichert Auswertungsobjektivität und curriculare Validität."
+    },
+    {
+      "id": "kg-C-03",
+      "domain": "C",
+      "chapter_ref": "Kap. 1.4",
+      "label": "Normierung & Normwertskalen",
+      "subtitle": "z-Wert, IQ (100/15), T-Wert (50/10) & Prozentrang (PR)",
+      "page_label": "Original-Skript C S. 20–22",
+      "key_authors": [
+        "Stern (1912)",
+        "Wechsler (1956)"
+      ],
+      "summary": "Sozialnormorientierte Tests verorten Rohwerte anhand einer repräsentativen Eichstichprobe: Variabilitätsnormen nutzen Mittelwert und Standardabweichung unter Normalverteilungsannahme (z: M=0, SD=1; IQ: M=100, SD=15, Durchschnitt 85–115; T-Wert: M=50, SD=10, Durchschnitt 40–60). Prozentränge (PR) sind verteilungsfrei auf Ordinalskalenniveau und geben an, wie viel Prozent der Eichstichprobe gleich gut oder schwächer abgeschnitten haben.",
+      "kunst_sport_hook": "Deutungsfalle im Elterngespräch: PR 75 im Sportmotorik- oder Mathetest heißt NICHT ‚75 % der Punkte geschafft‘, sondern ‚besser/gleich gut wie 75 % der Gleichaltrigen‘!"
+    },
+    {
+      "id": "kg-C-04",
+      "domain": "C",
+      "chapter_ref": "Kap. 2.1–2.6",
+      "label": "Diagnostische Strategien & Prozessphasen",
+      "subtitle": "Status vs. Prozess, Selektion vs. Modifikation & 3 Phasen",
+      "page_label": "Original-Skript C S. 23–27",
+      "key_authors": [
+        "Ingenkamp & Lissmann (2008)",
+        "Pawlik (1982)",
+        "Schrader (2008)"
+      ],
+      "summary": "Pädagogische Diagnostik dient der Optimierung individuellen Lernens und begründeten Schullaufbahnentscheidungen. Strategisch unterscheidet man Status- vs. Prozessdiagnostik sowie Selektions- vs. Modifikationsdiagnostik. Professionelle Diagnostik verläuft hypothesengeleitet in Planungsphase (Fragestellung, Hypothesen, Verfahrenswahl), Durchführungsphase und Integrationsphase (Befundsynthese, Gutachten, Intervention).",
+      "kunst_sport_hook": "Lernbegleitende Beobachtung beim Schwimmenlernen (Modifikations- & Prozessdiagnostik) vs. Übertrittszeugnis Ende Klasse 4 (Status- & Selektionsdiagnostik)."
+    },
+    {
+      "id": "kg-C-05",
+      "domain": "C",
+      "chapter_ref": "Kap. 3.1–3.3",
+      "label": "Diagnostische Kompetenz & Linsenmodell",
+      "subtitle": "Rang-, Niveau- & Differenzierungskompetenz von Lehrkräften",
+      "page_label": "Original-Skript C S. 28–32",
+      "key_authors": [
+        "Weinert (2001)",
+        "Schrader & Helmke (1987)",
+        "Brunswik (1956)",
+        "Karing (2009)"
+      ],
+      "summary": "Diagnostische Kompetenz umfasst Rangordnungskompetenz (gelingt Lehrkräften im Fachbereich relativ gut), Niveaukompetenz (Aufgabenschwierigkeit wird oft falsch geschätzt / Leistung überschätzt) und Differenzierungskompetenz. Brunswiks Linsenmodell zeigt, dass valide Urteile nur gelingen, wenn Lehrkräfte tatsächlich diagnostisch valide Hinweisreize (Cues) heranziehen.",
+      "kunst_sport_hook": "Beurteilt eine Lehrkraft im Kunstunterricht nur ‚Sauberkeit des Blattrands‘ (invalider Cue) statt Kompositionsidee und Farbmischung, verzerrt die Merkmalslinse das Urteil."
+    },
+    {
+      "id": "kg-C-06",
+      "domain": "C",
+      "chapter_ref": "Kap. 3.4",
+      "label": "Beurteilungsfehler & Pygmalion-Effekt",
+      "subtitle": "Halo-, Kontrast-, Primacy-, Milde-/Strenge-Effekt & Erwartungen",
+      "page_label": "Original-Skript C S. 32–34",
+      "key_authors": [
+        "Thorndike (1920)",
+        "Rosenthal & Jacobson (1968)",
+        "Tversky & Kahneman (1974)"
+      ],
+      "summary": "Menschliche Urteile unterliegen systematischen Verzerrungen: Halo-Effekt (Überstrahlung eines Einzelmerkmals), logischer Fehler (implizite Persönlichkeitstheorien), Primacy-/Recency-Effekt, Kontrasteffekt (Abwertung nach Spitzenleistungen), Milde-/Strenge-Effekt und Tendenz zur Mitte. Beim Pygmalion-Effekt wirken positive/negative Lehrkräfteerwartungen als selbsterfüllende Prophezeiung.",
+      "kunst_sport_hook": "Korrigiert man eine durchschnittliche Werkarbeit direkt nach fünf herausragenden Spitzenmodellen, droht ohne Kriterienraster sofort der Kontrasteffekt (vgl. H24 C1 Aufg. 8)."
+    },
+    {
+      "id": "kg-C-07",
+      "domain": "C",
+      "chapter_ref": "Kap. 4.1–4.2",
+      "label": "Systematische Beobachtung & Soziogramm",
+      "subtitle": "Trennung Beobachtung/Bewertung, Zeichen-/Kategoriensysteme & Soziometrie",
+      "page_label": "Original-Skript C S. 35–39",
+      "key_authors": [
+        "Lukesch (1998)",
+        "Bales (1950)",
+        "Moreno (1934)"
+      ],
+      "summary": "Wissenschaftliche Verhaltensbeobachtung trennt strikt zwischen niedrig-inferenter Beschreibung und Bewertung und nutzt vorab definierte Zeichensysteme (Event-Sampling), Kategoriensysteme (Time-Sampling) oder Schätzskalen. Soziometrische Befragungen (Soziogramm) machen Gruppenstrukturen, Cliquen und den sozialen Status (beliebt, abgelehnt, isoliert) neuer oder gefährdeter Kinder sichtbar.",
+      "kunst_sport_hook": "Sport Kl. 3: Bei Teamspielen zeigt eine 10-Minuten-Strichliste mit klaren Verhaltenskategorien (Pass abgeben, Mitspieler anfeuern, Regelbruch) objektiv das Sozialverhalten."
+    },
+    {
+      "id": "kg-C-08",
+      "domain": "C",
+      "chapter_ref": "Kap. 5.1–5.7",
+      "label": "Schulische Evaluation & DeGEval-Standards",
+      "subtitle": "Formative vs. summative Evaluation, Ablauf & 4 Standards",
+      "page_label": "Original-Skript C S. 40–45",
+      "key_authors": [
+        "Wottawa & Thierau (2003)",
+        "Köller & Möller (2007)",
+        "Stockmann (2003)"
+      ],
+      "summary": "Evaluation bewertet systematisch und kriteriengeleitet Maßnahmen, Programme oder Unterrichtsqualität (nicht primär Einzelpersonen). Formative Evaluation steuert laufende Prozesse nach, summative Evaluation bilanziert Endergebnisse. Verbindliche Qualitätsmaßstäbe der DeGEval sind Nützlichkeit, Durchführbarkeit, Fairness und Genauigkeit.",
+      "kunst_sport_hook": "Ein anonymes Zielscheiben-Feedback der 3. Klasse zum Halbjahr für den Kunst- und Sportunterricht ist klassische interne, formative Unterrichtsevaluation."
+    },
+    {
+      "id": "kg-C-09",
+      "domain": "C",
+      "chapter_ref": "Kap. 6.1–6.4",
+      "label": "Bezugsnormen & Funktionen von Noten",
+      "subtitle": "Sozial, kriterial, individuell & pädagogische vs. gesellschaftliche Funktionen",
+      "page_label": "Original-Skript C S. 46–48",
+      "key_authors": [
+        "Ingenkamp (1969)",
+        "Rheinberg (1977)"
+      ],
+      "summary": "Leistungsbewertungen basieren auf sozialer, kriterialer (sachlicher/lehrzielorientierter – vorgesehene Basis der Schulnoten!) oder individueller Bezugsnorm. Zeugnisse und Noten stehen im Spannungsfeld zwischen gesellschaftlichen Funktionen (Selektion/Auslese, Berechtigung, Kontrolle) und pädagogischen Funktionen (Rückmeldung, Lernsteuerung, Motivation); Kompetenzraster und Berichtszeugnisse erhöhen die diagnostische Transparenz.",
+      "kunst_sport_hook": "Im Grundschulsport und Kunstunterricht kombiniert man kriteriale Kompetenzraster für die Note mit individuellem Lernfortschritts-Feedback für die Freude am Tun."
+    },
+    {
+      "id": "kg-C-10",
+      "domain": "C",
+      "chapter_ref": "Kap. 7.1–7.4",
+      "label": "Schriftliche, Mündliche Prüfungen & Portfolios",
+      "subtitle": "Gütekriterien-Vergleich & Maßnahmen zur Qualitätssicherung",
+      "page_label": "Original-Skript C S. 49–53",
+      "key_authors": [
+        "Starch & Elliott (1912)",
+        "Ingenkamp (1995)",
+        "Sacher (2009)"
+      ],
+      "summary": "Klassische Prüfungen leiden oft unter eingeschränkter Auswertungs- und Interpretationsobjektivität (Starch & Elliott; Ingenkamp). Mündliche Prüfungen erfassen kommunikative Prozesse, sind aber durch Interaktionseffekte und wechselnde Fragen weniger durchführungsobjektiv. Portfolios (Arbeits-, Prozess-, Beurteilungsportfolio) verbinden Produkt- und Selbstreflexionsdiagnostik und gewinnen durch klare Rahmenvorgaben und Bewertungsrubriken an Objektivität.",
+      "kunst_sport_hook": "Kunstmappen-Portfolio Kl. 3/4 (vgl. H25 C1 Aufg. 5): Skizzen, Farbproben und Reflexionsbogen machen den kreativen Lernprozess hochvalide sichtbar!"
+    },
+    {
+      "id": "kg-C-11",
+      "domain": "C",
+      "chapter_ref": "Kap. 7.5–7.9",
+      "label": "Schulleistungstests & VERA-3",
+      "subtitle": "Formell (norm-/kriteriumsorientiert) vs. Informell & Vergleichsarbeiten",
+      "page_label": "Original-Skript C S. 53–59",
+      "key_authors": [
+        "Lukesch (1998)",
+        "Fricke (1973)",
+        "Ingenkamp & Lissmann (2008)",
+        "IQB"
+      ],
+      "summary": "Formelle Schulleistungstests (normorientiert nach KTT oder kriteriumsorientiert nach Fricke/IRT) bieten höchste Objektivität, Reliabilität und überregionale Vergleichbarkeit, berücksichtigen aber nicht die individuelle Lerngelegenheit der Einzelklasse (Vorteil informeller Lehrertests!). VERA-3 prüft in der 3. Klasse kriteriumsorientiert die KMK-Bildungsstandards in Deutsch und Mathematik zur Unterrichtsentwicklung.",
+      "kunst_sport_hook": "VERA-3 in Klasse 3 liefert der Grundschullehrkraft kriteriale Standortdaten für Deutsch/Mathe (keine Zeugnisnote!), um Förderbänder passgenau zu planen."
+    },
+    {
+      "id": "kg-C-12",
+      "domain": "C",
+      "chapter_ref": "Kap. 8.1–8.2",
+      "label": "Lese-Rechtschreibstörung (LRS)",
+      "subtitle": "Phonologische Verarbeitung, BISC/SLRT/HSP, Förderung & Notenschutz Bayern",
+      "page_label": "Original-Skript C S. 60–62",
+      "key_authors": [
+        "Langfeldt (2006)",
+        "Schuchardt & Mähler (2016)",
+        "Küspert & Schneider"
+      ],
+      "summary": "Umschriebene Entwicklungsstörung (ICD-10 F81.0; 4–5 %, stabiler Verlauf) bei IQ >= 70; Hauptursache ist ein Defizit der phonologischen Informationsverarbeitung (phonologische Bewusstheit, phonologisches AG, Benenngeschwindigkeit). Früherkennung per BISC, Prävention im Vorschulalter mit ‚Hören, lauschen, lernen‘, Förderung symptomorientiert an Laut-Buchstaben-Beziehungen. In Bayern sind Nachteilsausgleich (z. B. Zeitzuschlag) UND Notenschutz möglich.",
+      "kunst_sport_hook": "Bei schriftlichen Aufgaben in Sach- oder Kunstbetrachtung sichert ein Zeitzuschlag (Nachteilsausgleich, vgl. Fall ‚Luca‘) die Validität trotz verlangsamten Lesens."
+    },
+    {
+      "id": "kg-C-13",
+      "domain": "C",
+      "chapter_ref": "Kap. 8.3–8.4",
+      "label": "Dyskalkulie & ADHS in der Grundschule",
+      "subtitle": "Mengenverständnis (kein Notenschutz!) & Unaufmerksamkeit/Hyperaktivität/Impulsivität",
+      "page_label": "Original-Skript C S. 62–63",
+      "key_authors": [
+        "Butterworth",
+        "Krajewski",
+        "ICD-10 / DSM-5"
+      ],
+      "summary": "Rechenstörung (Dyskalkulie, F81.2; 3–6 %): Defizit basaler Mengen- und Zahlvorstellungen (Prävention ‚Mengen, zählen, Zahlen‘; Tests ZAREKI/HRT/DEMAT; in Bayern KEIN Notenschutz!). ADHS (ca. 5 %, situationsübergreifend in Familie und Schule): Kernsymptome Unaufmerksamkeit, Hyperaktivität und Impulsivität (Arbeitsgedächtnis-/Inhibitionsdefizit); multimodale Intervention plus klare Strukturierung, kurze Arbeitsphasen und sofortige Verstärkung im Unterricht.",
+      "kunst_sport_hook": "Sport & Kunst bei ADHS: Klare visuelle Stationskarten, überschaubare Teilaufträge, Signalkarten und strukturierte Bewegungspausen helfen bei der Selbststeuerung."
+    },
+    {
+      "id": "kg-C-14",
+      "domain": "C",
+      "chapter_ref": "Kap. 9.1–9.6",
+      "label": "Verhaltensstörungen, Mobbing & Schulabsentismus",
+      "subtitle": "Reaktive/Proaktive Aggression, Olweus/No-Blame & Schulverweigerung vs. Schwänzen",
+      "page_label": "Original-Skript C S. 63–65",
+      "key_authors": [
+        "Fürntratt (1974)",
+        "Olweus",
+        "ICD-10 F91"
+      ],
+      "summary": "Störungen des Sozialverhaltens verletzen über mind. 6 Monate altersgemäße Normen. Mobbing/Bullying (Olweus) ist als Gruppenphänomen durch Machtungleichgewicht, Systematik und Wiederholung über längere Zeit definiert (Intervention u. a. Klassenregeln, Soziogramm, No-Blame-Approach). Beim Schulabsentismus ist dissoziales Schulschwänzen strikt von angstbedingter Schulverweigerung zu trennen.",
+      "kunst_sport_hook": "Beim Umziehen und bei Mannschaftswahlen im Sportunterricht zeigen sich Ausgrenzungs- und Mobbingtendenzen oft zuerst – hier niemals über ‚Wähl-Kapitäne‘ bloßstellen!"
+    },
+    {
+      "id": "kg-C-15",
+      "domain": "C",
+      "chapter_ref": "Kap. 10–11",
+      "label": "WISC-V, SELLMO & PISA 2022 / 2025",
+      "subtitle": "Lernvoraussetzungstests, Bildungsstandards & Multi-Matrix-Monitoring",
+      "page_label": "Original-Skript C S. 66–73",
+      "key_authors": [
+        "Petermann (2017, WISC-V)",
+        "Spinath et al. (2012, SELLMO)",
+        "Klieme et al. (2003)",
+        "OECD PISA (2022, 2025)"
+      ],
+      "summary": "Die WISC-V erfasst bei 6–16-Jährigen den Gesamt-IQ über 5 primäre Indizes (Sprachverständnis, visuell-räumlich, fluides Schlussfolgern, Arbeitsgedächtnis, Verarbeitungsgeschwindigkeit); SELLMO (ab Kl. 4) misst vier Zielorientierungen. PISA prüft im Multi-Matrix-Design (IRT, keine Individualwerte!) die Literacy 15-Jähriger; in PISA 2025 (Schwerpunkt Naturwissenschaften & Lernen in der digitalen Welt) fiel Deutschland auf historische Tiefstwerte (Mathe 464, Lesen 465, Naturwiss. 486; rund ein Drittel unter Kompetenzstufe 2).",
+      "kunst_sport_hook": "PISA 2022 erhob international erstmals ‚Kreatives Denken‘ als fächerübergreifende Zukunftskompetenz – Rückenwind für einen kognitiv aktivierenden Kunstunterricht von der Grundschule an!"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-01",
+      "source": "kg-A-01",
+      "target": "kg-A-02",
+      "bridge_type": "within_domain",
+      "label": "Zwei-Phasen-Modell (Mowrer)",
+      "explanation": "Klassisch konditionierte Angst (Phase 1) führt zu Flucht-/Vermeidungsverhalten, das durch negative Verstärkung operant aufrechterhalten wird (Phase 2)."
+    },
+    {
+      "id": "edge-02",
+      "source": "kg-A-02",
+      "target": "kg-A-03",
+      "bridge_type": "within_domain",
+      "label": "fehlende Kontingenz",
+      "explanation": "Erlebt ein Kind dauerhaft keine Kontingenz zwischen eigenem Verhalten und Konsequenz, entsteht erlernte Hilflosigkeit (Seligman, 1979)."
+    },
+    {
+      "id": "edge-03",
+      "source": "kg-A-02",
+      "target": "kg-A-04",
+      "bridge_type": "within_domain",
+      "label": "stellvertretende Verstärkung",
+      "explanation": "Bandura erweitert Skinners operantes Konditionieren um kognitive Erwartungen und stellvertretende sowie Selbstverstärkung beim Modelllernen."
+    },
+    {
+      "id": "edge-04",
+      "source": "kg-A-05",
+      "target": "kg-A-06",
+      "bridge_type": "within_domain",
+      "label": "Elaboration & Konsolidierung",
+      "explanation": "Informationen aus dem kapazitätsbegrenzten Arbeitsgedächtnis gelangen über verstehendes Elaborieren und Organisieren dauerhaft in Schemata des Langzeitgedächtnisses."
+    },
+    {
+      "id": "edge-05",
+      "source": "kg-A-05",
+      "target": "kg-A-07",
+      "bridge_type": "within_domain",
+      "label": "Kapazitätsgrenze als Basis",
+      "explanation": "Die enge Begrenzung des Arbeitsgedächtnisses (Baddeley) begründet direkt die Cognitive Load Theory (Sweller) und Mayers CTML."
+    },
+    {
+      "id": "edge-06",
+      "source": "kg-A-06",
+      "target": "kg-A-08",
+      "bridge_type": "within_domain",
+      "label": "Schemata gegen träges Wissen",
+      "explanation": "Nur wenn deklaratives Wissen im LZG mit anwendungsnahen Handlungskontexten verknüpft wird, bleibt es kein träges Wissen."
+    },
+    {
+      "id": "edge-07",
+      "source": "kg-A-06",
+      "target": "kg-A-11",
+      "bridge_type": "within_domain",
+      "label": "Vorwissen & Problemraum",
+      "explanation": "Gut vernetzte Schemata im Langzeitgedächtnis ermöglichen beim Problemlösen das Erkennen von Tiefenmerkmalen und Analogien."
+    },
+    {
+      "id": "edge-08",
+      "source": "kg-A-09",
+      "target": "kg-A-10",
+      "bridge_type": "within_domain",
+      "label": "Werkzeuge der Aktionsphase",
+      "explanation": "Kognitive, metakognitive und ressourcenbezogene Lernstrategien sind das konkrete Handwerkszeug in den Phasen des selbstregulierten Lernens."
+    },
+    {
+      "id": "edge-09",
+      "source": "kg-A-08",
+      "target": "kg-A-13",
+      "bridge_type": "within_domain",
+      "label": "instruktionale Umsetzung",
+      "explanation": "Gemäßigt konstruktivistische Annahmen münden in situierte Lernumgebungen wie Cognitive Apprenticeship und Anchored Instruction."
+    },
+    {
+      "id": "edge-10",
+      "source": "kg-A-12",
+      "target": "kg-A-14",
+      "bridge_type": "within_domain",
+      "label": "interaktive ICAP-Stufe",
+      "explanation": "Strukturiertes kooperatives Lernen realisiert die höchste, lernwirksamste Stufe (interaktiv) des ICAP-Modells von Chi & Wylie (2014)."
+    },
+    {
+      "id": "edge-11",
+      "source": "kg-A-13",
+      "target": "kg-A-15",
+      "bridge_type": "within_domain",
+      "label": "Adaptive Unterrichtsqualität",
+      "explanation": "Sowohl direkte Instruktion als auch schülerzentrierte Methoden entfalten ihre Wirkung erst über die drei Basisdimensionen im Angebots-Nutzungs-Modell (Helmke, 2012)."
+    },
+    {
+      "id": "edge-12",
+      "source": "kg-B-01",
+      "target": "kg-B-06",
+      "bridge_type": "within_domain",
+      "label": "Erblichkeit & Umwelteffekte",
+      "explanation": "Die Anlage-Umwelt-Interaktion und Genom-Umwelt-Passungen (Scarr) erklären sowohl die Stabilität des IQ als auch Umwelteffekte wie den Flynn-Effekt."
+    },
+    {
+      "id": "edge-13",
+      "source": "kg-B-02",
+      "target": "kg-B-03",
+      "bridge_type": "within_domain",
+      "label": "Kontroverse Individuum vs. Kultur",
+      "explanation": "Während Piaget kognitive Entwicklung primär aus individueller Äquilibration erklärt, sieht Wygotski soziale Kokonstruktion und Sprache als Schrittmacher."
+    },
+    {
+      "id": "edge-14",
+      "source": "kg-B-02",
+      "target": "kg-B-11",
+      "bridge_type": "within_domain",
+      "label": "Perspektivwechsel für Moral",
+      "explanation": "Die Überwindung des kognitiven Egozentrismus bildet bei Piaget und Kohlberg die Voraussetzung für reiferes moralisches Urteilen."
+    },
+    {
+      "id": "edge-15",
+      "source": "kg-B-04",
+      "target": "kg-B-12",
+      "bridge_type": "within_domain",
+      "label": "Perspektivenübernahme -> Empathie",
+      "explanation": "Theory of Mind und soziale Perspektivenübernahme ermöglichen den Übergang von egozentrischer zu reifer Empathie (Hoffman, 2000)."
+    },
+    {
+      "id": "edge-16",
+      "source": "kg-B-04",
+      "target": "kg-B-13",
+      "bridge_type": "within_domain",
+      "label": "Soziale Kognition im SIP-Modell",
+      "explanation": "Defizite in der sozialen Perspektivenübernahme begünstigen im Modell von Crick & Dodge (1994) den feindseligen Attributionsfehler."
+    },
+    {
+      "id": "edge-17",
+      "source": "kg-B-06",
+      "target": "kg-B-07",
+      "bridge_type": "within_domain",
+      "label": "Potenzial vs. Performanz",
+      "explanation": "Hohe allgemeine oder bereichsspezifische Intelligenz bildet im Münchner Hochbegabungsmodell den Potenzialfaktor, der durch Moderatoren in Leistung übersetzt wird."
+    },
+    {
+      "id": "edge-18",
+      "source": "kg-B-08",
+      "target": "kg-B-09",
+      "bridge_type": "within_domain",
+      "label": "Entwicklungsaufgaben -> Identität",
+      "explanation": "Die aktive Bewältigung normativer Entwicklungsaufgaben im Grundschul- und Jugendalter formt den Werksinn und die erarbeitete Identität (Erikson/Marcia)."
+    },
+    {
+      "id": "edge-19",
+      "source": "kg-B-09",
+      "target": "kg-B-10",
+      "bridge_type": "within_domain",
+      "label": "Identität & Selbstkonzept",
+      "explanation": "Identität (‚Wer bin ich?‘) und multidimensionales Selbstkonzept samt Selbstwert (‚Was kann ich / wie stehe ich zu mir?‘) entwickeln sich eng verzahnt."
+    },
+    {
+      "id": "edge-20",
+      "source": "kg-B-10",
+      "target": "kg-B-14",
+      "bridge_type": "within_domain",
+      "label": "Erwartungskomponente",
+      "explanation": "Das fachspezifische Fähigkeitsselbstkonzept steuert im Erwartungs-Wert-Modell direkt das Zutrauen (Erfolgserwartung) und die Lernmotivation."
+    },
+    {
+      "id": "edge-21",
+      "source": "kg-B-11",
+      "target": "kg-B-12",
+      "bridge_type": "within_domain",
+      "label": "Moral & prosoziales Handeln",
+      "explanation": "Moralische Urteilsfähigkeit (Kohlberg) und empathisch-internalisierte Begründungen (Eisenberg) fördern gemeinsam prosoziales Handeln in der Klasse."
+    },
+    {
+      "id": "edge-22",
+      "source": "kg-B-14",
+      "target": "kg-B-15",
+      "bridge_type": "within_domain",
+      "label": "Kontroll- & Wert-Appraisals",
+      "explanation": "Motivationale Zielorientierungen (insb. Vermeidungs-Leistungsziele) und Kontrollüberzeugungen prägen nach Pekrun und Lazarus direkt Freude vs. Prüfungsangst."
+    },
+    {
+      "id": "edge-23",
+      "source": "kg-C-01",
+      "target": "kg-C-02",
+      "bridge_type": "within_domain",
+      "label": "Messfehler -> Reliabilität",
+      "explanation": "Das Fehleraxiom der Klassischen Testtheorie (X = T + E) definiert unmittelbar das Gütekriterium der Reliabilität als Anteil wahrer Varianz."
+    },
+    {
+      "id": "edge-24",
+      "source": "kg-C-02",
+      "target": "kg-C-03",
+      "bridge_type": "within_domain",
+      "label": "Interpretationsobjektivität",
+      "explanation": "Eindeutige Normwertskalen (IQ, T-Wert, Prozentrang) sichern das Hauptgütekriterium der Interpretationsobjektivität und das Nebengütekriterium Normierung."
+    },
+    {
+      "id": "edge-25",
+      "source": "kg-C-04",
+      "target": "kg-C-05",
+      "bridge_type": "within_domain",
+      "label": "Professionelles Lehrerurteil",
+      "explanation": "Systematisches Durchlaufen der diagnostischen Phasen unterscheidet professionelle diagnostische Kompetenz von fehleranfälliger Alltagsdiagnostik."
+    },
+    {
+      "id": "edge-26",
+      "source": "kg-C-05",
+      "target": "kg-C-06",
+      "bridge_type": "within_domain",
+      "label": "Verzerrte Hinweisreize",
+      "explanation": "Unvalidierte Merkmalslinsen und Urteilsheuristiken führen zu Beurteilungsfehlern (Halo, Kontrast) und ungünstigen Erwartungseffekten (Pygmalion)."
+    },
+    {
+      "id": "edge-27",
+      "source": "kg-C-06",
+      "target": "kg-C-07",
+      "bridge_type": "within_domain",
+      "label": "Fehlerreduktion durch Systematik",
+      "explanation": "Systematische Beobachtung mit klaren Zeichen-/Kategoriensystemen und strikter Trennung von Beobachtung und Bewertung reduziert Urteilsfehler effektiv."
+    },
+    {
+      "id": "edge-28",
+      "source": "kg-C-04",
+      "target": "kg-C-08",
+      "bridge_type": "within_domain",
+      "label": "Person vs. Programm/Unterricht",
+      "explanation": "Pädagogische Diagnostik beurteilt primär Lernende/Lernprozesse, während Evaluation dieselben methodischen Standards zur Bewertung von Unterricht und Maßnahmen nutzt."
+    },
+    {
+      "id": "edge-29",
+      "source": "kg-C-09",
+      "target": "kg-C-10",
+      "bridge_type": "within_domain",
+      "label": "Kriteriale Noten & Portfolios",
+      "explanation": "Schriftliche, mündliche und Portfolio-Prüfungen setzen die kriteriale und individuelle Bezugsnorm in der schulischen Leistungsbeurteilung konkret um."
+    },
+    {
+      "id": "edge-30",
+      "source": "kg-C-02",
+      "target": "kg-C-11",
+      "bridge_type": "within_domain",
+      "label": "Spannungsfeld Objektivität/Validität",
+      "explanation": "Formelle Schulleistungstests maximieren Objektivität und Reliabilität, während informelle Lehrertests durch Unterrichtsnähe oft höhere Inhaltsvalidität erreichen."
+    },
+    {
+      "id": "edge-31",
+      "source": "kg-C-12",
+      "target": "kg-C-13",
+      "bridge_type": "within_domain",
+      "label": "Komorbidität & Notenschutz-Kontrast",
+      "explanation": "LRS, Dyskalkulie (kombinierte Störung F81.3) und ADHS treten häufig komorbid auf, unterscheiden sich in Bayern aber strikt beim Notenschutz."
+    },
+    {
+      "id": "edge-32",
+      "source": "kg-C-01",
+      "target": "kg-C-15",
+      "bridge_type": "within_domain",
+      "label": "IRT / Rasch-Skalierung bei PISA",
+      "explanation": "PISA 2022/2025 und VERA basieren auf der Probabilistischen Testtheorie (IRT), um Personen und Aufgaben auf gemeinsamen Kompetenzstufen abzubilden."
+    },
+    {
+      "id": "edge-33",
+      "source": "kg-A-01",
+      "target": "kg-B-15",
+      "bridge_type": "cross_domain",
+      "label": "erklärt Emotionality-Erwerb",
+      "explanation": "Klassisches Konditionieren (Skript A) erklärt, wie neutrale Prüfungssituationen zur Auslösung physiologischer Aufregung (Emotionality bei Liebert & Morris, Skript B) konditioniert werden."
+    },
+    {
+      "id": "edge-34",
+      "source": "kg-A-03",
+      "target": "kg-B-10",
+      "bridge_type": "cross_domain",
+      "label": "Attribution prägt Selbstkonzept",
+      "explanation": "Ungünstige internal-stabile Misserfolgsattributionen (Skript A) untergraben das fachspezifische Fähigkeitsselbstkonzept (Skript B) und verstärken Hilflosigkeit."
+    },
+    {
+      "id": "edge-35",
+      "source": "kg-A-03",
+      "target": "kg-B-14",
+      "bridge_type": "cross_domain",
+      "label": "Zutrauen & Reattribution",
+      "explanation": "Weiners Attributionstheorie und Reattributionstrainings (Skript A) bilden eine Kernsäule der Motivationsförderung im Bereich ‚Zutrauen‘ (Skript B Kap. 7.3)."
+    },
+    {
+      "id": "edge-36",
+      "source": "kg-A-04",
+      "target": "kg-B-12",
+      "bridge_type": "cross_domain",
+      "label": "Vorbilder für Prosozialität",
+      "explanation": "Lernen am Modell nach Bandura (Skript A) erklärt, warum warmherzige Eltern und Lehrkräfte als Vorbilder die Entwicklung prosozialen Verhaltens (Skript B) stark fördern."
+    },
+    {
+      "id": "edge-37",
+      "source": "kg-A-04",
+      "target": "kg-B-13",
+      "bridge_type": "cross_domain",
+      "label": "Modelllernen & Mediengewalt",
+      "explanation": "Das Bobo-Doll-Experiment und Enthemmungseffekte (Skript A) liefern eine zentrale Erklärung für proaktive Aggression und Effekte von Mediengewalt (Skript B)."
+    },
+    {
+      "id": "edge-38",
+      "source": "kg-A-05",
+      "target": "kg-B-05",
+      "bridge_type": "cross_domain",
+      "label": "AG-Kapazität & Nutzungsdefizit",
+      "explanation": "Die begrenzte Kapazität des Arbeitsgedächtnisses nach Baddeley (Skript A) erklärt kognitiv das Nutzungsdefizit beim kindlichen Strategieerwerb (Skript B)."
+    },
+    {
+      "id": "edge-39",
+      "source": "kg-A-05",
+      "target": "kg-B-15",
+      "bridge_type": "cross_domain",
+      "label": "Worry blockiert Arbeitsgedächtnis",
+      "explanation": "Nach Wines Aufmerksamkeitshypothese (Skript B) rauben Worry-Sorgengedanken bei Prüfungsangst genau jene knappen Arbeitsgedächtnisressourcen (Skript A), die zum Denken nötig sind."
+    },
+    {
+      "id": "edge-40",
+      "source": "kg-A-06",
+      "target": "kg-B-05",
+      "bridge_type": "cross_domain",
+      "label": "Chunking durch Experten-Vorwissen",
+      "explanation": "Schemata und Chunking im Gedächtnis (Skript A) erklären Chis (1978) Schach-Befund in der Entwicklungspsychologie (Skript B), warum wissensreiche Kinder Erwachsene übertreffen."
+    },
+    {
+      "id": "edge-41",
+      "source": "kg-A-08",
+      "target": "kg-B-02",
+      "bridge_type": "cross_domain",
+      "label": "Kognitiver Konstruktivismus",
+      "explanation": "Piagets Äquilibrationsmodell aus Assimilation und Akkommodation (Skript B) bildet das theoretische Fundament des kognitiven Konstruktivismus (Skript A Kap. 4.2)."
+    },
+    {
+      "id": "edge-42",
+      "source": "kg-B-03",
+      "target": "kg-A-13",
+      "bridge_type": "cross_domain",
+      "label": "ZPE begründet Scaffolding",
+      "explanation": "Wygotskis Zone proximaler Entwicklung (Skript B) liefert die entwicklungspsychologische Basis für Scaffolding & Fading im Cognitive Apprenticeship (Skript A)."
+    },
+    {
+      "id": "edge-43",
+      "source": "kg-A-14",
+      "target": "kg-B-11",
+      "bridge_type": "cross_domain",
+      "label": "Soziokognitiver Konflikt & Moral",
+      "explanation": "Kooperative Diskussionen und Peer-Aushandlungen (Skript A) regen über Perspektivenwechsel direkt die Moralentwicklung in der Konstanzer Dilemma-Methode (Skript B) an."
+    },
+    {
+      "id": "edge-44",
+      "source": "kg-B-14",
+      "target": "kg-A-09",
+      "bridge_type": "cross_domain",
+      "label": "Basic Needs tragen SRL",
+      "explanation": "Selbstbestimmte Motivation und Zielorientierungen (Deci & Ryan / Elliot, Skript B) steuern in Boekaerts’ äußerer Schicht und Schmitz’ präaktionaler Phase das selbstregulierte Lernen (Skript A)."
+    },
+    {
+      "id": "edge-45",
+      "source": "kg-B-06",
+      "target": "kg-C-15",
+      "bridge_type": "cross_domain",
+      "label": "Theorie hinter der WISC-V",
+      "explanation": "Carrolls und Cattells Intelligenzmodelle (fluide/kristalline Intelligenz, Skript B) bilden das theoretische Fundament der fünf Primärindizes der WISC-V (Skript C)."
+    },
+    {
+      "id": "edge-46",
+      "source": "kg-B-06",
+      "target": "kg-C-03",
+      "bridge_type": "cross_domain",
+      "label": "Abweichungs-IQ & Flynn-Effekt",
+      "explanation": "Intelligenzentwicklung und Flynn-Effekt (Skript B) erklären, warum Abweichungs-IQ-Normtabellen (M=100, SD=15, Skript C) regelmäßig nachgeeicht werden müssen."
+    },
+    {
+      "id": "edge-47",
+      "source": "kg-B-07",
+      "target": "kg-C-01",
+      "bridge_type": "cross_domain",
+      "label": "Underachiever = Beta-Fehler-Risiko",
+      "explanation": "Hochbegabte Underachiever (Skript B) werden von Lehrkräften ohne standardisierte Intelligenzdiagnostik häufig übersehen – ein klassischer Beta-Fehler (Skript C)."
+    },
+    {
+      "id": "edge-48",
+      "source": "kg-B-10",
+      "target": "kg-C-09",
+      "bridge_type": "cross_domain",
+      "label": "Bezugsnorm formt Selbstkonzept",
+      "explanation": "Soziale Notenvergleiche (Skript C) lösen den Big-Fish-Little-Pond-Effekt aus, während individuelle Bezugsnormorientierung das Fähigkeitsselbstkonzept schützt (Skript B; SESSKO)."
+    },
+    {
+      "id": "edge-49",
+      "source": "kg-B-14",
+      "target": "kg-C-15",
+      "bridge_type": "cross_domain",
+      "label": "Zielorientierungen -> SELLMO",
+      "explanation": "Die motivationalen Zielorientierungen nach Elliot (Skript B Kap. 7.4.4) werden in der Schulpraxis direkt mit dem Fragebogen SELLMO (Skript C Kap. 10.2) diagnostiziert."
+    },
+    {
+      "id": "edge-50",
+      "source": "kg-B-14",
+      "target": "kg-C-09",
+      "bridge_type": "cross_domain",
+      "label": "Rheinberg: Individuelle Bezugsnorm",
+      "explanation": "Individuelle und kriteriale Leistungsrückmeldungen (Skript C) fördern nach Rheinberg (1977/1978) Erfolgszuversicht und senken Schulangst (Skript B)."
+    },
+    {
+      "id": "edge-51",
+      "source": "kg-B-05",
+      "target": "kg-C-12",
+      "bridge_type": "cross_domain",
+      "label": "Phonologisches AG & LRS",
+      "explanation": "Defizite im phonologischen Arbeitsgedächtnis und der phonologischen Bewusstheit verbinden Gedächtnisentwicklung (Skript B) unmittelbar mit der LRS-Ätiologie und BISC-Früherkennung (Skript C)."
+    },
+    {
+      "id": "edge-52",
+      "source": "kg-B-05",
+      "target": "kg-C-13",
+      "bridge_type": "cross_domain",
+      "label": "Inhibitionsdefizit bei ADHS",
+      "explanation": "Verzögerte exekutive Funktionen – insbesondere mangelnde Inhibition und Arbeitsgedächtnissteuerung (Skript B) – bilden die kognitive Kernursache von ADHS (Skript C)."
+    },
+    {
+      "id": "edge-53",
+      "source": "kg-B-13",
+      "target": "kg-C-14",
+      "bridge_type": "cross_domain",
+      "label": "SIP-Modell erklärt Reaktive Aggression",
+      "explanation": "Crick & Dodges Modell sozialer Informationsverarbeitung (Skript B) erklärt diagnostisch die Genese reaktiver Aggression bei Störungen des Sozialverhaltens (Skript C Kap. 9.3)."
+    },
+    {
+      "id": "edge-54",
+      "source": "kg-B-12",
+      "target": "kg-C-07",
+      "bridge_type": "cross_domain",
+      "label": "Peer-Integration im Soziogramm",
+      "explanation": "Soziale Kompetenz und prosoziales Verhalten (Skript B) spiegeln sich diagnostisch im sozialen Status und der Cliquenstruktur einer soziometrischen Untersuchung (Skript C)."
+    },
+    {
+      "id": "edge-55",
+      "source": "kg-B-15",
+      "target": "kg-C-14",
+      "bridge_type": "cross_domain",
+      "label": "Prüfungsangst -> Schulverweigerung",
+      "explanation": "Unbehandelte massive Leistungs- und Prüfungsangst (Skript B) mündet klinisch-diagnostisch häufig in angstbedingte Schulverweigerung (Skript C Kap. 9.6)."
+    },
+    {
+      "id": "edge-56",
+      "source": "kg-B-08",
+      "target": "kg-C-04",
+      "bridge_type": "cross_domain",
+      "label": "Übergang Kl. 4 als Entwicklungsaufgabe",
+      "explanation": "Schullaufbahnentscheidungen beim Übertritt nach Klasse 4 verknüpfen Selektions-/Eignungsdiagnostik (Skript C) mit normativen schulischen Entwicklungsaufgaben und Selbstkonzeptumbrüchen (Skript B)."
+    },
+    {
+      "id": "edge-57",
+      "source": "kg-A-01",
+      "target": "kg-C-14",
+      "bridge_type": "cross_domain",
+      "label": "Konditionierte Angst & Absentismus",
+      "explanation": "Klassisch konditionierte Schulangst und operante Vermeidung nach Mowrer (Skript A) erklären die Entstehung und Aufrechterhaltung angstbedingter Schulverweigerung (Skript C)."
+    },
+    {
+      "id": "edge-58",
+      "source": "kg-A-02",
+      "target": "kg-C-13",
+      "bridge_type": "cross_domain",
+      "label": "Verstärkerpläne bei ADHS/Dyskalkulie",
+      "explanation": "Operante Verhaltensmodifikation durch Token-Systeme und unmittelbare Verstärkerpläne (Skript A) ist ein zentraler schulischer Interventionsbaustein bei ADHS und Rechenstörung (Skript C)."
+    },
+    {
+      "id": "edge-59",
+      "source": "kg-A-03",
+      "target": "kg-C-09",
+      "bridge_type": "cross_domain",
+      "label": "Feedback nach Note 4/5 (Fall Luca)",
+      "explanation": "Kommentiert eine Lehrkraft schwache Noten (Skript C) mit individueller Bezugsnorm und variabler Anstrengungsattribution, beugt sie erlernter Hilflosigkeit (Skript A) wirksam vor."
+    },
+    {
+      "id": "edge-60",
+      "source": "kg-A-05",
+      "target": "kg-C-12",
+      "bridge_type": "cross_domain",
+      "label": "Phonologische Schleife bei LRS",
+      "explanation": "Störungen der phonologischen Schleife nach Baddeley (Skript A) beeinträchtigen direkt das Synthetisieren von Lauten beim Lesen und Rechtschreiben (LRS, Skript C)."
+    },
+    {
+      "id": "edge-61",
+      "source": "kg-A-07",
+      "target": "kg-C-11",
+      "bridge_type": "cross_domain",
+      "label": "Testdesign ohne Extraneous Load",
+      "explanation": "Bei der Konstruktion informeller und formeller Schulleistungstests nach Ebel/Lukesch (Skript C) verhindert klare Gestaltung unnötigen Extraneous Cognitive Load (Skript A)."
+    },
+    {
+      "id": "edge-62",
+      "source": "kg-A-09",
+      "target": "kg-C-10",
+      "bridge_type": "cross_domain",
+      "label": "Portfolio & Lerntagebuch erfassen SRL",
+      "explanation": "Prozessportfolios und Lerntagebücher (Skript C) dienen als prozessnahe Diagnoseinstrumente für das selbstregulierte Lernen (Skript A Kap. 6.5; vgl. Klausur H25 A2 & F24 C2)."
+    },
+    {
+      "id": "edge-63",
+      "source": "kg-A-10",
+      "target": "kg-C-04",
+      "bridge_type": "cross_domain",
+      "label": "Strategie-Fragebogen vs. Wissenstest",
+      "explanation": "Die Diagnostik von Lernstrategien (Skript A) erfordert im diagnostischen Prozess (Skript C) ein Abwägen zwischen validen Strategie-Wissenstests, Verhaltensbeobachtung und Selbstberichtsfragebögen (vgl. F24 C1 Aufg. 13)."
+    },
+    {
+      "id": "edge-64",
+      "source": "kg-A-11",
+      "target": "kg-C-15",
+      "bridge_type": "cross_domain",
+      "label": "Problemlösen & Kreativität in PISA",
+      "explanation": "Domänenübergreifendes Problemlösen (Skript A Kap. 8) und kreatives/digitales Lernen sind Kernbestandteile des internationalen Bildungsmonitorings in PISA 2022 und PISA 2025 (Skript C)."
+    },
+    {
+      "id": "edge-65",
+      "source": "kg-A-12",
+      "target": "kg-C-07",
+      "bridge_type": "cross_domain",
+      "label": "Doyles Simultanität -> Beobachtungsfehler",
+      "explanation": "Weil Unterricht nach Doyle simultan und unmittelbar abläuft (Skript A), sind freie Alltagsbeobachtungen fehleranfällig und benötigen systematische Beobachtungsraster (Skript C)."
+    },
+    {
+      "id": "edge-66",
+      "source": "kg-A-15",
+      "target": "kg-C-08",
+      "bridge_type": "cross_domain",
+      "label": "Basisdimensionen evaluieren",
+      "explanation": "Die drei Basisdimensionen der Unterrichtsqualität – insb. kognitive Aktivierung (Skript A) – sind zentraler Gegenstand formativer Unterrichtsevaluation durch Lehrkräfte (Skript C; vgl. Klausur F25 C2)."
+    },
+    {
+      "id": "edge-67",
+      "source": "kg-A-15",
+      "target": "kg-C-05",
+      "bridge_type": "cross_domain",
+      "label": "Diagnostische Kompetenz im COACTIV-Modell",
+      "explanation": "Professionelle diagnostische Kompetenz (Skript C) ist im Wirkmodell der Lehrerprofessionalität und im Angebots-Nutzungs-Modell (Skript A) Voraussetzung für adaptive Lernunterstützung."
+    },
+    {
+      "id": "edge-68",
+      "source": "kg-A-14",
+      "target": "kg-C-07",
+      "bridge_type": "cross_domain",
+      "label": "Interaktionsanalyse in Gruppenarbeit",
+      "explanation": "Gruppenprozesse beim kooperativen Lernen (Skript A) lassen sich diagnostisch über Bales’ Interaktions-Prozess-Analyse (IPA) und systematische Beobachtung erfassen (Skript C)."
+    }
+  ]
+}

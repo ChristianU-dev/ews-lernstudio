@@ -1,0 +1,37 @@
+{
+  "id": "ews-psychologie",
+  "title": "EWS Psychologie — Lehramt Grundschule Bayern",
+  "version": "1.0.0",
+  "institution": "FAU Erlangen-Nürnberg / Bayerisches Staatsexamen",
+  "learner_subjects": {
+    "primary": "Kunst",
+    "didactic": "Sport",
+    "school_type": "Grundschule (Klassen 1–4)"
+  },
+  "domains": [
+    {
+      "id": "A",
+      "title": "Lernen und Lehren",
+      "color_token": "--domain-a",
+      "hex_light": "#2563eb",
+      "source_pdf": "A_Lernen_und_Lehren_Skript.pdf",
+      "total_pages": 108
+    },
+    {
+      "id": "B",
+      "title": "Entwicklungspsychologie",
+      "color_token": "--domain-b",
+      "hex_light": "#059669",
+      "source_pdf": "B_Entwicklungspsychologie_Skript.pdf",
+      "total_pages": 82
+    },
+    {
+      "id": "C",
+      "title": "Pädagogisch-psychologische Diagnostik & Evaluation",
+      "color_token": "--domain-c",
+      "hex_light": "#d97706",
+      "source_pdf": "C_Diagnostik_Skript.pdf",
+      "total_pages": 73
+    }
+  ]
+}

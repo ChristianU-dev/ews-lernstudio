@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "card-B2-001",
+    "unit_id": "B-04-05",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "definition",
+    "front": "Wie ist das **Selbstkonzept** definiert (inkl. Urheber/Jahr) und wie grenzt es sich vom **Selbstwert** ab?",
+    "back": "**Selbstkonzept (Moschner, 2001):** Mentale Repräsentation der eigenen Person; Gesamtheit aller Vorstellungen, Einschätzungen und Bewertungen über sich selbst.\n\n**Abgrenzung (Lohaus, 2018; Rosenberg, 1979):**\n- **Selbstkonzept** = *kognitiv-deskriptive* Komponente (Selbstbeschreibung)\n- **Selbstwert** = *affektiv-evaluative* Komponente („Wie stehe ich zu mir?“) \n- **Identität** (Rosenberg, 1979) = „Wer oder wie bin ich?“",
+    "page_label": "Original-Skript S. 46",
+    "confusion_tag": "selbstkonzept_vs_selbstwert_vs_identitaet",
+    "tags": [
+      "Definition",
+      "Selbstkonzept",
+      "Selbstwert"
+    ]
+  },
+  {
+    "id": "card-B2-002",
+    "unit_id": "B-04-05",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "definition",
+    "front": "Wie wird das **Fähigkeitsselbstkonzept** definiert (inkl. Urheber/Jahr)?",
+    "back": "Das **Fähigkeitsselbstkonzept** beschreibt die **kognitiven Repräsentationen eigener Fähigkeiten und Begabungen**.\n\n*Urheber:* Urhahne, Dresel & Fischer (2019)",
+    "page_label": "Original-Skript S. 46",
+    "confusion_tag": null,
+    "tags": [
+      "Definition",
+      "Fähigkeitsselbstkonzept"
+    ]
+  },
+  {
+    "id": "card-B2-003",
+    "unit_id": "B-04-05",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "model",
+    "front": "Wie ist das Selbstkonzept nach **Shavelson, Hubner & Stanton (1976)** aufgebaut und worin besteht die Revision von **Marsh, Byrne & Shavelson (1988)**?",
+    "back": "**Shavelson et al. (1976):** **Multidimensional** (viele Facetten) und **hierarchisch** (Spitze: *Allgemeines Selbstkonzept* analog g-Faktor -> darunter *Schulisches* vs. *Nicht-schulisches SK* [sozial, emotional, physisch] -> Einzelfächer/Subdimensionen -> spezifisches Situationsverhalten).\n\n**Empirische Revision (Marsh et al., 1988):** Ein starker globaler Faktor ließ sich nicht bestätigen; **mathematisches** und **verbales Selbstkonzept der Begabung** sind nahezu **unkorreliert** -> Aufteilung in zwei getrennte Spitzenfaktoren ohne Hierarchiespitze.",
+    "page_label": "Original-Skript S. 46–47",
+    "confusion_tag": "shavelson_1976_vs_marsh_1988",
+    "tags": [
+      "Modell",
+      "Empirie",
+      "Selbstkonzept"
+    ]
+  },
+  {
+    "id": "card-B2-004",
+    "unit_id": "B-04-05",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "model",
+    "front": "Welche **frühen Meilensteine** der Selbstentwicklung zeigen sich in den ersten zwei Lebensjahren (inkl. **Rouge-Test**)?",
+    "back": "- **Ca. 4 Monate:** Erleben als eigenständige Organisation\n- **Ca. 6–10 Monate:** Innere Arbeitsmodelle des Selbst (Bindung), Fremdenangst, Verstehen von Intentionen\n- **Ca. 10–15 Monate:** **Soziales Referenzieren** (Situationsbewertung über Mimik der Bezugsperson)\n- **Ca. 15–18 (bis 24) Monate:** Anfänge des **Me-Self**, Trotzalter, Bestehen des **Rouge-Tests** (unbemerkter roter Punkt auf der Stirn wird im Spiegelbild im eigenen Gesicht weggewischt), Selbsterkennen auf Fotos, Wort „ich“.",
+    "page_label": "Original-Skript S. 48",
+    "confusion_tag": null,
+    "tags": [
+      "Entwicklung",
+      "Rouge-Test",
+      "Selbstkonzept"
+    ]
+  },
+  {
+    "id": "card-B2-005",
+    "unit_id": "B-04-05",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "model",
+    "front": "Wie verändern sich **Selbstkonzept (Harter, 1999/2012)** und **Selbstwert (Hoglund, 1995)** vom Vorschul- bis ins Jugendalter?",
+    "back": "- **Vorschulalter:** Konkrete, unverbundene Einzelmerkmale (Aussehen, Aktivitäten); Selbstwert **unrealistisch hoch** (Wunsch = Realität).\n- **Grundschulalter:** Eigenschaftsdimensionen („Ich bin klug“) und **soziale Vergleiche**; ab **8/9 J.** globaler Selbstwert -> **Absinken** auf realistischeres Niveau (Hoglund, 1995); beim Gymnasialübertritt vorübergehender Einbruch des schulischen SK (**Gerlach, 2006**).\n- **Jugendalter:** Psychisch-abstrakte, kohärente Merkmale; **„persönliche Fabel“** (**Elkind, 1967**); im Mittel stabiler Selbstwert bei starken interindividuellen Verläufen.",
+    "page_label": "Original-Skript S. 48–49",
+    "confusion_tag": null,
+    "tags": [
+      "Entwicklung",
+      "Harter",
+      "Selbstwert",
+      "Gerlach"
+    ]
+  },
+  {
+    "id": "card-B2-006",
+    "unit_id": "B-04-06",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "model",
+    "front": "Welche **vier zentralen Vergleichsinformationen** bestimmen als Determinanten das Selbstkonzept?",
+    "back": "1. **Soziale Vergleiche** (*external*): Vergleich mit Mitschülerinnen/Mitschülern (bereits ab Vorschulalter)\n2. **Dimensionale Vergleiche** (*internal*): Vergleich eigener Leistungen zwischen verschiedenen Fächern/Domänen (z. B. Mathe vs. Deutsch)\n3. **Temporale (individuelle) Vergleiche**: Vergleich mit eigenen früheren Leistungen über die Zeit\n4. **Kriteriale Vergleiche**: Vergleich mit sachlichen Standards / Lernzielen",
+    "page_label": "Original-Skript S. 49",
+    "confusion_tag": "vier_vergleichsprozesse_selbstkonzept",
+    "tags": [
+      "Modell",
+      "Determinanten",
+      "Bezugsnormen"
+    ]
+  },
+  {
+    "id": "card-B2-007",
+    "unit_id": "B-04-06",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "contrast",
+    "front": "Worin unterscheiden sich **Big-Fish-In-A-Little-Pond-Effekt (BFLPE)** und **Basking-in-Reflected-Glory-Effekt (BIRG)**?",
+    "back": "- **BFLPE (Marsh, 1987; Köller, 2004):** *Sozialer Kontrasteffekt* – bei gleicher individueller Leistung führt eine leistungsstarke Klasse zu einem **niedrigeren** schulischen Selbstkonzept (leistungsschwache Klasse -> höheres SK).\n- **BIRG (Cialdini & Richardson, 1990; Marsh, Kong & Hau, 2000):** *Assimilations-/Prestigeeffekt* – Aufwertung des SK durch das Prestige einer leistungsstarken Schule (Gymnasium); empirisch **inkonsistent und deutlich schwächer** als der negative BFLPE.\n- **Spannungsfeld (Becker et al., 2006):** Starke Klassen fördern die Leistung, dämpfen aber das Selbstkonzept.",
+    "page_label": "Original-Skript S. 50",
+    "confusion_tag": "bflpe_vs_birg",
+    "tags": [
+      "Abgrenzung",
+      "Empirie",
+      "BFLPE"
+    ]
+  },
+  {
+    "id": "card-B2-008",
+    "unit_id": "B-04-06",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "model",
+    "front": "Was besagt das **Internal/External-Frame-of-Reference-Modell (I/E-Modell)** nach **Marsh (1986)**?",
+    "back": "Fachspezifische Selbstkonzepte entstehen durch das Zusammenspiel zweier Bezugsrahmen:\n1. **Externaler (sozialer) Bezugsrahmen:** Gute Leistung in einem Fach im Klassenvergleich steigert das Selbstkonzept in *diesem* Fach (+).\n2. **Internaler (dimensionaler) Bezugsrahmen:** Kontrastvergleich zwischen mathematisch-naturwissenschaftlichen und sprachlichen Fächern -> hohe Leistung in Mathe führt zur **Abwertung** des eigenen sprachlichen Selbstkonzepts (−) und umgekehrt.",
+    "page_label": "Original-Skript S. 50–51",
+    "confusion_tag": "ie_modell_marsh",
+    "tags": [
+      "Modell",
+      "Marsh",
+      "Selbstkonzept"
+    ]
+  },
+  {
+    "id": "card-B2-009",
+    "unit_id": "B-04-06",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "contrast",
+    "front": "Grenze **Skill-Development-Ansatz**, **Self-Enhancement-Ansatz** und **Reciprocal Effects Model (REM)** voneinander ab!",
+    "back": "- **Skill-Development-Ansatz:** Schulleistung beeinflusst das Selbstkonzept (*Leistung -> Selbstkonzept*).\n- **Self-Enhancement-Ansatz:** Das Selbstkonzept beeinflusst nachfolgende Leistungen (*Selbstkonzept -> Leistung*; belegt durch **Marsh & Craven, 2006; Valentine et al., 2004**: höheres SK bei gleichem Vorwissen -> nach 1 Jahr bessere Leistung).\n- **Reciprocal Effects Model (REM):** Empirischer Konsens – beide Größen beeinflussen sich **wechselseitig (reziprok)**.",
+    "page_label": "Original-Skript S. 51",
+    "confusion_tag": "skill_development_vs_self_enhancement",
+    "tags": [
+      "Abgrenzung",
+      "Empirie",
+      "Selbstkonzept"
+    ]
+  },
+  {
+    "id": "card-B2-010",
+    "unit_id": "B-04-06",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "empirics",
+    "front": "Welche Befunde gelten für **Geschlechterstereotype** beim Selbstkonzept (**Marsh & Hattie, 1996; Frome & Eccles, 1998**) und für **Stereotype Threat** (**Steele & Aronson, 1995**)?",
+    "back": "- **Marsh & Hattie (1996):** Jungen berichten im Mittel ein höheres mathematisches, Mädchen ein höheres sprachliches Selbstkonzept.\n- **Frome & Eccles (1998):** Eltern und Lehrkräfte schreiben Jungen *bei gleichem Leistungsstand* höhere Mathebegabung zu und erwarten bessere Leistungen -> prägt das kindliche Selbstkonzept.\n- **Stereotype Threat (Steele & Aronson, 1995):** Die Aktivierung negativer Gruppenstereotype (z. B. Frauen in Mathe, Schwarze) senkt situativ die tatsächliche Testleistung.",
+    "page_label": "Original-Skript S. 52",
+    "confusion_tag": null,
+    "tags": [
+      "Empirie",
+      "Geschlechterstereotype",
+      "Stereotype Threat"
+    ]
+  },
+  {
+    "id": "card-B2-011",
+    "unit_id": "B-04-06",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "model",
+    "front": "Was erfasst der **SESSKO** (Zielgruppe, Umfang, 4 Skalen, Gütekriterien nach **Dickhäuser et al., 2002**)?",
+    "back": "**SESSKO** = *Skalen zur Erfassung des schulischen Selbstkonzepts* (Schöne, Dickhäuser, Spinath & Stiensmeier-Pelster):\n- **Zielgruppe & Durchführung:** Klassenstufe **3 bis 10**, Einzel- oder Gruppentest, **7–15 Min.**, **22 Items** (5-stufig)\n- **4 bezugsnormspezifische Skalen:** *kriterial, individuell, sozial* und *absolut* (ohne Vergleich)\n- **Güte (Dickhäuser et al., 2002):** Gute Reliabilität; faktoriell, konvergent und diskriminativ valide.",
+    "page_label": "Original-Skript S. 52–53",
+    "confusion_tag": null,
+    "tags": [
+      "Diagnostik",
+      "SESSKO",
+      "Empirie"
+    ]
+  },
+  {
+    "id": "card-B2-012",
+    "unit_id": "B-04-06",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "transfer",
+    "front": "Durch welche **vier schulischen Maßnahmen** (inkl. Befund **O’Mara et al., 2006**) lässt sich das Selbstkonzept in **Kunst und Sport** gezielt fördern?",
+    "back": "1. **Individuelle Bezugsnormorientierung:** Eigenen Lernzuwachs zurückmelden (z. B. Kunstmappen-Vorher-Nachher statt Klassenrang)\n2. **Günstige Attributionen:** Erfolge internal (Fähigkeit/Anstrengung), Misserfolge variabel auf Anstrengung/Strategie attribuieren\n3. **Realistisches Anspruchsniveau:** Mittelschwere Wahlstationen\n4. **Outward-Bound-Programme (O’Mara et al., 2006; Marsh & Richards, 1988):** Erlebnispädagogische Kooperationsaufgaben (z. B. ‚Flussüberquerung‘ mit Matten/Bänken im Sport) steigern nachweislich das Selbstkonzept.",
+    "page_label": "Original-Skript S. 51–52",
+    "confusion_tag": null,
+    "tags": [
+      "Transfer",
+      "Grundschule",
+      "Kunst",
+      "Sport"
+    ]
+  },
+  {
+    "id": "card-B2-013",
+    "unit_id": "B-05-01",
+    "domain": "B",
+    "subdeck": "5_Moralentwicklung",
+    "card_type": "definition",
+    "front": "Wie ist **moralisches Denken oder Urteilen** definiert (inkl. Urheber/Jahr)?",
+    "back": "**Moralisches Denken oder Urteilen** betrifft **Vorstellungen über Gut und Böse, Gerechtigkeit und Ungerechtigkeit** sowie über **Gründe, Gutes oder Schlechtes zu tun**.\n\n*Urheber:* Urhahne, Dresel & Fischer (2019)",
+    "page_label": "Original-Skript S. 54",
+    "confusion_tag": null,
+    "tags": [
+      "Definition",
+      "Moralentwicklung"
+    ]
+  },
+  {
+    "id": "card-B2-014",
+    "unit_id": "B-05-01",
+    "domain": "B",
+    "subdeck": "5_Moralentwicklung",
+    "card_type": "contrast",
+    "front": "Vergleiche **Heteronome Moral**, **Übergangsphase** und **Autonome Moral** nach **Piaget (1932)** am Tassen-Beispiel (*Hans vs. Heinz*)!",
+    "back": "- **Heteronome Moral (< 7/8 J.):** *Moral des Zwangs*, Regeln durch Autorität unveränderbar, unilateraler Respekt, Bewertung nach **Schadenshöhe** -> *Hans* (15 Tassen unabsichtlich) gilt unter 6 J. als „böser“.\n- **Übergangsphase (7/8–10 J.):** Erlernen von Kooperation in Peer-Interaktionen; gemeinsames Vereinbaren fairer Spielregeln.\n- **Autonome Moral (ab 11 J.):** *Moral der Kooperation*, Regeln als veränderbare soziale Übereinkünfte, Bewertung nach **Absicht (Intentionalität)** -> *Heinz* (1 Tasse beim heimlichen Naschen) gilt als ungezogener.",
+    "page_label": "Original-Skript S. 54–55",
+    "confusion_tag": "heteronome_vs_autonome_moral",
+    "tags": [
+      "Abgrenzung",
+      "Piaget",
+      "Moralentwicklung"
+    ]
+  },
+  {
+    "id": "card-B2-015",
+    "unit_id": "B-05-01",
+    "domain": "B",
+    "subdeck": "5_Moralentwicklung",
+    "card_type": "empirics",
+    "front": "Welche **neueren empirischen Befunde** (**Dunfield & Kuhlmeier, 2010; Vaish et al., 2010**) widerlegen Piagets Annahme fehlenden Intentionsverständnisses bei Kleinkindern?",
+    "back": "- **Dunfield & Kuhlmeier (2010):** Bereits **21 Monate** alte Kinder halfen einem Erwachsenen, der wohlwollend-erfolglos ein Spielzeug reichen wollte, bereitwilliger als einem Erwachsenen, der Hilfe absichtlich verweigerte.\n- **Vaish et al. (2010):** **Dreijährige** halfen einer Person seltener, die zuvor versucht hatte, einen anderen Erwachsenen absichtlich zu verletzen.\n\n*Fazit:* Piagets Methode unterschätzte jüngere Kinder; auch Kleinkinder beachten bereits **Handlungsabsichten**.",
+    "page_label": "Original-Skript S. 55",
+    "confusion_tag": null,
+    "tags": [
+      "Empirie",
+      "Kritik",
+      "Piaget"
+    ]
+  },
+  {
+    "id": "card-B2-016",
+    "unit_id": "B-05-02",
+    "domain": "B",
+    "subdeck": "5_Moralentwicklung",
+    "card_type": "model",
+    "front": "Nenne alle **3 Ebenen und 6 Stufen** des moralischen Urteils nach **Kohlberg (1969)** und das zentrale Auswertungsprinzip beim **Heinz-Dilemma**!",
+    "back": "**Wichtiges Prinzip:** Nicht *Ja/Nein* zum Diebstahl zählt, sondern allein die **Art/Struktur der Begründung**!\n\n1. **Präkonventionell (bis 10/11 J.):**\n   - *Stufe 1:* Moral des Gehorsams (Strafe/physische Folgen)\n   - *Stufe 2:* Moral des instrumentellen Egoismus / Hedonismus (eigener Nutzen, Tausch)\n2. **Konventionell (Jugendalter):**\n   - *Stufe 3:* Moral der interpersonalen Übereinstimmung (Erwartungen Nahestehender/Mehrheit)\n   - *Stufe 4:* Moral von Gesetz und Ordnung (Pflichten, soziale Stabilität)\n3. **Postkonventionell (Erwachsene):**\n   - *Stufe 5:* Moral der Sozialen Vereinbarung (Gesellschaftsvertrag, Konsens)\n   - *Stufe 6:* Moral allgemein gültiger ethischer Prinzipien (Menschenwürde, Leben > Gesetz)",
+    "page_label": "Original-Skript S. 56–57",
+    "confusion_tag": "kohlberg_sechs_stufen",
+    "tags": [
+      "Modell",
+      "Kohlberg",
+      "Moralentwicklung"
+    ]
+  },
+  {
+    "id": "card-B2-017",
+    "unit_id": "B-05-02",
+    "domain": "B",
+    "subdeck": "5_Moralentwicklung",
+    "card_type": "empirics",
+    "front": "Welche Kritikpunkte bestehen an **Kohlbergs Stufenmodell** (inkl. **Miller et al., 1990**, **Gilligan** & **Turiel**)?",
+    "back": "1. **Parallele Stufennutzung:** Personen argumentieren situativ auf mehreren Stufen gleichzeitig.\n2. **Kultur-Bias (Miller et al., 1990):** In *Indien* dominiert zwischenmenschliche Verantwortung/Hilfspflicht, in den *USA* abstrakte Gerechtigkeit -> westlich-intellektualisierte Moralauffassung.\n3. **Gender-Bias (Gilligan):** Rein männliche Originalstichprobe vernachlässigt *Fürsorgemoral* gegenüber *Gerechtigkeitsmoral*.\n4. **Domänentheorie (Turiel):** Schon Kleinkinder trennen echte *moralische Regeln* von bloßen *sozialen Konventionen*.",
+    "page_label": "Original-Skript S. 57",
+    "confusion_tag": null,
+    "tags": [
+      "Empirie",
+      "Kritik",
+      "Kohlberg"
+    ]
+  },
+  {
+    "id": "card-B2-018",
+    "unit_id": "B-05-02",
+    "domain": "B",
+    "subdeck": "5_Moralentwicklung",
+    "card_type": "contrast",
+    "front": "Worin liegen die **Gemeinsamkeiten** und der **zentrale Unterschied** zwischen **Piaget** und **Kohlberg** in der Moralentwicklung?",
+    "back": "**Gemeinsamkeiten:**\n- Perspektivübernahme als kognitiver Motor\n- Universell invariante Stufenfolge\n- Entwicklung von Autoritäts-/Straforientierung hin zu sozialen Übereinkünften/Prinzipien\n\n**Zentraler Unterschied (S. 58):**\n- **Piaget:** Prozess der *Kindheit*, an dessen Ende *alle* das gleiche Stadium erreichen.\n- **Kohlberg:** *Lebenslanger Prozess*, bei dem sich Personen in der *letztendlich erreichten Stufe unterscheiden*.",
+    "page_label": "Original-Skript S. 57–58",
+    "confusion_tag": "piaget_vs_kohlberg_moral",
+    "tags": [
+      "Abgrenzung",
+      "Piaget",
+      "Kohlberg"
+    ]
+  },
+  {
+    "id": "card-B2-019",
+    "unit_id": "B-05-02",
+    "domain": "B",
+    "subdeck": "5_Moralentwicklung",
+    "card_type": "empirics",
+    "front": "Wie funktioniert die **Konstanzer Methode der Dilemma-Diskussion (KMDD)** und was belegen **Schläfli, Rest & Thomas (1985)** bzw. **Schläfli (1986)**?",
+    "back": "**KMDD (Lind):** Ca. **90-minütige** strukturierte Pro-/Contra-Diskussion eines Dilemmas (Zwei-Aspekte-Theorie: kognitiv & affektiv) zum Training der **moralischen Urteilskompetenz** (nicht Gesinnung!): Begründen, Gegenlagern zuhören, Umgang mit Gruppendruck, Perspektivwechsel.\n\n**Empirie:**\n- **Schläfli, Rest & Thomas (1985):** Dilemma-Diskussionen erzielen einen kleinen bis mittleren Zuwachs im moralischen Urteil (**d = .41**).\n- **Schläfli (1986):** Herkömmlicher Ethik-/Sozialkundeunterricht ohne Meinungsstreit hat kaum Einfluss.",
+    "page_label": "Original-Skript S. 58",
+    "confusion_tag": null,
+    "tags": [
+      "Empirie",
+      "Förderung",
+      "KMDD"
+    ]
+  },
+  {
+    "id": "card-B2-020",
+    "unit_id": "B-06-01",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "definition",
+    "front": "Definiere **Soziale Verhaltensweisen** (**Krapp & Weidemann, 2001**) und **Prosoziales Verhalten** (**Lohaus & Vierhaus, 2015**)!",
+    "back": "- **Soziale Verhaltensweisen (Krapp & Weidemann, 2001):** Breites Spektrum von Reaktionen, das von prosozialen Verhaltensweisen über schüchtern-defensive Reaktionen bis hin zu verbalen und physischen Aggressionen reicht.\n- **Prosoziales Verhalten (Lohaus & Vierhaus, 2015):** Verhalten, welches für Mitmenschen gezeigt wird oder sich an dem Wohlergehen der Mitmenschen orientiert.",
+    "page_label": "Original-Skript S. 59",
+    "confusion_tag": null,
+    "tags": [
+      "Definition",
+      "Prosoziales Verhalten"
+    ]
+  },
+  {
+    "id": "card-B2-021",
+    "unit_id": "B-06-01",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "contrast",
+    "front": "Wie unterscheiden **Urhahne, Dresel & Fischer (2019)** **Empathie** und **Mitleid**?",
+    "back": "- **Empathie:** Das *Mitfühlen* mit dem emotionalen Zustand einer anderen Person (in einem ähnlichen Zustand zu sein), bei klarem Bewusstsein, dass die andere Person der primäre Träger der Emotion ist.\n- **Mitleid:** Eine aus Empathie/Situationsverständnis hervorgehende Reaktion, die aus *Anteilnahme am Leid des anderen und Sorgen um den anderen* besteht (motiviert direkt zu Hilfe).",
+    "page_label": "Original-Skript S. 59",
+    "confusion_tag": "empathie_vs_mitleid",
+    "tags": [
+      "Definition",
+      "Abgrenzung",
+      "Empathie"
+    ]
+  },
+  {
+    "id": "card-B2-022",
+    "unit_id": "B-06-01",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "model",
+    "front": "Welche **4 Stufen der Empathieentwicklung** unterscheidet **Hofmann / Hoffman (2000)** (mit Altersangaben)?",
+    "back": "1. **Globale Empathie (1. Lebensjahr):** Keine Trennung zwischen Selbst und Anderem -> Reaktion, als sei das Leid einem selbst passiert (Mitweinen).\n2. **Egozentrische Empathie (ab 1. Geburtstag):** Selbst-Andere-Trennung gelingt, aber Projektion eigener Gefühle/Bedürfnisse auf den Leidenden.\n3. **Empathie für die Gefühle anderer Menschen (ab 2–3 J.):** Perspektivübernahme -> Erkennen andersartiger Gefühlswelten, unabhängiger von Anwesenheit.\n4. **Empathie für die Lebensverhältnisse anderer Menschen (ab ca. 10 J.):** Verständnis überdauernder Lebenslagen unabhängig von der Momentansituation.",
+    "page_label": "Original-Skript S. 59–60",
+    "confusion_tag": "hoffman_empathiestufen",
+    "tags": [
+      "Modell",
+      "Entwicklung",
+      "Empathie"
+    ]
+  },
+  {
+    "id": "card-B2-023",
+    "unit_id": "B-06-01",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "model",
+    "front": "Welche **6 Ebenen des prosozialen Verhaltens** unterscheidet **Eisenberg (1986)** am *Eric-Dilemma*?",
+    "back": "1. **Ebene 1 – Hedonistische, selbstbezogene Orientierung** (*Kita/jüngere GS*: eigener Vorteil, „weil er zur Party will“)\n2. **Ebene 2 – Orientierung an Bedürfnissen** (*Vorschule/GS*: schlichte Sorge ohne Rollenübernahme, „weil er blutet“)\n3. **Ebene 3 – Orientierung an Anerkennung und/oder Stereotyp** (*GS/Mittelstufe*: „um gut/nett zu sein“)\n4. **Ebene 4a – Selbstreflexive empathische Orientierung** (*wenige ältere GS/Highschool*: Perspektivwechsel, Mitgefühl/Schuld)\n5. **Ebene 4b – Übergangsniveau** (*> 14 J./Erwachsene*: interne Werte/Pflichten, noch vage)\n6. **Ebene 5 – Stark internalisiertes Stadium** (*kleine Minderheit*: feste Werte, Menschenwürde, eigenes Gewissen)",
+    "page_label": "Original-Skript S. 60–61",
+    "confusion_tag": "eisenberg_prosoziale_ebenen",
+    "tags": [
+      "Modell",
+      "Eisenberg",
+      "Prosoziales Verhalten"
+    ]
+  },
+  {
+    "id": "card-B2-024",
+    "unit_id": "B-06-01",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "empirics",
+    "front": "Welche empirischen Befunde (**Eisenberg et al., 1995; Siegler et al., 2016**) und Sozialisationseinflüsse fördern **prosoziales Verhalten**?",
+    "back": "**Empirie:** Kulturübergreifend bestätigt (Brasilien, Deutschland, Israel, Japan); höhere prosoziale Urteilsebene geht mit real mitfühlenderem und hilfsbereiterem Verhalten einher.\n\n**Förderfaktoren:** Gute **Emotionsregulation** (Temperament), warmherziges **Vorbild/Modelllernen**, **induktiver Appell an Mitgefühl** („Schau, wie schlecht es ihr geht“ statt „Helfen ist nett“), Mithilfe-Gelegenheiten im Alltag, **autoritativer Erziehungsstil** und sichere Bindung.",
+    "page_label": "Original-Skript S. 61–62",
+    "confusion_tag": null,
+    "tags": [
+      "Empirie",
+      "Sozialisation",
+      "Prosoziales Verhalten"
+    ]
+  },
+  {
+    "id": "card-B2-025",
+    "unit_id": "B-06-02",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "definition",
+    "front": "Definiere und unterscheide **Antisoziales Verhalten**, **Aggression** und **Aggressivität** (inkl. Urheber/Jahr)!",
+    "back": "- **Antisoziales Verhalten (Schneider & Lindenberger, 2018):** Ein eine andere Person schädigendes oder vernachlässigendes Verhalten (umfasst Aggression, Rücksichtslosigkeit, Ärgern, Schädigung).\n- **Aggression (Siegler et al., 2016):** Konkretes *Verhalten*, das darauf abzielt, andere zu schädigen oder zu verletzen.\n- **Aggressivität (Schneider & Lindenberger, 2018):** Überdauernde *Disposition* zu aggressivem Verhalten gegen Menschen oder Sachen.",
+    "page_label": "Original-Skript S. 62–63",
+    "confusion_tag": "aggression_vs_aggressivitaet",
+    "tags": [
+      "Definition",
+      "Abgrenzung",
+      "Aggression"
+    ]
+  },
+  {
+    "id": "card-B2-026",
+    "unit_id": "B-06-02",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "definition",
+    "front": "Wann verhält sich eine Person nach **Hingst & Pfingsten (2002)** **sozial kompetent**, und was bedeutet **Soziale Kognition** (**Urhahne et al., 2019**)?",
+    "back": "- **Sozial kompetent (Hingst & Pfingsten, 2002):** Wenn eine Person eigene Wünsche und Ziele in der Interaktion aufzeigt und vertritt, *gleichzeitig* aber auch die Bedürfnisse der Sozialpartner bzw. gesellschaftliche Normen respektiert und berücksichtigt.\n- **Soziale Kognition (Urhahne, Dresel & Fischer, 2019):** Informationsaufnahme- und -verarbeitungsprozesse, die sich auf die soziale Welt des Individuums beziehen.",
+    "page_label": "Original-Skript S. 63",
+    "confusion_tag": null,
+    "tags": [
+      "Definition",
+      "Soziale Kompetenz",
+      "Soziale Kognition"
+    ]
+  },
+  {
+    "id": "card-B2-027",
+    "unit_id": "B-06-02",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "contrast",
+    "front": "Unterscheide **internalisierendes** vs. **externalisierendes auffälliges Verhalten** sowie den Alterswandel der Aggression (**Siegler et al., 2016**)!",
+    "back": "- **Internalisierend:** Ängstlich, traurig, interessenlos, zurückgezogen, kränkelnd.\n- **Externalisierend:** Aggressiv, hyperaktiv, impulsiv, unaufmerksam, streitsüchtig.\n\n**Altersverlauf (Siegler et al., 2016):**\n1. *Erste Jahre:* **Instrumentelle Aggression** (Streit um Besitz/Spielzeug)\n2. *Vorschulalter:* **Relationale / Beziehungsaggression** (z. B. Ausgrenzung)\n3. *Grundschule:* Rückgang offener Aggression; teils **verdeckte Formen** (Stehlen, Lügen, Betrügen)\n4. *Adoleszenz:* Statusverstöße, teils schwere Gewalt.",
+    "page_label": "Original-Skript S. 63",
+    "confusion_tag": "internalisierend_vs_externalisierend",
+    "tags": [
+      "Abgrenzung",
+      "Entwicklung",
+      "Aggression"
+    ]
+  },
+  {
+    "id": "card-B2-028",
+    "unit_id": "B-06-02",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "contrast",
+    "front": "Welche **zwei Entwicklungstypen** jugendlichen Problemverhaltens unterscheidet **Moffitt (1993)** (Anteile, Ursachen, Prognose)?",
+    "back": "1. **Auf das Jugendalter begrenzte Delinquenz (*Adolescence-Limited*, ca. 90 %):**\n   - *Ursache:* **Reifungslücke** zwischen körperlicher Reife und sozialer Unabhängigkeit; „pseudoerwachsene“ Verstöße für Peer-Ansehen.\n   - *Prognose:* Klingt bei Übernahme echter Erwachsenenrollen wieder ab.\n2. **Langfristige Auffälligkeit (*Life-Course-Persistent*, ca. 10 %):**\n   - *Ursache:* Frühe Kindheitsprobleme (Impulsivität, Anpassungsprobleme) + belastetes Umfeld (Familie, Peer-Ablehnung).\n   - *Prognose:* Chronische Delinquenz über das Jugendalter hinaus.",
+    "page_label": "Original-Skript S. 63–64",
+    "confusion_tag": "adolescence_limited_vs_life_course_persistent",
+    "tags": [
+      "Modell",
+      "Abgrenzung",
+      "Moffitt"
+    ]
+  },
+  {
+    "id": "card-B2-029",
+    "unit_id": "B-06-02",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "definition",
+    "front": "Wie definieren **Siegler et al. (2016)** das **Gewissen**, und welche Risikofaktoren begünstigen Aggression?",
+    "back": "**Gewissen (Siegler et al., 2016):** Innerer Regulationsmechanismus, der die Fähigkeit eines Individuums erhöht, Verhaltensstandards zu entsprechen, die in seiner Kultur als verbindlich gelten (hemmt destruktive Impulse).\n\n**Risikofaktoren für Aggression:** Genetische Disposition, autoritärer/vernachlässigender Stil, misshandelnde/inkonsequente Disziplinierung (vgl. Pattersons Zwangsinteraktion), elterliche Konflikte (Modell), Armut/Stress, deviante Peers (Gruppenzwang/Banden) sowie **Mediengewalt bei psychosozialer Vulnerabilität**.",
+    "page_label": "Original-Skript S. 64",
+    "confusion_tag": null,
+    "tags": [
+      "Definition",
+      "Gewissen",
+      "Risikofaktoren"
+    ]
+  },
+  {
+    "id": "card-B2-030",
+    "unit_id": "B-06-03",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "model",
+    "front": "Nenne die **zentrale Datenbasis** und alle **6 Schritte** des Prozessmodells der sozialen Informationsverarbeitung (**SIP**) nach **Crick & Dodge (1994)**!",
+    "back": "**Zentrale Datenbasis:** Gedächtnis, erworbene Regeln, soziale Schemata, soziales Wissen.\n\n**Die 6 Verarbeitungsschritte:**\n1. **Wahrnehmung von Reizen** (soziale Signale wie Mimik, Körperhaltung)\n2. **Interpretation der Reize** (freundlich vs. feindselig)\n3. **Zielklärung** (was möchte ich erreichen?)\n4. **Entwurf von Handlungsalternativen** (Abruf/Generieren von Plänen)\n5. **Entscheidung für eine Handlungsalternative** (Folgenbewertung)\n6. **Ausführung der Handlung**",
+    "page_label": "Original-Skript S. 65",
+    "confusion_tag": "crick_dodge_sechs_schritte",
+    "tags": [
+      "Modell",
+      "Crick & Dodge",
+      "SIP"
+    ]
+  },
+  {
+    "id": "card-B2-031",
+    "unit_id": "B-06-03",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "empirics",
+    "front": "Was ist der **feindselige Attributionsfehler** (**Dodge, 1993**), und welche weiteren kognitiven Verzerrungen zeigen aggressive Kinder im SIP-Modell?",
+    "back": "**Feindseliger Attributionsfehler (Hostile Attribution Bias, Schritt 2):** Tendenz aggressiver Kinder, mehrdeutige soziale Reize (z. B. versehentliches Anrempeln) vorschnell als böswillige, feindselige Absicht zu deuten.\n\n**Weitere Verzerrungen („aggressive Brille“, Dodge et al., 2006):**\n- Fokus auf negative Hinweisreize (Schritt 1)\n- Weniger Handlungspläne entwerfen (Schritt 4)\n- Aggressives Verhalten positiver bewerten & Peer-Bestätigung erwarten (Schritt 5)\n- Schnelle körperlich-aggressive Umsetzung (Schritt 6)",
+    "page_label": "Original-Skript S. 65–66",
+    "confusion_tag": null,
+    "tags": [
+      "Empirie",
+      "Dodge",
+      "Attributionsfehler"
+    ]
+  },
+  {
+    "id": "card-B2-032",
+    "unit_id": "B-06-03",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "transfer",
+    "front": "Wie lässt sich das **SIP-Modell von Crick & Dodge (1994)** konkret zur Gewaltprävention im **Grundschul-Sport- und Kunstunterricht** nutzen?",
+    "back": "- **Schritt 1 & 2 (Gegen Hostile Attribution Bias):** Im *Sport* bei Balltreffern 3-Sekunden-Stopp zum Prüfen von Mimik/Entschuldigungshand; in *Kunst* zu mehrdeutigen Bildern (verschüttetes Wasser) mindestens drei harmlose Erklärungen sammeln.\n- **Schritt 4 & 5 (Handlungsrepertoire):** Friedliche Reaktions-Sprechblasen/Rollenspiele einüben; keinerlei Verstärkung für Drängeln.\n- **Schulebene:** Klassenregeln/Schulvertrag, Streitschlichter, Anti-Mobbing-Programme und Elterntrainings.",
+    "page_label": "Original-Skript S. 66",
+    "confusion_tag": null,
+    "tags": [
+      "Transfer",
+      "Grundschule",
+      "Kunst",
+      "Sport"
+    ]
+  },
+  {
+    "id": "card-B2-033",
+    "unit_id": "B-05-01",
+    "domain": "B",
+    "subdeck": "5_Moralentwicklung",
+    "card_type": "transfer",
+    "front": "Wie fördert man im **Sport- und Kunstunterricht der Grundschule** gezielt den Übergang von der heteronomen zur autonomen Moral (**Piaget, 1932**)?",
+    "back": "- **Sport (Übergangsphase 7–10 J.):** *Regelwerkstatt* bei kleinen Spielen – Kinder dürfen eine als unfair erlebte Brennball-Regel kooperativ umgestalten und abstimmen (Regeln als veränderbare soziale Übereinkunft erleben).\n- **Kunst (Klasse 1/2):** Bei einem umgestoßenen Wasserbecher explizit zwischen *unabsichtlichem Missgeschick* und *Absicht* unterscheiden und gemeinsam wiedergutmachen statt Sühnestrafen zu verhängen.",
+    "page_label": "Original-Skript S. 54–55",
+    "confusion_tag": null,
+    "tags": [
+      "Transfer",
+      "Grundschule",
+      "Piaget",
+      "Sport",
+      "Kunst"
+    ]
+  },
+  {
+    "id": "card-B2-034",
+    "unit_id": "B-04-06",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "model",
+    "front": "Welche **8 Schritte** umfasst das Prozessmodell der Attributionsprozesse in der **Lehrer-Schüler-Interaktion** (S. 50)?",
+    "back": "1. Schüler nehmen Fremdwahrnehmung ihrer Begabung durch die Lehrkraft wahr\n2. Übernahme dieser Beurteilung ins eigene Begabungsselbstkonzept\n3. Entsprechende Attribution eigener Leistungsergebnisse\n4. Ausrichtung der Selbstbekräftigung (Stolz/Scham)\n5. Entwicklung entsprechender Leistungserwartungen\n6. Entsprechende Anstrengungskalkulation\n7. Umsetzung in aktives Lernhandeln\n8. Korrespondierende Schülerleistungen (selbsterfüllende Prophezeiung).",
+    "page_label": "Original-Skript S. 50",
+    "confusion_tag": null,
+    "tags": [
+      "Modell",
+      "Lehrer-Schüler-Interaktion",
+      "Selbstkonzept"
+    ]
+  },
+  {
+    "id": "card-B2-035",
+    "unit_id": "B-04-06",
+    "domain": "B",
+    "subdeck": "4_Identitaet_und_Selbst",
+    "card_type": "model",
+    "front": "Welche Mediatorrolle spielt das **fachbezogene Selbstkonzept** im **Erwartungs-Wert-Modell** (**Frenzel, Götz & Pekrun, 2009**)?",
+    "back": "Kausalkette mit Rückkopplung:\n1. **Soziale Umwelt** (Milieu, Eltern-/Lehrerverhalten, Rückmeldungen)\n2. **Subjektive Verarbeitung** (Wahrnehmung & Attribution)\n3. **Erwartung** („Kann ich das lernen?“ = **Fachbezogene Selbstkonzepte** als zentraler Mediator!)\n4. **Wert** („Will ich das lernen?“ = Interesse, Emotion, Wichtigkeit, Nützlichkeit, Kosten)\n5. **Lernverhalten** (Ausdauer, Anstrengung, Strategien) -> **Lernergebnis**.",
+    "page_label": "Original-Skript S. 51–52",
+    "confusion_tag": null,
+    "tags": [
+      "Modell",
+      "Erwartungs-Wert-Modell",
+      "Selbstkonzept"
+    ]
+  },
+  {
+    "id": "card-B2-036",
+    "unit_id": "B-05-02",
+    "domain": "B",
+    "subdeck": "5_Moralentwicklung",
+    "card_type": "model",
+    "front": "Welche **vier Einflussbereiche** fördern nach **Kohlberg** das Erreichen höherer Stufen des moralischen Urteils?",
+    "back": "1. **Kognitive Reife:** Wachsende Fähigkeit zur sozialen Perspektivübernahme\n2. **Familie:** Zulassen und Fördern offener Diskurse über Wertprobleme/Konflikte sowie unterstützender Erziehungsstil\n3. **Peers:** Gleichberechtigte Interaktion und Perspektivenwechsel\n4. **Bildungserfahrung:** Anregende schulische und weiterführende Bildungsprozesse (Meinungsstreit, Mitbestimmung).",
+    "page_label": "Original-Skript S. 57–58",
+    "confusion_tag": null,
+    "tags": [
+      "Modell",
+      "Kohlberg",
+      "Einflussfaktoren"
+    ]
+  },
+  {
+    "id": "card-B2-037",
+    "unit_id": "B-06-01",
+    "domain": "B",
+    "subdeck": "6_Sozialverhalten",
+    "card_type": "transfer",
+    "front": "Wie fördert man **prosoziales Verhalten** und **Empathie** konkret im **Kunst- und Sportunterricht** der Grundschule?",
+    "back": "- **Sport:** Kooperative Gruppenspiele mit gemeinsamer Zielabhängigkeit (z. B. ‚Blinden-Parcours‘ mit Partnerführung -> direkte Rollenübernahme; ‚Rettungsinsel‘, bei der alle gemeinsam ankommen müssen).\n- **Kunst:** Gemeinschaftswerke mit Materialteilung sowie Projekte zur *Empathie für Lebensverhältnisse* ab Klasse 4 (z. B. Schuhkarton-Wunschzimmer für Kinder in schwierigen Lebenslagen gestalten) + Lehrkraft als wertschätzendes Modell.",
+    "page_label": "Original-Skript S. 62",
+    "confusion_tag": null,
+    "tags": [
+      "Transfer",
+      "Grundschule",
+      "Kunst",
+      "Sport"
+    ]
+  },
+  {
+    "id": "card-B2-038",
+    "unit_id": "B-05-01",
+    "domain": "B",
+    "subdeck": "5_Moralentwicklung",
+    "card_type": "model",
+    "front": "Welche **vier Kritikpunkte** werden im Skript an **Piagets Modell der Moralentwicklung** genannt?",
+    "back": "1. **Unterschätzung kleinerer Kinder** (Intentionen werden bei einfachen Aufgaben schon früh erkannt)\n2. **Peer-Interaktion allein genügt nicht** – entscheidend ist die *Qualität* der Interaktion\n3. **Keine Beachtung des Jugendalters**\n4. **Verfrühter Endpunkt:** Moralentwicklung ist mit ca. 12 Jahren keineswegs abgeschlossen.",
+    "page_label": "Original-Skript S. 55",
+    "confusion_tag": null,
+    "tags": [
+      "Kritik",
+      "Piaget",
+      "Moralentwicklung"
+    ]
+  },
+  {
+    "id": "card-B2-039",
+    "unit_id": "B-07-01",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "definition",
+    "front": "Definiere **Motivation** (**Rheinberg, 2000**), **Lernmotivation** (**Schiefele & Köller, 2001**) und **Leistungsmotivation** (**Wild et al., 2001**)!",
+    "back": "- **Motivation (Rheinberg, 2000):** Aktivierende Ausrichtung des momentanen Lebensvollzugs auf einen positiv bewerteten Zielzustand.\n- **Lernmotivation (Schiefele & Köller, 2001):** Wunsch (*Selektion*) oder Absicht (*Realisation*), bestimmte Inhalte/Fertigkeiten zu lernen bzw. Aufgaben auszuführen (*Krapp, 2014*: der Leistungsmotivation übergeordnet).\n- **Leistungsmotivation (Wild et al., 2001):** Wunsch/Absicht, Erfolge zu erzielen und Misserfolge zu vermeiden anhand eines individuell als gültig erachteten **Gütemaßstabs** (zielt auf Selbstbewertung eigener Tüchtigkeit).",
+    "page_label": "Original-Skript S. 67",
+    "confusion_tag": "motivation_vs_lern_vs_leistungsmotivation",
+    "tags": [
+      "Definition",
+      "Motivation"
+    ]
+  },
+  {
+    "id": "card-B2-040",
+    "unit_id": "B-07-01",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "model",
+    "front": "Welche **drei Problembereiche der Motivation** unterscheidet das Skript (mit Leitfrage und zentralen Theorien)?",
+    "back": "1. **Zutrauen („Traue ich mir die Aufgabe zu?“):** Leistungsmotivation/Erwartung-mal-Wert (*Heckhausen, 1977*), Kausalattribution (*Weiner, 1971*), Selbstwirksamkeit (*Bandura, 1986/1994*), Selbstwerttheorie (*Covington, 1992*).\n2. **Valenzen („Möchte ich die Aufgabe erledigen und warum?“):** Selbstbestimmungstheorie (*Deci & Ryan, 2000*), Interessenstheorie (*Krapp & Prenzel, 1992*), Zielorientierungen (*Elliot, 1999*).\n3. **Strategie und Wille („Was tue ich, um dranzubleiben?“):** Selbstreguliertes Lernen (*Boekaerts, 1999; Zimmerman, 1989/2000*) und Volition (*Kuhl, 1987; Corno, 1993*).",
+    "page_label": "Original-Skript S. 67–68",
+    "confusion_tag": null,
+    "tags": [
+      "Modell",
+      "Motivation",
+      "Überblick"
+    ]
+  },
+  {
+    "id": "card-B2-041",
+    "unit_id": "B-07-01",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "model",
+    "front": "Wie erklärt **Atkinson (1957)** in der **Erwartungs-Mal-Wert-Theorie** Stärke und Richtung der Leistungsmotivation?",
+    "back": "- **Stärke der Leistungsmotivation:** Multiplikative Verknüpfung aus **Erwartungskomponente** (erwartbarer Erfolg) × **Wertkomponente** (Anreiz des Handlungsergebnisses).\n- **Richtung der Leistungsmotivation:**\n  - **Erfolgsmotiv:** Streben nach hoher Leistung (z. B. gute Noten)\n  - **Misserfolgsmotiv:** Bemühung, Misserfolge zu vermeiden (z. B. Vermeidung schlechter Noten).",
+    "page_label": "Original-Skript S. 68",
+    "confusion_tag": null,
+    "tags": [
+      "Modell",
+      "Atkinson",
+      "Leistungsmotivation"
+    ]
+  },
+  {
+    "id": "card-B2-042",
+    "unit_id": "B-07-01",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "contrast",
+    "front": "Vergleiche **Erfolgszuversichtliche** und **Misserfolgsmeidende** im **Selbstbewertungsmodell der Leistungsmotivation** nach **Heckhausen (1972)**!",
+    "back": "1. **Anspruchsniveau / Zielsetzung:**\n   - *Erfolgszuversichtlich:* Realistisch, **mittelschwere Aufgaben**\n   - *Misserfolgsmeidend:* Unrealistisch, **extrem leichte oder extrem schwere Aufgaben**\n2. **Ursachenzuschreibung (Attribution):**\n   - *Erfolgszuversichtlich:* Erfolg -> Anstrengung/eigene Tüchtigkeit; Misserfolg -> mangelnde Anstrengung/Pech\n   - *Misserfolgsmeidend:* Erfolg -> Glück/leichte Aufgabe; Misserfolg -> mangelnde eigene Fähigkeit/Begabung\n3. **Bewertung:** Positive vs. negative **Erfolgs-Misserfolgsbilanz**.",
+    "page_label": "Original-Skript S. 69",
+    "confusion_tag": "erfolgszuversichtlich_vs_misserfolgsmeidend",
+    "tags": [
+      "Modell",
+      "Abgrenzung",
+      "Heckhausen"
+    ]
+  },
+  {
+    "id": "card-B2-043",
+    "unit_id": "B-07-02",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "contrast",
+    "front": "Wie werden **intrinsische** und **extrinsische Motivation** definiert (**Deci & Ryan, 1985; Schiefele & Köller, 2001**)?",
+    "back": "- **Intrinsische Motivation:** Wunsch/Absicht, eine Handlung durchzuführen, weil die Handlung *selbst* als interessant, spannend oder herausfordernd erscheint -> **Zielzustand liegt innerhalb der Handlung**.\n- **Extrinsische Motivation:** Wunsch/Absicht, eine Handlung durchzuführen, um positive Folgen herbeizuführen oder negative zu vermeiden -> **Zielzustand liegt außerhalb der eigentlichen Handlung**.",
+    "page_label": "Original-Skript S. 69",
+    "confusion_tag": "intrinsische_vs_extrinsische_motivation",
+    "tags": [
+      "Definition",
+      "Abgrenzung",
+      "Motivation"
+    ]
+  },
+  {
+    "id": "card-B2-044",
+    "unit_id": "B-07-02",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "model",
+    "front": "Nenne die **5 Regulationsstufen** von fremdbestimmt bis selbstbestimmt in der **Selbstbestimmungstheorie** nach **Deci & Ryan (2002)**!",
+    "back": "**Extrinsische Motivation (4 Stufen zunehmender Selbstbestimmung):**\n1. **Externale Regulation:** Äußerer Druck (Belohnung / Bestrafung)\n2. **Introjizierte Regulation:** Internalisierung ohne Identifizierung (innerer Druck: Schuld/Stolz)\n3. **Identifizierte Regulation:** Persönliche Identifizierung mit dem Ziel, aber noch Konflikte mit anderen Zielen möglich\n4. **Integrierte Regulation:** Volle Identifizierung ohne Konflikte mit anderen eigenen Zielen\n\n**Intrinsische Motivation:**\n5. **Intrinsische Regulation:** Handeln aufgrund handlungsbegleitender Anreize.",
+    "page_label": "Original-Skript S. 69",
+    "confusion_tag": "deci_ryan_regulationsstufen",
+    "tags": [
+      "Modell",
+      "Deci & Ryan",
+      "Selbstbestimmungstheorie"
+    ]
+  },
+  {
+    "id": "card-B2-045",
+    "unit_id": "B-07-02",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "model",
+    "front": "Welche **drei psychologischen Grundbedürfnisse (Basic Needs)** postulieren **Deci & Ryan (1993)**?",
+    "back": "1. **Kompetenz** (Erleben eigener Wirksamkeit und Könnenszuwachs)\n2. **Autonomie** (Erleben von Wahlfreiheit und Selbstbestimmung)\n3. **Soziale Einbindung** (Erleben von Wertschätzung und Zugehörigkeit zu Lehrenden & Mitschülern)",
+    "page_label": "Original-Skript S. 70",
+    "confusion_tag": null,
+    "tags": [
+      "Modell",
+      "Basic Needs",
+      "Deci & Ryan"
+    ]
+  },
+  {
+    "id": "card-B2-046",
+    "unit_id": "B-07-02",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "empirics",
+    "front": "Was besagt der **Korrumpierungseffekt der Belohnung** nach **Deci et al. (2001)** für Lob und materielle Belohnungen?",
+    "back": "- **Erwartete materielle Belohnungen** (leistungs- und aufgabenbezogen) **untergraben** die intrinsische Motivation deutlich – besonders bei Kindern in **Grundschule und Sekundarstufe I**.\n- **Unerwartete und aufgabenunabhängige Belohnungen** schaden der intrinsischen Motivation nicht.\n- **Positives verbales Feedback** stärkt intrinsische Motivation, sofern es **informierend/autonomieunterstützend** und nicht kontrollierend erlebt wird.",
+    "page_label": "Original-Skript S. 70",
+    "confusion_tag": null,
+    "tags": [
+      "Empirie",
+      "Korrumpierungseffekt",
+      "Deci & Ryan"
+    ]
+  },
+  {
+    "id": "card-B2-047",
+    "unit_id": "B-07-03",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "definition",
+    "front": "Wie definiert **Krapp (2003)** **Interesse**, und worin unterscheidet es sich von der **Leistungsmotivation**?",
+    "back": "**Interesse (Krapp, 2003):** Eine mehr oder weniger **überdauernde spezifische Beziehung zwischen einer Person und einem Gegenstand** aus ihrem Lebensraum (*Person-Gegenstands-Theorie*).\n\n**Abgrenzung (S. 71):**\n- *Interesse:* Inhaltsspezifische Person-Objekt-Beziehung\n- *Leistungsmotivation:* Inhaltsübergreifendes Handeln nach selbst gesetzten Gütestandards.",
+    "page_label": "Original-Skript S. 70–71",
+    "confusion_tag": "interesse_vs_leistungsmotivation",
+    "tags": [
+      "Definition",
+      "Abgrenzung",
+      "Krapp"
+    ]
+  },
+  {
+    "id": "card-B2-048",
+    "unit_id": "B-07-03",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "contrast",
+    "front": "Unterscheide **situationales**, **individuelles** und **aktualisiertes Interesse**!",
+    "back": "- **Situationales Interesse:** Konkreter, situationsspezifischer motivationaler Zustand, ausgelöst durch besondere Anreizbedingungen der Lernsituation (*Interessantheit*).\n- **Individuelles Interesse:** Überdauernde, dispositionale Person-Objekt-Beziehung (auch in der Freizeit aktiv).\n- **Aktualisiertes Interesse:** Aktivierung eines bereits bestehenden *individuellen* Interesses durch passende Merkmale der Lernumgebung.",
+    "page_label": "Original-Skript S. 70",
+    "confusion_tag": "situationales_vs_individuelles_vs_aktualisiertes_interesse",
+    "tags": [
+      "Abgrenzung",
+      "Interesse",
+      "Krapp"
+    ]
+  },
+  {
+    "id": "card-B2-049",
+    "unit_id": "B-07-03",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "model",
+    "front": "Nenne alle **6 Merkmale individueller Interessen** sowie die zwei Voraussetzungen im **Modell der Interessensgenese** (**Krapp, 1998**)!",
+    "back": "**6 Merkmale individueller Interessen:**\n1. **Wertbezogene Valenz** (hohe subjektive Bedeutung)\n2. **Emotionale Valenz** (positive Gefühle wie Freude)\n3. **Inhalts-/Gegenstandsspezifität** (komplexer werdendes Fachwissen)\n4. **Epistemische Orientierung** (Wille, mehr zu erfahren)\n5. **Selbstintentionalität** (eigene, selbstkompatible Ziele)\n6. **Selbst-Nähe** (Teil der eigenen Identität)\n\n**Interessensgenese (Krapp, 1998):** Übergang situational -> individuell gelingt über *Internalisierung/Identifikation* bei **1. persönlicher inhaltlicher Relevanz** + **2. positiver emotionaler Bilanz (Basic Needs)**.",
+    "page_label": "Original-Skript S. 71",
+    "confusion_tag": null,
+    "tags": [
+      "Modell",
+      "Krapp",
+      "Interessensgenese"
+    ]
+  },
+  {
+    "id": "card-B2-050",
+    "unit_id": "B-07-03",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "model",
+    "front": "Welche **6 pädagogisch gestaltbaren motivationsunterstützenden Bedingungen** nennen **Prenzel (1996)** bzw. **Krapp & Prenzel (1992)**?",
+    "back": "1. **Inhaltliche Relevanz des Lernstoffes** (Anwendungsbezug, Problemorientierung, Fächerverknüpfung)\n2. **Instruktionsqualität** (Klarheit & Strukturiertheit statt Überforderung)\n3. **Inhaltliches Interesse beim Lehrenden** (Engagement, „der Funke springt über“)\n4. **Soziale Einbindung** (Wertschätzung, warmherzig-partnerschaftlicher Umgang)\n5. **Kompetenzunterstützung** (passender Schwierigkeitsgrad, sachliche/individuelle Bezugsnorm)\n6. **Autonomieunterstützung** (Wahlmöglichkeiten, selbstgesteuertes Planen/Lernen)",
+    "page_label": "Original-Skript S. 72",
+    "confusion_tag": null,
+    "tags": [
+      "Modell",
+      "Unterricht",
+      "Krapp & Prenzel"
+    ]
+  },
+  {
+    "id": "card-B2-051",
+    "unit_id": "B-07-04",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "contrast",
+    "front": "Stelle die **2×2-Matrix motivationaler Zielorientierungen** (**Elliot, 1999**) inkl. der empirischen Leistungsbefunde dar (und nenne das Testverfahren)!",
+    "back": "- **Aufsuchende Lernzielorientierung (Annäherungslernziele):** Lernen, um zu verstehen/können -> *Empirie:* **gute Lernergebnisse**\n- **Meidende Lernzielorientierung (Vermeidungslernziele):** Lernen, um nicht nichts zu wissen/verlernen\n- **Aufsuchende Leistungszielorientierung (Annäherungsleistungsziele):** Lernen für gute Noten/Überlegenheit -> *Empirie:* **relativ gute Lernergebnisse**\n- **Meidende Leistungszielorientierung (Vermeidungsleistungsziele):** Lernen, um schlechte Noten/Blamage zu vermeiden -> *Empirie:* **weniger gute Lernergebnisse**\n\n*Diagnostik:* **SELLMO** (Skalen zur Erfassung der Lern- und Leistungsmotivation).",
+    "page_label": "Original-Skript S. 73",
+    "confusion_tag": "zielorientierungen_2x2_matrix",
+    "tags": [
+      "Modell",
+      "Empirie",
+      "Zielorientierungen",
+      "SELLMO"
+    ]
+  },
+  {
+    "id": "card-B2-052",
+    "unit_id": "B-07-04",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "model",
+    "front": "Welche **6 Entwicklungsetappen der Leistungsmotivation** unterscheidet **Heckhausen (2006)**?",
+    "back": "1. **< 1 Jahr:** Freude am Effekt (sekundäre Kreisreaktion, *effectance motivation*)\n2. **Ca. 1,5–2 Jahre:** Erste Stolz- und Verlegenheitsreaktionen\n3. **Ca. 3,5 Jahre:** Verknüpfung des Ergebnisses mit eigener Tüchtigkeit (Stolz & Scham)\n4. **Ca. 4,5 Jahre:** Erste Anspruchsniveau-Setzung, *individuelle Bezugsnorm* & *Aufgabenorientierung*\n5. **Ca. 5 Jahre:** Unterscheidung zwischen Tüchtigkeit und Aufgabenschwierigkeit\n6. **Ca. 8 Jahre (Grundschule!):** Übergang zu *Performanz-/Leistungszielorientierung* und *sozialer Bezugsnormorientierung*.",
+    "page_label": "Original-Skript S. 73",
+    "confusion_tag": null,
+    "tags": [
+      "Entwicklung",
+      "Heckhausen",
+      "Leistungsmotivation"
+    ]
+  },
+  {
+    "id": "card-B2-053",
+    "unit_id": "B-07-04",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "model",
+    "front": "Wie entwickeln sich kompetenzbezogene Überzeugungen (**Fähigkeit vs. Anstrengung**) nach **Nichols / Nicholls (1978)**?",
+    "back": "- **5–6 Jahre:** Trennung Tüchtigkeit (intern) vs. Schwierigkeit (extern), aber *keine* Trennung Anstrengung vs. Fähigkeit\n- **6–9 Jahre:** *Anstrengung* gilt als Hauptursache für Leistung\n- **9–12 Jahre:** Beginnende, noch inkonsistente Differenzierung von Fähigkeit und Anstrengung\n- **Ab 12 Jahren:** Reife Differenzierung – **Fähigkeit als Disposition/Kapazitätsgrenze** vs. Anstrengung vs. Zufall/Glück.\n*Risiko ab 12 J.:* Erfolg nur durch große Anstrengung wird als Zeichen mangelnder Begabung gedeutet!",
+    "page_label": "Original-Skript S. 74",
+    "confusion_tag": null,
+    "tags": [
+      "Entwicklung",
+      "Nicholls",
+      "Fähigkeitskonzept"
+    ]
+  },
+  {
+    "id": "card-B2-054",
+    "unit_id": "B-07-04",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "empirics",
+    "front": "Was zeigen die Studien von **Heckhausen & Oswald (1966)** (Eltern) und **Rheinberg (1978)** (Lehrkräfte) zur Förderung der Leistungsmotivation?",
+    "back": "- **Heckhausen & Oswald (1966, Fünfjährige):** Entwicklungsangemessen hohes elterliches Anspruchsniveau + positive Verstärkung + Selbstständigkeit -> **höhere Leistungsmotivation** (Tadel/Strafe & einengende Eingriffe -> niedrigere LM).\n- **Rheinberg (1978, Bezugsnormorientierung):** Lehrkräfte mit **individueller BNO** haben eher **erfolgsorientierte** Lernende; Lehrkräfte mit **sozialer BNO** eher **misserfolgsorientierte** Lernende.",
+    "page_label": "Original-Skript S. 75",
+    "confusion_tag": null,
+    "tags": [
+      "Empirie",
+      "Rheinberg",
+      "Heckhausen"
+    ]
+  },
+  {
+    "id": "card-B2-055",
+    "unit_id": "B-07-05",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "empirics",
+    "front": "Was belegt **Renninger (1990, 2000)** zur frühen Interessensentwicklung, und wie verschiebt sich die Bedeutung von Kontext vs. Basic Needs?",
+    "back": "- **Renninger (1990, 2000):** Auf Basis früher Reizsensibilitäten (Präferenzstruktur) existieren bereits im **Kindergartenalter** relativ stabile Person-Gegenstands-Bezüge.\n- **Bedeutungswandel (S. 75):** Anfangs sind **Lernkontext und Instruktionsqualität** besonders wichtig; für den Übergang in ein dauerhaftes individuelles Interesse (Identifikation & Internalisierung) wächst die Bedeutung der **Basic Needs** massiv.",
+    "page_label": "Original-Skript S. 75",
+    "confusion_tag": null,
+    "tags": [
+      "Empirie",
+      "Renninger",
+      "Interessensentwicklung"
+    ]
+  },
+  {
+    "id": "card-B2-056",
+    "unit_id": "B-07-05",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "model",
+    "front": "Welche **4 Altersphasen** beschreiben entwicklungspsychologische Interessenstheorien (inkl. Grundschul-Verlauf & **Todt / Gottfredson**)?",
+    "back": "1. **Universelle Interessen (0–2 J.):** Angeborene Tendenzen (Gesichter, Kanten/Linien, Schwarz-Weiß-Muster, belebt vs. unbelebt)\n2. **Geschlechtsspezifische Interessen (ab ca. 1,5 J.):** z. B. Tiere vs. Fahrzeuge\n3. **Allgemeine Interessen (Grundschule bis Pubertät):** Anfang GS breit (Tiere, Fahrzeuge, Lesen, Rechnen, Schreiben) -> **Ende der Grundschulzeit deutlich sinkendes Interesse an Schulfächern!**\n4. **Individuelle Interessen (ab Pubertät):** Vermehrte **Ausgrenzung** von Interessensgebieten (*Circumscription & Compromise* nach Gottfredson / Todt).",
+    "page_label": "Original-Skript S. 76",
+    "confusion_tag": null,
+    "tags": [
+      "Entwicklung",
+      "Interessenstheorien",
+      "Grundschule"
+    ]
+  },
+  {
+    "id": "card-B2-057",
+    "unit_id": "B-07-04",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "transfer",
+    "front": "Wie nutzt man **individuelle Bezugsnormorientierung (Rheinberg)** und **SMART-Lernziele** im **Sport- und Kunstunterricht** ab Klasse 3?",
+    "back": "- **Sport (Ausdauerlauf ab 8 J.):** Statt Zieleinlauf-Rangliste führt jedes Kind seinen eigenen *Minuten-Pass* („Schaffe ich heute 1 Minute länger lockeres Laufen als letzte Woche?“ -> individuelle BNO schützt vor Misserfolgsangst).\n- **Kunst (Aquarell-Technikpass):** Jedes Kind wählt ein konkretes SMART-Lernziel („Heute gelingt mir ein gleichmäßiger Farbverlauf ohne Wasserpfütze“ -> fördert Annäherungslernziele statt sozialem Bildvergleich).",
+    "page_label": "Original-Skript S. 73–75",
+    "confusion_tag": null,
+    "tags": [
+      "Transfer",
+      "Grundschule",
+      "Sport",
+      "Kunst"
+    ]
+  },
+  {
+    "id": "card-B2-058",
+    "unit_id": "B-08-01",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "definition",
+    "front": "Wie definiert **Götz (2017)** **Emotionen** (inkl. Aufschlüsselung aller **5 Komponenten** aus Abb. S. 77)?",
+    "back": "**Emotionen (Götz, 2017)** sind mehrdimensionale Konstrukte aus **5 Komponenten**:\n1. **Affektiv:** Angenehmes (lustvolles) vs. unangenehmes (unlustvolles) Erleben\n2. **Kognitiv:** Gedanken an Erfolg/Annäherung vs. Versagen/Flucht\n3. **Physiologisch:** *Zentral* (präfrontaler Kortex, Amygdala) & *peripher* (Muskeltonus, Herzrate, Hautleitfähigkeit, Atmung)\n4. **Expressiv:** Verbaler & nonverbaler Ausdruck (Mimik, Gestik)\n5. **Motivational:** Annäherungs-/Explorations- vs. Vermeidungs-/Angriffs-/Fluchtverhalten.",
+    "page_label": "Original-Skript S. 77",
+    "confusion_tag": null,
+    "tags": [
+      "Definition",
+      "Modell",
+      "Emotionen",
+      "Götz"
+    ]
+  },
+  {
+    "id": "card-B2-059",
+    "unit_id": "B-08-01",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "definition",
+    "front": "Wie definiert **Pekrun (2006)** **Leistungsemotionen**, und was besagt der empirische Befund von **Pekrun (1998)**?",
+    "back": "- **Definition (Pekrun, 2006):** Emotionen von Schülerinnen und Schülern, die sie in Bezug auf **leistungsbezogene Aktivitäten** und die **Leistungsergebnisse** dieser Aktivitäten erleben.\n- **Empirischer Befund (Pekrun, 1998):** Positive und negative Emotionen kommen in Lern- und Leistungssituationen **in etwa gleich häufig** vor.",
+    "page_label": "Original-Skript S. 77",
+    "confusion_tag": null,
+    "tags": [
+      "Definition",
+      "Empirie",
+      "Pekrun"
+    ]
+  },
+  {
+    "id": "card-B2-060",
+    "unit_id": "B-08-01",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "contrast",
+    "front": "Unterscheide **Primäre Appraisals** und **Sekundäre Appraisals** nach **Lazarus (1991)** und ordne sie **Wert** und **Kontrolle** (**Pekrun**) zu!",
+    "back": "- **Primäre Appraisals -> WERT:** Beurteilung der persönlichen Bedeutsamkeit (wichtig vs. unwichtig) und Valenz (positiv vs. negativ, konsistent vs. inkonsistent mit eigenen Bedürfnissen).\n- **Sekundäre Appraisals -> KONTROLLE:** Beurteilung des Zustandekommens der Situation (selbst- vs. fremdverursacht) und des eigenen **Coping-Potenzials** (verfügbare Bewältigungsressourcen).",
+    "page_label": "Original-Skript S. 78",
+    "confusion_tag": "primaeres_vs_sekundaeres_appraisal",
+    "tags": [
+      "Abgrenzung",
+      "Lazarus",
+      "Pekrun",
+      "Appraisals"
+    ]
+  },
+  {
+    "id": "card-B2-061",
+    "unit_id": "B-08-01",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "model",
+    "front": "Über welche **3 Wirkmechanismen** beeinflussen Emotionen nach **Pekrun (2006)** Lernen und Leistung (inkl. **Götz, 2004** & 2×2-Taxonomie)?",
+    "back": "1. **Kognitive Ressourcen:** Negative Emotionen verbrauchen Arbeitsgedächtniskapazität; Freude fördert Konzentration und Leistung (**Götz, 2004**).\n2. **Lernstrategien:** Positive Emotionen fördern selbstreguliertes, flexibles, transferorientiertes Denken; negative fördern starres Befolgen externer Regeln.\n3. **Motivation (Valenz × Aktivierung):**\n   - *Positiv-aktivierend (Freude):* leistungssteigernd (+)\n   - *Negativ-deaktivierend (Langeweile):* leistungsmindernd (−)\n   - *Positiv-deaktivierend (Erleichterung) & negativ-aktivierend (Angst):* komplex/ambivalent (Angst senkt intrinsische, steigert evtl. extrinsische Vermeidungsmotivation).",
+    "page_label": "Original-Skript S. 78",
+    "confusion_tag": "aktivierende_vs_deaktivierende_emotionen",
+    "tags": [
+      "Modell",
+      "Empirie",
+      "Pekrun",
+      "Götz"
+    ]
+  },
+  {
+    "id": "card-B2-062",
+    "unit_id": "B-08-01",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "model",
+    "front": "Wie entwickeln sich **Emotionen** und **Emotionsregulation** über die Kindheit (Abb. S. 79), und wie definieren **Salisch & Kunzmann (2005)** Emotionsregulation?",
+    "back": "**Entwicklung (Abb. S. 79):**\n- *Emotionen:* Vorläuferemotionen (Neugeborenes) -> voll funktionsfähige Basisemotionen (Säugling/Kleinkind) -> neue selbstbezogene Emotionen wie **Stolz und Scham** (Vorschüler) -> weitere Ausdifferenzierung.\n- *Regulation:* Von **interpersonaler Regulation** durch Bezugspersonen über den Übergang im Vorschulalter hin zu eigenständiger **intrapersonaler Regulation**.\n\n**Definition (Salisch & Kunzmann, 2005):** Regulation von Intensität, Dauer, Ausdrucksweise und Qualität einer aktuell erlebten bzw. bevorstehenden Emotion mittels Handlungen oder (Selbst-)Instruktionen.",
+    "page_label": "Original-Skript S. 79–80",
+    "confusion_tag": "interpersonale_vs_intrapersonale_emotionsregulation",
+    "tags": [
+      "Entwicklung",
+      "Definition",
+      "Emotionsregulation"
+    ]
+  },
+  {
+    "id": "card-B2-063",
+    "unit_id": "B-08-01",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "transfer",
+    "front": "Durch welche konkreten Unterrichtsmaßnahmen lassen sich **Kontroll- und Wertkognitionen** positiv beeinflussen (S. 79)?",
+    "back": "1. **Klare Unterrichtsstruktur** (Inhalts- und Zeitpläne)\n2. **Offene, selbstbestimmte Lerngelegenheiten** (z. B. Projektarbeit)\n3. **Klare Lernzielformulierung & Transparenz der Beurteilungskriterien**\n4. **Strikte Trennung von Lern- und Prüfungszeiten** (Fehler in Lernzeiten als „Lernchance“)\n5. **Unterstützung der Emotionsregulation** (problem- & emotionsorientiertes Coping)\n6. **Vorleben leistungsförderlicher Emotionen** durch die Lehrkraft.",
+    "page_label": "Original-Skript S. 79",
+    "confusion_tag": null,
+    "tags": [
+      "Transfer",
+      "Unterricht",
+      "Emotionen"
+    ]
+  },
+  {
+    "id": "card-B2-064",
+    "unit_id": "B-08-02",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "definition",
+    "front": "Wie definieren **Covington & Omelich (1988)** **Prüfungsangst** (bzw. Leistungsangst)?",
+    "back": "**Prüfungsangst** ist **„die Beschäftigung mit Schwierigkeiten im Leistungsbereich, bevor man sie hat“** (*Covington & Omelich, 1988*).\n\nDie übergeordnete **Leistungsangst** wird als **Bedrohungserleben in evaluativen Situationen** verstanden.",
+    "page_label": "Original-Skript S. 80",
+    "confusion_tag": null,
+    "tags": [
+      "Definition",
+      "Prüfungsangst"
+    ]
+  },
+  {
+    "id": "card-B2-065",
+    "unit_id": "B-08-02",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "model",
+    "front": "Welche typischen Merkmale kennzeichnen **hochängstliche Schülerinnen und Schüler** nach **Sieland, Eckert & Heyse (2016)**?",
+    "back": "- Geringere schulbezogene **Selbstwirksamkeit** und geringerer **Selbstwert**, gesteigerte Hilflosigkeit\n- Ungünstige Lernstile und Lernstrategien\n- Schlechtere Noten und Testleistungen in mehreren Fächern\n- Häufigere **soziale Isolierung** bei Peers\n- **Ungünstiges Attributionsmuster:** Erfolge *external*, Misserfolge *internal* -> starkes Leiden\n- Häufigeres Fehlen und psychosomatische Krankheit\n- Wahrnehmung als problematisch & **Leistungsunterschätzung** durch Eltern und Lehrkräfte.",
+    "page_label": "Original-Skript S. 80",
+    "confusion_tag": null,
+    "tags": [
+      "Merkmale",
+      "Prüfungsangst"
+    ]
+  },
+  {
+    "id": "card-B2-066",
+    "unit_id": "B-08-02",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "contrast",
+    "front": "Unterscheide die zwei Prüfungsangst-Typen nach **Zeidner (1998)**: **Lernbeeinträchtigte** vs. **Angstblockierte Prüflinge**!",
+    "back": "- **Lernbeeinträchtigte Prüflinge:** Besitzen bereits vor der Prüfung **defizitäre Lern- und Prüfungsstrategien** beim Erarbeiten, Organisieren, Wiederholen und Abrufen des Stoffes (*entspricht dem Defizit-Modell*).\n- **Angstblockierte Prüflinge:** Verfügen über **gute Lernstrategien**, sind aber akut in der Prüfung **emotional blockiert** (Stress, aufgabenirrelevante Sorgengedanken, Konzentrationsprobleme; *entspricht dem Interferenzmodell*).",
+    "page_label": "Original-Skript S. 80",
+    "confusion_tag": "lernbeeintraechtigte_vs_angstblockierte_prueflinge",
+    "tags": [
+      "Abgrenzung",
+      "Zeidner",
+      "Prüfungsangst"
+    ]
+  },
+  {
+    "id": "card-B2-067",
+    "unit_id": "B-08-02",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "contrast",
+    "front": "Erkläre die **Zwei-Komponenten-Theorie der Prüfungsangst** nach **Liebert & Morris (1967)** (**Worry** vs. **Emotionality**) und ihre Leistungswirkung!",
+    "back": "- **Worry (Besorgtheit – kognitive Komponente):** Sorgengedanken über Versagen und mangelnde Fähigkeiten -> **hauptverantwortlich für Leistungsabfall**, da sie Aufmerksamkeit binden, **Arbeitsgedächtniskapazität absorbieren** und Unkontrollierbarkeit verstärken.\n- **Emotionality (Aufgeregtheit – affektiv-physiologische Komponente):** Subjektiv wahrgenommene körperliche Erregung (Herzrasen, Schwitzen, flauer Magen, Frosch im Hals, trockener Mund, Zittern) zur Energiebereitstellung.",
+    "page_label": "Original-Skript S. 81",
+    "confusion_tag": "worry_vs_emotionality",
+    "tags": [
+      "Modell",
+      "Abgrenzung",
+      "Liebert & Morris",
+      "Prüfungsangst"
+    ]
+  },
+  {
+    "id": "card-B2-068",
+    "unit_id": "B-08-02",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "model",
+    "front": "Wie entsteht Prüfungsangst gemäß der **Transaktionalen Stresstheorie** von **Lazarus & Folkman (1984)** (Abb. S. 81)?",
+    "back": "Zweistufiger Bewertungsprozess:\n1. **Situation / Reiz** trifft auf **Primärbewertung (*Primary appraisal* = WERT):** Wird die Situation als *bedrohlich* eingestuft (statt nicht bedrohlich), folgt:\n2. **Sekundärbewertung (*Secondary appraisal* = KONTROLLE):** Lautet die Einschätzung *„Ich kann die Situation nicht bewältigen“* (statt „Ich kann sie bewältigen“), entsteht **Angst**.",
+    "page_label": "Original-Skript S. 81",
+    "confusion_tag": null,
+    "tags": [
+      "Modell",
+      "Lazarus & Folkman",
+      "Stresstheorie"
+    ]
+  },
+  {
+    "id": "card-B2-069",
+    "unit_id": "B-08-02",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "empirics",
+    "front": "Was besagen das **Yerkes-Dodson-Gesetz (1908)** und die **Aufmerksamkeitshypothese der Angst** (**Wine, 1971**)?",
+    "back": "- **Yerkes & Dodson (1908):** Umgekehrt U-förmige Kurve zwischen Erregung und Leistung – gute Leistung braucht ein *mittleres Maß an Aktivierung*; zu hohe Erregung (samt Worry-Interferenzen) senkt die Leistung.\n- **Wine (1971, Aufmerksamkeitshypothese):** Prüfungsängstliche teilen ihre Aufmerksamkeit zwischen aufgabenrelevanten Tätigkeiten und aufgabenirrelevanten Prozessen (Sorgengedanken, Selbstkritik, Körpersymptome) auf -> Überlastung der **begrenzten Kapazität des Arbeitsgedächtnisses**.",
+    "page_label": "Original-Skript S. 82",
+    "confusion_tag": null,
+    "tags": [
+      "Empirie",
+      "Modell",
+      "Yerkes & Dodson",
+      "Wine"
+    ]
+  },
+  {
+    "id": "card-B2-070",
+    "unit_id": "B-08-02",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "contrast",
+    "front": "Vergleiche **Interferenzmodell** und **Defizit-Modell** der Prüfungsangst nach **Zeidner (1998)** inklusive der empirischen Belege!",
+    "back": "- **Interferenzmodell:** Prüfungsangst zieht in der Prüfung Bearbeitungskapazität ab und stört den Wissensabruf.\n  - *Empirischer Beleg:* In **spielerischen Situationen** erbringen Hoch- und Niedrigängstliche **gleich gute Leistungen**!\n- **Defizit-Modell:** Schlechtere Leistung resultiert aus defizitären Lern- und Prüfungsstrategien.\n  - *Empirischer Beleg:* Prüfungsängstliche verwenden eher oberflächliche **Wiederholungsstrategien**, während Niedrigängstliche tiefer verarbeiten, organisieren, elaborieren und mehr **metakognitive Strategien** nutzen.",
+    "page_label": "Original-Skript S. 82",
+    "confusion_tag": "interferenzmodell_vs_defizitmodell_pruefungsangst",
+    "tags": [
+      "Abgrenzung",
+      "Empirie",
+      "Zeidner",
+      "Prüfungsangst"
+    ]
+  },
+  {
+    "id": "card-B2-071",
+    "unit_id": "B-08-02",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "model",
+    "front": "Welche **vier Interventionsansätze** gegen Prüfungsangst fasst **Zeidner (1998)** zusammen (mit je einem konkreten Beispiel)?",
+    "back": "1. **Verringerung von Emotionality:** Systematische Desensibilisierung, Entspannungsverfahren (Atemtechniken, PMR)\n2. **Verringerung von Worry:** Kognitive Umstrukturierung, Aufmerksamkeitstraining, Gedankenkontrolle\n3. **Verbesserung der Prüfungsstrategien:** Zuerst einfache Aufgaben bearbeiten, Fragen genau im Blick behalten, Antworten auf Plausibilität prüfen\n4. **Verbesserung der Lernstrategien:** Tiefenverarbeitung (Organisation, Elaboration, Metakognition) statt bloßem Wiederholen.",
+    "page_label": "Original-Skript S. 82",
+    "confusion_tag": null,
+    "tags": [
+      "Intervention",
+      "Zeidner",
+      "Prüfungsangst"
+    ]
+  },
+  {
+    "id": "card-B2-072",
+    "unit_id": "B-08-02",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "transfer",
+    "front": "Ein Kind bekommt vor dem **Gerätturnen-Vorturnen im Sportunterricht** Bauchweh und Blackout, obwohl es die Übung im Training sicher konnte. Welcher Typ liegt vor und wie intervenierst du?",
+    "back": "**Diagnose:** **Angstblockierter Prüfling** / **Interferenzmodell** (Zeidner, 1998) – im spielerischen Training klappt es, unter Evaluierungsdruck blockieren *Worry* und hohe *Emotionality*.\n\n**Intervention im Sport:**\n1. *Emotionality senken:* Kurze ruhige Bauchatmung, schrittweise Annäherung\n2. *Evaluationsbedrohung senken:* Paralleles Turnen an 4 Stationen statt Einzel-Vorführen vor der ganzen Klasse\n3. *Worry & Prüfungsstrategie:* Mit einem ganz sicheren Lieblingselement starten -> stärkt Kontroll-Appraisal.",
+    "page_label": "Original-Skript S. 80–82",
+    "confusion_tag": null,
+    "tags": [
+      "Transfer",
+      "Fallvignette",
+      "Sport",
+      "Prüfungsangst"
+    ]
+  },
+  {
+    "id": "card-B2-073",
+    "unit_id": "B-07-02",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "contrast",
+    "front": "Worin liegt der genaue Unterschied zwischen **introjizierter**, **identifizierter** und **integrierter Regulation** nach **Deci & Ryan (2002)**?",
+    "back": "- **Introjizierte Regulation:** Ziel wurde übernommen, aber *ohne Identifizierung* -> Handeln aus innerem Druck (schlechtes Gewissen vermeiden, Stolz sichern).\n- **Identifizierte Regulation:** Person *identifiziert* sich mit dem Handlungsziel als persönlich wichtig, es bestehen aber noch *Konflikte mit anderen eigenen Zielen*.\n- **Integrierte Regulation:** Volle *Identifizierung ohne Konflikte* mit anderen Zielen und Werten des eigenen Selbst (höchste Form selbstbestimmter extrinsischer Motivation).",
+    "page_label": "Original-Skript S. 69",
+    "confusion_tag": "introjiziert_vs_identifiziert_vs_integriert",
+    "tags": [
+      "Abgrenzung",
+      "Deci & Ryan",
+      "Internalisierung"
+    ]
+  },
+  {
+    "id": "card-B2-074",
+    "unit_id": "B-07-03",
+    "domain": "B",
+    "subdeck": "7_Motivation_und_Interesse",
+    "card_type": "transfer",
+    "front": "Entwirf eine **Kunst-Unterrichtseinheit in Klasse 3** entlang der **6 motivationsunterstützenden Bedingungen** von **Prenzel (1996)**!",
+    "back": "Beispiel *Architektur-Werkstatt „Unser Traum-Baumhaus“*:\n1. **Inhaltliche Relevanz:** Anknüpfen an eigene Kinderträume & Statik im Alltag\n2. **Instruktionsqualität:** Klare Kurz-Demo stabiler Kartonverbindungen\n3. **Lehrerinteresse:** Lehrkraft zeigt begeistert eigene Modellskizzen („Funke springt über“)\n4. **Soziale Einbindung:** Wertschätzende Partnerarbeit im Bauteam\n5. **Kompetenzunterstützung:** Gestufte Tippkarten + sachbezogenes Feedback\n6. **Autonomieunterstützung:** Freie Wahl von Raumaufteilung, Leitern und Gestaltung.",
+    "page_label": "Original-Skript S. 72",
+    "confusion_tag": null,
+    "tags": [
+      "Transfer",
+      "Grundschule",
+      "Kunst",
+      "Prenzel"
+    ]
+  },
+  {
+    "id": "card-B2-075",
+    "unit_id": "B-08-02",
+    "domain": "B",
+    "subdeck": "8_Emotion_und_Pruefungsangst",
+    "card_type": "model",
+    "front": "Wie hängen **Gebiet A (Arbeitsgedächtnis & Konditionieren)**, **Gebiet B (Liebert & Morris, 1967)** und **Gebiet C (AFS / Diagnostik)** beim Thema **Prüfungsangst** zusammen?",
+    "back": "- **Gebiet B (Liebert & Morris, 1967; Wine, 1971):** Trennung in *Emotionality* (körperliche Aufregung) und *Worry* (Sorgengedanken).\n- **Brücke zu Gebiet A:** *Emotionality* wird oft klassisch konditioniert (und über systematische Desensibilisierung abgebaut); *Worry* blockiert die begrenzte Kapazität des **Arbeitsgedächtnisses** (Baddeley / Cognitive Load); das *Defizit-Modell* betrifft kognitive/metakognitive Lernstrategien.\n- **Brücke zu Gebiet C:** Differenzierte Abklärung über Fragebögen (z. B. *AFS*) zur Unterscheidung von angstblockierten vs. lernbeeinträchtigten Kindern.",
+    "page_label": "Original-Skript S. 80–82",
+    "confusion_tag": null,
+    "tags": [
+      "Vernetzung",
+      "Prüfungsangst",
+      "Theorie-Brücke"
+    ]
+  }
+]

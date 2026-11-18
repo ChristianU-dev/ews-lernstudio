@@ -1,0 +1,1875 @@
+{
+  "domain": "C",
+  "part": 2,
+  "domain_title": "Pädagogisch-psychologische Diagnostik und Evaluation",
+  "source_pdf": "C_Diagnostik_Skript.pdf",
+  "units": [
+    {
+      "id": "C-06-01",
+      "domain": "C",
+      "chapter_group_num": "6",
+      "chapter_group_title": "6. Schulleistung und Noten",
+      "section_num": "6.1–6.2",
+      "title": "Schulleistungsbegriff & Bezugsnormorientierung (BNO)",
+      "subtitle": "Resultat vs. Leistung, Konvergent/Divergent, Schichtenmodell & Rheinbergs 3 Bezugsnormen",
+      "page_start": 46,
+      "page_end": 47,
+      "page_label": "Original-Skript S. 46–47",
+      "estimated_minutes": 16,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Ein Ergebnis wird erst durch den Maßstab (Sozial, Individuell, Kriterial) zur Leistung!",
+      "definitions": [
+        {
+          "term": "Leistung",
+          "definition": "Leistung ist ein auf Normen bezogenes Resultat. Ein bloßes Ergebnis (Resultat aufgabenbezogenen Handelns) ist noch keine Leistung; erst durch den Vergleich mit Maßstäben (Normen) wird ein Resultat als Leistung bewertet.",
+          "author_year": "Rheinberg, 2001",
+          "page_ref": "S. 46"
+        },
+        {
+          "term": "Schulleistung",
+          "definition": "Zusammengefasst die von der Schule initiierten Lernprozesse und Lernergebnisse der Schülerinnen und Schüler, die im Hinblick auf verschiedene Verhaltensdimensionen beschrieben und unter Bezug auf verschiedene Normen eingeordnet werden können (ergänzend Klauer / Klauer & Leutner, 2007: kriteriumsbezogenes Ergebnis zielgerichteter schulischer Lehr-Lern-Prozesse).",
+          "author_year": "Ingenkamp & Lissmann, 2008 (erg. Klauer, 2007)",
+          "page_ref": "S. 46"
+        },
+        {
+          "term": "Akademische Leistungen",
+          "definition": "Kognitive Lernergebnisse, die aus überwiegend systematisch geplanten Lehr-/Lernprozessen in Bildungsinstitutionen resultieren und als ein zentrales Zielkriterium für den Lernerfolg in diesen Institutionen angesehen werden.",
+          "author_year": "Helmke, Rindermann & Schrader, 2008",
+          "page_ref": "S. 46"
+        },
+        {
+          "term": "Normen & Bezugsnormorientierung (BNO)",
+          "definition": "Normen stellen Bezugspunkte für die Interpretation konkreter Messergebnisse dar (Hesse & Latzko, 2017). Die Bezugsnormorientierung (BNO) beschreibt überdauernde individuelle Unterschiede zwischen Personen (z. B. Lehrkräften) bei der Bevorzugung bestimmter Bezugsnormen.",
+          "author_year": "Hesse & Latzko, 2017; Rheinberg, 2001",
+          "page_ref": "S. 46"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "6.1 Konstrukt Schulleistung: Ergebnis vs. Leistung & Leistungsarten",
+          "page_ref": "S. 46",
+          "bullets": [
+            "**Resultat vs. Leistung (Rheinberg, 2001)**: Ein und dasselbe Handlungsresultat (z. B. 12 Fehler im Diktat) kann je nach angelegter **Bezugsnorm** als völlig unterschiedliche Leistung gelten (schwach im Klassenvergleich, aber starker Fortschritt gegenüber 24 Fehlern zuvor).",
+            "**Konvergente Leistungen**: Aufgaben mit genau einem **eindeutig richtigen und besten Ergebnis** (z. B. Grundrechenaufgabe, Rechtschreibung).",
+            "**Divergente Leistungen**: Offene Gestaltungs- und Problemlöseaufgaben mit **vielen prinzipiell gleichwertigen Ergebnissen** (z. B. bildnerisches Gestalten in Kunst, kreative Bewegungsfolgen im Sport).",
+            "**Doppelverantwortung (Weinert, 2001, zit. nach Hesse & Latzko)**: Schulleistung ist stets die gemeinsame Leistung von **Schule UND Schüler**.",
+            "**Theoretische Einbettung (Hesse & Latzko, 2017)**: Das **Schichtenmodell der Schulleistung** verortet Schulleistung im Zusammenspiel proximaler und distaler Bedingungen; Metaanalysen zu **Produktivitätsfaktoren der Schulleistung** belegen den Einfluss kognitiver Schülermerkmale, Unterrichtsqualität und familiärer Lernumwelt."
+          ]
+        },
+        {
+          "heading": "6.2 Drei Bezugsnormen nach Rheinberg (2001) – „Woran messe ich mich?“",
+          "page_ref": "S. 46–47",
+          "bullets": [
+            "**(Intra-)Individuelle Bezugsnorm (temporaler Längsschnitt)**: Vergleich des aktuellen Ergebnisses mit **früheren Leistungen derselben Person** (Lernzuwachs, individuelle Entwicklung).",
+            "**Soziale / interindividuelle Bezugsnorm (Querschnitt)**: Vergleich des Ergebnisses mit dem Leistungsdurchschnitt einer **Vergleichsgruppe** (z. B. Schulklasse, Altersjahrgang).",
+            "**Kriteriale / lehrzielorientierte (sachliche) Bezugsnorm**: Vergleich des Ergebnisses mit einem **vorab sachlich festgelegten Inhaltskriterium** bzw. Lernziel.",
+            "**Schulrechtliche Vorgabe vs. pädagogische Praxis**: In der Schule ist ministeriell die **kriteriale Bezugsnorm** für die Notengebung gefordert; die **individuelle Bezugsnorm** darf und soll von der Lehrkraft ergänzend (insb. in mündlichen/formativen Rückmeldungen) genutzt werden.",
+            "**Motivationale Wirkungen**: **Individuelle und kriteriale (lehrzielorientierte) Rückmeldungen** wirken deutlich **motivationsförderlicher** als sozialnormorientierte Bewertungen, da sie Anstrengungsattributionen stärken, Prüfungsangst senken (vgl. **Rheinberg, 1977**) und negative Referenzgruppeneffekte wie den **Big-Fish-Little-Pond-Effekt** (Marsh, Kap. 3.4.4) abfedern."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Bezugsnormorientierung von Lehrkräften und Schülermotivation",
+          "authors_year": "Rheinberg, 1977 (sowie Marsh, 1987 zum BFLPE)",
+          "page_ref": "S. 47 (i. V. m. S. 33 & S. 55)",
+          "setup": "Untersuchung von Schulklassen, deren Lehrkräfte eine ausgeprägte individuelle/kriteriale vs. soziale Bezugsnormorientierung in Leistungsrückmeldungen praktizierten.",
+          "finding": "Unter individueller und lehrzielorientierter BNO zeigten Lernende geringere Schulangst und Schulunlust, realistischere Zielsetzungen und günstigere internale variable Attributionen (Anstrengung statt mangelnder Begabung) als unter sozialer BNO.",
+          "implication": "Im Grundschulalltag Lernfortschritte stets individuell würdigen und Lernziele transparent machen, statt Kinder öffentlich in Klassenranglisten zu vergleichen."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Vom Handlungsresultat zur Leistung (Rheinberg, 2001)",
+        "steps_or_rows": [
+          { "label": "1. Aufgabenbezogenes Handeln", "detail": "Schüler bearbeitet Aufgabe -> rohes Ergebnis / Resultat entsteht (noch KEINE Leistung!)" },
+          { "label": "2. Wahl der Bezugsnorm", "detail": "Sozial (Klasse) | Individuell (eigene Vorleistung) | Kriterial (Lehrplan-Ziel)" },
+          { "label": "3. Bewertung als Leistung", "detail": "Anlegen des Maßstabs macht aus demselben Resultat eine spezifische Leistung" },
+          { "label": "4. Motivationale Folge", "detail": "Individuell/Kriterial -> Kompetenzerleben & Anstrengung | Sozial -> Demotivation Schwächerer" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Die drei Bezugsnormen nach Rheinberg (2001) im Überblick",
+        "headers": ["Bezugsnorm", "Vergleichsmaßstab", "Typische Lehrkraft-Aussage", "Motivationale Wirkung"],
+        "rows": [
+          ["Sozial (interindividuell)", "Leistungsverteilung der Bezugsgruppe (Klasse)", "„Mit 15 Punkten liegst du genau im Mittelfeld der 3b.“", "Ungünstig für Schwächere (stabile Begabungsattribution, BFLPE, Hilflosigkeit)"],
+          ["Individuell (intraindividuell)", "Frühere eigene Leistungen im Zeitverlauf", "„Super, du hast heute 5 Wörter mehr richtig als im letzten Monat!“", "Sehr günstig: zeigt Wirksamkeit eigener Anstrengung, senkt Prüfungsangst"],
+          ["Kriterial (sachlich / lehrzielorientiert)", "Vorab definiertes sachliches Lernziel", "„Du beherrschst das Mischen aller drei Sekundärfarben sicher.“", "Günstig & ministeriell gefordert: transparente Zielerreichung"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.6 (Erlernte Hilflosigkeit, Seligman) & Kap. 10.1 (Angebots-Nutzungs-Modell, Helmke)",
+          "bridge_explanation": "Chronisch soziale Bezugsnormen fördern bei leistungsschwachen Kindern unkontrollierbare Misserfolgsattributionen (erlernte Hilflosigkeit). Helmkes Angebots-Nutzungs-Modell spiegelt Weinerts Satz wider, dass Schulleistung eine Co-Produktion aus Unterrichtsangebot und Schülernutzung ist."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 4.8 (Fähigkeitsselbstkonzept) & Kap. 7.4–7.6 (Leistungsmotivation & Förderung)",
+          "bridge_explanation": "Individuelle Bezugsnormorientierung ist die wirksamste Unterrichtsmaßnahme zur Förderung einer erfolgszuversichtlichen Leistungsmotivation und schützt das Fähigkeitsselbstkonzept vor dem Fischteicheffekt (BFLPE)."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Farbenmischen & Fantasietier): Die Lehrkraft trennt sauber zwischen konvergenter Teilleistung (kriteriale BN: „Werden aus Primärfarben gezielt Sekundärfarben gemischt?“) und divergenter Gestaltungsleistung (vielfältige originelle Fantasietiere ohne ‚einzig richtige‘ Schablone) und würdigt individuell die feinmotorische Pinselführung im Vergleich zum Halbjahresbeginn.",
+        "sport": "Sport Klasse 2 (Ausdauerlauf / Seilspringen): Statt einer sozialen Rangliste („Wer schafft die meisten Runden in der Klasse?“) führen die Kinder einen persönlichen Lauf- und Springpass (individuelle BN: eigener Rekordvergleich) kombiniert mit klaren Könnensstufen (kriteriale BN: „3 Minuten ohne Gehpause im eigenen Tempo laufen“).",
+        "allgemein": "Deutsch Klasse 2: Bei Lernwörter-Übungen wird die Fehlerreduktion gegenüber der Vorwoche (individuelle BN) zurückgemeldet, während Lernzielkontrollen am LehrplanPLUS-Kriterium (kriteriale BN) ausgerichtet sind."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Resultat vs. Leistung (Rheinberg, 2001)", "hint": "Warum ist ein bloßes Ergebnis noch keine Leistung? Rolle der Norm erklären!" },
+        { "term": "Konvergente vs. divergente Leistungen", "hint": "Eindeutig richtige Lösung (Mathe) vs. viele gleichwertige Gestaltungen (Kunst/Sport)." },
+        { "term": "Schulleistung (Ingenkamp & Lissmann, 2008; Weinert, 2001)", "hint": "Von der Schule initiierte Lernprozesse/-ergebnisse; Leistung von Schule UND Schüler." },
+        { "term": "Drei Bezugsnormen (Rheinberg, 2001)", "hint": "Individuell (Längsschnitt), sozial (Querschnitt), kriterial/sachlich (Lehrziel)." },
+        { "term": "Ministerielle Vorgabe & Motivation (Rheinberg, 1977)", "hint": "Kriterial gefordert + individuell ergänzend; warum motivationsförderlicher als sozial?" }
+      ],
+      "essay_recipe": {
+        "intro": "Leistung ist kein objektives Naturereignis, sondern nach Rheinberg (2001) ein auf Normen bezogenes Resultat; Schulleistung umfasst die schulisch initiierten Lernprozesse und -ergebnisse (vgl. Ingenkamp & Lissmann, 2008).",
+        "core_model": "Systematische Entfaltung der drei Bezugsnormen nach Rheinberg (2001) – sozial, intraindividuell und kriterial/lehrzielorientiert – sowie des Konstrukts der Bezugsnormorientierung (Hesse & Latzko, 2017).",
+        "empirics": "Rheinberg (1977) belegt geringere Schulangst/Schulunlust und günstigere Anstrengungsattributionen unter individueller und kriterialer BNO; Marsh (1988) zeigt selbstkonzeptschädigende soziale Vergleichseffekte (BFLPE).",
+        "critique_bridge": "Spannungsfeld in der Schule: Während für Leistungsnachweise ministeriell die kriteriale Bezugsnorm vorgeschrieben ist, schleicht sich im Lehrerurteil oft implizit die soziale Klassennorm ein.",
+        "school_transfer": "Konsequente Trennung von formativer Förderung (individuelle BN, z. B. Laufpass im Sport, Skizzenbuch in Kunst) und transparenter kriterialer Bewertung anhand vorab bekannter Kriterien."
+      },
+      "all_bold_terms_covered": [
+        "Schulleistung und Noten",
+        "Schulleistung",
+        "Rheinberg (2001)",
+        "Leistung",
+        "Normen",
+        "Konvergente Leistungen",
+        "Divergente Leistungen",
+        "Ingenkamp & Lissmann (2008)",
+        "Weinert (2001)",
+        "Akademische Leistungen",
+        "Helmke, Rindermann & Schrader (2008)",
+        "Schichtenmodell der Schulleistung",
+        "Produktivitätsfaktoren der Schulleistung",
+        "Hesse & Latzko (2017)",
+        "Bezugsnormorientierung (BNO)",
+        "(Intra-)Individuell",
+        "Sozial oder interindividuell",
+        "Kriterial oder lehrzielorientiert (sachlich)"
+      ]
+    },
+    {
+      "id": "C-06-02",
+      "domain": "C",
+      "chapter_group_num": "6",
+      "chapter_group_title": "6. Schulleistung und Noten",
+      "section_num": "6.3–6.5",
+      "title": "Noten, Zensurmodelle, Funktionen & Kompetenzraster",
+      "subtitle": "Informationsreduktion, Lukesch-Notenknick, Kompetenzraster & Bayerische Grundschul-Beurteilung",
+      "page_start": 47,
+      "page_end": 48,
+      "page_label": "Original-Skript S. 47–48",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Ziffernnote = radikale Informationsreduktion | Kompetenzraster & LEG = sichtbar gemachte Entwicklung",
+      "definitions": [
+        {
+          "term": "Note",
+          "definition": "Eine Note ist die Einordnung eines Messwertes, der aus dem Messen eines Lernergebnisses entsteht. Bei der Vergabe von Ziffernnoten wird immer Information reduziert, Wissenswertes geht dabei fast zwangsläufig verloren.",
+          "author_year": "Urhahne, Dresel & Fischer, 2019",
+          "page_ref": "S. 47"
+        },
+        {
+          "term": "Kompetenzraster (Niveaugestufte Leistungsbeurteilung)",
+          "definition": "Tabellarisches Instrument aus Kompetenzbereichen (Zeilen) und gestuften Niveaustufen (Spalten) mit konkreten „Kann-Beschreibungen“ auf Basis der kriterialen Bezugsnorm, an dem Lernstand und nächste Lernschritte ablesbar sind.",
+          "author_year": "Lochner & Denzler, 2026 (n. Hesse & Latzko, 2017)",
+          "page_ref": "S. 48"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "6.3.1–6.3.2 Drei Zensurmodelle & Beteiligte am Bewertungsprozess",
+          "page_ref": "S. 47",
+          "bullets": [
+            "**Kriteriums- bzw. sachliches Zensurmodell (ministeriell verordnete Form!)**: Basis ist die **kriteriale Bezugsnorm**; ausschließliche Ausrichtung am Lehrziel; **schon bei der Testkonzeption** werden Bestehensgrenze (Mindestanforderungen) und Notenintervalle festgelegt.",
+            "**Normorientiertes Zensurmodell**: Basis ist die **soziale Bezugsnorm** (Klassendurchschnitt erhält mittlere Note, Rest folgt vorbestimmter Häufigkeitsverteilung); misst interindividuelle Differenzen -> **Tests weisen immer denselben Notendurchschnitt auf**.",
+            "**Zensurmodell mit individueller Bezugsnorm**: Basis sind frühere Leistungen desselben Kindes; benotet wird die **intraindividuelle Leistungsentwicklung** (Verbesserung/Verschlechterung).",
+            "**Fünf am Bewertungsprozess interessierte Beteiligte**: **Lernende** (Lernerfolgsrückmeldung), **Lehrende** (Abschätzung des Unterrichtserfolgs), **Erziehungsberechtigte** (Entscheidungshilfe für Nachhilfe/Schullaufbahn), **außerschulische Interessengruppen** (Vergleichsinformationen, z. B. Betriebe), **Staat** (Sicherung genügend qualifizierter Gesellschaftsmitglieder)."
+          ]
+        },
+        {
+          "heading": "6.3.3 Gesellschaftliche vs. Pädagogische Funktionen von Noten",
+          "page_ref": "S. 48",
+          "bullets": [
+            "**Gesellschaftliche / formale Funktionen**: (1) **Kontrolle** des Lehrplankenntnisstandes (nur bei objektiver Erstellung möglich), (2) **Berechtigung / Allokation** formaler Art (z. B. Übertritt, Hochschulzugang), (3) **Auslese / Selektion & Sozialisation** (Schule als Qualifikations- und Sozialisationsinstanz – gesellschaftlich wichtig, pädagogisch fragwürdig), (4) **Bericht und Information** (standardisierte Kurzinfo für Außenstehende/Eltern).",
+            "**Pädagogische Funktionen**: (5) **Rückmeldung und Steuerung im Lernprozess** (für Schüler & Lehrkraft über Lernstand, Unterrichtserfolg sowie rechtzeitiges Erkennen von **Über- und Unterforderung**), (6) **Motivation / Motivierung** (extrinsischer Anreiz über operante Konditionierung; **Risiken**: Demotivation Leistungsschwacher, **Korrumpierung intrinsischer Motivation**, **Notenknick nach Lukesch, 1998**).",
+            "**Pädagogisch unzulässige Fehlform – Disziplinierung**: Bestrafung von Störverhalten durch schlechte Fachnoten ist pädagogisch wie psychologisch hochgradig fragwürdig -> **Validitätsverletzung** (gemessen wird Sozialverhalten statt Fachleistung!) und Auslösung von **Prüfungsangst**."
+          ]
+        },
+        {
+          "heading": "6.4–6.5 Kompetenzraster, Bayerische Grundschule & Güte-Aufwand-Dilemma",
+          "page_ref": "S. 48",
+          "bullets": [
+            "**Niveaugestufte Leistungsbeurteilung & Kompetenzraster**: Statt pauschaler Ziffernnoten werden Kompetenzen in gestufte **Kann-Beschreibungen** (Zeilen = Kompetenzbereiche, Spalten = Niveaustufen) übersetzt (kriteriale BN).",
+            "**Konstruktion leistungsdiagnostischer Messinstrumente**: (1) Lernziele operationalisieren, (2) Aufgaben den Niveaustufen zuordnen, (3) Bewertungskriterien vorab transparent festlegen.",
+            "**Bayerische Grundschul-Besonderheit (GrSO / BaySchO)**: In **Klasse 1** sowie im **Zwischenzeugnis der Klasse 2** gibt es in Bayern **keine Ziffernnoten**, sondern verbalisierte **Wortgutachten** (Berichte zur Lernentwicklung). Zudem kann in den **Klassen 1 bis 3** das Zwischenzeugnis durch ein dokumentiertes **Lernentwicklungsgespräch (LEG)** (Lehrkraft, Kind, Eltern + individuelle Zielvereinbarung) ersetzt werden.",
+            "**6.5 Fazit – Zentrales Dilemma**: Pädagogische Diagnostik steht im **Spannungsfeld zwischen Entwicklungsaufwand und Güte** (hohe diagnostische Güte ist niemals mit minimalem Aufwand gleichzeitig erreichbar)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Notenknick nach dem Übertritt aus der Grundschule",
+          "authors_year": "Lukesch, 1998",
+          "page_ref": "S. 48",
+          "setup": "Längsschnittliche Analyse der Notenentwicklung von Schülerinnen und Schülern beim Übergang von der 4. Klasse Grundschule in weiterführende Schulen.",
+          "finding": "Nach der Grundschulzeit tritt ein markanter Abfall der Durchschnittszensuren („Notenknick“) auf – besonders stark ausgeprägt am Gymnasium, schwächer an der Realschule.",
+          "implication": "Der Wechsel in eine leistungsstärkere Referenzgruppe verschiebt implizit den sozialen Bewertungsmaßstab; Grundschullehrkräfte müssen Kinder und Eltern beim Übertritt auf diesen Referenzgruppeneffekt vorbereiten."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Pädagogische vs. Gesellschaftliche Notenfunktionen & Gefahren",
+        "steps_or_rows": [
+          { "label": "Gesellschaftliche Funktionen", "detail": "Kontrolle | Berechtigung (Allokation) | Auslese (Selektion & Sozialisation)" },
+          { "label": "Formale Schnittstelle", "detail": "Bericht & Information für Eltern und außerschulische Institutionen" },
+          { "label": "Pädagogische Funktionen", "detail": "Rückmeldung & Steuerung (Über-/Unterforderung) | Motivierung (extrinsischer Anreiz)" },
+          { "label": "Fehlform: Disziplinierung", "detail": "Strafnoten -> Validitätsverletzung (Verhalten statt Leistung!) + Prüfungsangst" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Die drei Zensurmodelle im direkten Vergleich",
+        "headers": ["Zensurmodell", "Zugrundeliegende Norm", "Festlegung der Notenstufen", "Schulrechtlicher Status"],
+        "rows": [
+          ["Kriteriums- / sachliches Modell", "Kriteriale Bezugsnorm (Lernziele)", "Vorab bei Testkonzeption (Mindeststandard & feste Punktintervalle)", "Ministeriell verordnete Regelfindung"],
+          ["Normorientiertes Modell", "Soziale Bezugsnorm (Klassenschnitt)", "Nachträglich relativ zum Klassendurchschnitt -> immer gleicher Schnitt", "Als alleinige Notenbasis unzulässig"],
+          ["Individuelles Zensurmodell", "Individuelle Bezugsnorm (Vorleistung)", "Anhand des individuellen Lernzuwachses / Fortschritts", "Nicht für Zeugnisziffernnote, aber im LEG / Wortbericht zentral"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.3 (Operantes Konditionieren) & Kap. 9.2 (Doyle: Mehrdimensionalität im Klassenzimmer)",
+          "bridge_explanation": "Gute Noten wirken als sekundäre positive Verstärker im Sinne Skinners, können aber bei ursprünglich spannenden Tätigkeiten intrinsische Motivation korrumpieren."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 7.4.1 (Selbstbestimmungstheorie Deci & Ryan) & Kap. 8.4–8.6 (Prüfungsangst Liebert & Morris)",
+          "bridge_explanation": "Kontrollierende Ziffernnoten und Disziplinierungszensuren untergraben das Autonomie- und Kompetenzerleben (Deci & Ryan, Korrumpierungseffekt) und steigern Worry- und Emotionality-Komponenten der Prüfungsangst."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 2 (Druckwerkstatt Stempeldruck): Statt einer undurchsichtigen Ziffernnote nutzt die Lehrkraft ein bildgestütztes 3-Stufen-Kompetenzraster („Ich kann Farbe gleichmäßig auftragen“, „Ich kann ein Muster im Rhythmus drucken“, „Ich kann Kontraste gezielt einsetzen“) als Grundlage für das Lernentwicklungsgespräch (LEG).",
+        "sport": "Sport Klasse 1/2 (Rolle vorwärts & Balancieren): Im Wortgutachten bzw. LEG wird niveaugestuft beschrieben, welche Teilbewegungen das Kind schon sicher beherrscht („Kinn auf der Brust, rundes Abrollen“) und was das nächste Übungsziel ist – niemals „Strafnoten“ für vergessene Turnkleidung (wäre Validitätsverletzung!).",
+        "allgemein": "Bayerische Grundschule Kl. 1–3: Durchführung des Lernentwicklungsgesprächs (LEG) mit kindgerechtem Selbsteinschätzungsbogen (Kompetenzraster mit Symbolen) statt Halbjahres-Ziffernzeugnis."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Definition Note (Urhahne, Dresel & Fischer, 2019)", "hint": "Einordnung eines Messwertes + unvermeidliche Informationsreduktion." },
+        { "term": "Drei Zensurmodelle", "hint": "Kriterial (verordnet, vorab festgelegt), normorientiert (gleicher Schnitt), individuell (Entwicklung)." },
+        { "term": "7 Funktionen von Noten + Disziplinierungs-Kritik", "hint": "Kontrolle, Berechtigung, Auslese, Bericht, Rückmeldung, Motivation, Disziplinierung (Validitätsverletzung!)." },
+        { "term": "Lukesch (1998): Notenknick", "hint": "Was passiert nach Klasse 4 besonders am Gymnasium und warum?" },
+        { "term": "Kompetenzraster & Bayerische Grundschule (Kl. 1–3)", "hint": "Zeilen/Spalten mit Kann-Beschreibungen + Wortgutachten & Lernentwicklungsgespräch (LEG)." }
+      ],
+      "essay_recipe": {
+        "intro": "Ziffernnoten ordnen Messwerte schulischer Lernergebnisse ein, gehen jedoch zwangsläufig mit erheblicher Informationsreduktion einher (vgl. Urhahne, Dresel & Fischer, 2019).",
+        "core_model": "Gegenüberstellung der drei Zensurmodelle (kriterial, normorientiert, individuell) sowie Systematisierung gesellschaftlicher (Kontrolle, Berechtigung, Auslese) und pädagogischer Funktionen (Rückmeldung/Steuerung, Motivation) inklusive Kritik der Disziplinierungsfunktion.",
+        "empirics": "Lukesch (1998) weist den Notenknick nach dem Grundschulübertritt (v. a. am Gymnasium) nach; Befunde zur Korrumpierung intrinsischer Motivation (Deci & Ryan) zeigen Grenzen extrinsischer Notenanreize.",
+        "critique_bridge": "Das Dilemma zwischen diagnostischer Güte und Entwicklungsaufwand erfordert tragfähige Alternativen bzw. Ergänzungen zur bloßen Ziffernnote.",
+        "school_transfer": "Einsatz kriterialer Kompetenzraster mit Kann-Beschreibungen sowie Wortgutachten und Lernentwicklungsgesprächen (LEG) in den bayerischen Grundschulklassen 1–3."
+      },
+      "all_bold_terms_covered": [
+        "Noten",
+        "Note",
+        "Urhahne, Dresel & Fischer (2019)",
+        "Zensurmodelle",
+        "Kriteriums- bzw. sachliches Zensurmodell",
+        "Normorientiertes Zensurmodell",
+        "Zensurmodell mit individueller Bezugsnorm",
+        "Am Bewertungsprozess interessierte Beteiligte",
+        "Lernende",
+        "Lehrende",
+        "Erziehungsberechtigte",
+        "Außerschulische Interessengruppen",
+        "Staat",
+        "Funktionen von Noten",
+        "Kontrolle",
+        "Berechtigung",
+        "Auslese",
+        "Bericht und Information",
+        "Rückmeldung und Steuerung im Lernprozess",
+        "Motivation",
+        "Lukesch (1998)",
+        "Notenknick",
+        "Disziplinierung",
+        "Niveaugestufte Leistungsbeurteilung",
+        "Kompetenzraster",
+        "niveaugestuft",
+        "Konstruktion von Messinstrumenten zur Leistungsüberprüfung",
+        "Spannungsfeld zwischen Entwicklungsaufwand und Güte"
+      ]
+    },
+    {
+      "id": "C-07-01",
+      "domain": "C",
+      "chapter_group_num": "7",
+      "chapter_group_title": "7. Methoden der Pädagogischen Diagnostik",
+      "section_num": "7.0–7.1",
+      "title": "Überblick Prüfungsarten & Schriftliche Prüfungen",
+      "subtitle": "Subjektive vs. objektive Verfahren, Gütekriterien & Klassische Korrektur-Studien",
+      "page_start": 49,
+      "page_end": 50,
+      "page_label": "Original-Skript S. 49–50",
+      "estimated_minutes": 20,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "28 bis 92 Punkte für dieselbe Mathearbeit (Starch & Elliot): Warum Proben klare Kriterienkataloge brauchen!",
+      "definitions": [
+        {
+          "term": "Arten schulischer Prüfungen (Systematik)",
+          "definition": "Unterteilung schulischer Leistungserfassung in (1) subjektive Verfahren / klassische Leistungsüberprüfungen (schriftlich, mündlich, alternative Verfahren wie Portfolio) und (2) objektive Verfahren / Schulleistungstests (formelle kriteriums- bzw. bezugsgruppenorientierte sowie informelle Schulleistungstests).",
+          "author_year": "Ingenkamp & Lissmann, 2008",
+          "page_ref": "S. 49"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "7.1 Objektivität schriftlicher Prüfungen & Urteilsverzerrungen",
+          "page_ref": "S. 49–50",
+          "bullets": [
+            "**Grundcharakteristik**: Häufigstes Prüfungsinstrument (Aufsatz, Hausarbeit, Test, Stegreifaufgabe, Schulaufgabe); traditionell oft **wenig objektiv und wenig reliabel**.",
+            "**Durchführungsobjektivität**: Bei schriftlichen Proben relativ gut gewährleistet; **Ausnahme Diktate** (Sprechtempo, Artikulationsdeutlichkeit, Raumakustik der Lehrkraft).",
+            "**Auswertungsobjektivität**: Bei freier/traditioneller Beurteilung stark eingeschränkt (**Starch & Elliot, 1912/13; Weiss, 1965; Birkel & Birkel, 2002**).",
+            "**Sechs sachfremde Einflussfaktoren auf die Inhaltsbewertung (Ingenkamp & Lissmann, 2008)**: (1) **äußere Form & Handschrift**, (2) **Grammatik- und Orthographiefehler** (selbst wenn nur Inhalt zählt!), (3) **Länge der Textproduktion**, (4) **Reihenfolge der Korrektur** (Kontrasteffekt nach sehr guter/schlechter Arbeit), (5) **Vorinformation & Beliebtheit** des Prüflings, (6) **Geschlecht** von Beurteiltem und Beurteiler.",
+            "**Interpretationsobjektivität**: Starke Abhängigkeit der Zensur von Klassenniveau und Lehrkraft (**Ingenkamp, 1969, 1995**); Ursachen: uneinheitliche Kriterien, **Halo-Effekt**, Lehrkraftpersönlichkeit, soziale Bezugsnorm."
+          ]
+        },
+        {
+          "heading": "Reliabilität, Validität & Qualitätssteigerung schriftlicher Prüfungen",
+          "page_ref": "S. 50",
+          "bullets": [
+            "**Unzureichende Reliabilität traditioneller Arbeiten**: Massive Intra-Rater-Schwankungen bei zeitversetzter Zweitkorrektur derselben Arbeiten (**Hartog & Rhodes, 1936**: 44 % Bestehenswechsel; **Eells, 1930**: *r* = .25).",
+            "**Inhaltsvalidität**: Zwar Orientierung an behandelten Lerninhalten und **Lerngelegenheiten**, aber Verzerrung durch sachfremde Einflüsse (**Sympathie** nach **Hadley, 1954**; Vorinformation, Länge, Schrift, Rechtschreibung). Sicherung gelingt nur über **operationalisierte Lernziele**.",
+            "**Eingeschränkte prognostische Validität**: Schulnoten sagen späteren Schulerfolg schlechter voraus als standardisierte Leistungstests (**Tent, 1969**; **Ingenkamp, 1976**: **33 % Fehlprognosen** beim Gymnasialübertritt).",
+            "**Fazit für die Praxis**: Neuere Studien belegen, dass Objektivität, Reliabilität und Validität **deutlich steigen**, sobald **klare Kriterienkataloge, Bepunktungsschemata und Checklisten** eingesetzt werden."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Klassiker mangelnder Auswertungsobjektivität (Mathematik, Englisch, Geschichte)",
+          "authors_year": "Starch & Elliot, 1912, 1913",
+          "page_ref": "S. 49",
+          "setup": "Dieselbe Schülerarbeit (u. a. in Mathematik) wurde identisch vervielfältigt und von 128 Lehrkräften unterschiedlicher Schulen unabhängig bewertet.",
+          "finding": "Für ein und dieselbe Mathematikarbeit vergaben die 128 Lehrkräfte Punktwerte zwischen 28 und 92 (von 100 möglichen Punkten).",
+          "implication": "Selbst in vermeintlich exakten Fächern wie Mathematik ist Auswertungsobjektivität ohne verbindlichen Bewertungsschlüssel für Teilpunkte und Folgefehler nicht gegeben."
+        },
+        {
+          "title": "Vorinformationseffekt und Replikationsstudie zur Aufsatzbewertung an Grundschulen",
+          "authors_year": "Weiss, 1965; Birkel & Birkel, 2002",
+          "page_ref": "S. 49",
+          "setup": "Weiss (1965) variierte positive vs. negative Vorinformationen bei Aufsätzen. Birkel & Birkel (2002) ließen 89 Grundschullehrkräfte zwei Versionen von vier Schüleraufsätzen (variiert nach Rechtschreibfehlerzahl und Textlänge) benoten.",
+          "finding": "Weiss: Note 1 wurde bei positiver Vorinformation in 16 %, bei negativer in 0 % vergeben. Birkel & Birkel: Viele Rechtschreibfehler drückten die Inhaltsnote um rund 1/3 Note; der längste Aufsatz erhielt die beste Note; identische Aufsätze bekamen Noten von 1 bis 5.",
+          "implication": "Grundschulaufsätze anonymisiert (oder Namen abgedeckt) und anhand getrennter Analysekriterien für Inhalt, Sprache und Rechtschreibung korrigieren."
+        },
+        {
+          "title": "Mangelnde Interpretationsobjektivität, Retest-Reliabilität & Prognosegüte",
+          "authors_year": "Ingenkamp, 1969/1995 & 1976; Hartog & Rhodes, 1936; Eells, 1930; Hadley, 1954; Tent, 1969",
+          "page_ref": "S. 50",
+          "setup": "Ingenkamp (1969/95): Berliner Sechstklässler im Mathematiktest vs. Zeugnisnote. Hartog & Rhodes (1936) / Eells (1930): Wiederholte Korrektur nach 12–19 Monaten bzw. 11 Wochen. Hadley (1954): Sympathieeffekt. Ingenkamp (1976): Bewährung von Übertrittszeugnissen.",
+          "finding": "Noten folgen stark der klasseninternen sozialen Bezugsnorm (Ingenkamp); 44 % vormals bestandener Geschichtsarbeiten fielen bei Zweitkorrektur durch (Hartog & Rhodes), Geographie-Retest nur r = .25 (Eells); beliebte Kinder bekamen zu 50 % bessere Noten (Hadley); 33 % mit positivem Übertrittszeugnis scheiterten am Gymnasium (Ingenkamp, 1976).",
+          "implication": "Aufgabenweise Querkorrektur (erst Aufgabe 1 aller Kinder) mit Checkliste reduziert Reihenfolge-, Sympathie- und Halo-Effekte drastisch."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "hierarchy",
+        "title": "Systematik schulischer Prüfungsverfahren (Ingenkamp & Lissmann, 2008)",
+        "steps_or_rows": [
+          { "label": "Subjektive Verfahren", "detail": "Klassische Leistungsüberprüfungen: Schriftlich | Mündlich | Alternative Verfahren (z. B. Portfolio)" },
+          { "label": "Objektive Verfahren", "detail": "Schulleistungstests: Formelle Tests (bezugsgruppen- vs. kriteriumsorientiert) | Informelle Tests" },
+          { "label": "Schwachstellen klassisch-schriftlich", "detail": "Handschrift, Rechtschreibung, Länge, Reihenfolge, Vorinfo/Sympathie -> Halo- & Kontrasteffekt" },
+          { "label": "Gegenmittel in der Praxis", "detail": "Operationalisierte Lernziele + Checkliste/Erwartungshorizont + aufgabenweise Korrektur" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Gütekriterien traditioneller schriftlicher Prüfungen & empirische Belege",
+        "headers": ["Gütekriterium", "Befundlage ohne Kriterienkatalog", "Schlüsselstudie (Autor, Jahr)", "Konkrete Maßnahme für Lehrkräfte"],
+        "rows": [
+          ["Durchführungsobjektivität", "Meist gut, problematisch bei Diktaten", "Ingenkamp & Lissmann (2008)", "Klare Zeitvorgabe, bei Diktaten konstantes Sprechtempo & Wortanzahl"],
+          ["Auswertungsobjektivität", "Stark verzerrt durch Form, Länge, Fehler, Vorinfo", "Starch & Elliot (1912/13); Weiss (1965); Birkel & Birkel (2002)", "Detaillierter Punkteschlüssel, Namen abdecken, Inhalt getrennt von Orthographie bewerten"],
+          ["Interpretationsobjektivität", "Verzerrt durch klasseninterne soziale Bezugsnorm", "Ingenkamp (1969, 1995)", "Feste kriteriale Notengrenzen vorab definieren"],
+          ["Reliabilität", "Geringe Wiederholungsübereinstimmung", "Hartog & Rhodes (1936): 44 % Wechsel; Eells (1930): r = .25", "Mehrere Teilaufgaben, analytische Checklisten statt Globalurteil"],
+          ["Validität (Inhalt & Prognose)", "Sympathie-Bias & 33 % Übertritts-Fehlprognosen", "Hadley (1954): +50 %; Tent (1969); Ingenkamp (1976)", "Operationalisierte Lernziele, Kombination mehrerer Informationsquellen"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 9.3.1 (Direkte Instruktion & Lernzieloperationalisierung nach Mager/Bloom)",
+          "bridge_explanation": "Inhaltsvalide schriftliche Prüfungen setzen präzise operationalisierte Lernziele aus der Unterrichtsplanung voraus."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 2.6 (Intelligenz & Schulerfolg) & Kap. 4.10 (Geschlechterstereotype)",
+          "bridge_explanation": "Urteilsverzerrungen durch Geschlecht, Vorinformation und Sympathie verfälschen nicht nur Noten, sondern formen über Erwartungseffekte das kindliche Fähigkeitsselbstkonzept."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 4 (Bildbetrachtung & Werkaufgabe zu Paul Klee): Damit nicht ordentlichere Handschrift oder Sympathie (Hadley, 1954) die Bewertung verzerren, nutzt die Lehrkraft eine transparente 4-Kriterien-Checkliste (Farbauftrag, Komposition, Ideenreichtum, Fachbegriffe) und legt die Schülerarbeiten zur Begutachtung mit verdeckten Namen auf der Rückseite aus.",
+        "sport": "Sport Klasse 3 (Turn-Kür am Boden): Statt aus dem Bauch heraus Noten von 1 bis 5 zu vergeben, bewertet die Lehrkraft mit einem beobachtbaren Punkteraster (Startpose, Rolle, Standwaage, Strecksprung) in zufälliger Reihenfolge gegen Kontrasteffekte.",
+        "allgemein": "Deutsch Klasse 3 (Geschichten schreiben): In Anlehnung an Birkel & Birkel (2002) werden Erzählidee/Aufbau und Rechtschreibung strikt auf getrennten Checklisten-Zeilen ausgewertet; Korrektur erfolgt aufgaben- bzw. kriterienweise."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Subjektive vs. objektive Prüfungsverfahren", "hint": "Systematik nach Ingenkamp & Lissmann (2008) vollständig aufzählen." },
+        { "term": "Auswertungsobjektivität: 3 Studien", "hint": "Starch & Elliot (128 Lehrer, 28–92 Pkt.), Weiss (1965), Birkel & Birkel (2002: 89 GS-Lehrkräfte, Noten 1–5)." },
+        { "term": "6 sachfremde Einflussfaktoren", "hint": "Handschrift/Form, Orthographie, Textlänge, Reihenfolge, Vorinfo/Beliebtheit, Geschlecht." },
+        { "term": "Reliabilitäts-Studien", "hint": "Hartog & Rhodes (1936: 44 % nicht bestanden nach 12–19 Mon.) & Eells (1930: r = .25 nach 11 Wo.)." },
+        { "term": "Interpretation & Validität", "hint": "Ingenkamp (1969/95 Berliner 6. Kl.; 1976: 33 % Übertritt), Hadley (1954: 50 % Sympathie), Tent (1969)." }
+      ],
+      "essay_recipe": {
+        "intro": "Schriftliche Prüfungen sind das meistgenutzte schulische Diagnoseinstrument, zählen nach Ingenkamp & Lissmann (2008) jedoch zu den subjektiven Verfahren mit erheblichen Güterisiken.",
+        "core_model": "Systematische Prüfung anhand der drei Hauptgütekriterien Objektivität (Durchführung, Auswertung, Interpretation), Reliabilität und Validität (Inhalts- und prognostische Validität) sowie Analyse sachfremder Urteilseinflüsse.",
+        "empirics": "Breite Klassiker-Evidenz: Starch & Elliot (1912/13), Weiss (1965) und Birkel & Birkel (2002) zur Auswertungsobjektivität; Ingenkamp (1969/95) zur klasseninternen Bezugsnorm; Hartog & Rhodes (1936) und Eells (1930) zur Reliabilität; Hadley (1954), Tent (1969) und Ingenkamp (1976) zur Validität.",
+        "critique_bridge": "Nicht die schriftliche Prüfung an sich ist unbrauchbar, sondern die unstrukturierte Ganzheitskorrektur ohne explizite Maßstäbe.",
+        "school_transfer": "Einsatz operationalisierter Lernziele, analytischer Checklisten/Erwartungshorizonte, anonymisierter und aufgabenweiser Korrektur in der Grundschule."
+      },
+      "all_bold_terms_covered": [
+        "Methoden der Pädagogischen Diagnostik",
+        "Ingenkamp & Lissmann, 2008",
+        "Subjektive Verfahren",
+        "Objektive Verfahren",
+        "Schriftliche Prüfungen",
+        "Durchführungsobjektivität",
+        "Auswertungsobjektivität",
+        "Starch & Elliot (1912, 1913)",
+        "128 Lehrkräften",
+        "Weiss (1965)",
+        "Birkel & Birkel (2002)",
+        "89 Grundschullehrkräfte",
+        "Interpretationsobjektivität",
+        "Ingenkamp (1969, 1995)",
+        "Halo-Effekt",
+        "Reliabilität schriftlicher Prüfungen",
+        "Hartog & Rhodes (1936)",
+        "Eells (1930)",
+        "Validität schriftlicher Prüfungen",
+        "Inhaltsvalidität",
+        "Hadley (1954)",
+        "Prognostische Validität",
+        "Tent (1969)",
+        "Ingenkamp (1976)"
+      ]
+    },
+    {
+      "id": "C-07-02",
+      "domain": "C",
+      "chapter_group_num": "7",
+      "chapter_group_title": "7. Methoden der Pädagogischen Diagnostik",
+      "section_num": "7.2–7.4",
+      "title": "Mündliche Prüfungen, Vergleich & Portfolio-Arbeit",
+      "subtitle": "Birkel-Studien, 4 Kritik-Aspekte, Schriftlich vs. Mündlich & Kunstmappen-Portfolio",
+      "page_start": 51,
+      "page_end": 53,
+      "page_label": "Original-Skript S. 51–53",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Sprechtempo täuscht Kompetenz vor (Birkel & Pritz) – das Kunst-Portfolio macht echte Lernwege sichtbar!",
+      "definitions": [
+        {
+          "term": "Mündliche Prüfung",
+          "definition": "Leistungserbringung eines Prüflings gegenüber einem Prüfer, wobei die Leistungen durch mündliche Ausführungen des Kandidaten auf mündlich vorgegebene Fragen vermittelt werden.",
+          "author_year": "Jäger, 2000",
+          "page_ref": "S. 51"
+        },
+        {
+          "term": "Portfolio",
+          "definition": "Eine zielgerichtete Sammlung von Arbeiten, welche die individuellen Bemühungen, Fortschritte und Leistungen der/des Lernenden auf einem oder mehreren Gebieten zeigen. Die Sammlung muss die Beteiligung der/des Lernenden an der Auswahl der Inhalte, den Auswahlkriterien, den Beurteilungskriterien sowie Hinweise auf die Selbstreflexion der/des Lernenden einschließen.",
+          "author_year": "Paulson, Paulson & Meyer, 1991; Häcker, 2006, zitiert nach Hesse & Latzko",
+          "page_ref": "S. 52"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "7.2 Mündliche Prüfungen: Formen, Gütekriterien & 4 Kritik-Aspekte",
+          "page_ref": "S. 51–52",
+          "bullets": [
+            "**Grundmerkmale**: Älteste Prüfungstradition (Disputation), aber **am wenigsten erforscht** (**Ingenkamp & Lissmann, 2008**). Formen: **sprachgebundene** (z. B. Fremdsprachen) vs. **sprachunabhängige Leistungen** (z. B. Psychologie); **formelle** (Abschlussprüfung) vs. **informelle Prüfung** (Unterrichtsabfrage). Arten: Disputation, Vortrag, Abhören, Arbeitsprobe, Gruppenprüfung.",
+            "**Sacher – „Interaktiver Charakter“**: Ständiger wechselseitiger Austausch von **Inhalts- und Beziehungsbotschaften** (Ermunterung, Nicken, Mitleid, Stirnrunzeln).",
+            "**Mangelhafte Gütekriterien**: **Durchführungsobjektivität** schwach (wechselnde Fragen, Zeitpunkte, Hilfen); **Auswertungsobjektivität** situativ verzerrt; **Interpretationsobjektivität** gering (**Birkel & Pritz, 1980**); **Reliabilität** kaum geprüft (erfordert unabhängigen Zweitprüfer; Prüferübereinstimmung max. **r = .60**, nach Training mit Fragelisten/Schätzskalen höher, **Birkel, 1978; Ingenkamp, 1975**); **Validität** durch Interaktionseffekte gemindert (Korrelation mündlich–schriftlich nur ca. **r = .30**).",
+            "**Vier Kritikaspekte**: (1) **Sozialpsychologisch** (asymmetrische Machtposition Prüfer > Prüfling, Sprachgewandtheit/Auftreten, **erster Eindruck zählt**), (2) **Psychoanalytisch** (Initiationsriten/Statuszuweisung, hohe Angst blockiert Leistung), (3) **Gesellschaftlich** („latente Unterdrückungs- und Abrichtungsfunktionen“ zur Werte-Internalisierung), (4) **Messmethodisch** (weder objektiv noch reliabel noch valide)."
+          ]
+        },
+        {
+          "heading": "7.3–7.4 Schriftlich vs. Mündlich & Portfolio als alternatives Verfahren",
+          "page_ref": "S. 52–53",
+          "bullets": [
+            "**7.3 Strukturvergleich schriftlich vs. mündlich**: Schriftlich = **fixiert, reaktiv, Grenzen vorgebend, Gruppenbezug, zeitlich bestimmt, transsituativ, ausschnitthaft** | Mündlich = **adaptiv, kommunikativ, Grenzen auslotend, singulärer Bezug, zeitlich unbestimmt, situativ, umfassend**.",
+            "**7.4 Wesentliche Bestandteile des Portfolios**: Systematische Sammlung (Texte, Bilder, Hörproben, Videos, Arbeitsproben) mit (1) **aktiver Beteiligung der Schüler** an Inhaltsauswahl sowie Auswahl- und Beurteilungskriterien, (2) **schriftlicher Selbstreflexion und Prozessdokumentation**, (3) möglichem **Einbezug von Gruppenleistungen**.",
+            "**Fünf Portfolio-Formen (insb. Prozess- vs. Produkt-/Vorzeigeportfolio)**: **Arbeitsportfolio** (Diagnose von Stärken/Schwächen), **Beurteilungsportfolio** (Leistungsbewertung), **Vorzeigeportfolio / Produktportfolio** (Auswahl der **besten Endarbeiten**, *Skript-Bsp.: Kunstmappe!*), **Prozessportfolio** (Dokumentation und Diagnose einer **Lernentwicklung über die Zeit** inkl. Entwürfen/Irrwegen), **Bewerbungsportfolio** (Präsentation bei Arbeitgebern)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Sprechtempo-Halo und Vorinformation in mündlichen Geographieprüfungen",
+          "authors_year": "Birkel & Pritz, 1980",
+          "page_ref": "S. 51",
+          "setup": "Lehrkräfte beurteilten zwei inhaltlich identische Video-Versionen einer mündlichen Geographieprüfung (einmal schnell und flüssig gesprochen, einmal langsam und stockend) unter Variation positiver vs. negativer Vorinformation.",
+          "finding": "Die vergebenen Noten schwankten zwischen 1 und 5: Höheres Sprechtempo führte über den Halo-Effekt zu deutlich höherer Kompetenzzuschreibung; positive Vorinformation bewirkte systematisch bessere Noten.",
+          "implication": "Schüchterne oder bedächtig sprechende Grundschulkinder dürfen bei mündlichen Beiträgen nicht wegen geringeren Sprechtempos als leistungsschwächer eingestuft werden."
+        },
+        {
+          "title": "Prüferübereinstimmung, Reihenfolge- und Vorinformationseffekte im mündlichen Abitur",
+          "authors_year": "Barnes & Pressey, 1929; Hartog & Rhodes, 1936; Ingenkamp, 1975; Birkel, 1978",
+          "page_ref": "S. 51–52",
+          "setup": "Frühe Prüfervergleiche (Barnes & Pressey; Hartog & Rhodes) sowie Birkels (1978) Video-Experiment zu mündlichen Deutsch-Abiturprüfungen mit systematisch variierter Vorinformation (guter/schlechter Aufsatz) und Reihenfolge (nach guter vs. schlechter Prüfung).",
+          "finding": "Unstrukturierte Prüferübereinstimmung erreicht höchstens r = .60; in Birkels Abiturstudie schwankten Noten für dieselbe Leistung zwischen 1 und 5 bzw. 2 und 5,5 infolge von Kontrasteffekt, Erwartungseffekt und Prüfererfahrung (mehr Erfahrung = strengere Zensuren).",
+          "implication": "Vorab formulierte Kernfragen, Erwartungshorizonte und Beobachtungsbögen sind auch bei mündlichen Präsentationen (z. B. Buchvorstellung, Referat) unverzichtbar."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Portfolio-Kreislauf (Paulson, Paulson & Meyer, 1991; Häcker, 2006)",
+        "steps_or_rows": [
+          { "label": "1. Kriterien mitbestimmen", "detail": "Lehrkraft & Kind klären gemeinsam Themen, Auswahl- und Beurteilungskriterien" },
+          { "label": "2. Sammeln & Gestalten", "detail": "Prozessportfolio: Skizzen, Vorstufen, Überarbeitungen (Lernweg sichtbar machen)" },
+          { "label": "3. Auswählen & Reflektieren", "detail": "Vorzeigeportfolio (z. B. Kunstmappe): Beste Werke auswählen + schriftlich begründen" },
+          { "label": "4. Würdigen & Bilanzieren", "detail": "Gemeinsames Rückmeldegespräch auf individueller und kriterialer Bezugsnorm" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Schriftliche vs. Mündliche Prüfungen (Kap. 7.3)",
+        "headers": ["Vergleichsdimension", "Schriftliche Prüfung", "Mündliche Prüfung"],
+        "rows": [
+          ["Aufgabensteuerung & Reaktion", "Fixiert (fest vorgegeben) & reaktiv", "Adaptiv (einstellbar) & kommunikativ-interaktiv (Sacher)"],
+          ["Leistungsgrenzen & Bezug", "Grenzen vorgebend | Gruppenbezug", "Grenzen auslotend | Singulärer Einzelbezug"],
+          ["Zeit & Situationsabhängigkeit", "Strenge Zeitgrenze | Transsituativ", "Zeitlich eher flexibel | Stark situativ geprägt"],
+          ["Stoffabdeckung & Korrelation", "Ausschnitthaft (stichprobenartig)", "Umfassenderes Spektrum (Korrelation mit schriftlich nur ca. r = .30)"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 6 (Selbstreguliertes Lernen, Zimmerman) & Kap. 7.3 (Metakognitive Lernstrategien)",
+          "bridge_explanation": "Portfolioarbeit operationalisiert den gesamten Zyklus selbstregulierten Lernens: Zielsetzung/Planung (Kriterienwahl), Überwachung (Prozessportfolio) und Selbstreflexion."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 7.4.1 (Deci & Ryan: Autonomie & Kompetenz) & Kap. 8.5 (Liebert & Morris: Prüfungsangst)",
+          "bridge_explanation": "Während mündliche Prüfungen durch soziale Exponiertheit hohe Prüfungsangst auslösen (psychoanalytischer/sozialpsychologischer Aspekt), fördert Mitbestimmung beim Portfolio Autonomie- und Kompetenzerleben."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3/4 – Glanzbeispiel Kunstmappen-Portfolio (Kombination aus Prozess- und Vorzeigeportfolio!): Über ein Halbjahr sammeln die Kinder im „Skizzen- und Forscherteil“ (Prozessportfolio) Farbproben, verworfene Entwürfe und kurze Reflexionskarten („Das war beim Aquarellieren schwierig – so habe ich es gelöst“). Am Ende wählen die Kinder selbst ihre drei gelungensten Werke für ihre „Galerie-Kunstmappe“ (Vorzeigeportfolio) aus, begründen ihre Auswahl anhand gemeinsam vereinbarter Kriterien und präsentieren sie beim Galerie-Rundgang.",
+        "sport": "Sport Klasse 4 (Seilspring- & Akrobatik-Tagebuch): Gruppen entwickeln eine kleine Pyramiden- oder Seilkür, halten Zwischenstände als Foto/Strichmännchen-Skizze im Sport-Prozessportfolio fest (inkl. Gruppenleistung!) und reflektieren ihre Sicherheits- und Teamabsprachen.",
+        "allgemein": "Deutsch Klasse 3 (Buchvorstellung als mündliche Prüfung): Gegen den Sprechtempo-Bias (Birkel & Pritz, 1980) nutzt die Lehrkraft einen strukturierten Beobachtungsbogen mit klaren Inhaltskriterien und gibt ruhigen Kindern ausreichend Antwortzeit (Wait-Time)."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Mündliche Prüfung (Jäger, 2000) & Sacher", "hint": "Definition + „interaktiver Charakter“ aus Inhalts- und Beziehungsbotschaften." },
+        { "term": "Studien von Birkel & Pritz (1980) sowie Birkel (1978)", "hint": "Sprechtempo-Halo, Vorinformation, Reihenfolge/Kontrasteffekt, Prüfererfahrung (Noten 1–5!)." },
+        { "term": "4 Kritikaspekte an mündlichen Prüfungen", "hint": "Sozialpsychologisch, psychoanalytisch, gesellschaftlich, messmethodisch." },
+        { "term": "7 Gegensatzpaare schriftlich vs. mündlich", "hint": "Fixiert/adaptiv, reaktiv/kommunikativ, Grenzen, Bezug, Zeit, Situation, Ausschnitt/Umfang." },
+        { "term": "Portfolio (Paulson et al., 1991) & 5 Formen", "hint": "Mitbestimmung + Selbstreflexion; Arbeits-, Beurteilungs-, Vorzeige- (Kunstmappe!), Prozess-, Bewerbungsportfolio." }
+      ],
+      "essay_recipe": {
+        "intro": "Mündliche Prüfungen (Jäger, 2000) und Portfolios (Paulson, Paulson & Meyer, 1991) markieren zwei sehr unterschiedliche Pole nicht-standardisierter Leistungsdiagnostik.",
+        "core_model": "Analyse des interaktiven Charakters mündlicher Prüfungen (Sacher), der vier Kritikaspekte und des Vergleichs zu schriftlichen Prüfungen; anschließend Kontrastierung mit Konzept, Pflichtbestandteilen und Formen der Portfolioarbeit.",
+        "empirics": "Birkel & Pritz (1980) zum Sprechtempo-Halo und Vorinformationseffekt; Birkel (1978) und Ingenkamp (1975) zu Kontrast-/Erwartungseffekten, geringer Prüferübereinstimmung (max. r = .60) und schwacher Korrelation mit schriftlichen Noten (r = .30).",
+        "critique_bridge": "Mündliche Prüfungen bedürfen zwingend strukturierter Leitfäden und Schätzskalen; Portfolios verlangen klare Beurteilungskriterien, um dem Güte-Aufwand-Dilemma standzuhalten.",
+        "school_transfer": "Kombination aus Prozess- und Vorzeigeportfolio als Kunstmappe im Grundschul-Kunstunterricht sowie kriteriengeleitete, angstfreie Gesprächsformate."
+      },
+      "all_bold_terms_covered": [
+        "Mündliche Prüfungen",
+        "Jäger (2000)",
+        "mündliche Prüfung",
+        "sprachgebundene Leistungen",
+        "sprachunabhängige Leistungen",
+        "formelle Prüfung",
+        "informelle Prüfung",
+        "Sacher",
+        "Birkel & Pritz (1980)",
+        "Barnes & Pressey (1929)",
+        "Birkel (1978)",
+        "Ingenkamp (1975)",
+        "Sozialpsychologischer Aspekt",
+        "Psychoanalytischer Aspekt",
+        "Gesellschaftlicher Aspekt",
+        "Messmethodischer Aspekt",
+        "Vergleich von schriftlichen und mündlichen Prüfungen",
+        "Portfolio als alternatives Verfahren",
+        "Paulson, Paulson & Meyer (1991)",
+        "Häcker (2006)",
+        "Portfolio",
+        "Beteiligung der Schüler",
+        "Reflexion und Dokumentation",
+        "Arbeitsportfolio",
+        "Beurteilungsportfolio",
+        "Vorzeigeportfolio",
+        "Prozessportfolio",
+        "Bewerbungsportfolio"
+      ]
+    },
+    {
+      "id": "C-07-03",
+      "domain": "C",
+      "chapter_group_num": "7",
+      "chapter_group_title": "7. Methoden der Pädagogischen Diagnostik",
+      "section_num": "7.5",
+      "title": "Formelle Schulleistungstests (Norm- vs. Kriteriumsorientiert)",
+      "subtitle": "Testkonstruktion nach KTT & IRT, Rheinberg-Befund, Vor-/Nachteile & DEMAT",
+      "page_start": 53,
+      "page_end": 56,
+      "page_label": "Original-Skript S. 53–56",
+      "estimated_minutes": 20,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "60 % richtig = gut im Klassenschnitt (normorientiert), aber durchgefallen bei 90 %-Lehrziel (kriteriumsorientiert)!",
+      "definitions": [
+        {
+          "term": "Formeller Schulleistungstest",
+          "definition": "Standardisiertes Verfahren der pädagogischen Diagnostik, mit dessen Hilfe Ergebnisse geplanter und an Curricula orientierter Lernvorgänge möglichst objektiv, zuverlässig und gültig gemessen und durch Lehrende oder Beratende ausgewertet, interpretiert und für pädagogisches Handeln nutzbar gemacht werden können.",
+          "author_year": "Ingenkamp & Lissmann, 2008",
+          "page_ref": "S. 53"
+        },
+        {
+          "term": "Normorientierter (bezugsgruppenorientierter) Schulleistungstest",
+          "definition": "Wissenschaftliches Routineverfahren zur Feststellung des Kenntnisstandes in einem (oder mehreren) inhaltlich spezifizierten kognitiven Lehrzielbereich(en), bei dem Aussagen über die Leistungshöhe aufgrund des Vergleichs mit den Leistungen einer für Altersstufe, Schulstufe oder Schulart repräsentativen Stichprobe getroffen werden.",
+          "author_year": "Lukesch, 1998",
+          "page_ref": "S. 54"
+        },
+        {
+          "term": "Kriteriumsorientierter Schulleistungstest",
+          "definition": "Wissenschaftliches Routineverfahren zur Untersuchung der Frage, ob und eventuell wie gut ein bestimmtes Lehrziel erreicht ist (Vergleich mit einem zuvor und unabhängig von den Testergebnissen anderer Personen festgesetzten Kriterium).",
+          "author_year": "Fricke, 1973",
+          "page_ref": "S. 55"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "7.5.1–7.5.2 Konstruktion: Normorientiert (KTT) vs. Kriteriumsorientiert",
+          "page_ref": "S. 53–55",
+          "bullets": [
+            "**Verbreitung & Grundschul-Testbeispiele**: Fast alle deutschen publizierten Schulleistungstests sind **bezugsgruppenorientiert**: **DEMAT 1+, DEMAT 2+** (Mathe Kl. 1/2; sowie **DEMAT 9**), **DRT 4** (Diagnostischer Rechtschreibtest Kl. 4), **HSP** (Hamburger Schreib-Probe), **SLRT** (Salzburger Lese- und Rechtschreibtest), **Würzburger Leise Leseprobe**, **ELFE 2** (Leseverständnis & Leseflüssigkeit).",
+            "**7 Konstruktionsschritte normorientierter Tests nach KTT (Lukesch, 1998)**: (1) **Vorbereitende Planung**, (2) **Curriculare Analyse** (Lehrplan-Expertenratings, Lehrzielmatrizen nach **Bloom**), (3) **Aufgabenkonstruktion** (mittlere Schwierigkeit, Itemüberschuss, gebundene vs. freie Formate; **Regeln nach Ebel, 1951**: klar/eindeutig, einfacher Satzbau, keine doppelten Verneinungen, keine verdeckten Hinweise), (4) **Vorerprobung**, (5) **Empirische Aufgabenanalyse an N = 300–400 Schülern**: **Schwierigkeit** (optimal **20–80 %**), **Distraktorenanalyse** (falsche Optionen optimal ca. **10–15 %**; *Skript-Bsp.: A 10 %, B [richtig] 50 %, C 0 %, D 15 %, E 25 % -> C und E überarbeiten!*), **Trennschärfe** (*t* ≤ 0 unbrauchbar, Ziel ***t* ≥ .30**) & Reliabilität, (6) **Testvalidierung** (konvergent, divergent, prognostisch), (7) **Eichung (Normierung)** an repräsentativer Eichstichprobe.",
+            "**6 Konstruktionsschritte kriteriumsorientierter Tests (Ingenkamp & Lissmann, 2008)**: (1) Planung (ggf. probabilistisches Modell), (2) **Curriculare Analyse = wichtigster Schritt!** (repräsentative Aufgabenstichprobe), (3) Aufgabenkonstruktion, (4) Aufgabenanalyse nachrangig (Trennschärfe weniger relevant; bei probabilistischen Tests **Rasch-Skalierung**!), (5) Testauswertung (Cut-off der Lehrzielerreichung), (6) Testgüteprüfung (**KEINE Eichung**, da kein Bezugsgruppenvergleich!)."
+          ]
+        },
+        {
+          "heading": "7.5.3–7.5.4 Einsatz, Vor-/Nachteile, Gütekriterien & Beispiel DEMAT",
+          "page_ref": "S. 55–56",
+          "bullets": [
+            "**Anwendung in der Schulklasse (Lukesch, 1998)**: Vergleich der Klasse mit Eichstichprobe, **Überprüfung des eigenen Benotungssystems**, Objektivierung beim Schulartwechsel, Eingangsdiagnose neuer Klassen, innere/äußere Differenzierung, summative Evaluation.",
+            "**Vorteile vs. Nachteile**: *Vorteile:* Hohe Gütekriterien, geeichter Maßstab fürs eigene Notensystem, gerechtere Selektion, Prüfung von Lernvoraussetzungen, überregionaler Vergleich, Maßnahmenevaluation. *Nachteile:* Demotivation Leistungsschwacher, scharfe Hervorhebung von Leistungsunterschieden, Lehrplanverarmung / **„teaching to the test“**, Gefahr einseitig **schülerinterner Ursachenzuschreibung**, Anschaffungskosten.",
+            "**Gütekriterien formeller Tests**: Durchführungs- (Manual, Zeitlimit), Auswertungs- (Schablone / Kriterienkatalog) und Interpretationsobjektivität (Normtabellen) **sehr gut**; Reliabilitäts- und empirische Validitätskoeffizienten ausgewiesen; **Einschränkung bei Inhaltsvalidität**: nur annäherungsweise über Lehrplananalyse gesichert, da **individuelle Lerngelegenheiten der Einzelklasse nicht berücksichtigt** werden!",
+            "**7.5.4 Referenzbeispiel DEMAT 9 (analog DEMAT 1+/2+ in GS)**: Einsatz letzte 3 Monate Kl. 9 (MS, RS, Gym), ca. **45 Min.**; Inhalte: Messen/Raum & Form, funktionaler Zusammenhang, Daten & Zufall + separater Zusatztest Konventions-/Regelwissen; hohe Objektivität, Reliabilität, Konstrukt- und curriculare Validität; schulformspezifische & -übergreifende Normen (**N = 1.230** aus 14 Bundesländern)."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Schulangst und Schulunlust unter verschiedenen Bewertungsnormen",
+          "authors_year": "Rheinberg, 1977",
+          "page_ref": "S. 55",
+          "setup": "Empirischer Vergleich von Lernenden unter individual- und lehrzielorientierten (kriterialen) vs. sozialnormorientierten Leistungsbewertungen.",
+          "finding": "Individual- und lehrzielorientierte Bewertungen zeigen signifikant günstigere Effekte hinsichtlich geringerer Schulangst und geringerer Schulunlust als sozialnormorientierte Bewertungen.",
+          "implication": "Testergebnisse bezugsgruppenorientierter Tests niemals als bloßes Ranking kommunizieren, sondern stets mit konkreten Förderhinweisen und individueller Fortschrittsperspektive verbinden."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "7 Schritte der Testkonstruktion nach KTT (Lukesch, 1998)",
+        "steps_or_rows": [
+          { "label": "1–2. Planung & Curriculum", "detail": "Testziel klären + Expertenrating der Lehrpläne -> Bloom-Lehrzielmatrix" },
+          { "label": "3–4. Items & Vorerprobung", "detail": "Aufgaben nach Ebel-Regeln (1951) im Überschuss entwerfen + Verständlichkeit testen" },
+          { "label": "5. Aufgabenanalyse (N=300–400)", "detail": "Schwierigkeit 20–80 % | Distraktoren 10–15 % | Trennschärfe t >= .30 | Reliabilität" },
+          { "label": "6–7. Validierung & Eichung", "detail": "Konvergente/prognostische Validität prüfen + Normtabellen an Eichstichprobe gewinnen" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Bezugsgruppenorientierter vs. Kriteriumsorientierter Schulleistungstest",
+        "headers": ["Merkmal", "Bezugsgruppenorientierter Test (Lukesch, 1998)", "Kriteriumsorientierter Test (Fricke, 1973)"],
+        "rows": [
+          ["Bezugsnorm & Deutung von 60 %", "Soziale BN: 60 % können im Vergleich zu Mitschülern gut sein", "Kriteriale BN: Bei 90 %-Mindestkriterium ist Lehrziel mit 60 % verfehlt"],
+          ["Testtheoretische Basis", "Klassische Testtheorie (KTT)", "Curriculum-Sampling bzw. probabilistische Testtheorie (Rasch-Skalierung)"],
+          ["Wichtigster Konstruktionsschritt", "Empirische Aufgabenanalyse (Trennschärfe t >= .30) & Eichung", "Curriculare Analyse (repräsentative Aufgabenstichprobe); KEINE Eichung!"],
+          ["Pädagogische Stärke", "Objektiver Leistungsvergleich über Klassen/Schulen hinweg", "Klare Diagnose, ob ein konkretes Lehrziel beherrscht wird (förderdiagnostisch)"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 9.3.1 (Lehrzieltaxonomie nach Bloom) & Kap. 10.6 (Unterrichtsqualität vs. Teaching to the test)",
+          "bridge_explanation": "Blooms Taxonomie bildet bei der curricularen Analyse das Rückgrat der Lehrzielmatrix; einseitiges Testtraining („teaching to the test“) verengt verständnisorientierten Unterricht."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 8.4–8.6 (Prüfungsangst) & Kap. 4.9 (Wirkungen des Selbstkonzepts)",
+          "bridge_explanation": "Rheinbergs (1977) Befund verknüpft Testrückmeldung direkt mit der Entstehung bzw. Prävention von Schulangst und Schulunlust."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 4 (Farblehre-Wissensquiz): Beim Erstellen von Auswahlfragen für ein Farben-Quiz beachtet die Lehrkraft Ebels Regeln (keine doppelten Verneinungen, plausible Distraktoren statt Scherzantworten) und prüft kriterial, ob alle Kinder Komplementärkontraste erkennen.",
+        "sport": "Sport Klasse 3 (Deutscher Motorik-Test / Schwimmabzeichen Bronze): Das Schwimmabzeichen Bronze funktioniert streng kriteriumsorientiert (Fricke, 1973: 15 Min. Schwimmen / 200 m + Tieftauchen – unabhängig vom Klassenschnitt!), während normierte Motorik-Tests den Vergleich mit Altersnormen erlauben.",
+        "allgemein": "Mathe & Deutsch Klasse 1–4: Gezielter Einsatz von DEMAT 1+/2+, ELFE 2, WLLP, HSP oder DRT 4 zur Förderdiagnose bei Verdacht auf LRS/Dyskalkulie und zur Kalibrierung des eigenen Klassenmaßstabs."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Formeller Schulleistungstest + 6 Grundschul-Testnamen", "hint": "Ingenkamp & Lissmann (2008) + DEMAT 1+/2+, DRT 4, HSP, SLRT, WLLP, ELFE 2." },
+        { "term": "7 Schritte normorientierter Testkonstruktion (Lukesch, 1998)", "hint": "Inkl. Bloom-Matrix, Ebel (1951), N = 300–400, Schwierigkeit 20–80 %, Distraktoren 10–15 %, t >= .30, Eichung." },
+        { "term": "Kriteriumsorientierter Test (Fricke, 1973)", "hint": "Curriculare Analyse als wichtigster Schritt, ggf. Rasch-Skalierung, KEINE Eichung, 60-%-Beispiel." },
+        { "term": "Vor- & Nachteile formeller Tests + Inhaltsvaliditäts-Haken", "hint": "Teaching to the test, interne Attribution, fehlende Berücksichtigung individueller Lerngelegenheiten." },
+        { "term": "DEMAT 9 (bzw. DEMAT-Reihe)", "hint": "45 Min., Inhaltsbereiche + Regelwissen-Zusatztest, N = 1.230 aus 14 Bundesländern." }
+      ],
+      "essay_recipe": {
+        "intro": "Formelle Schulleistungstests (Ingenkamp & Lissmann, 2008) begegnen den Gütemängeln klassischer Prüfungen durch wissenschaftliche Testkonstruktion und Standardisierung.",
+        "core_model": "Vergleichende Darstellung normorientierter Schulleistungstests nach Lukesch (1998; KTT, 7 Konstruktionsschritte inkl. Itemkennwerte und Eichung) und kriteriumsorientierter Tests nach Fricke (1973; Primat der curricularen Analyse, Rasch-Skalierung, Verzicht auf Eichung) sowie Veranschaulichung am DEMAT.",
+        "empirics": "Rheinberg (1977) zeigt geringere Schulangst und Schulunlust bei individual- und lehrzielorientierter Rückmeldung; Normierungsdaten wie beim DEMAT 9 (N = 1.230) sichern klassenübergreifende Vergleichbarkeit.",
+        "critique_bridge": "Hohe Objektivität und Reliabilität stehen den Risiken von „teaching to the test“, Demotivation Schwächerer und eingeschränkter Abbildung klassenspezifischer Lerngelegenheiten gegenüber.",
+        "school_transfer": "Verantwortungsvoller Einsatz von DEMAT 1+/2+, HSP oder ELFE 2 in der Grundschule als diagnostische Förderbasis statt als bloßes Selektionsinstrument."
+      },
+      "all_bold_terms_covered": [
+        "Formelle Schulleistungstests",
+        "Schulleistungstests",
+        "Normorientierte bzw. bezugsgruppenorientierte Tests",
+        "Kriteriumsorientierte Tests",
+        "DEMAT 1+, DEMAT 2+",
+        "DEMAT 9",
+        "DRT 4",
+        "HSP",
+        "SLRT",
+        "Würzburger Leise Leseprobe",
+        "ELFE 2",
+        "Lukesch (1998)",
+        "Klassische Testtheorie",
+        "Curriculare Analyse",
+        "Taxonomie von Bloom",
+        "Ebel (1951)",
+        "Vorerprobung",
+        "Empirische Aufgabenanalyse",
+        "N = 300 bis 400",
+        "Schwierigkeitsgrad",
+        "Distraktorenanalyse",
+        "Trennschärfe",
+        "Testvalidierung",
+        "Eichung (Normierung)",
+        "Fricke (1973)",
+        "raschskaliert",
+        "Rheinberg (1977)",
+        "teaching to the test"
+      ]
+    },
+    {
+      "id": "C-07-04",
+      "domain": "C",
+      "chapter_group_num": "7",
+      "chapter_group_title": "7. Methoden der Pädagogischen Diagnostik",
+      "section_num": "7.6–7.9",
+      "title": "Informelle Schulleistungstests, Systemvergleiche & VERA",
+      "subtitle": "Lehrerkonstruierte Tests, Formell vs. Informell, Test vs. Prüfung & VERA-3 / VERA-8",
+      "page_start": 57,
+      "page_end": 59,
+      "page_label": "Original-Skript S. 57–59",
+      "estimated_minutes": 16,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Informelle Tests kennen die echte Lerngelegenheit der Klasse – VERA-3 prüft bundesweit KMK-Bildungsstandards!",
+      "definitions": [
+        {
+          "term": "Informelle Schulleistungstests",
+          "definition": "Verfahren der pädagogischen Diagnostik, die hauptsächlich von Lehrkräften konstruiert werden, um die Ergebnisse der von ihnen geplanten Lernvorgänge in ihrer Klasse möglichst objektiv zu erfassen und für ihr pädagogisches Handeln nutzbar zu machen.",
+          "author_year": "Ingenkamp & Lissmann, 2008",
+          "page_ref": "S. 57"
+        },
+        {
+          "term": "Vergleichsarbeiten (VERA-3 / VERA-8)",
+          "definition": "Vom Institut zur Qualitätsentwicklung im Bildungswesen (IQB) entwickelte, kriteriumsorientierte Lernstandserhebungen mit dem Ziel des Bildungsmonitorings und der Unterrichtsentwicklung anhand der KMK-Bildungsstandards.",
+          "author_year": "IQB / Lochner & Denzler, 2026",
+          "page_ref": "S. 58–59"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "7.6 Informelle Schulleistungstests: Konstruktion, Vor-/Nachteile & Güte",
+          "page_ref": "S. 57–58",
+          "bullets": [
+            "**Abgrenzung**: Von Lehrkräften für die eigene Klasse entwickelt (weniger Aufwand als Experten-Tests, aber höherer methodischer Anspruch als traditionelle Proben durch **Prinzipien der Testkonstruktion**).",
+            "**4 Konstruktionsprinzipien**: (1) **Planung**, (2) **Curriculare Analyse** passgenau für die eigene Klasse, (3) **Aufgabenkonstruktion** im kollegialen Austausch, (4) **Vereinfachte Aufgabenanalyse** (Schwierigkeit & Trennschärfe anhand der Klassenergebnisse).",
+            "**Vorteile vs. Nachteile**: *Vorteile:* Bessere Gütekriterien als herkömmliche Proben, **volle Berücksichtigung der Lerngelegenheit**, hohe Unterrichtsnähe, ökonomischer als formelle Tests, schnelle Korrektur. *Nachteile:* Geringere Gütekriterien als formelle Tests, höherer Erstellungsaufwand als normale Proben, Qualität lehrkraftabhängig, Aufgabenanalyse erst nachträglich (-> ggf. **Nachkorrektur** erforderlich).",
+            "**Spezifisches Güteprofil**: Durchführungs- und Auswertungsobjektivität relativ gut (Instruktion, Kriterienkatalog); Interpretationsobjektivität ohne Eichnormen eingeschränkt; Reliabilität & empirische Validität meist ungeprüft; **HERVORRAGEND: Inhaltsvalidität sehr gut – sogar besser als bei formellen Tests**, da der tatsächlich erteilte Unterricht (**individuelle Lerngelegenheit**) exakt abgebildet wird!"
+          ]
+        },
+        {
+          "heading": "7.7–7.9 Systemvergleiche & Lernstandserhebungen VERA-3 / VERA-8",
+          "page_ref": "S. 58–59",
+          "bullets": [
+            "**7.7 Formell vs. Informell**: Experten-Konstruktion, Eichung, volle Standardisierung, hoher Allgemeinheitsgrad & breite Einsetzbarkeit (*formell*) vs. Lehrkraft-Konstruktion, keine Eichung, Ansatz-Standardisierung, hohe Unterrichtsnähe & **höhere Inhaltsvalidität** für 1–2 Klassen (*informell*).",
+            "**7.8 Schriftliche Prüfungen vs. Schulleistungstests**: *Vorteile schriftlicher Prüfungen:* Berücksichtigung der Lerngelegenheit, motivierendere Wirkung bei offenen/kreativen Aufgaben, detailliertere individuelle Rückmeldung. *Vorteile Schulleistungstests:* Bessere Gütekriterien, Standardisierung, Schablonenauswertung, minimaler Korrekturzeitaufwand.",
+            "**7.9 VERA-Grundprinzip**: Entwickelt vom **IQB** für das **Bildungsmonitoring**; streng **kriteriumsorientiert** (Zuordnung zu den Kompetenzstufen der KMK-Bildungsstandards; keine Zeugnisnote!).",
+            "**VERA-3 (3. Klasse Grundschule)**: Fächer **Mathematik und Deutsch**, Bearbeitungszeit **30 bis 60 Minuten**, pro Durchgang jeweils **zwei Domänen/Testbereiche** (z. B. Mathe: *„Zahlen und Operationen“* + *„Daten, Häufigkeit und Wahrscheinlichkeit“*; Deutsch: *„Lesen“* + *„Rechtschreibung“*).",
+            "**VERA-8 (8. Klasse)**: Fächer **Mathematik, Deutsch, erste Fremdsprache (Englisch oder Französisch)**, Bearbeitungszeit **80 Minuten**, Testhefte in **drei Schwierigkeitsstufen**."
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S058_Schaubild.png",
+          "caption": "Gegenüberstellung Formeller vs. Informeller Schulleistungstest (7.7) sowie Vorteile schriftlicher Prüfungen vs. Vorteile von Schulleistungstests (7.8) (Original-Skript S. 58)",
+          "page_ref": "S. 58"
+        }
+      ],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Spektrum schulischer Leistungsdiagnostik: Von der Probe bis VERA",
+        "steps_or_rows": [
+          { "label": "Klassische schriftl. Prüfung", "detail": "Unterrichtsnah & detailliertes Feedback, aber ohne Checkliste geringe Objektivität/Reliabilität" },
+          { "label": "Informeller Schulleistungstest", "detail": "Von Lehrkraft nach Testprinzipien gebaut -> beste Inhaltsvalidität (Lerngelegenheit!) + gute Objektivität" },
+          { "label": "Formeller Schulleistungstest", "detail": "Von Experten entwickelt & geeicht (z. B. DEMAT 2+) -> höchste Gütekriterien & Normvergleich" },
+          { "label": "VERA-3 / VERA-8 (IQB)", "detail": "Kriteriumsorientiertes Bildungsmonitoring an KMK-Kompetenzstufen zur Unterrichtsentwicklung" }
+        ]
+      },
+      "comparison_table": {
+        "title": "VERA-3 vs. VERA-8 im Überblick (Kap. 7.9)",
+        "headers": ["Merkmal", "VERA-3 (Grundschule)", "VERA-8 (Sekundarstufe I)"],
+        "rows": [
+          ["Jahrgangsstufe & Bezugsnorm", "3. Klasse | Kriteriumsorientiert (KMK-Primarstandards)", "8. Klasse | Kriteriumsorientiert (KMK-Standards Sek I)"],
+          ["Geprüfte Fächer", "Mathematik und Deutsch (je 2 Domänen, z. B. Lesen & Rechtschreibung)", "Mathematik, Deutsch, 1. Fremdsprache (Englisch oder Französisch)"],
+          ["Bearbeitungsdauer & Hefte", "30 bis 60 Minuten", "80 Minuten | Aufgabenhefte in 3 Schwierigkeitsstufen"],
+          ["Funktion für die Lehrkraft", "Standortbestimmung für Kl. 3/4 & gezielte Unterrichtsentwicklung (keine Benotung!)", "Frühzeitige Diagnose vor Schulabschlüssen & Fachschaftsentwicklung"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 10.1 (Helmke: Angebots-Nutzungs-Modell) & Kap. 10.5 (Hattie: Formatives Feedback)",
+          "bridge_explanation": "VERA-Rückmeldungen dienen als datengestütztes Feedback für Lehrkräfte, um ihr Unterrichtsangebot im Sinne Helmkes gezielt weiterzuentwickeln."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 4.8 (Fähigkeitsselbstkonzept & Referenzgruppeneffekte) & Kap. 7.4 (Motivation)",
+          "bridge_explanation": "Da VERA-3 kriteriumsorientiert ohne Benotung rückgemeldet wird, vermeidet es soziale Beschämungseffekte auf das kindliche Fähigkeitsselbstkonzept in der 3. Klasse."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 5 (Evaluation) & Kap. 11.2 (KMK-Bildungsstandards)",
+          "bridge_explanation": "VERA verbindet die Überprüfung der KMK-Bildungsstandards (Kap. 11.2) direkt mit der internen Unterrichtsevaluation an der Einzelschule."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Farbmischlehre & Druckgrafik): Im Jahrgangsteam entwerfen zwei Parallelklassen-Lehrkräfte gemeinsam einen kurzen informellen Kurztest zu Werkzeugeinsatz und Farbkontrasten (kollegiale Aufgabenkonstruktion!), der exakt zu den im Werkraum erprobten Techniken (Lerngelegenheit!) passt.",
+        "sport": "Sport Klasse 4 (Regelkunde Ballspiele / Fairness): Kurzer bildgestützter informeller Regel-Check nach einer Basketball-/Brennball-Sequenz mit anschließendem Blick auf Aufgabenschwierigkeit (wurde eine missverständliche Frage von fast allen falsch verstanden -> Nachkorrektur!).",
+        "allgemein": "Deutsch & Mathe Klasse 3 (VERA-3): Nach der Auswertung von VERA-3 erkennt die Lehrkraft, dass ihre Klasse im Bereich „Daten, Häufigkeit und Wahrscheinlichkeit“ häufig noch auf Kompetenzstufe I/II liegt, und baut im Wochenplan gezielt Diagramm- und Kombinatorik-Stationen ein."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Informeller Schulleistungstest (Ingenkamp & Lissmann, 2008)", "hint": "Definition + die 4 Prinzipien der Konstruktion durch Lehrkräfte." },
+        { "term": "Warum hat der informelle Test die höchste Inhaltsvalidität?", "hint": "Exakte Berücksichtigung der real stattgefundenen individuellen Lerngelegenheit der Klasse!" },
+        { "term": "Nachteil „Nachkorrektur“ beim informellen Test", "hint": "Aufgabenanalyse (Schwierigkeit/Trennschärfe) erst nach Durchführung möglich." },
+        { "term": "Vergleich schriftliche Prüfung vs. Schulleistungstest", "hint": "Lerngelegenheit, Motivation & Detail-Feedback vs. Gütekriterien, Schablone & Zeitersparnis." },
+        { "term": "VERA-3 & VERA-8 (IQB)", "hint": "Kriteriumsorientiert an Bildungsstandards; Fächer, Domänen und Minutenangaben (30–60 vs. 80 Min.)." }
+      ],
+      "essay_recipe": {
+        "intro": "Zwischen frei gestalteten Klassenarbeiten und extern geeichten Tests nehmen informelle Schulleistungstests (Ingenkamp & Lissmann, 2008) und Vergleichsarbeiten (VERA) zentrale Brückenfunktionen ein.",
+        "core_model": "Darstellung der vier Konstruktionsprinzipien informeller Tests sowie systematischer Dreifachvergleich: formeller vs. informeller Test, Schulleistungstest vs. schriftliche Prüfung und landesweite Lernstandserhebungen VERA-3/VERA-8.",
+        "empirics": "Testtheoretische Begründung der überlegenen Inhaltsvalidität informeller Tests infolge bekannter Lerngelegenheiten gegenüber der höheren Normierungs- und Konstruktgüte formeller Verfahren und IQB-skalierter VERA-Aufgaben.",
+        "critique_bridge": "Informelle Tests liefern keine klassenübergreifenden Eichnormen; genau diese Lücke schließen kriteriumsorientierte Vergleichsarbeiten (VERA) auf Basis der KMK-Bildungsstandards.",
+        "school_transfer": "Kollegiale Entwicklung informeller Lernzielchecks im Grundschulteam kombiniert mit konstruktiver Nutzung der VERA-3-Ergebnisse in Klasse 3 für Deutsch und Mathematik."
+      },
+      "all_bold_terms_covered": [
+        "Informelle Schulleistungstests",
+        "Prinzipien der Testkonstruktion",
+        "Nachkorrektur",
+        "Konstruktvalidität",
+        "Vergleich von formellen und informellen Schulleistungstests",
+        "Vergleich von schriftlichen Prüfungen und Schulleistungstests",
+        "Lernstandserhebungen: Vergleichsarbeiten (VERA)",
+        "Bildungsmonitoring",
+        "Institut zur Qualitätsentwicklung im Bildungswesen (IQB)",
+        "VERA-3",
+        "VERA-8"
+      ]
+    },
+    {
+      "id": "C-08-01",
+      "domain": "C",
+      "chapter_group_num": "8",
+      "chapter_group_title": "8. Lernstörungen",
+      "section_num": "8.0–8.2",
+      "title": "Lernschwierigkeiten & Lese-Rechtschreibstörung (LRS)",
+      "subtitle": "ICD-10/11 & DSM-5, Phonologische Bewusstheit, BISC/Förderung & Bayerische BaySchO-Regelung",
+      "page_start": 60,
+      "page_end": 62,
+      "page_label": "Original-Skript S. 60–62",
+      "estimated_minutes": 20,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Phonologische Bewusstheit im Kern – in Bayern bei LRS Nachteilsausgleich & Notenschutz über Schulpsychologie!",
+      "definitions": [
+        {
+          "term": "Lernschwierigkeiten",
+          "definition": "Lernschwierigkeiten liegen vor, wenn Lernleistungen dauerhaft unterhalb tolerierbarer Abweichungen von institutionellen, sozialen oder individuellen Bezugsnormen liegen und mit Belastungen verbunden sind, die die Persönlichkeitsentwicklung beeinträchtigen.",
+          "author_year": "Langfeldt, 2006",
+          "page_ref": "S. 60"
+        },
+        {
+          "term": "Lese-Rechtschreibstörung (LRS / Legasthenie)",
+          "definition": "Umschriebene, deutliche Beeinträchtigung beim Lesen (und meist Rechtschreiben; ICD-10 F81.0, ICD-11 6A03.0), die nicht durch Alter, niedrige Intelligenz, Seh-/Hörprobleme oder unangemessene Beschulung erklärbar ist; im Kern liegt eine phonologische Informationsverarbeitungsstörung vor.",
+          "author_year": "ICD-10 / ICD-11; Schuchardt & Mähler, 2016 (Begriff Legasthenie: Ranschburg, 1916)",
+          "page_ref": "S. 60"
+        },
+        {
+          "term": "Komorbidität",
+          "definition": "Gleichzeitiges Auftreten mehrerer diagnostizierbarer Störungen bei ein und derselben Person (z. B. LRS gemeinsam mit ADHS oder einer Störung des Sozialverhaltens).",
+          "author_year": "Klinische Klassifikation (ICD-10 / DSM-5)",
+          "page_ref": "S. 60"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "8.0–8.2.2 Rolle der Lehrkraft, Begriffe & Diagnosekriterien (ICD-10 vs. DSM-5)",
+          "page_ref": "S. 60–61",
+          "bullets": [
+            "**Aufgabe von Lehrkräften**: Stellen klinische Lernstörungen **nicht selbst** fest, müssen aber **Verdachtsmomente fundiert begründen**, an **Beratungslehrkraft / Schulpsychologie** weiterleiten und im Unterricht gezielt fördern. Klassifikationssysteme: **ICD-10** (in D weiter üblich), **ICD-11** (seit 2022 international gültig), **DSM-5**.",
+            "**Bezugsnormen bei Lernschwierigkeiten (Langfeldt, 2006)**: **Institutionell** (Schulart-Anforderungen), **sozial** (Klassenschnitt), **individuell** (bisheriges Potenzial/Leistung).",
+            "**Begriffsabgrenzung**: **LRS** (F81.0 / 6A03.0; Lesen + meist Rechtschreiben) vs. **Isolierte Rechtschreibstörung** (F81.1 / 6A03.1; nur Rechtschreiben betroffen, Lesen & Rechnen im Normbereich, keine Leseprobleme in der Vorgeschichte) vs. **Lese-Rechtschreib-Schwäche** (schwache Leistung **ohne** Störungsdiagnose, z. B. vorübergehend oder durch ungünstige Lernbedingungen).",
+            "**Doppeltes Diskrepanzkriterium (ICD-10)**: Lese-/Rechtschreibleistung liegt deutlich (**ca. 2 Standardabweichungen**) unter dem nach **Alter (Altersdiskrepanz)** UND **Intelligenz (IQ-Diskrepanz)** zu erwartenden Niveau; Ausschluss von Seh-/Hörstörung, neurologischer Erkrankung, unzureichender Beschulung; **nonverbaler IQ ≥ 70**.",
+            "**Neuerung im DSM-5**: **Kein IQ-Diskrepanzkriterium mehr!** Lediglich der Ausschluss einer allgemeinen Intelligenzminderung genügt."
+          ]
+        },
+        {
+          "heading": "8.2.3–8.2.6 Symptome, Ursachen, Diagnostik, Förderung & BaySchO",
+          "page_ref": "S. 61–62",
+          "bullets": [
+            "**Symptome**: *Lesen:* langsames, stockendes Lesen; Auslassen, Vertauschen, Ersetzen von Wörtern/Wortteilen; Zeile verlieren; Gelesenes kaum wiedergeben können. *Rechtschreiben:* hohe Fehlerzahl in ungeübten Diktaten, Buchstabierprobleme.",
+            "**Ursachen**: Kern = Defizite der **phonologischen Bewusstheit** (Einsicht in die Lautstruktur der Sprache), des **phonologischen Arbeitsgedächtnisses** und des **schnellen Abrufs aus dem Langzeitgedächtnis**. **Genetik** (ca. **50 % Risiko** bei betroffenem Geschwister), neurobiologische Auffälligkeiten (**fMRT**); Umwelt verstärkt, verursacht aber nicht. Einfluss der **Orthographie** (**Paulesu**: im Englischen stärker/häufiger als im lauttreuen Italienischen).",
+            "**Diagnostik & Verlauf**: Vorschul-Früherkennung über **BISC** (*Bielefelder Screening*: Reimen, Silben, Laut-Wort-Vergleich, schnelles Benennen, Pseudowörter nachsprechen); Schuldiagnose über **SLRT, HSP, DRT, ELFE 2** + Intelligenztest. Prävalenz **4–5 %** (**Jungen ca. dreimal häufiger**); **sehr stabil** („wächst sich nicht aus“); häufige Sekundär-/Begleitprobleme: **ADHS**, Störung des Sozialverhaltens, geringes Selbstwertgefühl, depressive Verstimmung.",
+            "**Prävention & Förderung**: Vorschultraining **„Hören, lauschen, lernen“ (Küspert & Schneider)**; Förderung **symptomorientiert** an **phonologischer Bewusstheit, Buchstaben-Laut-Zuordnung und Wortlesen** (*kein* bloßes Wahrnehmungstraining!), in Kleingruppen **mind. 2× pro Woche** + Elternberatung.",
+            "**Bayerische Schulordnung (§§ 31–36 BaySchO, schulberatung.bayern.de)**: Drei Säulen bei LRS / isolierter Rechtschreibstörung: (1) **Individuelle Unterstützung** im Unterricht, (2) **Nachteilsausgleich** (z. B. Zeitzuschlag, größere/gegliederte Vorlagen, Vorlesen von Sachaufgaben; ohne Zeugnisvermerk), (3) **Notenschutz** (Verzicht auf Bewertung der Rechtschreibleistung bzw. stärkere Gewichtung mündlicher Leistungen; mit Zeugnisbemerkung) – in Bayern auf Elternantrag **zwingend über Begutachtung/Stellungnahme der Schulpsychologin / des Schulpsychologen** möglich!"
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Sprachvergleich zur Rolle der Orthographie & Vorschulische LRS-Prävention",
+          "authors_year": "Paulesu et al. (Orthographie-Vergleich); Küspert & Schneider („Hören, lauschen, lernen“)",
+          "page_ref": "S. 61",
+          "setup": "Paulesu verglich Leseleistungen und neurobiologische Aktivierungsmuster (fMRT/PET) in Sprachen unterschiedlicher Lauttreue (Englisch vs. Italienisch). Küspert & Schneider evaluierten ein spielerisches Vorschultraining der phonologischen Bewusstheit im Kindergarten.",
+          "finding": "Bei gleicher neurobiologischer Kernschwäche tritt LRS in orthographisch intransparenten Sprachen (Englisch) deutlich gravierender zutage als im lauttreuen Italienischen (Paulesu). Systematisches Training von Reimen, Silben und Lauten im Kindergarten senkt das spätere LRS-Risiko signifikant (Küspert & Schneider).",
+          "implication": "Frühe Lautstruktur-Förderung im Übergang Kita–Klasse 1 und systematischer Graphem-Phonem-Aufbau sind den wirkungslosen reinen Augen-/Motoriktrainings klar überlegen."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Von der Früherkennung zur Förderung & BaySchO-Begleitung bei LRS",
+        "steps_or_rows": [
+          { "label": "1. Vorschul-Prävention", "detail": "BISC-Screening + Training phonologischer Bewusstheit („Hören, lauschen, lernen“)" },
+          { "label": "2. Verdacht durch Lehrkraft", "detail": "Stockendes Lesen, Lautvertauschungen, Diktatfehler -> Weiterleitung an Schulpsychologie" },
+          { "label": "3. Fachdiagnostik", "detail": "SLRT / HSP / DRT / ELFE 2 + IQ-Test (ICD-10: Alters- & IQ-Diskrepanz ca. 2 SD; IQ >= 70)" },
+          { "label": "4. Förderung & BaySchO", "detail": "Symptomtraining (2x/Woche Kleingruppe) + Individuelle Unterstützung, Nachteilsausgleich & Notenschutz" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Abgrenzung der Begriffe & Diagnosekriterien rund um LRS",
+        "headers": ["Kategorie", "LRS (ICD-10 F81.0 / ICD-11 6A03.0)", "Isolierte Rechtschreibstörung (F81.1)", "Lese-Rechtschreib-Schwäche"],
+        "rows": [
+          ["Betroffene Bereiche", "Lesen UND meist Rechtschreiben deutlich beeinträchtigt", "NUR Rechtschreiben betroffen; Lesen & Rechnen im Normbereich (auch anamnestisch)", "Schwache Lese-/Schreibleistung ohne klinische Störungsdiagnose"],
+          ["Klinische Kriterien", "ICD-10: ca. 2 SD Alters- & IQ-Diskrepanz (IQ >= 70); DSM-5: ohne IQ-Diskrepanz", "Alters- & IQ-Diskrepanz der Rechtschreibleistung bei intaktem Lesen", "Oft vorübergehend oder durch äußere Lernbedingungen erklärbar"],
+          ["Schulrecht Bayern (BaySchO)", "Individuelle Unterstützung + Nachteilsausgleich + Notenschutz (über Schulpsychologie)", "Individuelle Unterstützung + Nachteilsausgleich + Notenschutz für Rechtschreibung", "Pädagogische individuelle Unterstützung und Differenzierung im Unterricht"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 3.2 (Baddeleys Arbeitsgedächtnismodell: Phonologische Schleife) & Kap. 1.6 (Erlernte Hilflosigkeit)",
+          "bridge_explanation": "Bei LRS ist spezifisch die phonologische Schleife des Arbeitsgedächtnisses sowie der schnelle Abruf aus dem LZG beeinträchtigt; ohne Nachteilsausgleich droht erlernte Hilflosigkeit."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 4.6–4.9 (Selbstkonzept & Selbstwert) & Kap. 2.5 (Intelligenzdiagnostik)",
+          "bridge_explanation": "Für das ICD-10-IQ-Diskrepanzkriterium wird ein nonverbaler/mehrdimensionaler Intelligenztest benötigt; sekundär gefährdet LRS den schulischen Selbstwert erheblich."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3 (Bildergeschichte / Comic zeichnen): Ein Kind mit diagnostizierter LRS darf seine Erzählkompetenz und Bildidee über ausdrucksstarke Sequenzzeichnungen zeigen; Sprechblasen werden kurz gehalten oder per Audio-Aufnahme ergänzt, Rechtschreibfehler fließen selbstverständlich nicht in die Kunstbewertung ein.",
+        "sport": "Sport Klasse 1/2 (Rhythmus- & Silbenspringen): Spielerische Verknüpfung von Bewegung und phonologischer Bewusstheit – beim Seilspringen, Prellen oder Reifen-Hüpfen werden Wörter rhythmisch in Sprechsilben („Schmet-ter-ling“ = 3 Sprünge) zerlegt; Stationskarten nutzen Piktogramme statt langer Lesetexte.",
+        "allgemein": "Deutsch Klasse 2–4 (Bayern): Bei ersten Warnzeichen Kontakt zur Schulpsychologie aufnehmen; im Unterricht lautgetreues Lesematerial in größerer, klar gegliederter Schrift bereitstellen, Zeitzuschlag gewähren (Nachteilsausgleich) und in Kleingruppen (2×/Woche) gezielt Graphem-Phonem-Korrespondenzen üben."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Lernschwierigkeiten (Langfeldt, 2006) & Rolle der Lehrkraft", "hint": "3 Bezugsnormen + Persönlichkeitsbelastung; Lehrkraft begründet Verdacht, diagnostiziert nicht selbst." },
+        { "term": "LRS vs. Isolierte Rechtschreibstörung vs. LRS-Schwäche", "hint": "F81.0 vs. F81.1 vs. vorübergehende Schwäche ohne Störungsdiagnose." },
+        { "term": "ICD-10 vs. DSM-5 bei LRS", "hint": "ICD-10: doppeltes Diskrepanzkriterium (2 SD Alter & IQ, IQ >= 70) vs. DSM-5: kein IQ-Diskrepanzkriterium!" },
+        { "term": "Ursachen, BISC & Förderung", "hint": "Phonologische Bewusstheit/AG/LZG-Abruf, 50 % Geschwisterrisiko, Paulesu, „Hören, lauschen, lernen“, Symptomtraining." },
+        { "term": "Bayerische Regelung (§§ 31–36 BaySchO)", "hint": "Individuelle Unterstützung, Nachteilsausgleich & Notenschutz bei LRS zwingend über Schulpsychologie!" }
+      ],
+      "essay_recipe": {
+        "intro": "Abzugrenzen von allgemeinen Lernschwierigkeiten (Langfeldt, 2006) und vorübergehenden Lese-Rechtschreib-Schwächen stellt die LRS (ICD-10 F81.0) eine überdauernde umschriebene Entwicklungsstörung schulischer Fertigkeiten dar.",
+        "core_model": "Darstellung der Diagnosekriterien im Vergleich von ICD-10 (Alters- und IQ-Diskrepanz von ca. 2 SD) und DSM-5 (Verzicht auf IQ-Diskrepanz), der Kernsymptome sowie des kognitiv-neurobiologischen Ursachenmodells rund um die phonologische Informationsverarbeitung (Schuchardt & Mähler, 2016).",
+        "empirics": "Genetische familiäre Häufung (ca. 50 % Geschwisterrisiko), sprachvergleichende Befunde zur Orthographietransparenz (Paulesu), Früherkennung via BISC sowie Wirksamkeit vorschulischer Prävention („Hören, lauschen, lernen“, Küspert & Schneider).",
+        "critique_bridge": "Unspezifische Wahrnehmungs- oder Motoriktrainings sind unwirksam; ebenso reicht bloßes Abwarten nicht aus, da LRS hohe zeitliche Stabilität (4–5 % Prävalenz) und hohe Komorbiditätsrisiken aufweist.",
+        "school_transfer": "Symptomorientierte Förderung (Buchstaben-Laut-Zuordnung, Wortlesen, 2×/Woche Kleingruppe) flankiert durch individuelle Unterstützung, Nachteilsausgleich und schulpsychologisch geprüften Notenschutz nach BaySchO."
+      },
+      "all_bold_terms_covered": [
+        "Lernstörungen",
+        "ICD-10",
+        "ICD-11",
+        "DSM-5",
+        "Lernschwierigkeiten",
+        "Langfeldt (2006)",
+        "Institutionelle Bezugsnorm",
+        "Soziale Bezugsnorm",
+        "Individuelle Bezugsnorm",
+        "Komorbidität",
+        "Lese-Rechtschreibstörung (LRS)",
+        "Legasthenie",
+        "Ranschburg (1916)",
+        "phonologische Informationsverarbeitungsstörung",
+        "Schuchardt & Mähler (2016)",
+        "Isolierte Rechtschreibstörung",
+        "Lese-Rechtschreib-Schwäche",
+        "Diskrepanzkriterien (ICD-10)",
+        "2 Standardabweichungen",
+        "phonologischen Bewusstheit",
+        "Paulesu",
+        "BISC",
+        "4–5 %",
+        "Hören, lauschen, lernen",
+        "Küspert & Schneider",
+        "Nachteilsausgleich und Notenschutz"
+      ]
+    },
+    {
+      "id": "C-08-02",
+      "domain": "C",
+      "chapter_group_num": "8",
+      "chapter_group_title": "8. Lernstörungen",
+      "section_num": "8.3–8.4",
+      "title": "Rechenstörung (Dyskalkulie) & ADHS",
+      "subtitle": "Zahlen-/Mengenverständnis (Butterworth), BaySchO-Abgrenzung & Multimodale ADHS-Intervention",
+      "page_start": 62,
+      "page_end": 63,
+      "page_label": "Original-Skript S. 62–63",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Dyskalkulie = KEIN Notenschutz in Bayern! | ADHS = Dopamin + Inhibition + Multimodale Förderung!",
+      "definitions": [
+        {
+          "term": "Rechenstörung (Dyskalkulie)",
+          "definition": "Umschriebene Beeinträchtigung grundlegender Rechenfertigkeiten (Addition, Subtraktion, Multiplikation, Division; ICD-10 F81.2, ICD-11 6A03.2) seit Beginn des Rechenlernens, die nicht durch Intelligenzminderung oder unangemessene Beschulung erklärbar ist (Kern: fehlendes Zahlen- und Mengenverständnis nach Butterworth).",
+          "author_year": "ICD-10 / ICD-11; Butterworth",
+          "page_ref": "S. 62"
+        },
+        {
+          "term": "ADHS / Hyperkinetische Störung",
+          "definition": "Entwicklungsstörung mit den drei Kernsymptomen Unaufmerksamkeit, Hyperaktivität (situationsunangemessene motorische Unruhe) und Impulsivität (Handeln ohne Nachdenken), die situationsübergreifend und über mindestens 6 Monate auftreten (ICD-10 F90: Hyperkinetische Störung; ICD-11 6A05: ADHS).",
+          "author_year": "ICD-10 / ICD-11 / DSM-5",
+          "page_ref": "S. 62–63"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "8.3 Rechenstörung (Dyskalkulie): Kriterien, Symptome, Förderung & Bayern-Regel",
+          "page_ref": "S. 62",
+          "bullets": [
+            "**Diagnosekriterien & Abgrenzung**: Rechenleistung **mind. 1,5 Standardabweichungen** unter Alters- und Intelligenzerwartung (**IQ ≥ 70**), seit Beginn des Rechenlernens; **Rechenschwäche** = schwache Leistung ohne Störungsdiagnose; tritt LRS hinzu -> **kombinierte Störung schulischer Fertigkeiten (ICD-10 F81.3)**.",
+            "**Typische Symptome in der Grundschule**: Verharren im **zählenden Rechnen** (Fingerrechnen), **Zahlendreher** (z. B. **57 → 75**), fehlende Vorstellung von Zahlbeziehungen, gravierende Probleme mit **Stellenwerten**, Überschlagsrechnen und Textaufgaben; das **Einmaleins** wird trotz Übens nicht behalten.",
+            "**Prävalenz & Diagnostik**: **3–6 %**; Kombination aus standardisiertem Rechentest (**DEMAT, Heidelberger Rechentest [HRT], ZAREKI**), qualitativer Fehleranalyse, Anamnese und Intelligenztest.",
+            "**Prävention & Förderung**: Vorschulprogramm **„Mengen, zählen, Zahlen“ (Krajewski u. a.)** im letzten Kindergartenjahr; schulische Förderung durch systematischen Aufbau von **Zahl- und Mengenvorstellungen**, Training basaler Rechenfertigkeiten und **Verstärkerpläne**.",
+            "**ACHTUNG PRÜFUNGSFALLE BAYERN (BaySchO)**: Anders als bei LRS gibt es bei **Dyskalkulie in Bayern KEINEN formalen Notenschutz**, sondern ausschließlich **individuelle pädagogische Unterstützung** im Unterricht!"
+          ]
+        },
+        {
+          "heading": "8.4 ADHS: Kernsymptome, ICD-10 vs. DSM-5, Rubikonmodell & Intervention",
+          "page_ref": "S. 62–63",
+          "bullets": [
+            "**Drei Kernsymptome**: (1) **Unaufmerksamkeit** (leicht ablenkbar, keine Daueraufmerksamkeit v. a. bei fremdbestimmten, monotonen Aufgaben), (2) **Hyperaktivität** (Zappeln, Aufstehen im Unterricht), (3) **Impulsivität** (Hereinrufen, Nicht-Abwarten-Können, geringe Frustrationstoleranz). **ADS** = vorwiegend unaufmerksamer Typ ohne Hyperaktivität.",
+            "**Diagnosevergleich ICD-10 vs. DSM-5**: **ICD-10 (F90 Hyperkinetische Störung)** fordert Unaufmerksamkeit **UND** Überaktivität gemeinsam, in **mehr als einer Situation** (Schule + Familie), Beginn **vor dem 6. Lebensjahr**, Dauer **mind. 6 Monate**. **DSM-5** setzt die Altersgrenze auf **vor dem 12. Lebensjahr** und unterscheidet **drei Subtypen** (*kombiniert*, *vorwiegend unaufmerksam*, *vorwiegend hyperaktiv-impulsiv*).",
+            "**Häufigkeit, Ursachen & Verlauf**: Ca. **5 %** (Jungen deutlich häufiger). Ursachen: neurobiologisch (**Dopamin**), Defizite in **Arbeitsgedächtnis** und **Verhaltenshemmung (Inhibition)**; Prozessdeutung über das **Rubikonmodell**: **motivational** (erhöhtes Stimulationsbedürfnis) bzw. **volitional** (schwache Abschirmung gegen Ablenkung). Verlauf: Ablehnung durch Peers & geringer Selbstwert; **motorische Unruhe sinkt** im Jugendalter, **Aufmerksamkeitsprobleme bleiben** oft bis ins Erwachsenenalter.",
+            "**8.4.4 Multimodale Intervention**: Kombination aus **Psychoedukation, Elterntraining, Verhaltenstherapie und ggf. Medikation**. **Schulische Maßnahmen**: klare Regeln & Routinen, reizarmer Arbeitsplatz (wenig Ablenkung), kurze überschaubare Arbeitsphasen, **Selbstinstruktion**, **Signalkarten** und **sofortige positive Verstärkung** kleiner Fortschritte."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Basale Mengen-Zahlen-Kompetenz als Prädiktor & Vorschultraining",
+          "authors_year": "Butterworth (Number-Sense-Defizit); Krajewski et al. („Mengen, zählen, Zahlen“)",
+          "page_ref": "S. 62",
+          "setup": "Längsschnitt- und Interventionsstudien zur Entwicklung früher Mengen-Zahlen-Kompetenzen vom letzten Kindergartenjahr bis in die Grundschulzeit.",
+          "finding": "Ein Defizit im basalen Verständnis der Verknüpfung von Mengen, Zahlwörtern und Ziffern (Butterworth) sagt spätere Rechenstörungen stark voraus; das Förderprogramm „Mengen, zählen, Zahlen“ im Vorschulalter verbessert die Startchancen im Mathematikunterricht nachhaltig.",
+          "implication": "Im Anfangsunterricht Mathematik Klasse 1 nicht verfrüht zum bloßen Ziffern-Rechnen übergehen, sondern tragfähige Teil-Ganzes- und Mengenvorstellungen mit Anschauungsmaterial sichern."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Multimodales Interventionsnetz bei ADHS (Kap. 8.4.4)",
+        "steps_or_rows": [
+          { "label": "1. Psychoedukation", "detail": "Kind, Eltern & Lehrkraft über Störungsbild aufklären (Entlastung von Schuldvorwürfen)" },
+          { "label": "2. Umfeld & Elterntraining", "detail": "Klare Familien- & Klassenregeln, feste Routinen, reizarmer Sitzplatz vorn" },
+          { "label": "3. Verhaltenstherapie & Schule", "detail": "Kurze Arbeitsphasen, Selbstinstruktion („Stopp – Schauen – Planen“), Signalkarten, Sofort-Verstärkung" },
+          { "label": "4. Ggf. Pharmakotherapie", "detail": "Ärztlich eingestellte Medikation (z. B. Dopamin-Regulation) bei schwerer Ausprägung" }
+        ]
+      },
+      "comparison_table": {
+        "title": "LRS vs. Rechenstörung (Dyskalkulie) vs. ADHS im Prüfungsvergleich",
+        "headers": ["Merkmal", "LRS (F81.0)", "Rechenstörung / Dyskalkulie (F81.2)", "ADHS / Hyperkinetische Störung (F90)"],
+        "rows": [
+          ["Prävalenz & ICD-10-Kriterium", "4–5 % | ca. 2 SD Diskrepanz (IQ >= 70)", "3–6 % | mind. 1,5 SD Diskrepanz (IQ >= 70)", "ca. 5 % | Beginn < 6 J. (DSM-5: < 12 J.), >= 6 Mon., > 1 Situation"],
+          ["Kognitiver Kernmechanismus", "Phonologische Bewusstheit, phon. AG, LZG-Abruf", "Basales Zahlen- & Mengenverständnis (Butterworth)", "Dopamin, Arbeitsgedächtnis, Verhaltenshemmung, Volition (Rubikon)"],
+          ["Prävention & Testverfahren", "„Hören, lauschen, lernen“ | BISC, SLRT, HSP, ELFE 2", "„Mengen, zählen, Zahlen“ | DEMAT, HRT, ZAREKI", "Multimodale Therapie, Selbstinstruktion, Token-/Signalkarten"],
+          ["Notenschutz in Bayern (BaySchO)", "JA (Nachteilsausgleich + Notenschutz über Schulpsychologie)", "NEIN! Kein Notenschutz in Bayern – nur individuelle Unterstützung!", "Kein Notenschutz, aber ggf. Nachteilsausgleich (z. B. reizarmer Raum / Zeit)"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.3 (Token-Systeme / Verstärkerpläne) & Kap. 6.2 (Selbstinstruktion & Volition)",
+          "bridge_explanation": "Sofortige kontingente Verstärkerpläne, Signalkarten und lautes/inneres Selbstinstruktionstraining kompensieren die volitionalen Abschirmungsdefizite im Rubikonmodell bei ADHS."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 1.5 (Exekutive Funktionen / Arbeitsgedächtnis) & Kap. 6 (Gleichaltrigenbeziehungen)",
+          "bridge_explanation": "Impulsivität und mangelnde Inhibition bei ADHS führen im Grundschulalter häufig zu Peer-Ablehnung und gefährden die soziale Integration."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 2 (Tonarbeiten / Collage mit ADHS-Kind): Klare Strukturierung des Arbeitsplatzes (nur benötigtes Werkzeug auf dem Tisch), Aufteilung in 3 kurze Teil-Etappen mit Bildkarten („1. Kneten – 2. Formen – 3. Glätten“) und leise Signalkarte am Platz statt öffentlichem Ermahnen.",
+        "sport": "Sport Klasse 1/2 (Inhibitions-Training durch „Feuer-Wasser-Sturm“ & Stopp-Tanz + Mengen-Staffel): Gezielte Förderung der Verhaltenshemmung bei ADHS durch akustische/visuelle Reaktions-Stopp-Spiele (klare Hallenrituale, Sammelkreis auf Pfiff); für Kinder mit Rechenunsicherheit bodennahe Zahlenstrahl-Sprungmatten zum körperlichen Erleben von Zahlenabständen.",
+        "allgemein": "Mathe Klasse 2 (Dyskalkulie): Ablösung vom Fingerzählen durch strukturierte Zwanzigerfelder und Wendeplättchen („Kraft der 5“), individuelle pädagogische Unterstützung und Verstärkerplan – unter Beachtung, dass nach BaySchO kein Notenschutz gewährt wird."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Dyskalkulie: Kriterien & Kern (Butterworth)", "hint": "ICD-10 F81.2, mind. 1,5 SD Diskrepanz, IQ >= 70, Zahlen-/Mengenverständnis; F81.3 kombiniert." },
+        { "term": "Dyskalkulie: Diagnostik, Prävention & Bayern-Regelung!", "hint": "DEMAT/HRT/ZAREKI, „Mengen, zählen, Zahlen“ (Krajewski), in Bayern KEIN Notenschutz!" },
+        { "term": "ADHS: 3 Kernsymptome & ADS-Abgrenzung", "hint": "Unaufmerksamkeit, Hyperaktivität, Impulsivität; ADS ohne Hyperaktivität." },
+        { "term": "ADHS: ICD-10 vs. DSM-5", "hint": "< 6 Jahre & alle Bereiche (ICD-10 F90) vs. < 12 Jahre & 3 Subtypen (DSM-5)." },
+        { "term": "ADHS: Ursachen (inkl. Rubikonmodell) & multimodale Hilfe", "hint": "Dopamin/AG/Inhibition, Stimulation vs. Abschirmung; Psychoedukation, Eltern, VT, Medikation, Schul-Routinen." }
+      ],
+      "essay_recipe": {
+        "intro": "Rechenstörung (ICD-10 F81.2) und ADHS (ICD-10 F90) zählen mit Prävalenzen von 3–6 % bzw. ca. 5 % zu den bedeutsamsten Entwicklungsstörungen im Grundschulalltag.",
+        "core_model": "Präzise Darstellung der Diagnosekriterien (inkl. Vergleich ICD-10 vs. DSM-5 bei ADHS sowie 1,5-SD-Diskrepanz bei Dyskalkulie), der Symptomatik und der neurokognitiven bzw. volitionalen Erklärungsansätze (Butterworth; Dopamin, Inhibition, Rubikonmodell).",
+        "empirics": "Hohe Persistenz von Aufmerksamkeitsdefiziten bis ins Erwachsenenalter trotz rückläufiger motorischer Unruhe bei ADHS; Wirksamkeit früher Mengen-Zahlen-Förderung nach Krajewski et al. bei Dyskalkulie.",
+        "critique_bridge": "Schulrechtliche Differenzierung in Bayern: Während bei LRS Notenschutz möglich ist, sieht die BaySchO bei Dyskalkulie keinen Notenschutz vor, was frühzeitige individuelle Förderung umso dringlicher macht.",
+        "school_transfer": "Multimodale Kooperation mit Eltern und Fachstellen sowie konkrete Unterrichtsstrukturierung (kurze Phasen, Signalkarten, Selbstinstruktion, Anschauungsmaterial zur Mengenvorstellung)."
+      },
+      "all_bold_terms_covered": [
+        "Rechenstörung (Dyskalkulie)",
+        "grundlegender Rechenfertigkeiten",
+        "Butterworth",
+        "1,5 Standardabweichungen",
+        "Rechenschwäche",
+        "kombinierte Störung schulischer Fertigkeiten (F81.3)",
+        "3–6 %",
+        "Heidelberger Rechentest",
+        "ZAREKI",
+        "Mengen, zählen, Zahlen",
+        "Krajewski",
+        "keinen Notenschutz",
+        "ADHS",
+        "ADS",
+        "Hyperkinetische Störung",
+        "Unaufmerksamkeit",
+        "Hyperaktivität",
+        "Impulsivität",
+        "vor dem 6. Lebensjahr",
+        "vor dem 12. Lebensjahr",
+        "5 %",
+        "Dopamin",
+        "Rubikonmodell",
+        "Multimodal"
+      ]
+    },
+    {
+      "id": "C-09-01",
+      "domain": "C",
+      "chapter_group_num": "9",
+      "chapter_group_title": "9. Verhaltensstörungen",
+      "section_num": "9.1–9.4",
+      "title": "Verhaltensstörungen, Aggression & Mobbing (Olweus)",
+      "subtitle": "Drei Normen, Störung des Sozialverhaltens, Reaktive vs. Proaktive Aggression & Bullying-Rollen",
+      "page_start": 63,
+      "page_end": 65,
+      "page_label": "Original-Skript S. 63–65",
+      "estimated_minutes": 18,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Mobbing ist KEIN Konflikt auf Augenhöhe, sondern Machtungleichgewicht + Wiederholung + Gruppenphänomen!",
+      "definitions": [
+        {
+          "term": "Verhaltensstörungen",
+          "definition": "Verhaltensstörungen liegen vor, wenn soziale und/oder emotionale Verhaltensweisen dauerhaft außerhalb tolerierbarer Abweichungen von idealen, sozialen und funktionalen Bezugsnormen liegen und das Kind selbst und/oder seine Umwelt beeinträchtigen.",
+          "author_year": "Lochner & Denzler, 2026",
+          "page_ref": "S. 63"
+        },
+        {
+          "term": "Aggression",
+          "definition": "Verhaltensweisen, die anderen Personen oder Sachen zielgerichtet Schaden zufügen, sie schwächen oder in Angst versetzen.",
+          "author_year": "Fürntratt, 1974",
+          "page_ref": "S. 64"
+        },
+        {
+          "term": "Bullying / Mobbing",
+          "definition": "Ein Schüler wird gemobbt, wenn er wiederholt und über längere Zeit negativen Handlungen eines oder mehrerer anderer ausgesetzt ist (gekennzeichnet durch Machtungleichgewicht und Wehrlosigkeit des Opfers).",
+          "author_year": "Olweus",
+          "page_ref": "S. 64"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "9.1–9.3 Drei Normen, Störung des Sozialverhaltens & Aggressionsformen",
+          "page_ref": "S. 63–64",
+          "bullets": [
+            "**Drei Normen bei Verhaltensstörungen**: **Ideale Norm** (Regeln, Gesetze, Moral), **soziale Norm** (kulturell übliches Verhalten / „statistische Norm“), **funktionale Norm** (ist das Verhalten für ein Ziel wie Lernen förderlich oder hinderlich?).",
+            "**Störung des Sozialverhaltens (ICD-10 F91)**: Wiederholtes, anhaltendes Muster dissozialen, aggressiven oder aufsässigen Verhaltens mit grober Verletzung altersgemäßer Regeln über **mind. 6 Monate** (Tyrannisieren, Grausamkeit, Zerstören, Stehlen, Lügen, Schuleschwänzen; Einzelhandlungen reichen nicht!).",
+            "**Subtypen & Abgrenzungen**: **Oppositionelles Trotzverhalten (F91.3)** (v. a. **vor dem 10. Lebensjahr**; trotzig, provokativ, ungehorsam gegenüber Erwachsenen, **ohne** schwere Gesetzesverstöße); **Hyperkinetische Störung des Sozialverhaltens (F90.1)** (ADHS + SSV -> ungünstigere Prognose; in ICD-11 kein eigener Code). **Dissozialität** = Verstoß gegen soziale Normen vs. **Delinquenz** = Verstoß gegen Strafgesetze. *Hilfe:* Elterntraining (**THOP**), klare Regeln, **Verhaltensverträge**, Gewaltprävention.",
+            "**Reaktive vs. proaktive Aggression**: **Reaktive Aggression** = impulsiv-ärgergetriebene Antwort auf (vermeintliche) Provokation, oft durch **Unterstellung feindseliger Absichten** (**Crick & Dodge**); **Proaktive (instrumentelle) Aggression** = kalt-gezielt eingesetzt für Macht/Anerkennung, erlernt über **Modelllernen und Verstärkung**. Erscheinungsformen: **physisch, verbal, relational** (Ausgrenzen, Gerüchte). Trend: Rückgang bis ca. **2014**, seither erneuter Anstieg inkl. Verlagerung in den digitalen Raum."
+          ]
+        },
+        {
+          "heading": "9.4 Bullying & Mobbing nach Olweus: Rollen, Folgen & Intervention",
+          "page_ref": "S. 64–65",
+          "bullets": [
+            "**3 Abgrenzungskriterien zu normalem Streit**: (1) **Machtungleichgewicht**, (2) **Opfer kann sich nicht allein wehren**, (3) **Wiederholung über längere Zeit**.",
+            "**Mobbing als Gruppenphänomen – 7 Rollen**: **Täter**, **Opfer**, **Täter-Opfer** sowie **Assistenten** (helfen aktiv mit), **Verstärker** (feuern an/lachen), **Verteidiger** (stehen Opfer bei) und **Zuschauer** (schauen passiv zu).",
+            "**Merkmale & gravierende Folgen**: *Opfer:* eher ängstlich, unsicher, sozial isoliert (**entscheidend ist die soziale Position in der Klasse, NICHT Äußerlichkeiten!**). *Täter:* selbstbewusst, dominant, wenig ängstlich. *Folgen:* Angst, Depression, Selbstwertverlust, Leistungsabfall, Suizidgedanken – **Täter-Opfer sind am allerstärksten belastet!**",
+            "**Diagnostik, Prävention & Intervention**: Systematische Beobachtung und **Soziogramm** zur Aufdeckung sozialer Isolation; gemeinsame Klassenregeln, konsequentes Eingreifen des gesamten Kollegiums sowie der lösungsorientierte **No-Blame-Approach**."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Systematische Bullying-Forschung & Whole-School-Prävention",
+          "authors_year": "Olweus (sowie Crick & Dodge, 1994 zur feindseligen Attribution)",
+          "page_ref": "S. 64–65",
+          "setup": "Großangelegte skandinavische und internationale Erhebungen zu Häufigkeit, Täter-/Opfermerkmalen, Gruppenrollen und Schulpräventionsprogrammen gegen Bullying.",
+          "finding": "Äußere Merkmale (z. B. Brille, Haarfarbe) erklären Opferwerdung nicht – entscheidend sind soziale Isolation in der Klasse und Machtungleichgewicht; Täter-Opfer weisen die höchste psychische Gesamtbelastung auf; systemweite Schulprogramme senken Mobbingraten deutlich.",
+          "implication": "Bei Mobbing niemals ein bloßes „Streitschlichter-Gespräch“ zwischen Täter und Opfer auf vermeintlicher Augenhöhe ansetzen, sondern die gesamte Klassengruppe (Zuschauer/Verstärker -> Verteidiger) einbeziehen!"
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "hierarchy",
+        "title": "Mobbing als Gruppenphänomen: Die 7 Rollen im Klassenzimmer",
+        "steps_or_rows": [
+          { "label": "Täter-Seite", "detail": "Täter (dominant, initiierend) + Assistenten (machen mit) + Verstärker (lachen/jubeln)" },
+          { "label": "Stille Mehrheit", "detail": "Zuschauer / Außenseiter (greifen nicht ein -> stabilisieren ungewollt die Täterrolle)" },
+          { "label": "Schutzfaktor", "detail": "Verteidiger (ergreifen Partei fürs Opfer, holen Hilfe -> Ziel von Prävention!)" },
+          { "label": "Betroffene", "detail": "Opfer (isoliert, wehrlos) & Täter-Opfer (selbst viktimisiert + impulsiv-aggressiv -> höchste Belastung!)" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Reaktive Aggression vs. Proaktive Aggression vs. Mobbing (Bullying)",
+        "headers": ["Dimension", "Reaktive Aggression", "Proaktive (instrumentelle) Aggression", "Bullying / Mobbing (Olweus)"],
+        "rows": [
+          ["Auslöser & Ziel", "Vermeintliche Provokation, Ärger/Angst (Affektabwehr)", "Gezielte Mittel-Zweck-Handlung für Macht, Status oder Besitz", "Systematische Machtdemonstration gegenüber wehrlosem Opfer"],
+          ["Psychologischer Mechanismus", "Feindselige Absichtsunterstellung (Crick & Dodge)", "Modelllernen (Bandura) & operante Verstärkung durch Erfolg", "Gruppenprozess mit Machtungleichgewicht & Wiederholung über Zeit"],
+          ["Pädagogische Intervention", "Ärgerkontrolle, Perspektivenübernahme, Deeskalation", "Keine Erfolgsverstärkung dulden, klare Konsequenzen, Verhaltensvertrag", "Konsequentes Lehrereingreifen, Soziogramm, No-Blame-Approach"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 2.2 (Bandura: Bobo-Doll-Experiment) & Kap. 1.3 (Operantes Konditionieren)",
+          "bridge_explanation": "Proaktive Aggression und das Verhalten von Assistenten/Verstärkern beim Mobbing entstehen maßgeblich durch Modelllernen am erfolgreichen Täter und soziale Verstärkung (Lachen der Peers)."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 6.6–6.8 (Aggressionsentwicklung & Crick & Dodge, 1994) & Kap. 6.2–6.3 (Empathie/Prosozialität)",
+          "bridge_explanation": "Reaktive Aggression wurzelt direkt in Schritt 2 des SIP-Modells von Crick & Dodge (feindseliger Attributionsfehler); Empathieförderung stärkt die Verteidiger-Rolle gegen Mobbing."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 4 (Gemeinschafts-Collage & Empathie-Porträts): Über ein verdecktes Soziogramm vor Gruppenprojekten erkennt die Lehrkraft sozial isolierte Kinder frühzeitig und bildet kooperative Tandems mit prosozialen „Verteidiger“-Kindern; bei relationaler Ausgrenzung („Mit der malen wir nicht!“) greift sie sofort klar nach der gemeinsamen Klassenregel ein.",
+        "sport": "Sport Klasse 3 (Mannschaftswahl & Zweifelderball): Abschaffung des beschämenden „Kapitäne-wählen-nacheinander“-Rituals (verfestigt Opfer-/Außenseiterstatus!); stattdessen Zufalls- oder Kriterienlose Teams. Wird ein Kind nach einem versehentlichen Balltreffer wütend (reaktive Aggression / feindselige Attribution), klärt ein kurzes „Fair-Play-Time-out“ Absicht vs. Versehen.",
+        "allgemein": "Klassenführung Klasse 3/4: Einsatz des lösungsorientierten No-Blame-Approach (Unterstützergruppe inklusive Zuschauern und Mitläufern entwickeln konkrete Schritte, damit sich das betroffene Kind in der Pause wieder wohlfühlt)."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Verhaltensstörungen & die 3 Bezugsnormen", "hint": "Ideale Norm (Gesetz/Moral), soziale Norm (üblich/statistisch), funktionale Norm (zielführend)." },
+        { "term": "Störung des Sozialverhaltens (F91, F91.3, F90.1) & Dissozialität vs. Delinquenz", "hint": "Mind. 6 Mon., Oppositionelles Trotzverhalten (< 10 J.), THOP; soziale Norm vs. Strafgesetz." },
+        { "term": "Aggression (Fürntratt, 1974): Reaktiv vs. Proaktiv & 3 Formen", "hint": "Crick & Dodge (feindselige Attribution) vs. Modelllernen/Verstärkung; physisch, verbal, relational." },
+        { "term": "Mobbing-Definition & 3 Kriterien nach Olweus", "hint": "Wiederholt über längere Zeit + Machtungleichgewicht + Wehrlosigkeit (Unterschied zu Streit!)." },
+        { "term": "7 Mobbing-Rollen, Täter-Opfer & Intervention", "hint": "Täter, Opfer, Täter-Opfer (höchste Belastung!), Assistenten, Verstärker, Verteidiger, Zuschauer; Soziogramm & No-Blame-Approach." }
+      ],
+      "essay_recipe": {
+        "intro": "Verhaltensstörungen verletzen dauerhaft ideale, soziale und funktionale Normen unter Beeinträchtigung des Kindes oder seiner Umwelt und reichen von Störungen des Sozialverhaltens bis zu systematischem Bullying.",
+        "core_model": "Differenzierung von Störungen des Sozialverhaltens (ICD-10 F91, F91.3, F90.1; Dissozialität vs. Delinquenz), reaktiver vs. proaktiver Aggression (Fürntratt, 1974; Crick & Dodge, 1994) sowie Olweus' Mobbing-Konzept (3 Kriterien und 7 Gruppenrollen).",
+        "empirics": "Empirische Befunde zeigen, dass soziale Isolation statt äußerer Merkmale das Opferrisiko bestimmt, Täter-Opfer die schwersten psychischen Folgen tragen und Gewalt sich seit 2014 verstärkt in digitale Räume verlagert.",
+        "critique_bridge": "Klassische Konfliktschlichtung versagt bei Mobbing wegen des strukturellen Machtungleichgewichts; Prävention und Intervention müssen das gesamte Klassensystem adressieren.",
+        "school_transfer": "Frühdiagnostik mittels systematischer Beobachtung und Soziogramm, Verhaltensverträge/THOP bei SSV sowie Klassenregeln und No-Blame-Approach bei Mobbing."
+      },
+      "all_bold_terms_covered": [
+        "Verhaltensstörungen",
+        "Ideale Norm",
+        "Soziale Norm",
+        "Funktionale Norm",
+        "Störung des Sozialverhaltens",
+        "Oppositionelles Trotzverhalten",
+        "Hyperkinetische Störung des Sozialverhaltens",
+        "Dissozialität",
+        "Delinquenz",
+        "THOP",
+        "Aggression",
+        "Fürntratt (1974)",
+        "Reaktive Aggression",
+        "feindseliger Absichten",
+        "Crick & Dodge",
+        "Proaktive (instrumentelle) Aggression",
+        "physisch, verbal, relational",
+        "Bullying und Mobbing",
+        "Olweus",
+        "wiederholt und über längere Zeit",
+        "Machtungleichgewicht",
+        "Gruppenphänomen",
+        "No-Blame-Approach",
+        "Soziogramm"
+      ]
+    },
+    {
+      "id": "C-09-02",
+      "domain": "C",
+      "chapter_group_num": "9",
+      "chapter_group_title": "9. Verhaltensstörungen",
+      "section_num": "9.5–9.6",
+      "title": "Generalisierte Angststörung & Schulabsentismus",
+      "subtitle": "Übermäßige Alltagssorgen im Kindesalter & Schulschwänzen vs. Angstbedingte Schulverweigerung",
+      "page_start": 65,
+      "page_end": 65,
+      "page_label": "Original-Skript S. 65",
+      "estimated_minutes": 14,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Schulschwänzen = heimlich „Lust statt Pflicht“ | Schulverweigerung = mit Wissen der Eltern aus Angst!",
+      "definitions": [
+        {
+          "term": "Generalisierte Angststörung (GAS) im Kindesalter",
+          "definition": "Übermäßige, schwer kontrollierbare Sorgen über mehrere Alltagsbereiche (v. a. Schule, Leistung, Familie, Freunde) über einen Zeitraum von mindestens 6 Monaten, begleitet von körperlich-kognitiven Anspannungssymptomen, ohne Bindung an eine einzelne spezifische Situation.",
+          "author_year": "Klinische Klassifikation (ICD-10 / DSM-5)",
+          "page_ref": "S. 65"
+        },
+        {
+          "term": "Schulabsentismus (Schulschwänzen vs. Angstbedingte Schulverweigerung)",
+          "definition": "Oberbegriff für regelmäßiges Fernbleiben vom Unterricht (ca. 5 % der Schülerschaft) auf einem Kontinuum von innerer Schulmüdigkeit über stunden-/tageweises Schuleschwänzen bis zu längerer Schulverweigerung – differenziert in dissoziales Schulschwänzen und angstbedingte Schulverweigerung.",
+          "author_year": "Lochner & Denzler, 2026",
+          "page_ref": "S. 65"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "9.5 Generalisierte Angststörung im Kindesalter",
+          "page_ref": "S. 65",
+          "bullets": [
+            "**Kernsymptomatik**: Übermäßige, unkontrollierbare Sorgen über **mehrere Alltagsbereiche** (Schule, Leistung, Familie, Freunde) über **mindestens 6 Monate**.",
+            "**Vegetativ-kognitive Begleitsymptome**: **Ruhelosigkeit**, **rasche Ermüdbarkeit/Müdigkeit**, **Konzentrationsprobleme**, **Reizbarkeit**, **Muskelverspannung** und **Schlafstörungen**.",
+            "**Differentialdiagnostische Abgrenzung**: **Nicht** an ein einzelnes Objekt oder eine spezifische Situation gebunden (anders als spezifische Phobien) und **ohne** anfallsartige Panikattacken.",
+            "**Ursachen, Häufigkeit & Therapie**: Wechselwirkung aus **ängstlichem Temperament** und **angstverstärkender Umwelt** (z. B. ängstlich-überbehütende Eltern, chronische Überforderung). Im Kindesalter selten (**unter 1 %**). Therapie der Wahl: **Kognitive Verhaltenstherapie (KVT)** (Angstmanagement, kognitive Umstrukturierung negativer Gedanken)."
+          ]
+        },
+        {
+          "heading": "9.6 Schulverweigerung & Schulabsentismus: Abstufung & Zwei Grundformen",
+          "page_ref": "S. 65",
+          "bullets": [
+            "**Abstufung (dreistufige Eskalation)**: (1) **Schulmüdigkeit** (physisch im Klassenzimmer anwesend, aber innerlich abgeschaltet) → (2) **Schuleschwänzen** (Fernbleiben in einzelnen Stunden oder Tagen) → (3) **Schulverweigerung** (längere, chronifizierte Abwesenheit). Prävalenz regelmäßigen Fehlens: **ca. 5 %**.",
+            "**Form 1 – Schulschwänzen (dissozial / externalisierend)**: Prinzip **„Lust statt Pflicht“** (attraktivere außerschulische Aktivitäten); tritt oft im Rahmen einer **Störung des Sozialverhaltens** auf; **Eltern wissen meist nichts davon** (heimliches Fernbleiben).",
+            "**Form 2 – Angstbedingte Schulverweigerung (internalisierend)**: Ausgelöst durch **Trennungsangst („Schulphobie“)** (Angst vor Trennung von der Bezugsperson zu Hause!), **soziale Angst**, **Leistungsangst („Schulangst“)** oder **Depression**; das Kind bleibt **meist mit Wissen der Eltern** (oft unter morgendlichen Bauch-/Kopfschmerzen) zu Hause."
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Eskalationsstufen & Differentialdiagnose des Schulabsentismus",
+        "steps_or_rows": [
+          { "label": "Stufe 1: Schulmüdigkeit", "detail": "Kind sitzt noch im Unterricht, hat aber innerlich abgeschaltet (Frühwarnzeichen!)" },
+          { "label": "Stufe 2–3: Offenes Fehlen", "detail": "Einzelne Fehlstunden/-tage -> verfestigte längere Abwesenheit (ca. 5 % betroffen)" },
+          { "label": "Pfad A: Schulschwänzen", "detail": "Dissozial („Lust statt Pflicht“, oft SSV) | OHNE Wissen der Eltern -> klare Präsenzkontrolle" },
+          { "label": "Pfad B: Schulverweigerung", "detail": "Angstbedingt (Trennungsangst/Schulphobie vs. Leistungs-/Schulangst) | MIT Wissen der Eltern -> KVT & Stufenrückkehr" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Prüfungsklassiker: Schulschwänzen vs. Angstbedingte Schulverweigerung (inkl. Schulphobie vs. Schulangst)",
+        "headers": ["Kriterium", "Schulschwänzen (dissozial)", "Angstbedingte Schulverweigerung"],
+        "rows": [
+          ["Hauptmotiv & Störungsbezug", "„Lust statt Pflicht“, Regelverletzung; oft Teil einer Störung des Sozialverhaltens", "Angst-/Überforderungsabwehr: Trennungsangst („Schulphobie“), Leistungs-/Sozialangst („Schulangst“), Depression"],
+          ["Aufenthaltsort & Elternwissen", "Außerhalb von Schule & Elternhaus; Eltern wissen meist NICHTS davon", "Zu Hause in Sicherheit; meist MIT Wissen (und oft Schonhaltung) der Eltern"],
+          ["Gefahr falscher Reaktion", "Wegschauen verstärkt dissoziale Muster", "Krankschreibung/Daheimlassen verstärkt Vermeidung negativ (Mowrers 2-Faktoren-Theorie!)"],
+          ["Pädagogisch-psychologische Hilfe", "Sofortige Rückmeldung ans Elternhaus, klare Regeln, Verhaltensverträge", "Schulpsychologie/KVT, Elternarbeit gegen Schonung, schrittweise begleite Rückführung"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 1.5 (Zwei-Phasen-Theorie des Vermeidungsverhaltens nach Mowrer)",
+          "bridge_explanation": "Bleibt ein Kind mit Schulangst/Schulphobie morgens zu Hause, sinkt die Angst schlagartig – diese Wegnahme eines aversiven Zustands wirkt als mächtige negative Verstärkung und chronifiziert die Schulverweigerung!"
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 8.4–8.6 (Prüfungsangst nach Liebert & Morris, 1967)",
+          "bridge_explanation": "Die Worry-Komponente (katastrophisierende Sorgen) dominiert sowohl die Generalisierte Angststörung als auch die leistungsbezogene Schulangst."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 1/2 (Perfektionismus-Entlastung bei ängstlichen Kindern): Ein Kind mit starken Versagenssorgen traut sich kaum, den ersten Pinselstrich zu setzen („Ich mache das Blatt kaputt!“). Die Lehrkraft arbeitet mit „Zufallskunst“ (Klecksbilder/Fadenziehen, bei denen es kein Falsch gibt) und baut so katastrophisierende Gedanken spielerisch ab.",
+        "sport": "Sport Klasse 1 (Trennungsangst / „Schulphobie“ am Morgen): Fällt einem Erstklässler die morgendliche Trennung von den Eltern an der Schultür extrem schwer, übernimmt er in der 1. Stunde Sport ein verlässliches Willkommens-Amt („Matten-Kapitän“ mit festem Partnerkind), sodass der Übergang positiv und sicherheitsgebend ritualisiert wird.",
+        "allgemein": "Frühwarnsystem Grundschule: Bei gehäuften Montags-Bauchschmerzen (Verdacht auf angstbedingte Schulverweigerung) eng mit Eltern und Schulpsychologie kooperieren – keinesfalls dauerhaftes Zu-Hause-Bleiben unterstützen, sondern sanfte gestufte Rückkehr sichern."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Generalisierte Angststörung im Kindesalter", "hint": "Mehrere Alltagsbereiche, mind. 6 Monate, < 1 %, Begleitsymptome (Muskelspannung, Schlaf, Konzentration)." },
+        { "term": "Abgrenzung GAS vs. Phobie/Panik & Therapie", "hint": "Nicht situationsgebunden, keine Panikattacken; Kognitive Verhaltenstherapie (KVT)." },
+        { "term": "3 Eskalationsstufen des Absentismus", "hint": "Schulmüdigkeit -> Schuleschwänzen -> Schulverweigerung (ca. 5 % fehlen regelmäßig)." },
+        { "term": "Schulschwänzen vs. angstbedingte Schulverweigerung", "hint": "Dissozial & ohne Elternwissen vs. Angst/Depression & mit Elternwissen zu Hause." },
+        { "term": "„Schulphobie“ vs. „Schulangst“", "hint": "Trennungsangst von Bezugspersonen vs. Angst vor der Schule selbst (Leistungs-/Sozialangst)." }
+      ],
+      "essay_recipe": {
+        "intro": "Internalisierende Störungen wie die Generalisierte Angststörung (< 1 %) und Formen des Schulabsentismus (ca. 5 %) werden im Unterricht leichter übersehen als lautes Störverhalten, beeinträchtigen Bildungsbiografien jedoch massiv.",
+        "core_model": "Darstellung von Symptomatik, Ätiologie und Abgrenzung der Generalisierten Angststörung im Kindesalter sowie Differenzierung der Eskalationsstufen und der beiden Hauptformen des Schulabsentismus (dissoziales Schulschwänzen vs. angstbedingte Schulverweigerung inkl. Schulphobie/Schulangst).",
+        "empirics": "Lerntheoretische Erklärung der Chronifizierung über Mowrers Zwei-Faktoren-Theorie (negative Verstärkung durch Vermeidung) sowie Wirksamkeitsnachweise kognitiver Verhaltenstherapie.",
+        "critique_bridge": "Gleiches beobachtbares Symptom („Kind fehlt im Unterricht“) verlangt diametral unterschiedliche Interventionen je nach zugrundeliegender Funktion (Lustgewinn vs. Angstreduktion).",
+        "school_transfer": "Angstfreies Klassenklima, individuelle Bezugsnorm, frühzeitige Elterngespräche gegen Schonungsvermeidung und schrittweise Reintegration mit der Schulpsychologie."
+      },
+      "all_bold_terms_covered": [
+        "Generalisierte Angststörung im Kindesalter",
+        "mehrere Alltagsbereiche",
+        "6 Monate",
+        "kognitive Verhaltenstherapie",
+        "Schulverweigerung und Schulabsentismus",
+        "Schulmüdigkeit",
+        "Schuleschwänzen",
+        "Schulverweigerung",
+        "Schulschwänzen",
+        "Angstbedingte Schulverweigerung",
+        "Schulphobie",
+        "Schulangst"
+      ]
+    },
+    {
+      "id": "C-10-01",
+      "domain": "C",
+      "chapter_group_num": "10",
+      "chapter_group_title": "10. Diagnostik von Lernvoraussetzungen",
+      "section_num": "10.1–10.2",
+      "title": "Diagnostik von Intelligenz (WISC-V) & Lernmotivation (SELLMO)",
+      "subtitle": "Alle 5 Primärindizes der WISC-V, Chancen/Risiken von IQ-Wissen & alle 4 Skalen des SELLMO",
+      "page_start": 66,
+      "page_end": 68,
+      "page_label": "Original-Skript S. 66–68",
+      "estimated_minutes": 19,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "WISC-V (6–16 J.): 5 kognitive Primärindizes | SELLMO (ab Kl. 4): 4 motivationale Zielorientierungen!",
+      "definitions": [
+        {
+          "term": "Intelligenz (nach Wechsler)",
+          "definition": "Intelligenz ist die zusammengesetzte oder globale Fähigkeit eines Individuums, zweckvoll zu handeln, vernünftig zu denken und sich mit seiner Umgebung wirkungsvoll auseinanderzusetzen.",
+          "author_year": "Wechsler, 1956",
+          "page_ref": "S. 66"
+        },
+        {
+          "term": "WISC-V (Wechsler Intelligence Scale for Children – Fifth Edition)",
+          "definition": "Mehrdimensionaler Individual-Intelligenztest für Kinder und Jugendliche von 6;0 bis 16;11 Jahren (deutsche Fassung: Petermann, 2017; früher HAWIK-IV) zur Erfassung des Gesamt-IQ sowie fünf primärer und mehrerer sekundärer Indizes.",
+          "author_year": "Petermann, 2017",
+          "page_ref": "S. 66–67"
+        },
+        {
+          "term": "SELLMO (Skalen zur Erfassung der Lern- und Leistungsmotivation)",
+          "definition": "Standardisierter deutschsprachiger Selbstbeurteilungsfragebogen (31 Items, 5-stufig) für Jahrgangsstufen 4 bis 10 (SELLMO-S) bzw. Studierende (SELLMO-ST) zur Erfassung von vier zeitlich überdauernden Zielorientierungen.",
+          "author_year": "Spinath, Stiensmeier-Pelster, Schöne & Dickhäuser, 2012 (zit. n. Hesse & Latzko, 2017)",
+          "page_ref": "S. 67–68"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "10.1 Intelligenzdiagnostik mit der WISC-V: 5 Primärindizes, Güte & Chancen/Gefahren",
+          "page_ref": "S. 66–67",
+          "bullets": [
+            "**6 schulische Anwendungsfelder**: (1) **Schuleignungsdiagnose** (Einschulung), (2) **Schullaufbahndiagnose** (Schultypwahl, Überspringen, Begabungsscreening), (3) **Lernbehinderung**, (4) **Teilleistungsstörungen** (IQ-Diskrepanzkriterium bei LRS/Dyskalkulie), (5) **Hochbegabung**, (6) **Underachievement** (Diskrepanz zwischen hohem Potenzial und schwacher Leistung).",
+            "**Eckdaten & die 5 primären Indizes**: Einzeltest (**60–90 Min.**, teils Speed-Test; Alter **6;0–16;11 J.**; Messbereich IQ 40–160, beste Differenzierung **70–130**): (1) **Sprachverständnis** (Begriffsbildung, sprachliches Schlussfolgern, erworbenes Wissen), (2) **Visuell-räumliche Verarbeitung**, (3) **Fluides Schlussfolgern** (fluide Intelligenz), (4) **Arbeitsgedächtnis** (Aufmerksamkeit, Konzentration, AG), (5) **Verarbeitungsgeschwindigkeit** (mentales & grafomotorisches Tempo). **Je 2 Untertests** pro Primärindex; **7 Untertests** ergeben den **Gesamt-IQ**.",
+            "**Sekundäre Indizes & Abgrenzung zum Matrizentest**: Sekundärindizes u. a. quantitatives Schlussfolgern, auditives AG, **nonverbaler Index** (bei Sprachstörung, Autismus, Migrationshintergrund!), allgemeiner Fähigkeitsindex (Hochbegabung), kognitiver Leistungsindex. *Examenshinweis („Sven“):* Ein reiner Matrizentest misst nur nonverbale fluide Intelligenz – die **WISC-V** liefert dagegen ein differenziertes Stärken-Schwächen-Profil!",
+            "**Auswertung & Gütekriterien**: Rohwerte → Altersnormtabellen → Wertpunkte → **IQ-Werte (Variabilitätsnorm, M = 100, SD = 15)**. Sehr hohe Reliabilität (**Gesamt-IQ ca. .96**), gute Validität, Normierung **2015/2016 an ca. N = 1.100** Kindern/Jugendlichen.",
+            "**Wissen der Lehrkraft um den IQ – Chancen vs. Gefahren**: *Chancen:* Individuelle Passung gegen Über-/Unterforderung, Erkennen verdeckten Potenzials bei Schwierigkeiten. *Gefahren:* Negative Erwartungseffekte (**Pygmalion-Effekt**) und Förderverzicht bei niedrigem IQ, Überforderung bei hohem IQ, verengte Sicht auf das Kind."
+          ]
+        },
+        {
+          "heading": "10.2 Motivationsdiagnostik mit SELLMO: Alle 4 Skalen & Testaufbau",
+          "page_ref": "S. 67–68",
+          "bullets": [
+            "**Einsatzziele für Lehrkräfte**: Ursachensuche bei Leistungsproblemen/Lernschwierigkeiten; Diagnose der Zielorientierungen nach **Übernahme einer neuen Klasse** (ab **4. Klasse Grundschule**: **SELLMO-S**, Kl. 4–10) zur gezielten Motivationsförderung.",
+            "**Die 4 Skalen / Dimensionen (können kombiniert auftreten!)**: (1) **Lernzielorientierung** (Kompetenzzuwachs & Verstehen anstreben), (2) **Annäherungs-Leistungszielorientierung** (eigene Kompetenz demonstrieren, besser als andere sein), (3) **Vermeidungs-Leistungszielorientierung** (eigene Unfähigkeit verbergen, Blamage vermeiden), (4) **Arbeitsvermeidung** (Anstrengung minimieren).",
+            "**Aufbau, Durchführung & Güte**: **31 Selbstbeurteilungs-Items** nach dem Stamm *„In der Schule geht es mir darum, …“* auf **5-stufiger Antwortskala**; Einzel- oder Gruppentestung in **10 bis 20 Minuten**; Umrechnung in **Prozentränge und T-Werte** (repräsentative Normstichprobe); hohe Objektivität (Manual), zufriedenstellende Reliabilität und Validität."
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "Normierung und psychometrische Güteprüfung der deutschen WISC-V",
+          "authors_year": "Petermann, 2017",
+          "page_ref": "S. 66–67",
+          "setup": "Standardisierung und Normierung der deutschen WISC-V in den Jahren 2015/2016 an einer repräsentativen Stichprobe von ca. N = 1.100 deutschsprachigen Kindern und Jugendlichen (6;0–16;11 Jahre).",
+          "finding": "Herausragende interne Konsistenz von ca. r = .96 für den Gesamt-IQ sowie differenzielle Validität der fünf Primär- und Sekundärindizes für schulische Fragestellungen (Hochbegabung, Teilleistungsstörungen, Sprachbarrieren).",
+          "implication": "Bei mehrsprachigen Kindern oder Sprachentwicklungsstörungen gezielt den Nonverbalen Index heranziehen, um deren kognitives Potenzial nicht sprachbedingt zu unterschätzen."
+        }
+      ],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "hierarchy",
+        "title": "Architektur von WISC-V (Kognition) & SELLMO (Motivation)",
+        "steps_or_rows": [
+          { "label": "WISC-V: 5 Primärindizes", "detail": "Sprachverständnis | Visuell-räumlich | Fluides Schlussfolgern | Arbeitsgedächtnis | Verarbeitungsgeschwindigkeit" },
+          { "label": "WISC-V: Kennwerte", "detail": "6;0–16;11 J. | 60–90 Min. | 7 Untertests -> Gesamt-IQ (r = .96, M=100, SD=15)" },
+          { "label": "SELLMO: 4 Zielskalen", "detail": "Lernziele | Annäherungs-Leistungsziele | Vermeidungs-Leistungsziele | Arbeitsvermeidung" },
+          { "label": "SELLMO: Kennwerte", "detail": "SELLMO-S Kl. 4–10 | 31 Items („In der Schule geht es mir darum, ...“) | 10–20 Min. | PR & T-Werte" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Gegenüberstellung WISC-V und SELLMO (Kap. 10)",
+        "headers": ["Kriterium", "WISC-V (Petermann, 2017)", "SELLMO-S (Spinath et al., 2012)"],
+        "rows": [
+          ["Erfasstes Konstrukt", "Mehrdimensionale kognitive Intelligenz (Fähigkeitsleistung)", "Überdauernde Lern- und Leistungszielorientierungen (Motivation)"],
+          ["Zielgruppe & Setting", "6;0 bis 16;11 Jahre | Strenger Einzeltest (Schulpsychologie), 60–90 Min.", "4. bis 10. Klasse | Einzel- oder ökonomischer Gruppentest (Lehrkraft), 10–20 Min."],
+          ["Aufbau / Dimensionen", "5 Primärindizes (je 2 Untertests; 7 für Gesamt-IQ) + Sekundärindizes", "4 Skalen, 31 Selbstbeurteilungs-Items (5-stufige Likert-Skala)"],
+          ["Normwerte", "Wertpunkte & Abweichungs-IQ (Variabilitätsnorm M = 100, SD = 15)", "Prozentränge (PR) & T-Werte (Variabilitätsnorm M = 50, SD = 10)"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 3.2 (Arbeitsgedächtnis Baddeley) & Kap. 10.4 (Aptitude-Treatment-Interaktion, ATI)",
+          "bridge_explanation": "WISC-V erfasst Arbeitsgedächtnis und fluide/kristalline Fähigkeiten als kognitive Lernvoraussetzungen, an die der Strukturierungsgrad des Unterrichts (ATI) angepasst werden kann."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 2.2–2.8 (Intelligenzmodelle Cattell/Carroll & Hochbegabung) & Kap. 7.4.4 (Motivationale Zielorientierungen)",
+          "bridge_explanation": "Die 5 Primärindizes der WISC-V basieren direkt auf dem CHC-Modell (fluide vs. kristalline Intelligenz); SELLMO operationalisiert exakt die Theorie der Zielorientierungen (Lern- vs. Annäherungs-/Vermeidungs-Leistungsziele)."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 4 (Räumliches Bauen / Architekturmodell): Ein Kind mit Leseproblemen zeigt im WISC-V-Profil (Schulpsychologie) herausragende Werte in „Visuell-räumlicher Verarbeitung“ – die Lehrkraft bindet es als „Bau-Experten“ beim Falten und Konstruieren ein und stärkt so sein schulisches Kompetenzerleben gegen Underachievement.",
+        "sport": "Sport Klasse 4 (Motivationsklima nach SELLMO-Auswertung): Zeigt eine 4. Klasse im SELLMO-S hohe „Vermeidungs-Leistungsziele“ (Angst, sich beim Vorturnen zu blamieren), stellt die Lehrkraft konsequent von Einzel-Vorturnen vor der ganzen Klasse auf parallele Wahl-Stationen mit verschiedenen Schwierigkeitsgraden (Lernzielklima!) um.",
+        "allgemein": "Grundschule Klasse 1–4: Schulpsychologischer Einsatz der WISC-V (inkl. Nonverbalem Index bei DaZ-Kindern) zur Abklärung von Hochbegabung, Underachievement oder Teilleistungsstörungen; reflexiver Umgang der Lehrkraft mit IQ-Befunden gegen Pygmalion-Effekte."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Intelligenzdefinition Wechsler (1956) & WISC-V-Eckdaten", "hint": "Zweckvoll handeln, vernünftig denken, wirkungsvoll auseinandersetzen; Petermann (2017), 6;0–16;11 J., 60–90 Min., r = .96." },
+        { "term": "Alle 5 Primärindizes der WISC-V", "hint": "Sprachverständnis, Visuell-räumlich, Fluides Schlussfolgern, Arbeitsgedächtnis, Verarbeitungsgeschwindigkeit." },
+        { "term": "Sekundärindizes & Vergleich zum Matrizentest („Sven“)", "hint": "Nonverbaler Index bei DaZ/Sprachstörung; Matrizentest nur fluide, WISC-V differenziertes Profil." },
+        { "term": "Chancen vs. Gefahren des IQ-Wissens bei Lehrkräften", "hint": "Passung & Underachievement-Erkennen vs. Pygmalion-Effekt, Überforderung & verengte Sicht." },
+        { "term": "SELLMO (Spinath et al., 2012): Alle 4 Skalen & Kennwerte", "hint": "Lernziele, Annäherungs-/Vermeidungs-Leistungsziele, Arbeitsvermeidung; Kl. 4–10, 31 Items, PR & T-Werte." }
+      ],
+      "essay_recipe": {
+        "intro": "Schulisches Lernen hängt maßgeblich von kognitiven und motivationalen Eingangsvoraussetzungen ab, für deren fundierte Erfassung standardisierte Verfahren wie WISC-V und SELLMO bereitstehen (vgl. Hesse & Latzko, 2017).",
+        "core_model": "Detaillierte Vorstellung der WISC-V (Wechsler, 1956; Petermann, 2017: 5 Primärindizes, Sekundärindizes, Anwendungsfelder) sowie des SELLMO (Spinath et al., 2012: 4 Zielorientierungsskalen, Aufbau, Normierung).",
+        "empirics": "Hohe psychometrische Güte der WISC-V (Gesamt-IQ r = .96, N = 1.100) gegenüber eindimensionalen Matrizentests; empirische Befunde zum Pygmalion-Effekt (Rosenthal & Jacobson) mahnen zu reflektiertem Umgang mit IQ-Informationen.",
+        "critique_bridge": "Kognitive Potenzialdiagnostik allein erklärt Schulleistung unvollständig (z. B. bei Underachievement) – erst die Kombination mit Motivationsdiagnostik (SELLMO) klärt das Zusammenspiel von Können und Wollen.",
+        "school_transfer": "Einsatz des SELLMO-S ab Jahrgangsstufe 4 zur Gestaltung lernzielorientierten Unterrichts sowie gezielte Kooperation mit der Schulpsychologie bei WISC-V-Fragestellungen."
+      },
+      "all_bold_terms_covered": [
+        "Diagnostik von Lernvoraussetzungen",
+        "Wechsler (1956)",
+        "WISC-V",
+        "Petermann (2017)",
+        "HAWIK",
+        "Underachievement",
+        "Sprachverständnis",
+        "Visuell-räumliche Verarbeitung",
+        "Fluides Schlussfolgern",
+        "Arbeitsgedächtnis",
+        "Verarbeitungsgeschwindigkeit",
+        "Pygmalion-Effekt",
+        "SELLMO",
+        "Spinath, Stiensmeier-Pelster, Schöne & Dickhäuser (2012)",
+        "Lernzielorientierung",
+        "Annäherungs-Leistungszielorientierung",
+        "Vermeidungs-Leistungszielorientierung",
+        "Arbeitsvermeidung"
+      ]
+    },
+    {
+      "id": "C-11-01",
+      "domain": "C",
+      "chapter_group_num": "11",
+      "chapter_group_title": "11. Bildungsmonitoring, Bildungsstandards und PISA",
+      "section_num": "11.1–11.2",
+      "title": "Bildungsmonitoring & KMK-Bildungsstandards",
+      "subtitle": "Input vs. Output/Outcome, Klieme-Expertise (3 Komponenten & 7 Merkmale) & Regel-/Mindeststandards",
+      "page_start": 69,
+      "page_end": 70,
+      "page_label": "Original-Skript S. 69–70",
+      "estimated_minutes": 16,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "Empirische Wende: Vom bloßen Input (Geld/Klassengröße) zur Überprüfung echter Kompetenz-Outputs!",
+      "definitions": [
+        {
+          "term": "Bildungsmonitoring",
+          "definition": "Die systematische und regelmäßige Erfassung von Indikatoren für die Qualität eines Bildungssystems oder dessen Teilsysteme (Spezialform der Evaluation auf Systemebene statt Personenebene).",
+          "author_year": "Prenzel & Seidel, 2010 (sowie Urhahne, 2019)",
+          "page_ref": "S. 69"
+        },
+        {
+          "term": "Bildungsstandards (nach Köller)",
+          "definition": "Normativ gesetzte Zielgrößen, die in einem Bildungssystem erreicht werden sollen; sie werden von Politik, Schulpraxis und Wissenschaft ausgehandelt, sind die Basis für Qualitätssicherung und Qualitätsentwicklung und müssen so formuliert werden, dass sie sich operationalisieren lassen und ihre Erreichbarkeit zu überprüfen ist.",
+          "author_year": "Köller (in Schneider & Hasselhorn, 2008)",
+          "page_ref": "S. 69"
+        },
+        {
+          "term": "Bildungsstandards (nach Klieme-Expertise)",
+          "definition": "Bildungsstandards formulieren Anforderungen an das Lehren und Lernen in der Schule als erwünschte Lernergebnisse: Sie greifen allgemeine Bildungsziele auf und legen konkret beschriebene Kompetenzen fest, welche Lernende bis zu einer bestimmten Jahrgangsstufe erworben haben sollen, sodass sie in Aufgabenstellungen und Testverfahren überprüfbar sind.",
+          "author_year": "Klieme et al., 2003",
+          "page_ref": "S. 69–70"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "11.1 Bildungsmonitoring: Von der Input- zur Output-/Outcome-Steuerung",
+          "page_ref": "S. 69",
+          "bullets": [
+            "**Systemebene statt Individualdiagnose**: Bildungsmonitoring bewertet als **Spezialform der Evaluation** (**Urhahne, 2019**) ganze Bildungssysteme über Vergleichsstudien (PISA, VERA, IQB-Bildungstrend) und amtliche Bildungsstatistiken.",
+            "**Input-Faktoren (Fokus bis in die 1990er-Jahre)**: Eingesetzte Ressourcen und Rahmenvorgaben wie **Bildungsausgaben**, **Klassengröße**, Lehrpläne oder Ausstattung.",
+            "**Output-Faktoren (Steuerungsfokus heute)**: Tatsächliche Ergebnisse und Wirkungen des Schulsystems, unterteilt in: (a) **Outputs (kurzfristige Wirkungen)**: erworbene fachliche & fächerübergreifende **Kompetenzen**, Einstellungen, Motivation und soziale/personale Entwicklung; (b) **Outcomes (langfristige Ergebnisse)**: erreichte Schulabschlüsse, Abbrecherquoten, Arbeitsmarktchancen und **beruflicher Erfolg**."
+          ]
+        },
+        {
+          "heading": "11.2 Bildungsstandards: 3 Komponenten, 7 Qualitätsmerkmale & Standard-Arten",
+          "page_ref": "S. 69–70",
+          "bullets": [
+            "**Verankerung**: Bereichsspezifische Leistungserwartungen an Lernende auf Basis des **Kompetenzbegriffs nach Weinert (2001)** (daneben existieren auch KMK-Standards für die Lehrerbildung). Überprüfung in Deutschland u. a. durch **VERA** (Kap. 7.9) und den **IQB-Bildungstrend**.",
+            "**Drei Komponenten der Bildungsstandards (Klieme et al., 2003)**: (1) Orientierung an übergeordneten **Bildungszielen**, (2) Konkretisierung in **Kompetenzanforderungen** und gestuften **Kompetenzmodellen**, (3) Umsetzung in empirisch prüfbare **Aufgabenstellungen und Testverfahren**.",
+            "**Sieben Merkmale guter Bildungsstandards (Klieme et al., 2003)**: (1) **Fachlichkeit** (Grundprinzipien des Faches), (2) **Fokussierung** (Konzentration auf Kernbereiche statt Stoffvollständigkeit), (3) **Kumulativität** (langfristig vernetzter Kompetenzaufbau), (4) **Verbindlichkeit für alle** (schulformübergreifende Mindestvoraussetzungen), (5) **Differenzierung** (Kompetenzstufen unter/über Mindestniveau), (6) **Verständlichkeit** (klar & knapp), (7) **Realisierbarkeit** (herausfordernd, aber realistisch erreichbar).",
+            "**Arten von Standards (KMK-Systematik)**: **Mindeststandards** (Basiskompetenzen, die *alle* Lernenden mindestens erreichen sollen – Empfehlung der Klieme-Expertise), **Regelstandards** (Kompetenzniveau, das *im Durchschnitt* erreicht werden soll – von der **KMK** verbindlich eingeführt, u. a. für den Primarbereich Ende Klasse 4!) und **Maximalstandards** (Spitzenniveau unter Optimalbedingungen)."
+          ]
+        }
+      ],
+      "empirical_studies": [],
+      "original_figures": [],
+      "custom_visual": {
+        "type": "process_flow",
+        "title": "Steuerungslogik im Bildungsmonitoring & Dreiklang nach Klieme et al. (2003)",
+        "steps_or_rows": [
+          { "label": "Input-Faktoren", "detail": "Finanzen, Klassengröße, Stundentafeln (reichten bis 1990er allein nicht zur Qualitätssicherung)" },
+          { "label": "Klieme-Dreiklang", "detail": "1. Bildungsziele -> 2. Kompetenzmodelle (Regel-/Mindeststandards) -> 3. Testaufgaben" },
+          { "label": "Outputs (kurzfristig)", "detail": "Fachliche & überfachliche Kompetenzen, Motivation (geprüft via VERA, IQB-Trend, PISA)" },
+          { "label": "Outcomes (langfristig)", "detail": "Abschlüsse, niedrige Abbrecherquoten, gesellschaftliche Teilhabe & Berufserfolg" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Mindeststandards vs. Regelstandards vs. Maximalstandards",
+        "headers": ["Standardtyp", "Definition / Anspruchsniveau", "Rolle in Klieme-Expertise & KMK-Praxis"],
+        "rows": [
+          ["Mindeststandards", "Definierte Basiskompetenzen, die von ALLEN Schülerinnen und Schülern am Ende eines Abschnitts erreicht werden müssen", "Von Klieme et al. (2003) favorisiert (Merkmal „Verbindlichkeit für alle“); bei IQB/PISA als Mindeststufe (z. B. Stufe II) ausgewiesen"],
+          ["Regelstandards", "Kompetenzniveau, das im DURCHSCHNITT von den Lernenden erreicht werden soll", "Offizielle Setzung der KMK-Bildungsstandards in Deutschland (z. B. Primarbereich Ende Kl. 4 in Deutsch & Mathe)"],
+          ["Maximalstandards", "Leistungserwartungen unter optimalen individuellen und unterrichtlichen Bedingungen (Exzellenz)", "Oberste Kompetenzstufen (z. B. Optimalstandard im IQB-Bildungstrend) zur Begabtenförderung"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 3.8 (Träges Wissen) & Kap. 10.1 (Helmke: Angebots-Nutzungs-Modell)",
+          "bridge_explanation": "Weinerts Kompetenzbegriff und die Kumulativität der Bildungsstandards zielen direkt auf anwendungsfähiges Können statt trägem Faktenwissen."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 1 (Kognitive Entwicklung) & Kap. 3 (Entwicklungsaufgaben im Schulalter)",
+          "bridge_explanation": "Gestufte Kompetenzmodelle (Merkmale Kumulativität & Differenzierung) bilden ab, wie sich domänenspezifisches Denken über die Schuljahre altersgerecht aufbaut."
+        },
+        {
+          "target_domain": "C",
+          "target_hint": "Gebiet C, Kap. 5.1–5.2 (Evaluation & Systemsteuerung nach Wottawa & Thierau) & Kap. 7.9 (VERA-3)",
+          "bridge_explanation": "Bildungsmonitoring setzt die Output-orientierte Systemsteuerung der Evaluationsforschung um; VERA-3 prüft die KMK-Standards schon in der 3. Grundschulklasse."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 1–4 (Kompetenzorientierter LehrplanPLUS Bayern): Statt vager Stofflisten („Wir basteln im Herbst einen Drachen“) arbeitet der Grundschul-Kunstunterricht kumulativ an Kernkompetenzen (Farbe, Form, Raum, Bildrezeption), sodass Techniken von Klasse 1 bis 4 systematisch vernetzt aufgebaut werden (Merkmal Kumulativität & Fachlichkeit).",
+        "sport": "Sport Klasse 4 (Sicheres Schwimmen als Mindeststandard): Während kreative Kür-Elemente Differenzierung nach oben erlauben, fungiert die sichere Schwimmfähigkeit am Ende der Grundschulzeit als überlebenswichtiger Mindeststandard für alle Kinder.",
+        "allgemein": "Ende Klasse 4 (KMK-Primarstandards Deutsch & Mathematik): Ausrichtung des Unterrichts an den bundesweiten KMK-Regelstandards und Nutzung des IQB-Kompetenzstufenmodells, um Risikokinder unterhalb des Mindeststandards frühzeitig zu stützen."
+      },
+      "laut_erzaehl_check": [
+        { "term": "Bildungsmonitoring (Prenzel & Seidel, 2010)", "hint": "Systematische/regelmäßige Qualitätsindikatoren auf Systemebene (Spezialform der Evaluation)." },
+        { "term": "Input vs. Output vs. Outcome", "hint": "Ressourcen/Klassengröße vs. kurzfristige Kompetenzen vs. langfristige Abschlüsse/Berufserfolg." },
+        { "term": "Bildungsstandards (Köller, 2008 & Klieme et al., 2003)", "hint": "Normativ ausgehandelt, operationalisierbar, erwünschte Kompetenzen bis Jahrgangsstufe X." },
+        { "term": "3 Komponenten & alle 7 Merkmale guter Bildungsstandards (Klieme)", "hint": "Ziele-Modelle-Tests | Fachlichkeit, Fokussierung, Kumulativität, Verbindlichkeit, Differenzierung, Verständlichkeit, Realisierbarkeit." },
+        { "term": "Mindest-, Regel- und Maximalstandards", "hint": "Alle (Klieme-Ideal) vs. Durchschnitt (KMK-Praxis!) vs. Optimum; geprüft durch VERA & IQB." }
+      ],
+      "essay_recipe": {
+        "intro": "Mit der empirischen Wende vollzog das deutsche Bildungswesen den Wechsel von reiner Input-Steuerung zum systematischen Bildungsmonitoring (Prenzel & Seidel, 2010).",
+        "core_model": "Abgrenzung von Input-, Output- und Outcome-Faktoren sowie Entfaltung des Konzepts der Bildungsstandards nach Köller (2008) und Klieme et al. (2003) anhand der drei Komponenten, der sieben Gütemerkmale und der Unterscheidung von Regel-, Mindest- und Maximalstandards.",
+        "empirics": "Nationale Überprüfung der Standarderreichung über kriteriumsorientierte Vergleichsarbeiten (VERA-3/VERA-8) und die ländervergleichenden IQB-Bildungstrends.",
+        "critique_bridge": "Die politische Entscheidung der KMK für Regelstandards statt verbindlicher Mindeststandards birgt das Risiko, leistungsschwache Risikogruppen aus dem Blick zu verlieren, sofern Kompetenzstufenmodelle nicht differenziert genutzt werden.",
+        "school_transfer": "Kumulativer, auf Kernkompetenzen fokussierter Grundschulunterricht nach LehrplanPLUS statt isoliertem Abarbeiten von Schulbuchseiten."
+      },
+      "all_bold_terms_covered": [
+        "Bildungsmonitoring, Bildungsstandards und PISA",
+        "Bildungsmonitoring",
+        "Prenzel & Seidel (2010)",
+        "Urhahne (2019)",
+        "Input-Faktoren",
+        "Output-Faktoren",
+        "Outputs",
+        "Outcomes",
+        "Bildungsstandards",
+        "Standard",
+        "Köller (2008)",
+        "Klieme et al. (2003)",
+        "Bildungsziele",
+        "Kompetenzanforderungen",
+        "Kompetenzmodelle",
+        "Aufgabenstellungen und Testverfahren",
+        "Fachlichkeit",
+        "Fokussierung",
+        "Kumulativität",
+        "Verbindlichkeit für alle",
+        "Differenzierung",
+        "Verständlichkeit",
+        "Realisierbarkeit"
+      ]
+    },
+    {
+      "id": "C-11-02",
+      "domain": "C",
+      "chapter_group_num": "11",
+      "chapter_group_title": "11. Bildungsmonitoring, Bildungsstandards und PISA",
+      "section_num": "11.3",
+      "title": "PISA: Literacy, Multi-Matrix-Design, IRT & Ergebnisse 2022 / 2025",
+      "subtitle": "Konzeption, 4 Rahmen-Dimensionen, 3 Vergleichsperspektiven & historischer Tiefstand PISA 2025",
+      "page_start": 70,
+      "page_end": 73,
+      "page_label": "Original-Skript S. 70–73",
+      "estimated_minutes": 22,
+      "exam_weight": "high",
+      "visual_anchor_tagline": "PISA 2025 (08.09.2026): Mathe 464, Lesen 465, NW 486 – rund 1/3 verfehlt Mindeststufe 2 (34 % / 32 % / 27 %)!",
+      "definitions": [
+        {
+          "term": "Literacy (Funktionale Grundbildung bei PISA)",
+          "definition": "Anwendbarkeit grundlegender Kompetenzen (Reading, Mathematical, Scientific Literacy) für die jetzige und spätere gesellschaftlich-kulturelle Teilhabe sowie Anschlussfähigkeit für kontinuierliches Weiterlernen über die Lebensspanne – gekennzeichnet durch hohen horizontalen Transfer (flexibel in vielen Kontexten) und vertikalen Transfer (Grundlage fürs Weiterlernen).",
+          "author_year": "OECD / PISA-Konsortium",
+          "page_ref": "S. 71"
+        },
+        {
+          "term": "Lesekompetenz & Mathematische Kompetenz (OECD)",
+          "definition": "Lesekompetenz heißt, geschriebene Texte zu verstehen, zu nutzen, über sie zu reflektieren und sich auf das Lesen einzulassen, um eigene Ziele zu erreichen, eigenes Wissen/Potenzial weiterzuentwickeln und am gesellschaftlichen Leben teilzunehmen. Mathematische Kompetenz ist die Fähigkeit, Mathematik in zahlreichen Kontexten zu formulieren, anzuwenden, zu interpretieren und Formeln zu verwenden (4 Bereiche: Veränderung & Beziehungen, Raum & Form, Quantität, Unsicherheit & Daten).",
+          "author_year": "OECD",
+          "page_ref": "S. 71"
+        },
+        {
+          "term": "Multi-Matrix-Design",
+          "definition": "Testdesign bei Large-Scale-Studien (PISA), bei dem der gesamte Aufgabenpool (Gesamtdauer ca. 7 Stunden) systematisch rotierend auf verschiedene Testhefte verteilt wird: Jeder Prüfling bearbeitet nur eine Teilmenge -> präzise Schätzung für Staaten/Gruppen, aber KEINE Individualergebnisse für einzelne Schüler bestimmbar!",
+          "author_year": "PISA-Methodik (IRT)",
+          "page_ref": "S. 72"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "11.3.1–11.3.2 Konzeption, ZIB, 3 Erhebungssäulen & Rahmenkonzeptionen",
+          "page_ref": "S. 70–72",
+          "bullets": [
+            "**Organisation & Leitfrage**: **OECD**-Studie an **15-Jährigen** seit **2000** (3- bzw. 4-Jahresrhythmus); in Deutschland im Auftrag von **KMK und Bund** durchgeführt vom **Zentrum für internationale Bildungsvergleichsstudien (ZIB)** an der **TU München**. Leitfrage: *Wie gut sind Fünfzehnjährige auf die Anforderungen der Wissensgesellschaft vorbereitet?* Ziel: **Steuerungswissen** für Regierungen.",
+            "**Drei Erhebungssäulen**: (1) **Grundlegende Kompetenzen (Literacy)**: *Reading Literacy*, *Mathematical Literacy*, *Scientific Literacy*; (2) **Fächerübergreifende Kompetenzen**: selbstreguliertes Lernen, Lernstrategien, Motivation, Problemlösen, digitale Medien – Schwerpunktzusatz **PISA 2022: kreatives Denken**, **PISA 2025: Lernen in der digitalen Welt** (+ Fremdsprachen); (3) **Hintergrundmerkmale** via Kontextfragebögen (familiär, sozial, schulisch).",
+            "**Rahmenkonzeptionen & Feldtest**: Strukturierung jeder Domäne in **4 Dimensionen**: (1) **Definition**, (2) **Inhalte**, (3) **Prozesse**, (4) **Kontexte/Situationen**. Mehrstufige Aufgabenrevision + internationaler **Feldtest** -> **nur etwa eine von vier (1 aus 4) Aufgaben** schafft es in die Hauptstudie! Mischung aus Multiple Choice und offenen Fragen (Konzept-/Prozesswissen); **seit 2015 computerbasiert**."
+          ]
+        },
+        {
+          "heading": "11.3.3–11.3.4 Testdesign (IRT, Normierung) & Drei Vergleichsperspektiven",
+          "page_ref": "S. 72",
+          "bullets": [
+            "**Auswertung & Skalierung**: **Multi-Matrix-Design** + **probabilistische Testtheorie (Item-Response-Theorie, IRT)**: Lösungswahrscheinlichkeit als Funktion von Personenfähigkeit und Aufgabenschwierigkeit auf gemeinsamer Skala -> Bildung inhaltlicher **Kompetenzstufen**. **Normierung**: **OECD-Durchschnitt M = 500 Punkte, Standardabweichung SD = 100** (fixiert bei Ersttestung der Domäne). Teilnahme anonym, freiwillig, mit Elterneinwilligung.",
+            "**Drei Vergleichsperspektiven**: (1) **Normorientierte Perspektive** (internationaler Vergleich mit anderen Teilnehmerstaaten), (2) **Kriteriumsorientierte Perspektive** (erreichte Kompetenzstufen / Mindestbildung Stufe 2), (3) **Ipsative Perspektive** (zeitlicher Trendvergleich mit früheren PISA-Runden)."
+          ]
+        },
+        {
+          "heading": "11.3.5 Brandaktuelle Ergebnisse: PISA 2022 & PISA 2025 im Detail",
+          "page_ref": "S. 72–73",
+          "bullets": [
+            "**PISA 2022 (veröffentlicht am 5. Dezember 2023)**: Ca. **690.000 Schüler aus 81 Staaten**; Schwerpunkt **Mathematik** (+ **kreatives Denken**). **Deutschland-Werte**: **Mathe 475**, **Lesen 480**, **Naturwissenschaften 492**. Beispielloser Rückgang des OECD-Schnitts gegenüber 2018 (Lesen **–10**, Mathe **fast –15 Punkte** = dreimal so stark wie je zuvor); Corona erklärt dies nur teilweise (Lesen & NW sanken schon vor der Pandemie; **31 Länder** hielten ihre Matheleistung trotz Pandemie stabil).",
+            "**PISA 2025 (veröffentlicht am 8. September 2026)**: Ca. **760.000 Schüler aus 91 Staaten** (in Deutschland **ca. 6.700 Jugendliche an ca. 250 Schulen**); Schwerpunkt **Naturwissenschaften** (+ **Lernen in der digitalen Welt**, **Fremdsprachen**). **Deutschland-Werte (Veränderung zu 2022)**: **Mathematik 464 (–11)**, **Lesen 465 (–15)**, **Naturwissenschaften 486 (–6, n. s. = statistisch nicht signifikant)**.",
+            "**Zentrale Diagnose PISA 2025**: Deutschland fällt in **allen drei Bereichen auf den historischen Tiefstand** seit Erhebungsbeginn und liegt nur noch auf OECD-Durchschnittsniveau – in den **Naturwissenschaften erstmals seit 2006 nicht mehr über dem OECD-Schnitt**!",
+            "**Alarmierende Risikogruppe (< Kompetenzstufe 2)**: Rund **ein Drittel** der 15-Jährigen in Deutschland verfehlt den Mindeststandard (Kompetenzstufe 2): **Mathematik 34 %**, **Lesen 32 %**, **Naturwissenschaften 27 %**!"
+          ]
+        }
+      ],
+      "empirical_studies": [
+        {
+          "title": "PISA 2022 & PISA 2025 – Leistungsentwicklung 15-Jähriger in Deutschland",
+          "authors_year": "OECD / ZIB (Veröffentlichung: 05.12.2023 bzw. 08.09.2026)",
+          "page_ref": "S. 72–73",
+          "setup": "Computerbasierte Large-Scale-Assessments im Multi-Matrix-Design: PISA 2022 mit ca. 690.000 15-Jährigen aus 81 Staaten (Schwerpunkt Mathematik & kreatives Denken); PISA 2025 mit ca. 760.000 15-Jährigen aus 91 Staaten, darunter in Deutschland ca. 6.700 Jugendliche an ca. 250 Schulen (Schwerpunkt Naturwissenschaften, Lernen in der digitalen Welt, Fremdsprachen).",
+          "finding": "PISA 2022 Deutschland: Mathe 475, Lesen 480, NW 492. PISA 2025 Deutschland: Historischer Tiefstand in allen 3 Domänen – Mathe 464 (–11), Lesen 465 (–15), NW 486 (–6, n. s.; erstmals seit 2006 nicht mehr über OECD-Schnitt). Kompetenzstufe 2 verfehlen 34 % in Mathematik, 32 % im Lesen und 27 % in Naturwissenschaften.",
+          "implication": "Fundamentale Basiskompetenzen im Lesen, Rechnen und problemlösenden Denken müssen bereits in der Grundschule (Klasse 1–4) systematisch, sprachsensibel und adaptiv gesichert werden."
+        }
+      ],
+      "original_figures": [
+        {
+          "path": "courses/ews-psychologie/figures/original/C_Diagnostik_Skript_S073_Schaubild.png",
+          "caption": "Ergebnistabelle PISA 2022 und PISA 2025 für Deutschland: Teilnehmende, Schwerpunkte und Punktwerte in Mathematik, Lesen und Naturwissenschaften (Original-Skript S. 73)",
+          "page_ref": "S. 73"
+        }
+      ],
+      "custom_visual": {
+        "type": "timeline",
+        "title": "Trendlinie Deutschland: Von der Norm (500) über PISA 2022 zu PISA 2025",
+        "steps_or_rows": [
+          { "label": "OECD-Ankernorm", "detail": "Mittelwert M = 500 Punkte | Standardabweichung SD = 100 | IRT & Multi-Matrix-Design" },
+          { "label": "PISA 2022 (05.12.2023)", "detail": "81 Staaten (690k) | Fokus Mathe + Kreatives Denken | DE: Mathe 475 | Lesen 480 | NW 492" },
+          { "label": "PISA 2025 (08.09.2026)", "detail": "91 Staaten (760k; DE: 6.700 an 250 Schulen) | Fokus NW + Digitale Welt | Mathe 464 (–11) | Lesen 465 (–15) | NW 486 (–6, n. s.)" },
+          { "label": "Risikogruppe 2025 (< Stufe 2)", "detail": "Historischer Tiefstand! Unter Mindestkompetenzstufe 2: Mathe 34 % | Lesen 32 % | NW 27 %" }
+        ]
+      },
+      "comparison_table": {
+        "title": "Exakter Zahlenvergleich PISA 2022 vs. PISA 2025 (Prüfungs-Pflichtwissen!)",
+        "headers": ["Kennwert", "PISA 2022", "PISA 2025"],
+        "rows": [
+          ["Veröffentlichungsdatum", "5. Dezember 2023", "8. September 2026"],
+          ["Teilnehmende weltweit / DE", "ca. 690.000 Schüler aus 81 Staaten", "ca. 760.000 Schüler aus 91 Staaten (DE: ca. 6.700 an ca. 250 Schulen)"],
+          ["Haupt- & Zusatzschwerpunkte", "Mathematik; kreatives Denken", "Naturwissenschaften; Lernen in der digitalen Welt; Fremdsprachen"],
+          ["Deutschland: Mathematik", "475 Punkte", "464 Punkte (–11, historischer Tiefstand; 34 % unter Stufe 2)"],
+          ["Deutschland: Lesen", "480 Punkte", "465 Punkte (–15, historischer Tiefstand; 32 % unter Stufe 2)"],
+          ["Deutschland: Naturwissenschaften", "492 Punkte", "486 Punkte (–6, n. s.; erstmals seit 2006 nicht über OECD-Schnitt; 27 % unter Stufe 2)"]
+        ]
+      },
+      "cross_references": [
+        {
+          "target_domain": "A",
+          "target_hint": "Gebiet A, Kap. 3.3 (Lernen mit digitalen Medien), Kap. 3.8 (Träges Wissen vs. Transfer) & Kap. 6 (Selbstreguliertes Lernen)",
+          "bridge_explanation": "PISAs Literacy-Konzept prüft gezielt horizontalen und vertikalen Transfer statt trägem Faktenwissen; PISA 2025 rückt mit „Lernen in der digitalen Welt“ medienbasiertes selbstreguliertes Lernen ins Zentrum."
+        },
+        {
+          "target_domain": "B",
+          "target_hint": "Gebiet B, Kap. 2.7 (Anlage-Umwelt / Soziale Herkunft) & Kap. 7 (Lernmotivation & Interesse)",
+          "bridge_explanation": "Über Kontextfragebögen deckt PISA den engen Zusammenhang zwischen sozialer Herkunft, motivationalen Merkmalen und Kompetenzerwerb auf."
+        }
+      ],
+      "grundschule_praxis": {
+        "kunst": "Kunst Klasse 3/4 (Kreatives Denken & Visuelle Literacy – vgl. PISA-Zusatzdomäne 2022): Offene Gestaltungsaufgaben („Erfinde aus einem Alltagsgegenstand drei völlig neue Funktionen/Figuren“) trainieren gezielt Ideenflüssigkeit, Originalität und Perspektivwechsel als fächerübergreifende Kompetenzen.",
+        "sport": "Sport Klasse 2–4 (Alltagsnahe Mathematical & Scientific Literacy in Bewegung): Pulsmessen vor/nach Belastung, Stoppzeiten in Tabellen auswerten und Spielfeldmaße („Raum und Form“) handelnd abschreiten – so wird lebensweltlicher horizontaler Transfer schon in der Grundschule greifbar.",
+        "allgemein": "Grundschul-Konsequenz aus PISA 2025 (34 % Mathe / 32 % Lesen unter Stufe 2): Verbindliche tägliche Lese-Tandems (Leseflüssigkeit + Lesestrategien) und durchgängiges Basistraining der Grundvorstellungen in Mathematik von Klasse 1 an (z. B. bayerische „PISA-Offensive“ / Fokus Grundkompetenzen)."
+      },
+      "laut_erzaehl_check": [
+        { "term": "PISA-Organisation, Literacy & Transfer", "hint": "OECD, 15-Jährige, ZIB TU München, Steuerungswissen; Reading/Mathe/Science Literacy, horizontaler & vertikaler Transfer." },
+        { "term": "4 Rahmen-Dimensionen & Feldtest-Quote", "hint": "Definition, Inhalte, Prozesse, Kontexte; nur 1 von 4 Aufgaben schafft es in die Hauptstudie!" },
+        { "term": "Multi-Matrix-Design, IRT & Normierung", "hint": "Ca. 7 Std. Gesamtpool -> Teilhefte -> KEINE Einzeldiagnose! Probabilistische IRT, M = 500, SD = 100." },
+        { "term": "Drei Vergleichsperspektiven bei PISA", "hint": "Normorientiert (Staaten), kriteriumsorientiert (Kompetenzstufen), ipsativ (Trend über die Zeit)." },
+        { "term": "Exakte Zahlen PISA 2022 vs. PISA 2025", "hint": "05.12.2023 (475/480/492, 81 Staaten) vs. 08.09.2026 (464 [–11] / 465 [–15] / 486 [–6 n.s.], 91 Staaten; 34 % / 32 % / 27 % unter Stufe 2!)." }
+      ],
+      "essay_recipe": {
+        "intro": "Als international bedeutendste Studie des Bildungsmonitorings untersucht PISA im Auftrag von OECD, KMK und Bund (ZIB an der TU München), inwieweit 15-Jährige über anschlussfähige Grundbildung (Literacy) verfügen.",
+        "core_model": "Darstellung des Literacy-Konzepts (horizontaler/vertikaler Transfer), der 4-dimensionalen Rahmenkonzeption, der strengen Aufgabenauslese im Feldtest (1 aus 4), des Multi-Matrix-Designs auf Basis der Item-Response-Theorie (M = 500, SD = 100) sowie der drei Vergleichsperspektiven.",
+        "empirics": "Präziser Ergebnisbericht zu PISA 2022 (Mathe 475, Lesen 480, NW 492) und PISA 2025 (08.09.2026: historischer Tiefstand mit Mathe 464, Lesen 465, NW 486; Verfehlung der Kompetenzstufe 2 durch 34 %, 32 % bzw. 27 %).",
+        "critique_bridge": "Wegen des Multi-Matrix-Designs liefert PISA System-Steuerungswissen und keine Individualdiagnosen; zudem erklärt die Corona-Pandemie den langfristigen Leistungsrückgang nur teilweise.",
+        "school_transfer": "Frühzeitige, systematische Sicherung basaler Lese- und Mathematikkompetenzen sowie lebensnaher Transferaufgaben bereits in der Grundschule."
+      },
+      "all_bold_terms_covered": [
+        "PISA",
+        "OECD",
+        "Zentrum für internationale Bildungsvergleichsstudien (ZIB)",
+        "Steuerungswissen",
+        "funktionalen Grundbildung (Literacy)",
+        "Reading Literacy",
+        "Mathematical Literacy",
+        "Scientific Literacy",
+        "fächerübergreifender Kompetenzen",
+        "kreatives Denken",
+        "Lernen in der digitalen Welt",
+        "Hintergrundmerkmalen",
+        "Horizontaler Transfer",
+        "Vertikaler Transfer",
+        "Lesekompetenz (OECD)",
+        "Mathematische Kompetenz (OECD)",
+        "Rahmenkonzeptionen",
+        "Feldtest",
+        "eine von vier",
+        "Multi-Matrix-Design",
+        "Ergebnisse für einzelne Schüler können aber nicht bestimmt werden",
+        "probabilistischen Testtheorie",
+        "Item-Response-Theorie",
+        "Kompetenzstufen",
+        "Normierung",
+        "Normorientierte Perspektive",
+        "Kriteriumsorientierte Perspektive",
+        "Ipsative Perspektive",
+        "PISA 2022",
+        "PISA 2025"
+      ]
+    }
+  ]
+}
