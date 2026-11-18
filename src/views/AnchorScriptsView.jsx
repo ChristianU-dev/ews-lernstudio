@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { Drawer } from "vaul";
 import {
-  BookOpen,
   Check,
   CheckCircle2,
   ChevronLeft,
@@ -25,10 +24,10 @@ import { VisualDiagramSvg } from "../components/VisualDiagramSvg";
 import { RichText } from "../components/RichText";
 
 const HIGHLIGHT_COLORS = [
-  { id: "yellow", label: "Gelb", hex: "rgba(250, 204, 21, 0.25)" },
-  { id: "emerald", label: "Smaragd", hex: "rgba(16, 185, 129, 0.22)" },
-  { id: "blue", label: "Blau", hex: "rgba(59, 130, 246, 0.22)" },
-  { id: "coral", label: "Koralle", hex: "rgba(244, 63, 94, 0.20)" },
+  { id: "yellow", label: "Sandgelb", hex: "rgba(217, 160, 60, 0.20)" },
+  { id: "emerald", label: "Salbei", hex: "rgba(45, 116, 89, 0.16)" },
+  { id: "blue", label: "Schieferblau", hex: "rgba(53, 99, 130, 0.16)" },
+  { id: "coral", label: "Terracotta", hex: "rgba(185, 80, 65, 0.16)" },
 ];
 
 export function AnchorScriptsView({
@@ -62,6 +61,20 @@ export function AnchorScriptsView({
     units.findIndex((u) => u.id === activeUnitId)
   );
   const unit = units[currentIndex] || units[0] || null;
+
+  const groupedUnits = useMemo(() => {
+    const groups = [];
+    for (const u of units) {
+      const gTitle = u.chapter_group_title || `Kapitel ${u.chapter_group_num || ""}`;
+      let last = groups[groups.length - 1];
+      if (!last || last.title !== gTitle) {
+        last = { title: gTitle, items: [] };
+        groups.push(last);
+      }
+      last.items.push(u);
+    }
+    return groups;
+  }, [units]);
 
   const progress = (unit && unitProgressMap[unit.id]) || {
     status: "unread",
@@ -111,7 +124,9 @@ export function AnchorScriptsView({
   const startSpeechCheck = () => {
     const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRec) {
-      setSpokenTranscript("Hinweis: Dein aktueller Browser unterstützt kein Live-Mikrofon-Diktat – sprich einfach laut frei und hake die 5 Punkte unten ab!");
+      setSpokenTranscript(
+        "Sprich die 5 Punkte einfach frei laut vor dir her und hake sie unten ab!"
+      );
       return;
     }
     try {
@@ -137,14 +152,14 @@ export function AnchorScriptsView({
     HIGHLIGHT_COLORS.find((c) => c.id === effectiveNote.highlightColor)?.hex || "transparent";
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 14 }} data-testid="anchor-scripts-view">
-      {/* Strikte 3-Skript-Trennung: A (Blau), B (Smaragdgrün), C (Bernstein) */}
+    <div style={{ display: "flex", flexDirection: "column", gap: 16 }} data-testid="anchor-scripts-view">
+      {/* Ruhige 3-Skript-Umschaltung + kompakte Aktionszeile */}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
-        <div className="lx-segmented" role="tablist" aria-label="Drei getrennte Pflichtskripte">
+        <div className="lx-segmented cols-3" role="tablist" aria-label="Drei getrennte Pflichtskripte">
           {[
-            { id: "A", label: "Skript A · Lernen & Lehren (108 S.)" },
-            { id: "B", label: "Skript B · Entwicklung (82 S.)" },
-            { id: "C", label: "Skript C · Diagnostik (73 S.)" },
+            { id: "A", top: "Skript A", sub: "Lernen · 108 S." },
+            { id: "B", top: "Skript B", sub: "Entwicklung · 82 S." },
+            { id: "C", top: "Skript C", sub: "Diagnostik · 73 S." },
           ].map((tab) => (
             <button
               key={tab.id}
@@ -154,92 +169,108 @@ export function AnchorScriptsView({
               className={`lx-seg-btn ${currentDomain.id === tab.id ? "is-active" : ""}`}
               onClick={() => onSelectDomain(tab.id)}
               data-testid={`domain-tab-${tab.id}`}
+              style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 1, padding: "5px 12px" }}
             >
-              {tab.label}
+              <span style={{ fontWeight: 700, fontSize: 12.5 }}>{tab.top}</span>
+              <span style={{ fontSize: 10.5, color: "var(--fg-muted)", fontWeight: 500 }}>{tab.sub}</span>
             </button>
           ))}
         </div>
 
-        {/* Mobile Kapitel-Drawer Trigger (vaul Bottom-Sheet auf dem iPhone) */}
-        <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 8, width: "100%", minWidth: 0, maxWidth: "100%", justifyContent: "flex-end" }}>
           <button
             type="button"
-            className="lx-btn no-print"
+            className="lx-btn lx-only-mobile no-print"
+            style={{ minHeight: 42, padding: "6px 13px", width: "100%", maxWidth: "100%", minWidth: 0, justifyContent: "space-between", overflow: "hidden" }}
             onClick={() => setMobileTocOpen(true)}
             data-testid="open-chapter-sheet-btn"
           >
-            <List size={15} />
-            <span>Kapitel ({currentIndex + 1}/{units.length})</span>
+            <span style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0, flex: 1 }}>
+              <List size={15} style={{ flexShrink: 0 }} />
+              <span className="truncate">Kap. {unit.section_num}: {unit.title}</span>
+            </span>
+            <span className="lx-badge" style={{ minHeight: 22, padding: "1px 7px", fontSize: 11, flexShrink: 0 }}>
+              {currentIndex + 1}/{units.length}
+            </span>
           </button>
           <button
             type="button"
-            className="lx-btn no-print"
+            className="lx-btn lx-hide-mobile no-print"
             onClick={() => window.print()}
             title="Dieses 1-Seiten-Ankerblatt ausdrucken"
           >
-            <Printer size={15} />
+            <Printer size={14} />
             <span>1-Seite drucken</span>
           </button>
         </div>
       </div>
 
-      {/* Widescreen 2-Spalten-Werkbank: Links Kapitelbaum, Rechts das visuelle 1-Seiten-Ankerblatt */}
+      {/* Widescreen 2-Spalten-Werkbank */}
       <div className="lx-scripts-workbench">
         <aside className="lx-card lx-chapter-rail no-print" aria-label="Kapitelverzeichnis">
-          <div style={{ fontSize: 12, fontWeight: 700, color: "var(--fg-muted)", padding: "2px 6px 6px" }}>
-            {currentDomain.title} ({units.length} Ankerblätter)
+          <div style={{ fontSize: 11.5, fontWeight: 700, letterSpacing: "0.04em", textTransform: "uppercase", color: "var(--fg-muted)", padding: "2px 8px 6px" }}>
+            {currentDomain.title}
           </div>
-          {units.map((u) => {
-            const st = unitProgressMap[u.id]?.status;
-            const isSel = u.id === unit.id;
-            return (
-              <button
-                key={u.id}
-                type="button"
-                onClick={() => onSelectUnit(u.id)}
+
+          {groupedUnits.map((grp, gIdx) => (
+            <div key={gIdx} style={{ display: "flex", flexDirection: "column", gap: 2, marginBottom: 8 }}>
+              <div
                 style={{
-                  display: "flex",
-                  alignItems: "flex-start",
-                  justifyContent: "space-between",
-                  gap: 8,
-                  padding: "8px 10px",
-                  borderRadius: 8,
-                  border: isSel ? "1px solid var(--accent-border)" : "1px solid transparent",
-                  background: isSel ? "var(--accent-soft)" : "transparent",
-                  color: "var(--fg)",
-                  cursor: "pointer",
-                  textAlign: "left",
+                  fontSize: 11,
+                  fontWeight: 700,
+                  color: "var(--fg-muted)",
+                  padding: "6px 8px 3px",
+                  lineHeight: 1.3,
                 }}
               >
-                <div className="min-w-0">
-                  <div style={{ fontSize: 12.5, fontWeight: isSel ? 700 : 500 }} className="truncate">
-                    {u.section_num} {u.title}
-                  </div>
-                  <div style={{ fontSize: 11, color: "var(--fg-muted)" }}>{u.page_label}</div>
-                </div>
-                {st === "mastered" && (
-                  <CheckCircle2 size={14} style={{ color: "var(--dot-success)", flexShrink: 0, marginTop: 2 }} />
-                )}
-              </button>
-            );
-          })}
+                {grp.title}
+              </div>
+              {grp.items.map((u) => {
+                const st = unitProgressMap[u.id]?.status;
+                const isSel = u.id === unit.id;
+                return (
+                  <button
+                    key={u.id}
+                    type="button"
+                    className={`lx-chapter-btn ${isSel ? "is-selected" : ""}`}
+                    onClick={() => onSelectUnit(u.id)}
+                  >
+                    <div className="min-w-0" style={{ flex: 1 }}>
+                      <div
+                        className="lx-chapter-title"
+                        style={{ fontWeight: isSel ? 600 : 500, color: isSel ? "var(--fg)" : "var(--fg-secondary)" }}
+                      >
+                        {u.section_num} {u.title}
+                      </div>
+                      <div style={{ fontSize: 11, color: "var(--fg-muted)", marginTop: 2 }}>
+                        {u.page_label.replace("Original-Skript ", "")}
+                      </div>
+                    </div>
+                    {st === "mastered" && (
+                      <CheckCircle2 size={14} style={{ color: "var(--dot-success)", flexShrink: 0, marginTop: 2 }} />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          ))}
         </aside>
 
-        {/* DAS VISUELLE 1-SEITEN-ANKERBLATT */}
+        {/* DAS VISUELLE 1-SEITEN-ANKERBLATT (Editorial Buchseiten-Ästhetik) */}
         <article
           className={`lx-anchor-sheet domain-border-${unit.domain}`}
           data-testid="active-anchor-sheet"
         >
-          {/* Kopfzeile mit exakter Original-Seitenzahl für ihren 300-Seiten-Ordner */}
-          <header style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+          {/* 1. Ruhiger Seitenkopf mit exaktem Ordner-Seitenverweis */}
+          <header style={{ display: "flex", flexDirection: "column", gap: 12, paddingBottom: 16, borderBottom: "1px solid var(--border-subtle)" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
               <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-                <span className={`lx-badge domain-badge-${unit.domain}`} style={{ fontWeight: 700 }}>
+                <span className={`lx-badge domain-badge-${unit.domain}`} style={{ fontWeight: 600 }}>
                   Gebiet {unit.domain} · Kap. {unit.section_num}
                 </span>
                 <span
                   className="lx-badge"
-                  style={{ fontWeight: 700, color: "var(--fg)", background: "var(--bg-subtle)" }}
+                  style={{ fontWeight: 700, color: "var(--fg)" }}
                   data-testid="original-page-badge"
                 >
                   <FileText size={12} />
@@ -247,7 +278,7 @@ export function AnchorScriptsView({
                 </span>
                 {effectiveNote.text && (
                   <span className="lx-badge" style={{ background: activeHighlightHex }}>
-                    Eigene Notiz gespeichert
+                    Eigene Notiz
                   </span>
                 )}
               </div>
@@ -256,14 +287,16 @@ export function AnchorScriptsView({
                 <button
                   type="button"
                   className="lx-btn"
+                  style={{ minHeight: 36, padding: "5px 11px", fontSize: 12.5 }}
                   onClick={() => onOpenPodcastForUnit(unit)}
                 >
                   <Headphones size={14} />
-                  <span>Sofa-Podcast Prompt</span>
+                  <span>Podcast-Prompt</span>
                 </button>
                 <button
                   type="button"
                   className={`lx-btn ${progress.status === "mastered" ? "lx-btn-primary" : ""}`}
+                  style={{ minHeight: 36, padding: "5px 12px", fontSize: 12.5 }}
                   onClick={() =>
                     onUpdateProgress(unit.id, unit.domain, {
                       status: progress.status === "mastered" ? "seen" : "mastered",
@@ -272,105 +305,150 @@ export function AnchorScriptsView({
                   data-testid="toggle-mastered-btn"
                 >
                   <Check size={14} />
-                  <span>{progress.status === "mastered" ? "Sicher verankert" : "Als gelernt markieren"}</span>
+                  <span>{progress.status === "mastered" ? "Sicher gelernt" : "Als gelernt markieren"}</span>
                 </button>
               </div>
             </div>
 
             <div>
-              <div style={{ fontSize: 12, color: "var(--fg-muted)", fontWeight: 600 }}>
+              <div style={{ fontSize: 12, color: "var(--fg-muted)", fontWeight: 500 }}>
                 {unit.chapter_group_title}
               </div>
-              <h1 style={{ margin: "2px 0 4px", fontSize: 22, lineHeight: 1.25 }}>{unit.title}</h1>
+              <h1 style={{ margin: "3px 0 5px", fontSize: 24, lineHeight: 1.24 }}>{unit.title}</h1>
               {unit.subtitle && (
-                <div style={{ fontSize: 13.5, color: "var(--fg-secondary)" }}>{unit.subtitle}</div>
+                <div style={{ fontSize: 14, color: "var(--fg-secondary)" }}>{unit.subtitle}</div>
               )}
             </div>
 
             {unit.visual_anchor_tagline && (
               <div
                 style={{
-                  padding: "9px 13px",
-                  borderRadius: 9,
-                  background: activeHighlightHex !== "transparent" && effectiveNote.text ? activeHighlightHex : "var(--bg-subtle)",
-                  border: "1px solid var(--border)",
-                  fontSize: 13,
-                  fontWeight: 600,
+                  padding: "10px 14px",
+                  borderRadius: 10,
+                  background:
+                    activeHighlightHex !== "transparent" && effectiveNote.text
+                      ? activeHighlightHex
+                      : "var(--bg-subtle)",
+                  border: "1px solid var(--border-subtle)",
+                  fontSize: 13.5,
+                  color: "var(--fg)",
                   display: "flex",
-                  alignItems: "center",
-                  gap: 8,
+                  alignItems: "flex-start",
+                  gap: 9,
                 }}
               >
-                <Sparkles size={15} style={{ color: "var(--primary-bg)", flexShrink: 0 }} />
-                <span>Visueller Seiten-Anker: {unit.visual_anchor_tagline}</span>
+                <Sparkles size={15} style={{ color: `var(--domain-${unit.domain.toLowerCase()})`, flexShrink: 0, marginTop: 3 }} />
+                <span>
+                  <strong>Visueller Merksatz:</strong> {unit.visual_anchor_tagline}
+                </span>
               </div>
             )}
           </header>
 
-          {/* 16:10 Widescreen 2-Spalten-Bento: Links Definitionen & Stichpunkte, Rechts Empirie, Grafiken & Schaubild */}
-          <div className="lx-anchor-bento">
-            <div style={{ display: "flex", flexDirection: "column", gap: 14, minWidth: 0 }}>
-              {/* Feste Definitionen mit Autor & Jahr */}
-              {Array.isArray(unit.definitions) && unit.definitions.length > 0 && (
-                <section style={{ display: "flex", flexDirection: "column", gap: 9 }}>
-                  <h2 style={{ margin: 0, fontSize: 14, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.03em", color: "var(--primary-bg)" }}>
-                    Prüfungsrelevante Definitionen (Wortlaut + Urheber/Jahr)
-                  </h2>
-                  {unit.definitions.map((def, idx) => (
-                    <div key={idx} className="lx-def-box">
-                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-                        <strong style={{ fontSize: 13.5 }}>{def.term}</strong>
-                        <span className="lx-badge" style={{ height: 21, fontSize: 11 }}>
-                          {def.author_year} · {def.page_ref}
-                        </span>
-                      </div>
-                      <div style={{ fontSize: 13, color: "var(--fg)" }}>
-                        <RichText text={def.definition} />
-                      </div>
-                    </div>
-                  ))}
-                </section>
-              )}
+          {/* 2. VOLLE BREITE: Visuelles Struktur-Schaubild / Alters-Zeitstrahl (100% lesbar!) */}
+          {unit.custom_visual && (
+            <VisualDiagramSvg visual={unit.custom_visual} domain={unit.domain} />
+          )}
 
-              {/* Strukturierte Kern-Stichpunkte (verlustfrei verdichtet) */}
-              {Array.isArray(unit.sections) &&
-                unit.sections.map((sec, sIdx) => (
-                  <section
+          {/* 3. Prüfungsrelevante Definitionen (2-spaltiges ruhiges Editorial-Grid ohne blaue Kastenflut!) */}
+          {Array.isArray(unit.definitions) && unit.definitions.length > 0 && (
+            <section>
+              <h2 className="lx-section-kicker">
+                Prüfungsrelevante Definitionen (Wortlaut &amp; Urheber)
+              </h2>
+              <div className="lx-anchor-two-col">
+                {unit.definitions.map((def, idx) => (
+                  <div key={idx} className={`lx-def-box dom-${unit.domain}`}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8, flexWrap: "wrap" }}>
+                      <strong style={{ fontSize: 13.5, color: "var(--fg)" }}>{def.term}</strong>
+                      <span
+                        className="lx-badge"
+                        style={{ background: "var(--bg-surface)", fontSize: 11, padding: "2px 8px", minHeight: 22 }}
+                      >
+                        {def.author_year} · {def.page_ref}
+                      </span>
+                    </div>
+                    <div style={{ fontSize: 13.5, color: "var(--fg-secondary)", lineHeight: 1.55 }}>
+                      <RichText text={def.definition} />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* 4. Strukturierte Kern-Stichpunkte in ruhigen Magazin-Karten */}
+          {Array.isArray(unit.sections) && unit.sections.length > 0 && (
+            <section>
+              <h2 className="lx-section-kicker">Strukturierte Kernaussagen &amp; Modelle</h2>
+              <div className="lx-sections-grid">
+                {unit.sections.map((sec, sIdx) => (
+                  <div
                     key={sIdx}
                     className="lx-card lx-card-subtle"
-                    style={{ padding: "12px 15px", display: "flex", flexDirection: "column", gap: 7 }}
+                    style={{ padding: "15px 17px", display: "flex", flexDirection: "column", gap: 8 }}
                   >
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
-                      <h3 style={{ margin: 0, fontSize: 14, fontWeight: 700 }}>{sec.heading}</h3>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8 }}>
+                      <h3 style={{ margin: 0, fontSize: 14.5, fontWeight: 700, lineHeight: 1.3 }}>
+                        {sec.heading}
+                      </h3>
                       {sec.page_ref && (
                         <span style={{ fontSize: 11.5, color: "var(--fg-muted)", flexShrink: 0 }}>
                           {sec.page_ref}
                         </span>
                       )}
                     </div>
-                    <ul style={{ margin: 0, paddingLeft: 18, display: "flex", flexDirection: "column", gap: 5, fontSize: 13 }}>
+                    <ul style={{ margin: 0, paddingLeft: 18, display: "flex", flexDirection: "column", gap: 6, fontSize: 13.5, lineHeight: 1.55 }}>
                       {(sec.bullets || []).map((b, bIdx) => (
                         <li key={bIdx} style={{ color: "var(--fg-secondary)" }}>
                           <RichText text={b} />
                         </li>
                       ))}
                     </ul>
-                  </section>
+                  </div>
                 ))}
-            </div>
+              </div>
+            </section>
+          )}
 
-            {/* Rechte Bento-Spalte: Vektor-Schaubild, Originalgrafiken & Empirie-Steckbriefe */}
-            <div style={{ display: "flex", flexDirection: "column", gap: 14, minWidth: 0 }}>
-              {unit.custom_visual && (
-                <VisualDiagramSvg visual={unit.custom_visual} domain={unit.domain} />
+          {/* 5. Original-Abbildungen aus dem PDF & Empirische Studien nebeneinander */}
+          {((Array.isArray(unit.original_figures) && unit.original_figures.length > 0) ||
+            (Array.isArray(unit.empirical_studies) && unit.empirical_studies.length > 0)) && (
+            <div className="lx-anchor-two-col" style={{ alignItems: "start" }}>
+              {Array.isArray(unit.empirical_studies) && unit.empirical_studies.length > 0 && (
+                <section style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                  <h2 className="lx-section-kicker" style={{ marginBottom: 0 }}>
+                    Empirische Schlüsselstudien &amp; Befunde
+                  </h2>
+                  {unit.empirical_studies.map((st, idx) => (
+                    <div key={idx} className="lx-empirie-box">
+                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8, flexWrap: "wrap" }}>
+                        <strong style={{ fontSize: 13.5 }}>{st.title}</strong>
+                        <span className="lx-badge" style={{ background: "var(--bg-surface)", fontSize: 11, minHeight: 22 }}>
+                          {st.authors_year} · {st.page_ref}
+                        </span>
+                      </div>
+                      <div style={{ fontSize: 13, color: "var(--fg-secondary)", lineHeight: 1.5 }}>
+                        <strong>Aufbau:</strong> <RichText text={st.setup} />
+                      </div>
+                      <div style={{ fontSize: 13, color: "var(--fg-secondary)", lineHeight: 1.5 }}>
+                        <strong>Befund:</strong> <RichText text={st.finding} />
+                      </div>
+                      {st.implication && (
+                        <div style={{ fontSize: 12.5, color: "var(--fg-muted)", lineHeight: 1.45 }}>
+                          <em>Schul-Implikation:</em> <RichText text={st.implication} />
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </section>
               )}
 
-              {/* Eingebettete Original-Abbildungen aus den PDFs */}
               {Array.isArray(unit.original_figures) && unit.original_figures.length > 0 && (
                 <section style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                  <h3 style={{ margin: 0, fontSize: 13.5, fontWeight: 700 }}>
+                  <h2 className="lx-section-kicker" style={{ marginBottom: 0 }}>
                     Original-Abbildungen aus deinem Skript ({unit.original_figures.length})
-                  </h3>
+                  </h2>
                   {unit.original_figures.map((fig, fIdx) => (
                     <div key={fIdx} className="lx-orig-figure-frame">
                       <img
@@ -384,67 +462,45 @@ export function AnchorScriptsView({
                           display: "flex",
                           justifyContent: "space-between",
                           alignItems: "center",
-                          gap: 8,
-                          color: "#1e293b",
+                          gap: 10,
+                          color: "#22262c",
                           fontSize: 12,
                         }}
                       >
-                        <span style={{ fontWeight: 600 }}>
+                        <span style={{ fontWeight: 500, lineHeight: 1.35 }}>
                           {fig.caption} ({fig.page_ref})
                         </span>
                         <button
                           type="button"
                           className="lx-btn no-print"
-                          style={{ height: 28, padding: "0 8px", fontSize: 11.5, background: "#fff", color: "#0f172a", borderColor: "#cbd5e1" }}
+                          style={{
+                            minHeight: 30,
+                            padding: "3px 9px",
+                            fontSize: 11.5,
+                            background: "#ffffff",
+                            color: "#1b1e23",
+                            borderColor: "#cfc9bc",
+                            flexShrink: 0,
+                          }}
                           onClick={() => setZoomedFigure(fig)}
                         >
                           <ZoomIn size={13} />
-                          <span>Vergrößern</span>
+                          <span>Zoom</span>
                         </button>
                       </div>
                     </div>
                   ))}
                 </section>
               )}
-
-              {/* Empirische Studien & Befunde */}
-              {Array.isArray(unit.empirical_studies) && unit.empirical_studies.length > 0 && (
-                <section style={{ display: "flex", flexDirection: "column", gap: 9 }}>
-                  <h3 style={{ margin: 0, fontSize: 13.5, fontWeight: 700, color: "var(--dot-warning)" }}>
-                    Empirische Studien &amp; Befunde (Unterstrichen im Skript)
-                  </h3>
-                  {unit.empirical_studies.map((st, idx) => (
-                    <div key={idx} className="lx-empirie-box">
-                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-                        <strong style={{ fontSize: 13 }}>{st.title}</strong>
-                        <span className="lx-badge" style={{ height: 21, fontSize: 11 }}>
-                          {st.authors_year} · {st.page_ref}
-                        </span>
-                      </div>
-                      <div style={{ fontSize: 12.5 }}>
-                        <strong>Aufbau:</strong> <RichText text={st.setup} />
-                      </div>
-                      <div style={{ fontSize: 12.5 }}>
-                        <strong>Befund:</strong> <RichText text={st.finding} />
-                      </div>
-                      {st.implication && (
-                        <div style={{ fontSize: 12, color: "var(--fg-secondary)" }}>
-                          <em>Schul-Implikation:</em> <RichText text={st.implication} />
-                        </div>
-                      )}
-                    </div>
-                  ))}
-                </section>
-              )}
             </div>
-          </div>
+          )}
 
-          {/* Vergleichstabelle (gekapselt gegen horizontalen Overflow) */}
+          {/* 6. Vergleichstabelle */}
           {unit.comparison_table && Array.isArray(unit.comparison_table.rows) && unit.comparison_table.rows.length > 0 && (
-            <section style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-              <h3 style={{ margin: 0, fontSize: 14, fontWeight: 700 }}>
-                Vergleichstabelle: {unit.comparison_table.title}
-              </h3>
+            <section>
+              <h2 className="lx-section-kicker">
+                Vergleichstabelle · {unit.comparison_table.title}
+              </h2>
               <div className="lx-table-scroll">
                 <table className="lx-table">
                   <thead>
@@ -470,70 +526,74 @@ export function AnchorScriptsView({
             </section>
           )}
 
-          {/* Grundschul-Praxisbox (Hauptfach Kunst & Didaktikfach Sport) */}
+          {/* 7. Grundschul-Praxisbox (Kunst & Sport) */}
           {unit.grundschule_praxis && (
-            <section style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-              <h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "var(--dot-success)" }}>
-                Konkreter Grundschul-Unterrichtstransfer (Klasse 1–4 · Kunst &amp; Sport)
-              </h3>
+            <section>
+              <h2 className="lx-section-kicker">
+                Grundschul-Praxis (Klassen 1–4 · Hauptfach Kunst &amp; Didaktikfach Sport)
+              </h2>
               <div className="lx-praxis-box">
-                <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-                  <span style={{ fontWeight: 700, fontSize: 12.5, display: "flex", alignItems: "center", gap: 6 }}>
-                    <Palette size={14} style={{ color: "var(--primary-bg)" }} />
-                    <span>Unterrichtsfach Kunst (Grundschule)</span>
+                <div className="lx-praxis-card">
+                  <span style={{ fontWeight: 700, fontSize: 13, display: "flex", alignItems: "center", gap: 7, color: "var(--fg)" }}>
+                    <Palette size={15} style={{ color: "var(--domain-a)" }} />
+                    <span>Unterrichtsfach Kunst</span>
                   </span>
-                  <div style={{ fontSize: 12.5, color: "var(--fg-secondary)" }}>
+                  <div style={{ fontSize: 13, color: "var(--fg-secondary)", lineHeight: 1.55 }}>
                     <RichText text={unit.grundschule_praxis.kunst} />
                   </div>
                 </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-                  <span style={{ fontWeight: 700, fontSize: 12.5, display: "flex", alignItems: "center", gap: 6 }}>
-                    <Trophy size={14} style={{ color: "var(--dot-success)" }} />
-                    <span>Didaktikfach Sport (Grundschule)</span>
+                <div className="lx-praxis-card">
+                  <span style={{ fontWeight: 700, fontSize: 13, display: "flex", alignItems: "center", gap: 7, color: "var(--fg)" }}>
+                    <Trophy size={15} style={{ color: "var(--domain-b)" }} />
+                    <span>Didaktikfach Sport</span>
                   </span>
-                  <div style={{ fontSize: 12.5, color: "var(--fg-secondary)" }}>
+                  <div style={{ fontSize: 13, color: "var(--fg-secondary)", lineHeight: 1.55 }}>
                     <RichText text={unit.grundschule_praxis.sport} />
                   </div>
                 </div>
                 {unit.grundschule_praxis.allgemein && (
-                  <div style={{ gridColumn: "1 / -1", paddingTop: 6, borderTop: "1px solid var(--callout-success-border)", fontSize: 12.5 }}>
-                    <strong>Klassenführung / Deutsch / Mathe (Kl. 1–4):</strong>{" "}
-                    <RichText text={unit.grundschule_praxis.allgemein} />
+                  <div className="lx-praxis-card" style={{ gridColumn: "1 / -1" }}>
+                    <strong style={{ fontSize: 13, color: "var(--fg)" }}>
+                      Klassenführung / Deutsch / Mathematik (Kl. 1–4)
+                    </strong>
+                    <div style={{ fontSize: 13, color: "var(--fg-secondary)", lineHeight: 1.55 }}>
+                      <RichText text={unit.grundschule_praxis.allgemein} />
+                    </div>
                   </div>
                 )}
               </div>
             </section>
           )}
 
-          {/* Vernetzungs-Brücken zu den anderen Skripten (A <-> B <-> C) */}
+          {/* 8. Theorie-Brücken */}
           {Array.isArray(unit.cross_references) && unit.cross_references.length > 0 && (
-            <section style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-              <h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, display: "flex", alignItems: "center", gap: 6 }}>
-                <Link2 size={15} />
-                <span>Theorie-Brücken zwischen den 3 Skripten (Vernetzung fürs Examen)</span>
-              </h3>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 10 }}>
+            <section>
+              <h2 className="lx-section-kicker">
+                <Link2 size={13} />
+                <span>Theorie-Brücken zu den anderen beiden Skripten</span>
+              </h2>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 12 }}>
                 {unit.cross_references.map((br, idx) => (
                   <div
                     key={idx}
                     className="lx-card lx-card-subtle"
-                    style={{ padding: "11px 13px", display: "flex", flexDirection: "column", gap: 5 }}
+                    style={{ padding: "13px 15px", display: "flex", flexDirection: "column", gap: 6 }}
                   >
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 6 }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
                       <span className={`lx-badge domain-badge-${br.target_domain || "B"}`}>
                         Brücke zu Gebiet {br.target_domain}
                       </span>
                       <button
                         type="button"
                         className="lx-badge no-print"
-                        style={{ cursor: "pointer" }}
+                        style={{ cursor: "pointer", background: "var(--bg-surface)" }}
                         onClick={() => onJumpToDomainHint(br.target_domain, br.target_hint)}
                       >
-                        Öffnen →
+                        Aufschlagen →
                       </button>
                     </div>
-                    <strong style={{ fontSize: 12.5 }}>{br.target_hint}</strong>
-                    <div style={{ fontSize: 12.5, color: "var(--fg-secondary)" }}>
+                    <strong style={{ fontSize: 13 }}>{br.target_hint}</strong>
+                    <div style={{ fontSize: 12.5, color: "var(--fg-secondary)", lineHeight: 1.5 }}>
                       <RichText text={br.bridge_explanation} />
                     </div>
                   </div>
@@ -542,40 +602,34 @@ export function AnchorScriptsView({
             </section>
           )}
 
-          {/* LAUT-ERZÄHL-CHECK (5 Schlüsselpunkte für ihr lautes Vor-sich-hin-Erzählen) */}
+          {/* 9. LAUT-ERZÄHL-CHECK (5 Ankerpunkte) */}
           <section
-            className="lx-card no-print"
-            style={{
-              borderColor: "var(--accent-border)",
-              background: "var(--bg-subtle)",
-              display: "flex",
-              flexDirection: "column",
-              gap: 10,
-            }}
+            className="lx-card lx-card-subtle no-print"
+            style={{ display: "flex", flexDirection: "column", gap: 12 }}
             data-testid="laut-erzaehl-check-section"
           >
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
               <div>
-                <h3 style={{ margin: 0, fontSize: 15 }}>
-                  Laut-Erzähl-Check (5 Ankerbegriffe frei vor dir hersprechen)
+                <h3 style={{ margin: 0, fontSize: 15.5 }}>
+                  Laut-Erzähl-Check ({checkedList.length}/{(unit.laut_erzaehl_check || []).length} Ankerpunkte)
                 </h3>
                 <p style={{ margin: "2px 0 0", fontSize: 12.5, color: "var(--fg-muted)" }}>
-                  Schau kurz weg vom Bildschirm, erzähle die Seite laut in eigenen Worten nach und decke die Prüfpunkte zur Kontrolle auf ({checkedList.length}/{(unit.laut_erzaehl_check || []).length} abgehakt).
+                  Schau kurz weg, erzähle das Ankerblatt frei laut nach und klappe die Prüfpunkte zur Kontrolle auf.
                 </p>
               </div>
               <button type="button" className="lx-btn" onClick={startSpeechCheck}>
-                <Mic size={14} style={{ color: dictating ? "var(--dot-danger)" : "var(--primary-bg)" }} />
-                <span>{dictating ? "Höre zu..." : "Optional: Kurz einsprechen"}</span>
+                <Mic size={14} style={{ color: dictating ? "var(--dot-danger)" : "var(--fg-secondary)" }} />
+                <span>{dictating ? "Höre zu..." : "Optional einsprechen"}</span>
               </button>
             </div>
 
             {spokenTranscript && (
-              <div className="lx-card" style={{ padding: "8px 12px", fontSize: 12.5 }}>
-                <strong>Dein gesprochener Check:</strong> {spokenTranscript}
+              <div className="lx-card" style={{ padding: "10px 13px", fontSize: 13 }}>
+                <strong>Gesprochen:</strong> {spokenTranscript}
               </div>
             )}
 
-            <div style={{ display: "flex", flexDirection: "column", gap: 7 }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
               {(unit.laut_erzaehl_check || []).map((chk, idx) => {
                 const isDone = checkedList.includes(idx);
                 const isRevealed = Boolean(revealedChecks[`${unit.id}:${idx}`]) || isDone;
@@ -584,48 +638,46 @@ export function AnchorScriptsView({
                     key={idx}
                     className="lx-card"
                     style={{
-                      padding: "9px 12px",
+                      padding: "10px 14px",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "space-between",
-                      gap: 10,
+                      gap: 12,
                       borderColor: isDone ? "var(--callout-success-border)" : "var(--border)",
                     }}
                   >
-                    <div className="min-w-0" style={{ display: "flex", flexDirection: "column", gap: 2 }}>
-                      <strong style={{ fontSize: 13 }}>
+                    <div className="min-w-0" style={{ display: "flex", flexDirection: "column", gap: 3 }}>
+                      <strong style={{ fontSize: 13.5 }}>
                         {idx + 1}. {chk.term}
                       </strong>
-                      <span
-                        style={{
-                          fontSize: 12,
-                          color: isRevealed ? "var(--fg-secondary)" : "var(--fg-muted)",
-                          filter: isRevealed ? "none" : "blur(4px)",
-                          userSelect: isRevealed ? "text" : "none",
-                          transition: "filter 150ms ease",
-                        }}
-                      >
-                        {chk.hint || chk.check_hint}
-                      </span>
+                      {isRevealed ? (
+                        <span style={{ fontSize: 12.5, color: "var(--fg-secondary)", lineHeight: 1.45 }}>
+                          {chk.hint || chk.check_hint}
+                        </span>
+                      ) : (
+                        <span style={{ fontSize: 12, color: "var(--fg-muted)", fontStyle: "italic" }}>
+                          Prüfhinweis verdeckt – erst frei sprechen, dann Auge antippen
+                        </span>
+                      )}
                     </div>
                     <div style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}>
                       <button
                         type="button"
                         className="lx-icon-btn"
                         onClick={() => toggleReveal(idx)}
-                        title={isRevealed ? "Hinweis abdecken" : "Hinweis aufdecken"}
+                        title={isRevealed ? "Hinweis verdecken" : "Hinweis zeigen"}
                       >
                         {isRevealed ? <EyeOff size={15} /> : <Eye size={15} />}
                       </button>
                       <button
                         type="button"
                         className={`lx-btn ${isDone ? "lx-btn-primary" : ""}`}
-                        style={{ height: 32, padding: "0 10px" }}
+                        style={{ minHeight: 34, padding: "4px 11px" }}
                         onClick={() => toggleCheckItem(idx)}
                         data-testid={`laut-check-btn-${idx}`}
                       >
                         <Check size={13} />
-                        <span>{isDone ? "Sitzt!" : "Abhaken"}</span>
+                        <span>{isDone ? "Sitzt" : "Abhaken"}</span>
                       </button>
                     </div>
                   </div>
@@ -634,14 +686,14 @@ export function AnchorScriptsView({
             </div>
           </section>
 
-          {/* Digitale Markier- & Kurznotiz-Funktion (mit Bezug zum 300-Seiten-Papierordner) */}
+          {/* 10. Eigene Markierung & Kurznotiz */}
           <section className="lx-card lx-card-subtle no-print" style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-              <span style={{ fontWeight: 700, fontSize: 13.5, display: "flex", alignItems: "center", gap: 6 }}>
+              <span style={{ fontWeight: 600, fontSize: 13.5, display: "flex", alignItems: "center", gap: 7 }}>
                 <Highlighter size={15} />
-                <span>Eigene digitale Markierung &amp; Ordner-Kurznotiz ({unit.page_label})</span>
+                <span>Eigene Notiz &amp; Papier-Ordner-Vermerk ({unit.page_label})</span>
               </span>
-              <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
                 {HIGHLIGHT_COLORS.map((col) => (
                   <button
                     key={col.id}
@@ -652,12 +704,12 @@ export function AnchorScriptsView({
                       onSaveNote(unit.id, next);
                     }}
                     style={{
-                      height: 26,
-                      padding: "0 9px",
+                      minHeight: 26,
+                      padding: "2px 9px",
                       borderRadius: 6,
                       border:
                         effectiveNote.highlightColor === col.id
-                          ? "2px solid var(--primary-bg)"
+                          ? "1.5px solid var(--fg)"
                           : "1px solid var(--border)",
                       background: col.hex,
                       color: "var(--fg)",
@@ -674,7 +726,7 @@ export function AnchorScriptsView({
             <textarea
               className="lx-textarea"
               rows={2}
-              placeholder={`Deine Eselsbrücke, Randnotiz oder Markierungshinweis für deinen Papier-Ordner (${unit.page_label})...`}
+              placeholder={`Deine Eselsbrücke oder Randnotiz für ${unit.page_label}...`}
               value={effectiveNote.text}
               onChange={(e) => setNoteDraft({ ...effectiveNote, text: e.target.value })}
               onBlur={() => onSaveNote(unit.id, effectiveNote)}
@@ -682,34 +734,33 @@ export function AnchorScriptsView({
             />
           </section>
 
-          {/* 5-Schritte-Essay-Baukasten pro Kapitel */}
+          {/* 11. 5-Schritte-Essay-Baukasten */}
           {unit.essay_recipe && (
             <section className="lx-card lx-card-subtle no-print" style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
                 <strong style={{ fontSize: 13.5 }}>
-                  5-Schritte-Essay-Baukasten zu „{unit.title}“ (Falls dein Traumthema als Essay drankommt!)
+                  5-Schritte-Essay-Baukasten zu „{unit.title}“
                 </strong>
                 <button type="button" className="lx-btn" onClick={() => setShowEssayRecipe((v) => !v)}>
-                  {showEssayRecipe ? "Zuklappen" : "Rezept anzeigen"}
+                  {showEssayRecipe ? "Zuklappen" : "Essay-Rezept öffnen"}
                 </button>
               </div>
               {showEssayRecipe && (
-                <ol style={{ margin: "4px 0 0", paddingLeft: 18, display: "flex", flexDirection: "column", gap: 6, fontSize: 12.5 }}>
+                <ol style={{ margin: "6px 0 0", paddingLeft: 18, display: "flex", flexDirection: "column", gap: 7, fontSize: 13, lineHeight: 1.55 }}>
                   <li>
-                    <strong>1. Einleitung &amp; Definition mit Zitat:</strong> <RichText text={unit.essay_recipe.intro} />
+                    <strong>Einleitung &amp; Definition:</strong> <RichText text={unit.essay_recipe.intro} />
                   </li>
                   <li>
-                    <strong>2. Theoretisches Hauptmodell:</strong> <RichText text={unit.essay_recipe.core_model} />
+                    <strong>Hauptmodell:</strong> <RichText text={unit.essay_recipe.core_model} />
                   </li>
                   <li>
-                    <strong>3. Empirischer Studien-Beleg:</strong> <RichText text={unit.essay_recipe.empirics} />
+                    <strong>Empirie-Beleg:</strong> <RichText text={unit.essay_recipe.empirics} />
                   </li>
                   <li>
-                    <strong>4. Kritische Einordnung &amp; Theorie-Brücke:</strong>{" "}
-                    <RichText text={unit.essay_recipe.critique_bridge} />
+                    <strong>Kritik &amp; Theorie-Brücke:</strong> <RichText text={unit.essay_recipe.critique_bridge} />
                   </li>
                   <li>
-                    <strong>5. Grundschul-Ableitung (Kunst / Sport / Kl. 1–4):</strong>{" "}
+                    <strong>Grundschul-Transfer (Kunst/Sport):</strong>{" "}
                     <RichText text={unit.essay_recipe.school_transfer} />
                   </li>
                 </ol>
@@ -717,7 +768,7 @@ export function AnchorScriptsView({
             </section>
           )}
 
-          {/* Vor / Zurück Navigation zwischen den Ankerblättern */}
+          {/* Vor / Zurück */}
           <footer
             className="no-print"
             style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, paddingTop: 6 }}
@@ -729,9 +780,9 @@ export function AnchorScriptsView({
               onClick={() => currentIndex > 0 && onSelectUnit(units[currentIndex - 1].id)}
             >
               <ChevronLeft size={15} />
-              <span>Vorheriges Ankerblatt</span>
+              <span>Vorheriges Blatt</span>
             </button>
-            <span style={{ fontSize: 12, color: "var(--fg-muted)" }}>
+            <span style={{ fontSize: 12.5, color: "var(--fg-muted)" }}>
               Blatt {currentIndex + 1} von {units.length}
             </span>
             <button
@@ -740,14 +791,14 @@ export function AnchorScriptsView({
               disabled={currentIndex >= units.length - 1}
               onClick={() => currentIndex < units.length - 1 && onSelectUnit(units[currentIndex + 1].id)}
             >
-              <span>Nächstes Ankerblatt</span>
+              <span>Nächstes Blatt</span>
               <ChevronRight size={15} />
             </button>
           </footer>
         </article>
       </div>
 
-      {/* Original-Grafik Zoom-Modal (`ui.jsx`) */}
+      {/* Original-Grafik Zoom-Modal */}
       <Modal
         open={Boolean(zoomedFigure)}
         onOpenChange={(o) => !o && setZoomedFigure(null)}
@@ -785,15 +836,16 @@ export function AnchorScriptsView({
                     justifyContent: "space-between",
                     height: "auto",
                     minHeight: 46,
-                    padding: "8px 12px",
-                    borderColor: u.id === unit.id ? "var(--primary-bg)" : "var(--border)",
+                    padding: "9px 12px",
+                    textAlign: "left",
+                    borderColor: u.id === unit.id ? "var(--fg)" : "var(--border)",
                   }}
                   onClick={() => {
                     onSelectUnit(u.id);
                     setMobileTocOpen(false);
                   }}
                 >
-                  <span className="truncate" style={{ fontWeight: 600 }}>
+                  <span style={{ fontWeight: u.id === unit.id ? 700 : 500, flex: 1 }}>
                     {u.section_num} {u.title}
                   </span>
                   <span className="lx-badge" style={{ flexShrink: 0 }}>

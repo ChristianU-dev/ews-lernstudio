@@ -163,11 +163,10 @@ export function buildBonusStage({ units = [], unitProgressMap = {}, focusDomain 
 
   return {
     durationMinutes: 12,
-    title: bonusUnit
-      ? `+12-Min.-Bonus-Runde: Theorie-Brücke zu Gebiet ${bonusUnit.domain} („${bonusUnit.title}“)`
-      : "+12-Min.-Bonus-Runde: Wissensnetz & Schnell-Karten",
-    description:
-      "Du bist gerade im Flow! Hol dir stressfrei einen zusätzlichen Knoten auf deiner Wissenslandkarte.",
+    title: `+12-Min.-Bonus-Etappe · Brücke zu Gebiet ${bonusUnit?.domain || bridgeDomain}`,
+    description: bonusUnit
+      ? `Nächster Vernetzungs-Knoten: „${bonusUnit.title}“ (${bonusUnit.page_label})`
+      : "Hol dir stressfrei einen zusätzlichen Knoten auf deiner Wissenslandkarte.",
     unitId: bonusUnit?.id || null,
     domain: bonusUnit?.domain || bridgeDomain,
   };

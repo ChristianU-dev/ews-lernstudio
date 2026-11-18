@@ -1,36 +1,33 @@
 /* ==========================================================================
-   EWS-Lernstudio Extensions auf Basis von studio_complete_theme.css
-   Optimiert für:
-   1) 16:10 HiDPI-Widescreen-Laptop (2880×1800 -> 1440×900 bis 1920×1200 CSS px, DPR 2)
-   2) iPhone Native PWA (< 960px, 390×844 CSS px, DPR 3, 0px Horizontal Overflow)
+   EWS-Lernstudio Editorial Layout, Graph Theme & Mobile Refinement
    ========================================================================== */
 
-/* Domain Accent Utilities */
+/* Gedeckte Gebiets-Akzente (nur als feiner Orientierungsanker, kein Farb-Overload) */
 .domain-badge-A {
   background: var(--domain-a-soft);
-  border-color: rgba(37, 99, 235, 0.32);
+  border-color: var(--domain-a-border);
   color: var(--domain-a);
 }
 .domain-badge-B {
   background: var(--domain-b-soft);
-  border-color: rgba(5, 150, 105, 0.32);
+  border-color: var(--domain-b-border);
   color: var(--domain-b);
 }
 .domain-badge-C {
   background: var(--domain-c-soft);
-  border-color: rgba(217, 119, 6, 0.34);
+  border-color: var(--domain-c-border);
   color: var(--domain-c);
 }
 
-.domain-border-A { border-left: 4px solid var(--domain-a) !important; }
-.domain-border-B { border-left: 4px solid var(--domain-b) !important; }
-.domain-border-C { border-left: 4px solid var(--domain-c) !important; }
+.domain-border-A { border-left: 3.5px solid var(--domain-a) !important; }
+.domain-border-B { border-left: 3.5px solid var(--domain-b) !important; }
+.domain-border-C { border-left: 3.5px solid var(--domain-c) !important; }
 
-/* Sidebar & Main Layout */
+/* Ruhige PC-Seitenleiste */
 .lx-sidebar {
   background: var(--bg-sidebar);
   border-right: 1px solid var(--border);
-  padding: 16px 12px;
+  padding: 18px 14px;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -46,12 +43,13 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  height: 38px;
-  padding: 0 11px;
+  min-height: 38px;
+  padding: 6px 11px;
   border-radius: 9px;
   border: 1px solid transparent;
   background: transparent;
   color: var(--fg-secondary);
+  font-family: var(--font-sans);
   font-size: 13.5px;
   font-weight: 500;
   cursor: pointer;
@@ -73,122 +71,180 @@
 .lx-main-workspace {
   min-width: 0;
   width: 100%;
-  max-width: 1640px;
+  max-width: 1520px;
   margin: 0 auto;
-  padding: 20px 26px 96px;
+  padding: 26px 32px 96px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 20px;
 }
 
-.lx-topbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-/* 16:10 Widescreen Bento & 1-Seiten-Ankerblatt Grid */
+/* Dashboard & Bento Grids */
 .lx-dashboard-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.95fr);
-  gap: 16px;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.9fr);
+  gap: 18px;
   align-items: start;
 }
 
 .lx-kpi-row {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 12px;
+  gap: 14px;
 }
 
+/* Skript-Werkbank: Lesbare Kapitelspalte links, ruhiges Editorial-Ankerblatt rechts */
 .lx-scripts-workbench {
   display: grid;
-  grid-template-columns: 288px minmax(0, 1fr);
-  gap: 18px;
+  grid-template-columns: 296px minmax(0, 1fr);
+  gap: 22px;
   align-items: start;
 }
 
 .lx-chapter-rail {
   position: sticky;
-  top: 16px;
+  top: 18px;
   max-height: calc(100dvh - 36px);
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  padding: 12px;
+  gap: 4px;
+  padding: 14px 12px;
 }
 
+.lx-chapter-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 9px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--fg-secondary);
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 120ms ease;
+}
+.lx-chapter-btn:hover {
+  background: var(--bg-subtle);
+  color: var(--fg);
+}
+.lx-chapter-btn.is-selected {
+  background: var(--bg-subtle);
+  border-color: var(--border-strong);
+  color: var(--fg);
+}
+.lx-chapter-title {
+  font-size: 12.5px;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Das 1-Seiten-Ankerblatt: Ruhige Buch-/Magazin-Ästhetik statt blauer Kastenflut */
 .lx-anchor-sheet {
   background: var(--bg-surface);
-  border: 1px solid var(--border-strong);
-  border-radius: 16px;
-  padding: 22px 24px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 28px 32px;
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 24px;
   min-width: 0;
 }
 
-.lx-anchor-bento {
+.lx-anchor-two-col {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
-  align-items: start;
+  align-items: stretch;
 }
 
+.lx-sections-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 14px;
+  align-items: stretch;
+}
+
+.lx-section-kicker {
+  margin: 0 0 10px;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--fg-muted);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+/* Ruhige Definitions-Karte: Warmes Papier + feine linke Akzentlinie statt blauem Vollkasten */
 .lx-def-box {
-  background: var(--accent-soft);
-  border: 1px solid var(--accent-border);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--fg-muted);
   border-radius: 11px;
-  padding: 12px 14px;
+  padding: 13px 16px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 6px;
 }
+.lx-def-box.dom-A { border-left-color: var(--domain-a); }
+.lx-def-box.dom-B { border-left-color: var(--domain-b); }
+.lx-def-box.dom-C { border-left-color: var(--domain-c); }
 
+/* Ruhige Empirie-Karte */
 .lx-empirie-box {
   background: var(--callout-warn-bg);
   border: 1px solid var(--callout-warn-border);
   border-radius: 11px;
-  padding: 12px 14px;
+  padding: 13px 16px;
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
+/* Grundschul-Praxisbox (Kunst & Sport) */
 .lx-praxis-box {
-  background: var(--callout-success-bg);
-  border: 1px solid var(--callout-success-border);
-  border-radius: 11px;
-  padding: 13px 15px;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+  gap: 14px;
+}
+.lx-praxis-card {
+  background: var(--callout-success-bg);
+  border: 1px solid var(--callout-success-border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
-/* Blendfreier Dark-Mode-Rahmen für weiße Original-PDF-Grafiken auf 2880x1800 HDR-Displays */
+/* Blendfreie Darstellung weißer Original-PDF-Grafiken im Light- & Dark-Mode */
 .lx-orig-figure-frame {
-  background: #f8fafc;
+  background: #f7f6f2;
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 12px;
+  padding: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   overflow: hidden;
 }
 [data-theme="dark"] .lx-orig-figure-frame {
-  background: #eaeff7;
-  border-color: #3b4c66;
+  background: #e4e2dc;
+  border-color: #383e4a;
 }
 .lx-orig-figure-frame img {
   max-width: 100%;
-  max-height: 300px;
+  max-height: 280px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -196,17 +252,18 @@
   border-radius: 6px;
 }
 [data-theme="dark"] .lx-orig-figure-frame img {
-  filter: brightness(0.95) contrast(1.03);
+  filter: brightness(0.94) contrast(1.03);
 }
 
-/* Tabellen: 0px Seiten-Overflow durch gekapselten Scroll-Container */
+/* Tabellen */
 .lx-table-scroll {
   width: 100%;
   max-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 11px;
+  background: var(--bg-surface);
 }
 .lx-table {
   width: 100%;
@@ -215,15 +272,17 @@
 }
 .lx-table th,
 .lx-table td {
-  padding: 9px 12px;
+  padding: 10px 13px;
   border-bottom: 1px solid var(--border-subtle);
   text-align: left;
   vertical-align: top;
+  line-height: 1.5;
 }
 .lx-table th {
   background: var(--bg-subtle);
   color: var(--fg);
   font-weight: 600;
+  font-size: 12px;
 }
 .lx-table tr:last-child td {
   border-bottom: none;
@@ -233,19 +292,20 @@
 .lx-input,
 .lx-textarea {
   width: 100%;
-  border-radius: 9px;
+  border-radius: 10px;
   border: 1px solid var(--border-strong);
   background: var(--bg-surface);
   color: var(--fg);
   font-family: var(--font-sans);
   font-size: 14px;
-  padding: 9px 12px;
+  line-height: 1.5;
+  padding: 10px 13px;
   outline: none;
   transition: border-color 120ms ease, box-shadow 120ms ease;
 }
 .lx-input:focus,
 .lx-textarea:focus {
-  border-color: var(--primary-bg);
+  border-color: var(--fg-muted);
   box-shadow: 0 0 0 3px var(--accent-soft);
 }
 
@@ -283,18 +343,6 @@
   color: var(--fg-secondary);
   cursor: pointer;
 }
-.lx-popover-title {
-  font-weight: 600;
-  font-size: 13px;
-  margin-bottom: 4px;
-}
-.lx-popover-body {
-  font-size: 12.5px;
-  color: var(--fg-secondary);
-}
-.lx-popover-arrow {
-  fill: var(--bg-surface);
-}
 
 /* Command Palette (cmdk) */
 .lx-cmdk-dialog [cmdk-input] {
@@ -303,7 +351,7 @@
   border-bottom: 1px solid var(--border);
   background: transparent;
   color: var(--fg);
-  padding: 14px 16px;
+  padding: 15px 16px;
   font-size: 15px;
   outline: none;
 }
@@ -324,11 +372,11 @@
   color: var(--fg);
 }
 .lx-cmdk-item[data-selected="true"] {
-  background: var(--accent-soft);
-  color: var(--primary-bg);
+  background: var(--bg-subtle);
+  color: var(--fg);
 }
 
-/* Vaul Bottom-Sheet (iPhone Native Feel) */
+/* Vaul Bottom-Sheet */
 .lx-vaul-overlay {
   position: fixed;
   inset: 0;
@@ -344,15 +392,15 @@
   max-height: 86dvh;
   background: var(--bg-surface);
   border-top: 1px solid var(--border-strong);
-  border-radius: 18px 18px 0 0;
-  padding: 12px 16px calc(18px + env(safe-area-inset-bottom));
+  border-radius: 20px 20px 0 0;
+  padding: 12px 16px calc(20px + env(safe-area-inset-bottom));
   display: flex;
   flex-direction: column;
   gap: 12px;
   box-shadow: var(--shadow-lg);
 }
 .lx-vaul-handle {
-  width: 42px;
+  width: 40px;
   height: 5px;
   border-radius: 999px;
   background: var(--border-strong);
@@ -360,107 +408,174 @@
   flex-shrink: 0;
 }
 
-/* React Flow Graph Shell */
+/* ==========================================================================
+   REACT FLOW WISSENSGRAPH — 100% Dark-/Light-Mode nativ (KEINE weißen Boxen!)
+   ========================================================================== */
 .lx-graph-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 350px;
-  gap: 14px;
-  height: calc(100dvh - 165px);
-  min-height: 520px;
+  grid-template-columns: minmax(0, 1fr) 368px;
+  gap: 16px;
+  height: calc(100dvh - 150px);
+  min-height: 560px;
 }
 .lx-graph-canvas {
-  background: var(--bg-surface);
+  background: var(--bg-subtle);
   border: 1px solid var(--border);
-  border-radius: 14px;
+  border-radius: 16px;
   overflow: hidden;
   height: 100%;
-  min-height: 460px;
+  min-height: 480px;
+  position: relative;
 }
 
-/* Globaler Mini-Audioplayer (Sofa & Zug) */
+.lx-graph-canvas .react-flow__pane {
+  cursor: grab;
+}
+.lx-graph-canvas .react-flow__controls {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.lx-graph-canvas .react-flow__controls-button {
+  background: var(--bg-surface) !important;
+  border-bottom: 1px solid var(--border) !important;
+  fill: var(--fg-secondary) !important;
+  color: var(--fg-secondary) !important;
+  width: 30px;
+  height: 30px;
+}
+.lx-graph-canvas .react-flow__controls-button:hover {
+  background: var(--bg-subtle) !important;
+  fill: var(--fg) !important;
+}
+.lx-graph-canvas .react-flow__controls-button:last-child {
+  border-bottom: none !important;
+}
+/* Kanten-Beschriftungen: Sauber in Surface-Farbe statt hartem Weiß! */
+.lx-graph-canvas .react-flow__edge-textbg {
+  fill: var(--bg-surface) !important;
+  stroke: var(--border-strong) !important;
+  stroke-width: 1px;
+  rx: 6px;
+  ry: 6px;
+}
+.lx-graph-canvas .react-flow__edge-text {
+  fill: var(--fg) !important;
+  font-family: var(--font-sans) !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+}
+
+/* Globaler Mini-Audioplayer */
 .lx-audio-dock {
   position: fixed;
-  right: 20px;
-  bottom: 18px;
+  right: 22px;
+  bottom: 20px;
   z-index: 940;
-  width: min(440px, calc(100vw - 24px));
+  width: min(430px, calc(100vw - 24px));
   background: var(--nav-glass);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   border: 1px solid var(--border-strong);
-  border-radius: 14px;
-  padding: 10px 14px;
+  border-radius: 15px;
+  padding: 12px 15px;
   box-shadow: var(--shadow-lg);
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-/* Responsive Breakpoints: Mittlere Laptops (<= 1240px) & iPhone (< 960px) */
-@media (max-width: 1260px) {
-  .lx-anchor-bento {
+/* Desktop vs. Mobile Sichtbarkeits-Helfer */
+.lx-only-mobile { display: none; }
+
+@media (max-width: 1240px) {
+  .lx-anchor-two-col {
     grid-template-columns: minmax(0, 1fr);
   }
   .lx-scripts-workbench {
-    grid-template-columns: 240px minmax(0, 1fr);
+    grid-template-columns: 248px minmax(0, 1fr);
   }
 }
 
 @media (max-width: 959px) {
+  .lx-only-mobile { display: inline-flex; }
+  .lx-hide-mobile { display: none !important; }
+
   .lx-main-workspace {
-    padding: 12px 12px calc(98px + env(safe-area-inset-bottom));
-    gap: 14px;
+    padding: 14px 14px calc(98px + env(safe-area-inset-bottom));
+    gap: 16px;
   }
   .lx-dashboard-grid,
   .lx-scripts-workbench,
-  .lx-anchor-bento,
+  .lx-anchor-two-col,
+  .lx-sections-grid,
   .lx-praxis-box,
   .lx-graph-layout {
     grid-template-columns: minmax(0, 1fr);
   }
   .lx-kpi-row {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
   }
   .lx-chapter-rail {
     display: none;
   }
   .lx-anchor-sheet {
-    padding: 15px 14px;
-    border-radius: 13px;
+    padding: 18px 16px;
+    border-radius: 15px;
+    gap: 18px;
   }
   .lx-graph-layout {
     height: auto;
     min-height: 0;
   }
   .lx-graph-canvas {
-    height: 58dvh;
-    min-height: 360px;
+    height: 54dvh;
+    min-height: 350px;
   }
   .lx-graph-desktop-inspector {
     display: none;
   }
   .lx-audio-dock {
-    left: 8px;
-    right: 8px;
+    left: 10px;
+    right: 10px;
     width: auto;
-    bottom: calc(68px + env(safe-area-inset-bottom));
+    bottom: calc(74px + env(safe-area-inset-bottom));
   }
+  /* Segmented Tabs auf dem iPhone sauber in 2 Spalten umbrechen statt Text abzuschneiden! */
   .lx-segmented {
-    max-width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    padding: 4px;
+    gap: 4px;
+  }
+  .lx-segmented.cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .lx-seg-btn {
     min-height: 38px;
-    white-space: nowrap;
+    padding: 6px 8px;
+    font-size: 12px;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.25;
+  }
+}
+
+@media (max-width: 640px) {
+  .lx-hero-btn {
+    width: 100%;
   }
 }
 
 /* Sauberer 1-Seiten-Ankerblatt Ausdruck */
 @media print {
   .lx-sidebar,
+  .lx-mobile-topbar,
   .lx-mobile-bottom-nav,
-  .lx-topbar,
   .lx-chapter-rail,
   .lx-audio-dock,
   .no-print {

@@ -123,8 +123,8 @@ export function DownloadsAndSettingsView({
               <a
                 href={`./exports/${item.filename}`}
                 download={item.filename}
-                className="lx-btn lx-btn-primary"
-                style={{ textDecoration: "none", alignSelf: "flex-start" }}
+                className="lx-btn"
+                style={{ textDecoration: "none", alignSelf: "flex-start", background: "var(--bg-surface)" }}
                 data-testid={`download-${item.filename}`}
               >
                 <FileDown size={14} />
@@ -200,7 +200,7 @@ export function DownloadsAndSettingsView({
           {/* Course-Pack Architektur Info */}
           <div className="lx-card lx-card-subtle" style={{ fontSize: 12.5, display: "flex", flexDirection: "column", gap: 4 }}>
             <strong style={{ display: "flex", alignItems: "center", gap: 6 }}>
-              <Layers size={14} style={{ color: "var(--primary-bg)" }} />
+              <Layers size={14} style={{ color: "var(--domain-a)" }} />
               <span>Aktives Course-Pack: EWS Psychologie (Grundschule Bayern)</span>
             </strong>
             <span style={{ color: "var(--fg-secondary)" }}>
@@ -213,7 +213,7 @@ export function DownloadsAndSettingsView({
         {/* PC <-> iPhone Echtzeit-Sync & Lokales Backup */}
         <section className="lx-card" style={{ display: "flex", flexDirection: "column", gap: 12 }}>
           <h3 style={{ margin: 0, fontSize: 16, display: "flex", alignItems: "center", gap: 7 }}>
-            <Cloud size={17} style={{ color: "var(--primary-bg)" }} />
+            <Cloud size={17} style={{ color: "var(--domain-a)" }} />
             <span>PC ↔ iPhone Synchronisation &amp; Sicherung</span>
           </h3>
           <p style={{ margin: 0, fontSize: 12.5, color: "var(--fg-muted)" }}>

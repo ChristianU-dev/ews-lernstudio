@@ -80,7 +80,6 @@ export default function App() {
   );
   const [activeAudioTrack, setActiveAudioTrack] = useState(null);
 
-  // Persistierter Zustand aus IndexedDB (`Dexie`)
   const [settings, setSettings] = useState(DEFAULT_SETTINGS);
   const [unitProgressMap, setUnitProgressMap] = useState({});
   const [notesMap, setNotesMap] = useState({});
@@ -282,352 +281,363 @@ export default function App() {
       <Toaster position="top-right" richColors />
       <div className="lx-app-shell">
         {/* PC Widescreen Seitenleiste (>= 960px) */}
-      <aside className="lx-sidebar" data-testid="desktop-sidebar">
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "2px 4px" }}>
-          <div className="min-w-0">
-            <div style={{ fontWeight: 800, fontSize: 15, letterSpacing: "-0.01em" }}>
-              EWS Lernstudio
+        <aside className="lx-sidebar" data-testid="desktop-sidebar">
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "2px 4px" }}>
+            <div className="min-w-0">
+              <div style={{ fontWeight: 700, fontSize: 15.5, letterSpacing: "-0.02em", color: "var(--fg)" }}>
+                EWS Lernstudio
+              </div>
+              <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>
+                Psychologie · Grundschule
+              </div>
             </div>
-            <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>
-              Psychologie · GS Bayern
-            </div>
+            <button
+              type="button"
+              className="lx-icon-btn"
+              onClick={toggleTheme}
+              aria-label="Hell-/Dunkelmodus umschalten"
+              title={theme === "dark" ? "Zu Warm-Papier (Hell) wechseln" : "Zu Abend-Graphit (Dunkel) wechseln"}
+              data-testid="sidebar-theme-toggle"
+            >
+              {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
+            </button>
           </div>
+
+          {/* Ctrl+K Befehlspalette */}
           <button
             type="button"
-            className="lx-icon-btn"
-            onClick={toggleTheme}
-            aria-label="Hell-/Dunkelmodus umschalten"
-            data-testid="sidebar-theme-toggle"
+            className="lx-btn"
+            style={{ width: "100%", justifyContent: "space-between", minHeight: 38, background: "var(--bg-surface)" }}
+            onClick={() => setCmdOpen(true)}
+            data-testid="open-cmdk-btn"
           >
-            {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
+            <span style={{ display: "flex", alignItems: "center", gap: 7, color: "var(--fg-muted)" }}>
+              <Search size={14} />
+              <span>Begriff / Seite...</span>
+            </span>
+            <Kbd>Ctrl+K</Kbd>
           </button>
-        </div>
 
-        {/* Ctrl+K Befehlspalette Button */}
-        <button
-          type="button"
-          className="lx-btn"
-          style={{ width: "100%", justifyContent: "space-between", height: 36 }}
-          onClick={() => setCmdOpen(true)}
-          data-testid="open-cmdk-btn"
-        >
-          <span style={{ display: "flex", alignItems: "center", gap: 7, color: "var(--fg-muted)" }}>
-            <Search size={14} />
-            <span>Suche &amp; Seite...</span>
-          </span>
-          <Kbd>Ctrl+K</Kbd>
-        </button>
+          <nav style={{ display: "flex", flexDirection: "column", gap: 3, flex: 1 }} aria-label="Hauptnavigation">
+            {DESKTOP_NAV.map((item) => {
+              const Icon = item.icon;
+              const active = activeView === item.id;
+              return (
+                <button
+                  key={item.id}
+                  type="button"
+                  className={`lx-nav-item ${active ? "is-active" : ""}`}
+                  onClick={() => setActiveView(item.id)}
+                  data-testid={`nav-${item.id}`}
+                >
+                  <span style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                    <Icon size={16} strokeWidth={1.9} />
+                    <span>{item.label}</span>
+                  </span>
+                </button>
+              );
+            })}
+          </nav>
 
-        <nav style={{ display: "flex", flexDirection: "column", gap: 4, flex: 1 }} aria-label="Hauptnavigation">
-          {DESKTOP_NAV.map((item) => {
-            const Icon = item.icon;
-            const active = activeView === item.id;
-            return (
-              <button
-                key={item.id}
-                type="button"
-                className={`lx-nav-item ${active ? "is-active" : ""}`}
-                onClick={() => setActiveView(item.id)}
-                data-testid={`nav-${item.id}`}
-              >
-                <span style={{ display: "flex", alignItems: "center", gap: 9 }}>
-                  <Icon size={16} />
-                  <span>{item.label}</span>
-                </span>
-              </button>
-            );
-          })}
-        </nav>
-
-        {/* Schnelle Skript-Direktwahl mit festen Farbcodes */}
-        <div
-          className="lx-card lx-card-subtle"
-          style={{ padding: "10px 11px", display: "flex", flexDirection: "column", gap: 6 }}
-        >
-          <span style={{ fontSize: 11, fontWeight: 700, color: "var(--fg-muted)" }}>
-            DEIN 300-SEITEN-ORDNER
-          </span>
-          {[
-            { id: "A", label: "A · Lernen & Lehren", p: "108 S." },
-            { id: "B", label: "B · Entwicklung", p: "82 S." },
-            { id: "C", label: "C · Diagnostik", p: "73 S." },
-          ].map((d) => (
-            <button
-              key={d.id}
-              type="button"
-              onClick={() => {
-                handleSelectDomain(d.id);
-                setActiveView("scripts");
-              }}
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                border: "none",
-                background: "transparent",
-                padding: "4px 2px",
-                cursor: "pointer",
-                color: "var(--fg-secondary)",
-                fontSize: 12,
-              }}
+          {/* Ruhige Skript-Direktwahl + Offline-Status */}
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            <div
+              className="lx-card"
+              style={{ padding: "11px 12px", display: "flex", flexDirection: "column", gap: 6, background: "var(--bg-surface)" }}
             >
-              <span style={{ display: "flex", alignItems: "center", gap: 7 }}>
-                <span
-                  style={{
-                    width: 8,
-                    height: 8,
-                    borderRadius: 999,
-                    background: `var(--domain-${d.id.toLowerCase()})`,
+              <span style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: "0.05em", color: "var(--fg-muted)" }}>
+                DEIN 300-SEITEN-ORDNER
+              </span>
+              {[
+                { id: "A", label: "A · Lernen & Lehren", p: "108 S." },
+                { id: "B", label: "B · Entwicklung", p: "82 S." },
+                { id: "C", label: "C · Diagnostik", p: "73 S." },
+              ].map((d) => (
+                <button
+                  key={d.id}
+                  type="button"
+                  onClick={() => {
+                    handleSelectDomain(d.id);
+                    setActiveView("scripts");
                   }}
-                />
-                <span>{d.label}</span>
-              </span>
-              <span className="tabular" style={{ fontSize: 11, color: "var(--fg-muted)" }}>
-                {d.p}
-              </span>
-            </button>
-          ))}
-        </div>
-      </aside>
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    border: "none",
+                    background: "transparent",
+                    padding: "4px 2px",
+                    cursor: "pointer",
+                    color: "var(--fg-secondary)",
+                    fontSize: 12.5,
+                  }}
+                >
+                  <span style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <span
+                      style={{
+                        width: 8,
+                        height: 8,
+                        borderRadius: 999,
+                        background: `var(--domain-${d.id.toLowerCase()})`,
+                      }}
+                    />
+                    <span>{d.label}</span>
+                  </span>
+                  <span className="tabular" style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>
+                    {d.p}
+                  </span>
+                </button>
+              ))}
+            </div>
 
-      {/* Haupt-Arbeitsfläche */}
-      <main className="lx-main-workspace">
-        {/* Kompakte Topbar (insb. für iPhone Schnellsuche, Offline-Badge & Dark-Mode) */}
-        <div className="lx-topbar no-print">
-          <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
             <StatusBadge
-              label={isOffline ? "Zug-Offline-Modus aktiv" : "100 % Lokal & Offline-bereit"}
+              label={isOffline ? "Zug-Offline-Modus" : "Lokal & Offline-bereit"}
               tone={isOffline ? "warning" : "success"}
             />
-            {isOffline && <WifiOff size={14} style={{ color: "var(--dot-warning)" }} />}
+          </div>
+        </aside>
+
+        {/* Schlanke native iOS Topbar NUR auf Mobile (< 960px) */}
+        <header className="lx-mobile-topbar no-print">
+          <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
+            <span
+              className={`lx-dot ${isOffline ? "lx-dot-warning" : "lx-dot-success"}`}
+              title={isOffline ? "Offline" : "Bereit"}
+            />
+            <strong style={{ fontSize: 15, letterSpacing: "-0.015em" }} className="truncate">
+              EWS Lernstudio
+            </strong>
+            {isOffline && <WifiOff size={13} style={{ color: "var(--dot-warning)" }} />}
           </div>
 
-          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
             <button
               type="button"
-              className="lx-btn"
+              className="lx-icon-btn"
+              style={{ width: 38, height: 38, background: "var(--bg-subtle)" }}
               onClick={() => setCmdOpen(true)}
               aria-label="Schnellsuche öffnen"
             >
-              <Search size={14} />
-              <span>Schnellsuche</span>
+              <Search size={16} />
             </button>
             <button
               type="button"
-              className="lx-btn"
+              className="lx-icon-btn"
+              style={{ width: 38, height: 38, background: "var(--bg-subtle)" }}
               onClick={toggleTheme}
               aria-label="Darstellung Hell oder Dunkel wählen"
               data-testid="topbar-theme-toggle"
             >
-              {theme === "dark" ? <Sun size={14} /> : <Moon size={14} />}
-              <span>{theme === "dark" ? "Hell" : "Dunkel"}</span>
+              {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
             </button>
           </div>
-        </div>
+        </header>
 
-        {activeView === "today" && (
-          <TodayDashboardView
-            allUnits={allUnits}
-            unitProgressMap={unitProgressMap}
-            confusionCounts={confusionCounts}
-            confusionPairs={coursePack.confusionPairs || []}
-            examSets={coursePack.examBank?.testformat_sets || []}
-            todayLog={todayLog}
-            weeklyGrowth={weeklyGrowth}
-            examDate={settings.examDate}
-            onUpdateExamDate={(val) => handleUpdateSetting("examDate", val)}
-            onStartStep={(step) => {
-              if (step.domain) setActiveDomainId(step.domain);
-              if (step.unitId) {
-                setActiveUnitId(step.unitId);
-                setPodcastFocusUnitId(step.unitId);
+        {/* Haupt-Arbeitsfläche */}
+        <main className="lx-main-workspace">
+          {activeView === "today" && (
+            <TodayDashboardView
+              allUnits={allUnits}
+              unitProgressMap={unitProgressMap}
+              confusionCounts={confusionCounts}
+              confusionPairs={coursePack.confusionPairs || []}
+              examSets={coursePack.examBank?.testformat_sets || []}
+              todayLog={todayLog}
+              weeklyGrowth={weeklyGrowth}
+              examDate={settings.examDate}
+              onUpdateExamDate={(val) => handleUpdateSetting("examDate", val)}
+              onStartStep={(step) => {
+                if (step.domain) setActiveDomainId(step.domain);
+                if (step.unitId) {
+                  setActiveUnitId(step.unitId);
+                  setPodcastFocusUnitId(step.unitId);
+                }
+                if (step.examSetId) setSelectedExamSetId(step.examSetId);
+                setActiveView(step.targetView || "scripts");
+              }}
+              onStartSofaDemoAudio={handlePlayDemoAudio}
+              onTriggerBonusRound={async (bonus) => {
+                await logStudyActivity({ minutesStudied: 12, bonusRounds: 1 });
+                setActivityLogs(await db.activityLogs.toArray());
+                if (bonus.domain) setActiveDomainId(bonus.domain);
+                if (bonus.unitId) setActiveUnitId(bonus.unitId);
+                setActiveView("scripts");
+                toast.success("+12-Min.-Bonus-Etappe gestartet – viel Freude im Flow!");
+              }}
+            />
+          )}
+
+          {activeView === "scripts" && (
+            <AnchorScriptsView
+              domains={coursePack.domains || []}
+              activeDomainId={activeDomainId}
+              activeUnitId={activeUnitId}
+              onSelectDomain={handleSelectDomain}
+              onSelectUnit={(id) => setActiveUnitId(id)}
+              unitProgressMap={unitProgressMap}
+              notesMap={notesMap}
+              onUpdateProgress={handleUpdateUnitProgress}
+              onSaveNote={handleSaveNote}
+              onOpenPodcastForUnit={(u) => {
+                setPodcastFocusUnitId(u.id);
+                setActiveView("podcast");
+              }}
+              onJumpToDomainHint={handleJumpToDomainHint}
+            />
+          )}
+
+          {activeView === "graph" && (
+            <KnowledgeGraphView
+              graphData={coursePack.knowledgeGraph}
+              unitProgressMap={unitProgressMap}
+              onJumpToDomainHint={handleJumpToDomainHint}
+            />
+          )}
+
+          {activeView === "cards" && (
+            <FlashcardsTrainerView
+              flashcards={coursePack.flashcards || []}
+              fsrsStatesMap={fsrsStatesMap}
+              confusionCounts={confusionCounts}
+              dailyCardCap={settings.dailyCardCap || 18}
+              onReviewCard={handleReviewCard}
+              onJumpToUnit={(dom, uid) => {
+                setActiveDomainId(dom);
+                setActiveUnitId(uid);
+                setActiveView("scripts");
+              }}
+            />
+          )}
+
+          {activeView === "exam" && (
+            <ExamSimulatorView
+              examBank={coursePack.examBank}
+              operatorsData={coursePack.operatorsData}
+              initialSetId={selectedExamSetId}
+              onRecordExamAttempt={handleRecordExamAttempt}
+            />
+          )}
+
+          {activeView === "podcast" && (
+            <PodcastHubView
+              allUnits={allUnits}
+              confusionPairs={coursePack.confusionPairs || []}
+              confusionCounts={confusionCounts}
+              podcasts={podcasts}
+              selectedUnitId={podcastFocusUnitId || activeUnitId}
+              onSavePodcastFile={handleSavePodcastFile}
+              onDeletePodcast={handleDeletePodcast}
+              onPlayTrack={(track) => setActiveAudioTrack(track)}
+              onPlayDemoTrack={handlePlayDemoAudio}
+            />
+          )}
+
+          {activeView === "downloads" && (
+            <DownloadsAndSettingsView
+              settings={settings}
+              courseStats={validation.stats}
+              onUpdateSetting={handleUpdateSetting}
+              onRunSupabaseSync={() =>
+                performSupabaseSync(settings).then(async (res) => {
+                  await refreshFromDb();
+                  return res;
+                })
               }
-              if (step.examSetId) setSelectedExamSetId(step.examSetId);
-              setActiveView(step.targetView || "scripts");
-            }}
-            onStartSofaDemoAudio={handlePlayDemoAudio}
-            onTriggerBonusRound={async (bonus) => {
-              await logStudyActivity({ minutesStudied: 12, bonusRounds: 1 });
-              setActivityLogs(await db.activityLogs.toArray());
-              if (bonus.domain) setActiveDomainId(bonus.domain);
-              if (bonus.unitId) setActiveUnitId(bonus.unitId);
-              setActiveView("scripts");
-              toast.success("+12-Min.-Bonus-Etappe gestartet – viel Freude im Flow!");
-            }}
-          />
-        )}
+              onExportBackup={handleExportBackup}
+              onImportBackup={handleImportBackup}
+            />
+          )}
+        </main>
 
-        {activeView === "scripts" && (
-          <AnchorScriptsView
-            domains={coursePack.domains || []}
-            activeDomainId={activeDomainId}
-            activeUnitId={activeUnitId}
-            onSelectDomain={handleSelectDomain}
-            onSelectUnit={(id) => setActiveUnitId(id)}
-            unitProgressMap={unitProgressMap}
-            notesMap={notesMap}
-            onUpdateProgress={handleUpdateUnitProgress}
-            onSaveNote={handleSaveNote}
-            onOpenPodcastForUnit={(u) => {
-              setPodcastFocusUnitId(u.id);
-              setActiveView("podcast");
-            }}
-            onJumpToDomainHint={handleJumpToDomainHint}
-          />
-        )}
+        {/* Fixierte Frosted-Glass-Bottom-Navigation auf ihrem iPhone (< 960px) */}
+        <nav className="lx-mobile-bottom-nav" aria-label="iPhone Schnellnavigation" data-testid="mobile-bottom-nav">
+          {[
+            { id: "today", label: "Heute", icon: Compass },
+            { id: "scripts", label: "Skripte", icon: BookOpen },
+            { id: "cards", label: "Karten", icon: Layers },
+            { id: "exam", label: "Examen", icon: Scale },
+          ].map((m) => {
+            const Icon = m.icon;
+            return (
+              <button
+                key={m.id}
+                type="button"
+                className={`lx-mobile-nav-btn ${activeView === m.id ? "is-active" : ""}`}
+                onClick={() => setActiveView(m.id)}
+                data-testid={`mobile-nav-${m.id}`}
+              >
+                <Icon size={18} strokeWidth={2} />
+                <span>{m.label}</span>
+              </button>
+            );
+          })}
+          <button
+            type="button"
+            className={`lx-mobile-nav-btn ${
+              ["graph", "podcast", "downloads"].includes(activeView) ? "is-active" : ""
+            }`}
+            onClick={() => setMobileMoreOpen(true)}
+            data-testid="mobile-nav-more"
+          >
+            <Menu size={18} strokeWidth={2} />
+            <span>Mehr</span>
+          </button>
+        </nav>
 
-        {activeView === "graph" && (
-          <KnowledgeGraphView
-            graphData={coursePack.knowledgeGraph}
-            unitProgressMap={unitProgressMap}
-            onJumpToDomainHint={handleJumpToDomainHint}
-          />
-        )}
+        {/* Vaul Mehr-Menü auf dem iPhone */}
+        <Drawer.Root open={mobileMoreOpen} onOpenChange={setMobileMoreOpen}>
+          <Drawer.Portal>
+            <Drawer.Overlay className="lx-vaul-overlay" />
+            <Drawer.Content className="lx-vaul-content" aria-describedby={undefined}>
+              <div className="lx-vaul-handle" />
+              <Drawer.Title style={{ margin: 0, fontSize: 16, fontWeight: 700 }}>
+                Weitere Werkzeuge
+              </Drawer.Title>
+              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                {[
+                  { id: "graph", label: "Wissensnetz & Theorie-Brücken", icon: Brain },
+                  { id: "podcast", label: "NotebookLM Sofa- & Zug-Podcast-Hub", icon: Headphones },
+                  { id: "downloads", label: "Word-Skripte (.docx), Anki (.apkg) & Sync", icon: Download },
+                ].map((it) => {
+                  const Icon = it.icon;
+                  return (
+                    <button
+                      key={it.id}
+                      type="button"
+                      className="lx-btn"
+                      style={{ justifyContent: "flex-start", minHeight: 48, gap: 10 }}
+                      onClick={() => {
+                        setActiveView(it.id);
+                        setMobileMoreOpen(false);
+                      }}
+                      data-testid={`mobile-more-${it.id}`}
+                    >
+                      <Icon size={17} />
+                      <span>{it.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </Drawer.Content>
+          </Drawer.Portal>
+        </Drawer.Root>
 
-        {activeView === "cards" && (
-          <FlashcardsTrainerView
-            flashcards={coursePack.flashcards || []}
-            fsrsStatesMap={fsrsStatesMap}
-            confusionCounts={confusionCounts}
-            dailyCardCap={settings.dailyCardCap || 18}
-            onReviewCard={handleReviewCard}
-            onJumpToUnit={(dom, uid) => {
-              setActiveDomainId(dom);
-              setActiveUnitId(uid);
-              setActiveView("scripts");
-            }}
-          />
-        )}
+        <AudioMiniDock
+          activeTrack={activeAudioTrack}
+          onClose={() => setActiveAudioTrack(null)}
+          onCompleteTrack={async () => {
+            await logStudyActivity({ minutesStudied: 6, podcastListened: true });
+            setActivityLogs(await db.activityLogs.toArray());
+          }}
+        />
 
-        {activeView === "exam" && (
-          <ExamSimulatorView
-            examBank={coursePack.examBank}
-            operatorsData={coursePack.operatorsData}
-            initialSetId={selectedExamSetId}
-            onRecordExamAttempt={handleRecordExamAttempt}
-          />
-        )}
-
-        {activeView === "podcast" && (
-          <PodcastHubView
-            allUnits={allUnits}
-            confusionPairs={coursePack.confusionPairs || []}
-            confusionCounts={confusionCounts}
-            podcasts={podcasts}
-            selectedUnitId={podcastFocusUnitId || activeUnitId}
-            onSavePodcastFile={handleSavePodcastFile}
-            onDeletePodcast={handleDeletePodcast}
-            onPlayTrack={(track) => setActiveAudioTrack(track)}
-            onPlayDemoTrack={handlePlayDemoAudio}
-          />
-        )}
-
-        {activeView === "downloads" && (
-          <DownloadsAndSettingsView
-            settings={settings}
-            courseStats={validation.stats}
-            onUpdateSetting={handleUpdateSetting}
-            onRunSupabaseSync={() => performSupabaseSync(settings).then(async (res) => {
-              await refreshFromDb();
-              return res;
-            })}
-            onExportBackup={handleExportBackup}
-            onImportBackup={handleImportBackup}
-          />
-        )}
-      </main>
-
-      {/* Fixierte Frosted-Glass-Bottom-Navigation auf ihrem iPhone (< 960px) */}
-      <nav className="lx-mobile-bottom-nav" aria-label="iPhone Schnellnavigation" data-testid="mobile-bottom-nav">
-        {[
-          { id: "today", label: "Heute", icon: Compass },
-          { id: "scripts", label: "Skripte", icon: BookOpen },
-          { id: "cards", label: "Karten", icon: Layers },
-          { id: "exam", label: "Examen", icon: Scale },
-        ].map((m) => {
-          const Icon = m.icon;
-          return (
-            <button
-              key={m.id}
-              type="button"
-              className={`lx-mobile-nav-btn ${activeView === m.id ? "is-active" : ""}`}
-              onClick={() => setActiveView(m.id)}
-              data-testid={`mobile-nav-${m.id}`}
-            >
-              <Icon size={18} />
-              <span>{m.label}</span>
-            </button>
-          );
-        })}
-        <button
-          type="button"
-          className={`lx-mobile-nav-btn ${
-            ["graph", "podcast", "downloads"].includes(activeView) ? "is-active" : ""
-          }`}
-          onClick={() => setMobileMoreOpen(true)}
-          data-testid="mobile-nav-more"
-        >
-          <Menu size={18} />
-          <span>Mehr</span>
-        </button>
-      </nav>
-
-      {/* Vaul Mehr-Menü auf dem iPhone */}
-      <Drawer.Root open={mobileMoreOpen} onOpenChange={setMobileMoreOpen}>
-        <Drawer.Portal>
-          <Drawer.Overlay className="lx-vaul-overlay" />
-          <Drawer.Content className="lx-vaul-content" aria-describedby={undefined}>
-            <div className="lx-vaul-handle" />
-            <Drawer.Title style={{ margin: 0, fontSize: 16, fontWeight: 700 }}>
-              Weitere Werkzeuge
-            </Drawer.Title>
-            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-              {[
-                { id: "graph", label: "Karten-Wissensnetz & Theorie-Brücken", icon: Brain },
-                { id: "podcast", label: "NotebookLM Sofa- & Zug-Podcast-Hub", icon: Headphones },
-                { id: "downloads", label: "Word-Skripte (.docx), Anki (.apkg) & Sync", icon: Download },
-              ].map((it) => {
-                const Icon = it.icon;
-                return (
-                  <button
-                    key={it.id}
-                    type="button"
-                    className="lx-btn"
-                    style={{ justifyContent: "flex-start", minHeight: 48, gap: 10 }}
-                    onClick={() => {
-                      setActiveView(it.id);
-                      setMobileMoreOpen(false);
-                    }}
-                    data-testid={`mobile-more-${it.id}`}
-                  >
-                    <Icon size={17} />
-                    <span>{it.label}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </Drawer.Content>
-        </Drawer.Portal>
-      </Drawer.Root>
-
-      {/* Globaler Offline- & Sperrbildschirm-Audioplayer */}
-      <AudioMiniDock
-        activeTrack={activeAudioTrack}
-        onClose={() => setActiveAudioTrack(null)}
-        onCompleteTrack={async () => {
-          await logStudyActivity({ minutesStudied: 6, podcastListened: true });
-          setActivityLogs(await db.activityLogs.toArray());
-        }}
-      />
-
-      {/* Globale Ctrl+K Befehlspalette (`cmdk`) */}
-      <CommandPalette
-        open={cmdOpen}
-        onOpenChange={setCmdOpen}
-        searchItems={searchIndex}
-        onSelectItem={handleCommandSelect}
-        onNavigate={(viewId) => setActiveView(viewId)}
-      />
+        <CommandPalette
+          open={cmdOpen}
+          onOpenChange={setCmdOpen}
+          searchItems={searchIndex}
+          onSelectItem={handleCommandSelect}
+          onNavigate={(viewId) => setActiveView(viewId)}
+        />
       </div>
     </>
   );

@@ -219,17 +219,18 @@ export function FlashcardsTrainerView({
                 { rating: Rating.Again, label: "Nochmal", tone: "var(--dot-danger)" },
                 { rating: Rating.Hard, label: "Schwer", tone: "var(--dot-warning)" },
                 { rating: Rating.Good, label: "Gut", tone: "var(--dot-success)" },
-                { rating: Rating.Easy, label: "Leicht", tone: "var(--primary-bg)" },
+                { rating: Rating.Easy, label: "Leicht", tone: "var(--domain-a)" },
               ].map((btn) => (
                 <button
                   key={btn.rating}
                   type="button"
                   className="lx-btn"
                   style={{
-                    height: 52,
+                    minHeight: 54,
+                    padding: "6px 8px",
                     flexDirection: "column",
                     gap: 2,
-                    borderColor: btn.tone,
+                    borderBottom: `3px solid ${btn.tone}`,
                   }}
                   onClick={() => handleRate(btn.rating)}
                   data-testid={`rate-btn-${btn.rating}`}

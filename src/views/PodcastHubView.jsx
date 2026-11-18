@@ -149,7 +149,7 @@ export function PodcastHubView({
               onClick={() => onPlayDemoTrack(activeUnit)}
               data-testid="play-demo-podcast-btn"
             >
-              <Sparkles size={14} style={{ color: "var(--primary-bg)" }} />
+              <Sparkles size={14} style={{ color: "var(--domain-b)" }} />
               <span>Fokus-Intro testen</span>
             </button>
           </div>
@@ -162,19 +162,19 @@ export function PodcastHubView({
             }}
             onClick={() => fileInputRef.current?.click()}
             style={{
-              border: "2px dashed var(--border-strong)",
-              borderRadius: 12,
-              padding: "22px 16px",
+              border: "1.5px dashed var(--border-strong)",
+              borderRadius: 13,
+              padding: "24px 18px",
               textAlign: "center",
               background: "var(--bg-subtle)",
               cursor: "pointer",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              gap: 6,
+              gap: 7,
             }}
           >
-            <UploadCloud size={26} style={{ color: "var(--primary-bg)" }} />
+            <UploadCloud size={26} style={{ color: "var(--domain-a)" }} />
             <strong style={{ fontSize: 13.5 }}>
               NotebookLM-Folge (.mp3, .m4a, .wav) hier ablegen oder antippen
             </strong>

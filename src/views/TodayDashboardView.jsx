@@ -12,7 +12,6 @@ import {
   Layers,
   Scale,
 } from "lucide-react";
-import { StatusBadge } from "../design/ui";
 import { computeDaysUntilExam, buildDailyCorePlan, buildBonusStage } from "../lib/adaptivePlanner";
 
 export function TodayDashboardView({
@@ -48,90 +47,93 @@ export function TodayDashboardView({
   });
 
   const progressPct = Math.min(100, Math.round(((plan.minutesDone || 0) / plan.targetMinutes) * 100));
+  const firstUndoneIdx = plan.steps.findIndex((s) => !s.done);
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 16 }} data-testid="today-dashboard-view">
-      {/* Sofa-Podcast-Start Hero gegen die Anfangshürde */}
+    <div style={{ display: "flex", flexDirection: "column", gap: 18 }} data-testid="today-dashboard-view">
+      {/* Ruhige, warme Atelier-Willkommenskarte ohne grelle Blau-Flächen */}
       <div
         className="lx-card"
         style={{
-          background:
-            "linear-gradient(135deg, var(--accent-soft) 0%, var(--bg-surface) 62%, var(--domain-b-soft) 100%)",
-          borderColor: "var(--accent-border)",
-          padding: "18px 20px",
+          padding: "22px 24px",
           display: "flex",
           flexDirection: "column",
-          gap: 14,
+          gap: 16,
         }}
       >
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12, flexWrap: "wrap" }}>
-          <div className="min-w-0" style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 16, flexWrap: "wrap" }}>
+          <div className="min-w-0" style={{ flex: "1 1 380px", display: "flex", flexDirection: "column", gap: 6 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-              <StatusBadge label="Entspannter Einstieg · Null-Hürde" tone="active" />
-              <span className="lx-badge">Grundschule Bayern · Kunst &amp; Sport</span>
+              <span className="lx-badge">Lehramt Grundschule Bayern · Kunst &amp; Sport</span>
+              <span className={`lx-badge domain-badge-${plan.focusDomain}`}>
+                Heutiger Schwerpunkt: Gebiet {plan.focusDomain}
+              </span>
             </div>
-            <h1 style={{ margin: "4px 0 0", fontSize: 21, lineHeight: 1.28 }}>
-              Willkommen in deinem EWS-Psychologie Lernstudio
+            <h1 style={{ margin: "4px 0 0", fontSize: 23, lineHeight: 1.25 }}>
+              Ruhig starten – Schritt für Schritt sicher ins Examen
             </h1>
-            <p style={{ margin: 0, color: "var(--fg-secondary)", fontSize: 13.5, maxWidth: 740 }}>
-              Kein Druck, keine roten „Überfällig!“-Listen nach Pausentagen: Starte gemütlich auf dem Sofa mit
-              einem kurzen Audio-Überblick oder präge dir ein 1-Seiten-Ankerblatt visuell ein und erzähle es laut nach.
+            <p style={{ margin: 0, color: "var(--fg-secondary)", fontSize: 14, maxWidth: 680, lineHeight: 1.55 }}>
+              Keine roten „Überfällig!“-Warnungen nach Pausentagen: Hör zum Ankommen erst kurz in deinen Sofa-Überblick rein oder nimm dir direkt ein visuelles 1-Seiten-Ankerblatt vor.
             </p>
           </div>
 
-          {/* Taggenau einstellbares Februar-Prüfungsdatum */}
-          <div className="lx-card lx-card-subtle" style={{ padding: "10px 13px", minWidth: 210 }}>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
-              <span style={{ fontSize: 11.5, color: "var(--fg-muted)", display: "flex", alignItems: "center", gap: 5 }}>
+          {/* Ruhige Countdown-Box */}
+          <div
+            className="lx-card lx-card-subtle"
+            style={{ padding: "12px 15px", minWidth: 215, flexShrink: 0 }}
+          >
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10 }}>
+              <span style={{ fontSize: 12, color: "var(--fg-muted)", display: "flex", alignItems: "center", gap: 6 }}>
                 <Calendar size={13} />
-                <span>Staatsexamen Februar</span>
+                <span>Prüfung im Februar</span>
               </span>
               <button
                 type="button"
                 className="lx-badge"
-                style={{ cursor: "pointer", height: 22, fontSize: 11 }}
+                style={{ cursor: "pointer", minHeight: 22, padding: "2px 8px", fontSize: 11, background: "var(--bg-surface)" }}
                 onClick={() => setEditingDate((v) => !v)}
               >
-                {editingDate ? "Fertig" : "Tag ändern"}
+                {editingDate ? "Fertig" : "Ändern"}
               </button>
             </div>
             {editingDate ? (
               <input
                 type="date"
                 className="lx-input"
-                style={{ marginTop: 6, padding: "5px 8px" }}
+                style={{ marginTop: 8, padding: "6px 9px" }}
                 value={examDate || "2027-02-17"}
                 onChange={(e) => onUpdateExamDate(e.target.value)}
                 aria-label="Prüfungsdatum im Februar wählen"
               />
             ) : (
               <div style={{ marginTop: 4, display: "flex", alignItems: "baseline", gap: 8 }}>
-                <strong className="tabular" style={{ fontSize: 20, color: "var(--fg)" }}>
+                <strong className="tabular" style={{ fontSize: 21, color: "var(--fg)" }}>
                   {daysLeft !== null ? `${daysLeft} Tage` : "Flexibel"}
                 </strong>
-                <span style={{ fontSize: 12, color: "var(--fg-muted)" }}>({examDate})</span>
+                <span style={{ fontSize: 12, color: "var(--fg-muted)" }}>{examDate}</span>
               </div>
             )}
           </div>
         </div>
 
+        {/* Klare Button-Hierarchie: Nur 1 ruhiger Primärbutton! */}
         <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
           <button
             type="button"
-            className="lx-btn lx-btn-primary"
-            style={{ height: 42, padding: "0 16px", fontSize: 13.5 }}
+            className="lx-btn lx-btn-primary lx-hero-btn"
+            style={{ minHeight: 42, padding: "8px 18px", fontSize: 13.5 }}
             onClick={() => onStartSofaDemoAudio(plan.nextUnit)}
             data-testid="sofa-start-audio-btn"
           >
             <Headphones size={16} />
-            <span>Sofa-Audio direkt starten ({plan.nextUnit ? plan.nextUnit.section_num : "Intro"})</span>
+            <span>Sofa-Audio starten ({plan.nextUnit ? `Kap. ${plan.nextUnit.section_num}` : "Intro"})</span>
           </button>
 
           {plan.nextUnit && (
             <button
               type="button"
-              className="lx-btn"
-              style={{ height: 42, padding: "0 15px", fontSize: 13.5 }}
+              className="lx-btn lx-hero-btn"
+              style={{ minHeight: 42, padding: "8px 16px", fontSize: 13.5 }}
               onClick={() =>
                 onStartStep({
                   targetView: "scripts",
@@ -141,36 +143,34 @@ export function TodayDashboardView({
               }
             >
               <BookOpen size={16} />
-              <span>
-                Direkt zum 1-Seiten-Ankerblatt ({plan.nextUnit.page_label})
-              </span>
+              <span>1-Seiten-Ankerblatt ({plan.nextUnit.page_label})</span>
               <ArrowRight size={14} />
             </button>
           )}
         </div>
       </div>
 
-      {/* 4 KPI-Karten: Individuelle Bezugsnorm (Rheinberg) + 3 Gebiets-Farbcodes */}
+      {/* 4 ruhige Fortschritts-Karten */}
       <div className="lx-kpi-row">
         <div className="lx-kpi-card">
           <span style={{ fontSize: 12, color: "var(--fg-muted)", display: "flex", alignItems: "center", gap: 6 }}>
-            <Target size={13} style={{ color: "var(--primary-bg)" }} />
-            <span>Heutiges Kern-Tagesziel</span>
+            <Target size={13} />
+            <span>Heutige Kern-Etappe</span>
           </span>
           <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 6 }}>
-            <strong className="tabular" style={{ fontSize: 20 }}>
+            <strong className="tabular" style={{ fontSize: 20, whiteSpace: "nowrap" }}>
               {plan.minutesDone} / {plan.targetMinutes} Min.
             </strong>
-            <span style={{ fontSize: 12, color: "var(--dot-success)", fontWeight: 600 }}>
-              {plan.isCoreGoalReached ? "Tagessieg erreicht!" : `${progressPct} %`}
+            <span style={{ fontSize: 12, color: "var(--dot-success)", fontWeight: 600, whiteSpace: "nowrap" }}>
+              {plan.isCoreGoalReached ? "Geschafft" : `${progressPct} %`}
             </span>
           </div>
-          <div style={{ height: 6, borderRadius: 999, background: "var(--bg-subtle)", overflow: "hidden", marginTop: 2 }}>
+          <div style={{ height: 5, borderRadius: 999, background: "var(--bg-subtle)", overflow: "hidden", marginTop: 2 }}>
             <div
               style={{
                 width: `${progressPct}%`,
                 height: "100%",
-                background: "var(--primary-bg)",
+                background: "var(--fg)",
                 borderRadius: 999,
                 transition: "width 240ms ease",
               }}
@@ -179,26 +179,26 @@ export function TodayDashboardView({
         </div>
 
         {[
-          { key: "A", title: "A · Lernen & Lehren", pages: "108 S.", color: "var(--domain-a)" },
-          { key: "B", title: "B · Entwicklung", pages: "82 S.", color: "var(--domain-b)" },
-          { key: "C", title: "C · Diagnostik", pages: "73 S.", color: "var(--domain-c)" },
+          { key: "A", title: "A · Lernen", fullTitle: "A · Lernen & Lehren", pages: "108 S.", color: "var(--domain-a)" },
+          { key: "B", title: "B · Entwicklung", fullTitle: "B · Entwicklung", pages: "82 S.", color: "var(--domain-b)" },
+          { key: "C", title: "C · Diagnostik", fullTitle: "C · Diagnostik", pages: "73 S.", color: "var(--domain-c)" },
         ].map((d) => {
           const m = plan.mastery[d.key] || { total: 0, mastered: 0, seen: 0, percent: 0 };
           return (
-            <div key={d.key} className={`lx-kpi-card domain-border-${d.key}`}>
-              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12, color: "var(--fg-secondary)" }}>
+            <div key={d.key} className={`lx-kpi-card domain-border-${d.key}`} title={d.fullTitle}>
+              <div style={{ display: "flex", justifyContent: "space-between", gap: 6, fontSize: 12, color: "var(--fg-secondary)" }}>
                 <span style={{ fontWeight: 600 }}>{d.title}</span>
-                <span className="tabular">{d.pages}</span>
+                <span className="tabular" style={{ color: "var(--fg-muted)", flexShrink: 0 }}>{d.pages}</span>
               </div>
-              <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 6 }}>
+              <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 8 }}>
                 <strong className="tabular" style={{ fontSize: 20, color: d.color, whiteSpace: "nowrap", flexShrink: 0 }}>
                   {m.percent} %
                 </strong>
-                <span style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>
-                  {m.mastered}/{m.total} Ankerblätter sicher
+                <span style={{ fontSize: 11.5, color: "var(--fg-muted)" }} className="truncate">
+                  {m.mastered}/{m.total} sicher
                 </span>
               </div>
-              <div style={{ height: 6, borderRadius: 999, background: "var(--bg-subtle)", overflow: "hidden", marginTop: 2 }}>
+              <div style={{ height: 5, borderRadius: 999, background: "var(--bg-subtle)", overflow: "hidden", marginTop: 2 }}>
                 <div style={{ width: `${m.percent}%`, height: "100%", background: d.color, borderRadius: 999 }} />
               </div>
             </div>
@@ -206,22 +206,17 @@ export function TodayDashboardView({
         })}
       </div>
 
-      {/* Hauptbereich: Links 32-Min.-Kern-Etappe + Bonus-Runde, Rechts Wochen-Rückblick & Verwechslungs-Radar */}
+      {/* Hauptbereich: Links die 4 ruhigen Etappen-Schritte, Rechts Wochenzuwachs & Verwechslungs-Radar */}
       <div className="lx-dashboard-grid">
-        <div className="lx-card" style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-            <div>
-              <h2 style={{ margin: 0, fontSize: 16 }}>Deine 32-Minuten Kern-Etappe für heute</h2>
-              <p style={{ margin: "2px 0 0", fontSize: 12.5, color: "var(--fg-muted)" }}>
-                Optimaler Mix aus visuellem Einprägen, lautem Nacherzählen, FSRS-Karten und Testformat-Training.
-              </p>
-            </div>
-            <span className={`lx-badge domain-badge-${plan.focusDomain}`}>
-              Fokus heute: Gebiet {plan.focusDomain}
-            </span>
+        <div className="lx-card" style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+          <div>
+            <h2 style={{ margin: 0, fontSize: 17 }}>Deine 32-Minuten-Etappe für heute</h2>
+            <p style={{ margin: "3px 0 0", fontSize: 13, color: "var(--fg-muted)" }}>
+              Abgestimmt auf dein visuelles Seitengedächtnis, lautes Nacherzählen und das bayerische Testformat.
+            </p>
           </div>
 
-          <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {plan.steps.map((step, i) => {
               const StepIcon =
                 step.kind === "podcast"
@@ -231,20 +226,27 @@ export function TodayDashboardView({
                   : step.kind === "cards"
                   ? Layers
                   : Scale;
+              const isNextActive = i === firstUndoneIdx;
+
               return (
                 <div
                   key={step.id}
                   className="lx-card lx-card-subtle"
                   style={{
-                    padding: "12px 14px",
+                    padding: "13px 15px",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "space-between",
-                    gap: 12,
-                    borderColor: step.done ? "var(--callout-success-border)" : "var(--border)",
+                    gap: 14,
+                    borderColor: isNextActive
+                      ? "var(--border-strong)"
+                      : step.done
+                      ? "var(--callout-success-border)"
+                      : "var(--border-subtle)",
+                    background: isNextActive ? "var(--bg-surface)" : "var(--bg-subtle)",
                   }}
                 >
-                  <div className="min-w-0" style={{ display: "flex", alignItems: "center", gap: 11 }}>
+                  <div className="min-w-0" style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
                     <div
                       style={{
                         width: 34,
@@ -254,29 +256,37 @@ export function TodayDashboardView({
                         alignItems: "center",
                         justifyContent: "center",
                         flexShrink: 0,
-                        background: step.done ? "var(--callout-success-bg)" : "var(--bg-surface)",
+                        marginTop: 2,
+                        background: step.done ? "var(--callout-success-bg)" : "var(--bg-subtle)",
                         border: "1px solid var(--border)",
-                        color: step.done ? "var(--dot-success)" : "var(--primary-bg)",
+                        color: step.done ? "var(--dot-success)" : "var(--fg-secondary)",
                       }}
                     >
-                      {step.done ? <CheckCircle2 size={17} /> : <StepIcon size={16} />}
+                      {step.done ? <CheckCircle2 size={16} /> : <StepIcon size={16} />}
                     </div>
-                    <div className="min-w-0">
-                      <div style={{ fontWeight: 600, fontSize: 13.5 }} className="truncate">
+                    <div className="min-w-0" style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+                      <div
+                        style={{
+                          fontWeight: 600,
+                          fontSize: 13.5,
+                          lineHeight: 1.35,
+                          color: "var(--fg)",
+                        }}
+                      >
                         {i + 1}. {step.title}
                       </div>
-                      <div style={{ fontSize: 12, color: "var(--fg-muted)" }} className="truncate">
+                      <div style={{ fontSize: 12, color: "var(--fg-muted)", lineHeight: 1.4 }}>
                         ca. {step.minutes} Min. · {step.subtitle}
                       </div>
                     </div>
                   </div>
                   <button
                     type="button"
-                    className={`lx-btn ${step.done ? "" : "lx-btn-primary"}`}
+                    className={`lx-btn ${isNextActive ? "lx-btn-primary" : ""}`}
                     style={{ flexShrink: 0 }}
                     onClick={() => onStartStep(step)}
                   >
-                    <span>{step.done ? "Nochmal" : "Starten"}</span>
+                    <span>{step.done ? "Wiederholen" : "Öffnen"}</span>
                     <ArrowRight size={13} />
                   </button>
                 </div>
@@ -284,127 +294,112 @@ export function TodayDashboardView({
             })}
           </div>
 
-          {/* Motivierende +12-Min.-Bonus-Etappe im Flow */}
+          {/* Ruhige +12-Min.-Bonus-Etappe */}
           <div
+            className="lx-praxis-card"
             style={{
-              marginTop: 4,
-              borderRadius: 12,
-              padding: "13px 15px",
-              background: "var(--callout-success-bg)",
-              border: "1px solid var(--callout-success-border)",
-              display: "flex",
+              marginTop: 2,
+              flexDirection: "row",
               alignItems: "center",
               justifyContent: "space-between",
-              gap: 12,
+              gap: 14,
               flexWrap: "wrap",
             }}
           >
-            <div className="min-w-0" style={{ display: "flex", flexDirection: "column", gap: 3 }}>
-              <span style={{ fontWeight: 700, fontSize: 13.5, display: "flex", alignItems: "center", gap: 6 }}>
-                <Sparkles size={15} style={{ color: "var(--dot-success)" }} />
+            <div className="min-w-0" style={{ flex: "1 1 280px", display: "flex", flexDirection: "column", gap: 3 }}>
+              <strong style={{ fontSize: 13.5, display: "flex", alignItems: "center", gap: 6, color: "var(--fg)" }}>
+                <Sparkles size={15} style={{ color: "var(--domain-b)", flexShrink: 0 }} />
                 <span>{bonus.title}</span>
-              </span>
-              <span style={{ fontSize: 12, color: "var(--fg-secondary)" }}>{bonus.description}</span>
+              </strong>
+              <span style={{ fontSize: 12.5, color: "var(--fg-secondary)" }}>{bonus.description}</span>
             </div>
             <button type="button" className="lx-btn" onClick={() => onTriggerBonusRound(bonus)}>
-              <Zap size={14} style={{ color: "var(--dot-warning)" }} />
-              <span>+12-Min.-Bonus starten</span>
+              <Zap size={14} style={{ color: "var(--domain-c)" }} />
+              <span>+12-Min.-Bonus</span>
             </button>
           </div>
         </div>
 
         {/* Rechte Spalte: Individuelle Bezugsnorm & Verwechslungs-Radar */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-          <div className="lx-card" style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+          <div className="lx-card" style={{ display: "flex", flexDirection: "column", gap: 12 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <Flame size={16} style={{ color: "var(--dot-success)" }} />
-              <h3 style={{ margin: 0, fontSize: 15 }}>Was du diese Woche schon gemeistert hast</h3>
+              <Flame size={16} style={{ color: "var(--domain-b)" }} />
+              <h3 style={{ margin: 0, fontSize: 15.5 }}>Dein Wochen-Rückblick</h3>
             </div>
-            <p style={{ margin: 0, fontSize: 12.5, color: "var(--fg-muted)" }}>
-              Dein eigener Lernzuwachs (individuelle Bezugsnorm nach Rheinberg): Jede geschaffte Einheit zählt!
+            <p style={{ margin: 0, fontSize: 12.5, color: "var(--fg-muted)", lineHeight: 1.45 }}>
+              Individuelle Bezugsnorm nach Rheinberg – du misst dich nur an deinem eigenen Fortschritt:
             </p>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 8 }}>
-              <div className="lx-card lx-card-subtle" style={{ padding: "10px 12px" }}>
-                <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>Aktive Lernzeit (7 Tage)</div>
-                <strong className="tabular" style={{ fontSize: 18 }}>
-                  {weeklyGrowth.totalMinutes} Min.
-                </strong>
-              </div>
-              <div className="lx-card lx-card-subtle" style={{ padding: "10px 12px" }}>
-                <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>Ankerblätter gemeistert</div>
-                <strong className="tabular" style={{ fontSize: 18 }}>
-                  {weeklyGrowth.unitsCompleted}
-                </strong>
-              </div>
-              <div className="lx-card lx-card-subtle" style={{ padding: "10px 12px" }}>
-                <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>FSRS-Karten trainiert</div>
-                <strong className="tabular" style={{ fontSize: 18 }}>
-                  {weeklyGrowth.cardsReviewed}
-                </strong>
-              </div>
-              <div className="lx-card lx-card-subtle" style={{ padding: "10px 12px" }}>
-                <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>+12-Min.-Bonus-Etappen</div>
-                <strong className="tabular" style={{ fontSize: 18 }}>
-                  {weeklyGrowth.bonusRounds}
-                </strong>
-              </div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 10 }}>
+              {[
+                { label: "Lernzeit (7 Tage)", val: `${weeklyGrowth.totalMinutes} Min.` },
+                { label: "Ankerblätter sicher", val: weeklyGrowth.unitsCompleted },
+                { label: "FSRS-Karten geübt", val: weeklyGrowth.cardsReviewed },
+                { label: "Bonus-Etappen", val: weeklyGrowth.bonusRounds },
+              ].map((stat, idx) => (
+                <div key={idx} className="lx-card lx-card-subtle" style={{ padding: "11px 13px" }}>
+                  <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>{stat.label}</div>
+                  <strong className="tabular" style={{ fontSize: 18, color: "var(--fg)" }}>
+                    {stat.val}
+                  </strong>
+                </div>
+              ))}
             </div>
           </div>
 
           {plan.activeConfusion && (
-            <div className="lx-card" style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
-                <span style={{ fontWeight: 700, fontSize: 14 }}>
-                  Verwechslungs-Radar (Beliebte Prüfungsfalle!)
-                </span>
+            <div className="lx-card" style={{ display: "flex", flexDirection: "column", gap: 11 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 10, flexWrap: "wrap" }}>
+                <strong style={{ fontSize: 14.5 }}>Verwechslungs-Radar</strong>
                 <span className={`lx-badge domain-badge-${plan.activeConfusion.domain || "A"}`}>
                   {plan.activeConfusion.page_label}
                 </span>
               </div>
               <div
                 className="lx-card lx-card-subtle"
-                style={{ padding: "11px 13px", display: "flex", flexDirection: "column", gap: 6 }}
+                style={{ padding: "12px 14px", display: "flex", flexDirection: "column", gap: 6 }}
               >
-                <div style={{ fontWeight: 700, fontSize: 13.5 }}>
+                <div style={{ fontWeight: 700, fontSize: 13.5, lineHeight: 1.35 }}>
                   {plan.activeConfusion.term_a} vs. {plan.activeConfusion.term_b}
                 </div>
                 <div style={{ fontSize: 12.5, color: "var(--fg-secondary)" }}>
-                  Kannst du den Unterschied in einem klaren Satz laut vor dir hersagen?
+                  Kannst du die Abgrenzung frei in einem Satz erklären?
                 </div>
-                {showConfusionAnswer ? (
+                {showConfusionAnswer && (
                   <div
                     style={{
-                      marginTop: 4,
-                      paddingTop: 8,
+                      marginTop: 6,
+                      paddingTop: 10,
                       borderTop: "1px solid var(--border)",
                       fontSize: 12.5,
+                      lineHeight: 1.5,
                       display: "flex",
                       flexDirection: "column",
-                      gap: 5,
+                      gap: 6,
                     }}
                   >
                     <div>
-                      <strong>Kern-Unterschied:</strong> {plan.activeConfusion.core_difference}
+                      <strong>Abgrenzung:</strong> {plan.activeConfusion.core_difference}
                     </div>
                     {plan.activeConfusion.memory_bridge && (
                       <div>
-                        <strong>Eselsbrücke:</strong> {plan.activeConfusion.memory_bridge}
+                        <strong>Merksatz:</strong> {plan.activeConfusion.memory_bridge}
                       </div>
                     )}
                     {plan.activeConfusion.kunst_sport_example && (
-                      <div style={{ color: "var(--dot-success)" }}>
-                        <strong>Kunst/Sport-Praxis:</strong> {plan.activeConfusion.kunst_sport_example}
+                      <div style={{ color: "var(--domain-b)" }}>
+                        <strong>Kunst/Sport-Beispiel:</strong> {plan.activeConfusion.kunst_sport_example}
                       </div>
                     )}
                   </div>
-                ) : null}
+                )}
               </div>
               <button
                 type="button"
                 className="lx-btn"
                 onClick={() => setShowConfusionAnswer((v) => !v)}
               >
-                {showConfusionAnswer ? "Auflösung zuklappen" : "Auflösung & Eselsbrücke aufdecken"}
+                {showConfusionAnswer ? "Auflösung zuklappen" : "Auflösung & Eselsbrücke zeigen"}
               </button>
             </div>
           )}
