@@ -1,7 +1,7 @@
 -- ============================================================================
--- EWS-Psychologie Lernstudio — Kostenloser Echtzeit-Sync (Supabase Free Tier)
+-- EWS Lernstudio & Universal Study Buddy — Cloud-Sync & Google-OAuth Schema
 -- Kopiere dieses Skript einmalig in den SQL-Editor deines Supabase-Projekts
--- und klicke auf "Run". Es werden keinerlei Bezahldaten benötigt.
+-- und klicke auf "Run". Es werden keinerlei Bezahldaten benötigt (Free Tier).
 -- ============================================================================
 
 create table if not exists public.ews_sync_records (
@@ -18,11 +18,31 @@ create index if not exists idx_ews_sync_key_updated
 
 alter table public.ews_sync_records enable row level security;
 
--- Persönlicher Sync-Schlüssel (z. B. langer geheimer Code in den Einstellungen)
--- erlaubt nahtlosen Sync zwischen PC und iPhone ohne komplizierten E-Mail-Zwang.
+-- 1. Google-Account OAuth Schutz: Jeder eingeloggte Google-Nutzer greift isoliert
+--    nur auf seinen eigenen Schlüsselraum (`google:<auth.uid()>`) zu!
+drop policy if exists "Allow Google OAuth user sync" on public.ews_sync_records;
+create policy "Allow Google OAuth user sync"
+  on public.ews_sync_records
+  for all
+  using (
+    auth.uid() is not null
+    and sync_key = ('google:' || auth.uid()::text)
+  )
+  with check (
+    auth.uid() is not null
+    and sync_key = ('google:' || auth.uid()::text)
+  );
+
+-- 2. Alternativer Schnell-Sync per persönlichem Geheim-Code (ohne E-Mail-Login):
 drop policy if exists "Allow sync via personal sync_key" on public.ews_sync_records;
 create policy "Allow sync via personal sync_key"
   on public.ews_sync_records
   for all
-  using (char_length(sync_key) >= 8)
-  with check (char_length(sync_key) >= 8);
+  using (
+    sync_key not like 'google:%'
+    and char_length(sync_key) >= 8
+  )
+  with check (
+    sync_key not like 'google:%'
+    and char_length(sync_key) >= 8
+  );

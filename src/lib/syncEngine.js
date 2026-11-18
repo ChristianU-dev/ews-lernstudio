@@ -1,10 +1,82 @@
 /**
  * Konfliktfreier Echtzeit- & Offline-Sync zwischen Windows-PC und iPhone
- * über Supabase Free Tier (optional, ohne Login-Zwang lokal sofort nutzbar).
+ * über Supabase Free Tier:
+ * - Unterstützt echten Google-Account-Login (OAuth 2.0 via Supabase Auth) mit Mehr-Profil-Trennung
+ * - Unterstützt alternativ auch den schnellen Sync-Code ohne E-Mail-Anmeldung
+ * - Lokal 100 % sofort ohne Account nutzbar!
  */
 
 import { createClient } from "@supabase/supabase-js";
 import { db } from "./db";
+
+const clientCache = new Map();
+
+export function getSupabaseClient(supabaseUrl, supabaseAnonKey) {
+  if (!supabaseUrl || !supabaseAnonKey) return null;
+  const cacheKey = `${supabaseUrl.trim()}::${supabaseAnonKey.trim()}`;
+  if (clientCache.has(cacheKey)) return clientCache.get(cacheKey);
+
+  const isBrowser = typeof window !== "undefined";
+  const client = createClient(supabaseUrl.trim(), supabaseAnonKey.trim(), {
+    auth: {
+      persistSession: isBrowser,
+      autoRefreshToken: isBrowser,
+      detectSessionInUrl: isBrowser,
+    },
+  });
+  clientCache.set(cacheKey, client);
+  return client;
+}
+
+export async function signInWithGoogleOAuth({ supabaseUrl, supabaseAnonKey }) {
+  const client = getSupabaseClient(supabaseUrl, supabaseAnonKey);
+  if (!client) {
+    throw new Error(
+      "Bitte trage zuerst einmalig deine kostenlose Supabase Project URL & Anon Key unter „Downloads & Sync“ ein (3-Minuten-Anleitung in SETUP_UND_LOGINS.md)."
+    );
+  }
+  const redirectTo =
+    typeof window !== "undefined" ? `${window.location.origin}${window.location.pathname}` : undefined;
+
+  const { data, error } = await client.auth.signInWithOAuth({
+    provider: "google",
+    options: {
+      redirectTo,
+      queryParams: {
+        prompt: "select_account",
+      },
+    },
+  });
+
+  if (error) {
+    throw new Error(`Google-Anmeldung fehlgeschlagen: ${error.message}`);
+  }
+  return data;
+}
+
+export async function getCurrentGoogleUser({ supabaseUrl, supabaseAnonKey }) {
+  const client = getSupabaseClient(supabaseUrl, supabaseAnonKey);
+  if (!client) return null;
+  try {
+    const { data } = await client.auth.getSession();
+    const user = data?.session?.user;
+    if (!user) return null;
+    return {
+      id: user.id,
+      email: user.email || "",
+      fullName: user.user_metadata?.full_name || user.email || "Google-Konto",
+      avatarUrl: user.user_metadata?.avatar_url || "",
+    };
+  } catch {
+    return null;
+  }
+}
+
+export async function signOutGoogleAccount({ supabaseUrl, supabaseAnonKey }) {
+  const client = getSupabaseClient(supabaseUrl, supabaseAnonKey);
+  if (!client) return;
+  await client.auth.signOut();
+}
 
 /**
  * Reine Merge-Funktion (Last-Write-Wins anhand von `updatedAt` bzw. `createdAt`),
@@ -54,6 +126,8 @@ export function mergeCollectionByTimestamp(localItems = [], remoteItems = [], id
 }
 
 const SYNC_COLLECTIONS = [
+  { name: "profiles", table: "profiles", idField: "id" },
+  { name: "customCourses", table: "customCourses", idField: "id" },
   { name: "unitProgress", table: "unitProgress", idField: "unitId" },
   { name: "notes", table: "notes", idField: "unitId" },
   { name: "fsrsStates", table: "fsrsStates", idField: "cardId" },
@@ -63,23 +137,34 @@ const SYNC_COLLECTIONS = [
 ];
 
 export async function performSupabaseSync({ supabaseUrl, supabaseAnonKey, syncKey }) {
-  if (!supabaseUrl || !supabaseAnonKey || !syncKey || syncKey.trim().length < 8) {
+  const client = getSupabaseClient(supabaseUrl, supabaseAnonKey);
+  if (!client) {
     return {
       ok: false,
       skipped: true,
-      message: "Lokaler Offline-Modus aktiv (kein Supabase-Sync konfiguriert).",
+      message: "Lokaler Offline-Modus aktiv (kein Supabase-Projekt eingetragen).",
     };
   }
 
-  const client = createClient(supabaseUrl.trim(), supabaseAnonKey.trim(), {
-    auth: { persistSession: false },
-  });
+  // Prüfe zuerst, ob ein Google-Account angemeldet ist!
+  let effectiveSyncKey = (syncKey || "").trim();
+  const googleUser = await getCurrentGoogleUser({ supabaseUrl, supabaseAnonKey });
+  if (googleUser?.id) {
+    effectiveSyncKey = `google:${googleUser.id}`;
+  }
 
-  const cleanKey = syncKey.trim();
+  if (!effectiveSyncKey || effectiveSyncKey.length < 8) {
+    return {
+      ok: false,
+      skipped: true,
+      message: "Bitte mit Google-Account anmelden oder einen Sync-Code (mind. 8 Zeichen) vergeben.",
+    };
+  }
+
   const { data: remoteRows, error: fetchErr } = await client
     .from("ews_sync_records")
     .select("collection, record_id, payload, updated_at")
-    .eq("sync_key", cleanKey);
+    .eq("sync_key", effectiveSyncKey);
 
   if (fetchErr) {
     throw new Error(`Supabase-Abruf fehlgeschlagen: ${fetchErr.message}`);
@@ -113,7 +198,7 @@ export async function performSupabaseSync({ supabaseUrl, supabaseAnonKey, syncKe
     }
     for (const item of toPushRemotely) {
       upsertBatch.push({
-        sync_key: cleanKey,
+        sync_key: effectiveSyncKey,
         collection: col.name,
         record_id: String(item[col.idField]),
         payload: item,
@@ -136,7 +221,10 @@ export async function performSupabaseSync({ supabaseUrl, supabaseAnonKey, syncKe
     ok: true,
     pulled,
     pushed,
+    googleEmail: googleUser?.email || null,
     syncedAt: new Date().toISOString(),
-    message: `Sync erfolgreich (${pulled} empfangen, ${pushed} gesendet).`,
+    message: googleUser?.email
+      ? `Cloud-Sync über Google (${googleUser.email}) erfolgreich (${pulled} empfangen, ${pushed} gesichert).`
+      : `Sync erfolgreich (${pulled} empfangen, ${pushed} gesendet).`,
   };
 }

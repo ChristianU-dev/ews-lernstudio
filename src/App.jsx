@@ -4,40 +4,63 @@ import { Drawer } from "vaul";
 import {
   BookOpen,
   Brain,
+  Calendar,
   Compass,
   Download,
+  FolderPlus,
   Headphones,
   Layers,
+  Lock,
   Menu,
   Moon,
   Scale,
   Search,
   Sun,
+  Timer,
+  Users,
   WifiOff,
 } from "lucide-react";
 import { usePrefs } from "./design/StudioPrefsProvider";
 import { Kbd, StatusBadge } from "./design/ui";
-import { getActiveCoursePack } from "./lib/coursePackRegistry";
+import { getActiveCoursePack, listAllCoursePacks } from "./lib/coursePackRegistry";
 import { validateCoursePack, buildCommandSearchIndex } from "./lib/courseSchema";
-import { computeWeeklyGrowth } from "./lib/adaptivePlanner";
 import { createInitialFsrsRecord, reviewCard, Rating } from "./lib/fsrsEngine";
+import { createEmptyCustomCourse, parseRawNotesIntoUnitAndCards } from "./lib/customCourseBuilder";
+import { computeNonPunitiveStreak, computeTotalLearnerXp, computeLevelInfo } from "./lib/gamificationEngine";
 import {
   db,
+  MAIN_PROFILE_ID,
+  DEFAULT_MAIN_PROFILE,
   DEFAULT_SETTINGS,
+  ensureProfilesInitialized,
+  createProfile,
+  deleteSecondaryProfile,
   loadSettings,
   saveSetting,
+  loadProfileDataSlice,
   upsertUnitProgress,
   saveUnitNote,
+  saveFsrsCardRecord,
   logStudyActivity,
   incrementConfusionStat,
+  saveCustomCourse,
+  loadCustomCourses,
   exportFullBackupJson,
   importFullBackupJson,
   todayDateKey,
 } from "./lib/db";
-import { performSupabaseSync } from "./lib/syncEngine";
+import {
+  performSupabaseSync,
+  signInWithGoogleOAuth,
+  getCurrentGoogleUser,
+  signOutGoogleAccount,
+} from "./lib/syncEngine";
 import { createDemoSofaTrackBlob } from "./lib/audioSynthesizer";
 import { CommandPalette } from "./components/CommandPalette";
 import { AudioMiniDock } from "./components/AudioMiniDock";
+import { FocusTimerModal } from "./components/FocusTimerModal";
+import { StudyCalendarModal } from "./components/StudyCalendarModal";
+import { ProfileAndCourseModal } from "./components/ProfileAndCourseModal";
 import { TodayDashboardView } from "./views/TodayDashboardView";
 import { AnchorScriptsView } from "./views/AnchorScriptsView";
 import { KnowledgeGraphView } from "./views/KnowledgeGraphView";
@@ -47,18 +70,34 @@ import { PodcastHubView } from "./views/PodcastHubView";
 import { DownloadsAndSettingsView } from "./views/DownloadsAndSettingsView";
 
 const DESKTOP_NAV = [
-  { id: "today", label: "Heute & Sofa-Start", icon: Compass },
+  { id: "today", label: "Heute & Tagesringe", icon: Compass },
   { id: "scripts", label: "1-Seiten-Skripte (A/B/C)", icon: BookOpen },
   { id: "graph", label: "Wissensnetz & Brücken", icon: Brain },
   { id: "cards", label: "FSRS-Kartentrainer", icon: Layers },
   { id: "exam", label: "Examens-Simulator", icon: Scale },
   { id: "podcast", label: "Sofa-Podcast-Hub", icon: Headphones },
-  { id: "downloads", label: "Downloads & Sync", icon: Download },
+  { id: "downloads", label: "Downloads & Cloud", icon: Download },
 ];
 
 export default function App() {
   const { theme, toggleTheme } = usePrefs();
-  const coursePack = useMemo(() => getActiveCoursePack(), []);
+
+  const [profiles, setProfiles] = useState([DEFAULT_MAIN_PROFILE]);
+  const [customCourses, setCustomCourses] = useState([]);
+  const [settings, setSettings] = useState(DEFAULT_SETTINGS);
+  const [googleUser, setGoogleUser] = useState(null);
+
+  const activeProfileId = settings.activeProfileId || MAIN_PROFILE_ID;
+  const activeProfile = useMemo(
+    () => profiles.find((p) => p.id === activeProfileId) || profiles[0] || DEFAULT_MAIN_PROFILE,
+    [profiles, activeProfileId]
+  );
+
+  const courseList = useMemo(() => listAllCoursePacks(customCourses), [customCourses]);
+  const coursePack = useMemo(
+    () => getActiveCoursePack(settings.activeCourseId, customCourses),
+    [settings.activeCourseId, customCourses]
+  );
   const validation = useMemo(() => validateCoursePack(coursePack), [coursePack]);
   const searchIndex = useMemo(() => buildCommandSearchIndex(coursePack), [coursePack]);
 
@@ -72,46 +111,69 @@ export default function App() {
   const [activeUnitId, setActiveUnitId] = useState(() => allUnits[0]?.id || "A-01-01");
   const [selectedExamSetId, setSelectedExamSetId] = useState(null);
   const [podcastFocusUnitId, setPodcastFocusUnitId] = useState(null);
+  const [podcastInitialMode, setPodcastInitialMode] = useState("sofa_intro");
 
   const [cmdOpen, setCmdOpen] = useState(false);
   const [mobileMoreOpen, setMobileMoreOpen] = useState(false);
+  const [focusTimerOpen, setFocusTimerOpen] = useState(false);
+  const [calendarOpen, setCalendarOpen] = useState(false);
+  const [profileModalOpen, setProfileModalOpen] = useState(false);
+  const [profileModalTab, setProfileModalTab] = useState("profiles");
+
   const [isOffline, setIsOffline] = useState(
     typeof navigator !== "undefined" ? !navigator.onLine : false
   );
   const [activeAudioTrack, setActiveAudioTrack] = useState(null);
 
-  const [settings, setSettings] = useState(DEFAULT_SETTINGS);
   const [unitProgressMap, setUnitProgressMap] = useState({});
   const [notesMap, setNotesMap] = useState({});
   const [fsrsStatesMap, setFsrsStatesMap] = useState({});
   const [confusionCounts, setConfusionCounts] = useState({});
   const [podcasts, setPodcasts] = useState([]);
   const [activityLogs, setActivityLogs] = useState([]);
+  const [examAttempts, setExamAttempts] = useState([]);
 
-  const refreshFromDb = useCallback(async () => {
+  const refreshFromDb = useCallback(async (overrideProfileId = null) => {
     try {
-      const [cfg, progRows, noteRows, cardRows, confRows, podRows, logRows] = await Promise.all([
-        loadSettings(),
-        db.unitProgress.toArray(),
-        db.notes.toArray(),
-        db.fsrsStates.toArray(),
-        db.confusionStats.toArray(),
-        db.podcasts.orderBy("createdAt").reverse().toArray(),
-        db.activityLogs.toArray(),
+      const [profRows, customCourseRows] = await Promise.all([
+        ensureProfilesInitialized(),
+        loadCustomCourses(),
       ]);
+      setProfiles(profRows);
+      setCustomCourses(customCourseRows);
+
+      const cfg = await loadSettings(overrideProfileId);
       setSettings(cfg);
-      setUnitProgressMap(Object.fromEntries(progRows.map((r) => [r.unitId, r])));
-      setNotesMap(Object.fromEntries(noteRows.map((r) => [r.unitId, r])));
-      setFsrsStatesMap(Object.fromEntries(cardRows.map((r) => [r.cardId, r])));
-      setConfusionCounts(Object.fromEntries(confRows.map((r) => [r.pairId, r.count])));
-      setPodcasts(podRows);
-      setActivityLogs(logRows);
+
+      const slice = await loadProfileDataSlice(cfg.activeProfileId || MAIN_PROFILE_ID);
+      setUnitProgressMap(slice.unitProgressMap);
+      setNotesMap(slice.notesMap);
+      setFsrsStatesMap(slice.fsrsStatesMap);
+      setConfusionCounts(slice.confusionCounts);
+      setPodcasts(slice.podcasts);
+      setActivityLogs(slice.activityLogs);
+      setExamAttempts(slice.examAttempts);
+
+      if (cfg.supabaseUrl && cfg.supabaseAnonKey) {
+        const gUser = await getCurrentGoogleUser(cfg);
+        setGoogleUser(gUser);
+      } else {
+        setGoogleUser(null);
+      }
     } catch {}
   }, []);
 
   useEffect(() => {
     refreshFromDb();
   }, [refreshFromDb]);
+
+  // Wenn das Fach gewechselt wird, auf die erste verfügbare Einheit setzen
+  useEffect(() => {
+    if (allUnits.length > 0 && !allUnits.some((u) => u.id === activeUnitId)) {
+      setActiveDomainId(allUnits[0].domain || "A");
+      setActiveUnitId(allUnits[0].id);
+    }
+  }, [allUnits, activeUnitId]);
 
   useEffect(() => {
     const onOff = () => setIsOffline(!navigator.onLine);
@@ -128,7 +190,32 @@ export default function App() {
     return activityLogs.find((l) => l.dateKey === key) || null;
   }, [activityLogs]);
 
-  const weeklyGrowth = useMemo(() => computeWeeklyGrowth(activityLogs), [activityLogs]);
+  const streakInfo = useMemo(() => computeNonPunitiveStreak(activityLogs), [activityLogs]);
+  const levelInfo = useMemo(
+    () =>
+      computeLevelInfo(
+        computeTotalLearnerXp({
+          activityLogs,
+          unitProgressMap,
+          fsrsStatesMap,
+          examAttempts,
+        })
+      ),
+    [activityLogs, unitProgressMap, fsrsStatesMap, examAttempts]
+  );
+
+  const shakyCardIds = useMemo(
+    () =>
+      Object.values(fsrsStatesMap)
+        .filter((r) => (r?.lapses || 0) > 0 || r?.lastRating === 1 || r?.lastRating === 2)
+        .map((r) => r.cardId),
+    [fsrsStatesMap]
+  );
+
+  const openProfileOrCourses = (tabName = "profiles") => {
+    setProfileModalTab(tabName);
+    setProfileModalOpen(true);
+  };
 
   const handleSelectDomain = (domId) => {
     setActiveDomainId(domId);
@@ -139,55 +226,145 @@ export default function App() {
   };
 
   const handleUpdateSetting = async (key, value) => {
-    await saveSetting(key, value);
+    await saveSetting(key, value, activeProfileId);
     setSettings((prev) => ({ ...prev, [key]: value }));
+  };
+
+  const handleSelectProfile = async (nextProfileId) => {
+    await saveSetting("activeProfileId", nextProfileId, nextProfileId);
+    await refreshFromDb(nextProfileId);
+    const chosen = profiles.find((p) => p.id === nextProfileId);
+    toast.success(`Profil gewechselt: ${chosen?.name || "Aktiv"}`);
+  };
+
+  const handleCreateProfile = async ({ name, avatarEmoji, subtitle }) => {
+    const created = await createProfile({ name, avatarEmoji, subtitle });
+    await saveSetting("activeProfileId", created.id, created.id);
+    await refreshFromDb(created.id);
+    toast.success(`Profil „${created.name}“ mit eigenem Lernstand angelegt!`);
+  };
+
+  const handleDeleteProfile = async (profId) => {
+    try {
+      await deleteSecondaryProfile(profId);
+      const nextId = activeProfileId === profId ? MAIN_PROFILE_ID : activeProfileId;
+      await saveSetting("activeProfileId", nextId, nextId);
+      await refreshFromDb(nextId);
+      toast.success("Zusatzprofil entfernt (Hauptprofil bleibt sicher geschützt).");
+    } catch (err) {
+      toast.error(err.message);
+    }
+  };
+
+  const handleCreateCustomCourse = async ({ title, domainNames }) => {
+    const newPack = createEmptyCustomCourse({
+      title,
+      primarySubject: settings.primarySubject || "Kunst",
+      didacticSubject: settings.didacticSubject || "Sport",
+      domainNames,
+    });
+    // Füge direkt ein erstes Willkommens-Ankerblatt hinzu, damit das Fach sofort lebendig ist!
+    const { unit, cards } = parseRawNotesIntoUnitAndCards({
+      courseId: newPack.id,
+      domain: "A",
+      unitTitle: `Überblick: ${title}`,
+      pageLabel: "Start-Ankerblatt S. 1",
+      rawText: `${title}: Eigenes Lernfach im universellen Lernstudio.\nKernziel: Strukturierte 1-Seiten-Ankerblätter und FSRS-Karten an einem Ort bündeln.`,
+      existingUnitCount: 0,
+    });
+    newPack.domains[0].units.push(unit);
+    newPack.flashcards.push(...cards);
+
+    await saveCustomCourse(newPack, activeProfileId);
+    await saveSetting("activeCourseId", newPack.id, activeProfileId);
+    await refreshFromDb(activeProfileId);
+    toast.success(`Neues Lernfach „${title}“ erstellt & aktiviert!`);
+    return newPack;
+  };
+
+  const handleAddNotesToCustomCourse = async ({
+    courseId,
+    domain,
+    unitTitle,
+    pageLabel,
+    rawText,
+  }) => {
+    const allCustom = await loadCustomCourses();
+    const target = allCustom.find((c) => c.id === courseId);
+    if (!target) return;
+
+    const domObj = target.domains.find((d) => d.id === domain) || target.domains[0];
+    const { unit, cards } = parseRawNotesIntoUnitAndCards({
+      courseId: target.id,
+      domain: domObj.id,
+      unitTitle,
+      pageLabel,
+      rawText,
+      existingUnitCount: domObj.units.length,
+    });
+    domObj.units.push(unit);
+    target.flashcards = [...(target.flashcards || []), ...cards];
+    target.updatedAt = new Date().toISOString();
+
+    await saveCustomCourse(target, activeProfileId);
+    await saveSetting("activeCourseId", target.id, activeProfileId);
+    await refreshFromDb(activeProfileId);
+    setActiveDomainId(domObj.id);
+    setActiveUnitId(unit.id);
+    setProfileModalOpen(false);
+    setActiveView("scripts");
+    toast.success(`Ankerblatt „${unitTitle}“ + ${cards.length} FSRS-Karten erzeugt!`);
   };
 
   const handleUpdateUnitProgress = async (unitId, domain, patch) => {
     const wasMastered = unitProgressMap[unitId]?.status === "mastered";
-    const updated = await upsertUnitProgress(unitId, domain, patch);
+    const updated = await upsertUnitProgress(unitId, domain, patch, activeProfileId);
     setUnitProgressMap((prev) => ({ ...prev, [unitId]: updated }));
 
     if (!wasMastered && updated.status === "mastered") {
-      await logStudyActivity({ minutesStudied: 12, unitsCompleted: 1 });
-      const logs = await db.activityLogs.toArray();
-      setActivityLogs(logs);
-      toast.success("1-Seiten-Ankerblatt sicher gemeistert!");
+      await logStudyActivity({ minutesStudied: 12, unitsCompleted: 1 }, new Date(), activeProfileId);
+      const slice = await loadProfileDataSlice(activeProfileId);
+      setActivityLogs(slice.activityLogs);
+      toast.success("1-Seiten-Ankerblatt gemeistert (+55 XP im Atelier-Garten)!");
     }
   };
 
   const handleSaveNote = async (unitId, noteData) => {
-    const saved = await saveUnitNote(unitId, noteData);
+    const saved = await saveUnitNote(unitId, noteData, activeProfileId);
     setNotesMap((prev) => ({ ...prev, [unitId]: saved }));
   };
 
   const handleReviewCard = async (card, rating) => {
     const prevRec = fsrsStatesMap[card.id] || createInitialFsrsRecord(card.id);
     const nextRec = reviewCard(prevRec, rating);
-    await db.fsrsStates.put(nextRec);
+    await saveFsrsCardRecord(nextRec, activeProfileId);
     setFsrsStatesMap((prev) => ({ ...prev, [card.id]: nextRec }));
 
     if (card.confusion_tag && (rating === Rating.Again || rating === Rating.Hard)) {
-      const conf = await incrementConfusionStat(card.confusion_tag, 1);
+      const conf = await incrementConfusionStat(card.confusion_tag, 1, activeProfileId);
       if (conf) {
         setConfusionCounts((prev) => ({ ...prev, [conf.pairId]: conf.count }));
       }
     }
 
-    await logStudyActivity({ minutesStudied: 1, cardsReviewed: 1 });
-    setActivityLogs(await db.activityLogs.toArray());
+    await logStudyActivity({ minutesStudied: 1, cardsReviewed: 1 }, new Date(), activeProfileId);
+    const slice = await loadProfileDataSlice(activeProfileId);
+    setActivityLogs(slice.activityLogs);
   };
 
   const handleRecordExamAttempt = async (attempt) => {
     const rec = {
       id: `exam-${Date.now()}`,
+      profileId: activeProfileId,
       ...attempt,
       createdAt: new Date().toISOString(),
     };
     await db.examAttempts.put(rec);
-    await logStudyActivity({ minutesStudied: 10, examDrills: 1 });
-    setActivityLogs(await db.activityLogs.toArray());
-    toast.success(`Auswertung gespeichert (${attempt.totalScore} / ${attempt.maxScore} Pkt.)`);
+    await logStudyActivity({ minutesStudied: 10, examDrills: 1 }, new Date(), activeProfileId);
+    const slice = await loadProfileDataSlice(activeProfileId);
+    setActivityLogs(slice.activityLogs);
+    setExamAttempts(slice.examAttempts);
+    toast.success(`Auswertung gespeichert (${attempt.totalScore} / ${attempt.maxScore} Pkt. · +65 XP)`);
   };
 
   const handlePlayDemoAudio = async (unit) => {
@@ -200,13 +377,15 @@ export default function App() {
       blob,
       autoPlay: true,
     });
-    await logStudyActivity({ minutesStudied: 5, podcastListened: true });
-    setActivityLogs(await db.activityLogs.toArray());
+    await logStudyActivity({ minutesStudied: 5, podcastListened: true }, new Date(), activeProfileId);
+    const slice = await loadProfileDataSlice(activeProfileId);
+    setActivityLogs(slice.activityLogs);
   };
 
   const handleSavePodcastFile = async ({ unitId, domain, title, blob, mimeType }) => {
     const item = {
       id: `pod-${Date.now()}`,
+      profileId: activeProfileId,
       unitId,
       domain,
       title,
@@ -215,14 +394,15 @@ export default function App() {
       createdAt: new Date().toISOString(),
     };
     await db.podcasts.put(item);
-    const rows = await db.podcasts.orderBy("createdAt").reverse().toArray();
-    setPodcasts(rows);
+    const slice = await loadProfileDataSlice(activeProfileId);
+    setPodcasts(slice.podcasts);
     toast.success(`Podcast „${title}“ für den Offline-Zugmodus gespeichert!`);
   };
 
   const handleDeletePodcast = async (id) => {
     await db.podcasts.delete(id);
-    setPodcasts(await db.podcasts.orderBy("createdAt").reverse().toArray());
+    const slice = await loadProfileDataSlice(activeProfileId);
+    setPodcasts(slice.podcasts);
   };
 
   const handleJumpToDomainHint = (targetDomain, hintText = "") => {
@@ -258,10 +438,10 @@ export default function App() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `ews-lernstudio-backup-${todayDateKey()}.json`;
+    a.download = `lernstudio-backup-${todayDateKey()}.json`;
     a.click();
     URL.revokeObjectURL(url);
-    toast.success("Lokales Backup heruntergeladen.");
+    toast.success("Vollständiges Backup aller Profile & Fächer heruntergeladen.");
   };
 
   const handleImportBackup = async (file) => {
@@ -276,6 +456,8 @@ export default function App() {
     }
   };
 
+  const activeCourseTitle = coursePack.manifest?.title || "EWS Psychologie";
+
   return (
     <>
       <Toaster position="top-right" richColors />
@@ -287,8 +469,8 @@ export default function App() {
               <div style={{ fontWeight: 700, fontSize: 15.5, letterSpacing: "-0.02em", color: "var(--fg)" }}>
                 EWS Lernstudio
               </div>
-              <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>
-                Psychologie · Grundschule
+              <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }} className="truncate">
+                {activeCourseTitle}
               </div>
             </div>
             <button
@@ -303,11 +485,42 @@ export default function App() {
             </button>
           </div>
 
+          {/* Profil- & Fach-Umschalter in der Sidebar */}
+          <button
+            type="button"
+            className="lx-card"
+            onClick={() => openProfileOrCourses("profiles")}
+            style={{
+              padding: "9px 11px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              gap: 8,
+              cursor: "pointer",
+              textAlign: "left",
+              background: "var(--bg-surface)",
+            }}
+            data-testid="sidebar-profile-btn"
+          >
+            <div className="min-w-0" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <span style={{ fontSize: 17, flexShrink: 0 }}>{activeProfile.avatarEmoji || "🎨"}</span>
+              <div className="min-w-0">
+                <div style={{ fontSize: 12.5, fontWeight: 700, display: "flex", alignItems: "center", gap: 4 }}>
+                  <span className="truncate">{activeProfile.name}</span>
+                  {activeProfile.isProtected && <Lock size={10} style={{ color: "var(--domain-b)", flexShrink: 0 }} />}
+                </div>
+                <div style={{ fontSize: 11, color: "var(--fg-muted)" }}>
+                  {levelInfo.icon} St. {levelInfo.level} · {levelInfo.totalXp} XP
+                </div>
+              </div>
+            </div>
+          </button>
+
           {/* Ctrl+K Befehlspalette */}
           <button
             type="button"
             className="lx-btn"
-            style={{ width: "100%", justifyContent: "space-between", minHeight: 38, background: "var(--bg-surface)" }}
+            style={{ width: "100%", justifyContent: "space-between", minHeight: 36, background: "var(--bg-surface)" }}
             onClick={() => setCmdOpen(true)}
             data-testid="open-cmdk-btn"
           >
@@ -318,7 +531,7 @@ export default function App() {
             <Kbd>Ctrl+K</Kbd>
           </button>
 
-          <nav style={{ display: "flex", flexDirection: "column", gap: 3, flex: 1 }} aria-label="Hauptnavigation">
+          <nav style={{ display: "flex", flexDirection: "column", gap: 2, flex: 1 }} aria-label="Hauptnavigation">
             {DESKTOP_NAV.map((item) => {
               const Icon = item.icon;
               const active = activeView === item.id;
@@ -339,20 +552,37 @@ export default function App() {
             })}
           </nav>
 
-          {/* Ruhige Skript-Direktwahl + Offline-Status */}
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {/* Ruhige Skript-Direktwahl + Schnellwerkzeuge */}
+          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6 }}>
+              <button
+                type="button"
+                className="lx-btn"
+                style={{ minHeight: 34, padding: "4px 8px", fontSize: 12 }}
+                onClick={() => setFocusTimerOpen(true)}
+              >
+                <Timer size={13} />
+                <span>Timer</span>
+              </button>
+              <button
+                type="button"
+                className="lx-btn"
+                style={{ minHeight: 34, padding: "4px 8px", fontSize: 12 }}
+                onClick={() => setCalendarOpen(true)}
+              >
+                <Calendar size={13} />
+                <span>Kalender</span>
+              </button>
+            </div>
+
             <div
               className="lx-card"
-              style={{ padding: "11px 12px", display: "flex", flexDirection: "column", gap: 6, background: "var(--bg-surface)" }}
+              style={{ padding: "10px 11px", display: "flex", flexDirection: "column", gap: 5, background: "var(--bg-surface)" }}
             >
-              <span style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: "0.05em", color: "var(--fg-muted)" }}>
-                DEIN 300-SEITEN-ORDNER
+              <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: "0.05em", color: "var(--fg-muted)" }}>
+                {(coursePack.manifest?.isCustom ? "THEMENFELDER" : "DEIN 300-SEITEN-ORDNER")}
               </span>
-              {[
-                { id: "A", label: "A · Lernen & Lehren", p: "108 S." },
-                { id: "B", label: "B · Entwicklung", p: "82 S." },
-                { id: "C", label: "C · Diagnostik", p: "73 S." },
-              ].map((d) => (
+              {(coursePack.domains || []).map((d) => (
                 <button
                   key={d.id}
                   type="button"
@@ -366,32 +596,39 @@ export default function App() {
                     alignItems: "center",
                     border: "none",
                     background: "transparent",
-                    padding: "4px 2px",
+                    padding: "3px 2px",
                     cursor: "pointer",
                     color: "var(--fg-secondary)",
-                    fontSize: 12.5,
+                    fontSize: 12,
                   }}
                 >
-                  <span style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <span style={{ display: "flex", alignItems: "center", gap: 7, minWidth: 0 }}>
                     <span
                       style={{
-                        width: 8,
-                        height: 8,
+                        width: 7,
+                        height: 7,
                         borderRadius: 999,
                         background: `var(--domain-${d.id.toLowerCase()})`,
+                        flexShrink: 0,
                       }}
                     />
-                    <span>{d.label}</span>
+                    <span className="truncate">{d.title.replace(/^Skript [ABC]: /, `${d.id} · `).replace(/\s*\(\d+\s*S\.\)/, "")}</span>
                   </span>
-                  <span className="tabular" style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>
-                    {d.p}
+                  <span className="tabular" style={{ fontSize: 11, color: "var(--fg-muted)", flexShrink: 0 }}>
+                    {(d.units || []).length} Bl.
                   </span>
                 </button>
               ))}
             </div>
 
             <StatusBadge
-              label={isOffline ? "Zug-Offline-Modus" : "Lokal & Offline-bereit"}
+              label={
+                isOffline
+                  ? "Zug-Offline-Modus"
+                  : googleUser
+                  ? `Cloud: ${googleUser.email}`
+                  : "Lokal & Offline-bereit"
+              }
               tone={isOffline ? "warning" : "success"}
             />
           </div>
@@ -399,36 +636,78 @@ export default function App() {
 
         {/* Schlanke native iOS Topbar NUR auf Mobile (< 960px) */}
         <header className="lx-mobile-topbar no-print">
-          <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
+          <button
+            type="button"
+            onClick={() => openProfileOrCourses("profiles")}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 7,
+              minWidth: 0,
+              border: "none",
+              background: "transparent",
+              padding: 0,
+              color: "var(--fg)",
+              cursor: "pointer",
+              textAlign: "left",
+            }}
+            aria-label="Profil und Lernfach wechseln"
+          >
             <span
-              className={`lx-dot ${isOffline ? "lx-dot-warning" : "lx-dot-success"}`}
-              title={isOffline ? "Offline" : "Bereit"}
-            />
-            <strong style={{ fontSize: 15, letterSpacing: "-0.015em" }} className="truncate">
-              EWS Lernstudio
-            </strong>
-            {isOffline && <WifiOff size={13} style={{ color: "var(--dot-warning)" }} />}
-          </div>
+              style={{
+                width: 28,
+                height: 28,
+                borderRadius: 999,
+                background: "var(--bg-subtle)",
+                border: "1px solid var(--border-strong)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: 14,
+                flexShrink: 0,
+              }}
+            >
+              {activeProfile.avatarEmoji || "🎨"}
+            </span>
+            <div className="min-w-0">
+              <strong style={{ fontSize: 14.5, letterSpacing: "-0.015em", display: "block", lineHeight: 1.15 }} className="truncate">
+                EWS Lernstudio
+              </strong>
+              <span style={{ fontSize: 10.5, color: "var(--fg-muted)", display: "block", lineHeight: 1.15 }} className="truncate">
+                {activeProfile.name}
+              </span>
+            </div>
+            {isOffline && <WifiOff size={13} style={{ color: "var(--dot-warning)", flexShrink: 0 }} />}
+          </button>
 
-          <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 5, flexShrink: 0 }}>
             <button
               type="button"
               className="lx-icon-btn"
-              style={{ width: 38, height: 38, background: "var(--bg-subtle)" }}
-              onClick={() => setCmdOpen(true)}
-              aria-label="Schnellsuche öffnen"
+              style={{ width: 36, height: 36, background: "var(--bg-subtle)" }}
+              onClick={() => setFocusTimerOpen(true)}
+              aria-label="Fokus-Timer öffnen"
             >
-              <Search size={16} />
+              <Timer size={15} />
             </button>
             <button
               type="button"
               className="lx-icon-btn"
-              style={{ width: 38, height: 38, background: "var(--bg-subtle)" }}
+              style={{ width: 36, height: 36, background: "var(--bg-subtle)" }}
+              onClick={() => setCmdOpen(true)}
+              aria-label="Schnellsuche öffnen"
+            >
+              <Search size={15} />
+            </button>
+            <button
+              type="button"
+              className="lx-icon-btn"
+              style={{ width: 36, height: 36, background: "var(--bg-subtle)" }}
               onClick={toggleTheme}
               aria-label="Darstellung Hell oder Dunkel wählen"
               data-testid="topbar-theme-toggle"
             >
-              {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
+              {theme === "dark" ? <Sun size={15} /> : <Moon size={15} />}
             </button>
           </div>
         </header>
@@ -439,13 +718,26 @@ export default function App() {
             <TodayDashboardView
               allUnits={allUnits}
               unitProgressMap={unitProgressMap}
+              fsrsStatesMap={fsrsStatesMap}
+              examAttempts={examAttempts}
+              activityLogs={activityLogs}
               confusionCounts={confusionCounts}
               confusionPairs={coursePack.confusionPairs || []}
               examSets={coursePack.examBank?.testformat_sets || []}
               todayLog={todayLog}
-              weeklyGrowth={weeklyGrowth}
               examDate={settings.examDate}
-              onUpdateExamDate={(val) => handleUpdateSetting("examDate", val)}
+              dailyTargetMinutes={settings.dailyTargetMinutes || 32}
+              energyMode={settings.energyMode || "normal"}
+              activeProfile={activeProfile}
+              activeCourseTitle={activeCourseTitle}
+              onChangeEnergyMode={(mode) => handleUpdateSetting("energyMode", mode)}
+              onOpenProfileModal={openProfileOrCourses}
+              onOpenCalendarModal={() => setCalendarOpen(true)}
+              onOpenFocusTimer={() => setFocusTimerOpen(true)}
+              onOpenWeaknessPodcast={() => {
+                setPodcastInitialMode("personal_weakness");
+                setActiveView("podcast");
+              }}
               onStartStep={(step) => {
                 if (step.domain) setActiveDomainId(step.domain);
                 if (step.unitId) {
@@ -453,16 +745,18 @@ export default function App() {
                   setPodcastFocusUnitId(step.unitId);
                 }
                 if (step.examSetId) setSelectedExamSetId(step.examSetId);
+                if (step.targetView === "podcast") setPodcastInitialMode("sofa_intro");
                 setActiveView(step.targetView || "scripts");
               }}
               onStartSofaDemoAudio={handlePlayDemoAudio}
               onTriggerBonusRound={async (bonus) => {
-                await logStudyActivity({ minutesStudied: 12, bonusRounds: 1 });
-                setActivityLogs(await db.activityLogs.toArray());
+                await logStudyActivity({ minutesStudied: 12, bonusRounds: 1 }, new Date(), activeProfileId);
+                const slice = await loadProfileDataSlice(activeProfileId);
+                setActivityLogs(slice.activityLogs);
                 if (bonus.domain) setActiveDomainId(bonus.domain);
                 if (bonus.unitId) setActiveUnitId(bonus.unitId);
                 setActiveView("scripts");
-                toast.success("+12-Min.-Bonus-Etappe gestartet – viel Freude im Flow!");
+                toast.success("+12-Min.-Bonus-Etappe gestartet (+40 XP im Flow)!");
               }}
             />
           )}
@@ -480,6 +774,7 @@ export default function App() {
               onSaveNote={handleSaveNote}
               onOpenPodcastForUnit={(u) => {
                 setPodcastFocusUnitId(u.id);
+                setPodcastInitialMode("sofa_intro");
                 setActiveView("podcast");
               }}
               onJumpToDomainHint={handleJumpToDomainHint}
@@ -521,10 +816,15 @@ export default function App() {
           {activeView === "podcast" && (
             <PodcastHubView
               allUnits={allUnits}
+              flashcards={coursePack.flashcards || []}
+              shakyCardIds={shakyCardIds}
               confusionPairs={coursePack.confusionPairs || []}
               confusionCounts={confusionCounts}
               podcasts={podcasts}
               selectedUnitId={podcastFocusUnitId || activeUnitId}
+              initialMode={podcastInitialMode}
+              primarySubject={settings.primarySubject || "Kunst"}
+              didacticSubject={settings.didacticSubject || "Sport"}
               onSavePodcastFile={handleSavePodcastFile}
               onDeletePodcast={handleDeletePodcast}
               onPlayTrack={(track) => setActiveAudioTrack(track)}
@@ -536,7 +836,12 @@ export default function App() {
             <DownloadsAndSettingsView
               settings={settings}
               courseStats={validation.stats}
+              activeProfile={activeProfile}
+              googleUser={googleUser}
               onUpdateSetting={handleUpdateSetting}
+              onOpenProfileModal={openProfileOrCourses}
+              onOpenCalendarModal={() => setCalendarOpen(true)}
+              onGoogleSignIn={() => signInWithGoogleOAuth(settings)}
               onRunSupabaseSync={() =>
                 performSupabaseSync(settings).then(async (res) => {
                   await refreshFromDb();
@@ -591,13 +896,16 @@ export default function App() {
             <Drawer.Content className="lx-vaul-content" aria-describedby={undefined}>
               <div className="lx-vaul-handle" />
               <Drawer.Title style={{ margin: 0, fontSize: 16, fontWeight: 700 }}>
-                Weitere Werkzeuge
+                Weitere Werkzeuge &amp; Super-Buddy
               </Drawer.Title>
-              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              <div style={{ display: "flex", flexDirection: "column", gap: 7, overflowY: "auto" }}>
                 {[
-                  { id: "graph", label: "Wissensnetz & Theorie-Brücken", icon: Brain },
-                  { id: "podcast", label: "NotebookLM Sofa- & Zug-Podcast-Hub", icon: Headphones },
-                  { id: "downloads", label: "Word-Skripte (.docx), Anki (.apkg) & Sync", icon: Download },
+                  { id: "graph", label: "Wissensnetz & Theorie-Brücken", icon: Brain, action: () => setActiveView("graph") },
+                  { id: "podcast", label: "NotebookLM Sofa- & Zug-Podcast-Hub", icon: Headphones, action: () => setActiveView("podcast") },
+                  { id: "profiles", label: "Profile (Sie / Christian) & Google-Login", icon: Users, action: () => openProfileOrCourses("profiles") },
+                  { id: "courses", label: "+ Eigenes Studienfach / Skript anlegen", icon: FolderPlus, action: () => openProfileOrCourses("courses") },
+                  { id: "calendar", label: "Lernkalender & iPhone-Export (.ics)", icon: Calendar, action: () => setCalendarOpen(true) },
+                  { id: "downloads", label: "Word-Skripte (.docx), Anki (.apkg) & Sync", icon: Download, action: () => setActiveView("downloads") },
                 ].map((it) => {
                   const Icon = it.icon;
                   return (
@@ -605,10 +913,10 @@ export default function App() {
                       key={it.id}
                       type="button"
                       className="lx-btn"
-                      style={{ justifyContent: "flex-start", minHeight: 48, gap: 10 }}
+                      style={{ justifyContent: "flex-start", minHeight: 46, gap: 10 }}
                       onClick={() => {
-                        setActiveView(it.id);
                         setMobileMoreOpen(false);
+                        it.action();
                       }}
                       data-testid={`mobile-more-${it.id}`}
                     >
@@ -626,9 +934,71 @@ export default function App() {
           activeTrack={activeAudioTrack}
           onClose={() => setActiveAudioTrack(null)}
           onCompleteTrack={async () => {
-            await logStudyActivity({ minutesStudied: 6, podcastListened: true });
-            setActivityLogs(await db.activityLogs.toArray());
+            await logStudyActivity({ minutesStudied: 6, podcastListened: true }, new Date(), activeProfileId);
+            const slice = await loadProfileDataSlice(activeProfileId);
+            setActivityLogs(slice.activityLogs);
           }}
+        />
+
+        <FocusTimerModal
+          open={focusTimerOpen}
+          onOpenChange={setFocusTimerOpen}
+          onCompleteSession={async (mins) => {
+            await logStudyActivity({ minutesStudied: mins }, new Date(), activeProfileId);
+            const slice = await loadProfileDataSlice(activeProfileId);
+            setActivityLogs(slice.activityLogs);
+            toast.success(`${mins} Minuten Fokus geschafft (+35 XP)!`);
+          }}
+        />
+
+        <StudyCalendarModal
+          open={calendarOpen}
+          onOpenChange={setCalendarOpen}
+          examDate={settings.examDate}
+          preferredHour={settings.preferredStudyHour || 16}
+          dailyMinutes={settings.dailyTargetMinutes || 32}
+          profileName={activeProfile.name}
+          courseTitle={activeCourseTitle}
+          activityLogs={activityLogs}
+          protectedPauseDays={streakInfo.protectedPauseDays}
+          onUpdateExamDate={(val) => handleUpdateSetting("examDate", val)}
+          onUpdatePreferredHour={(h) => handleUpdateSetting("preferredStudyHour", h)}
+        />
+
+        <ProfileAndCourseModal
+          open={profileModalOpen}
+          onOpenChange={setProfileModalOpen}
+          initialTab={profileModalTab}
+          profiles={profiles}
+          activeProfileId={activeProfileId}
+          onSelectProfile={handleSelectProfile}
+          onCreateProfile={handleCreateProfile}
+          onDeleteProfile={handleDeleteProfile}
+          googleUser={googleUser}
+          onGoogleSignIn={() => signInWithGoogleOAuth(settings)}
+          onGoogleSignOut={async () => {
+            await signOutGoogleAccount(settings);
+            setGoogleUser(null);
+            toast.success("Von Google-Account abgemeldet (lokale Daten bleiben erhalten).");
+          }}
+          onRunSync={async () => {
+            try {
+              const res = await performSupabaseSync(settings);
+              await refreshFromDb();
+              toast.success(res.message);
+            } catch (err) {
+              toast.error(err.message);
+            }
+          }}
+          courseList={courseList}
+          activeCourseId={settings.activeCourseId}
+          onSelectCourse={async (cid) => {
+            await handleUpdateSetting("activeCourseId", cid);
+            setProfileModalOpen(false);
+            toast.success("Lernfach gewechselt!");
+          }}
+          onCreateCustomCourse={handleCreateCustomCourse}
+          onAddNotesToCustomCourse={handleAddNotesToCustomCourse}
         />
 
         <CommandPalette

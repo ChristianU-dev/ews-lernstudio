@@ -49,7 +49,20 @@ test.describe("16:10 HiDPI Windows-Laptop (1440x900 & 1920x1200 @ DPR 2)", () =>
       expect(mainBox.y).toBeLessThan(40);
       await expectZeroHorizontalOverflow(page, `${vp.name} Heute`);
 
-      // Light <-> Dark Mode prüfen
+      // Light <-> Dark Mode prüfen + Tagesringe & Tagesform-Schalter
+      await expect(page.getByTestId("mastery-rings-hero")).toBeVisible();
+      await expect(page.getByTestId("atelier-garden-card")).toBeVisible();
+      await page.getByTestId("energy-btn-gentle").click();
+      await page.getByTestId("energy-btn-normal").click();
+
+      // Multi-Profil ("Christian") & Eigenes Studienfach im Modal testen
+      await page.getByTestId("sidebar-profile-btn").click();
+      await expect(page.getByTestId("quick-create-christian-profile")).toBeVisible();
+      await page.getByTestId("quick-create-christian-profile").click();
+      // Wieder zurück zu ihrem geschützten Hauptprofil wechseln!
+      await page.getByTestId("switch-profile-profile-main").click();
+      await page.keyboard.press("Escape");
+
       await page.getByTestId("sidebar-theme-toggle").click();
       const themeAfterClick = await page.evaluate(() => document.documentElement.dataset.theme);
       expect(["light", "dark"]).toContain(themeAfterClick);
@@ -166,7 +179,12 @@ test.describe("iPhone Native PWA (390x844 @ DPR 3, Safe-Areas, 0px Overflow & Of
     const fontPx = await page.locator("textarea").first().evaluate((el) => getComputedStyle(el).fontSize);
     expect(parseFloat(fontPx)).toBeGreaterThanOrEqual(16);
 
-    // Vaul "Mehr"-Sheet -> Podcast-Hub & Offline-Modus im Zug simulieren
+    // Vaul "Mehr"-Sheet -> Wissensnetz (Vernetzungs-Pfad) & Podcast-Hub prüfen
+    await page.getByTestId("mobile-nav-more").click();
+    await page.getByTestId("mobile-more-graph").click();
+    await expect(page.getByTestId("mobile-vernetzungs-pfad")).toBeVisible();
+    await expectZeroHorizontalOverflow(page, "iPhone Wissensnetz Pfad");
+
     await page.getByTestId("mobile-nav-more").click();
     await page.getByTestId("mobile-more-podcast").click();
     await expect(page.getByTestId("podcast-hub-view")).toBeVisible();

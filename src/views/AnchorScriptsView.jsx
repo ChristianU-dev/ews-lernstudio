@@ -152,14 +152,14 @@ export function AnchorScriptsView({
     HIGHLIGHT_COLORS.find((c) => c.id === effectiveNote.highlightColor)?.hex || "transparent";
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 16 }} data-testid="anchor-scripts-view">
+    <div style={{ display: "flex", flexDirection: "column", gap: 12 }} data-testid="anchor-scripts-view">
       {/* Ruhige 3-Skript-Umschaltung + kompakte Aktionszeile */}
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
         <div className="lx-segmented cols-3" role="tablist" aria-label="Drei getrennte Pflichtskripte">
           {[
-            { id: "A", top: "Skript A", sub: "Lernen · 108 S." },
-            { id: "B", top: "Skript B", sub: "Entwicklung · 82 S." },
-            { id: "C", top: "Skript C", sub: "Diagnostik · 73 S." },
+            { id: "A", label: "A · Lernen", deskSub: "108 S." },
+            { id: "B", label: "B · Entwickl.", deskSub: "82 S." },
+            { id: "C", label: "C · Diagnostik", deskSub: "73 S." },
           ].map((tab) => (
             <button
               key={tab.id}
@@ -169,27 +169,29 @@ export function AnchorScriptsView({
               className={`lx-seg-btn ${currentDomain.id === tab.id ? "is-active" : ""}`}
               onClick={() => onSelectDomain(tab.id)}
               data-testid={`domain-tab-${tab.id}`}
-              style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 1, padding: "5px 12px" }}
+              style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 5, padding: "5px 10px" }}
             >
-              <span style={{ fontWeight: 700, fontSize: 12.5 }}>{tab.top}</span>
-              <span style={{ fontSize: 10.5, color: "var(--fg-muted)", fontWeight: 500 }}>{tab.sub}</span>
+              <span style={{ fontWeight: 700, fontSize: 12 }}>{tab.label}</span>
+              <span className="lx-hide-mobile" style={{ fontSize: 10.5, color: "var(--fg-muted)", fontWeight: 500 }}>
+                ({tab.deskSub})
+              </span>
             </button>
           ))}
         </div>
 
-        <div style={{ display: "flex", alignItems: "center", gap: 8, width: "100%", minWidth: 0, maxWidth: "100%", justifyContent: "flex-end" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 8, flex: "1 1 240px", minWidth: 0, maxWidth: "100%", justifyContent: "flex-end" }}>
           <button
             type="button"
             className="lx-btn lx-only-mobile no-print"
-            style={{ minHeight: 42, padding: "6px 13px", width: "100%", maxWidth: "100%", minWidth: 0, justifyContent: "space-between", overflow: "hidden" }}
+            style={{ minHeight: 38, padding: "5px 11px", width: "100%", maxWidth: "100%", minWidth: 0, justifyContent: "space-between", overflow: "hidden" }}
             onClick={() => setMobileTocOpen(true)}
             data-testid="open-chapter-sheet-btn"
           >
-            <span style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0, flex: 1 }}>
-              <List size={15} style={{ flexShrink: 0 }} />
-              <span className="truncate">Kap. {unit.section_num}: {unit.title}</span>
+            <span style={{ display: "flex", alignItems: "center", gap: 7, minWidth: 0, flex: 1 }}>
+              <List size={14} style={{ flexShrink: 0 }} />
+              <span className="truncate" style={{ fontSize: 12.5 }}>Kap. {unit.section_num}: {unit.title}</span>
             </span>
-            <span className="lx-badge" style={{ minHeight: 22, padding: "1px 7px", fontSize: 11, flexShrink: 0 }}>
+            <span className="lx-badge" style={{ minHeight: 20, padding: "1px 6px", fontSize: 10.5, flexShrink: 0 }}>
               {currentIndex + 1}/{units.length}
             </span>
           </button>
@@ -262,41 +264,41 @@ export function AnchorScriptsView({
           data-testid="active-anchor-sheet"
         >
           {/* 1. Ruhiger Seitenkopf mit exaktem Ordner-Seitenverweis */}
-          <header style={{ display: "flex", flexDirection: "column", gap: 12, paddingBottom: 16, borderBottom: "1px solid var(--border-subtle)" }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-                <span className={`lx-badge domain-badge-${unit.domain}`} style={{ fontWeight: 600 }}>
-                  Gebiet {unit.domain} · Kap. {unit.section_num}
+          <header style={{ display: "flex", flexDirection: "column", gap: 10, paddingBottom: 14, borderBottom: "1px solid var(--border-subtle)" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
+                <span className={`lx-badge domain-badge-${unit.domain}`} style={{ fontWeight: 600, fontSize: 11.5, padding: "2px 8px" }}>
+                  {unit.domain} · {unit.section_num}
                 </span>
                 <span
                   className="lx-badge"
-                  style={{ fontWeight: 700, color: "var(--fg)" }}
+                  style={{ fontWeight: 700, color: "var(--fg)", fontSize: 11.5, padding: "2px 8px" }}
                   data-testid="original-page-badge"
                 >
-                  <FileText size={12} />
+                  <FileText size={11} />
                   <span>{unit.page_label}</span>
                 </span>
                 {effectiveNote.text && (
-                  <span className="lx-badge" style={{ background: activeHighlightHex }}>
-                    Eigene Notiz
+                  <span className="lx-badge" style={{ background: activeHighlightHex, fontSize: 11 }}>
+                    Notiz
                   </span>
                 )}
               </div>
 
-              <div className="no-print" style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+              <div className="no-print" style={{ display: "flex", alignItems: "center", gap: 6 }}>
                 <button
                   type="button"
                   className="lx-btn"
-                  style={{ minHeight: 36, padding: "5px 11px", fontSize: 12.5 }}
+                  style={{ minHeight: 32, padding: "4px 10px", fontSize: 12 }}
                   onClick={() => onOpenPodcastForUnit(unit)}
                 >
-                  <Headphones size={14} />
-                  <span>Podcast-Prompt</span>
+                  <Headphones size={13} />
+                  <span>Audio</span>
                 </button>
                 <button
                   type="button"
                   className={`lx-btn ${progress.status === "mastered" ? "lx-btn-primary" : ""}`}
-                  style={{ minHeight: 36, padding: "5px 12px", fontSize: 12.5 }}
+                  style={{ minHeight: 32, padding: "4px 10px", fontSize: 12 }}
                   onClick={() =>
                     onUpdateProgress(unit.id, unit.domain, {
                       status: progress.status === "mastered" ? "seen" : "mastered",
@@ -304,19 +306,21 @@ export function AnchorScriptsView({
                   }
                   data-testid="toggle-mastered-btn"
                 >
-                  <Check size={14} />
-                  <span>{progress.status === "mastered" ? "Sicher gelernt" : "Als gelernt markieren"}</span>
+                  <Check size={13} />
+                  <span>{progress.status === "mastered" ? "Gelernt ✓" : "Gelernt"}</span>
                 </button>
               </div>
             </div>
 
             <div>
-              <div style={{ fontSize: 12, color: "var(--fg-muted)", fontWeight: 500 }}>
+              <div style={{ fontSize: 11.5, color: "var(--fg-muted)", fontWeight: 500 }}>
                 {unit.chapter_group_title}
               </div>
-              <h1 style={{ margin: "3px 0 5px", fontSize: 24, lineHeight: 1.24 }}>{unit.title}</h1>
+              <h1 style={{ margin: "2px 0 4px", fontSize: "clamp(19px, 2.3vw, 24px)", lineHeight: 1.24 }}>
+                {unit.title}
+              </h1>
               {unit.subtitle && (
-                <div style={{ fontSize: 14, color: "var(--fg-secondary)" }}>{unit.subtitle}</div>
+                <div style={{ fontSize: 13, color: "var(--fg-secondary)" }}>{unit.subtitle}</div>
               )}
             </div>
 

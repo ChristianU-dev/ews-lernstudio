@@ -9,7 +9,7 @@ import {
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import { Drawer } from "vaul";
-import { ArrowRight, Link2, Sparkles, Maximize2, Focus } from "lucide-react";
+import { ArrowDown, ArrowRight, Link2, Sparkles, Maximize2, Network, GitBranch } from "lucide-react";
 import {
   computeFocusStarLayout,
   computeWidescreenLayout,
@@ -22,6 +22,7 @@ function EwsConceptCardNode({ data, selected }) {
     dom === "B" ? "var(--domain-b)" : dom === "C" ? "var(--domain-c)" : "var(--domain-a)";
   const isFocal = Boolean(data.isFocal) || selected;
   const isDimmed = Boolean(data.isDimmed);
+  const isPortrait = Boolean(data.isPortrait);
 
   return (
     <div
@@ -37,7 +38,7 @@ function EwsConceptCardNode({ data, selected }) {
     >
       <Handle
         type="target"
-        position={Position.Left}
+        position={isPortrait ? Position.Top : Position.Left}
         id="left"
         style={{ width: 7, height: 7, background: borderCol, border: "none" }}
       />
@@ -69,7 +70,7 @@ function EwsConceptCardNode({ data, selected }) {
       </div>
       <Handle
         type="source"
-        position={Position.Right}
+        position={isPortrait ? Position.Bottom : Position.Right}
         id="right"
         style={{ width: 7, height: 7, background: borderCol, border: "none" }}
       />
@@ -85,6 +86,31 @@ function shortEdgeLabel(str, max = 21) {
   return s.length > max ? `${s.slice(0, max - 1)}…` : s;
 }
 
+function computePortraitMobileStarLayout(centerNode, sameDom, crossDom) {
+  const result = [];
+  const cardW = 268;
+  const rowGap = 152;
+  let y = 0;
+
+  if (sameDom.length > 0) {
+    sameDom.slice(0, 2).forEach((n, idx, arr) => {
+      const x = (idx - (arr.length - 1) / 2) * (cardW + 24);
+      result.push({ ...n, position: { x, y } });
+    });
+    y += rowGap;
+  }
+
+  result.push({ ...centerNode, position: { x: 0, y } });
+  y += rowGap;
+
+  crossDom.slice(0, 3).forEach((n, idx, arr) => {
+    const x = (idx - (arr.length - 1) / 2) * (cardW + 24);
+    result.push({ ...n, position: { x, y } });
+  });
+
+  return result;
+}
+
 export function KnowledgeGraphView({
   graphData = { nodes: [], edges: [] },
   unitProgressMap = {},
@@ -96,7 +122,18 @@ export function KnowledgeGraphView({
   const [filterMode, setFilterMode] = useState("FOCUS");
   const [selectedNodeId, setSelectedNodeId] = useState(() => allNodes[0]?.id || null);
   const [mobileSheetOpen, setMobileSheetOpen] = useState(false);
+  const [isMobileViewport, setIsMobileViewport] = useState(() =>
+    typeof window !== "undefined" ? window.innerWidth < 960 : false
+  );
+  // Auf dem iPhone standardmäßig der 100 % lesbare vertikale „Vernetzungs-Pfad“ (mit 1-Tap Umschalter zum Canvas!)
+  const [mobileMode, setMobileMode] = useState("PATH");
   const rfInstanceRef = useRef(null);
+
+  useEffect(() => {
+    const onResize = () => setIsMobileViewport(window.innerWidth < 960);
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
 
   const activeNode = useMemo(
     () => allNodes.find((n) => n.id === selectedNodeId) || allNodes[0] || null,
@@ -107,7 +144,7 @@ export function KnowledgeGraphView({
     if (!allNodes.length || !activeNode) return { layoutNodes: [], layoutEdges: [] };
     const focalId = activeNode.id;
 
-    const toRfNode = (n, isFocal = false, isDimmed = false) => {
+    const toRfNode = (n, isFocal = false, isDimmed = false, isPortrait = false) => {
       const isMastered = Object.entries(unitProgressMap).some(
         ([uid, p]) => uid.startsWith(`${n.domain}-`) && p?.status === "mastered"
       );
@@ -119,11 +156,11 @@ export function KnowledgeGraphView({
           mastered: isMastered,
           isFocal,
           isDimmed,
+          isPortrait,
         },
       };
     };
 
-    // MODUS 1: KOLLISIONSFREIES 3-SPALTEN-STERNLAYOUT (FOKUS-NACHBARSCHAFT)
     if (filterMode === "FOCUS") {
       const incidentEdges = allEdges.filter(
         (e) => e.source === focalId || e.target === focalId
@@ -133,62 +170,65 @@ export function KnowledgeGraphView({
         neighborIds.add(e.source === focalId ? e.target : e.source);
       }
       const neighborNodes = allNodes.filter((n) => neighborIds.has(n.id));
+      const usePortrait = isMobileViewport;
+
       const sameDom = neighborNodes
         .filter((n) => n.domain === activeNode.domain)
-        .map((n) => toRfNode(n, false, false));
+        .map((n) => toRfNode(n, false, false, usePortrait));
       const crossDom = neighborNodes
         .filter((n) => n.domain !== activeNode.domain)
-        .map((n) => toRfNode(n, false, false));
-      const center = toRfNode(activeNode, true, false);
+        .map((n) => toRfNode(n, false, false, usePortrait));
+      const center = toRfNode(activeNode, true, false, usePortrait);
 
-      const positioned = computeFocusStarLayout(center, sameDom, crossDom);
+      const positioned = usePortrait
+        ? computePortraitMobileStarLayout(center, sameDom, crossDom)
+        : computeFocusStarLayout(center, sameDom, crossDom);
+
+      const posIdSet = new Set(positioned.map((p) => p.id));
       const sameIdSet = new Set(sameDom.map((n) => n.id));
 
-      // Richte Kanten strikt von links -> Mitte -> rechts aus, damit sie NIEMALS hinter Karten laufen!
-      const starEdges = incidentEdges.map((e) => {
-        const otherId = e.source === focalId ? e.target : e.source;
-        const isLeftNeighbor = sameIdSet.has(otherId);
-        const src = isLeftNeighbor ? otherId : focalId;
-        const tgt = isLeftNeighbor ? focalId : otherId;
-        const isCross = e.bridge_type === "cross_domain";
-        const strokeColor = isCross ? "var(--domain-b)" : "var(--domain-a)";
+      const starEdges = incidentEdges
+        .filter((e) => posIdSet.has(e.source) && posIdSet.has(e.target))
+        .map((e) => {
+          const otherId = e.source === focalId ? e.target : e.source;
+          const isLeftNeighbor = sameIdSet.has(otherId);
+          const src = isLeftNeighbor ? otherId : focalId;
+          const tgt = isLeftNeighbor ? focalId : otherId;
+          const isCross = e.bridge_type === "cross_domain";
+          const strokeColor = isCross ? "var(--domain-b)" : "var(--domain-a)";
 
-        return {
-          id: e.id,
-          source: src,
-          target: tgt,
-          type: "default",
-          label: shortEdgeLabel(e.label, 22),
-          animated: isCross,
-          style: {
-            stroke: strokeColor,
-            strokeWidth: 2,
-          },
-          labelBgPadding: [7, 4],
-          labelBgBorderRadius: 6,
-          labelBgStyle: {
-            fill: "var(--bg-surface)",
-            stroke: "var(--border-strong)",
-            fillOpacity: 0.98,
-          },
-          labelStyle: {
-            fill: "var(--fg)",
-            fontSize: 11,
-            fontWeight: 600,
-          },
-          markerEnd: {
-            type: MarkerType.ArrowClosed,
-            width: 15,
-            height: 15,
-            color: strokeColor,
-          },
-        };
-      });
+          return {
+            id: e.id,
+            source: src,
+            target: tgt,
+            type: "default",
+            label: shortEdgeLabel(e.label, 22),
+            animated: isCross,
+            style: { stroke: strokeColor, strokeWidth: 2 },
+            labelBgPadding: [7, 4],
+            labelBgBorderRadius: 6,
+            labelBgStyle: {
+              fill: "var(--bg-surface)",
+              stroke: "var(--border-strong)",
+              fillOpacity: 0.98,
+            },
+            labelStyle: {
+              fill: "var(--fg)",
+              fontSize: 11,
+              fontWeight: 600,
+            },
+            markerEnd: {
+              type: MarkerType.ArrowClosed,
+              width: 15,
+              height: 15,
+              color: strokeColor,
+            },
+          };
+        });
 
       return { layoutNodes: positioned, layoutEdges: starEdges };
     }
 
-    // MODUS 2: GEBIET A / B / C ODER GESAMTÜBERSICHT (45 KNOTEN)
     const connectedIds = new Set([focalId]);
     for (const e of allEdges) {
       if (e.source === focalId) connectedIds.add(e.target);
@@ -201,7 +241,7 @@ export function KnowledgeGraphView({
     const visibleSet = new Set(visibleRaw.map((n) => n.id));
 
     const mappedNodes = visibleRaw.map((n) =>
-      toRfNode(n, n.id === focalId, filterMode === "ALL" && !connectedIds.has(n.id))
+      toRfNode(n, n.id === focalId, filterMode === "ALL" && !connectedIds.has(n.id), false)
     );
 
     const mappedEdges = allEdges
@@ -219,7 +259,6 @@ export function KnowledgeGraphView({
           source: e.source,
           target: e.target,
           type: "default",
-          // In der Gesamtübersicht keine überlappenden Kanten-Texte — Details stehen klar rechts im Inspektor!
           label: undefined,
           animated: touchesFocal && e.bridge_type === "cross_domain",
           style: {
@@ -238,7 +277,7 @@ export function KnowledgeGraphView({
 
     const positioned = computeWidescreenLayout(mappedNodes, mappedEdges);
     return { layoutNodes: positioned, layoutEdges: mappedEdges };
-  }, [allNodes, allEdges, filterMode, activeNode, unitProgressMap]);
+  }, [allNodes, allEdges, filterMode, activeNode, unitProgressMap, isMobileViewport]);
 
   useEffect(() => {
     const inst = rfInstanceRef.current;
@@ -246,21 +285,20 @@ export function KnowledgeGraphView({
     const timer = setTimeout(() => {
       try {
         if (filterMode === "ALL" && activeNode) {
-          // Im Gesamtnetz auf den aktiven Knoten + seine Brücken-Nachbarn zoomen, damit alles lesbar groß ist!
           const focusSubset = layoutNodes.filter((n) => !n.data?.isDimmed);
           inst.fitView({
             nodes: focusSubset.length >= 2 ? focusSubset : undefined,
             padding: 0.24,
             maxZoom: 0.95,
-            duration: 260,
+            duration: 240,
           });
         } else {
-          inst.fitView({ padding: 0.18, maxZoom: 1.12, duration: 240 });
+          inst.fitView({ padding: 0.16, maxZoom: 1.1, duration: 220 });
         }
       } catch {}
     }, 45);
     return () => clearTimeout(timer);
-  }, [filterMode, activeNode?.id, layoutNodes.length]);
+  }, [filterMode, activeNode?.id, layoutNodes.length, mobileMode]);
 
   const relatedBridges = useMemo(() => {
     if (!activeNode) return [];
@@ -275,6 +313,24 @@ export function KnowledgeGraphView({
         };
       });
   }, [allNodes, allEdges, activeNode]);
+
+  if (!allNodes.length) {
+    return (
+      <div className="lx-card" data-testid="knowledge-graph-view">
+        <h3 style={{ margin: "0 0 6px" }}>Wissensnetz für dieses Fach</h3>
+        <p style={{ margin: 0, color: "var(--fg-secondary)", fontSize: 13.5 }}>
+          Für dieses benutzerdefinierte Fach sind deine Lerneinheiten direkt unter „Skripte“ und „Karten“ verfügbar.
+        </p>
+      </div>
+    );
+  }
+
+  const sameDomainBridges = relatedBridges.filter(
+    (b) => b.otherNode && b.otherNode.domain === activeNode?.domain
+  );
+  const crossDomainBridges = relatedBridges.filter(
+    (b) => !b.otherNode || b.otherNode.domain !== activeNode?.domain
+  );
 
   const renderInspectorContent = (node) => {
     if (!node) return <div style={{ color: "var(--fg-muted)" }}>Knoten auswählen...</div>;
@@ -363,143 +419,233 @@ export function KnowledgeGraphView({
     );
   };
 
+  const showMobilePathView = isMobileViewport && mobileMode === "PATH";
+
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 14 }} data-testid="knowledge-graph-view">
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 12, flexWrap: "wrap" }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: 12 }} data-testid="knowledge-graph-view">
+      {/* Kompakter Kopf */}
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
         <div>
-          <h2 style={{ margin: 0, fontSize: 19 }}>Wissensnetz &amp; Theorie-Brücken (A ↔ B ↔ C)</h2>
-          <p style={{ margin: "3px 0 0", fontSize: 13, color: "var(--fg-muted)" }}>
+          <h2 style={{ margin: 0, fontSize: 18 }}>Wissensnetz &amp; Theorie-Brücken (A ↔ B ↔ C)</h2>
+          <p className="lx-hide-mobile" style={{ margin: "2px 0 0", fontSize: 12.5, color: "var(--fg-muted)" }}>
             Links Nachbarn im selben Skript · Mitte dein Fokus-Konzept · Rechts skriptübergreifende Theorie-Brücken.
           </p>
         </div>
 
-        <div className="lx-segmented">
-          {[
-            { id: "FOCUS", label: "Stern-Fokus" },
-            { id: "A", label: "Gebiet A" },
-            { id: "B", label: "Gebiet B" },
-            { id: "C", label: "Gebiet C" },
-            { id: "ALL", label: "Gesamtnetz (45)" },
-          ].map((f) => (
+        {/* Auf Mobile: Umschalter zwischen Daumen-lesbarem Vernetzungs-Pfad und interaktivem Graph */}
+        {isMobileViewport ? (
+          <div className="lx-segmented" style={{ width: "100%", gridTemplateColumns: "1fr 1fr" }}>
             <button
-              key={f.id}
               type="button"
-              className={`lx-seg-btn ${filterMode === f.id ? "is-active" : ""}`}
-              onClick={() => setFilterMode(f.id)}
+              className={`lx-seg-btn ${mobileMode === "PATH" ? "is-active" : ""}`}
+              onClick={() => setMobileMode("PATH")}
+              data-testid="mobile-graph-mode-path"
             >
-              {f.label}
+              <GitBranch size={13} style={{ marginRight: 5, verticalAlign: "-2px" }} />
+              <span>Vernetzungs-Pfad</span>
             </button>
-          ))}
-        </div>
+            <button
+              type="button"
+              className={`lx-seg-btn ${mobileMode === "CANVAS" ? "is-active" : ""}`}
+              onClick={() => setMobileMode("CANVAS")}
+              data-testid="mobile-graph-mode-canvas"
+            >
+              <Network size={13} style={{ marginRight: 5, verticalAlign: "-2px" }} />
+              <span>Interaktiver Graph</span>
+            </button>
+          </div>
+        ) : (
+          <div className="lx-pill-scroll" style={{ width: "auto" }}>
+            {[
+              { id: "FOCUS", label: "Stern-Fokus" },
+              { id: "A", label: "Gebiet A" },
+              { id: "B", label: "Gebiet B" },
+              { id: "C", label: "Gebiet C" },
+              { id: "ALL", label: `Gesamtnetz (${allNodes.length})` },
+            ].map((f) => (
+              <button
+                key={f.id}
+                type="button"
+                className={`lx-pill-chip ${filterMode === f.id ? "is-active" : ""}`}
+                onClick={() => setFilterMode(f.id)}
+              >
+                {f.label}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
-      {/* Konzept-Wahl (mit minWidth: 0 gegen jeden Mobile-Überlauf!) */}
-      <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap", width: "100%", minWidth: 0 }}>
-        <div style={{ flex: "1 1 260px", minWidth: 0, maxWidth: "100%" }}>
+      {/* Konzept-Wahl */}
+      <div style={{ display: "flex", alignItems: "center", gap: 8, width: "100%", minWidth: 0 }}>
+        <div style={{ flex: 1, minWidth: 0, maxWidth: "100%" }}>
           <Select
             value={activeNode?.id || ""}
             onValueChange={(val) => setSelectedNodeId(val)}
             options={allNodes.map((n) => ({
               value: n.id,
-              label: `[Gebiet ${n.domain}] ${n.label} (${n.page_label.replace("Original-Skript ", "")})`,
+              label: `[${n.domain}] ${n.label} (${(n.page_label || "").replace("Original-Skript ", "")})`,
             }))}
             ariaLabel="Zentrales Konzept im Wissensgraphen auswählen"
           />
         </div>
-        <button
-          type="button"
-          className="lx-btn"
-          onClick={() => rfInstanceRef.current?.fitView({ padding: 0.2, maxZoom: 1.05, duration: 240 })}
-        >
-          <Maximize2 size={14} />
-          <span>Zentrieren</span>
-        </button>
-        {filterMode !== "FOCUS" && (
+        {!showMobilePathView && (
           <button
             type="button"
             className="lx-btn"
-            onClick={() => setFilterMode("FOCUS")}
+            style={{ flexShrink: 0 }}
+            onClick={() => rfInstanceRef.current?.fitView({ padding: 0.18, maxZoom: 1.05, duration: 220 })}
           >
-            <Focus size={14} />
-            <span>Stern-Fokus</span>
+            <Maximize2 size={14} />
+            <span className="lx-hide-mobile">Zentrieren</span>
           </button>
         )}
       </div>
 
-      <div className="lx-graph-layout">
-        <div className="lx-graph-canvas">
-          <ReactFlow
-            nodes={layoutNodes}
-            edges={layoutEdges}
-            nodeTypes={nodeTypes}
-            onInit={(inst) => {
-              rfInstanceRef.current = inst;
-              setTimeout(() => inst.fitView({ padding: 0.2, maxZoom: 1.05 }), 30);
+      {/* MOBILE MODUS 1: 100 % lesbarer vertikaler Vernetzungs-Pfad (Standard auf iPhone!) */}
+      {showMobilePathView && activeNode ? (
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }} data-testid="mobile-vernetzungs-pfad">
+          {/* 1. Verknüpfte Nachbarn im selben Skript */}
+          {sameDomainBridges.length > 0 && (
+            <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+              <span style={{ fontSize: 11, fontWeight: 700, color: "var(--fg-muted)", letterSpacing: "0.05em" }}>
+                IM SELBEN SKRIPT VERKNÜPFT (GEBIET {activeNode.domain})
+              </span>
+              {sameDomainBridges.map((br) => (
+                <button
+                  key={br.id}
+                  type="button"
+                  className={`lx-card lx-card-subtle domain-border-${activeNode.domain}`}
+                  style={{ padding: "10px 13px", textAlign: "left", cursor: "pointer", width: "100%" }}
+                  onClick={() => br.otherNode && setSelectedNodeId(br.otherNode.id)}
+                >
+                  <div style={{ fontWeight: 700, fontSize: 13 }}>{br.otherNode?.label}</div>
+                  <div style={{ fontSize: 11.5, color: "var(--fg-secondary)", marginTop: 2 }}>
+                    {br.label}: {br.explanation}
+                  </div>
+                </button>
+              ))}
+              <div style={{ display: "flex", justifyContent: "center", color: "var(--fg-muted)" }}>
+                <ArrowDown size={16} />
+              </div>
+            </div>
+          )}
+
+          {/* 2. ZENTRALES FOKUS-KONZEPT */}
+          <div
+            className={`lx-card domain-border-${activeNode.domain}`}
+            style={{
+              padding: "15px 16px",
+              display: "flex",
+              flexDirection: "column",
+              gap: 10,
+              boxShadow: "var(--shadow-sm)",
+              borderColor: "var(--border-strong)",
             }}
-            fitView
-            fitViewOptions={{ padding: 0.18, maxZoom: 1.12 }}
-            minZoom={0.16}
-            maxZoom={1.6}
-            onNodeClick={(_, node) => {
-              setSelectedNodeId(node.id);
-              if (window.innerWidth < 960) {
-                setMobileSheetOpen(true);
-              }
-            }}
-            proOptions={{ hideAttribution: true }}
           >
-            <Background gap={24} size={1} color="var(--border-strong)" />
-            <Controls showInteractive={false} />
-          </ReactFlow>
-        </div>
-
-        <aside className="lx-card lx-graph-desktop-inspector" style={{ overflowY: "auto", height: "100%" }}>
-          {renderInspectorContent(activeNode)}
-        </aside>
-      </div>
-
-      {/* Auf dem iPhone direkt lesbare Theorie-Brücken-Liste unter dem Graphen! */}
-      {activeNode && (
-        <div className="lx-card lx-only-mobile" style={{ flexDirection: "column", gap: 10, width: "100%" }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, width: "100%" }}>
-            <div className="min-w-0">
-              <strong style={{ fontSize: 14, display: "block" }}>{activeNode.label}</strong>
-              <span style={{ fontSize: 12, color: "var(--fg-muted)" }}>
-                Tippe eine Brücke an, um direkt weiterzuspringen:
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
+              <span className={`lx-badge domain-badge-${activeNode.domain}`} style={{ fontWeight: 700 }}>
+                Fokus · Gebiet {activeNode.domain} ({activeNode.chapter_ref})
+              </span>
+              <span className="lx-badge" style={{ fontSize: 11 }}>
+                {activeNode.page_label}
               </span>
             </div>
-            <button type="button" className="lx-btn" style={{ minHeight: 36, padding: "4px 10px" }} onClick={() => setMobileSheetOpen(true)}>
-              Details
+
+            <h3 style={{ margin: 0, fontSize: 17, lineHeight: 1.28 }}>{activeNode.label}</h3>
+            <div style={{ fontSize: 13, color: "var(--fg-secondary)", lineHeight: 1.5 }}>{activeNode.summary}</div>
+
+            {activeNode.kunst_sport_hook && (
+              <div className="lx-praxis-card" style={{ padding: "10px 12px", fontSize: 12 }}>
+                <strong style={{ color: "var(--domain-b)" }}>Kunst &amp; Sport:</strong>{" "}
+                <span style={{ color: "var(--fg-secondary)" }}>{activeNode.kunst_sport_hook}</span>
+              </div>
+            )}
+
+            <button
+              type="button"
+              className="lx-btn lx-btn-primary"
+              style={{ width: "100%" }}
+              onClick={() => onJumpToDomainHint(activeNode.domain, `${activeNode.chapter_ref} ${activeNode.label}`)}
+            >
+              <span>1-Seiten-Ankerblatt aufschlagen</span>
+              <ArrowRight size={14} />
             </button>
           </div>
-          {relatedBridges.map((br) => (
-            <button
-              key={br.id}
-              type="button"
-              className="lx-card lx-card-subtle"
-              style={{
-                padding: "10px 12px",
-                display: "flex",
-                flexDirection: "column",
-                gap: 4,
-                textAlign: "left",
-                width: "100%",
-              }}
-              onClick={() => br.otherNode && setSelectedNodeId(br.otherNode.id)}
-            >
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 6, width: "100%" }}>
-                <strong style={{ fontSize: 13 }}>{br.otherNode?.label || br.target}</strong>
-                {br.otherNode && (
-                  <span className={`lx-badge domain-badge-${br.otherNode.domain}`} style={{ fontSize: 10.5, minHeight: 20 }}>
-                    Gebiet {br.otherNode.domain}
-                  </span>
-                )}
+
+          {/* 3. Skriptübergreifende Theorie-Brücken */}
+          {crossDomainBridges.length > 0 && (
+            <div style={{ display: "flex", flexDirection: "column", gap: 7 }}>
+              <div style={{ display: "flex", justifyContent: "center", color: "var(--domain-b)" }}>
+                <ArrowDown size={16} />
               </div>
-              <span style={{ fontSize: 12, color: "var(--fg-secondary)", lineHeight: 1.45 }}>
-                <strong>{br.label}:</strong> {br.explanation}
+              <span style={{ fontSize: 11, fontWeight: 700, color: "var(--domain-b)", letterSpacing: "0.05em" }}>
+                THEORIE-BRÜCKEN IN DIE ANDEREN SKRIPTE ({crossDomainBridges.length})
               </span>
-            </button>
-          ))}
+              {crossDomainBridges.map((br) => (
+                <button
+                  key={br.id}
+                  type="button"
+                  className={`lx-card domain-border-${br.otherNode?.domain || "B"}`}
+                  style={{
+                    padding: "12px 14px",
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: 4,
+                    textAlign: "left",
+                    cursor: "pointer",
+                    width: "100%",
+                  }}
+                  onClick={() => br.otherNode && setSelectedNodeId(br.otherNode.id)}
+                >
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 6, width: "100%" }}>
+                    <strong style={{ fontSize: 13.5 }}>{br.otherNode?.label || br.target}</strong>
+                    {br.otherNode && (
+                      <span className={`lx-badge domain-badge-${br.otherNode.domain}`} style={{ fontSize: 10.5, minHeight: 20 }}>
+                        Gebiet {br.otherNode.domain}
+                      </span>
+                    )}
+                  </div>
+                  <div style={{ fontSize: 12, color: "var(--fg-secondary)", lineHeight: 1.45 }}>
+                    <strong>{br.label}:</strong> {br.explanation}
+                  </div>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      ) : (
+        /* DESKTOP WIDESCREEN GRAPH + OPTIONALER MOBILE PORTRAIT GRAPH */
+        <div className="lx-graph-layout">
+          <div className="lx-graph-canvas">
+            <ReactFlow
+              nodes={layoutNodes}
+              edges={layoutEdges}
+              nodeTypes={nodeTypes}
+              onInit={(inst) => {
+                rfInstanceRef.current = inst;
+                setTimeout(() => inst.fitView({ padding: 0.18, maxZoom: 1.05 }), 30);
+              }}
+              fitView
+              fitViewOptions={{ padding: 0.18, maxZoom: 1.1 }}
+              minZoom={0.2}
+              maxZoom={1.6}
+              onNodeClick={(_, node) => {
+                setSelectedNodeId(node.id);
+                if (window.innerWidth < 960) {
+                  setMobileSheetOpen(true);
+                }
+              }}
+              proOptions={{ hideAttribution: true }}
+            >
+              <Background gap={24} size={1} color="var(--border-strong)" />
+              <Controls showInteractive={false} />
+            </ReactFlow>
+          </div>
+
+          <aside className="lx-card lx-graph-desktop-inspector" style={{ overflowY: "auto", height: "100%" }}>
+            {renderInspectorContent(activeNode)}
+          </aside>
         </div>
       )}
 

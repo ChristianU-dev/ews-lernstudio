@@ -43,10 +43,15 @@
 | `podcasts` | `id` | `unitId`, `domain`, `title`, `blob` (lokales Audio-File für Offline-Zugbetrieb), `mimeType`, `createdAt` |
 | `activityLogs` | `dateKey` (`YYYY-MM-DD`) | `minutesStudied`, `unitsCompleted`, `cardsReviewed`, `examDrills`, `bonusRounds`, `podcastListened`, `updatedAt` |
 | `confusionStats` | `pairId` | `count`, `updatedAt` |
+| `profiles` *(v2)* | `id` | `name`, `subtitle`, `avatarEmoji`, `isProtected` (`true` für Hauptprofil), `googleEmail`, `updatedAt` |
+| `customCourses` *(v2)* | `id` | `profileId`, `title`, `packData` (vollständiges Course-Pack inkl. generierter Ankerblätter & FSRS-Karten), `updatedAt` |
+
+*Hinweis zur Mehr-Profil-Trennung*: Daten des Hauptprofils (`profile-main`) behalten ihre direkten Schlüssel; Zusatzprofile speichern isoliert unter `<profileId>::<key>`, sodass sich mehrere Personen ein Gerät teilen können, ohne jemals Fortschritte zu vermischen.
 
 ---
 
-## 3. Supabase Sync-Tabelle (`public.ews_sync_records`)
+## 3. Supabase Sync-Tabelle (`public.ews_sync_records`) & Google OAuth
 - Zusammengesetzter Primärschlüssel: `(sync_key, collection, record_id)`
+- Unterstützt sowohl **Google OAuth 2.0** (`sync_key = 'google:' || auth.uid()`, per RLS strikt auf den angemeldeten Google-Account isoliert) als auch den schnellen Sync-Code (`char_length(sync_key) >= 8`).
 - `payload` (`jsonb`), `updated_at` (`timestamptz`)
 - Konfliktlösung in `src/lib/syncEngine.js`: Deterministischer **Last-Write-Wins-Abgleich** anhand von `updatedAt` (keine Datenverluste bei abwechselndem Offline-Lernen im Zug und am Laptop).

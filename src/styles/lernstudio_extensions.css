@@ -1,5 +1,5 @@
 /* ==========================================================================
-   EWS-Lernstudio Editorial Layout, Graph Theme & Mobile Refinement
+   EWS-Lernstudio Editorial Layout, Graph Theme & Apple-HIG Mobile Refinement
    ========================================================================== */
 
 /* Gedeckte Gebiets-Akzente (nur als feiner Orientierungsanker, kein Farb-Overload) */
@@ -27,10 +27,10 @@
 .lx-sidebar {
   background: var(--bg-sidebar);
   border-right: 1px solid var(--border);
-  padding: 18px 14px;
+  padding: 16px 14px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
   position: sticky;
   top: 0;
   height: 100dvh;
@@ -73,19 +73,26 @@
   width: 100%;
   max-width: 1520px;
   margin: 0 auto;
-  padding: 26px 32px 96px;
+  padding: 24px 30px 96px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
 }
 .lx-main-workspace.has-audio-dock {
   padding-bottom: 175px;
 }
 
-/* Dashboard & Bento Grids */
+/* Top Hero & Dashboard Bento Grids */
+.lx-top-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.95fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
 .lx-dashboard-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.9fr);
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.95fr);
   gap: 18px;
   align-items: start;
 }
@@ -94,6 +101,114 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
+}
+
+/* 3-Spalten Gebiets-Trio (auch auf iPhone kompakt nebeneinander!) */
+.lx-domain-trio {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+/* 1-Tap Tagesform-Schalter */
+.lx-tagesform-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+  padding: 3px;
+  border-radius: 10px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+}
+.lx-tagesform-btn {
+  min-height: 33px;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--fg-secondary);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+.lx-tagesform-btn.is-active {
+  background: var(--bg-surface);
+  color: var(--fg);
+  box-shadow: var(--shadow-xs);
+}
+
+/* 7-Tage iOS Wochen-Streifen */
+.lx-week-strip {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 5px;
+}
+.lx-week-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 6px 2px;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-subtle);
+  min-width: 0;
+}
+.lx-week-day.is-today {
+  border-color: var(--fg);
+  background: var(--bg-surface);
+}
+.lx-week-day.is-active {
+  background: var(--callout-success-bg);
+  border-color: var(--callout-success-border);
+}
+.lx-week-day.is-shielded {
+  background: var(--callout-warn-bg);
+  border-color: var(--callout-warn-border);
+}
+
+/* Horizontale iOS Pill-Leiste ohne Seiten-Overflow */
+.lx-pill-scroll {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+.lx-pill-scroll::-webkit-scrollbar {
+  display: none;
+}
+.lx-pill-chip {
+  flex-shrink: 0;
+  min-height: 34px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-surface);
+  color: var(--fg-secondary);
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.lx-pill-chip.is-active {
+  background: var(--primary-bg);
+  border-color: var(--primary-bg);
+  color: var(--primary-fg);
 }
 
 /* Skript-Werkbank: Lesbare Kapitelspalte links, ruhiges Editorial-Ankerblatt rechts */
@@ -153,11 +268,11 @@
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: 18px;
-  padding: 28px 32px;
+  padding: 26px 30px;
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 22px;
   min-width: 0;
 }
 
@@ -302,7 +417,7 @@
   font-family: var(--font-sans);
   font-size: 14px;
   line-height: 1.5;
-  padding: 10px 13px;
+  padding: 9px 12px;
   outline: none;
   transition: border-color 120ms ease, box-shadow 120ms ease;
 }
@@ -331,7 +446,7 @@
 }
 .lx-modal-subtitle {
   margin: 4px 0 0;
-  font-size: 13px;
+  font-size: 12.5px;
   color: var(--fg-muted);
 }
 .lx-info-trigger {
@@ -456,7 +571,6 @@
 .lx-graph-canvas .react-flow__controls-button:last-child {
   border-bottom: none !important;
 }
-/* Kanten-Beschriftungen: Sauber in Surface-Farbe statt hartem Weiß! */
 .lx-graph-canvas .react-flow__edge-textbg {
   fill: var(--bg-surface) !important;
   stroke: var(--border-strong) !important;
@@ -507,12 +621,17 @@
   .lx-hide-mobile { display: none !important; }
 
   .lx-main-workspace {
-    padding: 14px 14px calc(98px + env(safe-area-inset-bottom));
-    gap: 16px;
+    padding: 12px 13px calc(98px + env(safe-area-inset-bottom));
+    gap: 13px;
   }
   .lx-main-workspace.has-audio-dock {
     padding-bottom: calc(235px + env(safe-area-inset-bottom));
   }
+  .lx-card {
+    padding: 14px 15px;
+    border-radius: 14px;
+  }
+  .lx-top-hero-grid,
   .lx-dashboard-grid,
   .lx-scripts-workbench,
   .lx-anchor-two-col,
@@ -520,6 +639,7 @@
   .lx-praxis-box,
   .lx-graph-layout {
     grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
   }
   .lx-kpi-row {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -529,17 +649,17 @@
     display: none;
   }
   .lx-anchor-sheet {
-    padding: 18px 16px;
+    padding: 16px 15px;
     border-radius: 15px;
-    gap: 18px;
+    gap: 16px;
   }
   .lx-graph-layout {
     height: auto;
     min-height: 0;
   }
   .lx-graph-canvas {
-    height: 54dvh;
-    min-height: 350px;
+    height: 52dvh;
+    min-height: 360px;
   }
   .lx-graph-desktop-inspector {
     display: none;
@@ -550,24 +670,27 @@
     width: auto;
     bottom: calc(74px + env(safe-area-inset-bottom));
   }
-  /* Segmented Tabs auf dem iPhone sauber in 2 Spalten umbrechen statt Text abzuschneiden! */
   .lx-segmented {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     width: 100%;
-    padding: 4px;
-    gap: 4px;
+    padding: 3px;
+    gap: 3px;
   }
   .lx-segmented.cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .lx-seg-btn {
-    min-height: 38px;
-    padding: 6px 8px;
+    min-height: 36px;
+    padding: 5px 6px;
     font-size: 12px;
     text-align: center;
     white-space: normal;
-    line-height: 1.25;
+    line-height: 1.2;
+  }
+  .lx-tagesform-btn {
+    min-height: 36px;
+    font-size: 11.5px;
   }
 }
 

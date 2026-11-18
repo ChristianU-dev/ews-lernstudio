@@ -703,13 +703,33 @@ def build_handbook_docx(out_file: Path):
             ],
         ),
         (
-            "5. So erstellst du dir in 60 Sekunden echte NotebookLM-Podcasts",
+            "5. So erstellst du dir in 60 Sekunden echte NotebookLM-Podcasts (inkl. Aha-Training!)",
             "ECFDF5",
             (5, 150, 105),
             [
-                "1. Öffne im Lernstudio den Reiter **„Sofa-Podcast-Hub“**, wähle dein Kapitel und klicke auf **„1-Klick Prompt kopieren“**.",
-                "2. Öffne mit deinem Studierenden-Account **notebooklm.google.com**, lade einmalig deine 3 Original-PDFs in ein Notizbuch und füge den kopierten Prompt bei **„Audio-Zusammenfassung anpassen“** ein.",
-                "3. Lade die fertige MP3 herunter und ziehe sie per Maus in dein Lernstudio – schon kannst du sie auf dem Sofa und offline im Zug mit Sperrbildschirm-Steuerung anhören!",
+                "1. Öffne im Lernstudio den Reiter **„Sofa-Podcast-Hub“**, wähle dein Kapitel (oder **„Aha-Training“** für deine persönlichen Wackelkandidaten!) und klicke auf **„1-Klick für NotebookLM kopieren“**. Dein Kapitel-Spickzettel wird automatisch gleich mitkopiert!",
+                "2. Öffne mit deinem Studierenden-Account **notebooklm.google.com**, füge den kopierten Text ein und starte die Audio-Zusammenfassung.",
+                "3. Ziehe die fertige MP3 per Maus in dein Lernstudio – schon kannst du sie auf dem Sofa und offline im Zug über den iPhone-Sperrbildschirm anhören!",
+            ],
+        ),
+        (
+            "6. Tagesringe, Atelier-Garten, Kalender & Fokus-Timer (Motivation ohne Druck!)",
+            "FFFBEB",
+            (180, 83, 9),
+            [
+                "• **Deine 3 Tagesringe & Tagesform-Schalter:** Wähle jeden Tag frei nach deiner Energie zwischen **🛋️ Sanft (15 Min.)**, **✨ Normal (32 Min.)** oder **🚀 Flow (50 Min.)**. Die drei Ringe (Fokuszeit, Ankerblatt, Karten-Abruf) passen sich sofort an!",
+                "• **Wachsender Atelier-Garten & Pausen-Schutzschilde (🛡️):** Mit jeder gehörten Folge, jedem Ankerblatt und jeder Kartenrunde sammelst du Erfahrungspunkte (XP) und lässt deine Atelier-Pflanze vom Samenkorn bis zum goldenen Examens-Hain wachsen. Und das Wichtigste: Freie Tage sind durch **automatische Pausen-Schutzschilde** geschützt – Ruhetage kosten dich niemals deinen Fortschritt!",
+                "• **Mitlernende Examens-Prognose, Kalender (.ics) & Fokus-Timer:** Die App misst sanft dein persönliches Tempo und plant automatisch **8 volle Puffertage** vor deinem Februar-Termin ein. Über den Kalender-Button oben rechts kannst du deinen Prüfungstermin + entspannte Werktags-Etappen per 1-Klick direkt in deinen **iPhone- oder Google-Kalender** eintragen.",
+            ],
+        ),
+        (
+            "7. Dein geschütztes Profil, Google-Login & weitere Studienfächer (Dein dauerhafter Studien-Buddy)",
+            "EFF6FF",
+            (29, 78, 216),
+            [
+                "• **Geschütztes Hauptprofil & eigenes Profil für Christian:** Dein Profil **„Staatsexamen (Kunst & Sport)“** trägt ein festes Schutz-Schloss, damit deine Notizen, Karten und Erfolge niemals versehentlich überschrieben oder gelöscht werden können. Über den Profil-Knopf oben links kann z. B. **Christian** jederzeit sein eigenes, komplett getrenntes Lernprofil anlegen!",
+                "• **Google-Account Cloud-Sicherung:** Unter „Profile & Google-Account“ oder „Downloads & Cloud“ könnt ihr euch optional mit eurem Google-Konto verbinden, um alle Stände zwischen Laptop und iPhone zu synchronisieren.",
+                "• **Für dein gesamtes restliches Studium nutzbar:** Über **„+ Eigenes Lernfach“** kannst du jederzeit neue Fächer anlegen (z. B. *Schulpädagogik*, *Allgemeine Pädagogik*, *Grundschuldidaktik*, *Kunst* oder *Sport*), eigene Vorlesungsnotizen einfügen und per 1-Klick automatisch in visuelle Ankerblätter und FSRS-Karteikarten verwandeln!",
             ],
         ),
     ]

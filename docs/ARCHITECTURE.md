@@ -27,7 +27,10 @@ flowchart LR
    - `examScoring.js`: Bayerische Wahlformat-Auswertung (1 Pkt. SC, 4×0,5 Pkt. MC ohne Minuspunkte, Satzlimit-Zähler inkl. Abkürzungsschutz, Operatoren-Prüfung, 75-%-Offen-Validierung).
    - `fsrsEngine.js`: `ts-fsrs` Algorithmus mit sanftem Tages-Cap gegen Überfälligkeits-Berge nach Pausentagen und Priorisierung von Verwechslungspaaren.
    - `adaptivePlanner.js`: 32-Minuten-Kern-Etappe (Sofa-Start -> 1-Seiten-Ankerblatt -> FSRS -> Prüfungs-Transfer), +12-Min.-Bonus-Etappen, individuelle Bezugsnorm (Rheinberg) und NotebookLM-Prompt-Generator.
-   - `db.js` & `syncEngine.js`: `Dexie` Offline-Speicher (inkl. MP3-Blobs für das Funkloch im Zug) + optionaler konfliktfreier Timestamp-Sync via Supabase Free Tier.
+   - `gamificationEngine.js`: Nicht-strafende Kompetenz-Gamification (XP, 6 Stufen, konzentrische 3-Tagesringe mit Tagesform-Schalter `Sanft 15m` / `Normal 32m` / `Flow 50m`, wachsender botanischer Atelier-Garten, Meilenstein-Abzeichen und automatische Pausen-Schutzschilde).
+   - `learnerIntelligence.js`: Mitlernende Lern-DNA & Prüfungs-Prognose (misst reales Lerntempo je Einheit, plant 8 Puffertage vor dem Februar-Termin ein und generiert persönliche Schwachstellen-Podcast-Prompts).
+   - `calendarExport.js` & `customCourseBuilder.js`: 7-Tage-Wochenstreifen, RFC-5545 `.ics`-Export (Apple/Google Calendar) sowie In-App-Baukasten für beliebige weitere Studienfächer inkl. lokalem 1-Klick Notiz-zu-Ankerblatt-&-Karten-Konverter.
+   - `db.js` & `syncEngine.js`: `Dexie` v2 Multi-Profil-Speicher (ihr Hauptprofil `profile-main` ist fest mit `isProtected: true` geschützt; zusätzliche Profile z. B. für Christian sind 100 % isoliert) + Google-Account OAuth (`signInWithOAuth`) & Timestamp-Sync via Supabase Free Tier.
 4. **Adaptive Dual-Shell UI (`src/design/`, `src/views/`, `src/components/`)**:
    - **PC / 16:10 HiDPI (`>= 960px`)**: Ruhige Seitenleiste, `Ctrl+K`-Befehlspalette, 2-Spalten-Bento-Ankerblätter mit Vektor-SVGs (`VisualDiagramSvg.jsx`), blendfreier Dark-Mode-Rahmen für weiße PDF-Originalgrafiken und großer `@xyflow/react`-Wissensgraph mit Seiten-Inspektor.
    - **iPhone PWA (`< 960px`)**: `viewport-fit=cover`, Safe-Areas, 0 px horizontaler Overflow, fixierte Frosted-Glass-Bottom-Navigation, `vaul`-Bottom-Sheets, `>= 44px` Touch-Buttons, `16px` Inputs und `navigator.mediaSession` Sperrbildschirm-Audioplayer.
