@@ -78,6 +78,9 @@
   flex-direction: column;
   gap: 20px;
 }
+.lx-main-workspace.has-audio-dock {
+  padding-bottom: 175px;
+}
 
 /* Dashboard & Bento Grids */
 .lx-dashboard-grid {
@@ -506,6 +509,9 @@
   .lx-main-workspace {
     padding: 14px 14px calc(98px + env(safe-area-inset-bottom));
     gap: 16px;
+  }
+  .lx-main-workspace.has-audio-dock {
+    padding-bottom: calc(235px + env(safe-area-inset-bottom));
   }
   .lx-dashboard-grid,
   .lx-scripts-workbench,

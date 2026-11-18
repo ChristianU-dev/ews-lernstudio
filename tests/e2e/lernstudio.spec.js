@@ -152,9 +152,13 @@ test.describe("iPhone Native PWA (390x844 @ DPR 3, Safe-Areas, 0px Overflow & Of
     await page.getByTestId("mobile-nav-cards").click();
     await expect(page.getByTestId("active-flashcard")).toBeVisible();
     await expectZeroHorizontalOverflow(page, "iPhone FSRS-Karten");
-    await page.getByTestId("flip-card-btn").click();
+    const flipBtn = page.getByTestId("flip-card-btn");
+    await flipBtn.evaluate((el) => el.scrollIntoView({ block: "center" }));
+    await flipBtn.click();
+    const rateBtn = page.getByTestId("rate-btn-3");
     await expect(page.getByTestId("flashcard-back")).toBeVisible();
-    await page.getByTestId("rate-btn-3").click();
+    await rateBtn.evaluate((el) => el.scrollIntoView({ block: "center" }));
+    await rateBtn.click();
 
     // Examen auf dem iPhone (kein Tabellen-Overflow bei Multiple Choice!)
     await page.getByTestId("mobile-nav-exam").click();

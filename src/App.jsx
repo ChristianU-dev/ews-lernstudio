@@ -434,7 +434,7 @@ export default function App() {
         </header>
 
         {/* Haupt-Arbeitsfläche */}
-        <main className="lx-main-workspace">
+        <main className={`lx-main-workspace ${activeAudioTrack ? "has-audio-dock" : ""}`}>
           {activeView === "today" && (
             <TodayDashboardView
               allUnits={allUnits}
