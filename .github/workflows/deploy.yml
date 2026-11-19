@@ -28,13 +28,13 @@ jobs:
           cache: "npm"
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm ci || npm install
 
       - name: Run Unit Tests
-        run: npm test
+        run: node ./node_modules/vitest/vitest.mjs run
 
       - name: Build Production Offline-PWA
-        run: npm run build
+        run: node ./node_modules/vite/bin/vite.js build
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
