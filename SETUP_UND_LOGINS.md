@@ -6,16 +6,16 @@ Wenn ihr die App zusätzlich kostenlos als **echte Homescreen-App auf dem iPhone
 
 ---
 
-## Schritt 1: Web-App kostenlos auf GitHub Pages veröffentlichen (fürs iPhone)
+## Live-Link für PC & iPhone (Bereits aktiv auf GitHub Pages!)
 
-1. Erstelle auf [github.com/new](https://github.com/new) ein Repository namens **`ews-lernstudio`** (für GitHub Pages im kostenlosen Tarif *Public* wählen – es sind keinerlei persönliche Daten oder Schlüssel im Code enthalten).
-2. Öffne auf dem Windows-PC PowerShell im Ordner `C:\EWS-Lernstudio` und führe diesen **1-Zeilen-Push** aus (ersetze `<DEIN-GITHUB-NAME>`):
-   ```powershell
-   git remote add origin https://github.com/<DEIN-GITHUB-NAME>/ews-lernstudio.git; git push -u origin main
-   ```
-3. Klicke auf GitHub im Repo auf **Settings → Pages → Build and deployment → Source: „GitHub Actions“**.
-4. Nach ca. 60 Sekunden ist die App unter `https://<DEIN-GITHUB-NAME>.github.io/ews-lernstudio/` live!
-5. **Auf dem iPhone installieren**: Öffne den Link einmal in **Safari** → tippe unten auf **Teilen** → **„Zum Home-Bildschirm“**. Ab sofort startet das Lernstudio wie eine native iOS-App im Vollbild – auch **komplett offline im Zug**!
+Die App ist fertig veröffentlicht und läuft dauerhaft über HTTPS (komplett ohne `localhost` oder offenen PC):
+
+- **Live-App URL:** https://christianu-dev.github.io/ews-lernstudio/
+- **GitHub-Repository:** https://github.com/ChristianU-dev/ews-lernstudio *(jedes zukünftige `git push` aktualisiert die Live-App automatisch)*
+
+### Auf den Homescreen legen (1 Klick, ohne Terminal):
+1. **Auf dem iPhone**: Link in **Safari** öffnen → unten auf **Teilen** (`↑`) tippen → **„Zum Home-Bildschirm“** → **Hinzufügen**.
+2. **Auf dem Windows-PC**: Link in **Edge oder Chrome** öffnen → rechts oben in der Adressleiste auf das kleine **„App installieren“-Symbol** klicken → Haken bei **„Desktopverknüpfung erstellen“** setzen → **Installieren**. *(Alternativ liegt auch [EWS Lernstudio starten.url](file:///c:/EWS-Lernstudio/EWS%20Lernstudio%20starten.url) im Projektordner.)*
 
 ---
 
