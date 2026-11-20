@@ -477,10 +477,10 @@ export function KnowledgeGraphView({
             }}
           >
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
+              <span className="lx-badge lx-badge-lilac">2. Aktives Fokus-Thema</span>
               <span className={`lx-badge domain-badge-${activeNode.domain}`} style={{ fontWeight: 700 }}>
                 Gebiet {activeNode.domain} · {activeNode.chapter_ref}
               </span>
-              <span className="lx-badge lx-badge-lilac">Aktives Zentrum</span>
               <span className="lx-badge">{activeNode.page_label}</span>
             </div>
 

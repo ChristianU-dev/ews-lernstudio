@@ -77,7 +77,7 @@ export function MasteryRingsSummary({
             {streakInfo.streakDays > 0 ? (
               <>
                 <Flame size={11} style={{ color: "var(--domain-c)" }} />
-                <span>{streakInfo.streakDays} Tage</span>
+                <span>{streakInfo.streakDays === 1 ? "1 Tag" : `${streakInfo.streakDays} Tage`}</span>
               </>
             ) : (
               <>
@@ -169,7 +169,7 @@ export function AtelierGardenCard({ levelInfo, streakInfo, achievements = [], co
           <Sparkles size={14} style={{ color: "var(--lilac)" }} />
           <span>Dein Atelier-Garten ({levelInfo.plantStage})</span>
         </strong>
-        <span className="lx-badge lx-badge-lilac" style={{ fontSize: 11 }}>
+        <span className="lx-badge lx-badge-lilac" style={{ fontSize: 11, whiteSpace: "nowrap", flexShrink: 0 }}>
           {unlockedCount}/{achievements.length} Abzeichen
         </span>
       </div>

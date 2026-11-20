@@ -143,13 +143,13 @@ export function PodcastHubView({
             <div className="lx-card" style={{ padding: "10px 12px" }}>
               <strong style={{ color: "var(--lilac)" }}>Schritt 1 · Einmalig Quellen anlegen:</strong>
               <div>
-                Öffne <strong>notebooklm.google.com</strong> → <em>„Neues Notizbuch“</em> → lade deine 3 Skript-PDFs aus <code>01_skripte/</code> hoch (<em>Lernen &amp; Lehren</em>, <em>Entwicklungspsychologie</em>, <em>Diagnostik</em>) – oder nutze unsere <strong>Hochformat-PDFs</strong> aus „Downloads &amp; Cloud“.
+                Öffne <strong>notebooklm.google.com</strong> → <em>„Neues Notizbuch“</em> → lade deine 3 Skript-PDFs aus <code>01_skripte/</code> hoch (<em>Lernen &amp; Lehren</em>, <em>Entwicklungspsychologie</em>, <em>Diagnostik</em>) – oder nutze unsere <strong>Hochformat-PDFs</strong> unter „PDFs, App-Starter &amp; Sync“.
               </div>
             </div>
             <div className="lx-card" style={{ padding: "10px 12px" }}>
               <strong style={{ color: "var(--domain-a)" }}>Schritt 2 · Prompt einfügen &amp; generieren:</strong>
               <div>
-                Hake links in NotebookLM nur das gewünschte Skript an, klicke bei <strong>Audio-Zusammenfassung → Anpassen</strong> und füge deinen kopierten Prompt unten ein. <em>(Alternativ: Unten rechts „Kapitel-Text separat kopieren“ als eigene Quelle einfügen!)</em>
+                Hake links in NotebookLM nur das gewünschte Skript an, klicke bei <strong>Audio-Zusammenfassung → Anpassen</strong> und füge deinen kopierten Prompt unten ein. <em>(Alternativ: Unten „Kapitel-Text kopieren“ anklicken und als einzelne Quelle in NotebookLM einfügen!)</em>
               </div>
             </div>
             <div className="lx-card" style={{ padding: "10px 12px" }}>

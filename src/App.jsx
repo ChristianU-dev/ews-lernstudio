@@ -490,7 +490,7 @@ export default function App() {
 
   return (
     <>
-      <Toaster position="top-right" richColors />
+      <Toaster position="top-center" richColors />
       <div className="lx-app-shell">
         {/* PC WIDESCREEN SEITENLEISTE (>= 960px) */}
         <aside className="lx-sidebar" data-testid="desktop-sidebar">
@@ -708,6 +708,15 @@ export default function App() {
 
         {/* HAUPT-ARBEITSFLÄCHE */}
         <main className={`lx-main-workspace ${activeAudioTrack ? "has-audio-dock" : ""}`}>
+          <AudioMiniDock
+            activeTrack={activeAudioTrack}
+            onClose={() => setActiveAudioTrack(null)}
+            onCompleteTrack={async () => {
+              await logStudyActivity({ minutesStudied: 6, podcastListened: true }, new Date(), activeProfileId);
+              const slice = await loadProfileDataSlice(activeProfileId);
+              setActivityLogs(slice.activityLogs);
+            }}
+          />
           {activeView === "today" && (
             <TodayDashboardView
               allUnits={allUnits}
@@ -931,16 +940,6 @@ export default function App() {
             </Drawer.Content>
           </Drawer.Portal>
         </Drawer.Root>
-
-        <AudioMiniDock
-          activeTrack={activeAudioTrack}
-          onClose={() => setActiveAudioTrack(null)}
-          onCompleteTrack={async () => {
-            await logStudyActivity({ minutesStudied: 6, podcastListened: true }, new Date(), activeProfileId);
-            const slice = await loadProfileDataSlice(activeProfileId);
-            setActivityLogs(slice.activityLogs);
-          }}
-        />
 
         <FocusTimerModal
           open={focusTimerOpen}

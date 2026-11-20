@@ -143,7 +143,7 @@ export function AudioMiniDock({ activeTrack, onClose, onCompleteTrack }) {
           if (audioRef.current) audioRef.current.currentTime = val;
         }}
         aria-label="Wiedergabeposition"
-        style={{ width: "100%", accentColor: "var(--domain-a)", cursor: "pointer" }}
+        style={{ width: "100%", accentColor: "var(--lilac)", cursor: "pointer" }}
       />
 
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 6 }}>
