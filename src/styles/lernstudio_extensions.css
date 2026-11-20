@@ -1,8 +1,15 @@
 /* ==========================================================================
-   EWS-Lernstudio Editorial Layout, Graph Theme & Apple-HIG Mobile Refinement
+   EWS-Lernstudio Visual-Learner Layout, Colored Categories & Blätter-Modus
    ========================================================================== */
 
-/* Gedeckte Gebiets-Akzente (nur als feiner Orientierungsanker, kein Farb-Overload) */
+/* Marken-Lila & Gebiets-Akzente */
+.lx-badge-lilac {
+  background: var(--lilac-soft);
+  border-color: var(--lilac-border);
+  color: var(--lilac);
+  font-weight: 700;
+}
+
 .domain-badge-A {
   background: var(--domain-a-soft);
   border-color: var(--domain-a-border);
@@ -19,18 +26,104 @@
   color: var(--domain-c);
 }
 
-.domain-border-A { border-left: 3.5px solid var(--domain-a) !important; }
-.domain-border-B { border-left: 3.5px solid var(--domain-b) !important; }
-.domain-border-C { border-left: 3.5px solid var(--domain-c) !important; }
+.domain-border-A { border-left: 4px solid var(--domain-a) !important; }
+.domain-border-B { border-left: 4px solid var(--domain-b) !important; }
+.domain-border-C { border-left: 4px solid var(--domain-c) !important; }
 
-/* Ruhige PC-Seitenleiste */
+/* 6 Überpunkt-Farbgruppen (damit Hauptthemen sofort ins Auge springen!) */
+.lx-grp-badge-0 { background: var(--grp-0-soft); border-color: var(--grp-0); color: var(--grp-0); font-weight: 700; }
+.lx-grp-badge-1 { background: var(--grp-1-soft); border-color: var(--grp-1); color: var(--grp-1); font-weight: 700; }
+.lx-grp-badge-2 { background: var(--grp-2-soft); border-color: var(--grp-2); color: var(--grp-2); font-weight: 700; }
+.lx-grp-badge-3 { background: var(--grp-3-soft); border-color: var(--grp-3); color: var(--grp-3); font-weight: 700; }
+.lx-grp-badge-4 { background: var(--grp-4-soft); border-color: var(--grp-4); color: var(--grp-4); font-weight: 700; }
+.lx-grp-badge-5 { background: var(--grp-5-soft); border-color: var(--grp-5); color: var(--grp-5); font-weight: 700; }
+
+/* Semantische Kategorien-Karten für visuelles Seitengedächtnis */
+.lx-cat-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 11px;
+  border-radius: 8px;
+  font-size: 11.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+.lx-cat-merksatz {
+  background: var(--cat-merksatz-bg);
+  border: 1.5px solid var(--cat-merksatz-border);
+  border-left: 5px solid var(--lilac);
+  border-radius: 13px;
+  padding: 14px 17px;
+}
+.lx-cat-merksatz .lx-cat-banner { background: var(--lilac-soft); color: var(--cat-merksatz-fg); }
+
+.lx-cat-def {
+  background: var(--cat-def-bg);
+  border: 1px solid var(--cat-def-border);
+  border-left: 4px solid var(--domain-a);
+  border-radius: 12px;
+  padding: 13px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.lx-cat-kern {
+  background: var(--cat-kern-bg);
+  border: 1px solid var(--cat-kern-border);
+  border-top: 3.5px solid var(--grp-5);
+  border-radius: 13px;
+  padding: 15px 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lx-cat-empirie {
+  background: var(--cat-empirie-bg);
+  border: 1px solid var(--cat-empirie-border);
+  border-left: 4px solid var(--domain-c);
+  border-radius: 12px;
+  padding: 13px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.lx-cat-praxis {
+  background: var(--cat-praxis-bg);
+  border: 1px solid var(--cat-praxis-border);
+  border-left: 4px solid var(--domain-b);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.lx-cat-check {
+  background: var(--cat-check-bg);
+  border: 1px solid var(--cat-check-border);
+  border-left: 4px solid var(--grp-4);
+  border-radius: 13px;
+  padding: 15px 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* PC-Seitenleiste */
 .lx-sidebar {
   background: var(--bg-sidebar);
   border-right: 1px solid var(--border);
   padding: 16px 14px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 11px;
   position: sticky;
   top: 0;
   height: 100dvh;
@@ -45,7 +138,7 @@
   gap: 10px;
   min-height: 38px;
   padding: 6px 11px;
-  border-radius: 9px;
+  border-radius: 10px;
   border: 1px solid transparent;
   background: transparent;
   color: var(--fg-secondary);
@@ -61,53 +154,62 @@
   color: var(--fg);
 }
 .lx-nav-item.is-active {
-  background: var(--bg-surface);
-  border-color: var(--border);
-  color: var(--fg);
-  font-weight: 600;
+  background: var(--lilac-soft);
+  border-color: var(--lilac-border);
+  color: var(--lilac);
+  font-weight: 700;
   box-shadow: var(--shadow-xs);
 }
 
 .lx-main-workspace {
   min-width: 0;
   width: 100%;
-  max-width: 1520px;
+  max-width: 1460px;
   margin: 0 auto;
-  padding: 24px 30px 96px;
+  padding: 20px 26px 88px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 16px;
 }
 .lx-main-workspace.has-audio-dock {
   padding-bottom: 175px;
 }
 
-/* Top Hero & Dashboard Bento Grids */
-.lx-top-hero-grid {
+/* Dashboard Bento Grids — gleiche Höhe (stretch) gegen weißen/schwarzen Leerraum! */
+.lx-dashboard-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.95fr);
-  gap: 16px;
+  gap: 18px;
   align-items: stretch;
 }
 
-.lx-dashboard-grid {
+.lx-bridge-grid-3col {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.95fr);
-  gap: 18px;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 14px;
   align-items: start;
 }
 
-.lx-kpi-row {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
+/* Live-Lernuhr Badge */
+.lx-clock-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 4px 11px;
+  border-radius: 999px;
+  border: 1.5px solid var(--border-strong);
+  background: var(--bg-surface);
+  color: var(--fg);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
 }
-
-/* 3-Spalten Gebiets-Trio (auch auf iPhone kompakt nebeneinander!) */
-.lx-domain-trio {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px;
+.lx-clock-pill.is-running {
+  background: var(--lilac-soft);
+  border-color: var(--lilac);
+  color: var(--lilac);
 }
 
 /* 1-Tap Tagesform-Schalter */
@@ -116,35 +218,35 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 4px;
   padding: 3px;
-  border-radius: 10px;
+  border-radius: 11px;
   background: var(--bg-subtle);
   border: 1px solid var(--border);
 }
 .lx-tagesform-btn {
-  min-height: 33px;
-  padding: 4px 6px;
+  min-height: 34px;
+  padding: 4px 8px;
   border: none;
-  border-radius: 7px;
+  border-radius: 8px;
   background: transparent;
   color: var(--fg-secondary);
   font-family: var(--font-sans);
-  font-size: 12px;
+  font-size: 12.5px;
   font-weight: 600;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
+  gap: 5px;
   cursor: pointer;
   white-space: nowrap;
-  transition: background-color 120ms ease, color 120ms ease;
 }
 .lx-tagesform-btn.is-active {
-  background: var(--bg-surface);
-  color: var(--fg);
+  background: var(--lilac);
+  color: #ffffff;
+  font-weight: 700;
   box-shadow: var(--shadow-xs);
 }
 
-/* 7-Tage iOS Wochen-Streifen */
+/* 7-Tage Wochen-Streifen */
 .lx-week-strip {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
@@ -163,7 +265,7 @@
   min-width: 0;
 }
 .lx-week-day.is-today {
-  border-color: var(--fg);
+  border: 2px solid var(--lilac);
   background: var(--bg-surface);
 }
 .lx-week-day.is-active {
@@ -175,7 +277,7 @@
   border-color: var(--callout-warn-border);
 }
 
-/* Horizontale iOS Pill-Leiste ohne Seiten-Overflow */
+/* Horizontale iOS / Blätter-Schritt Pill-Leiste */
 .lx-pill-scroll {
   display: flex;
   align-items: center;
@@ -200,114 +302,62 @@
   background: var(--bg-surface);
   color: var(--fg-secondary);
   font-family: var(--font-sans);
-  font-size: 12.5px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 700;
   cursor: pointer;
   white-space: nowrap;
 }
 .lx-pill-chip.is-active {
-  background: var(--primary-bg);
-  border-color: var(--primary-bg);
-  color: var(--primary-fg);
+  background: var(--lilac);
+  border-color: var(--lilac);
+  color: #ffffff;
 }
 
-/* Skript-Werkbank: Lesbare Kapitelspalte links, ruhiges Editorial-Ankerblatt rechts */
-.lx-scripts-workbench {
-  display: grid;
-  grid-template-columns: 296px minmax(0, 1fr);
-  gap: 22px;
-  align-items: start;
-}
-
-.lx-chapter-rail {
-  position: sticky;
-  top: 18px;
-  max-height: calc(100dvh - 36px);
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding: 14px 12px;
-}
-
-.lx-chapter-btn {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 8px;
-  width: 100%;
-  padding: 8px 10px;
-  border-radius: 9px;
-  border: 1px solid transparent;
-  background: transparent;
-  color: var(--fg-secondary);
-  cursor: pointer;
-  text-align: left;
-  transition: background-color 120ms ease;
-}
-.lx-chapter-btn:hover {
-  background: var(--bg-subtle);
-  color: var(--fg);
-}
-.lx-chapter-btn.is-selected {
-  background: var(--bg-subtle);
-  border-color: var(--border-strong);
-  color: var(--fg);
-}
-.lx-chapter-title {
-  font-size: 12.5px;
-  line-height: 1.35;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* Das 1-Seiten-Ankerblatt: Ruhige Buch-/Magazin-Ästhetik statt blauer Kastenflut */
+/* Skript-Buchblatt: Nutzt den kompletten verfügbaren Raum harmonisch */
 .lx-anchor-sheet {
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: 18px;
-  padding: 26px 30px;
+  padding: 22px 26px;
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 18px;
   min-width: 0;
 }
 
 .lx-anchor-two-col {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  gap: 14px;
   align-items: stretch;
 }
 
 .lx-sections-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   gap: 14px;
   align-items: stretch;
 }
 
 .lx-section-kicker {
   margin: 0 0 10px;
-  font-size: 11.5px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--fg-muted);
+  color: var(--lilac);
   display: flex;
   align-items: center;
   gap: 7px;
 }
 
-/* Ruhige Definitions-Karte: Warmes Papier + feine linke Akzentlinie statt blauem Vollkasten */
+/* Ruhige abwärtskompatible Box-Klassen */
 .lx-def-box {
-  background: var(--bg-subtle);
-  border: 1px solid var(--border-subtle);
-  border-left: 3px solid var(--fg-muted);
-  border-radius: 11px;
+  background: var(--cat-def-bg);
+  border: 1px solid var(--cat-def-border);
+  border-left: 4px solid var(--domain-a);
+  border-radius: 12px;
   padding: 13px 16px;
   display: flex;
   flex-direction: column;
@@ -317,26 +367,26 @@
 .lx-def-box.dom-B { border-left-color: var(--domain-b); }
 .lx-def-box.dom-C { border-left-color: var(--domain-c); }
 
-/* Ruhige Empirie-Karte */
 .lx-empirie-box {
-  background: var(--callout-warn-bg);
-  border: 1px solid var(--callout-warn-border);
-  border-radius: 11px;
+  background: var(--cat-empirie-bg);
+  border: 1px solid var(--cat-empirie-border);
+  border-left: 4px solid var(--domain-c);
+  border-radius: 12px;
   padding: 13px 16px;
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-/* Grundschul-Praxisbox (Kunst & Sport) */
 .lx-praxis-box {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
 }
 .lx-praxis-card {
-  background: var(--callout-success-bg);
-  border: 1px solid var(--callout-success-border);
+  background: var(--cat-praxis-bg);
+  border: 1px solid var(--cat-praxis-border);
+  border-left: 4px solid var(--domain-b);
   border-radius: 12px;
   padding: 14px 16px;
   display: flex;
@@ -344,7 +394,7 @@
   gap: 6px;
 }
 
-/* Blendfreie Darstellung weißer Original-PDF-Grafiken im Light- & Dark-Mode */
+/* Blendfreie Darstellung weißer Original-PDF-Grafiken */
 .lx-orig-figure-frame {
   background: #f7f6f2;
   border: 1px solid var(--border);
@@ -362,15 +412,12 @@
 }
 .lx-orig-figure-frame img {
   max-width: 100%;
-  max-height: 280px;
+  max-height: 270px;
   width: auto;
   height: auto;
   object-fit: contain;
   display: block;
   border-radius: 6px;
-}
-[data-theme="dark"] .lx-orig-figure-frame img {
-  filter: brightness(0.94) contrast(1.03);
 }
 
 /* Tabellen */
@@ -397,9 +444,9 @@
   line-height: 1.5;
 }
 .lx-table th {
-  background: var(--bg-subtle);
+  background: var(--lilac-soft);
   color: var(--fg);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 12px;
 }
 .lx-table tr:last-child td {
@@ -423,8 +470,8 @@
 }
 .lx-input:focus,
 .lx-textarea:focus {
-  border-color: var(--fg-muted);
-  box-shadow: 0 0 0 3px var(--accent-soft);
+  border-color: var(--lilac);
+  box-shadow: 0 0 0 3px var(--lilac-soft);
 }
 
 /* Tooltip, Modal Titles & Info Trigger */
@@ -438,103 +485,45 @@
   max-width: 260px;
   box-shadow: var(--shadow-sm);
 }
-.lx-modal-title {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--fg);
-}
-.lx-modal-subtitle {
-  margin: 4px 0 0;
-  font-size: 12.5px;
-  color: var(--fg-muted);
-}
+.lx-modal-title { margin: 0; font-size: 16px; font-weight: 700; color: var(--fg); }
+.lx-modal-subtitle { margin: 4px 0 0; font-size: 12.5px; color: var(--fg-muted); }
 .lx-info-trigger {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px;
-  height: 22px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--bg-subtle);
-  color: var(--fg-secondary);
-  cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--bg-subtle); color: var(--fg-secondary); cursor: pointer;
 }
 
 /* Command Palette (cmdk) */
 .lx-cmdk-dialog [cmdk-input] {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid var(--border);
-  background: transparent;
-  color: var(--fg);
-  padding: 15px 16px;
-  font-size: 15px;
-  outline: none;
+  width: 100%; border: none; border-bottom: 1px solid var(--border);
+  background: transparent; color: var(--fg); padding: 15px 16px; font-size: 15px; outline: none;
 }
-.lx-cmdk-list {
-  max-height: 360px;
-  overflow-y: auto;
-  padding: 8px;
-}
+.lx-cmdk-list { max-height: 360px; overflow-y: auto; padding: 8px; }
 .lx-cmdk-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 9px 12px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 13px;
-  color: var(--fg);
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; padding: 9px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; color: var(--fg);
 }
-.lx-cmdk-item[data-selected="true"] {
-  background: var(--bg-subtle);
-  color: var(--fg);
-}
+.lx-cmdk-item[data-selected="true"] { background: var(--lilac-soft); color: var(--lilac); font-weight: 600; }
 
 /* Vaul Bottom-Sheet */
-.lx-vaul-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 1100;
-  background: var(--overlay-bg);
-}
+.lx-vaul-overlay { position: fixed; inset: 0; z-index: 1100; background: var(--overlay-bg); }
 .lx-vaul-content {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1110;
-  max-height: 86dvh;
-  background: var(--bg-surface);
-  border-top: 1px solid var(--border-strong);
-  border-radius: 20px 20px 0 0;
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 1110; max-height: 86dvh;
+  background: var(--bg-surface); border-top: 1px solid var(--border-strong); border-radius: 20px 20px 0 0;
   padding: 12px 16px calc(20px + env(safe-area-inset-bottom));
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  box-shadow: var(--shadow-lg);
+  display: flex; flex-direction: column; gap: 12px; box-shadow: var(--shadow-lg);
 }
 .lx-vaul-handle {
-  width: 40px;
-  height: 5px;
-  border-radius: 999px;
-  background: var(--border-strong);
-  margin: 0 auto 4px;
-  flex-shrink: 0;
+  width: 40px; height: 5px; border-radius: 999px; background: var(--border-strong); margin: 0 auto 4px; flex-shrink: 0;
 }
 
-/* ==========================================================================
-   REACT FLOW WISSENSGRAPH — 100% Dark-/Light-Mode nativ (KEINE weißen Boxen!)
-   ========================================================================== */
+/* REACT FLOW WISSENSGRAPH */
 .lx-graph-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 368px;
   gap: 16px;
-  height: calc(100dvh - 150px);
-  min-height: 560px;
+  height: calc(100dvh - 180px);
+  min-height: 520px;
 }
 .lx-graph-canvas {
   background: var(--bg-subtle);
@@ -542,80 +531,48 @@
   border-radius: 16px;
   overflow: hidden;
   height: 100%;
-  min-height: 480px;
+  min-height: 460px;
   position: relative;
 }
-
-.lx-graph-canvas .react-flow__pane {
-  cursor: grab;
-}
+.lx-graph-canvas .react-flow__pane { cursor: grab; }
 .lx-graph-canvas .react-flow__controls {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-strong);
-  border-radius: 10px;
-  box-shadow: var(--shadow-sm);
-  overflow: hidden;
+  background: var(--bg-surface); border: 1px solid var(--border-strong); border-radius: 10px;
+  box-shadow: var(--shadow-sm); overflow: hidden;
 }
 .lx-graph-canvas .react-flow__controls-button {
-  background: var(--bg-surface) !important;
-  border-bottom: 1px solid var(--border) !important;
-  fill: var(--fg-secondary) !important;
-  color: var(--fg-secondary) !important;
-  width: 30px;
-  height: 30px;
+  background: var(--bg-surface) !important; border-bottom: 1px solid var(--border) !important;
+  fill: var(--fg-secondary) !important; color: var(--fg-secondary) !important; width: 30px; height: 30px;
 }
-.lx-graph-canvas .react-flow__controls-button:hover {
-  background: var(--bg-subtle) !important;
-  fill: var(--fg) !important;
-}
-.lx-graph-canvas .react-flow__controls-button:last-child {
-  border-bottom: none !important;
-}
+.lx-graph-canvas .react-flow__controls-button:hover { background: var(--bg-subtle) !important; fill: var(--fg) !important; }
+.lx-graph-canvas .react-flow__controls-button:last-child { border-bottom: none !important; }
 .lx-graph-canvas .react-flow__edge-textbg {
-  fill: var(--bg-surface) !important;
-  stroke: var(--border-strong) !important;
-  stroke-width: 1px;
-  rx: 6px;
-  ry: 6px;
+  fill: var(--bg-surface) !important; stroke: var(--border-strong) !important; stroke-width: 1px; rx: 6px; ry: 6px;
 }
 .lx-graph-canvas .react-flow__edge-text {
-  fill: var(--fg) !important;
-  font-family: var(--font-sans) !important;
-  font-size: 11px !important;
-  font-weight: 600 !important;
+  fill: var(--fg) !important; font-family: var(--font-sans) !important; font-size: 11px !important; font-weight: 600 !important;
 }
 
 /* Globaler Mini-Audioplayer */
 .lx-audio-dock {
-  position: fixed;
-  right: 22px;
-  bottom: 20px;
-  z-index: 940;
-  width: min(430px, calc(100vw - 24px));
-  background: var(--nav-glass);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  border: 1px solid var(--border-strong);
-  border-radius: 15px;
-  padding: 12px 15px;
-  box-shadow: var(--shadow-lg);
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  position: fixed; right: 22px; bottom: 20px; z-index: 940; width: min(430px, calc(100vw - 24px));
+  background: var(--nav-glass); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+  border: 1.5px solid var(--lilac-border); border-radius: 15px; padding: 12px 15px; box-shadow: var(--shadow-lg);
+  display: flex; flex-direction: column; gap: 8px;
 }
 
-/* Desktop vs. Mobile Sichtbarkeits-Helfer */
 .lx-only-mobile { display: none; }
 
-@media (max-width: 1240px) {
+/* Portrait Convertible Tablet & Kleine Laptops (max 1024px) */
+@media (max-width: 1024px) {
+  .lx-dashboard-grid,
+  .lx-bridge-grid-3col,
   .lx-anchor-two-col {
     grid-template-columns: minmax(0, 1fr);
-  }
-  .lx-scripts-workbench {
-    grid-template-columns: 248px minmax(0, 1fr);
+    gap: 14px;
   }
 }
 
+/* iPhone / Kompakte Hochformat-Screens (< 960px) */
 @media (max-width: 959px) {
   .lx-only-mobile { display: inline-flex; }
   .lx-hide-mobile { display: none !important; }
@@ -631,95 +588,45 @@
     padding: 14px 15px;
     border-radius: 14px;
   }
-  .lx-top-hero-grid,
-  .lx-dashboard-grid,
-  .lx-scripts-workbench,
-  .lx-anchor-two-col,
   .lx-sections-grid,
   .lx-praxis-box,
   .lx-graph-layout {
     grid-template-columns: minmax(0, 1fr);
     gap: 12px;
   }
-  .lx-kpi-row {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
-  }
-  .lx-chapter-rail {
-    display: none;
-  }
   .lx-anchor-sheet {
     padding: 16px 15px;
     border-radius: 15px;
-    gap: 16px;
+    gap: 15px;
   }
-  .lx-graph-layout {
-    height: auto;
-    min-height: 0;
-  }
-  .lx-graph-canvas {
-    height: 52dvh;
-    min-height: 360px;
-  }
-  .lx-graph-desktop-inspector {
-    display: none;
-  }
+  .lx-graph-layout { height: auto; min-height: 0; }
+  .lx-graph-canvas { height: 50dvh; min-height: 340px; }
+  .lx-graph-desktop-inspector { display: none; }
   .lx-audio-dock {
-    left: 10px;
-    right: 10px;
-    width: auto;
-    bottom: calc(74px + env(safe-area-inset-bottom));
+    left: 10px; right: 10px; width: auto; bottom: calc(74px + env(safe-area-inset-bottom));
   }
   .lx-segmented {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    width: 100%;
-    padding: 3px;
-    gap: 3px;
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; padding: 3px; gap: 3px;
   }
   .lx-segmented.cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .lx-seg-btn {
-    min-height: 36px;
-    padding: 5px 6px;
-    font-size: 12px;
-    text-align: center;
-    white-space: normal;
-    line-height: 1.2;
+    min-height: 36px; padding: 5px 6px; font-size: 12px; text-align: center; white-space: normal; line-height: 1.2;
   }
   .lx-tagesform-btn {
-    min-height: 36px;
-    font-size: 11.5px;
+    min-height: 36px; font-size: 11.5px;
   }
 }
 
 @media (max-width: 640px) {
-  .lx-hero-btn {
-    width: 100%;
-  }
+  .lx-hero-btn { width: 100%; }
 }
 
-/* Sauberer 1-Seiten-Ankerblatt Ausdruck */
 @media print {
-  .lx-sidebar,
-  .lx-mobile-topbar,
-  .lx-mobile-bottom-nav,
-  .lx-chapter-rail,
-  .lx-audio-dock,
-  .no-print {
-    display: none !important;
+  .lx-sidebar, .lx-mobile-topbar, .lx-mobile-bottom-nav, .lx-audio-dock, .no-print { display: none !important; }
+  html, body, #root, .lx-app-shell, .lx-main-workspace {
+    display: block !important; background: #fff !important; color: #000 !important; padding: 0 !important; margin: 0 !important;
   }
-  html, body, #root, .lx-app-shell, .lx-main-workspace, .lx-scripts-workbench {
-    display: block !important;
-    background: #fff !important;
-    color: #000 !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  .lx-anchor-sheet {
-    border: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-  }
+  .lx-anchor-sheet { border: none !important; box-shadow: none !important; padding: 0 !important; }
 }

@@ -44,6 +44,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ["**/*.{js,css,html,svg,png,json,woff2}"],
         maximumFileSizeToCacheInBytes: 12 * 1024 * 1024,
+        navigateFallbackDenylist: [/\/exports\//, /\.(docx|pdf|apkg|ics|url|json|mp3|wav)$/i],
         cleanupOutdatedCaches: true,
         clientsClaim: true,
         skipWaiting: true,

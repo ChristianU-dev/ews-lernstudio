@@ -1,68 +1,89 @@
 /* ==========================================================================
-   EWS-Lernstudio Calm Editorial Design System (Light & Dark)
+   EWS-Lernstudio Visual-Learner Color System (Light & Dark Mode)
    Basis: UX-mAInd Komponenten-Stack (@radix-ui, vaul, cmdk, sonner, @xyflow/react)
-   Farbprofil:
-   - Light Mode: Warmes Atelier-Papier (Alabaster & Naturstein, blendfrei & ruhig)
-   - Dark Mode:  Warmes Abend-Graphit (Samtiges Anthrazit ohne grelles Neon-Blau)
-   - 3 Gebiete:  Gedecktes Fjord-Schieferblau (A), Salbei-Grün (B), Ocker-Bernstein (C)
+   Farbprofil speziell für visuelles Gedächtnis & Struktur-Klarheit:
+   - Markenfarbe Lila / Violett (`--lilac` / `--primary-bg`) als freundlicher Leitfaden
+   - Skript A (Saphirblau), Skript B (Smaragdgrün), Skript C (Bernstein-Ocker)
+   - Klare Kategorien-Farben (Merksatz, Definition, Kernwissen, Empirie, Praxis, Check)
+   - 6 Überpunkt-Farbgruppen (`--grp-0` bis `--grp-5`) für sofortiges Wiedererkennen
    ========================================================================== */
 
 :root,
 [data-theme="light"] {
-  --bg-canvas: #f6f5f1;
-  --bg-sidebar: #efede7;
+  --bg-canvas: #f7f6fb;
+  --bg-sidebar: #f0eef8;
   --bg-surface: #ffffff;
-  --bg-subtle: #f3f1ec;
-  --bg-hover: #eae7e0;
-  --bg-active: #e1ddd4;
+  --bg-subtle: #f3f1f9;
+  --bg-hover: #eae6f6;
+  --bg-active: #e0daf2;
 
-  --border: #e3dfd6;
-  --border-subtle: #ece9e1;
-  --border-strong: #cfc9bc;
+  --border: #e1dcee;
+  --border-subtle: #ece8f5;
+  --border-strong: #c9c1e0;
 
-  --fg: #1b1e23;
-  --fg-secondary: #464c56;
-  --fg-muted: #6f7682;
+  --fg: #1b1b24;
+  --fg-secondary: #434457;
+  --fg-muted: #6c6d84;
 
-  /* Ruhiger, edler Tinte-Ton statt schreiendem Königsblau */
-  --primary-bg: #222933;
-  --primary-fg: #fcfbf9;
-  --primary-hover: #323c4a;
+  /* Marken-Lila: Klar, warm, einprägsam statt grauer Eintönigkeit */
+  --primary-bg: #6d28d9;
+  --primary-fg: #ffffff;
+  --primary-hover: #5b21b6;
 
-  --accent-soft: rgba(34, 41, 51, 0.06);
-  --accent-border: rgba(34, 41, 51, 0.20);
+  --lilac: #7c3aed;
+  --lilac-soft: rgba(124, 58, 237, 0.10);
+  --lilac-border: rgba(124, 58, 237, 0.30);
 
-  /* Gedeckte, harmonische Fach-Pigmente (Kunst-Atelier-Qualität) */
-  --domain-a: #356382;       /* Gebiet A: Lernen & Lehren (Ruhiges Fjord-Blau) */
-  --domain-a-soft: rgba(53, 99, 130, 0.08);
-  --domain-a-border: rgba(53, 99, 130, 0.26);
+  --accent-soft: rgba(109, 40, 217, 0.08);
+  --accent-border: rgba(109, 40, 217, 0.25);
 
-  --domain-b: #2d7459;       /* Gebiet B: Entwicklungspsychologie (Sanftes Salbei) */
-  --domain-b-soft: rgba(45, 116, 89, 0.08);
-  --domain-b-border: rgba(45, 116, 89, 0.26);
+  /* Klare Fach-Pigmente der 3 Skripte */
+  --domain-a: #2563eb;       /* Skript A: Lernen & Lehren (Saphirblau) */
+  --domain-a-soft: rgba(37, 99, 235, 0.09);
+  --domain-a-border: rgba(37, 99, 235, 0.28);
 
-  --domain-c: #9e5f24;       /* Gebiet C: Diagnostik (Warmes Ocker-Bernstein) */
-  --domain-c-soft: rgba(158, 95, 36, 0.08);
-  --domain-c-border: rgba(158, 95, 36, 0.26);
+  --domain-b: #059669;       /* Skript B: Entwicklungspsychologie (Smaragdgrün) */
+  --domain-b-soft: rgba(5, 150, 105, 0.09);
+  --domain-b-border: rgba(5, 150, 105, 0.28);
 
-  --dot-success: #2d7459;
-  --dot-warning: #b06a25;
-  --dot-danger: #b93838;
-  --dot-active: #356382;
+  --domain-c: #d97706;       /* Skript C: Diagnostik (Bernstein-Ocker) */
+  --domain-c-soft: rgba(217, 119, 6, 0.10);
+  --domain-c-border: rgba(217, 119, 6, 0.30);
+
+  /* 6 Überpunkt-Farbgruppen für Kapitelverzeichnis & Orientierung */
+  --grp-0: #7c3aed; --grp-0-soft: rgba(124, 58, 237, 0.10);
+  --grp-1: #2563eb; --grp-1-soft: rgba(37, 99, 235, 0.09);
+  --grp-2: #0d9488; --grp-2-soft: rgba(13, 148, 136, 0.09);
+  --grp-3: #d97706; --grp-3-soft: rgba(217, 119, 6, 0.10);
+  --grp-4: #db2777; --grp-4-soft: rgba(219, 39, 119, 0.09);
+  --grp-5: #4f46e5; --grp-5-soft: rgba(79, 70, 229, 0.09);
+
+  /* Semantische Inhalts-Kategorien */
+  --cat-merksatz-bg: #f5f3ff; --cat-merksatz-border: #c4b5fd; --cat-merksatz-fg: #6d28d9;
+  --cat-def-bg: #eff6ff;      --cat-def-border: #93c5fd;      --cat-def-fg: #1d4ed8;
+  --cat-kern-bg: #eef2ff;     --cat-kern-border: #a5b4fc;     --cat-kern-fg: #4338ca;
+  --cat-empirie-bg: #fffbeb;  --cat-empirie-border: #fcd34d;  --cat-empirie-fg: #b45309;
+  --cat-praxis-bg: #ecfdf5;   --cat-praxis-border: #6ee7b7;   --cat-praxis-fg: #047857;
+  --cat-check-bg: #fdf2f8;    --cat-check-border: #f9a8d4;    --cat-check-fg: #be185d;
+
+  --dot-success: #059669;
+  --dot-warning: #d97706;
+  --dot-danger: #dc2626;
+  --dot-active: #7c3aed;
   --dot-neutral: #9ca3af;
 
-  --callout-success-bg: #f2f7f4;
-  --callout-success-border: #cde0d6;
-  --callout-warn-bg: #faf6f0;
-  --callout-warn-border: #e6d6be;
-  --callout-danger-bg: #fbf3f3;
-  --callout-danger-border: #e8c9c9;
+  --callout-success-bg: #ecfdf5;
+  --callout-success-border: #a7f3d0;
+  --callout-warn-bg: #fffbeb;
+  --callout-warn-border: #fde68a;
+  --callout-danger-bg: #fef2f2;
+  --callout-danger-border: #fecaca;
 
-  --shadow-xs: 0 1px 2px rgba(24, 24, 20, 0.04);
-  --shadow-sm: 0 2px 8px rgba(24, 24, 20, 0.05), 0 1px 2px rgba(24, 24, 20, 0.03);
-  --shadow-lg: 0 18px 42px rgba(24, 24, 20, 0.11), 0 2px 8px rgba(24, 24, 20, 0.05);
-  --overlay-bg: rgba(22, 24, 28, 0.38);
-  --nav-glass: rgba(250, 249, 246, 0.90);
+  --shadow-xs: 0 1px 2px rgba(24, 20, 42, 0.05);
+  --shadow-sm: 0 3px 10px rgba(24, 20, 42, 0.06), 0 1px 2px rgba(24, 20, 42, 0.03);
+  --shadow-lg: 0 18px 44px rgba(24, 20, 42, 0.14), 0 2px 8px rgba(24, 20, 42, 0.06);
+  --overlay-bg: rgba(18, 17, 29, 0.42);
+  --nav-glass: rgba(250, 249, 253, 0.92);
 
   --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: "JetBrains Mono", "Cascadia Code", "SFMono-Regular", Consolas, monospace;
@@ -72,59 +93,77 @@
 
 [data-theme="dark"],
 .dark {
-  --bg-canvas: #131518;
-  --bg-sidebar: #171a1e;
-  --bg-surface: #1d2026;
-  --bg-subtle: #242830;
-  --bg-hover: #2b303a;
-  --bg-active: #333946;
+  --bg-canvas: #13131c;
+  --bg-sidebar: #181824;
+  --bg-surface: #1f2030;
+  --bg-subtle: #27283c;
+  --bg-hover: #2f3149;
+  --bg-active: #393b57;
 
-  --border: #2d323c;
-  --border-subtle: #242831;
-  --border-strong: #3d4452;
+  --border: #32344d;
+  --border-subtle: #282a3f;
+  --border-strong: #484b6e;
 
-  --fg: #eceae4;
-  --fg-secondary: #b8bcc4;
-  --fg-muted: #888f9c;
+  --fg: #f2f1f7;
+  --fg-secondary: #c4c6d9;
+  --fg-muted: #9094b0;
 
-  /* Im Dark-Mode sanftes Warm-Perlmutt statt grell leuchtendem Blau */
-  --primary-bg: #e6e3db;
-  --primary-fg: #16181c;
-  --primary-hover: #f4f2ec;
+  /* Im Dark-Mode sanftes, leuchtendes Atelier-Lila */
+  --primary-bg: #8b5cf6;
+  --primary-fg: #ffffff;
+  --primary-hover: #7c3aed;
 
-  --accent-soft: rgba(230, 227, 219, 0.08);
-  --accent-border: rgba(230, 227, 219, 0.22);
+  --lilac: #a78bfa;
+  --lilac-soft: rgba(167, 139, 250, 0.14);
+  --lilac-border: rgba(167, 139, 250, 0.36);
 
-  --domain-a: #7aa7c7;
-  --domain-a-soft: rgba(122, 167, 199, 0.12);
-  --domain-a-border: rgba(122, 167, 199, 0.30);
+  --accent-soft: rgba(167, 139, 250, 0.12);
+  --accent-border: rgba(167, 139, 250, 0.32);
 
-  --domain-b: #6eb596;
-  --domain-b-soft: rgba(110, 181, 150, 0.12);
-  --domain-b-border: rgba(110, 181, 150, 0.30);
+  --domain-a: #60a5fa;
+  --domain-a-soft: rgba(96, 165, 250, 0.13);
+  --domain-a-border: rgba(96, 165, 250, 0.34);
 
-  --domain-c: #d9a066;
-  --domain-c-soft: rgba(217, 160, 102, 0.12);
-  --domain-c-border: rgba(217, 160, 102, 0.30);
+  --domain-b: #34d399;
+  --domain-b-soft: rgba(52, 211, 153, 0.13);
+  --domain-b-border: rgba(52, 211, 153, 0.34);
 
-  --dot-success: #6eb596;
-  --dot-warning: #d9a066;
-  --dot-danger: #e07070;
-  --dot-active: #7aa7c7;
+  --domain-c: #fbbf24;
+  --domain-c-soft: rgba(251, 191, 36, 0.13);
+  --domain-c-border: rgba(251, 191, 36, 0.34);
+
+  --grp-0: #a78bfa; --grp-0-soft: rgba(167, 139, 250, 0.14);
+  --grp-1: #60a5fa; --grp-1-soft: rgba(96, 165, 250, 0.13);
+  --grp-2: #2dd4bf; --grp-2-soft: rgba(45, 212, 191, 0.13);
+  --grp-3: #fbbf24; --grp-3-soft: rgba(251, 191, 36, 0.13);
+  --grp-4: #f472b6; --grp-4-soft: rgba(244, 114, 182, 0.13);
+  --grp-5: #818cf8; --grp-5-soft: rgba(129, 140, 248, 0.13);
+
+  --cat-merksatz-bg: rgba(167, 139, 250, 0.12); --cat-merksatz-border: rgba(167, 139, 250, 0.36); --cat-merksatz-fg: #c4b5fd;
+  --cat-def-bg: rgba(96, 165, 250, 0.11);      --cat-def-border: rgba(96, 165, 250, 0.34);      --cat-def-fg: #93c5fd;
+  --cat-kern-bg: rgba(129, 140, 248, 0.11);    --cat-kern-border: rgba(129, 140, 248, 0.34);    --cat-kern-fg: #a5b4fc;
+  --cat-empirie-bg: rgba(251, 191, 36, 0.10);  --cat-empirie-border: rgba(251, 191, 36, 0.32);  --cat-empirie-fg: #fcd34d;
+  --cat-praxis-bg: rgba(52, 211, 153, 0.11);   --cat-praxis-border: rgba(52, 211, 153, 0.34);   --cat-praxis-fg: #6ee7b7;
+  --cat-check-bg: rgba(244, 114, 182, 0.11);   --cat-check-border: rgba(244, 114, 182, 0.34);   --cat-check-fg: #f9a8d4;
+
+  --dot-success: #34d399;
+  --dot-warning: #fbbf24;
+  --dot-danger: #f87171;
+  --dot-active: #a78bfa;
   --dot-neutral: #6b7280;
 
-  --callout-success-bg: rgba(110, 181, 150, 0.08);
-  --callout-success-border: rgba(110, 181, 150, 0.24);
-  --callout-warn-bg: rgba(217, 160, 102, 0.08);
-  --callout-warn-border: rgba(217, 160, 102, 0.24);
-  --callout-danger-bg: rgba(224, 112, 112, 0.09);
-  --callout-danger-border: rgba(224, 112, 112, 0.26);
+  --callout-success-bg: rgba(52, 211, 153, 0.10);
+  --callout-success-border: rgba(52, 211, 153, 0.28);
+  --callout-warn-bg: rgba(251, 191, 36, 0.10);
+  --callout-warn-border: rgba(251, 191, 36, 0.28);
+  --callout-danger-bg: rgba(248, 113, 113, 0.10);
+  --callout-danger-border: rgba(248, 113, 113, 0.28);
 
-  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.26);
-  --shadow-sm: 0 3px 10px rgba(0, 0, 0, 0.32);
-  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.56), 0 0 0 1px rgba(255, 255, 255, 0.04);
-  --overlay-bg: rgba(8, 10, 13, 0.70);
-  --nav-glass: rgba(24, 27, 32, 0.91);
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.28);
+  --shadow-sm: 0 3px 10px rgba(0, 0, 0, 0.34);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.58), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  --overlay-bg: rgba(8, 8, 15, 0.72);
+  --nav-glass: rgba(24, 24, 36, 0.92);
   color-scheme: dark;
 }
 
@@ -148,6 +187,7 @@ html, body, #root {
 h1, h2, h3, h4 {
   letter-spacing: -0.018em;
   color: var(--fg);
+  font-weight: 700;
 }
 
 .min-w-0 { min-width: 0; }
@@ -158,7 +198,7 @@ h1, h2, h3, h4 {
 .lx-card {
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 14px;
+  border-radius: 15px;
   padding: 18px 20px;
   box-shadow: var(--shadow-xs);
 }
@@ -183,22 +223,22 @@ h1, h2, h3, h4 {
   align-items: center;
   justify-content: center;
   gap: 7px;
-  min-height: 36px;
-  padding: 6px 13px;
-  border-radius: 9px;
+  min-height: 38px;
+  padding: 6px 14px;
+  border-radius: 10px;
   border: 1px solid var(--border-strong);
   background: var(--bg-surface);
   color: var(--fg);
   font-family: var(--font-sans);
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.3;
   cursor: pointer;
   transition: background-color 130ms ease, border-color 130ms ease, transform 90ms ease;
 }
 .lx-btn:hover:not(:disabled) {
   background: var(--bg-subtle);
-  border-color: var(--fg-muted);
+  border-color: var(--lilac);
 }
 .lx-btn:disabled {
   opacity: 0.45;
@@ -208,7 +248,7 @@ h1, h2, h3, h4 {
   background: var(--primary-bg);
   border-color: var(--primary-bg);
   color: var(--primary-fg);
-  font-weight: 600;
+  font-weight: 700;
 }
 .lx-btn-primary:hover:not(:disabled) {
   background: var(--primary-hover);
@@ -246,7 +286,6 @@ h1, h2, h3, h4 {
 .lx-dot-danger { background: var(--dot-danger); }
 .lx-dot-active { background: var(--dot-active); }
 
-/* Badges passen sich mehrzeiligem Text sauber an — NIEMALS Überlauf aus der Box! */
 .lx-badge, .lx-tag {
   display: inline-flex;
   align-items: center;
@@ -254,12 +293,12 @@ h1, h2, h3, h4 {
   min-height: 25px;
   height: auto;
   padding: 3px 10px;
-  border-radius: 7px;
+  border-radius: 8px;
   border: 1px solid var(--border);
   background: var(--bg-subtle);
   color: var(--fg-secondary);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.3;
   max-width: 100%;
 }
@@ -284,22 +323,22 @@ h1, h2, h3, h4 {
   flex-wrap: wrap;
   align-items: center;
   padding: 3px;
-  border-radius: 10px;
+  border-radius: 11px;
   border: 1px solid var(--border);
   background: var(--bg-subtle);
   gap: 3px;
   max-width: 100%;
 }
 .lx-seg-btn {
-  min-height: 31px;
+  min-height: 32px;
   padding: 4px 12px;
   border: none;
-  border-radius: 7px;
+  border-radius: 8px;
   background: transparent;
   color: var(--fg-secondary);
   font-family: var(--font-sans);
   font-size: 12.5px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   transition: background-color 120ms ease, color 120ms ease;
 }
@@ -308,8 +347,8 @@ h1, h2, h3, h4 {
 }
 .lx-seg-btn.is-active {
   background: var(--bg-surface);
-  color: var(--fg);
-  font-weight: 600;
+  color: var(--lilac);
+  font-weight: 700;
   box-shadow: var(--shadow-xs);
 }
 
@@ -322,16 +361,20 @@ h1, h2, h3, h4 {
   width: 100%;
   max-width: 100%;
   min-width: 0;
-  min-height: 38px;
-  border-radius: 9px;
-  border: 1px solid var(--border-strong);
+  min-height: 40px;
+  border-radius: 10px;
+  border: 1.5px solid var(--lilac-border);
   background: var(--bg-surface);
   color: var(--fg);
   padding: 6px 12px;
   font-size: 13.5px;
+  font-weight: 600;
   cursor: pointer;
   text-align: left;
   overflow: hidden;
+}
+.lx-select-trigger:hover {
+  border-color: var(--lilac);
 }
 .lx-select-value {
   min-width: 0;
@@ -341,14 +384,14 @@ h1, h2, h3, h4 {
   z-index: 1200;
   min-width: var(--radix-select-trigger-width);
   max-width: min(560px, calc(100vw - 24px));
-  max-height: 320px;
+  max-height: 340px;
   overflow: hidden;
-  border-radius: 12px;
-  border: 1px solid var(--border-strong);
+  border-radius: 13px;
+  border: 1.5px solid var(--lilac-border);
   background: var(--bg-surface);
   box-shadow: var(--shadow-lg);
 }
-.lx-select-viewport { padding: 5px; }
+.lx-select-viewport { padding: 6px; }
 .lx-select-item {
   display: flex;
   align-items: center;
@@ -362,7 +405,11 @@ h1, h2, h3, h4 {
   cursor: pointer;
   outline: none;
 }
-.lx-select-item[data-highlighted] { background: var(--bg-subtle); }
+.lx-select-item[data-highlighted] {
+  background: var(--lilac-soft);
+  color: var(--lilac);
+  font-weight: 600;
+}
 
 .lx-switch {
   width: 38px;
@@ -377,8 +424,8 @@ h1, h2, h3, h4 {
   flex-shrink: 0;
 }
 .lx-switch[data-state="checked"] {
-  background: var(--domain-b);
-  border-color: var(--domain-b);
+  background: var(--lilac);
+  border-color: var(--lilac);
 }
 .lx-switch-thumb {
   display: block;
@@ -412,7 +459,7 @@ h1, h2, h3, h4 {
   flex-direction: column;
   background: var(--bg-surface);
   border: 1px solid var(--border-strong);
-  border-radius: 16px;
+  border-radius: 17px;
   box-shadow: var(--shadow-lg);
 }
 .lx-modal-header {
@@ -454,11 +501,11 @@ h1, h2, h3, h4 {
 }
 
 /* ==========================================================================
-   DUAL SHELL: PC Widescreen (>= 960px) vs. iPhone Native App (< 960px)
+   DUAL SHELL: PC Widescreen (>= 960px) vs. iPhone / Portrait (< 960px)
    ========================================================================== */
 .lx-app-shell {
   display: grid;
-  grid-template-columns: 248px minmax(0, 1fr);
+  grid-template-columns: 244px minmax(0, 1fr);
   min-height: 100dvh;
   width: 100%;
 }
@@ -481,8 +528,8 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
-    padding: 10px 14px;
+    gap: 8px;
+    padding: 9px 14px;
     background: var(--nav-glass);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -522,8 +569,9 @@ h1, h2, h3, h4 {
     cursor: pointer;
   }
   .lx-mobile-nav-btn.is-active {
-    background: var(--bg-subtle);
-    color: var(--fg);
+    background: var(--lilac-soft);
+    color: var(--lilac);
+    font-weight: 700;
   }
   input, textarea, select { font-size: 16px !important; }
   .lx-btn { min-height: 44px; font-size: 13.5px; }

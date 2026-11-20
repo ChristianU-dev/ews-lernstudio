@@ -1,7 +1,7 @@
-import React from "react";
-import { Calendar, Download, ShieldCheck, Check } from "lucide-react";
+import React, { useMemo } from "react";
+import { Calendar, Download, ShieldCheck, Check, Info } from "lucide-react";
 import { Modal } from "../design/ui";
-import { buildStudyScheduleIcs, toLocalDateKey } from "../lib/calendarExport";
+import { buildStudyScheduleIcs, buildStudySchedulePreview, toLocalDateKey } from "../lib/calendarExport";
 
 export function StudyCalendarModal({
   open,
@@ -11,6 +11,7 @@ export function StudyCalendarModal({
   dailyMinutes = 32,
   profileName = "Staatsexamen",
   courseTitle = "EWS Psychologie",
+  allUnits = [],
   activityLogs = [],
   protectedPauseDays = [],
   onUpdateExamDate,
@@ -21,7 +22,19 @@ export function StudyCalendarModal({
   const now = new Date();
   const todayKey = toLocalDateKey(now);
 
-  // 28-Tage-Rückblick & Vorschau (letzte 20 Tage + heute + 7 Tage)
+  const previewEvents = useMemo(
+    () =>
+      buildStudySchedulePreview({
+        allUnits,
+        courseTitle,
+        examDate,
+        preferredHour,
+        dailyMinutes,
+      }),
+    [allUnits, courseTitle, examDate, preferredHour, dailyMinutes]
+  );
+
+  // 28-Tage-Rückblick & Vorschau
   const cells = Array.from({ length: 28 }, (_, i) => {
     const offset = i - 20;
     const d = new Date(now.getFullYear(), now.getMonth(), now.getDate() + offset);
@@ -35,7 +48,6 @@ export function StudyCalendarModal({
     return {
       key,
       day: d.getDate(),
-      monthShort: d.toLocaleDateString("de-DE", { month: "short" }),
       isToday: key === todayKey,
       isFuture: offset > 0,
       active,
@@ -51,13 +63,16 @@ export function StudyCalendarModal({
       examDate,
       preferredHour,
       dailyMinutes,
+      allUnits,
     });
     const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
     a.download = `lernplan-${courseTitle.toLowerCase().replace(/[^a-z0-9]+/g, "-")}.ics`;
+    document.body.appendChild(a);
     a.click();
+    a.remove();
     URL.revokeObjectURL(url);
   };
 
@@ -66,14 +81,14 @@ export function StudyCalendarModal({
       open={open}
       onOpenChange={onOpenChange}
       title="Dein Lernkalender & iPhone-/Google-Kalender-Export"
-      subtitle="Plane deinen Prüfungstermin + entspannte Werktags-Etappen (Wochenenden bleiben bewusst als Puffer frei!)."
-      width={520}
+      subtitle="Trägt deinen Prüfungstermin und entspannte Werktags-Etappen mit konkreten Kapiteln automatisch in deinen iPhone- oder Google-Kalender ein."
+      width={560}
     >
-      <div style={{ display: "flex", flexDirection: "column", gap: 14, marginTop: 10 }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: 13, marginTop: 8 }}>
         {/* Prüfungsdatum & Wunsch-Uhrzeit */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 10 }}>
           <div>
-            <label style={{ fontSize: 12, fontWeight: 600, display: "block", marginBottom: 4 }}>
+            <label style={{ fontSize: 12, fontWeight: 700, display: "block", marginBottom: 4 }}>
               Prüfungstermin:
             </label>
             <input
@@ -84,8 +99,8 @@ export function StudyCalendarModal({
             />
           </div>
           <div>
-            <label style={{ fontSize: 12, fontWeight: 600, display: "block", marginBottom: 4 }}>
-              Lieblings-Lernzeit (Mo–Fr):
+            <label style={{ fontSize: 12, fontWeight: 700, display: "block", marginBottom: 4 }}>
+              Wunsch-Uhrzeit (Mo–Fr):
             </label>
             <select
               className="lx-input"
@@ -101,25 +116,49 @@ export function StudyCalendarModal({
           </div>
         </div>
 
+        {/* Klare Vorschau: WAS bringt mir der .ics Export? */}
+        <div className="lx-cat-merksatz" style={{ display: "flex", flexDirection: "column", gap: 7, padding: "12px 14px" }}>
+          <strong style={{ fontSize: 13, color: "var(--cat-merksatz-fg)", display: "flex", alignItems: "center", gap: 6 }}>
+            <Info size={14} />
+            <span>Das erscheint nach dem Antippen in deinem iPhone-/Google-Kalender:</span>
+          </strong>
+          <ul style={{ margin: 0, paddingLeft: 17, fontSize: 12, color: "var(--fg-secondary)", lineHeight: 1.5 }}>
+            <li>
+              <strong>🎯 Prüfungstag ({examDate}):</strong> Ganztägiger Examens-Termin als fester Anker.
+            </li>
+            {previewEvents.slice(0, 3).map((ev, idx) => (
+              <li key={idx}>
+                <strong>{ev.dateLabel} · {ev.timeLabel}:</strong> {ev.summary}
+              </li>
+            ))}
+            <li>
+              <strong>🌿 Wochenenden frei:</strong> Sa &amp; So bleiben automatisch als Erholungs-Puffer frei!
+            </li>
+          </ul>
+          <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }}>
+            <strong>Tipp fürs iPhone:</strong> Nach dem Herunterladen einfach auf die <code>.ics</code>-Datei tippen → <em>„Alle hinzufügen“</em> → fertig!
+          </div>
+        </div>
+
         {/* 28-Tage Aktivitäts- & Pausenschild-Übersicht */}
-        <div className="lx-card lx-card-subtle" style={{ padding: "12px 14px", display: "flex", flexDirection: "column", gap: 10 }}>
+        <div className="lx-card lx-card-subtle" style={{ padding: "11px 13px", display: "flex", flexDirection: "column", gap: 8 }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-            <strong style={{ fontSize: 13 }}>28-Tage-Rhythmus (ohne rote Mahnungen)</strong>
+            <strong style={{ fontSize: 12.5 }}>Dein 28-Tage-Rhythmus</strong>
             <span style={{ fontSize: 11, color: "var(--fg-muted)", display: "flex", alignItems: "center", gap: 5 }}>
               <ShieldCheck size={12} style={{ color: "var(--domain-b)" }} />
-              <span>Grün = Aktiv · Schild = Geschützter Ruhetag</span>
+              <span>Grün = Aktiv · 🛡️ = Geschützter Ruhetag</span>
             </span>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(7, minmax(0, 1fr))", gap: 6 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(7, minmax(0, 1fr))", gap: 5 }}>
             {cells.map((c) => (
               <div
                 key={c.key}
                 title={`${c.key}: ${c.mins} Min.`}
                 style={{
-                  minHeight: 38,
-                  borderRadius: 9,
-                  border: c.isToday ? "2px solid var(--fg)" : "1px solid var(--border)",
+                  minHeight: 34,
+                  borderRadius: 8,
+                  border: c.isToday ? "2px solid var(--lilac)" : "1px solid var(--border)",
                   background: c.active
                     ? "var(--callout-success-bg)"
                     : c.shielded
@@ -129,21 +168,20 @@ export function StudyCalendarModal({
                   flexDirection: "column",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: 11.5,
+                  fontSize: 11,
                   opacity: c.isFuture ? 0.58 : 1,
                 }}
               >
                 <span className="tabular" style={{ fontWeight: c.isToday ? 700 : 500 }}>
                   {c.day}
                 </span>
-                {c.active && <Check size={10} style={{ color: "var(--domain-b)" }} />}
+                {c.active && <Check size={9} style={{ color: "var(--domain-b)" }} />}
                 {c.shielded && <span style={{ fontSize: 9 }}>🛡️</span>}
               </div>
             ))}
           </div>
         </div>
 
-        {/* 1-Klick Apple / Google Kalender Download */}
         <button
           type="button"
           className="lx-btn lx-btn-primary"
@@ -152,7 +190,7 @@ export function StudyCalendarModal({
           data-testid="download-calendar-ics-btn"
         >
           <Calendar size={15} />
-          <span>In iPhone- / Google-Kalender übernehmen (.ics)</span>
+          <span>Meinen Lernplan jetzt in Kalender übernehmen (.ics)</span>
           <Download size={14} />
         </button>
       </div>

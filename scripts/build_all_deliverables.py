@@ -670,15 +670,13 @@ def build_handbook_docx(out_file: Path):
             ],
         ),
         (
-            "2. Dein entspannter 32-Minuten-Alltag (Sofa, Schreibtisch & Zug)",
+            "2. Dein entspannter Lern-Alltag: Blätter-Modus, Hochformat-PDFs & Live-Lernuhr",
             "ECFDF5",
             (5, 150, 105),
             [
-                "• **Schritt 1 – Der Sofa-Start (5–8 Min.):** Keine Lust, direkt an den Schreibtisch zu gehen? Öffne die App auf deinem iPhone, mach es dir auf dem Sofa gemütlich und hör dir zuerst die kurze Podcast-Folge zum heutigen Kapitel an.",
-                "• **Schritt 2 – Visuelles 1-Seiten-Ankerblatt + dein Papier-Ordner (12 Min.):** Jedes Thema ist als klares Ankerblatt in seiner festen Farbe gestaltet (**Blau = Lernen & Lehren**, **Smaragdgrün = Entwicklung**, **Bernstein = Diagnostik**). Rechts oben steht immer exakt **Original-Skript S. X–Y**. Schlag genau diese Seiten in deinem ausgedruckten Ordner auf und markiere dir dort deine Lieblingsstellen mit Textmarker!",
-                "• **Schritt 3 – Dein Laut-Erzähl-Check (5 Min.):** Schau kurz weg vom Bildschirm, erzähle die Seite laut vor dir her und hake die **5 Ankerbegriffe** unten auf dem Blatt ab.",
-                "• **Schritt 4 – Im Zug oder zwischendurch (8 Min.):** Wische auf dem iPhone entspannt ein paar FSRS-Karten durch oder löse eine kurze Fallvignette – alles funktioniert **100 % offline** auch im Funkloch!",
-                "• **Wenn du im Flow bist:** Nach deiner ~32-Minuten-Kernetappe ist dein Tagessieg sicher in der Tasche. Hast du noch Energie, klickst du einfach auf eine **„+12-Min.-Bonus-Etappe“**!",
+                "• **Schritt 1 – Der Sofa-Start (7 Min.):** Öffne die App einfach per Doppelklick über deinen **Desktop-Starter** oder am **iPhone-Homescreen** (den QR-Code findest du unter *„App-Icon (PC & iPhone)“*). Klicke auf *„Fokus-Audio sofort abspielen“* – deine **Live-Lernuhr** startet dabei ganz automatisch im Hintergrund!",
+                "• **Schritt 2 – Blätter-Modus ODER Hochformat-PDF fürs Klapp-Tablet (12 Min.):** Im Webstudio blätterst du jedes Kapitel jetzt wie ein farbcodiertes Buch **Seite für Seite ohne Scrollen** durch (**🟣 Lila = Merksatz & Schaubild**, **🔵 Blau = Definitionen**, **🟠 Orange = Studien**, **🟢 Grün = Kunst & Sport**, **🩷 Pink = Laut-Check & Notiz**). Oder lade dir unter **„PDFs, App-Starter & Sync“** die fertigen **A4-Hochformat-PDFs** herunter – perfekt zum Durchklicken & Stift-Markieren auf deinem umgeklappten Laptop!",
+                "• **Schritt 3 – Dein Laut-Erzähl-Check (5 Min.) & Karten/Fallvignette (10 Min.):** Auf der letzten Seite jedes Kapitels hakst du die **5 Ankerpunkte** ab, schreibst optional deine Eselsbrücke dazu und rundest mit einem kurzen Karten-Sprint ab.",
             ],
         ),
         (
@@ -703,13 +701,13 @@ def build_handbook_docx(out_file: Path):
             ],
         ),
         (
-            "5. So erstellst du dir in 60 Sekunden echte NotebookLM-Podcasts (inkl. Aha-Training!)",
+            "5. So erstellst du dir in 3 Schritten echte NotebookLM-Podcasts (Sofa vs. Examen!)",
             "ECFDF5",
             (5, 150, 105),
             [
-                "1. Öffne im Lernstudio den Reiter **„Sofa-Podcast-Hub“**, wähle dein Kapitel (oder **„Aha-Training“** für deine persönlichen Wackelkandidaten!) und klicke auf **„1-Klick für NotebookLM kopieren“**. Dein Kapitel-Spickzettel wird automatisch gleich mitkopiert!",
-                "2. Öffne mit deinem Studierenden-Account **notebooklm.google.com**, füge den kopierten Text ein und starte die Audio-Zusammenfassung.",
-                "3. Ziehe die fertige MP3 per Maus in dein Lernstudio – schon kannst du sie auf dem Sofa und offline im Zug über den iPhone-Sperrbildschirm anhören!",
+                "1. **Einmalig Quellen in NotebookLM ablegen:** Öffne **notebooklm.google.com** → *„Neues Notizbuch“* → lade einmalig deine 3 Skript-PDFs aus `01_skripte/` (oder unsere 3 **Hochformat-PDFs**) dort hoch. So hat NotebookLM Zugriff auf alle exakten Inhalte!",
+                "2. **Sofa-Einstieg vs. Prüfungs-Fokus wählen:** Im Lernstudio unter *„Sofa-Podcast-Hub“* unterscheidet sich dein Prompt jetzt ganz klar: **🎧 Sofa-Einstieg** baut lockere Alltags-Geschichten aus Kunst & Sport ohne Druck; **🎯 Prüfungs-Fokus** trainiert wörtliche Definitionen + echte Fallvignette.",
+                "3. **Einfügen & offline anhören:** Kopiere den Prompt per 1-Klick in NotebookLM (*Audio-Zusammenfassung → Anpassen*) und ziehe die fertige MP3 per Maus zurück ins Lernstudio – schon läuft sie offline auf deinem iPhone-Sperrbildschirm!",
             ],
         ),
         (
@@ -842,6 +840,8 @@ def main():
     )
     build_handbook_docx(EXPORTS_DIR / "HANDBUCH_UND_LERNSTRATEGIE.docx")
     build_anki_decks(all_cards)
+    from build_portrait_pdfs import build_all_portrait_pdfs
+    build_all_portrait_pdfs()
     sync_exports_to_public()
 
 

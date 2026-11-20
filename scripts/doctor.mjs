@@ -51,6 +51,10 @@ for (const rel of requiredCourseFiles) {
 }
 
 const requiredExports = [
+  "Lernskript_A_Lernen_und_Lehren_Hochformat.pdf",
+  "Lernskript_B_Entwicklungspsychologie_Hochformat.pdf",
+  "Lernskript_C_Diagnostik_Hochformat.pdf",
+  "Kapiteluebersichten_Kurzanker_A_B_C_Hochformat.pdf",
   "Lernskript_A_Lernen_und_Lehren.docx",
   "Lernskript_B_Entwicklungspsychologie.docx",
   "Lernskript_C_Diagnostik.docx",

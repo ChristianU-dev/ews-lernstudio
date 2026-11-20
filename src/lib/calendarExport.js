@@ -57,12 +57,44 @@ function toIcsLocalDate(dateStr) {
  * 1. Dem ganztägigen Staatsexamens-Termin im Februar (+ 7-Tage-Erinnerung)
  * 2. Den nächsten 14 geplanten Sofa-/Kern-Lernblöcken (Mo–Fr zur Wunsch-Uhrzeit)
  */
+export function buildStudySchedulePreview({
+  allUnits = [],
+  courseTitle = "EWS Psychologie",
+  examDate = "2027-02-17",
+  preferredHour = 16,
+  dailyMinutes = 32,
+  now = new Date(),
+}) {
+  const events = [];
+  const hh = String(preferredHour).padStart(2, "0");
+  let scheduled = 0;
+
+  for (let d = 1; d <= 21 && scheduled < 4; d++) {
+    const dt = new Date(now.getFullYear(), now.getMonth(), now.getDate() + d, preferredHour, 0, 0);
+    const dow = dt.getDay();
+    if (dow === 0 || dow === 6) continue;
+    if (toLocalDateKey(dt) >= examDate) break;
+    const unit = allUnits[scheduled % Math.max(1, allUnits.length)];
+    events.push({
+      dateLabel: dt.toLocaleDateString("de-DE", { weekday: "short", day: "2-digit", month: "2-digit" }),
+      timeLabel: `${hh}:00 Uhr (${dailyMinutes} Min.)`,
+      summary: unit
+        ? `${courseTitle}: Kap. ${unit.section_num} ${unit.title}`
+        : `${courseTitle}: ${dailyMinutes}-Min. Etappe`,
+    });
+    scheduled += 1;
+  }
+
+  return events;
+}
+
 export function buildStudyScheduleIcs({
   profileName = "EWS Lernstudio",
   courseTitle = "EWS Psychologie",
   examDate = "2027-02-17",
   preferredHour = 16,
   dailyMinutes = 32,
+  allUnits = [],
   now = new Date(),
 }) {
   const stamp = toIcsUtcStamp(now);
@@ -74,7 +106,6 @@ export function buildStudyScheduleIcs({
     "PRODID:-//EWS Lernstudio//Universal Study Buddy//DE",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
-    // 1. Prüfungstermin
     "BEGIN:VEVENT",
     `UID:exam-${examCompact}@ews-lernstudio.local`,
     `DTSTAMP:${stamp}`,
@@ -84,14 +115,15 @@ export function buildStudyScheduleIcs({
     "END:VEVENT",
   ];
 
-  // 2. Nächste 10 entspannte Werktags-Blöcke (Mo–Fr, Wochenenden bewusst frei als Puffer!)
+  // Nächste 10 entspannte Werktags-Blöcke (Mo–Fr, Wochenenden bewusst frei als Puffer!)
   let scheduled = 0;
   for (let d = 1; d <= 21 && scheduled < 10; d++) {
     const dt = new Date(now.getFullYear(), now.getMonth(), now.getDate() + d, preferredHour, 0, 0);
     const dow = dt.getDay();
-    if (dow === 0 || dow === 6) continue; // Wochenende frei
+    if (dow === 0 || dow === 6) continue;
     if (toLocalDateKey(dt) >= examDate) break;
 
+    const unit = allUnits[scheduled % Math.max(1, allUnits.length)];
     const endDt = new Date(dt.getTime() + dailyMinutes * 60000);
     const fmtLocal = (x) => {
       const y = x.getFullYear();
@@ -102,14 +134,18 @@ export function buildStudyScheduleIcs({
       return `${y}${mo}${da}T${hh}${mm}00`;
     };
 
+    const topicText = unit
+      ? `Kap. ${unit.section_num} ${unit.title} (${unit.page_label})`
+      : "Sofa-Start + 1 Ankerblatt";
+
     lines.push(
       "BEGIN:VEVENT",
       `UID:study-${fmtLocal(dt)}-${scheduled}@ews-lernstudio.local`,
       `DTSTAMP:${stamp}`,
       `DTSTART:${fmtLocal(dt)}`,
       `DTEND:${fmtLocal(endDt)}`,
-      `SUMMARY:🌿 ${courseTitle}: ${dailyMinutes}-Min. Kern-Etappe (Sofa-Start + 1 Ankerblatt)`,
-      "DESCRIPTION:Starte entspannt mit 5 Min. Audio, präge dir 1 Ankerblatt visuell ein und wische kurz deine FSRS-Karten durch.",
+      `SUMMARY:🟣 ${courseTitle}: ${topicText}`,
+      "DESCRIPTION:Starte entspannt mit 5 Min. Sofa-Audio, blättere 1 Ankerblatt durch und wische kurz deine Karten.",
       "END:VEVENT"
     );
     scheduled += 1;

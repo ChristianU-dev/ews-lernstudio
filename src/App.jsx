@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Toaster, toast } from "sonner";
 import { Drawer } from "vaul";
 import {
@@ -13,8 +13,11 @@ import {
   Lock,
   Menu,
   Moon,
+  Pause,
+  Play,
   Scale,
   Search,
+  Smartphone,
   Sun,
   Timer,
   Users,
@@ -61,23 +64,30 @@ import { AudioMiniDock } from "./components/AudioMiniDock";
 import { FocusTimerModal } from "./components/FocusTimerModal";
 import { StudyCalendarModal } from "./components/StudyCalendarModal";
 import { ProfileAndCourseModal } from "./components/ProfileAndCourseModal";
+import { InstallAndStarterModal } from "./components/InstallAndStarterModal";
 import { TodayDashboardView } from "./views/TodayDashboardView";
 import { AnchorScriptsView } from "./views/AnchorScriptsView";
 import { KnowledgeGraphView } from "./views/KnowledgeGraphView";
 import { FlashcardsTrainerView } from "./views/FlashcardsTrainerView";
 import { ExamSimulatorView } from "./views/ExamSimulatorView";
 import { PodcastHubView } from "./views/PodcastHubView";
-import { DownloadsAndSettingsView } from "./views/DownloadsAndSettingsView";
+import { DownloadsAndSettingsView, downloadExportFileWithFallback } from "./views/DownloadsAndSettingsView";
 
 const DESKTOP_NAV = [
-  { id: "today", label: "Heute & Tagesringe", icon: Compass },
-  { id: "scripts", label: "1-Seiten-Skripte (A/B/C)", icon: BookOpen },
-  { id: "graph", label: "Wissensnetz & Brücken", icon: Brain },
-  { id: "cards", label: "FSRS-Kartentrainer", icon: Layers },
-  { id: "exam", label: "Examens-Simulator", icon: Scale },
+  { id: "today", label: "Heute & Fahrplan", icon: Compass },
+  { id: "scripts", label: "Skripte (Blätter-Modus)", icon: BookOpen },
+  { id: "graph", label: "Theorie-Brücken", icon: Brain },
+  { id: "cards", label: "Karten-Sprint", icon: Layers },
+  { id: "exam", label: "Examens-Trainer", icon: Scale },
   { id: "podcast", label: "Sofa-Podcast-Hub", icon: Headphones },
-  { id: "downloads", label: "Downloads & Cloud", icon: Download },
+  { id: "downloads", label: "PDFs, App-Starter & Sync", icon: Download },
 ];
+
+function formatClock(totalSecs) {
+  const m = String(Math.floor(totalSecs / 60)).padStart(2, "0");
+  const s = String(totalSecs % 60).padStart(2, "0");
+  return `${m}:${s}`;
+}
 
 export default function App() {
   const { theme, toggleTheme } = usePrefs();
@@ -101,10 +111,7 @@ export default function App() {
   const validation = useMemo(() => validateCoursePack(coursePack), [coursePack]);
   const searchIndex = useMemo(() => buildCommandSearchIndex(coursePack), [coursePack]);
 
-  const allUnits = useMemo(
-    () => (coursePack.domains || []).flatMap((d) => d.units || []),
-    [coursePack]
-  );
+  const allUnits = useMemo(() => (coursePack.domains || []).flatMap((d) => d.units || []), [coursePack]);
 
   const [activeView, setActiveView] = useState("today");
   const [activeDomainId, setActiveDomainId] = useState("A");
@@ -119,10 +126,15 @@ export default function App() {
   const [calendarOpen, setCalendarOpen] = useState(false);
   const [profileModalOpen, setProfileModalOpen] = useState(false);
   const [profileModalTab, setProfileModalTab] = useState("profiles");
+  const [starterModalOpen, setStarterModalOpen] = useState(false);
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
 
-  const [isOffline, setIsOffline] = useState(
-    typeof navigator !== "undefined" ? !navigator.onLine : false
-  );
+  // Live-Lernuhr (startet automatisch beim Lernen oder per 1-Klick in Sidebar/Topbar!)
+  const [studyClockRunning, setStudyClockRunning] = useState(false);
+  const [sessionSeconds, setSessionSeconds] = useState(0);
+  const clockHintShownRef = useRef(false);
+
+  const [isOffline, setIsOffline] = useState(typeof navigator !== "undefined" ? !navigator.onLine : false);
   const [activeAudioTrack, setActiveAudioTrack] = useState(null);
 
   const [unitProgressMap, setUnitProgressMap] = useState({});
@@ -155,8 +167,7 @@ export default function App() {
       setExamAttempts(slice.examAttempts);
 
       if (cfg.supabaseUrl && cfg.supabaseAnonKey) {
-        const gUser = await getCurrentGoogleUser(cfg);
-        setGoogleUser(gUser);
+        setGoogleUser(await getCurrentGoogleUser(cfg));
       } else {
         setGoogleUser(null);
       }
@@ -167,7 +178,44 @@ export default function App() {
     refreshFromDb();
   }, [refreshFromDb]);
 
-  // Wenn das Fach gewechselt wird, auf die erste verfügbare Einheit setzen
+  // PWA Installations-Prompt abfangen
+  useEffect(() => {
+    const handler = (e) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+    };
+    window.addEventListener("beforeinstallprompt", handler);
+    return () => window.removeEventListener("beforeinstallprompt", handler);
+  }, []);
+
+  // Sekündlicher Tick der Live-Lernuhr (schreibt jede volle Minute +1 Min. in Dexie!)
+  useEffect(() => {
+    if (!studyClockRunning) return undefined;
+    const id = setInterval(() => {
+      setSessionSeconds((prev) => {
+        const next = prev + 1;
+        if (next % 60 === 0) {
+          logStudyActivity({ minutesStudied: 1 }, new Date(), activeProfileId)
+            .then(() => loadProfileDataSlice(activeProfileId))
+            .then((slice) => setActivityLogs(slice.activityLogs))
+            .catch(() => {});
+        }
+        return next;
+      });
+    }, 1000);
+    return () => clearInterval(id);
+  }, [studyClockRunning, activeProfileId]);
+
+  const startClockAutomatically = () => {
+    setStudyClockRunning((was) => {
+      if (!was && !clockHintShownRef.current) {
+        clockHintShownRef.current = true;
+        toast.success("⏱️ Deine Lernuhr zählt jetzt automatisch mit!");
+      }
+      return true;
+    });
+  };
+
   useEffect(() => {
     if (allUnits.length > 0 && !allUnits.some((u) => u.id === activeUnitId)) {
       setActiveDomainId(allUnits[0].domain || "A");
@@ -194,12 +242,7 @@ export default function App() {
   const levelInfo = useMemo(
     () =>
       computeLevelInfo(
-        computeTotalLearnerXp({
-          activityLogs,
-          unitProgressMap,
-          fsrsStatesMap,
-          examAttempts,
-        })
+        computeTotalLearnerXp({ activityLogs, unitProgressMap, fsrsStatesMap, examAttempts })
       ),
     [activityLogs, unitProgressMap, fsrsStatesMap, examAttempts]
   );
@@ -220,9 +263,7 @@ export default function App() {
   const handleSelectDomain = (domId) => {
     setActiveDomainId(domId);
     const dom = (coursePack.domains || []).find((d) => d.id === domId);
-    if (dom?.units?.length) {
-      setActiveUnitId(dom.units[0].id);
-    }
+    if (dom?.units?.length) setActiveUnitId(dom.units[0].id);
   };
 
   const handleUpdateSetting = async (key, value) => {
@@ -263,7 +304,6 @@ export default function App() {
       didacticSubject: settings.didacticSubject || "Sport",
       domainNames,
     });
-    // Füge direkt ein erstes Willkommens-Ankerblatt hinzu, damit das Fach sofort lebendig ist!
     const { unit, cards } = parseRawNotesIntoUnitAndCards({
       courseId: newPack.id,
       domain: "A",
@@ -274,7 +314,6 @@ export default function App() {
     });
     newPack.domains[0].units.push(unit);
     newPack.flashcards.push(...cards);
-
     await saveCustomCourse(newPack, activeProfileId);
     await saveSetting("activeCourseId", newPack.id, activeProfileId);
     await refreshFromDb(activeProfileId);
@@ -282,17 +321,10 @@ export default function App() {
     return newPack;
   };
 
-  const handleAddNotesToCustomCourse = async ({
-    courseId,
-    domain,
-    unitTitle,
-    pageLabel,
-    rawText,
-  }) => {
+  const handleAddNotesToCustomCourse = async ({ courseId, domain, unitTitle, pageLabel, rawText }) => {
     const allCustom = await loadCustomCourses();
     const target = allCustom.find((c) => c.id === courseId);
     if (!target) return;
-
     const domObj = target.domains.find((d) => d.id === domain) || target.domains[0];
     const { unit, cards } = parseRawNotesIntoUnitAndCards({
       courseId: target.id,
@@ -305,7 +337,6 @@ export default function App() {
     domObj.units.push(unit);
     target.flashcards = [...(target.flashcards || []), ...cards];
     target.updatedAt = new Date().toISOString();
-
     await saveCustomCourse(target, activeProfileId);
     await saveSetting("activeCourseId", target.id, activeProfileId);
     await refreshFromDb(activeProfileId);
@@ -320,12 +351,11 @@ export default function App() {
     const wasMastered = unitProgressMap[unitId]?.status === "mastered";
     const updated = await upsertUnitProgress(unitId, domain, patch, activeProfileId);
     setUnitProgressMap((prev) => ({ ...prev, [unitId]: updated }));
-
     if (!wasMastered && updated.status === "mastered") {
       await logStudyActivity({ minutesStudied: 12, unitsCompleted: 1 }, new Date(), activeProfileId);
       const slice = await loadProfileDataSlice(activeProfileId);
       setActivityLogs(slice.activityLogs);
-      toast.success("1-Seiten-Ankerblatt gemeistert (+55 XP im Atelier-Garten)!");
+      toast.success("Ankerblatt gemeistert (+55 XP im Atelier-Garten)!");
     }
   };
 
@@ -335,6 +365,7 @@ export default function App() {
   };
 
   const handleReviewCard = async (card, rating) => {
+    startClockAutomatically();
     const prevRec = fsrsStatesMap[card.id] || createInitialFsrsRecord(card.id);
     const nextRec = reviewCard(prevRec, rating);
     await saveFsrsCardRecord(nextRec, activeProfileId);
@@ -342,9 +373,7 @@ export default function App() {
 
     if (card.confusion_tag && (rating === Rating.Again || rating === Rating.Hard)) {
       const conf = await incrementConfusionStat(card.confusion_tag, 1, activeProfileId);
-      if (conf) {
-        setConfusionCounts((prev) => ({ ...prev, [conf.pairId]: conf.count }));
-      }
+      if (conf) setConfusionCounts((prev) => ({ ...prev, [conf.pairId]: conf.count }));
     }
 
     await logStudyActivity({ minutesStudied: 1, cardsReviewed: 1 }, new Date(), activeProfileId);
@@ -353,6 +382,7 @@ export default function App() {
   };
 
   const handleRecordExamAttempt = async (attempt) => {
+    startClockAutomatically();
     const rec = {
       id: `exam-${Date.now()}`,
       profileId: activeProfileId,
@@ -368,6 +398,7 @@ export default function App() {
   };
 
   const handlePlayDemoAudio = async (unit) => {
+    startClockAutomatically();
     const blob = createDemoSofaTrackBlob(12);
     setActiveAudioTrack({
       id: "demo-sofa-track",
@@ -446,8 +477,7 @@ export default function App() {
 
   const handleImportBackup = async (file) => {
     try {
-      const txt = await file.text();
-      const parsed = JSON.parse(txt);
+      const parsed = JSON.parse(await file.text());
       await importFullBackupJson(parsed);
       await refreshFromDb();
       toast.success("Lernstand erfolgreich wiederhergestellt!");
@@ -462,11 +492,11 @@ export default function App() {
     <>
       <Toaster position="top-right" richColors />
       <div className="lx-app-shell">
-        {/* PC Widescreen Seitenleiste (>= 960px) */}
+        {/* PC WIDESCREEN SEITENLEISTE (>= 960px) */}
         <aside className="lx-sidebar" data-testid="desktop-sidebar">
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "2px 4px" }}>
             <div className="min-w-0">
-              <div style={{ fontWeight: 700, fontSize: 15.5, letterSpacing: "-0.02em", color: "var(--fg)" }}>
+              <div style={{ fontWeight: 800, fontSize: 15.5, letterSpacing: "-0.02em", color: "var(--lilac)" }}>
                 EWS Lernstudio
               </div>
               <div style={{ fontSize: 11.5, color: "var(--fg-muted)" }} className="truncate">
@@ -478,14 +508,28 @@ export default function App() {
               className="lx-icon-btn"
               onClick={toggleTheme}
               aria-label="Hell-/Dunkelmodus umschalten"
-              title={theme === "dark" ? "Zu Warm-Papier (Hell) wechseln" : "Zu Abend-Graphit (Dunkel) wechseln"}
               data-testid="sidebar-theme-toggle"
             >
               {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
             </button>
           </div>
 
-          {/* Profil- & Fach-Umschalter in der Sidebar */}
+          {/* Live-Lernuhr in der Sidebar */}
+          <button
+            type="button"
+            className={`lx-clock-pill ${studyClockRunning ? "is-running" : ""}`}
+            style={{ width: "100%", justifyContent: "space-between" }}
+            onClick={() => setStudyClockRunning((v) => !v)}
+            data-testid="live-study-clock-btn"
+          >
+            <span style={{ display: "flex", alignItems: "center", gap: 6 }}>
+              {studyClockRunning ? <Pause size={13} /> : <Play size={13} />}
+              <span>{studyClockRunning ? "Lernuhr läuft" : "Lernuhr starten"}</span>
+            </span>
+            <span className="tabular">{formatClock(sessionSeconds)}</span>
+          </button>
+
+          {/* Profil-Umschalter */}
           <button
             type="button"
             className="lx-card"
@@ -516,7 +560,6 @@ export default function App() {
             </div>
           </button>
 
-          {/* Ctrl+K Befehlspalette */}
           <button
             type="button"
             className="lx-btn"
@@ -544,7 +587,7 @@ export default function App() {
                   data-testid={`nav-${item.id}`}
                 >
                   <span style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                    <Icon size={16} strokeWidth={1.9} />
+                    <Icon size={16} strokeWidth={2} />
                     <span>{item.label}</span>
                   </span>
                 </button>
@@ -552,35 +595,22 @@ export default function App() {
             })}
           </nav>
 
-          {/* Ruhige Skript-Direktwahl + Schnellwerkzeuge */}
+          {/* App-Starter & Skript-Direktwahl */}
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6 }}>
-              <button
-                type="button"
-                className="lx-btn"
-                style={{ minHeight: 34, padding: "4px 8px", fontSize: 12 }}
-                onClick={() => setFocusTimerOpen(true)}
-              >
-                <Timer size={13} />
-                <span>Timer</span>
-              </button>
-              <button
-                type="button"
-                className="lx-btn"
-                style={{ minHeight: 34, padding: "4px 8px", fontSize: 12 }}
-                onClick={() => setCalendarOpen(true)}
-              >
-                <Calendar size={13} />
-                <span>Kalender</span>
-              </button>
-            </div>
-
-            <div
-              className="lx-card"
-              style={{ padding: "10px 11px", display: "flex", flexDirection: "column", gap: 5, background: "var(--bg-surface)" }}
+            <button
+              type="button"
+              className="lx-btn lx-btn-primary"
+              style={{ width: "100%", minHeight: 36, fontSize: 12.5 }}
+              onClick={() => setStarterModalOpen(true)}
+              data-testid="sidebar-starter-btn"
             >
-              <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: "0.05em", color: "var(--fg-muted)" }}>
-                {(coursePack.manifest?.isCustom ? "THEMENFELDER" : "DEIN 300-SEITEN-ORDNER")}
+              <Smartphone size={14} />
+              <span>App-Icon (PC &amp; iPhone)</span>
+            </button>
+
+            <div className="lx-card" style={{ padding: "10px 11px", display: "flex", flexDirection: "column", gap: 5, background: "var(--bg-surface)" }}>
+              <span style={{ fontSize: 10, fontWeight: 800, letterSpacing: "0.05em", color: "var(--fg-muted)" }}>
+                {coursePack.manifest?.isCustom ? "THEMENFELDER" : "DEINE 3 SKRIPTE"}
               </span>
               {(coursePack.domains || []).map((d) => (
                 <button
@@ -600,57 +630,33 @@ export default function App() {
                     cursor: "pointer",
                     color: "var(--fg-secondary)",
                     fontSize: 12,
+                    fontWeight: 600,
                   }}
                 >
                   <span style={{ display: "flex", alignItems: "center", gap: 7, minWidth: 0 }}>
-                    <span
-                      style={{
-                        width: 7,
-                        height: 7,
-                        borderRadius: 999,
-                        background: `var(--domain-${d.id.toLowerCase()})`,
-                        flexShrink: 0,
-                      }}
-                    />
+                    <span style={{ width: 8, height: 8, borderRadius: 999, background: `var(--domain-${d.id.toLowerCase()})`, flexShrink: 0 }} />
                     <span className="truncate">{d.title.replace(/^Skript [ABC]: /, `${d.id} · `).replace(/\s*\(\d+\s*S\.\)/, "")}</span>
                   </span>
                   <span className="tabular" style={{ fontSize: 11, color: "var(--fg-muted)", flexShrink: 0 }}>
-                    {(d.units || []).length} Bl.
+                    {(d.units || []).length}
                   </span>
                 </button>
               ))}
             </div>
 
             <StatusBadge
-              label={
-                isOffline
-                  ? "Zug-Offline-Modus"
-                  : googleUser
-                  ? `Cloud: ${googleUser.email}`
-                  : "Lokal & Offline-bereit"
-              }
+              label={isOffline ? "Offline-Zugmodus" : googleUser ? `Cloud: ${googleUser.email}` : "Lokal & Offline-bereit"}
               tone={isOffline ? "warning" : "success"}
             />
           </div>
         </aside>
 
-        {/* Schlanke native iOS Topbar NUR auf Mobile (< 960px) */}
+        {/* SCHLANKE NATIVE IOS TOPBAR NUR AUF MOBILE (< 960px) */}
         <header className="lx-mobile-topbar no-print">
           <button
             type="button"
             onClick={() => openProfileOrCourses("profiles")}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 7,
-              minWidth: 0,
-              border: "none",
-              background: "transparent",
-              padding: 0,
-              color: "var(--fg)",
-              cursor: "pointer",
-              textAlign: "left",
-            }}
+            style={{ display: "flex", alignItems: "center", gap: 7, minWidth: 0, border: "none", background: "transparent", padding: 0, color: "var(--fg)", cursor: "pointer", textAlign: "left" }}
             aria-label="Profil und Lernfach wechseln"
           >
             <span
@@ -658,8 +664,8 @@ export default function App() {
                 width: 28,
                 height: 28,
                 borderRadius: 999,
-                background: "var(--bg-subtle)",
-                border: "1px solid var(--border-strong)",
+                background: "var(--lilac-soft)",
+                border: "1px solid var(--lilac-border)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -670,7 +676,7 @@ export default function App() {
               {activeProfile.avatarEmoji || "🎨"}
             </span>
             <div className="min-w-0">
-              <strong style={{ fontSize: 14.5, letterSpacing: "-0.015em", display: "block", lineHeight: 1.15 }} className="truncate">
+              <strong style={{ fontSize: 14, color: "var(--lilac)", display: "block", lineHeight: 1.15 }} className="truncate">
                 EWS Lernstudio
               </strong>
               <span style={{ fontSize: 10.5, color: "var(--fg-muted)", display: "block", lineHeight: 1.15 }} className="truncate">
@@ -683,36 +689,24 @@ export default function App() {
           <div style={{ display: "flex", alignItems: "center", gap: 5, flexShrink: 0 }}>
             <button
               type="button"
-              className="lx-icon-btn"
-              style={{ width: 36, height: 36, background: "var(--bg-subtle)" }}
-              onClick={() => setFocusTimerOpen(true)}
-              aria-label="Fokus-Timer öffnen"
+              className={`lx-clock-pill ${studyClockRunning ? "is-running" : ""}`}
+              style={{ padding: "3px 9px", minHeight: 32, fontSize: 11.5 }}
+              onClick={() => setStudyClockRunning((v) => !v)}
+              aria-label="Lernuhr starten oder pausieren"
             >
-              <Timer size={15} />
+              {studyClockRunning ? <Pause size={11} /> : <Timer size={12} />}
+              <span className="tabular">{formatClock(sessionSeconds)}</span>
             </button>
-            <button
-              type="button"
-              className="lx-icon-btn"
-              style={{ width: 36, height: 36, background: "var(--bg-subtle)" }}
-              onClick={() => setCmdOpen(true)}
-              aria-label="Schnellsuche öffnen"
-            >
+            <button type="button" className="lx-icon-btn" style={{ width: 34, height: 34, background: "var(--bg-subtle)" }} onClick={() => setCmdOpen(true)} aria-label="Schnellsuche öffnen">
               <Search size={15} />
             </button>
-            <button
-              type="button"
-              className="lx-icon-btn"
-              style={{ width: 36, height: 36, background: "var(--bg-subtle)" }}
-              onClick={toggleTheme}
-              aria-label="Darstellung Hell oder Dunkel wählen"
-              data-testid="topbar-theme-toggle"
-            >
+            <button type="button" className="lx-icon-btn" style={{ width: 34, height: 34, background: "var(--bg-subtle)" }} onClick={toggleTheme} aria-label="Darstellung Hell oder Dunkel wählen" data-testid="topbar-theme-toggle">
               {theme === "dark" ? <Sun size={15} /> : <Moon size={15} />}
             </button>
           </div>
         </header>
 
-        {/* Haupt-Arbeitsfläche */}
+        {/* HAUPT-ARBEITSFLÄCHE */}
         <main className={`lx-main-workspace ${activeAudioTrack ? "has-audio-dock" : ""}`}>
           {activeView === "today" && (
             <TodayDashboardView
@@ -730,15 +724,19 @@ export default function App() {
               energyMode={settings.energyMode || "normal"}
               activeProfile={activeProfile}
               activeCourseTitle={activeCourseTitle}
+              studyClockRunning={studyClockRunning}
+              onToggleStudyClock={() => setStudyClockRunning((v) => !v)}
               onChangeEnergyMode={(mode) => handleUpdateSetting("energyMode", mode)}
               onOpenProfileModal={openProfileOrCourses}
               onOpenCalendarModal={() => setCalendarOpen(true)}
               onOpenFocusTimer={() => setFocusTimerOpen(true)}
+              onOpenInstallStarter={() => setStarterModalOpen(true)}
               onOpenWeaknessPodcast={() => {
                 setPodcastInitialMode("personal_weakness");
                 setActiveView("podcast");
               }}
               onStartStep={(step) => {
+                startClockAutomatically();
                 if (step.domain) setActiveDomainId(step.domain);
                 if (step.unitId) {
                   setActiveUnitId(step.unitId);
@@ -750,6 +748,7 @@ export default function App() {
               }}
               onStartSofaDemoAudio={handlePlayDemoAudio}
               onTriggerBonusRound={async (bonus) => {
+                startClockAutomatically();
                 await logStudyActivity({ minutesStudied: 12, bonusRounds: 1 }, new Date(), activeProfileId);
                 const slice = await loadProfileDataSlice(activeProfileId);
                 setActivityLogs(slice.activityLogs);
@@ -778,6 +777,7 @@ export default function App() {
                 setActiveView("podcast");
               }}
               onJumpToDomainHint={handleJumpToDomainHint}
+              onDownloadExport={downloadExportFileWithFallback}
             />
           )}
 
@@ -827,7 +827,10 @@ export default function App() {
               didacticSubject={settings.didacticSubject || "Sport"}
               onSavePodcastFile={handleSavePodcastFile}
               onDeletePodcast={handleDeletePodcast}
-              onPlayTrack={(track) => setActiveAudioTrack(track)}
+              onPlayTrack={(track) => {
+                startClockAutomatically();
+                setActiveAudioTrack(track);
+              }}
               onPlayDemoTrack={handlePlayDemoAudio}
             />
           )}
@@ -841,6 +844,7 @@ export default function App() {
               onUpdateSetting={handleUpdateSetting}
               onOpenProfileModal={openProfileOrCourses}
               onOpenCalendarModal={() => setCalendarOpen(true)}
+              onOpenInstallStarter={() => setStarterModalOpen(true)}
               onGoogleSignIn={() => signInWithGoogleOAuth(settings)}
               onRunSupabaseSync={() =>
                 performSupabaseSync(settings).then(async (res) => {
@@ -854,7 +858,7 @@ export default function App() {
           )}
         </main>
 
-        {/* Fixierte Frosted-Glass-Bottom-Navigation auf ihrem iPhone (< 960px) */}
+        {/* IPHONE BOTTOM NAVIGATION (< 960px) */}
         <nav className="lx-mobile-bottom-nav" aria-label="iPhone Schnellnavigation" data-testid="mobile-bottom-nav">
           {[
             { id: "today", label: "Heute", icon: Compass },
@@ -878,9 +882,7 @@ export default function App() {
           })}
           <button
             type="button"
-            className={`lx-mobile-nav-btn ${
-              ["graph", "podcast", "downloads"].includes(activeView) ? "is-active" : ""
-            }`}
+            className={`lx-mobile-nav-btn ${["graph", "podcast", "downloads"].includes(activeView) ? "is-active" : ""}`}
             onClick={() => setMobileMoreOpen(true)}
             data-testid="mobile-nav-more"
           >
@@ -889,23 +891,23 @@ export default function App() {
           </button>
         </nav>
 
-        {/* Vaul Mehr-Menü auf dem iPhone */}
         <Drawer.Root open={mobileMoreOpen} onOpenChange={setMobileMoreOpen}>
           <Drawer.Portal>
             <Drawer.Overlay className="lx-vaul-overlay" />
             <Drawer.Content className="lx-vaul-content" aria-describedby={undefined}>
               <div className="lx-vaul-handle" />
               <Drawer.Title style={{ margin: 0, fontSize: 16, fontWeight: 700 }}>
-                Weitere Werkzeuge &amp; Super-Buddy
+                Weitere Werkzeuge &amp; PDFs
               </Drawer.Title>
               <div style={{ display: "flex", flexDirection: "column", gap: 7, overflowY: "auto" }}>
                 {[
-                  { id: "graph", label: "Wissensnetz & Theorie-Brücken", icon: Brain, action: () => setActiveView("graph") },
+                  { id: "graph", label: "Theorie-Brücken (A ↔ B ↔ C)", icon: Brain, action: () => setActiveView("graph") },
                   { id: "podcast", label: "NotebookLM Sofa- & Zug-Podcast-Hub", icon: Headphones, action: () => setActiveView("podcast") },
+                  { id: "downloads", label: "Hochformat-PDFs, Word, Anki & Cloud-Sync", icon: Download, action: () => setActiveView("downloads") },
+                  { id: "starter", label: "App-Icon & QR-Code (Homescreen)", icon: Smartphone, action: () => setStarterModalOpen(true) },
                   { id: "profiles", label: "Profile (Sie / Christian) & Google-Login", icon: Users, action: () => openProfileOrCourses("profiles") },
                   { id: "courses", label: "+ Eigenes Studienfach / Skript anlegen", icon: FolderPlus, action: () => openProfileOrCourses("courses") },
                   { id: "calendar", label: "Lernkalender & iPhone-Export (.ics)", icon: Calendar, action: () => setCalendarOpen(true) },
-                  { id: "downloads", label: "Word-Skripte (.docx), Anki (.apkg) & Sync", icon: Download, action: () => setActiveView("downloads") },
                 ].map((it) => {
                   const Icon = it.icon;
                   return (
@@ -959,10 +961,24 @@ export default function App() {
           dailyMinutes={settings.dailyTargetMinutes || 32}
           profileName={activeProfile.name}
           courseTitle={activeCourseTitle}
+          allUnits={allUnits}
           activityLogs={activityLogs}
           protectedPauseDays={streakInfo.protectedPauseDays}
           onUpdateExamDate={(val) => handleUpdateSetting("examDate", val)}
           onUpdatePreferredHour={(h) => handleUpdateSetting("preferredStudyHour", h)}
+        />
+
+        <InstallAndStarterModal
+          open={starterModalOpen}
+          onOpenChange={setStarterModalOpen}
+          deferredPrompt={deferredPrompt}
+          onTriggerBrowserInstall={async () => {
+            if (!deferredPrompt) return;
+            deferredPrompt.prompt();
+            await deferredPrompt.userChoice;
+            setDeferredPrompt(null);
+          }}
+          onOpenDownloadsSync={() => setActiveView("downloads")}
         />
 
         <ProfileAndCourseModal

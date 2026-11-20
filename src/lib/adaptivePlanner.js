@@ -203,8 +203,8 @@ export function computeWeeklyGrowth(activityLogs = [], now = new Date()) {
 }
 
 /**
- * Generiert einen maßgeschneiderten 1-Klick-Prompt für Google NotebookLM (Audio Overview),
- * abgestimmt auf das gewählte Kapitel, Kunst & Sport in der Grundschule sowie ihre aktuellen Verwechslungsfallen.
+ * Generiert einen prägnanten 1-Klick-Prompt für Google NotebookLM (Audio Overview)
+ * mit klarem Unterschied zwischen Sofa-Einstieg (Story & Kopfkino) und Prüfungs-Fokus (Fallvignette & Autoren).
  */
 export function generateNotebookLMPrompt({
   unit,
@@ -212,46 +212,47 @@ export function generateNotebookLMPrompt({
   mode = "sofa_intro",
   customFocus = "",
 }) {
-  const title = unit ? `${unit.section_num} ${unit.title} (${unit.page_label})` : "Überblick EWS Psychologie";
+  const title = unit ? `${unit.section_num} ${unit.title}` : "EWS Psychologie";
+  const pageRef = unit?.page_label || "Original-Skript";
   const defs = (unit?.definitions || [])
-    .map((d) => `- ${d.term} (${d.author_year}): ${d.definition}`)
+    .slice(0, 3)
+    .map((d) => `• ${d.term} (${d.author_year}): ${d.definition}`)
     .join("\n");
   const studies = (unit?.empirical_studies || [])
-    .map((s) => `- ${s.authors_year}: ${s.title} -> ${s.finding}`)
-    .join("\n");
-  const bridges = (unit?.cross_references || [])
-    .map((b) => `- Brücke zu ${b.target_hint}: ${b.bridge_explanation}`)
+    .slice(0, 2)
+    .map((s) => `• ${s.authors_year} (${s.title}): ${s.finding}`)
     .join("\n");
   const confusionBlock =
     weakConfusions.length > 0
-      ? `\nGeht bitte besonders klar und einprägsam auf diese typischen Prüfungs-Verwechslungsfallen ein:\n${weakConfusions
-          .slice(0, 3)
-          .map((c) => `- ${c.term_a} vs. ${c.term_b}: ${c.core_difference}`)
+      ? `\nWICHTIGE ABGRENZUNG:\n${weakConfusions
+          .slice(0, 2)
+          .map((c) => `• ${c.term_a} vs. ${c.term_b}: ${c.core_difference}`)
           .join("\n")}\n`
       : "";
 
-  const styleHint =
-    mode === "exam_crunch"
-      ? "Fokussiert euch auf prüfungssichere Definitionen mit Autor/Jahr, eine einprägsame Fallvignette aus der Grundschule und knackige Abgrenzungen für das bayerische Testformat."
-      : "Gestaltet das Gespräch herzlich, motivierend, lebendig und bildhaft – perfekt zum entspannten Einstieg auf dem Sofa oder im Zug, ohne trockenen Vorlesungston.";
+  const extraLine = customFocus ? `\nZUSATZWUNSCH: ${customFocus}\n` : "";
 
-  return `Bitte erstellt einen deutschsprachigen Deep-Dive-Podcast (ca. 8–12 Minuten) für eine Lehramtsstudentin der Grundschule in Bayern (FAU Erlangen-Nürnberg, Erstes Staatsexamen EWS Psychologie) zu folgendem Thema:
+  if (mode === "exam_crunch") {
+    return `🎯 STAATSEXAMENS-PRÜFUNGSTRAINING & FALLVIGNETTE (KLAUSUR-FOKUS, CA. 10 MIN.)
+Thema: ${title} (Gebiet ${unit?.domain || "A"}, ${pageRef})
 
-THEMA: ${title} — Gebiet ${unit?.domain || "A"}
+Bitte führt als strenge, aber wohlwollende bayerische Prüfer durch diesen Abschnitt (Lehramt Grundschule Bayern, KUNST & SPORT):
+1. EXAKTE DEFINITIONEN: Nennt die Fachbegriffe wörtlich mit Autor & Jahreszahl:
+${defs || "• Alle fett gedruckten Definitionen des Kapitels mit Autor & Jahr"}
 
-WICHTIGER KONTEXT ZUR HÖRERIN:
-- Ihre Fächer in der Grundschule (Klasse 1–4) sind Hauptfach KUNST und Didaktikfach SPORT. Baut deshalb anschauliche Unterrichtsbeispiele direkt aus dem Kunstunterricht (z. B. Malen, Werkmappe/Portfolio, Gestaltung) und dem Sportunterricht (z. B. Gerätturnen, kooperative Spiele, Ausdauer/Bewegung) ein!
-- Sie hat ein starkes visuelles Gedächtnis und erzählt Inhalte danach gerne laut frei nach: Gebt ihr am Ende einen klaren „5-Finger-Merksatz“ zum Mitsprechen mit.
-- ${styleHint}
+2. EMPIRISCHE BELEGE (kurz Versuchsaufbau + Befund):
+${studies || "• Zentrale Studien aus diesem Abschnitt"}
+${confusionBlock}
+3. ECHTE GRUNDSCHUL-FALLVIGNETTE LÖSEN: Erfindet eine praxisnahe Szene aus dem KUNST- oder SPORT-Unterricht (Kl. 1–4) und löst sie Schritt für Schritt wie auf Reinschriftpapier (inkl. Tipp: „Nennen“ = Stichworte vs. „Skizzieren“ = knappe Sätze!).${extraLine}
+Nennt am Ende kurz die Seitenzahl (${pageRef}).`;
+  }
 
-ZENTRALE DEFINITIONEN & URHEBER (bitte exakt nennen):
-${defs || "- Alle im hochgeladenen Skriptabschnitt fett markierten Definitionen mit Autor und Jahreszahl"}
+  return `🎧 SOFA-EINSTIEG: LOCKERER STORY-PODCAST ZUM ANKOMMEN (KEIN PRÜFUNGSDRUCK, CA. 8 MIN.)
+Thema: ${title} (Gebiet ${unit?.domain || "A"}, ${pageRef})
 
-EMPIRISCHE STUDIEN (bitte Versuchsaufbau + Befund anschaulich erzählen):
-${studies || "- Alle unterstrichenen empirischen Befunde des Abschnitts"}
-
-VERNETZUNGS-BRÜCKEN ZU DEN ANDEREN SKRIPTEN:
-${bridges || "- Verknüpft das Thema explizit mit Entwicklungspsychologie und Diagnostik"}
-${confusionBlock}${customFocus ? `\nZUSÄTZLICHER WUNSCHFOKUS: ${customFocus}\n` : ""}
-Nennt zwischendurch kurz den Seitenverweis (${unit?.page_label || "Original-Skript"}), damit sie die Stelle direkt in ihrem ausgedruckten Ordner wiedererkennt.`;
+Stellt euch vor, ich sitze entspannt mit einer Tasse Tee auf dem Sofa und möchte das Thema ganz leicht über innere Bilder verstehen (Hauptfach KUNST, Didaktikfach SPORT, Grundschule):
+• Erklärt mir die Grundidee im lockeren Alltags-Dialog mit maximal 2 bildhaften Geschichten aus dem Kunst- oder Sportunterricht.
+• Verzichtet auf trockenen Vorlesungsstil – verankert stattdessen EIN klares Kopfkino-Bild zum visuellen Merken.
+• Gebt mir zum Schluss einen kurzen „5-Finger-Merksatz“ zum lauten Mitsprechen mit.${confusionBlock}${extraLine}
+Schwerpunkt-Begriffe: ${(unit?.definitions || []).slice(0, 3).map((d) => d.term).join(", ") || title} (${pageRef}).`;
 }
